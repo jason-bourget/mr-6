@@ -1,0 +1,8 @@
+openai_apikey.txt
+anthropic_apikey.txt
+.env
+node_modules/
+__pycache__/
+
+# Original full-size API art stays local; the site serves the .webp versions
+content/images/*.png

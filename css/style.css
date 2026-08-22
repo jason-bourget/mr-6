@@ -1,0 +1,285 @@
+/* ============================================================
+   Mr 6 — Knight of Numbers · Storybook Light
+   Friendly-minimalist: warm paper, ink text, one bronze accent.
+   The paintings are the decoration; the UI recedes.
+   ============================================================ */
+
+:root {
+  --paper: #faf6ee;
+  --card: #fffdf8;
+  --hairline: #e8e0cf;
+  --ink: #2e2a24;
+  --ink-body: #4a443a;
+  --ink-soft: #6f6759;
+  --ink-muted: #7d7565;
+  --accent: #a8802f;
+  --heart: #c46a6a;
+  --field-border: #d8cfba;
+  --key-bg: #f7f2e7;
+  --key-border: #e5dcc8;
+  --dot-border: #a3967a;
+  --chevron: #9b8f75;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+[hidden] { display: none !important; }
+
+html, body { height: 100%; }
+
+body {
+  font-family: "Nunito", "Segoe UI", sans-serif;
+  color: var(--ink-body);
+  background: var(--paper);
+  min-height: 100vh;
+}
+
+#app { min-height: 100vh; }
+
+.screen { display: none; min-height: 100vh; padding: 26px 16px 48px; }
+.screen.active { display: flex; flex-direction: column; align-items: center; }
+
+/* ================= shared controls ================= */
+
+.primary-btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800; font-size: 16px;
+  color: #fdfbf5;
+  background: var(--ink);
+  border: none; border-radius: 12px;
+  height: 52px; padding: 0 30px;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+.primary-btn:hover { background: #453f36; }
+.primary-btn:active { transform: translateY(1px); }
+
+.ghost-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: none; border: none;
+  color: var(--ink-soft);
+  font-family: inherit; font-weight: 700; font-size: 14px;
+  padding: 8px 10px; border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.ghost-btn:hover { background: rgba(46, 42, 36, 0.06); }
+.ghost-btn.big { font-size: 16px; padding: 12px 20px; }
+
+/* ================= TITLE SCREEN ================= */
+
+.title-inner {
+  max-width: 520px; margin: auto; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 18px;
+  animation: fadeUp 0.6s ease both;
+}
+
+.crest {
+  width: 64px; height: 64px;
+  border: 2px solid var(--accent); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 30px; font-weight: 700; color: var(--accent);
+}
+
+.game-title {
+  font-family: "Cinzel", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(48px, 10vw, 60px);
+  line-height: 1;
+  color: var(--ink);
+}
+
+.game-subtitle {
+  font-size: 13px; font-weight: 700;
+  letter-spacing: 0.32em; text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: -10px;
+}
+
+.title-blurb {
+  max-width: 390px;
+  font-size: 15px; line-height: 1.6; color: #6b6355;
+}
+
+.start-btn {
+  margin-top: 14px;
+  font-size: 18px;
+  height: 58px; padding: 0 44px;
+}
+
+.title-footnote { font-size: 12.5px; color: var(--ink-muted); margin-top: 8px; }
+
+/* ================= BATTLE SCREEN ================= */
+
+.battle-header {
+  width: 100%; max-width: 620px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin-bottom: 16px;
+}
+
+.quest-progress { display: flex; gap: 8px; align-items: center; }
+.quest-progress .pip {
+  width: 8px; height: 8px; border-radius: 50%;
+  border: 1.5px solid var(--dot-border);
+}
+.quest-progress .pip.done { background: var(--accent); border-color: var(--accent); }
+.quest-progress .pip.current { border-color: var(--accent); }
+
+.hearts { display: flex; gap: 5px; color: var(--heart); min-width: 70px; justify-content: flex-end; }
+.hearts svg { display: block; }
+
+.battle-card {
+  width: 100%; max-width: 620px;
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(46, 42, 36, 0.06);
+  animation: fadeUp 0.45s ease both;
+}
+
+.battle-illustration img {
+  display: block; width: 100%;
+  aspect-ratio: 8 / 5; object-fit: cover;
+  background: var(--key-bg);
+}
+
+.battle-body {
+  padding: 26px 30px 30px;
+  display: flex; flex-direction: column; gap: 13px;
+}
+
+.monster-caption {
+  font-size: 11px; font-weight: 800;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--accent);
+}
+
+.battle-body h2 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 24px; font-weight: 600; color: var(--ink);
+}
+
+.battle-body > p { font-size: 15.5px; line-height: 1.65; color: var(--ink-body); }
+
+.battle-question {
+  font-size: 17px !important; font-weight: 800; color: var(--ink) !important;
+}
+
+/* -------- answer area -------- */
+
+.battle-answer { display: flex; flex-direction: column; gap: 13px; margin-top: 2px; }
+
+.choices {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.choice-btn {
+  min-height: 56px; padding: 12px 16px;
+  font-family: "Nunito", sans-serif; font-weight: 800; font-size: 18px;
+  color: var(--ink);
+  background: var(--key-bg);
+  border: 1.5px solid var(--key-border);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease, transform 0.1s ease, opacity 0.15s ease;
+}
+.choice-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: #fbf7ec;
+  transform: translateY(-1px);
+}
+.choice-btn:active:not(:disabled) { transform: translateY(0); }
+.choice-btn.wrong {
+  opacity: 0.45;
+  border-color: #d8a79e;
+  color: var(--ink-muted);
+  text-decoration: line-through;
+  cursor: default;
+}
+.choice-btn.right {
+  border-color: var(--accent);
+  background: #f5edd9;
+  color: var(--ink);
+}
+
+.hint-box {
+  padding: 12px 16px;
+  background: var(--key-bg);
+  border: 1px solid var(--key-border);
+  border-radius: 12px;
+  font-size: 14.5px; line-height: 1.55; color: var(--ink-body);
+  animation: fadeUp 0.35s ease both;
+}
+.hint-label { font-weight: 800; display: block; margin-bottom: 2px; color: var(--ink-soft); }
+
+.feedback { min-height: 24px; font-weight: 800; font-size: 15.5px; }
+.feedback.miss { color: #a84f42; animation: shake 0.4s ease; }
+
+/* -------- victory panel -------- */
+
+.victory-panel {
+  text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  padding: 10px 0 4px;
+  animation: fadeUp 0.4s ease both;
+}
+.victory-burst {
+  color: var(--accent);
+  animation: pop 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) both;
+}
+.victory-panel h3 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 28px; font-weight: 700; color: var(--accent);
+}
+.victory-panel p {
+  font-size: 15.5px; line-height: 1.65; max-width: 480px; color: var(--ink-body);
+  margin-bottom: 8px;
+}
+
+/* ================= SUMMARY SCREEN ================= */
+
+.summary-inner {
+  max-width: 520px; margin: auto; text-align: center;
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(46, 42, 36, 0.06);
+  padding: 40px 36px;
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+  animation: fadeUp 0.5s ease both;
+}
+.summary-emblem {
+  color: var(--accent);
+  animation: pop 0.55s cubic-bezier(0.2, 1.6, 0.4, 1) both;
+}
+.summary-inner h1 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: clamp(26px, 6vw, 34px); font-weight: 700; color: var(--ink);
+}
+.summary-stars { display: flex; gap: 10px; color: var(--accent); }
+.summary-stars .dim { color: #ddd5c4; }
+.summary-inner p { font-size: 15.5px; line-height: 1.65; color: var(--ink-body); }
+.summary-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 8px; }
+
+/* ================= animations ================= */
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes pop { from { transform: scale(0.2); } to { transform: scale(1); } }
+@keyframes shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(3px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+.battle-card.hit { animation: shake 0.4s ease; }
+
+/* ================= responsive ================= */
+
+@media (max-width: 560px) {
+  .battle-body { padding: 20px 18px 24px; }
+  .battle-body h2 { font-size: 21px; }
+  .battle-body > p { font-size: 15px; }
+  .choice-btn { font-size: 16px; min-height: 52px; }
+}

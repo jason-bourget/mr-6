@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="forge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1216"/><stop offset="0.65" stop-color="#5c2420"/><stop offset="1" stop-color="#8f4a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#forge)"/>
+  <!-- volcanic peaks -->
+  <g fill="#1c0b10">
+    <path d="M0,300 L140,180 L280,300 Z"/>
+    <path d="M600,280 L720,150 L800,260 L800,300 L600,300 Z"/>
+  </g>
+  <path d="M140,180 L120,150 L160,150 Z" fill="#ff9e4a"/>
+  <g fill="#ffcf9e" opacity="0.7"><circle cx="200" cy="80" r="2"/><circle cx="360" cy="50" r="2"/><circle cx="520" cy="90" r="1.6"/></g>
+  <!-- Grimscale the armored wyvern -->
+  <g fill="#160a0e">
+    <path d="M420,440 C400,360 440,290 530,270 C520,240 546,206 590,206 C586,188 606,170 628,176 C640,158 674,160 682,180 L706,178 C724,178 730,198 718,210 L724,226 C728,242 712,254 698,246 C702,286 672,312 630,308 C660,360 630,420 560,432 C520,440 460,446 420,440 Z"/>
+    <path d="M530,270 C480,230 400,222 330,250 C384,250 424,268 450,298 Z"/>
+    <path d="M630,308 C690,318 726,356 736,400 C706,372 668,360 632,364 Z"/>
+    <path d="M680,180 L688,152 L698,178 Z"/><path d="M652,182 L654,158 L668,178 Z"/>
+  </g>
+  <!-- iron plates -->
+  <g fill="none" stroke="#5c4a3d" stroke-width="3">
+    <path d="M470,340 q40,-24 90,-20"/>
+    <path d="M460,380 q50,-26 108,-20"/>
+    <path d="M478,416 q46,-22 96,-18"/>
+    <path d="M560,230 q26,-14 54,-10"/>
+  </g>
+  <g fill="#ff9e4a"><circle cx="662" cy="196" r="4.4"/><circle cx="692" cy="194" r="4"/></g>
+  <!-- sparks off armor -->
+  <g fill="#ffe98a">
+    <path d="M446,300 l6,-12 l4 12 l12,4 l-12,5 l-4,12 l-6,-12 l-12,-5 Z"/>
+    <circle cx="420" cy="270" r="3"/><circle cx="470" cy="252" r="2.4"/><circle cx="430" cy="330" r="2.6"/>
+  </g>
+  <!-- ground -->
+  <path d="M0,442 Q140,430 300,442 T600,440 T800,444 L800,500 L0,500 Z" fill="#120609"/>
+  <!-- Mr 6 mid-strike -->
+  <g transform="translate(300,436)">
+    <path d="M-4,-44 Q-30,-26 -26,8 L-4,4 Z" fill="#521f26"/>
+    <path d="M-8,-8 L-18,12" stroke="#120609" stroke-width="7" stroke-linecap="round"/>
+    <path d="M6,-8 L16,10" stroke="#120609" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#1e0b10"/>
+    <circle cx="0" cy="-55" r="10" fill="#1e0b10"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-44 L34,-64" stroke="#1e0b10" stroke-width="6" stroke-linecap="round"/>
+    <line x1="34" y1="-64" x2="62" y2="-100" stroke="#ffe9a8" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="27" y1="-72" x2="42" y2="-58" stroke="#c9b16b" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M-9,-42 L-26,-34" stroke="#1e0b10" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-32,-54 q-11,5 -11,16 q0,13 11,18 q11,-5 11,-18 q0,-11 -11,-16 Z" fill="#2a1016" stroke="#c46b52" stroke-width="2"/>
+    <text x="-32" y="-28" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "id": "blackmaws-treasure",
+  "tier": "champion",
+  "title": "Blackmaw's Treasure",
+  "monster": "Blackmaw the Bandit Lord",
+  "story": "After a thundering duel on the cliff road, Mr 6 defeats Blackmaw the Bandit Lord and recovers his plunder: three chests holding 24, 36, and 18 gold coins. Mr 6 vows to give half of all the treasure to the village orphanage.",
+  "question": "How many gold coins does the orphanage receive?",
+  "answer": 39,
+  "unit": "coins",
+  "hint": "First add all three chests: 24 + 36 + 18. Then find half of the total.",
+  "victory": "Thirty-nine gold coins buy the orphanage new beds, a library, and a very round pony named Biscuit. Blackmaw, sentenced to read bedtime stories there every night, secretly loves his new job.",
+  "image": "images/blackmaws-treasure.webp",
+  "distractors": [
+    78,
+    40,
+    36
+  ]
+}

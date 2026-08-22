@@ -1,0 +1,18 @@
+{
+  "id": "gloomwings-fireflies",
+  "tier": "squire",
+  "title": "Gloomwing's Dark Forest",
+  "monster": "Gloomwing the Shadow Bat",
+  "story": "Gloomwing the Shadow Bat has swallowed all the light in the Whispering Woods, and a lost puppy is somewhere in the dark! Mr 6 knows that 15 fireflies in his lantern jar will glow bright enough to scare Gloomwing away. He has caught 9 fireflies so far.",
+  "question": "How many more fireflies does Mr 6 need to catch?",
+  "answer": 6,
+  "unit": "fireflies",
+  "hint": "Start at 9 and count up to 15. How many counts did it take?",
+  "victory": "With 15 fireflies blazing like a tiny sun, Gloomwing squeaks and flaps away! Mr 6 follows a happy bark and carries the puppy home.",
+  "image": "images/gloomwings-fireflies.webp",
+  "distractors": [
+    5,
+    7,
+    24
+  ]
+}

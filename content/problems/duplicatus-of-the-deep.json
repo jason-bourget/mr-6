@@ -1,0 +1,18 @@
+{
+  "id": "duplicatus-of-the-deep",
+  "tier": "knight",
+  "title": "Duplicatus of the Deep",
+  "monster": "Duplicatus the Sea Monster",
+  "story": "The evil sea monster Duplicatus rises from the waves to smash the fishing fleet! But this beast has a strange curse: every time Mr 6 strikes him, Duplicatus doubles in size. Right now the monster is 8 feet tall, and Mr 6's sword arm is itching.",
+  "question": "If Mr 6 strikes Duplicatus 3 times, how tall will the monster be, in feet?",
+  "answer": 64,
+  "unit": "feet",
+  "hint": "Double 8 once for each strike: 8 becomes 16, then 16 becomes... keep doubling, 3 times in all.",
+  "victory": "64 feet tall — too big to fight, but Mr 6 knew that all along! Now enormous and clumsy, Duplicatus can't catch the nimble fishing boats, and he wobbles back into the deep, defeated by his own curse.",
+  "image": "images/duplicatus-of-the-deep.webp",
+  "distractors": [
+    32,
+    24,
+    16
+  ]
+}

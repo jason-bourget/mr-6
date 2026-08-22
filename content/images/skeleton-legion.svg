@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="crypt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1410"/><stop offset="0.7" stop-color="#1c3226"/><stop offset="1" stop-color="#2a4a34"/>
+    </linearGradient>
+    <g id="skel">
+      <circle cx="0" cy="-26" r="7" fill="#dfeadb"/>
+      <rect x="-2" y="-19" width="4" height="16" fill="#dfeadb"/>
+      <line x1="-8" y1="-14" x2="8" y2="-14" stroke="#dfeadb" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-7" y1="-8" x2="7" y2="-8" stroke="#dfeadb" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-2,-3 L-6,8" stroke="#dfeadb" stroke-width="3" stroke-linecap="round"/>
+      <path d="M2,-3 L6,8" stroke="#dfeadb" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-2.4" cy="-27" r="1.6" fill="#12241a"/>
+      <circle cx="2.4" cy="-27" r="1.6" fill="#12241a"/>
+      <line x1="10" y1="-30" x2="10" y2="4" stroke="#a8b8a2" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="800" height="500" fill="url(#crypt)"/>
+  <!-- crypt arches -->
+  <g fill="#081009">
+    <path d="M80,220 a60,90 0 0 1 120,0 L200,0 L80,0 Z M80,220 L80,0 M200,220"/>
+    <path d="M60,0 L220,0 L220,60 L60,60 Z"/>
+    <path d="M300,0 L460,0 L460,50 L300,50 Z"/>
+    <path d="M560,0 L720,0 L720,60 L560,60 Z"/>
+    <rect x="60" y="0" width="20" height="240"/><rect x="200" y="0" width="20" height="240"/>
+    <rect x="380" y="0" width="20" height="220"/>
+    <rect x="560" y="0" width="20" height="240"/><rect x="700" y="0" width="20" height="240"/>
+  </g>
+  <!-- green torch flames -->
+  <g>
+    <rect x="248" y="200" width="7" height="40" fill="#081009"/>
+    <path d="M251,200 C241,184 248,170 251,162 C254,170 261,184 251,200 Z" fill="#6bff9e"/>
+    <rect x="500" y="200" width="7" height="40" fill="#081009"/>
+    <path d="M503,200 C493,184 500,170 503,162 C506,170 513,184 503,200 Z" fill="#6bff9e"/>
+  </g>
+  <!-- skeleton legion: 5 rows of 8, staggered for depth -->
+  <g opacity="0.55" transform="translate(310,268) scale(0.55)"><use href="#skel"/><use href="#skel" x="55"/><use href="#skel" x="110"/><use href="#skel" x="165"/><use href="#skel" x="220"/><use href="#skel" x="275"/><use href="#skel" x="330"/><use href="#skel" x="385"/></g>
+  <g opacity="0.65" transform="translate(320,300) scale(0.65)"><use href="#skel"/><use href="#skel" x="55"/><use href="#skel" x="110"/><use href="#skel" x="165"/><use href="#skel" x="220"/><use href="#skel" x="275"/><use href="#skel" x="330"/><use href="#skel" x="385"/></g>
+  <g opacity="0.78" transform="translate(330,338) scale(0.78)"><use href="#skel"/><use href="#skel" x="55"/><use href="#skel" x="110"/><use href="#skel" x="165"/><use href="#skel" x="220"/><use href="#skel" x="275"/><use href="#skel" x="330"/><use href="#skel" x="385"/></g>
+  <g opacity="0.9" transform="translate(342,384) scale(0.9)"><use href="#skel"/><use href="#skel" x="55"/><use href="#skel" x="110"/><use href="#skel" x="165"/><use href="#skel" x="220"/><use href="#skel" x="275"/><use href="#skel" x="330"/><use href="#skel" x="385"/></g>
+  <g transform="translate(356,436)"><use href="#skel"/><use href="#skel" x="55"/><use href="#skel" x="110"/><use href="#skel" x="165"/><use href="#skel" x="220"/><use href="#skel" x="275"/><use href="#skel" x="330"/><use href="#skel" x="385"/></g>
+  <!-- floor -->
+  <path d="M0,452 L800,452 L800,500 L0,500 Z" fill="#060b07"/>
+  <!-- Mr 6 with glowing shield raised -->
+  <g transform="translate(150,446)">
+    <path d="M-2,-44 Q-26,-24 -22,10 L-2,4 Z" fill="#1d3a28"/>
+    <rect x="-8" y="-8" width="7" height="20" rx="3" fill="#060b07"/>
+    <rect x="3" y="-8" width="7" height="20" rx="3" fill="#060b07"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#0c1810"/>
+    <circle cx="0" cy="-55" r="10" fill="#0c1810"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-42 L30,-38" stroke="#0c1810" stroke-width="6" stroke-linecap="round"/>
+    <path d="M34,-58 q-14,6 -14,22 q0,18 14,24 q14,-6 14,-24 q0,-16 -14,-22 Z" fill="#12241a" stroke="#6bff9e" stroke-width="2.5"/>
+    <text x="34" y="-26" text-anchor="middle" font-size="20" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+    <path d="M-9,-40 L-24,-30" stroke="#0c1810" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

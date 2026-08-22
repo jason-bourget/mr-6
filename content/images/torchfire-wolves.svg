@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0d1c"/><stop offset="0.7" stop-color="#161c38"/><stop offset="1" stop-color="#232c52"/>
+    </linearGradient>
+    <radialGradient id="torch" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf6e" stop-opacity="0.85"/><stop offset="0.5" stop-color="#ff9e4a" stop-opacity="0.3"/><stop offset="1" stop-color="#ff9e4a" stop-opacity="0"/>
+    </radialGradient>
+    <g id="wolf">
+      <path d="M0,0 C-14,-2 -22,-10 -22,-20 C-30,-22 -32,-32 -24,-36 L-18,-30 C-8,-34 6,-32 14,-24 L26,-28 L22,-18 C26,-10 20,-2 10,0 Z" fill="#070914"/>
+      <path d="M-24,-36 L-28,-44 L-20,-40 Z" fill="#070914"/>
+      <circle cx="-19" cy="-28" r="2" fill="#ffb74a"/>
+    </g>
+  </defs>
+  <rect width="800" height="500" fill="url(#night)"/>
+  <g fill="#dfe6ff" opacity="0.8"><circle cx="120" cy="60" r="2"/><circle cx="300" cy="40" r="1.6"/><circle cx="500" cy="80" r="2"/><circle cx="660" cy="50" r="1.8"/><circle cx="730" cy="130" r="1.4"/></g>
+  <!-- hills and sheep pen -->
+  <path d="M0,380 Q200,330 400,370 T800,360 L800,500 L0,500 Z" fill="#0d1226"/>
+  <g fill="#e8ecf7">
+    <ellipse cx="120" cy="392" rx="16" ry="10"/><circle cx="134" cy="388" r="6"/>
+    <ellipse cx="160" cy="400" rx="14" ry="9"/><circle cx="172" cy="396" r="5"/>
+    <ellipse cx="92" cy="404" rx="14" ry="9"/><circle cx="104" cy="400" r="5"/>
+  </g>
+  <g stroke="#070914" stroke-width="4" stroke-linecap="round">
+    <line x1="40" y1="380" x2="40" y2="416"/><line x1="70" y1="376" x2="70" y2="412"/><line x1="200" y1="380" x2="200" y2="416"/><line x1="230" y1="384" x2="230" y2="420"/>
+    <line x1="30" y1="392" x2="240" y2="396"/>
+  </g>
+  <!-- torch glow -->
+  <circle cx="360" cy="330" r="170" fill="url(#torch)"/>
+  <!-- wolves circling -->
+  <g transform="translate(560,420) scale(1.5)"><use href="#wolf"/></g>
+  <g transform="translate(650,390) scale(1.2)"><use href="#wolf"/></g>
+  <g transform="translate(720,430) scale(1.35)"><use href="#wolf"/></g>
+  <g transform="translate(600,470) scale(1.6)"><use href="#wolf"/></g>
+  <g transform="translate(470,340) scale(1.0)" opacity="0.85"><use href="#wolf"/></g>
+  <g transform="translate(540,310) scale(0.85)" opacity="0.7"><use href="#wolf"/></g>
+  <g transform="translate(620,330) scale(0.9)" opacity="0.7"><use href="#wolf"/></g>
+  <g transform="translate(700,310) scale(0.8)" opacity="0.6"><use href="#wolf"/></g>
+  <!-- shadow wisps dissolving -->
+  <g fill="#070914" opacity="0.5">
+    <circle cx="500" cy="280" r="4"/><circle cx="530" cy="264" r="3"/><circle cx="580" cy="276" r="3.4"/><circle cx="660" cy="270" r="3"/><circle cx="710" cy="282" r="2.6"/>
+  </g>
+  <!-- ground -->
+  <path d="M0,440 Q160,428 340,440 T680,438 T800,442 L800,500 L0,500 Z" fill="#080b18"/>
+  <!-- Mr 6 with torch -->
+  <g transform="translate(330,434)">
+    <path d="M-2,-44 Q-26,-24 -22,10 L-2,4 Z" fill="#20264c"/>
+    <rect x="-8" y="-8" width="7" height="20" rx="3" fill="#080b18"/>
+    <rect x="3" y="-8" width="7" height="20" rx="3" fill="#080b18"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#0f1330"/>
+    <circle cx="0" cy="-55" r="10" fill="#0f1330"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-44 L36,-66" stroke="#0f1330" stroke-width="6" stroke-linecap="round"/>
+    <rect x="34" y="-72" width="7" height="30" rx="3" fill="#3d2c16" transform="rotate(18 37 -57)"/>
+    <path d="M46,-78 C34,-98 44,-114 49,-122 C54,-112 64,-96 46,-78 Z" fill="#ff9e4a"/>
+    <path d="M47,-84 C41,-96 46,-106 49,-110 C52,-105 56,-96 47,-84 Z" fill="#ffe98a"/>
+    <path d="M-9,-42 L-26,-34" stroke="#0f1330" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-32,-54 q-11,5 -11,16 q0,13 11,18 q11,-5 11,-18 q0,-11 -11,-16 Z" fill="#151a3c" stroke="#5f6cb4" stroke-width="2"/>
+    <text x="-32" y="-28" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

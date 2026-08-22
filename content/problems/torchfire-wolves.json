@@ -1,0 +1,18 @@
+{
+  "id": "torchfire-wolves",
+  "tier": "champion",
+  "title": "The Shadow Wolf Pack",
+  "monster": "The Shadow Wolves",
+  "story": "A pack of 24 shadow wolves circles the shepherd's flock under a moonless sky! Mr 6 lights his enchanted torch, and its golden flame is too bright for most of the pack — 2/3 of the wolves melt back into the night at the very first flicker.",
+  "question": "How many shadow wolves remain for Mr 6 to face?",
+  "answer": 8,
+  "unit": "wolves",
+  "hint": "First find 2/3 of 24 — split 24 into 3 equal groups and count 2 of them. Those flee. How many are left?",
+  "victory": "Only 8 wolves remain, and up close Mr 6 sees they aren't shadows at all — just cold, hungry pups! He shares his supper by the torchlight, and the shepherd gains 8 loyal sheepdogs by dawn.",
+  "image": "images/torchfire-wolves.webp",
+  "distractors": [
+    16,
+    12,
+    6
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "wizard-halflings-curse",
+  "tier": "knight",
+  "title": "The Shrinking Curse",
+  "monster": "Wizard Halfling",
+  "story": "The evil wizard Halfling has cursed the village guardian — a gentle stone giant who is 64 feet tall. Every hour, the curse shrinks the giant to half his size! Mr 6 gallops for the wizard's tower, but the journey will take 3 hours.",
+  "question": "How tall, in feet, will the stone giant be when Mr 6 reaches the tower?",
+  "answer": 8,
+  "unit": "feet",
+  "hint": "Cut 64 in half once for each hour: 64 becomes 32, then... halve it 3 times in all.",
+  "victory": "Mr 6 shatters the wizard's shrinking wand just in time! At 8 feet the giant can still step over the castle wall — and as the curse unwinds, he grows back taller with every sunrise.",
+  "image": "images/wizard-halflings-curse.webp",
+  "distractors": [
+    16,
+    32,
+    4
+  ]
+}

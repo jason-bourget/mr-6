@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2140"/><stop offset="0.65" stop-color="#8a4a63"/><stop offset="1" stop-color="#e0885c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="620" cy="110" r="46" fill="#ffdf9e" opacity="0.95"/>
+  <!-- distant castle -->
+  <g fill="#4a2b45" opacity="0.9">
+    <rect x="700" y="200" width="34" height="80"/><path d="M694,200 L740,200 L717,164 Z"/>
+    <rect x="742" y="230" width="26" height="50"/><path d="M738,230 L772,230 L755,204 Z"/>
+  </g>
+  <!-- river -->
+  <path d="M0,400 Q200,380 400,400 T800,395 L800,500 L0,500 Z" fill="#2b1e3e"/>
+  <path d="M0,430 Q160,418 340,430 T800,428 L800,500 L0,500 Z" fill="#221733"/>
+  <!-- stone bridge -->
+  <g fill="#1d1226">
+    <path d="M60,340 L740,340 L740,380 C640,368 560,404 400,404 C240,404 160,368 60,380 Z"/>
+    <path d="M300,380 a100,72 0 0 1 200,0 L470,392 a70,52 0 0 0 -140,0 Z" fill="#160d1d"/>
+    <rect x="60" y="316" width="18" height="30"/><rect x="120" y="322" width="14" height="24"/><rect x="666" y="322" width="14" height="24"/><rect x="722" y="316" width="18" height="30"/>
+  </g>
+  <!-- troll on the bridge -->
+  <g fill="#170e20">
+    <path d="M470,340 L474,286 C440,290 420,268 432,244 C408,240 408,204 438,199 C444,165 512,160 524,194 C556,196 564,232 538,242 C552,262 542,286 512,289 L518,340 Z"/>
+    <path d="M436,246 C404,254 386,274 383,298 L406,301 C410,283 421,269 438,263 Z"/>
+    <path d="M534,248 C566,254 584,274 588,298 L564,302 C560,284 549,270 532,263 Z"/>
+    <path d="M588,298 L612,240 L630,250 L606,308 Z"/>
+    <path d="M612,240 a18,14 0 1 1 22,12 Z"/>
+  </g>
+  <g fill="#ffcf6e"><circle cx="466" cy="200" r="3.4"/><circle cx="498" cy="198" r="3.4"/></g>
+  <path d="M466,220 q16,8 32,0" stroke="#ffcf6e" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <!-- coin pouches -->
+  <g>
+    <circle cx="300" cy="330" r="9" fill="#241830" stroke="#c9963f" stroke-width="2"/>
+    <circle cx="322" cy="334" r="8" fill="#241830" stroke="#c9963f" stroke-width="2"/>
+    <circle cx="280" cy="334" r="8" fill="#241830" stroke="#c9963f" stroke-width="2"/>
+    <circle cx="300" cy="318" r="2.4" fill="#ffd76b"/><circle cx="322" cy="323" r="2.2" fill="#ffd76b"/><circle cx="280" cy="323" r="2.2" fill="#ffd76b"/>
+  </g>
+  <!-- Mr 6 with hands out (counting) -->
+  <g transform="translate(220,338)">
+    <path d="M-8,-38 Q-30,-20 -26,8 L-6,2 Z" fill="#43203c"/>
+    <rect x="-8" y="-6" width="6" height="16" rx="3" fill="#160d1d"/>
+    <rect x="2" y="-6" width="6" height="16" rx="3" fill="#160d1d"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#1c1226"/>
+    <circle cx="0" cy="-48" r="9" fill="#1c1226"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-34 L28,-30" stroke="#1c1226" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="32" cy="-30" r="4" fill="#1c1226"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#241830" stroke="#9c5f8a" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

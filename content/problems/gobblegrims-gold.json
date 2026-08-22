@@ -1,0 +1,18 @@
+{
+  "id": "gobblegrims-gold",
+  "tier": "knight",
+  "title": "Gobblegrim's Stolen Gold",
+  "monster": "Gobblegrim the Goblin King",
+  "story": "Mr 6 tracks the goblin king Gobblegrim to his cave and defeats him in a clash of sword and rusty spoon. Inside, he finds the 42 gold coins Gobblegrim stole from the village! There are 7 village families, and Mr 6 wants every family to get an equal share.",
+  "question": "How many gold coins does each family get back?",
+  "answer": 6,
+  "unit": "coins",
+  "hint": "Share 42 coins into 7 equal piles. What number times 7 makes 42?",
+  "victory": "Six shining coins for every family — and how fitting, from Mr 6! The families use one coin each to throw the greatest feast the village has ever seen, and the knight gets the first slice of everything.",
+  "image": "images/gobblegrims-gold.webp",
+  "distractors": [
+    7,
+    5,
+    35
+  ]
+}

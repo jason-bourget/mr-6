@@ -1,0 +1,22 @@
+{
+  "problems": [
+    "problems/potion-of-six-strengths.json",
+    "problems/sleeping-giants-snores.json",
+    "problems/bridge-trolls-toll.json",
+    "problems/gloomwings-fireflies.json",
+    "problems/sneakfingers-pies.json",
+    "problems/screechias-egg-heist.json",
+    "problems/duplicatus-of-the-deep.json",
+    "problems/hydrania-hundred-headed.json",
+    "problems/wizard-halflings-curse.json",
+    "problems/gobblegrims-gold.json",
+    "problems/skeleton-legion.json",
+    "problems/mirror-witch-multiplia.json",
+    "problems/duskwings-lantern.json",
+    "problems/grimtides-flood.json",
+    "problems/grimscales-armor.json",
+    "problems/torchfire-wolves.json",
+    "problems/blackmaws-treasure.json",
+    "problems/frostfang-ice-wyrm.json"
+  ]
+}

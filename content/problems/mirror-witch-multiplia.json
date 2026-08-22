@@ -1,0 +1,18 @@
+{
+  "id": "mirror-witch-multiplia",
+  "tier": "knight",
+  "title": "The Mirror Witch",
+  "monster": "Multiplia the Mirror Witch",
+  "story": "In the Hall of Mirrors lurks Multiplia the Mirror Witch. Every time she is struck, she splits into 2 copies of herself! She is all alone now, cackling in the moonlight. A careless knight might swing 4 times before noticing the room filling up...",
+  "question": "If Mr 6 strikes carelessly 4 times, how many witches would surround him?",
+  "answer": 16,
+  "unit": "witches",
+  "hint": "Each strike doubles the witches: 1 becomes 2, 2 becomes 4... keep doubling, 4 times in all.",
+  "victory": "Sixteen witches?! No thank you. Mr 6 lowers his sword, polishes his shield to a perfect mirror, and shows Multiplia her own reflection — she's so startled she splits in half and both halves flee!",
+  "image": "images/mirror-witch-multiplia.webp",
+  "distractors": [
+    8,
+    4,
+    32
+  ]
+}

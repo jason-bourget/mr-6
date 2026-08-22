@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b4e"/><stop offset="0.65" stop-color="#6b3f8f"/><stop offset="1" stop-color="#e8926b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="620" cy="100" r="44" fill="#fff3de" opacity="0.95"/>
+  <g fill="#ffe9c9" opacity="0.8"><circle cx="150" cy="70" r="2"/><circle cx="300" cy="50" r="1.8"/><circle cx="450" cy="110" r="1.6"/><circle cx="720" cy="180" r="1.5"/></g>
+  <!-- distant castle -->
+  <g fill="#241536">
+    <rect x="600" y="250" width="50" height="120"/><path d="M592,250 L658,250 L625,196 Z"/>
+    <rect x="660" y="290" width="36" height="80"/><path d="M654,290 L702,290 L678,252 Z"/>
+    <rect x="560" y="300" width="34" height="70"/>
+  </g>
+  <rect x="616" y="300" width="18" height="26" rx="6" fill="#ffd76b" opacity="0.9"/>
+  <!-- looming mystery beast silhouette -->
+  <g fill="#1c1030">
+    <path d="M330,420 C310,340 350,270 440,255 C430,225 456,192 500,194 C496,176 516,158 538,164 C550,146 584,148 592,168 L616,166 C634,166 640,186 628,198 L634,214 C638,230 622,242 608,234 C612,274 582,300 540,296 C570,348 540,408 470,420 C430,428 370,426 330,420 Z"/>
+  </g>
+  <g fill="#c88bff"><circle cx="566" cy="184" r="4.4"/><circle cx="596" cy="182" r="4"/></g>
+  <!-- ground -->
+  <path d="M0,428 Q120,412 260,426 T520,424 T800,430 L800,500 L0,500 Z" fill="#170d29"/>
+  <!-- Mr 6 -->
+  <g transform="translate(170,420)">
+    <path d="M-4,-52 Q-34,-30 -28,6 L-8,0 Z" fill="#3b1d5e"/>
+    <path d="M-4,-4 L-9,14" stroke="#170d29" stroke-width="7" stroke-linecap="round"/>
+    <path d="M16,-4 L21,14" stroke="#170d29" stroke-width="7" stroke-linecap="round"/>
+    <text x="6" y="0" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="88" fill="#d4a53c">6</text>
+    <circle cx="8" cy="-48" r="3.2" fill="#1c1030"/>
+    <circle cx="21" cy="-48" r="3.2" fill="#1c1030"/>
+    <path d="M2,-56 L14,-54" stroke="#1c1030" stroke-width="3" stroke-linecap="round"/>
+    <path d="M28,-59 L17,-54" stroke="#1c1030" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-6,-62 a20,13 0 0 1 40,0 Z" fill="#8b8b9e"/>
+    <path d="M14,-74 Q22,-86 16,-94" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M30,-30 L46,-40" stroke="#170d29" stroke-width="5" stroke-linecap="round"/>
+    <line x1="46" y1="-40" x2="64" y2="-76" stroke="#ffe9a8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="-48" x2="54" y2="-36" stroke="#c9b16b" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+</svg>

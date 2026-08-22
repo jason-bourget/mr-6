@@ -1,0 +1,18 @@
+{
+  "id": "sneakfingers-pies",
+  "tier": "squire",
+  "title": "Sneakfingers and the Pies",
+  "monster": "Sneakfingers the Shadow Thief",
+  "story": "The village baker made 12 beautiful berry pies for the Harvest Festival. But in the night, Sneakfingers the Shadow Thief crept in and snatched 5 of them! The baker needs Mr 6's help to know if there are enough pies left.",
+  "question": "How many pies does the baker have left?",
+  "answer": 7,
+  "unit": "pies",
+  "hint": "Start with 12 and take away 5. Try counting backward: 11, 10, 9...",
+  "victory": "Mr 6 follows the trail of berry drips, catches Sneakfingers mid-bite, and marches him back to wash dishes for the baker all festival long. All pies accounted for!",
+  "image": "images/sneakfingers-pies.webp",
+  "distractors": [
+    6,
+    8,
+    17
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "grimtides-flood",
+  "tier": "champion",
+  "title": "Grimtide's Rising Flood",
+  "monster": "Grimtide the Sea Monster",
+  "story": "The sea monster Grimtide is flooding the old lighthouse where 3 children are trapped on a ledge 36 feet above the water! The water rises 4 feet every minute. Mr 6 leaps into his rowboat — he needs 7 minutes of hard rowing to reach them.",
+  "question": "How many minutes to spare will Mr 6 have when he reaches the children?",
+  "answer": 2,
+  "unit": "minutes",
+  "hint": "First: how many minutes until the water reaches 36 feet, rising 4 feet per minute? Then compare that to Mr 6's 7-minute row.",
+  "victory": "With 2 minutes to spare, Mr 6 sweeps all three children into the boat! Furious, Grimtide slaps the water so hard he launches the boat like a wave-ski — fastest rescue ride ever, straight to shore.",
+  "image": "images/grimtides-flood.webp",
+  "distractors": [
+    9,
+    7,
+    1
+  ]
+}

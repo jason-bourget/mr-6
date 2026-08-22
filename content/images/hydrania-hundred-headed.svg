@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16241a"/><stop offset="0.7" stop-color="#2b4a33"/><stop offset="1" stop-color="#3d6242"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="0.5" cy="1" r="0.9">
+      <stop offset="0" stop-color="#9fd8ae" stop-opacity="0.25"/><stop offset="1" stop-color="#9fd8ae" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="660" cy="90" r="38" fill="#e9ffe4" opacity="0.9"/>
+  <g fill="#dbf5d2" opacity="0.7">
+    <circle cx="120" cy="60" r="2"/><circle cx="240" cy="100" r="1.6"/><circle cx="380" cy="50" r="2"/><circle cx="520" cy="120" r="1.5"/>
+  </g>
+  <!-- hydra: five necks from one body -->
+  <g fill="#0d1a10">
+    <path d="M700,460 C700,380 660,340 560,330 C480,323 440,345 430,460 Z"/>
+    <path d="M470,340 C430,280 430,220 470,190 C450,240 460,290 495,330 Z"/>
+    <path d="M470,190 c-8,-18 8,-30 24,-24 c14,6 12,26 -2,30 l10,10 l-22,2 Z"/>
+    <path d="M520,332 C500,250 520,180 580,150 C540,210 540,270 560,325 Z"/>
+    <path d="M580,150 c-4,-20 16,-28 30,-18 c12,10 4,28 -10,28 l8,12 l-24,-2 Z"/>
+    <path d="M575,330 C590,260 630,210 690,200 C640,240 620,285 615,332 Z"/>
+    <path d="M690,200 c8,-18 30,-14 34,2 c4,16 -14,26 -26,18 l0,14 l-16,-18 Z"/>
+    <path d="M628,345 C670,300 720,290 760,310 C715,315 680,335 660,360 Z"/>
+    <path d="M760,310 c18,-8 32,8 26,24 c-6,14 -26,12 -30,-2 l-8,12 l-4,-24 Z"/>
+    <path d="M450,350 C400,330 360,335 330,360 C370,355 405,362 430,378 Z"/>
+    <path d="M330,360 c-20,-4 -28,16 -16,28 c12,10 28,0 26,-14 l-14,8 Z"/>
+  </g>
+  <g fill="#8effc4">
+    <circle cx="482" cy="176" r="3.4"/><circle cx="596" cy="142" r="3.4"/><circle cx="706" cy="212" r="3.4"/><circle cx="770" cy="322" r="3.4"/><circle cx="324" cy="372" r="3.4"/>
+  </g>
+  <!-- marsh ground -->
+  <path d="M0,432 Q100,418 200,430 T420,428 T640,434 T800,428 L800,500 L0,500 Z" fill="#0b150d"/>
+  <ellipse cx="250" cy="452" rx="90" ry="10" fill="#1c3524" opacity="0.8"/>
+  <g stroke="#0b150d" stroke-width="4" stroke-linecap="round">
+    <line x1="70" y1="432" x2="70" y2="398"/><line x1="86" y1="434" x2="86" y2="406"/><line x1="740" y1="432" x2="740" y2="402"/>
+  </g>
+  <rect width="800" height="500" fill="url(#mist)"/>
+  <!-- Mr 6 -->
+  <g transform="translate(190,428)">
+    <path d="M-8,-38 Q-30,-20 -26,8 L-6,2 Z" fill="#28472e"/>
+    <rect x="-8" y="-6" width="6" height="16" rx="3" fill="#0b150d"/>
+    <rect x="2" y="-6" width="6" height="16" rx="3" fill="#0b150d"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#0f1f12"/>
+    <circle cx="0" cy="-48" r="9" fill="#0f1f12"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-36 L26,-52" stroke="#0f1f12" stroke-width="5" stroke-linecap="round"/>
+    <line x1="26" y1="-52" x2="46" y2="-86" stroke="#ffe9a8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="-59" x2="33" y2="-46" stroke="#c9b16b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#152b19" stroke="#63a870" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

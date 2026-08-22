@@ -1,0 +1,18 @@
+{
+  "id": "bridge-trolls-toll",
+  "tier": "squire",
+  "title": "The Bridge Troll's Toll",
+  "monster": "Grumblegut the Troll",
+  "story": "Grumblegut the Troll blocks the only bridge to the castle. \"25 silver pieces, or you shall not pass!\" he bellows. Mr 6 checks his three pouches: one holds 6 silver pieces, one holds 9, and one holds 7.",
+  "question": "How many more silver pieces does Mr 6 need to pay the toll?",
+  "answer": 3,
+  "unit": "silver pieces",
+  "hint": "First add up all his silver: 6 + 9 + 7. Then figure out how far that is from 25.",
+  "victory": "Mr 6 is 3 pieces short — so instead he challenges Grumblegut to a counting contest and wins! The troll laughs so hard he waves Mr 6 across for free.",
+  "image": "images/bridge-trolls-toll.webp",
+  "distractors": [
+    22,
+    2,
+    4
+  ]
+}

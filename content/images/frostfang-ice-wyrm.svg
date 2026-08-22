@@ -1,0 +1,68 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1a30"/><stop offset="0.6" stop-color="#1e3d5c"/><stop offset="1" stop-color="#3a6b8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ice)"/>
+  <circle cx="680" cy="80" r="36" fill="#eaf8ff" opacity="0.95"/>
+  <g fill="#dff2ff" opacity="0.8">
+    <circle cx="120" cy="60" r="2"/><circle cx="260" cy="100" r="1.6"/><circle cx="400" cy="50" r="2"/><circle cx="540" cy="120" r="1.5"/>
+  </g>
+  <!-- glacier peaks -->
+  <g fill="#101c33">
+    <path d="M0,320 L130,170 L260,320 Z"/>
+    <path d="M180,320 L330,140 L480,320 Z"/>
+    <path d="M540,320 L660,200 L790,320 Z"/>
+  </g>
+  <g fill="#cfeaff" opacity="0.9">
+    <path d="M130,170 L106,200 L154,200 Z"/>
+    <path d="M330,140 L300,180 L360,180 Z"/>
+    <path d="M660,200 L638,228 L682,228 Z"/>
+  </g>
+  <!-- Frostfang winding down the peaks -->
+  <g fill="#0a1222">
+    <path d="M120,330 C180,290 260,286 320,318 C380,348 460,350 520,318 C580,288 660,290 720,326 L706,352 C654,320 586,320 534,348 C470,382 372,380 306,346 C252,320 186,322 140,354 Z"/>
+    <path d="M120,330 c-24,-18 -22,-48 6,-58 c24,-8 46,10 42,34 l16,-4 l-8,26 l-18,-6 c-8,12 -26,16 -38,8 Z"/>
+    <path d="M148,266 L136,244 L162,252 Z"/><path d="M176,272 L174,248 L196,262 Z"/>
+  </g>
+  <g fill="#6bd8ff"><circle cx="142" cy="296" r="4.4"/><circle cx="164" cy="292" r="4"/></g>
+  <path d="M118,314 q-24,10 -46,4" stroke="#bfeaff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M72,318 q-16,4 -28,-2" stroke="#bfeaff" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- frozen village (left) and warm village (right) -->
+  <g fill="#16283f">
+    <path d="M100,420 L134,394 L168,420 L168,452 L100,452 Z"/>
+    <path d="M180,426 L208,404 L236,426 L236,454 L180,454 Z"/>
+  </g>
+  <g stroke="#9ed8ff" stroke-width="2" opacity="0.9">
+    <path d="M112,414 L156,414 M134,398 L134,436" stroke-linecap="round"/>
+  </g>
+  <g fill="#0e1a2c">
+    <path d="M560,420 L594,394 L628,420 L628,452 L560,452 Z"/>
+    <path d="M640,426 L668,404 L696,426 L696,454 L640,454 Z"/>
+    <path d="M706,430 L730,410 L754,430 L754,456 L706,456 Z"/>
+  </g>
+  <g fill="#ffd76b" opacity="0.95">
+    <rect x="584" y="428" width="14" height="18" rx="3"/><rect x="660" y="432" width="12" height="16" rx="3"/><rect x="722" y="436" width="11" height="15" rx="3"/>
+  </g>
+  <!-- snowy ground -->
+  <path d="M0,448 Q160,436 340,448 T680,446 T800,450 L800,500 L0,500 Z" fill="#0b1526"/>
+  <g fill="#eaf8ff" opacity="0.8">
+    <circle cx="90" cy="200" r="2"/><circle cx="210" cy="240" r="1.8"/><circle cx="420" cy="210" r="2"/><circle cx="600" cy="250" r="1.6"/><circle cx="330" cy="280" r="1.8"/><circle cx="720" cy="220" r="2"/>
+  </g>
+  <!-- Mr 6 riding hard -->
+  <g transform="translate(420,442)" fill="#0a1222">
+    <path d="M-40,-18 C-52,-34 -40,-52 -18,-50 L28,-48 C52,-50 62,-34 54,-18 L44,-16 L52,6 L40,6 L30,-10 L-14,-10 L-30,8 L-42,6 L-32,-14 Z"/>
+    <path d="M28,-48 C34,-66 50,-72 62,-64 L70,-54 L58,-50 L64,-42 L46,-40 Z"/>
+    <path d="M-40,-18 C-56,-14 -64,-2 -60,10 L-50,4 C-52,-4 -48,-12 -38,-14 Z"/>
+  </g>
+  <g transform="translate(422,398)">
+    <path d="M-6,-30 Q-24,-16 -22,6 L-4,2 Z" fill="#1e3d5c"/>
+    <path d="M-8,-32 Q0,-38 8,-32 L6,-2 L-6,-2 Z" fill="#122942"/>
+    <circle cx="0" cy="-40" r="8" fill="#122942"/>
+    <path d="M0,-48 Q9,-60 3,-68" stroke="#e05a7a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <line x1="6" y1="-26" x2="30" y2="-44" stroke="#ffe9a8" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M-18,-24 q-8,3 -8,11 q0,9 8,12 q8,-3 8,-12 q0,-8 -8,-11 Z" fill="#16324f" stroke="#5aa8c4" stroke-width="1.6"/>
+    <text x="-18" y="-7" text-anchor="middle" font-size="12" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

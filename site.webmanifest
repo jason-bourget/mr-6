@@ -1,0 +1,13 @@
+{
+  "name": "Mr 6 — Knight of Numbers",
+  "short_name": "Mr 6",
+  "description": "A storybook math adventure: help Mr 6 out-think monsters.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#faf6ee",
+  "theme_color": "#faf6ee",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

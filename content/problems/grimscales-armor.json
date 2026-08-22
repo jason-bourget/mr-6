@@ -1,0 +1,18 @@
+{
+  "id": "grimscales-armor",
+  "tier": "champion",
+  "title": "Grimscale's Iron Armor",
+  "monster": "Grimscale the Armored Wyvern",
+  "story": "Grimscale the Armored Wyvern wears plates of black iron that block 75% of every blow! Mr 6's mightiest sword strike lands with 80 points of power. To crack the beast's armor, at least 15 points must get through in a single strike.",
+  "question": "How many points of Mr 6's 80-point strike get through the armor?",
+  "answer": 20,
+  "unit": "points",
+  "hint": "If the armor blocks 75%, then 25% gets through. What is 25% — one quarter — of 80?",
+  "victory": "Twenty points punch through — more than enough! The iron plates crack and clatter to the ground, and underneath, Grimscale turns out to be small, itchy, and mostly relieved. He promises to guard the mountain pass for the village instead.",
+  "image": "images/grimscales-armor.webp",
+  "distractors": [
+    60,
+    40,
+    15
+  ]
+}

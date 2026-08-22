@@ -1,0 +1,18 @@
+{
+  "id": "skeleton-legion",
+  "tier": "knight",
+  "title": "The Skeleton Legion",
+  "monster": "The Skeleton Legion",
+  "story": "In the crypt beneath the old castle, skeleton soldiers rattle to life and march out in 5 perfect rows of 8! Mr 6 raises his enchanted shield — one mighty shield-bash sends exactly 10 skeletons clattering back to sleep.",
+  "question": "How many shield-bashes does Mr 6 need to defeat the whole legion?",
+  "answer": 4,
+  "unit": "bashes",
+  "hint": "First count the legion: 5 rows of 8 skeletons. Then count by 10s until you've knocked them all down.",
+  "victory": "BASH! BASH! BASH! BASH! Forty skeletons tumble into neat, peaceful piles. Mr 6 tucks them each back into their tombs and tiptoes out, locking the crypt door behind him.",
+  "image": "images/skeleton-legion.webp",
+  "distractors": [
+    5,
+    40,
+    3
+  ]
+}

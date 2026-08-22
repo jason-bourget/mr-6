@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0d1f"/><stop offset="0.7" stop-color="#1a1d3e"/><stop offset="1" stop-color="#28305a"/>
+    </linearGradient>
+    <radialGradient id="jarGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe98a" stop-opacity="0.95"/><stop offset="0.5" stop-color="#ffd76b" stop-opacity="0.35"/><stop offset="1" stop-color="#ffd76b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <!-- dark forest -->
+  <g fill="#070818">
+    <path d="M60,440 L130,440 L118,180 Q95,150 72,180 Z"/>
+    <path d="M180,440 L240,440 L232,240 Q210,212 188,240 Z"/>
+    <path d="M600,440 L660,440 L652,210 Q630,180 608,210 Z"/>
+    <path d="M700,440 L770,440 L760,260 Q735,230 710,260 Z"/>
+    <path d="M420,440 L470,440 L464,300 Q445,278 426,300 Z"/>
+  </g>
+  <!-- Gloomwing the shadow bat -->
+  <g fill="#05040f">
+    <path d="M400,140 C380,120 380,96 400,84 C420,96 420,120 400,140 Z"/>
+    <path d="M398,100 C340,60 260,60 210,110 C260,100 300,112 330,140 C300,140 280,152 270,172 C310,160 355,158 390,140 Z"/>
+    <path d="M402,100 C460,60 540,60 590,110 C540,100 500,112 470,140 C500,140 520,152 530,172 C490,160 445,158 410,140 Z"/>
+    <path d="M392,84 L386,68 L396,76 Z"/><path d="M408,84 L414,68 L404,76 Z"/>
+  </g>
+  <g fill="#c46bff"><circle cx="394" cy="98" r="3"/><circle cx="406" cy="98" r="3"/></g>
+  <!-- fireflies -->
+  <g fill="#ffe98a">
+    <circle cx="180" cy="300" r="3.4"/><circle cx="240" cy="350" r="2.6"/><circle cx="320" cy="280" r="3"/><circle cx="500" cy="320" r="3.2"/><circle cx="560" cy="260" r="2.6"/><circle cx="640" cy="330" r="3"/><circle cx="420" cy="380" r="2.6"/><circle cx="120" cy="380" r="2.4"/><circle cx="700" cy="390" r="2.6"/>
+  </g>
+  <!-- ground -->
+  <path d="M0,438 Q140,426 300,438 T600,436 T800,440 L800,500 L0,500 Z" fill="#05060f"/>
+  <!-- puppy -->
+  <g fill="#0d0f22" transform="translate(600,432)">
+    <ellipse cx="0" cy="-10" rx="18" ry="11"/>
+    <circle cx="16" cy="-20" r="9"/>
+    <path d="M10,-27 L6,-36 L14,-31 Z"/><path d="M22,-27 L26,-36 L18,-31 Z"/>
+    <path d="M-16,-14 q-10,-2 -12,-12" stroke="#0d0f22" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="614" cy="-452" r="2" fill="#ffe98a"/>
+  <!-- Mr 6 holding glowing jar -->
+  <circle cx="266" cy="380" r="60" fill="url(#jarGlow)"/>
+  <g transform="translate(220,434)">
+    <path d="M-8,-38 Q-30,-20 -26,8 L-6,2 Z" fill="#1c2048"/>
+    <rect x="-8" y="-6" width="6" height="16" rx="3" fill="#05060f"/>
+    <rect x="2" y="-6" width="6" height="16" rx="3" fill="#05060f"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#0d1029"/>
+    <circle cx="0" cy="-48" r="9" fill="#0d1029"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-36 L34,-46" stroke="#0d1029" stroke-width="5" stroke-linecap="round"/>
+    <rect x="36" y="-62" width="22" height="26" rx="5" fill="#2a2440" stroke="#ffd76b" stroke-width="2"/>
+    <rect x="41" y="-66" width="12" height="5" rx="2" fill="#ffd76b"/>
+    <circle cx="43" cy="-54" r="2.2" fill="#ffe98a"/><circle cx="51" cy="-48" r="2" fill="#ffe98a"/><circle cx="46" cy="-42" r="1.8" fill="#ffe98a"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#141838" stroke="#5a63a8" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

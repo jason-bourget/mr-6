@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="storm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101b2e"/><stop offset="0.6" stop-color="#1d3a52"/><stop offset="1" stop-color="#28546b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#storm)"/>
+  <circle cx="140" cy="80" r="36" fill="#dff2ff" opacity="0.85"/>
+  <!-- storm clouds -->
+  <g fill="#0b1322" opacity="0.9">
+    <ellipse cx="320" cy="60" rx="130" ry="34"/><ellipse cx="560" cy="40" rx="150" ry="38"/><ellipse cx="700" cy="90" rx="110" ry="30"/>
+  </g>
+  <!-- lighthouse -->
+  <g>
+    <path d="M470,420 L486,180 L546,180 L562,420 Z" fill="#131c30"/>
+    <path d="M480,300 L552,300 L549,270 L483,270 Z" fill="#1d2b47"/>
+    <rect x="482" y="150" width="68" height="34" fill="#0e1526"/>
+    <path d="M476,150 L556,150 L516,112 Z" fill="#0e1526"/>
+    <rect x="494" y="156" width="44" height="24" rx="4" fill="#ffd76b"/>
+    <!-- ledge with children silhouettes -->
+    <rect x="468" y="228" width="96" height="10" fill="#0e1526"/>
+    <g fill="#0a0f1e">
+      <circle cx="496" cy="212" r="7"/><rect x="491" y="218" width="10" height="12" rx="3"/>
+      <circle cx="516" cy="214" r="6"/><rect x="512" y="219" width="9" height="11" rx="3"/>
+      <circle cx="536" cy="212" r="7"/><rect x="531" y="218" width="10" height="12" rx="3"/>
+    </g>
+  </g>
+  <!-- Grimtide tentacles from the water -->
+  <g fill="#0a1424">
+    <path d="M640,470 C620,400 650,350 700,330 C660,380 660,430 680,470 Z"/>
+    <path d="M700,330 c-2,-18 18,-26 30,-14 c10,10 2,26 -12,24 l6,14 l-22,-10 Z"/>
+    <path d="M120,470 C110,420 130,380 170,368 C140,404 138,440 152,470 Z"/>
+    <path d="M170,368 c0,-16 18,-22 28,-10 c8,10 0,24 -12,20 l4,12 l-19,-9 Z"/>
+    <path d="M340,478 C332,442 348,414 378,406 C356,432 354,458 364,478 Z"/>
+  </g>
+  <g fill="#6bd8ff"><circle cx="716" cy="326" r="3.4"/><circle cx="188" cy="366" r="3"/></g>
+  <!-- rising water -->
+  <path d="M0,428 Q80,412 160,428 T320,428 T480,428 T640,428 T800,428 L800,500 L0,500 Z" fill="#0d2438" opacity="0.95"/>
+  <path d="M0,456 Q90,442 180,456 T360,456 T540,456 T720,456 T900,456 L800,500 L0,500 Z" fill="#081a29"/>
+  <!-- rowboat with Mr 6 -->
+  <g>
+    <path d="M220,432 L330,432 L312,454 L238,454 Z" fill="#0a1424"/>
+    <path d="M300,430 L342,414" stroke="#0a1424" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(262,428)">
+    <path d="M-8,-36 Q-28,-20 -24,6 L-6,2 Z" fill="#173a52"/>
+    <path d="M-10,-38 Q0,-44 10,-38 L8,-4 L-8,-4 Z" fill="#0e2236"/>
+    <circle cx="0" cy="-46" r="9" fill="#0e2236"/>
+    <path d="M0,-55 Q10,-68 4,-76" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-32 L38,-16" stroke="#0e2236" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-22,-32 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#12293d" stroke="#5aa8c4" stroke-width="2"/>
+    <text x="-22" y="-9" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+  <!-- rain -->
+  <g stroke="#9ecfe8" stroke-width="1.6" opacity="0.5" stroke-linecap="round">
+    <line x1="100" y1="140" x2="92" y2="164"/><line x1="240" y1="120" x2="232" y2="144"/><line x1="380" y1="150" x2="372" y2="174"/><line x1="620" y1="130" x2="612" y2="154"/><line x1="730" y1="170" x2="722" y2="194"/><line x1="180" y1="220" x2="172" y2="244"/><line x1="680" y1="240" x2="672" y2="264"/>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a2e"/><stop offset="0.7" stop-color="#2e4f46"/><stop offset="1" stop-color="#476b4e"/>
+    </linearGradient>
+    <radialGradient id="brew" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8ff9e" stop-opacity="0.9"/><stop offset="1" stop-color="#a8ff9e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="680" cy="80" r="34" fill="#f4ffe8" opacity="0.9"/>
+  <g fill="#e6ffd9" opacity="0.7"><circle cx="120" cy="70" r="2"/><circle cx="260" cy="50" r="1.7"/><circle cx="420" cy="90" r="2"/><circle cx="560" cy="45" r="1.5"/></g>
+  <!-- forest silhouette -->
+  <g fill="#122019">
+    <path d="M40,430 L40,300 M40,430 Z"/>
+    <path d="M20,430 L60,430 L52,270 Q40,250 28,270 Z"/>
+    <path d="M100,430 L150,430 L140,230 Q125,205 110,230 Z"/>
+    <path d="M690,430 L740,430 L732,250 Q715,225 698,250 Z"/>
+    <path d="M755,430 L795,430 L790,300 Q775,282 760,300 Z"/>
+  </g>
+  <!-- ogre looming behind the trees -->
+  <g fill="#152a1e">
+    <path d="M560,430 L565,340 C520,345 495,315 510,285 C480,280 478,235 515,228 C520,185 600,178 615,220 C655,222 665,268 632,282 C650,308 635,342 596,344 L604,430 Z"/>
+    <path d="M512,290 C475,300 455,325 452,355 L480,358 C484,335 498,317 518,310 Z"/>
+    <path d="M626,288 C662,296 684,320 688,350 L660,354 C655,331 642,314 622,306 Z"/>
+    <path d="M688,350 L720,300 L734,312 L706,362 Z"/>
+  </g>
+  <g fill="#ffd97a"><circle cx="552" cy="228" r="3.6"/><circle cx="588" cy="226" r="3.6"/></g>
+  <!-- cauldron -->
+  <ellipse cx="300" cy="360" rx="120" ry="26" fill="url(#brew)"/>
+  <g fill="#10120e">
+    <path d="M230,360 C230,410 370,410 370,360 C370,344 355,336 300,336 C245,336 230,344 230,360 Z"/>
+    <ellipse cx="300" cy="342" rx="70" ry="12" fill="#7de87a"/>
+    <rect x="240" y="404" width="10" height="20"/>
+    <rect x="350" y="404" width="10" height="20"/>
+  </g>
+  <g fill="#a8ff9e"><circle cx="278" cy="318" r="4"/><circle cx="308" cy="300" r="3"/><circle cx="330" cy="322" r="3.4"/></g>
+  <!-- berries / mushrooms / leaves on ground -->
+  <g>
+    <circle cx="160" cy="440" r="6" fill="#d94f6b"/><circle cx="176" cy="446" r="6" fill="#d94f6b"/><circle cx="168" cy="430" r="6" fill="#d94f6b"/>
+    <path d="M420,446 a10,8 0 0 1 20,0 Z" fill="#5b8fd9"/><rect x="428" y="446" width="4" height="8" fill="#cfd8c2"/>
+    <path d="M470,440 q10,-14 24,-6 q-8,14 -24,6 Z" fill="#bfe08a"/>
+  </g>
+  <!-- ground -->
+  <path d="M0,432 Q120,420 260,432 T520,430 T800,434 L800,500 L0,500 Z" fill="#0d1710"/>
+  <!-- Mr 6 holding a berry basket -->
+  <g transform="translate(150,428)">
+    <path d="M-8,-38 Q-30,-20 -26,8 L-6,2 Z" fill="#28472e"/>
+    <rect x="-8" y="-6" width="6" height="16" rx="3" fill="#0d1710"/>
+    <rect x="2" y="-6" width="6" height="16" rx="3" fill="#0d1710"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#101c13"/>
+    <circle cx="0" cy="-48" r="9" fill="#101c13"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-36 L24,-26" stroke="#101c13" stroke-width="5" stroke-linecap="round"/>
+    <path d="M22,-26 a10,8 0 0 0 20,0 Z" fill="#3a2a18" stroke="#6b4f2e" stroke-width="2"/>
+    <circle cx="28" cy="-28" r="3" fill="#d94f6b"/><circle cx="36" cy="-30" r="3" fill="#d94f6b"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#152b19" stroke="#63a870" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

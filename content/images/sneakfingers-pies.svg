@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131736"/><stop offset="0.7" stop-color="#2a3060"/><stop offset="1" stop-color="#3d477f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="150" cy="90" r="40" fill="#fdf6d8"/>
+  <g fill="#e8ecff" opacity="0.8"><circle cx="320" cy="60" r="2"/><circle cx="470" cy="100" r="1.6"/><circle cx="620" cy="50" r="2"/><circle cx="720" cy="120" r="1.5"/></g>
+  <!-- village rooftops -->
+  <g fill="#0e1128">
+    <path d="M0,320 L110,240 L220,320 L220,440 L0,440 Z"/>
+    <path d="M200,340 L300,270 L400,340 L400,440 L200,440 Z"/>
+    <path d="M380,330 L500,250 L620,330 L620,440 L380,440 Z"/>
+    <path d="M600,350 L690,290 L780,350 L780,440 L600,440 Z"/>
+    <rect x="90" y="180" width="16" height="70"/>
+  </g>
+  <g fill="#ffd76b" opacity="0.9">
+    <rect x="70" y="350" width="26" height="34" rx="4"/>
+    <rect x="470" y="360" width="28" height="36" rx="4"/>
+    <rect x="660" y="380" width="22" height="28" rx="4"/>
+  </g>
+  <!-- bakery window with pies -->
+  <g>
+    <rect x="255" y="352" width="90" height="52" rx="6" fill="#ffbe5c" opacity="0.95"/>
+    <path d="M266,392 a12,9 0 0 1 24,0 Z" fill="#8a4b2a"/>
+    <path d="M296,392 a12,9 0 0 1 24,0 Z" fill="#8a4b2a"/>
+    <path d="M281,376 a12,9 0 0 1 24,0 Z" fill="#8a4b2a"/>
+  </g>
+  <!-- Sneakfingers running on a rooftop with a pie -->
+  <g fill="#070919">
+    <path d="M478,250 C470,236 476,222 490,220 C486,208 498,198 510,204 C514,192 532,190 540,200 C556,196 566,210 558,222 L566,236 C574,248 564,262 550,258 L536,270 L524,254 L508,268 L498,250 Z"/>
+    <path d="M536,270 L548,292 L558,286" stroke="#070919" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M508,268 L500,290 L488,288" stroke="#070919" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M558,222 L586,214" stroke="#070919" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M580,206 a14,10 0 0 1 28,0 Z" fill="#8a4b2a"/>
+  <g fill="#ffd76b"><circle cx="510" cy="222" r="2.8"/><circle cx="524" cy="220" r="2.8"/></g>
+  <!-- berry drip trail -->
+  <g fill="#c04a68"><circle cx="565" cy="248" r="2.4"/><circle cx="545" cy="300" r="2.2"/><circle cx="520" cy="340" r="2.4"/><circle cx="490" cy="390" r="2.2"/></g>
+  <!-- street -->
+  <path d="M0,438 L800,438 L800,500 L0,500 Z" fill="#0a0d20"/>
+  <!-- Mr 6 pointing up at the thief -->
+  <g transform="translate(360,434)">
+    <path d="M-8,-38 Q-30,-20 -26,8 L-6,2 Z" fill="#232a58"/>
+    <rect x="-8" y="-6" width="6" height="16" rx="3" fill="#0a0d20"/>
+    <rect x="2" y="-6" width="6" height="16" rx="3" fill="#0a0d20"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#101534"/>
+    <circle cx="0" cy="-48" r="9" fill="#101534"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-38 L34,-60" stroke="#101534" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#161c40" stroke="#5f6cb4" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

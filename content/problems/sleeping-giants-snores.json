@@ -1,0 +1,18 @@
+{
+  "id": "sleeping-giants-snores",
+  "tier": "squire",
+  "title": "The Sleeping Giant's Snores",
+  "monster": "Snorbold the Giant",
+  "story": "Snorbold the Giant has fallen asleep right on top of the only tunnel out of the valley! He snores a great rumbling snore every 5 seconds, and Mr 6 can only tiptoe forward while a snore covers the sound of his clanking armor. The tunnel takes 20 seconds to cross.",
+  "question": "How many snores will Mr 6 need to sneak all the way through?",
+  "answer": 4,
+  "unit": "snores",
+  "hint": "Count by 5s until you reach 20: 5, 10, 15... How many numbers did you say?",
+  "victory": "On the fourth mighty snore, Mr 6 slips out the far side of the tunnel. Snorbold snorts, rolls over, and never even knew a knight tiptoed by!",
+  "image": "images/sleeping-giants-snores.webp",
+  "distractors": [
+    5,
+    3,
+    15
+  ]
+}

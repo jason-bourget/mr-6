@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b4e"/><stop offset="0.6" stop-color="#7a3f6e"/><stop offset="1" stop-color="#e8926b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#dusk)"/>
+  <circle cx="560" cy="120" r="52" fill="#ffdf9e" opacity="0.95"/>
+  <g fill="#ffe9c9" opacity="0.7"><circle cx="140" cy="70" r="2"/><circle cx="300" cy="50" r="1.8"/><circle cx="700" cy="70" r="1.6"/></g>
+  <!-- cliff road -->
+  <path d="M0,360 L220,340 L400,368 L620,344 L800,370 L800,500 L0,500 Z" fill="#241335"/>
+  <path d="M0,420 Q180,406 380,420 T800,418 L800,500 L0,500 Z" fill="#190c26"/>
+  <!-- village below the cliff -->
+  <g fill="#170b22" opacity="0.9">
+    <path d="M640,300 L680,270 L720,300 L720,344 L640,344 Z"/>
+    <path d="M710,310 L744,286 L778,310 L778,346 L710,346 Z"/>
+    <rect x="690" y="250" width="9" height="40"/>
+  </g>
+  <g fill="#ffd76b" opacity="0.85"><rect x="668" y="316" width="14" height="18" rx="3"/><rect x="736" y="322" width="12" height="16" rx="3"/></g>
+  <!-- defeated Blackmaw sitting glumly -->
+  <g fill="#170b22">
+    <path d="M596,420 C592,392 604,372 628,366 C620,352 632,336 650,340 C654,326 678,324 686,338 C702,334 714,348 706,362 C726,372 732,396 722,420 Z"/>
+    <path d="M636,352 L628,338 L644,344 Z"/>
+  </g>
+  <g fill="#ff7d6b"><circle cx="656" cy="352" r="2.8"/><circle cx="674" cy="350" r="2.8"/></g>
+  <path d="M650,368 q12,-6 24,0" stroke="#ff7d6b" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M700,400 L740,380 L744,390 L706,410 Z" fill="#170b22"/>
+  <!-- three treasure chests -->
+  <g>
+    <g transform="translate(180,404)">
+      <rect x="-38" y="-26" width="76" height="30" rx="5" fill="#3d2416"/>
+      <path d="M-38,-26 a38,20 0 0 1 76,0 Z" fill="#2b1810"/>
+      <rect x="-38" y="-30" width="76" height="8" rx="4" fill="#c9963f"/>
+      <circle cx="0" cy="-14" r="5" fill="#ffd76b"/>
+      <circle cx="-14" cy="-32" r="4" fill="#ffd76b"/><circle cx="4" cy="-36" r="4" fill="#ffd76b"/><circle cx="18" cy="-31" r="4" fill="#ffd76b"/>
+    </g>
+    <g transform="translate(300,414) scale(1.15)">
+      <rect x="-38" y="-26" width="76" height="30" rx="5" fill="#3d2416"/>
+      <path d="M-38,-26 a38,20 0 0 1 76,0 Z" fill="#2b1810"/>
+      <rect x="-38" y="-30" width="76" height="8" rx="4" fill="#c9963f"/>
+      <circle cx="0" cy="-14" r="5" fill="#ffd76b"/>
+      <circle cx="-12" cy="-33" r="4" fill="#ffd76b"/><circle cx="6" cy="-36" r="4" fill="#ffd76b"/>
+    </g>
+    <g transform="translate(420,406) scale(0.95)">
+      <rect x="-38" y="-26" width="76" height="30" rx="5" fill="#3d2416"/>
+      <path d="M-38,-26 a38,20 0 0 1 76,0 Z" fill="#2b1810"/>
+      <rect x="-38" y="-30" width="76" height="8" rx="4" fill="#c9963f"/>
+      <circle cx="0" cy="-14" r="5" fill="#ffd76b"/>
+      <circle cx="-10" cy="-32" r="4" fill="#ffd76b"/><circle cx="10" cy="-34" r="4" fill="#ffd76b"/>
+    </g>
+  </g>
+  <!-- Mr 6 standing proud -->
+  <g transform="translate(100,416)">
+    <path d="M-2,-44 Q-26,-24 -22,10 L-2,4 Z" fill="#43203c"/>
+    <rect x="-8" y="-8" width="7" height="20" rx="3" fill="#190c26"/>
+    <rect x="3" y="-8" width="7" height="20" rx="3" fill="#190c26"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#20102e"/>
+    <circle cx="0" cy="-55" r="10" fill="#20102e"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-44 L26,-30 L26,-6" stroke="#20102e" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-9,-42 L-26,-34" stroke="#20102e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-32,-54 q-11,5 -11,16 q0,13 11,18 q11,-5 11,-18 q0,-11 -11,-16 Z" fill="#2a1538" stroke="#a05f8a" stroke-width="2"/>
+    <text x="-32" y="-28" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

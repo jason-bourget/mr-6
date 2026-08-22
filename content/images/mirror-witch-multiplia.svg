@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1030"/><stop offset="0.7" stop-color="#33205c"/><stop offset="1" stop-color="#4a2f7a"/>
+    </linearGradient>
+    <g id="witch">
+      <path d="M0,0 C-16,-4 -24,-24 -14,-38 L-4,-34 C-10,-24 -8,-12 0,-8 Z" fill="#120a24"/>
+      <path d="M-8,-44 Q0,-50 8,-44 L10,-6 Q0,2 -10,-6 Z" fill="#120a24"/>
+      <circle cx="0" cy="-52" r="8" fill="#120a24"/>
+      <path d="M-14,-54 L14,-54 L2,-78 Z" fill="#120a24"/>
+      <path d="M-16,-54 L16,-54" stroke="#120a24" stroke-width="4" stroke-linecap="round"/>
+      <path d="M8,-40 L26,-48" stroke="#120a24" stroke-width="4" stroke-linecap="round"/>
+      <line x1="26" y1="-48" x2="30" y2="-14" stroke="#120a24" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="-3" cy="-53" r="1.8" fill="#8effc4"/><circle cx="3.4" cy="-53" r="1.8" fill="#8effc4"/>
+    </g>
+  </defs>
+  <rect width="800" height="500" fill="url(#hall)"/>
+  <circle cx="400" cy="90" r="44" fill="#e8ddff" opacity="0.9"/>
+  <g fill="#d9ccff" opacity="0.7"><circle cx="150" cy="70" r="2"/><circle cx="270" cy="120" r="1.6"/><circle cx="540" cy="60" r="2"/><circle cx="680" cy="110" r="1.6"/></g>
+  <!-- mirror frames along the hall -->
+  <g stroke="#8b6ec4" stroke-width="4" fill="#241848">
+    <rect x="80" y="150" width="90" height="180" rx="45"/>
+    <rect x="620" y="150" width="90" height="180" rx="45"/>
+  </g>
+  <path d="M92,170 q20,-14 44,-4" stroke="#c8b8ff" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M632,170 q20,-14 44,-4" stroke="#c8b8ff" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- witch and her fading copies -->
+  <g transform="translate(460,400) scale(1.5)"><use href="#witch"/></g>
+  <g transform="translate(560,388) scale(1.25)" opacity="0.6"><use href="#witch"/></g>
+  <g transform="translate(640,378)" opacity="0.35"><use href="#witch"/></g>
+  <!-- checkered floor -->
+  <path d="M0,430 L800,430 L800,500 L0,500 Z" fill="#150d2c"/>
+  <g fill="#1f1540">
+    <path d="M40,430 L120,430 L100,500 L0,500 Z"/><path d="M200,430 L280,430 L280,500 L180,500 Z"/><path d="M360,430 L440,430 L460,500 L360,500 Z"/><path d="M520,430 L600,430 L640,500 L540,500 Z"/><path d="M680,430 L760,430 L800,470 L800,500 L720,500 Z"/>
+  </g>
+  <!-- Mr 6 with polished mirror shield -->
+  <g transform="translate(190,424)">
+    <path d="M-2,-44 Q-26,-24 -22,10 L-2,4 Z" fill="#3b1d5e"/>
+    <rect x="-8" y="-8" width="7" height="20" rx="3" fill="#150d2c"/>
+    <rect x="3" y="-8" width="7" height="20" rx="3" fill="#150d2c"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#1c1240"/>
+    <circle cx="0" cy="-55" r="10" fill="#1c1240"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-42 L32,-40" stroke="#1c1240" stroke-width="6" stroke-linecap="round"/>
+    <path d="M36,-60 q-14,6 -14,22 q0,18 14,24 q14,-6 14,-24 q0,-16 -14,-22 Z" fill="#3d3170" stroke="#c8b8ff" stroke-width="2.5"/>
+    <path d="M30,-52 q8,-6 14,-2" stroke="#e8ddff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="36" y="-28" text-anchor="middle" font-size="18" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

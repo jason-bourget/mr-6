@@ -1,0 +1,18 @@
+{
+  "id": "duskwings-lantern",
+  "tier": "champion",
+  "title": "Duskwing the Shadow Dragon",
+  "monster": "Duskwing the Shadow Dragon",
+  "story": "Duskwing the Shadow Dragon can only be fought in the light — in darkness he simply vanishes. Mr 6's enchanted lantern burns 1/4 of its oil every battle round, and the old dragon-hunters' scrolls say Duskwing takes 6 full rounds to defeat.",
+  "question": "How many full lanterns of oil must Mr 6 bring to keep the light burning all 6 rounds?",
+  "answer": 2,
+  "unit": "lanterns",
+  "hint": "If a lantern burns 1/4 each round, one lantern lasts 4 rounds. Is that enough for 6 rounds? If not, how many lanterns cover it?",
+  "victory": "Two lanterns blaze through all six rounds! With nowhere to hide, Duskwing shrinks to the size of a house cat and curls up in the empty lantern — Mr 6 now has a night-light with wings.",
+  "image": "images/duskwings-lantern.webp",
+  "distractors": [
+    1,
+    3,
+    4
+  ]
+}

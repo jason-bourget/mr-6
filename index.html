@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Mr 6 — Knight of Numbers</title>
+<meta name="theme-color" content="#faf6ee">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Mr 6">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23faf6ee'/><circle cx='50' cy='50' r='44' fill='none' stroke='%23a8802f' stroke-width='6'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' font-weight='bold' fill='%23a8802f' text-anchor='middle'>6</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ============ TITLE SCREEN ============ -->
+  <section id="screen-title" class="screen active">
+    <div class="title-inner">
+      <div class="crest">6</div>
+      <h1 class="game-title">Mr&nbsp;6</h1>
+      <p class="game-subtitle">Knight of Numbers</p>
+      <p class="title-blurb">Monsters are on the loose, and only one knight is clever
+        enough to stop them. Solve the riddle of each battle to save the day.</p>
+
+      <button id="start-quest" class="primary-btn start-btn">Begin the Quest</button>
+      <p class="title-footnote" id="pool-status"></p>
+    </div>
+  </section>
+
+  <!-- ============ BATTLE SCREEN ============ -->
+  <section id="screen-battle" class="screen">
+    <header class="battle-header">
+      <button id="btn-flee" class="ghost-btn" title="Back to the castle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg><span>Castle</span></button>
+      <div class="quest-progress" id="quest-progress"></div>
+      <div class="hearts" id="hearts"></div>
+    </header>
+
+    <div class="battle-card">
+      <div class="battle-illustration">
+        <img id="battle-image" alt="Battle scene" src="content/images/placeholder.svg">
+      </div>
+
+      <div class="battle-body">
+        <div class="monster-caption" id="monster-banner"></div>
+        <h2 id="battle-title"></h2>
+        <p id="battle-text"></p>
+        <p class="battle-question" id="battle-question"></p>
+
+        <div class="battle-answer" id="answer-area">
+          <div class="choices" id="choices"></div>
+          <div class="hint-box" id="hint-box" hidden>
+            <span class="hint-label">A whisper from the wise owl:</span>
+            <span id="hint-text"></span>
+          </div>
+          <div class="feedback" id="feedback"></div>
+        </div>
+
+        <div class="victory-panel" id="victory-panel" hidden>
+          <div class="victory-burst"><svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.3l6.5-.9z"/></svg></div>
+          <h3 id="victory-heading">Victory!</h3>
+          <p id="victory-text"></p>
+          <button id="btn-next" class="primary-btn">Onward</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUEST SUMMARY SCREEN ============ -->
+  <section id="screen-summary" class="screen">
+    <div class="summary-inner">
+      <div class="summary-emblem" id="summary-emblem"></div>
+      <h1 id="summary-title"></h1>
+      <div class="summary-stars" id="summary-stars"></div>
+      <p id="summary-text"></p>
+      <div class="summary-buttons">
+        <button id="btn-again" class="primary-btn">New Quest</button>
+        <button id="btn-home" class="ghost-btn big"><span>Castle</span></button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/game.js"></script>
+</body>
+</html>

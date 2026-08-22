@@ -1,0 +1,18 @@
+{
+  "id": "potion-of-six-strengths",
+  "tier": "squire",
+  "title": "The Potion of Six Strengths",
+  "monster": "Ironhide the Ogre",
+  "story": "Ironhide the Ogre is stomping toward the village, and no ordinary sword can dent his iron skin! Mr 6 must brew the legendary Potion of Six Strengths. The recipe calls for 6 red berries, 4 blue mushrooms, and 3 silver leaves from the Whispering Woods.",
+  "question": "How many ingredients must Mr 6 gather in all?",
+  "answer": 13,
+  "unit": "ingredients",
+  "hint": "Add the three amounts together: 6 + 4 + 3. Try adding 6 + 4 first!",
+  "victory": "The potion glows gold! Mr 6 drinks it down, lifts Ironhide over his head, and gently rolls him all the way back to his mountain. The village cheers!",
+  "image": "images/potion-of-six-strengths.webp",
+  "distractors": [
+    10,
+    12,
+    14
+  ]
+}

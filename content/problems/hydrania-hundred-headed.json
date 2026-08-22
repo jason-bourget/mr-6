@@ -1,0 +1,18 @@
+{
+  "id": "hydrania-hundred-headed",
+  "tier": "knight",
+  "title": "Hydrania the Hundred-Headed",
+  "monster": "Hydrania the Hydra",
+  "story": "Deep in the Misty Marsh, Mr 6 faces Hydrania the Hydra. Every time he slices off one of her heads, 3 new heads grow back in its place! Hydrania has 4 heads right now, and Mr 6 swings his sword twice before realizing something is very wrong.",
+  "question": "After Mr 6 slices off one head, and then another, how many heads glare down at him?",
+  "answer": 8,
+  "unit": "heads",
+  "hint": "Take it one swing at a time. Start with 4: take away 1, then add 3. Now do it again with your new number.",
+  "victory": "Eight heads! Mr 6 sheathes his sword and instead tosses Hydrania a wheel of the village's famous cheese. It turns out hydras just get grumpy when they're hungry — she happily slithers home.",
+  "image": "images/hydrania-hundred-headed.webp",
+  "distractors": [
+    6,
+    4,
+    10
+  ]
+}

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060f"/><stop offset="0.7" stop-color="#141130"/><stop offset="1" stop-color="#221c48"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe98a" stop-opacity="0.95"/><stop offset="0.4" stop-color="#ffbe5c" stop-opacity="0.4"/><stop offset="1" stop-color="#ffbe5c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#nightsky)"/>
+  <g fill="#cfd4ff" opacity="0.8">
+    <circle cx="90" cy="60" r="2"/><circle cx="200" cy="110" r="1.6"/><circle cx="330" cy="50" r="2"/><circle cx="700" cy="70" r="1.8"/><circle cx="620" cy="140" r="1.4"/><circle cx="140" cy="180" r="1.5"/>
+  </g>
+  <!-- Duskwing: huge dragon half-dissolved in darkness -->
+  <g fill="#020208">
+    <path d="M430,300 C440,240 500,200 570,204 C560,180 580,150 616,146 C610,132 626,114 646,118 C654,102 682,100 692,116 L710,112 C728,110 738,128 728,142 L740,158 C748,172 736,188 720,184 C724,220 700,248 660,252 C680,290 660,330 610,338 C580,344 500,340 430,300 Z"/>
+    <path d="M570,204 C520,150 440,130 360,150 C420,156 460,180 484,214 Z" opacity="0.9"/>
+    <path d="M660,252 C720,260 760,296 772,340 C740,312 700,300 662,304 Z" opacity="0.9"/>
+    <path d="M692,120 L700,96 L708,118 Z"/>
+  </g>
+  <!-- dissolving edge specks -->
+  <g fill="#020208">
+    <circle cx="420" cy="290" r="5"/><circle cx="396" cy="270" r="4"/><circle cx="376" cy="292" r="3"/><circle cx="410" cy="320" r="4"/><circle cx="352" cy="276" r="2.4"/>
+  </g>
+  <g fill="#b06bff"><circle cx="676" cy="136" r="4.4"/><circle cx="704" cy="132" r="4"/></g>
+  <!-- moonless crag -->
+  <path d="M0,420 L120,360 L240,420 L400,390 L560,430 L700,400 L800,428 L800,500 L0,500 Z" fill="#0a0918"/>
+  <path d="M0,452 Q160,440 340,452 T680,450 T800,454 L800,500 L0,500 Z" fill="#060510"/>
+  <!-- lantern glow -->
+  <circle cx="266" cy="330" r="150" fill="url(#lamp)"/>
+  <!-- spare lantern on ground -->
+  <g transform="translate(160,440)">
+    <rect x="-10" y="-24" width="20" height="24" rx="4" fill="#241c38" stroke="#8a7440" stroke-width="2"/>
+    <path d="M-8,-24 L0,-32 L8,-24" stroke="#8a7440" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Mr 6 holding lantern high -->
+  <g transform="translate(230,444)">
+    <path d="M-2,-44 Q-26,-24 -22,10 L-2,4 Z" fill="#241c48"/>
+    <rect x="-8" y="-8" width="7" height="20" rx="3" fill="#060510"/>
+    <rect x="3" y="-8" width="7" height="20" rx="3" fill="#060510"/>
+    <path d="M-11,-46 Q0,-53 11,-46 L9,-5 L-9,-5 Z" fill="#100d24"/>
+    <circle cx="0" cy="-55" r="10" fill="#100d24"/>
+    <path d="M0,-65 Q11,-79 5,-88" stroke="#e05a7a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M9,-44 L34,-70" stroke="#100d24" stroke-width="6" stroke-linecap="round"/>
+    <rect x="26" y="-104" width="24" height="30" rx="5" fill="#38304f" stroke="#ffd76b" stroke-width="2.5"/>
+    <path d="M30,-104 L38,-112 L46,-104" stroke="#ffd76b" stroke-width="2.5" fill="none"/>
+    <path d="M38,-96 C32,-88 36,-80 38,-78 C40,-80 44,-88 38,-96 Z" fill="#ffe98a"/>
+    <path d="M-9,-42 L-26,-32" stroke="#100d24" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-32,-52 q-11,5 -11,16 q0,13 11,18 q11,-5 11,-18 q0,-11 -11,-16 Z" fill="#181334" stroke="#6b5fa8" stroke-width="2"/>
+    <text x="-32" y="-26" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

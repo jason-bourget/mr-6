@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a3c"/><stop offset="0.7" stop-color="#2c3a6e"/><stop offset="1" stop-color="#47548f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="650" cy="90" r="40" fill="#fdf6d8"/>
+  <path d="M636,78 a40,40 0 0 0 22,52 a32,32 0 0 1 -22,-52 Z" fill="#e8dfb4" opacity="0.6"/>
+  <g fill="#eef2ff" opacity="0.8">
+    <circle cx="120" cy="60" r="2"/><circle cx="230" cy="110" r="1.6"/><circle cx="360" cy="45" r="2"/><circle cx="480" cy="95" r="1.5"/><circle cx="740" cy="160" r="1.8"/>
+  </g>
+  <!-- giant sleeping like a range of hills -->
+  <g fill="#10142c">
+    <path d="M180,430 C190,360 260,330 330,344 C380,260 560,255 620,350 C680,345 730,380 740,430 Z"/>
+    <path d="M180,430 C150,430 120,400 130,360 C90,364 60,340 70,306 C80,272 130,264 152,290 C180,270 220,280 228,315 C260,318 268,360 240,380 C250,405 220,432 180,430 Z" opacity="0.98"/>
+  </g>
+  <!-- face hints on head -->
+  <path d="M118,332 q14,10 30,2" stroke="#7f8ac9" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M96,314 q10,-6 20,-2" stroke="#7f8ac9" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- snore Zzz -->
+  <g fill="#c9d4ff" font-family="Georgia, serif" font-weight="bold">
+    <text x="150" y="240" font-size="34" transform="rotate(-12 150 240)">Z</text>
+    <text x="195" y="200" font-size="26" transform="rotate(8 195 200)">z</text>
+    <text x="228" y="168" font-size="20" transform="rotate(-6 228 168)">z</text>
+  </g>
+  <!-- tunnel under the giant -->
+  <path d="M370,430 a60,54 0 0 1 120,0 Z" fill="#060916"/>
+  <path d="M382,430 a48,44 0 0 1 96,0 Z" fill="#0e1330" opacity="0.6"/>
+  <!-- ground -->
+  <path d="M0,430 Q120,418 260,430 T520,428 T800,432 L800,500 L0,500 Z" fill="#0b0e22"/>
+  <!-- Mr 6 tiptoeing toward the tunnel -->
+  <g transform="translate(300,426)">
+    <path d="M-8,-38 Q-28,-22 -24,6 L-6,2 Z" fill="#2a3468"/>
+    <path d="M-6,-6 L-14,10" stroke="#0b0e22" stroke-width="6" stroke-linecap="round"/>
+    <path d="M4,-6 L14,4 L20,-2" stroke="#0b0e22" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L8,-4 L-8,-4 Z" fill="#111634"/>
+    <circle cx="0" cy="-48" r="9" fill="#111634"/>
+    <path d="M0,-57 Q10,-70 4,-78" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-34 L22,-42" stroke="#111634" stroke-width="5" stroke-linecap="round"/>
+    <path d="M22,-46 q6,2 4,8" stroke="#c9d4ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-22,-34 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#161c40" stroke="#5f6cb4" stroke-width="2"/>
+    <text x="-22" y="-11" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

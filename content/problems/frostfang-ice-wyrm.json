@@ -1,0 +1,18 @@
+{
+  "id": "frostfang-ice-wyrm",
+  "tier": "champion",
+  "title": "Frostfang the Ice Wyrm",
+  "monster": "Frostfang the Ice Wyrm",
+  "story": "Frostfang the Ice Wyrm slithers down from the glacier, freezing 6 villages solid every single day! There are 42 villages in the Green Valley, and Mr 6's ride through the mountain pass will take 3 days.",
+  "question": "How many villages can Mr 6 still save when he arrives?",
+  "answer": 24,
+  "unit": "villages",
+  "hint": "First: how many villages does Frostfang freeze in 3 days, at 6 per day? Subtract that from 42.",
+  "victory": "Mr 6 arrives to find 24 villages still warm — and a plan already forming. He lures Frostfang into the hot springs, where the wyrm melts into a very confused, very happy pond serpent. The frozen villages thaw by spring!",
+  "image": "images/frostfang-ice-wyrm.webp",
+  "distractors": [
+    18,
+    36,
+    21
+  ]
+}

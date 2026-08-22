@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1a3a"/><stop offset="0.6" stop-color="#8a3d55"/><stop offset="1" stop-color="#e8874f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <circle cx="400" cy="130" r="54" fill="#ffd98e" opacity="0.95"/>
+  <!-- Screechia flying -->
+  <g fill="#1c0d1e">
+    <path d="M400,190 C394,178 400,166 412,164 C410,154 420,146 430,150 C436,140 452,140 458,150 L470,146 C482,144 490,156 484,166 L488,178 C492,190 482,200 470,196 L456,208 L446,196 L428,206 L420,192 Z"/>
+    <path d="M402,170 C350,138 280,140 240,176 C284,172 316,184 340,206 C310,210 294,224 288,242 C324,228 366,224 396,204 Z"/>
+    <path d="M482,164 C534,132 604,134 644,170 C600,166 568,178 544,200 C574,204 590,218 596,236 C560,222 518,218 488,198 Z"/>
+    <path d="M446,208 L452,236 L440,232 L432,244 L426,218 Z"/>
+  </g>
+  <g fill="#ffcf6e"><circle cx="430" cy="164" r="3"/><circle cx="448" cy="162" r="3"/></g>
+  <!-- cliff with nests -->
+  <g fill="#220f22">
+    <path d="M540,500 L560,320 L620,280 L700,300 L740,240 L800,250 L800,500 Z"/>
+    <path d="M0,500 L0,400 L60,380 L110,400 L160,370 L210,400 L210,500 Z"/>
+  </g>
+  <!-- nests with eggs on cliff ledges -->
+  <g>
+    <path d="M600,318 a34,12 0 0 0 68,0 Z" fill="#3d2416"/>
+    <ellipse cx="616" cy="312" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="634" cy="310" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="652" cy="312" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="634" cy="298" rx="8" ry="10" fill="#ffe9c9"/>
+    <path d="M700,268 a30,11 0 0 0 60,0 Z" fill="#3d2416"/>
+    <ellipse cx="714" cy="262" rx="7" ry="9" fill="#ffe9c9"/><ellipse cx="730" cy="260" rx="7" ry="9" fill="#ffe9c9"/><ellipse cx="746" cy="262" rx="7" ry="9" fill="#ffe9c9"/><ellipse cx="730" cy="250" rx="7" ry="9" fill="#ffe9c9"/>
+    <path d="M580,398 a32,12 0 0 0 64,0 Z" fill="#3d2416"/>
+    <ellipse cx="595" cy="392" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="612" cy="390" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="629" cy="392" rx="8" ry="10" fill="#ffe9c9"/><ellipse cx="612" cy="379" rx="8" ry="10" fill="#ffe9c9"/>
+  </g>
+  <!-- ground -->
+  <path d="M0,448 Q140,436 300,448 T600,446 T800,450 L800,500 L0,500 Z" fill="#180b18"/>
+  <!-- Mr 6 climbing the cliff -->
+  <g transform="translate(520,430)">
+    <path d="M-8,-34 Q-28,-22 -26,6 L-6,0 Z" fill="#4a2140"/>
+    <path d="M-6,-4 L-16,8" stroke="#180b18" stroke-width="6" stroke-linecap="round"/>
+    <path d="M4,-4 L10,12" stroke="#180b18" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-10,-38 Q0,-44 10,-38 L8,-2 L-8,-2 Z" fill="#1e0f1e"/>
+    <circle cx="0" cy="-46" r="9" fill="#1e0f1e"/>
+    <path d="M0,-55 Q10,-68 4,-76" stroke="#e05a7a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M8,-34 L28,-52" stroke="#1e0f1e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-22,-32 q-10,4 -10,14 q0,12 10,16 q10,-4 10,-16 q0,-10 -10,-14 Z" fill="#281428" stroke="#a05f8a" stroke-width="2"/>
+    <text x="-22" y="-9" text-anchor="middle" font-size="15" font-family="Georgia, serif" font-weight="bold" fill="#ffd76b">6</text>
+  </g>
+</svg>

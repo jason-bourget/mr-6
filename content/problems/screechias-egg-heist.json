@@ -1,0 +1,18 @@
+{
+  "id": "screechias-egg-heist",
+  "tier": "squire",
+  "title": "Screechia's Egg Heist",
+  "monster": "Screechia the Harpy",
+  "story": "Screechia the Harpy has stolen dragon eggs from the friendly dragons of Ember Cliff and hidden them in her nests! Mr 6 climbs up and finds 3 nests, and each nest holds 4 warm dragon eggs.",
+  "question": "How many dragon eggs must Mr 6 carry home?",
+  "answer": 12,
+  "unit": "eggs",
+  "hint": "Add 4 three times: 4 + 4 + 4. That's the same as 3 groups of 4!",
+  "victory": "With all 12 eggs tucked safely in his cloak, Mr 6 climbs down as Screechia shrieks in defeat. The mother dragons are so grateful they light the village lanterns every night from then on!",
+  "image": "images/screechias-egg-heist.webp",
+  "distractors": [
+    7,
+    9,
+    16
+  ]
+}
