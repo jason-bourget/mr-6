@@ -1,0 +1,19 @@
+{
+  "id": "orrinvex-forge-unknown",
+  "tier": "champion",
+  "title": "The Anvil That Asked a Question",
+  "monster": "Orrinvex the Riddle Anvil",
+  "story": "In the mountain forge, Orrinvex the Riddle Anvil has clamped shut on the smith's hammer and refuses to open for anything but a correct number. The village needs 7 identical horseshoe nails from every bar of iron, and the anvil speaks only in puzzles. Mr 6 leans in, curious rather than afraid.",
+  "question": "Orrinvex growls: \"A number of iron bars, times 7 nails each, gives 84 nails. Add 6 more bars to that number. What number do you now hold?\"",
+  "answer": 18,
+  "unit": "bars",
+  "distractors": [
+    12,
+    588,
+    90
+  ],
+  "hint": "First find what number times 7 makes 84. Then do what the anvil says with that number.",
+  "victory": "\"Eighteen,\" said Mr 6, \"and six of those are me, in a manner of speaking.\" Orrinvex laughed so hard it sprang open, and the hammer clanged happily to the floor.",
+  "image": "images/orrinvex-forge-unknown.webp",
+  "imagePrompt": "A massive iron anvil with a carved grinning face and glowing rune-eyes gripping a hammer in a red-lit mountain forge, with a small caped numeral 6 knight scratching sums into the soot."
+}

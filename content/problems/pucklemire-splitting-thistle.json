@@ -1,0 +1,19 @@
+{
+  "id": "pucklemire-splitting-thistle",
+  "tier": "champion",
+  "title": "The Thistle That Learned to Multiply",
+  "monster": "Pucklemire the Splitting Thistle",
+  "story": "Pucklemire the Splitting Thistle grows in the goat meadow, and every swing of a blade makes each thistle burst into four. The goatherds have chopped and chopped and now cannot find their goats. Mr 6 stops, sheathes his sword, and does the far scarier thing: arithmetic.",
+  "question": "There is 1 thistle. Each chop turns every thistle into 4 thistles. After 4 chops, how many thistles more than 100 are there?",
+  "answer": 156,
+  "unit": "thistles",
+  "distractors": [
+    256,
+    64,
+    16
+  ],
+  "hint": "Multiply by 4 once for each chop — 1, 4, 16, and so on — then remember the question asks how many MORE than 100.",
+  "victory": "Mr 6 announced \"one hundred fifty-six more than a hundred, and that's why I'm not chopping,\" and Pucklemire — starved of blades — folded back into a single grumpy purple weed. The goats ate it.",
+  "image": "images/pucklemire-splitting-thistle.webp",
+  "imagePrompt": "A bristling purple thistle-monster mid-split into four copies in a misty green goat meadow, with a small numeral 6 knight holding up a firm 'stop' hand instead of a sword."
+}

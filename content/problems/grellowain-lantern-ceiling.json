@@ -1,0 +1,19 @@
+{
+  "id": "grellowain-lantern-ceiling",
+  "tier": "champion",
+  "title": "Lanterns for the Long Marsh",
+  "monster": "Grellowain the Marsh Gloom",
+  "story": "Grellowain the Marsh Gloom smothers the boardwalk with darkness so travelers wander into the reeds. The lampwright will hand over lanterns, but each lantern's glow covers only so much walkway, and Mr 6 must ask for the right number in one go — Grellowain devours anyone who comes back for seconds.",
+  "question": "The boardwalk is 290 feet long and each lantern lights 24 feet of it. How many lanterns must Mr 6 request to light the whole boardwalk?",
+  "answer": 13,
+  "unit": "lanterns",
+  "distractors": [
+    12,
+    14,
+    2
+  ],
+  "hint": "Divide 290 by 24 and look at the leftover feet — a partly lit stretch still needs one more whole lantern.",
+  "victory": "Twelve lanterns left two feet of gloom, so Mr 6 asked for thirteen — and Grellowain, with nowhere dark to stand, shrank to a polite little shadow that now guides travelers by pointing.",
+  "image": "images/grellowain-lantern-ceiling.webp",
+  "imagePrompt": "A vast smoky gloom-creature crouched over a long wooden boardwalk through a night marsh, retreating as a small numeral 6 knight hangs a chain of warm lanterns post by post."
+}

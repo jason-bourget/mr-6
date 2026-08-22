@@ -1,0 +1,19 @@
+{
+  "id": "whimbrelash-caravan-average",
+  "tier": "champion",
+  "title": "The Camel Ledger of Whimbrelash",
+  "monster": "Whimbrelash the Salt Tallier",
+  "story": "At the desert waystation, Whimbrelash the Salt Tallier weighs every camel's load and lets the caravan pass only if the average load is exactly right. Five camels are already weighed; the sixth is Mr 6's own little pack. The Tallier taps her ledger and waits.",
+  "question": "Five camels carry 62, 78, 55, 90, and 71 pounds of salt. Whimbrelash demands the six camels average exactly 72 pounds. How many pounds must the sixth camel carry?",
+  "answer": 76,
+  "unit": "pounds",
+  "distractors": [
+    71.2,
+    356,
+    432
+  ],
+  "hint": "If six loads must average 72, work out the total weight all six must add up to — then see what the five already give you.",
+  "victory": "Mr 6 loaded exactly 76 pounds, and the ledger glowed a satisfied gold. Whimbrelash stamped the caravan through and muttered that she'd never been out-averaged by a numeral before.",
+  "image": "images/whimbrelash-caravan-average.webp",
+  "imagePrompt": "A tall robed desert tallier with scale-pan hands and a floating ledger blocking a camel caravan at a sandstone waystation under a blazing orange sky, with a small numeral 6 knight weighing a salt sack."
+}

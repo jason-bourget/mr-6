@@ -1,0 +1,19 @@
+{
+  "id": "quorlbath-tidepool-thirds",
+  "tier": "champion",
+  "title": "The Pearl Diver's Thirds",
+  "monster": "Quorlbath the Tidepool Hoarder",
+  "story": "In a glowing tidepool cavern, Quorlbath the Tidepool Hoarder has stuffed the village's rescued pearls into three bulging cheek pouches. Mr 6 wades in, cape floating, and offers a deal: if he can name the exact number of pearls, Quorlbath must spit them all back. The hoarder grins — he thinks nobody can count what they can't see.",
+  "question": "Quorlbath swallowed 288 pearls. He spat back 1/4 of them at dawn, then 1/3 of what remained at noon. How many pearls are still inside Quorlbath?",
+  "answer": 144,
+  "unit": "pearls",
+  "distractors": [
+    216,
+    72,
+    192
+  ],
+  "hint": "Find one quarter of 288 first, and subtract it. THEN take a third of that new, smaller number — not of 288.",
+  "victory": "Mr 6 said \"one hundred forty-four, and I'd like them polished,\" and Quorlbath burped out every last pearl in astonishment. He now works as the tidepool's official pearl-counter, and he's terrible at it.",
+  "image": "images/quorlbath-tidepool-thirds.webp",
+  "imagePrompt": "A round, puff-cheeked sea hoarder crouched in a glowing turquoise tidepool cavern, pearls spilling from its pouches, as a small knightly numeral 6 with a blue cape stands on a wet rock pointing confidently."
+}

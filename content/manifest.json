@@ -112,6 +112,16 @@
     "problems/thornabel-regrowing-brambles.json",
     "problems/saltrigg-caravan-ratio.json",
     "problems/gaudrelle-glass-lanterns.json",
-    "problems/ombrelith-shadow-unknown.json"
+    "problems/ombrelith-shadow-unknown.json",
+    "problems/quorlbath-tidepool-thirds.json",
+    "problems/vandergloom-clocktower-halving.json",
+    "problems/brindlecask-brewery-ratio.json",
+    "problems/stellagorn-comet-rate.json",
+    "problems/pucklemire-splitting-thistle.json",
+    "problems/halbrecken-crypt-percent.json",
+    "problems/grellowain-lantern-ceiling.json",
+    "problems/orrinvex-forge-unknown.json",
+    "problems/whimbrelash-caravan-average.json",
+    "problems/drossalind-market-money.json"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "brindlecask-brewery-ratio",
+  "tier": "champion",
+  "title": "The Brewer's Stubborn Ratio",
+  "monster": "Brindlecask the Barrel Bogey",
+  "story": "In a cellar that smells of apples and mischief, Brindlecask the Barrel Bogey has locked the village's cider behind a riddle-tap. The tap only pours if someone mixes the fever-tonic exactly right: honey to cider in the ratio 2 to 5. Mr 6 rolls up his sleeves — well, the places where sleeves would be.",
+  "question": "Mr 6 must make 63 cups of tonic mixing honey and cider in a 2:5 ratio. How many cups of cider does he need?",
+  "answer": 45,
+  "unit": "cups",
+  "distractors": [
+    18,
+    9,
+    31.5
+  ],
+  "hint": "Two parts plus five parts makes seven equal parts in all. Find the size of one part first.",
+  "victory": "Mr 6 poured 45 cups of cider to 18 of honey, and the riddle-tap sighed open. Brindlecask now bottles tonic for the sick house and insists everyone call him \"Chef.\"",
+  "image": "images/brindlecask-brewery-ratio.webp",
+  "imagePrompt": "A knobby barrel-shaped bogey with tap-handle arms guarding stacked cider casks in a warm lamplit cellar, while a small numeral 6 knight measures golden honey into a huge mixing tub."
+}

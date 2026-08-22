@@ -1,0 +1,19 @@
+{
+  "id": "vandergloom-clocktower-halving",
+  "tier": "champion",
+  "title": "The Clock That Ate the Hours",
+  "monster": "Vandergloom the Hour Thief",
+  "story": "Atop the crooked clocktower, Vandergloom the Hour Thief has cursed the town bell so its ring travels only half as far each hour. At sunrise the ring reached 96 miles of farmland; every farmer used it to know when to water. Mr 6 climbs the tower with chalk and a very calm expression.",
+  "question": "The bell's ring reaches 96 miles at 6:00 and halves its reach every hour after. How many miles does it reach at 11:00?",
+  "answer": 3,
+  "unit": "miles",
+  "distractors": [
+    6,
+    1.5,
+    16
+  ],
+  "hint": "Count the hours from 6:00 to 11:00 — that's how many times the reach gets halved. Halve carefully, one hour at a time.",
+  "victory": "Mr 6 chalked the whole shrinking ladder on the bell — 96, 48, 24, 12, 6, 3 — and Vandergloom, who could not bear seeing his trick written down so plainly, unwound himself into a puff of tick-tocks.",
+  "image": "images/vandergloom-clocktower-halving.webp",
+  "imagePrompt": "A wispy grey thief-spirit coiled around a giant bronze bell in a crooked clocktower at dawn, shrinking sound-rings drawn in the air, with a small caped numeral 6 knight chalking numbers on the bell rim."
+}

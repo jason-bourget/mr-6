@@ -1,0 +1,19 @@
+{
+  "id": "stellagorn-comet-rate",
+  "tier": "champion",
+  "title": "Race of the Falling Star",
+  "monster": "Stellagorn the Comet Hound",
+  "story": "Stellagorn the Comet Hound streaks across the night sky dragging a tail of frost that freezes every lake it passes over. Mr 6 borrows the observatory's brass telescope and a sky-skiff, determined to reach Lake Bellow before the hound does and wake the sleeping fishers.",
+  "question": "Stellagorn is 480 miles from Lake Bellow and flies at 60 miles per hour. Mr 6's sky-skiff is 315 miles away and flies at 45 miles per hour. How many hours BEFORE the comet hound does Mr 6 arrive?",
+  "answer": 1,
+  "unit": "hours",
+  "distractors": [
+    8,
+    7,
+    165
+  ],
+  "hint": "Work out each traveler's time separately with distance divided by speed, then compare the two times.",
+  "victory": "Mr 6 landed a full hour early, rang the fish-bell, and every boat was ashore when Stellagorn skidded overhead. The hound, finding nothing to freeze but a puddle, licked Mr 6's helmet and became the village's very cold pet.",
+  "image": "images/stellagorn-comet-rate.webp",
+  "imagePrompt": "A glowing frost-tailed hound made of comet light streaking over a moonlit lake, with a tiny caped numeral 6 knight steering a wooden sky-skiff ahead of it through starry clouds."
+}
