@@ -1,0 +1,19 @@
+{
+  "id": "glacemaw-thawing-bridge",
+  "tier": "champion",
+  "title": "The Bridge That Halved Itself",
+  "monster": "Glacemaw the Thaw Wyrm",
+  "story": "Glacemaw the Thaw Wyrm breathes warm mist over the glacier, and the ice bridge holding forty stranded sheep loses half its thickness every hour. The shepherds panic; Mr 6 measures with his sword and thinks in halves. Below thirty centimeters the bridge will not hold a sheep.",
+  "question": "The ice bridge is 480 centimeters thick and halves every hour. How many hours until it becomes exactly 30 centimeters thick?",
+  "answer": 4,
+  "unit": "hours",
+  "distractors": [
+    5,
+    16,
+    3
+  ],
+  "hint": "Halve 480 over and over, counting each halving, until you hit 30.",
+  "victory": "Mr 6 got every sheep across with a full hour to spare, and Glacemaw — impressed by the arithmetic — froze the bridge back solid just to see him do it again.",
+  "image": "images/glacemaw-thawing-bridge.webp",
+  "imagePrompt": "A pale steaming wyrm coils over a blue glacier while a numeral-six knight hurries woolly sheep across a thinning ice bridge, dawn light glittering on the crevasse below."
+}

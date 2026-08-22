@@ -1,0 +1,19 @@
+{
+  "id": "cragspine-regrowing-spikes",
+  "tier": "champion",
+  "title": "Cragspine's Regrowing Ridge",
+  "monster": "Cragspine the Quarry Beast",
+  "story": "Cragspine the Quarry Beast blocks the mountain road with the stone spikes along his back, and every spike Mr 6 knocks off makes two smaller ones grow back — except the very last strike, which shatters the whole ridge. Everyone else charged in swinging and made things worse. Mr 6 sits on a boulder and counts first.",
+  "question": "Cragspine starts with 5 spikes. Each strike removes 1 spike but grows 2 new ones back. After 9 strikes, how many spikes are on his ridge?",
+  "answer": 14,
+  "unit": "spikes",
+  "distractors": [
+    23,
+    18,
+    45
+  ],
+  "hint": "Each strike takes 1 away and adds 2 — so what is the net change per strike?",
+  "victory": "Mr 6 announced the exact count out loud, and Cragspine — who had never once been counted correctly — laughed so hard his whole ridge crumbled and the road opened.",
+  "image": "images/cragspine-regrowing-spikes.webp",
+  "imagePrompt": "A hulking grey quarry beast with a jagged ridge of stone spikes blocking a mountain road, a small numeral-six knight seated calmly on a boulder tallying marks in chalk, dusty afternoon light."
+}

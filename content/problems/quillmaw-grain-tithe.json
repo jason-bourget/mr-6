@@ -1,0 +1,19 @@
+{
+  "id": "quillmaw-grain-tithe",
+  "tier": "champion",
+  "title": "The Grain Mill Tithe",
+  "monster": "Quillmaw the Granary Wyrm",
+  "story": "Quillmaw the Granary Wyrm has coiled around the village mill and demands a 'tithe' before winter. First he wants a quarter of all the grain, and then a third of whatever is left after that. The miller weeps, but Mr 6 pulls out chalk and starts figuring on the mill floor.",
+  "question": "The mill holds 480 sacks of grain. Quillmaw takes 1/4 of it, and then takes 1/3 of what remains. How many sacks are left for the village?",
+  "answer": 240,
+  "unit": "sacks",
+  "distractors": [
+    360,
+    200,
+    120
+  ],
+  "hint": "Find a quarter of 480 and subtract it first — the second helping is a third of that NEW smaller pile, not of 480.",
+  "victory": "'Exactly half survives,' announced Mr 6, 'so your two clever helpings were really just one boring half.' Quillmaw, embarrassed to be so predictable, uncoiled and slithered off to count sand instead.",
+  "image": "images/quillmaw-grain-tithe.webp",
+  "imagePrompt": "A long scaly wyrm coiled around a stone windmill full of grain sacks while a numeral-six knight chalks fractions on the floorboards in warm lantern light."
+}

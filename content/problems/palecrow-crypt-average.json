@@ -1,0 +1,19 @@
+{
+  "id": "palecrow-crypt-average",
+  "tier": "champion",
+  "title": "Palecrow Counts the Quiet",
+  "monster": "Palecrow the Crypt Tallier",
+  "story": "In the Hollowbell Crypt, a ragged bird-headed spirit named Palecrow refuses to open the stairway door until the day's candle-count 'balances.' He keeps five days of records and insists the week must average exactly 24 candles a day. Mr 6 flips through the dusty ledger.",
+  "question": "Palecrow's ledger shows 5 days of candles: 19, 27, 22, 30, and 18. How many candles must be burned on the 6th day for the six-day average to be exactly 24?",
+  "answer": 28,
+  "unit": "candles",
+  "distractors": [
+    23.2,
+    116,
+    144
+  ],
+  "hint": "If six days average 24, what must the six-day TOTAL be? Then compare it to the five days already recorded.",
+  "victory": "Mr 6 lit 28 candles — one flick of his sword per candle — and the crypt door swung wide. 'Averages,' he told Palecrow, 'are just totals wearing a disguise.'",
+  "image": "images/palecrow-crypt-average.webp",
+  "imagePrompt": "A tattered bird-headed spirit hunched over a dusty ledger in a candlelit stone crypt, with a small glowing numeral-6 knight lighting a row of tapers."
+}

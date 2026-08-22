@@ -1,0 +1,19 @@
+{
+  "id": "emberweaver-ash-silk",
+  "tier": "champion",
+  "title": "The Ash-Silk Doorway",
+  "monster": "Emberweaver the Ash Spider",
+  "story": "In the smoky Library of Lastlight, Emberweaver the Ash Spider has sealed the reading-room door with 63 feet of gray ash-silk, trapping six little librarian gnomes inside with their beloved books. She perches above the doorway spinning more silk even as Mr 6 slashes at it, cackling that no knight can unweave faster than she can weave. Mr 6 sheathes his sword, does the arithmetic on a dusty index card, and smiles.",
+  "question": "Mr 6 unravels 6 feet of ash-silk every minute, while Emberweaver spins 4.5 new feet every minute onto the same 63-foot web. How many minutes until the doorway is completely clear?",
+  "answer": 42,
+  "unit": "minutes",
+  "distractors": [
+    10.5,
+    14,
+    6
+  ],
+  "hint": "Each minute, how much silk actually disappears? Subtract what she adds from what he removes to find the real progress per minute.",
+  "victory": "After 42 patient minutes the last thread puffs into ash, and Emberweaver — outmathed, not outmuscled — retires to spin bookmarks for the grateful gnomes.",
+  "image": "images/emberweaver-ash-silk.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape calmly unraveling a glowing gray web across a tall library doorway while a huge ash-colored spider spins above him, warm lantern light cutting through drifting smoke and towering bookshelves."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "hollowchime-echo-wraith",
+  "tier": "champion",
+  "title": "The Average of the Bells",
+  "monster": "Hollowchime the Echo Wraith",
+  "story": "Hollowchime the Echo Wraith lives inside the belfry of Saint Tally's and repeats every sound forever, until the whole town cannot sleep. The old bell-keeper says the wraith fades only when the great gong is struck exactly the average of the five little bells' rings. Mr 6 climbs the tower with a notebook.",
+  "question": "The five little bells rang 14, 22, 9, 17, and 18 times. How many times must Mr 6 strike the great gong to match their average?",
+  "answer": 16,
+  "unit": "strikes",
+  "distractors": [
+    80,
+    17,
+    20
+  ],
+  "hint": "Add all five counts into one total, then split that total evenly among the five bells.",
+  "victory": "On the sixteenth strike the echoes folded into one soft hum and Hollowchime melted away with a grateful sigh. 'Averages,' Mr 6 whispered, 'are just fairness with numbers.'",
+  "image": "images/hollowchime-echo-wraith.webp",
+  "imagePrompt": "A misty translucent wraith swirling among five small bells in a moonlit stone belfry while a numeral-six knight raises a mallet over a huge bronze gong."
+}

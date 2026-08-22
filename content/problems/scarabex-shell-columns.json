@@ -1,0 +1,19 @@
+{
+  "id": "scarabex-shell-columns",
+  "tier": "champion",
+  "title": "The Beetle Ranks of Scarabex",
+  "monster": "Scarabex the Shell Marshal",
+  "story": "Across the cracked salt flats marches Scarabex the Shell Marshal, leading armored beetles in perfect rows toward the orchard town. Mr 6 climbs a boulder and counts the formation rather than panicking. Then he plays his own drum in the beetles' marching rhythm — and a quarter of them turn and follow HIM instead.",
+  "question": "The beetles march in 14 rows of 16, and then 1/4 of the whole swarm peels off to follow Mr 6's drum. How many beetles are still marching with Scarabex?",
+  "answer": 168,
+  "unit": "beetles",
+  "distractors": [
+    224,
+    56,
+    210
+  ],
+  "hint": "Multiply rows by columns to find the whole swarm first, then figure out what one quarter of that swarm is.",
+  "victory": "With 168 beetles left and a rival drummer stealing the beat, Scarabex threw down his baton and marched his ranks home. Mr 6 led his 56 new friends to the orchard, where they ate only the fallen apples.",
+  "image": "images/scarabex-shell-columns.webp",
+  "imagePrompt": "Neat glittering rows of armored beetles crossing pale salt flats under a wide sunset sky while a numeral-six knight drums on a boulder and a quarter of the swarm turns toward him."
+}

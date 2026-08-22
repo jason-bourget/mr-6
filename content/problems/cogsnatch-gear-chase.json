@@ -1,0 +1,19 @@
+{
+  "id": "cogsnatch-gear-chase",
+  "tier": "champion",
+  "title": "The Chase Above the Clocktowers",
+  "monster": "Cogsnatch the Clockwork Vulture",
+  "story": "Cogsnatch the Clockwork Vulture snatched the great town clock's golden gear and flapped away over the rooftops. Mr 6 leapt aboard a windskiff, cape snapping, and gave chase through the chimney smoke. The vulture already had a head start, but Mr 6's skiff was faster.",
+  "question": "Cogsnatch is 15 kilometers ahead and flies at 48 kilometers per hour, while Mr 6's windskiff flies at 60 kilometers per hour; how many hours until Mr 6 catches up?",
+  "answer": 1.25,
+  "unit": "hours",
+  "distractors": [
+    0.25,
+    12,
+    1.5
+  ],
+  "hint": "Each hour, how much of the 15-kilometer gap does Mr 6 close? Find the difference in their speeds first.",
+  "victory": "Mr 6 pulled alongside at exactly the moment he'd calculated, plucked the gear from Cogsnatch's claws, and the embarrassed bird ticked away home. 'Punctuality,' said Mr 6, 'is just arithmetic with wings.'",
+  "image": "images/cogsnatch-gear-chase.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape steering a small windskiff through golden sunset clouds, chasing a brass clockwork vulture clutching a giant gear above a city of clocktowers."
+}

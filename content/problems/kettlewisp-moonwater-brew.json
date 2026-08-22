@@ -1,0 +1,19 @@
+{
+  "id": "kettlewisp-moonwater-brew",
+  "tier": "champion",
+  "title": "The Imp Who Ruined Recipes",
+  "monster": "Kettlewisp the Cauldron Imp",
+  "story": "Kettlewisp the Cauldron Imp had been sneaking into the alchemy tower and mismeasuring every cure, leaving the whole valley sniffly. Mr 6 volunteered to brew the antidote himself while the imp watched, smug and certain he'd fail. The recipe called for moonwater and emberdew in a strict ratio.",
+  "question": "The antidote is 96 drops in all, mixed with moonwater and emberdew in a ratio of 3 to 5; how many drops of moonwater does Mr 6 need?",
+  "answer": 36,
+  "unit": "drops",
+  "distractors": [
+    60,
+    32,
+    12
+  ],
+  "hint": "A 3-to-5 ratio means the mixture comes in equal parts — how many parts total, and how big is one part?",
+  "victory": "The antidote glowed pale silver on the first try, and Kettlewisp — sneezing violently — swallowed a spoonful and became the tower's fussiest, most accurate assistant. 'Ratios,' Mr 6 said, 'are just fair shares wearing a fancy hat.'",
+  "image": "images/kettlewisp-moonwater-brew.webp",
+  "imagePrompt": "A moonlit alchemy tower workshop with bubbling cauldrons, a pouting green imp perched on a shelf, and a numeral-six knight carefully counting silver droplets into a flask."
+}

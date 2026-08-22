@@ -1,0 +1,19 @@
+{
+  "id": "quillowain-orchard-percent",
+  "tier": "champion",
+  "title": "The Honey Tax of Quillowain",
+  "monster": "Quillowain the Hive Baron",
+  "story": "In the clover meadows of Bramblebrook, a huge velvet bumblebee-lord named Quillowain hovers over the beekeepers' carts, demanding a 'pollination tax.' Mr 6 marches up with his little knight helmet gleaming and asks to see the paperwork. Quillowain buzzes that he takes 35% of every harvest — but he'll leave forever if the six-shaped knight can name the exact number of jars he's owed.",
+  "question": "The beekeepers harvested 480 jars of honey. If Quillowain takes 35% of them, how many jars do the beekeepers get to KEEP?",
+  "answer": 312,
+  "unit": "jars",
+  "distractors": [
+    168,
+    445,
+    320
+  ],
+  "hint": "First find 35% of 480 (10% is 48, so 35% is three of those plus half of one). Then remember the question asks what's LEFT.",
+  "victory": "Mr 6 read the tax aloud so clearly that Quillowain got embarrassed, paid his own bill in beeswax, and buzzed off to pollinate somewhere less mathematical. The beekeepers kept 312 sticky, golden jars.",
+  "image": "images/quillowain-orchard-percent.webp",
+  "imagePrompt": "A giant regal bumblebee monster in a fuzzy crown hovering over honey carts in a sunlit clover meadow while a small knight-numeral 6 points at a ledger."
+}

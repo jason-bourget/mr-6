@@ -1,0 +1,19 @@
+{
+  "id": "mirefen-lantern-ferry",
+  "tier": "champion",
+  "title": "Lanterns for the Mirefen Crossing",
+  "monster": "Mirefen the Fogmother",
+  "story": "Mirefen the Fogmother drapes the swamp causeway in mist so thick that travelers wander in circles forever. Mr 6 learns she can't cross the light of a swamp-lantern, and each lantern brightens exactly 14 paces of causeway. The village has a stack of lanterns and a very nervous group of travelers waiting.",
+  "question": "The causeway is 218 paces long. If each lantern lights 14 paces, how many lanterns are needed to light the whole causeway?",
+  "answer": 16,
+  "unit": "lanterns",
+  "distractors": [
+    15,
+    14,
+    17
+  ],
+  "hint": "Divide 218 by 14 — but check the remainder. A partly-lit stretch still needs its own lantern.",
+  "victory": "Mr 6 hung the sixteenth lantern over the last soggy six paces, and Mirefen curled up into a harmless puff of steam. 'Fifteen would have left a gap,' he said, 'and gaps are where fog lives.'",
+  "image": "images/mirefen-lantern-ferry.webp",
+  "imagePrompt": "A swirling gray fog-woman coiling above a plank causeway through a moonlit swamp, with a line of glowing lanterns and a tiny caped numeral 6 hanging the last one."
+}

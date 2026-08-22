@@ -1,0 +1,19 @@
+{
+  "id": "brinelark-tide-lanterns",
+  "tier": "champion",
+  "title": "Lanterns for the Drowning Causeway",
+  "monster": "Brinelark the Fog Siren",
+  "story": "Brinelark the Fog Siren sings ships onto the rocks by smothering the causeway in fog. To break her song, the fishing village must line the whole causeway with warding lanterns before the tide turns. Mr 6 counts the posts and does the only sensible thing: he divides.",
+  "question": "The causeway is 194 meters long and one lantern lights a stretch of 12 meters. How many lanterns are needed to light the entire causeway?",
+  "answer": 17,
+  "unit": "lanterns",
+  "distractors": [
+    16,
+    18,
+    12
+  ],
+  "hint": "Divide 194 by 12 — then remember that a leftover stretch still needs a whole lantern.",
+  "victory": "Seventeen flames punched through the fog, and Brinelark's song cracked into a cough; she drifted off to sing somewhere with worse lighting.",
+  "image": "images/brinelark-tide-lanterns.webp",
+  "imagePrompt": "A misty stone causeway at dusk strung with glowing warding lanterns as a pale singing siren of fog recoils over churning water, a numeral-six knight lighting the final lamp."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lumenwrack-signal-unknown",
+  "tier": "champion",
+  "title": "The Lighthouse That Forgot Its Number",
+  "monster": "Lumenwrack the Beacon Eater",
+  "story": "Lumenwrack the Beacon Eater has swallowed the lighthouse's spinning gear, and the rescue fleet cannot find the harbor without the right flash pattern. The keeper remembers only that the beacon must flash a certain number of times each turn, times 7 turns, to make 168 total flashes. Mr 6 climbs the stairs two at a time with chalk in hand.",
+  "question": "The beacon makes 168 flashes over 7 turns, flashing the same number of times each turn. If Mr 6 then adds 5 extra warning flashes to every turn, how many flashes will the beacon make in one turn?",
+  "answer": 29,
+  "unit": "flashes",
+  "distractors": [
+    24,
+    168,
+    35
+  ],
+  "hint": "First find the mystery number: what times 7 gives 168? Then add the extra flashes.",
+  "victory": "Twenty-nine flashes swept out over the water, the fleet turned safely home, and Lumenwrack coughed up the gear and asked politely if he could just watch the pretty light instead.",
+  "image": "images/lumenwrack-signal-unknown.webp",
+  "imagePrompt": "A shadowy fish-eyed creature coiled around a storm-lashed lighthouse lantern room as a numeral-six knight chalks numbers on the glass, brilliant beams cutting across a dark sea full of ships."
+}

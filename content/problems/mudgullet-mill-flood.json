@@ -1,0 +1,19 @@
+{
+  "id": "mudgullet-mill-flood",
+  "tier": "champion",
+  "title": "Mudgullet's Rising Pond",
+  "monster": "Mudgullet the Sinkhole Sprite",
+  "story": "Mudgullet the Sinkhole Sprite has burped open a cursed spring beneath the marsh mill, and water is pouring into the pond faster than the wheel can turn. If the pond rises past the safe line, the mill floor floods and the winter flour is lost. Mr 6 hauls open two ancient drain gates and starts timing.",
+  "question": "The spring pours in 90 gallons per minute, while the two drains carry away 70 and 50 gallons per minute. If the pond is 300 gallons above the safe line, how many minutes until it drops back to safe?",
+  "answer": 10,
+  "unit": "minutes",
+  "distractors": [
+    30,
+    120,
+    2.5
+  ],
+  "hint": "Combine both drains, then subtract what the spring adds back — that difference is how much the pond really loses each minute.",
+  "victory": "Exactly ten minutes later the water kissed the safe line and stopped, and Mudgullet gurgled off down her own sinkhole, out-plumbed. 'Never fight a leak,' said Mr 6. 'Out-subtract it.'",
+  "image": "images/mudgullet-mill-flood.webp",
+  "imagePrompt": "A muddy grinning sprite splashing in a swollen marsh millpond at twilight while a numeral-six knight strains open two mossy stone drain gates, water swirling around the mill wheel."
+}

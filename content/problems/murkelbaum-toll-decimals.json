@@ -1,0 +1,19 @@
+{
+  "id": "murkelbaum-toll-decimals",
+  "tier": "champion",
+  "title": "The Toll of Murkelbaum Bridge",
+  "monster": "Murkelbaum the Moss Warden",
+  "story": "Murkelbaum the Moss Warden charges a toll to cross his rickety bridge, and a family of travelers is stuck on the wrong side in the rain. The toll is 2.75 coins per adult and 1.40 coins per child, and the family has 3 adults, 5 children, and a purse holding exactly 20 coins.",
+  "question": "How many coins will the family have left after paying the toll?",
+  "answer": 4.75,
+  "unit": "coins",
+  "distractors": [
+    15.25,
+    8.25,
+    7
+  ],
+  "hint": "Work out the adults' total and the children's total separately, add them, then subtract from 20.",
+  "victory": "Mr 6 counted out the toll to the last copper and showed the family they still had 4.75 coins for supper, and Murkelbaum grumbled that nobody had ever done the sums right before.",
+  "image": "images/murkelbaum-toll-decimals.webp",
+  "imagePrompt": "A hulking moss-covered warden blocking a rain-slick rope bridge over a foggy ravine, a huddled family with a coin purse behind a numeral-six knight who is tallying coins on a wet slate."
+}

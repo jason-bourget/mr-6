@@ -1,0 +1,19 @@
+{
+  "id": "splinterjack-mirror-golem",
+  "tier": "champion",
+  "title": "Think Before You Swing",
+  "monster": "Splinterjack the Mirror Golem",
+  "story": "In the Hall of Ten Thousand Reflections stood Splinterjack, a golem of polished glass that split into two identical golems every single time it was struck. A young squire had already swung once and was now surrounded. Mr 6 lowered his sword and started counting instead.",
+  "question": "If Mr 6 had struck the single golem 7 times in a row, with the number of golems doubling after each strike, how many golems would be standing?",
+  "answer": 128,
+  "unit": "golems",
+  "distractors": [
+    14,
+    64,
+    127
+  ],
+  "hint": "One strike makes 2, two strikes make 4 — keep doubling and count exactly seven doublings.",
+  "victory": "Mr 6 sheathed his sword, held up a mirror, and let Splinterjack strike its own reflection — the doubling curse cancelled itself and the hall went quiet. 'One hundred twenty-eight reasons,' he told the squire, 'to think first.'",
+  "image": "images/splinterjack-mirror-golem.webp",
+  "imagePrompt": "A hall of tall silver mirrors reflecting a crystalline golem endlessly, with a small numeral-six knight calmly sheathing his sword and raising a hand mirror in the cool blue light."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glasswort-thorn-golem",
+  "tier": "champion",
+  "title": "The Thorns That Grow Back",
+  "monster": "Glasswort the Thorn Golem",
+  "story": "Glasswort the Thorn Golem blocks the crystal cavern where three lost cave-mappers are sheltering, and it bristles with 33 razor-sharp crystal thorns. Each sweep of Mr 6's sword shears off 5 thorns — but if even one thorn remains afterward, 3 more chime into place. Mr 6 sits down on a rock and thinks it all the way through before swinging once.",
+  "question": "Starting from 33 thorns, if each sweep removes 5 and then 3 regrow whenever at least one thorn is left, how many sweeps does Mr 6 need to clear every thorn?",
+  "answer": 15,
+  "unit": "sweeps",
+  "distractors": [
+    14,
+    17,
+    16
+  ],
+  "hint": "Each ordinary sweep only nets a loss of 2 thorns — but think about the final sweep, when 5 or fewer are left and nothing can grow back.",
+  "victory": "On the fifteenth sweep the last five thorns rang like wind chimes and Glasswort shrank into a friendly little quartz pebble. Mr 6 pocketed it and walked the mappers home. 'The trick,' he said, 'was counting the last swing separately.'",
+  "image": "images/glasswort-thorn-golem.webp",
+  "imagePrompt": "A towering golem of jagged clear crystal thorns blocking a glittering cave mouth, a numeral-six knight mid-swing with light refracting into rainbows across the walls."
+}

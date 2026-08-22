@@ -1,0 +1,19 @@
+{
+  "id": "skalderin-glacier-halving",
+  "tier": "champion",
+  "title": "The Lantern That Halved at Every Chime",
+  "monster": "Skalderin the Frost Hour",
+  "story": "Deep in the blue caverns of the Skalderin Glacier, a frost spirit cursed the rescue lantern so its light halves every hour. Two lost shepherd children are three hours from the surface, and the lantern currently shines with 640 candlemarks of glow. Mr 6 must know how much light will remain when they step into the sun.",
+  "question": "If the lantern's 640 candlemarks halve once every hour, how many candlemarks remain after 3 hours?",
+  "answer": 80,
+  "unit": "candlemarks",
+  "distractors": [
+    160,
+    320,
+    213
+  ],
+  "hint": "Halve it once for hour one, then halve that result again — do it three times in a row.",
+  "victory": "Mr 6 calculated 80 candlemarks — just enough — and marched the shepherds out with light to spare, leaving Skalderin grumbling that nobody ever does the arithmetic.",
+  "image": "images/skalderin-glacier-halving.webp",
+  "imagePrompt": "x"
+}

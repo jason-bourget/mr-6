@@ -1,0 +1,19 @@
+{
+  "id": "barrowfen-rows-and-ransom",
+  "tier": "champion",
+  "title": "The Ransom Rows of Barrowfen",
+  "monster": "Barrowfen the Reed Marshal",
+  "story": "Barrowfen the Reed Marshal has penned the village's geese in his marsh, arranging his mud-soldiers in neat rows to guard them. He offers a deal: pay one silver coin per soldier, and the geese go free. Mr 6 counts the ranks instead of charging them.",
+  "question": "Barrowfen's soldiers stand in 14 rows of 9. The villagers have already gathered 87 silver coins. How many more coins do they still need to pay one coin per soldier?",
+  "answer": 39,
+  "unit": "coins",
+  "distractors": [
+    126,
+    213,
+    23
+  ],
+  "hint": "First figure out how many soldiers there are altogether, then compare with the 87 coins already collected.",
+  "victory": "The villagers found the last 39 coins under the church steps, and Barrowfen — who had honestly expected a fight — released every goose with a soggy bow. 'Counting,' said Mr 6, 'is cheaper than clanging.'",
+  "image": "images/barrowfen-rows-and-ransom.webp",
+  "imagePrompt": "Rows of squat mud-soldiers standing in a misty reed marsh guarding a flock of honking geese, with a small caped numeral 6 tallying them on a slate."
+}

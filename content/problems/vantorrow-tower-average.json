@@ -1,0 +1,19 @@
+{
+  "id": "vantorrow-tower-average",
+  "tier": "champion",
+  "title": "The Wind Tower's Average",
+  "monster": "Vantorrow the Storm Tallier",
+  "story": "Vantorrow the Storm Tallier will only lower the sky-bridge if Mr 6 can report the true average wind speed of the week. Over four days the gauges read 32, 47, 41, and 28 kilometers per hour, and Vantorrow insists the number must be exact or the bridge stays up and the shepherds stay stranded.",
+  "question": "What is the average of the wind speeds 32, 47, 41, and 28 kilometers per hour?",
+  "answer": 37,
+  "unit": "kilometers per hour",
+  "distractors": [
+    148,
+    36.5,
+    39.5
+  ],
+  "hint": "Add all four readings first, then split that total into 4 equal shares.",
+  "victory": "Mr 6 called out 37 and the sky-bridge unrolled like a ribbon; Vantorrow admitted he'd never once checked his own arithmetic and asked Mr 6 for lessons.",
+  "image": "images/vantorrow-tower-average.webp",
+  "imagePrompt": "A whirling cloud-bodied tallier perched atop a windmill tower above a canyon, spinning gauges everywhere, as a caped numeral-six knight shouts an answer into the gale."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "toadmarsh-decimal-ferry",
+  "tier": "champion",
+  "title": "The Ferryman's Decimal Toll",
+  "monster": "Toadmarsh the Reed Ferryman",
+  "story": "Toadmarsh the Reed Ferryman poles the only boat across the Slow Marsh, and he charges by weight in the fiddliest coins in the kingdom. Three orphan travellers and their goat need passage before nightfall, and they've pooled everything they have. Mr 6 counts the coppers on the flat of his sword.",
+  "question": "Toadmarsh charges 3.75 coins per traveller and 2.60 coins for the goat. The travellers have pooled 15 coins. How many coins will they have left after paying for all three travellers and the goat?",
+  "answer": 1.15,
+  "unit": "coins",
+  "distractors": [
+    3.75,
+    13.85,
+    11.25
+  ],
+  "hint": "Add up the three fares plus the goat's fare first, then subtract from 15.",
+  "victory": "Toadmarsh croaked at the exact change, ferried them over free of grumbling, and the leftover coin and a bit bought the goat a very fancy apple.",
+  "image": "images/toadmarsh-decimal-ferry.webp",
+  "imagePrompt": "A wide-mouthed toad ferryman in a reed hat poling a flat boat through misty marsh water at sunset, three young travellers and a goat aboard while a numeral-six knight counts coins on his sword."
+}

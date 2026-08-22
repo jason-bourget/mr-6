@@ -1,0 +1,19 @@
+{
+  "id": "maelifrost-crypt-lanterns",
+  "tier": "champion",
+  "title": "Lanterns for the Long Crypt",
+  "monster": "Maelifrost the Chill Custodian",
+  "story": "The crypt beneath Ashenvault has gone dark, and Maelifrost the Chill Custodian herds shivering pilgrims deeper into the black. Mr 6 knows each lantern he lights pushes the dark back exactly 14 paces of corridor. The corridor to the exit stairs is 200 paces long.",
+  "question": "If each lantern lights 14 paces and the corridor is 200 paces long, how many lanterns does Mr 6 need to light the whole way out?",
+  "answer": 15,
+  "unit": "lanterns",
+  "distractors": [
+    14,
+    16,
+    200
+  ],
+  "hint": "Divide 200 by 14 — then think about the leftover paces that still need light.",
+  "victory": "Fourteen lanterns left a dark scrap of corridor, so Mr 6 lit a fifteenth; Maelifrost, who could only exist in gaps, had nowhere left to stand and politely evaporated.",
+  "image": "images/maelifrost-crypt-lanterns.webp",
+  "imagePrompt": "A long stone crypt corridor glowing with a chain of newly lit lanterns, a frost-pale custodian shrinking into the last shadow while a caped numeral-six knight strikes a match."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "halcyra-mist-fraction",
+  "tier": "champion",
+  "title": "Halcyra's Vanishing Meadow",
+  "monster": "Halcyra the Mist Grazer",
+  "story": "Halcyra the Mist Grazer drifts over the Hollowdown meadows and swallows the grass into fog, field by field. The shepherds have 840 sheep grazing there, and Halcyra has already fogged over two fields. Mr 6 counts what's left so the shepherds know how many pens to build on the safe hillside.",
+  "question": "If Halcyra fogs 2/5 of the 840 sheep's grazing land, and then 25% of the remaining land, how many sheep-worth of grazing land is still clear?",
+  "answer": 378,
+  "unit": "sheep",
+  "distractors": [
+    504,
+    336,
+    126
+  ],
+  "hint": "First find 2/5 of 840 and subtract it. Then take 25% of what's LEFT — not of the original 840.",
+  "victory": "Mr 6 penned exactly 378 sheep on clear ground before dawn, and Halcyra, finding nothing left to nibble, floated off to graze on a cloud instead.",
+  "image": "images/halcyra-mist-fraction.webp",
+  "imagePrompt": "placeholder"
+}

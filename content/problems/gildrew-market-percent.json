@@ -1,0 +1,19 @@
+{
+  "id": "gildrew-market-percent",
+  "tier": "champion",
+  "title": "Gildrew's Crooked Scales",
+  "monster": "Gildrew the Coin Wisp Baron",
+  "story": "At the harvest market, Gildrew the Coin Wisp Baron enchants every price tag to swell when nobody is looking. The widow Marla's cart of apples was priced at 60 coins, but Gildrew has already raised it by 25 percent, and now he offers a 'generous' 20 percent discount off that new price.",
+  "question": "After a 25 percent increase on 60 coins and then a 20 percent discount, what is the final price in coins?",
+  "answer": 60,
+  "unit": "coins",
+  "distractors": [
+    75,
+    63,
+    45
+  ],
+  "hint": "First find 25 percent of 60 and add it on. Then take 20 percent off THAT new number, not off the original 60.",
+  "victory": "Mr 6 announced the price was exactly the same as before, and Gildrew popped like a soap bubble of embarrassment, scattering honest copper coins across the cobblestones.",
+  "image": "images/gildrew-market-percent.webp",
+  "imagePrompt": "A shimmering coin-shaped wisp baron hovering over a bustling autumn market stall of apples, price tags glowing and swelling, while a numeral-six knight points at a chalkboard of numbers."
+}

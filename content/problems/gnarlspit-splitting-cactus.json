@@ -1,0 +1,19 @@
+{
+  "id": "gnarlspit-splitting-cactus",
+  "tier": "champion",
+  "title": "Gnarlspit Splits Again",
+  "monster": "Gnarlspit the Thrice-Splitting Cactus",
+  "story": "Deep in the Rustbone Desert, a spiky green fiend called Gnarlspit blocks the only well. Every time a sword touches him, he splits into three smaller cactus-fiends — so hacking away is exactly the wrong plan. Mr 6 sheathes his blade and starts counting instead.",
+  "question": "Gnarlspit starts as 1 cactus. A careless caravan guard struck him 4 times in a row, and each strike turned every cactus present into 3 cacti. How many cacti face Mr 6 after the 4th strike?",
+  "answer": 81,
+  "unit": "cacti",
+  "distractors": [
+    12,
+    27,
+    243
+  ],
+  "hint": "Every strike multiplies the whole crowd by 3. Write the count after each strike: 1, then 3, then...",
+  "victory": "Mr 6 announced '81 — and one more swing makes 243!' The guard froze mid-swing, and Mr 6 simply watered the cacti instead, turning the whole prickly army into a very polite hedge.",
+  "image": "images/gnarlspit-splitting-cactus.webp",
+  "imagePrompt": "A bristling green cactus monster multiplying into dozens of smaller copies around a desert well at hot golden noon, with a small numeral-6 knight holding up a warning hand."
+}

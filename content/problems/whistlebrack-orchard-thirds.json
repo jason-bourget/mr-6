@@ -1,0 +1,19 @@
+{
+  "id": "whistlebrack-orchard-thirds",
+  "tier": "champion",
+  "title": "The Orchard That Ate Its Own Fruit",
+  "monster": "Whistlebrack the Windfall Sprite",
+  "story": "In the moonlit apple orchard of Pellow Hill, Whistlebrack the Windfall Sprite whistles and one third of every harvest tumbles into her bottomless basket. The pickers have gathered 486 apples for the village winter store, and the sprite is already puffing out her cheeks. Mr 6 raises his sword — then lowers it, because arguing with a sprite works better than swinging at wind.",
+  "question": "If Whistlebrack whistles away exactly one third of the 486 apples, how many apples are left for the village?",
+  "answer": 324,
+  "unit": "apples",
+  "distractors": [
+    162,
+    243,
+    486
+  ],
+  "hint": "First find one third of 486 — that's the sprite's share. Then take it away from the whole pile.",
+  "victory": "Mr 6 showed Whistlebrack that a third of 486 was only 162, so she'd been bragging about a very small breeze; embarrassed, she whistled the apples back and settled for the bruised ones.",
+  "image": "images/whistlebrack-orchard-thirds.webp",
+  "imagePrompt": "A brave numeral-six knight with blue cape standing among moonlit apple trees, counting apples aloud while a puffy-cheeked wind sprite hovers with a swirling basket of leaves and fruit."
+}

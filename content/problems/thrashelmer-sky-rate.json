@@ -1,0 +1,19 @@
+{
+  "id": "thrashelmer-sky-rate",
+  "tier": "champion",
+  "title": "The Race of the Runaway Balloon",
+  "monster": "Thrashelmer the Gale Jaw",
+  "story": "Thrashelmer the Gale Jaw, a whale-shaped storm beast, is chasing a runaway mail balloon carrying a sleeping baker. The balloon drifts at 12 miles per hour; Thrashelmer swims the wind at 20 miles per hour and is 24 miles behind. Mr 6, riding the balloon's rigging, does the math on his sleeve.",
+  "question": "If Thrashelmer gains on the balloon at the difference of their speeds and starts 24 miles behind, how many hours until he catches up?",
+  "answer": 3,
+  "unit": "hours",
+  "distractors": [
+    2,
+    8,
+    1.2
+  ],
+  "hint": "How many miles does Thrashelmer close each hour? Use that gap-closing speed, not 20.",
+  "victory": "Knowing he had exactly 3 hours, Mr 6 spent two of them steering into a warm updraft; Thrashelmer arrived at empty sky and got a faceful of cloud instead of a baker.",
+  "image": "images/thrashelmer-sky-rate.webp",
+  "imagePrompt": "A patchwork mail balloon high above golden clouds with a numeral-six knight clinging to the rigging, a vast whale-shaped storm beast churning through the wind far behind."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vellumroot-fungus-fraction",
+  "tier": "champion",
+  "title": "The Fraction of the Fungus Wall",
+  "monster": "Vellumroot the Cellar Bloom",
+  "story": "Beneath the old cheese cellars of Wickmarch, Vellumroot the Cellar Bloom has sealed the door with a wall of glowing gray fungus, trapping twelve dairy maids inside. Mr 6 discovers the bloom only shrinks when you name exactly how much of it you can dissolve with the vinegar barrels on hand. The wall is 480 square feet, and the barrels can dissolve three fifths of it, after which the maids can widen the gap by 44 more square feet themselves.",
+  "question": "How many square feet of fungus wall will still be standing after the vinegar and the maids have done their work?",
+  "answer": 148,
+  "unit": "square feet",
+  "distractors": [
+    288,
+    192,
+    236
+  ],
+  "hint": "First find three fifths of 480 — that's what the vinegar removes. Then subtract that from the whole wall before taking away the maids' 44.",
+  "victory": "Mr 6 called out \"One hundred forty-eight!\" and the bloom sagged like wet laundry, letting twelve very cheesy maids stroll free. \"Math,\" said Mr 6, \"is the strongest vinegar there is.\"",
+  "image": "images/vellumroot-fungus-fraction.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape holding a lantern before a towering wall of pale glowing fungus in a damp stone cheese cellar, vinegar barrels steaming at his feet."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "emberfen-magma-average",
+  "tier": "champion",
+  "title": "The Volcano's Missing Day",
+  "monster": "Emberfen the Ash Bookkeeper",
+  "story": "Emberfen the Ash Bookkeeper records the volcano's rumbles, and the mountain village evacuates whenever the weekly average climbs too high. Today Emberfen has smudged one day's entry with soot and gleefully claims the village must flee. Mr 6 peers at the ledger and says, \"We can find that number.\"",
+  "question": "Over 6 days the volcano rumbled 14, 9, 22, 11, 18, and 16 times. Emberfen says the 7-day average must be exactly 15 rumbles. How many rumbles must the smudged seventh day have?",
+  "answer": 15,
+  "unit": "rumbles",
+  "distractors": [
+    90,
+    105,
+    12
+  ],
+  "hint": "If the average of 7 days is 15, what must all 7 days add up to together?",
+  "victory": "Mr 6 filled in the smudge, the average held steady, and Emberfen had to admit nobody needed to run anywhere — so the village threw a bonfire party instead.",
+  "image": "images/emberfen-magma-average.webp",
+  "imagePrompt": "A soot-streaked ash creature with a glowing ledger perches on a volcanic ridge under orange smoke while a small numeral-six knight recalculates the average on a slate, villagers waiting below."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cindercrown-forge-rate",
+  "tier": "champion",
+  "title": "Cindercrown's Cooling Forge",
+  "monster": "Cindercrown the Ember Smith",
+  "story": "Cindercrown the Ember Smith has chained the village bell inside his volcano forge, and it can only be freed with 91 hammer-strikes on the chain. Mr 6 strikes 7 times per minute, but the forge floor cracks open after 15 minutes, so he needs to know his timing exactly.",
+  "question": "At 7 strikes per minute, how many minutes does Mr 6 need to land all 91 strikes?",
+  "answer": 13,
+  "unit": "minutes",
+  "distractors": [
+    15,
+    98,
+    12
+  ],
+  "hint": "How many sevens fit into 91? Try 7 times 10 first, then see what's left over.",
+  "victory": "The chain fell at minute thirteen with two minutes to spare, and Cindercrown was so impressed by the arithmetic that he forged Mr 6 a brand-new number-shaped shield.",
+  "image": "images/cindercrown-forge-rate.webp",
+  "imagePrompt": "A crown-of-embers blacksmith monster looming over a glowing anvil in a volcanic forge with lava seams in the floor, as a numeral-six knight hammers a chained bell free amid orange sparks."
+}

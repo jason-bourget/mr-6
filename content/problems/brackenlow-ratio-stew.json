@@ -1,0 +1,19 @@
+{
+  "id": "brackenlow-ratio-stew",
+  "tier": "champion",
+  "title": "Brackenlow's Bottomless Stew",
+  "monster": "Brackenlow the Swamp Cook",
+  "story": "Brackenlow the Swamp Cook refuses to release the ferry passengers until his stew is perfect, and his recipe demands moss and mudroot in a strict ratio of 5 to 3. He has already dumped in 45 handfuls of moss and is now cackling about how nobody can figure out the rest.",
+  "question": "How many handfuls of mudroot are needed to match 45 handfuls of moss at a ratio of 5 to 3?",
+  "answer": 27,
+  "unit": "handfuls",
+  "distractors": [
+    75,
+    43,
+    9
+  ],
+  "hint": "How many groups of 5 moss are in 45? Each of those groups needs 3 mudroot.",
+  "victory": "Mr 6 measured 27 handfuls exactly, and Brackenlow tasted the stew, burst into happy tears, and ferried everyone across for free with seconds.",
+  "image": "images/brackenlow-ratio-stew.webp",
+  "imagePrompt": "A big-bellied swamp cook stirring an enormous bubbling cauldron on a misty bog dock, glowing green steam rising, while a numeral-six knight balances handfuls of moss and mudroot."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "marginalia-bookwyrm",
+  "tier": "champion",
+  "title": "The Bookwyrm's Fourth Riddle",
+  "monster": "Marginalia the Bookwyrm",
+  "story": "Marginalia the Bookwyrm had coiled around the Grand Library and refused to release a single book until a challenger averaged 86 points across her four riddles. Mr 6 had already answered three, and the wyrm's tail thumped impatiently. The librarians held their breath.",
+  "question": "Mr 6 scored 88, 92, and 79 on the first three riddles; what must he score on the fourth to average exactly 86?",
+  "answer": 85,
+  "unit": "points",
+  "distractors": [
+    86,
+    84,
+    259
+  ],
+  "hint": "An average of 86 over four riddles means a certain total — find that total first, then subtract what he already has.",
+  "victory": "Mr 6 scored precisely 85, the average clicked to 86, and Marginalia uncoiled with a rustling sigh of respect. 'Averages don't care how you get there,' he told her, 'only where you land.'",
+  "image": "images/marginalia-bookwyrm.webp",
+  "imagePrompt": "A vast domed library at night with a long scaly bookwyrm coiled around the shelves, spectacles on its snout, facing a small numeral-six knight standing on a stack of tomes."
+}

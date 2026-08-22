@@ -1,0 +1,19 @@
+{
+  "id": "glimmerfrost-imp-legion",
+  "tier": "champion",
+  "title": "The Legion in Rows",
+  "monster": "The Glimmerfrost Imps",
+  "story": "Twelve tidy rows of Glimmerfrost Imps marched across the frozen lake toward the fishing huts of Palewater, chittering in perfect step. Mr 6 knew imps melt in sunlight, and the clouds were breaking. He counted the ranks while the villagers stoked the signal fires.",
+  "question": "There are 12 rows of 15 imps each, and when the sun breaks through exactly one quarter of them melt away; how many imps are still marching?",
+  "answer": 135,
+  "unit": "imps",
+  "distractors": [
+    180,
+    45,
+    90
+  ],
+  "hint": "Find the total army first with rows times columns, then work out what one quarter of that total is.",
+  "victory": "Mr 6 marched the remaining 135 imps straight into the shadow of the ice cliff, where they froze into a very sparkly, very harmless garden fence. The villagers charge admission now.",
+  "image": "images/glimmerfrost-imp-legion.webp",
+  "imagePrompt": "Neat rows of tiny glittering ice imps marching across a frozen lake as sunbeams pierce the clouds, with a numeral-six knight on a snowbank counting on his fingers."
+}

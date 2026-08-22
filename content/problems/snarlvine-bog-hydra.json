@@ -1,0 +1,19 @@
+{
+  "id": "snarlvine-bog-hydra",
+  "tier": "champion",
+  "title": "Snarlvine's Growing Grip",
+  "monster": "Snarlvine the Bog Hydra",
+  "story": "Snarlvine the Bog Hydra had wrapped its tentacles around a sunken wagon with a family's cat still yowling inside. Worse, every tentacle cut away caused three fresh ones to sprout in its place. A panicked farmhand had already been hacking away, and Mr 6 called for calm and counted.",
+  "question": "Snarlvine started with 7 tentacles, and each cut removes 1 but grows 3 back; how many tentacles does it have after 8 cuts?",
+  "answer": 23,
+  "unit": "tentacles",
+  "distractors": [
+    31,
+    15,
+    24
+  ],
+  "hint": "Each cut removes one and adds three — so what is the net change in tentacles per cut?",
+  "victory": "Mr 6 stopped the cutting, tickled the twenty-three tentacles with a reed, and Snarlvine giggled itself loose, releasing the wagon and one extremely damp cat. 'Every cut made it stronger,' he said. 'So I stopped cutting.'",
+  "image": "images/snarlvine-bog-hydra.webp",
+  "imagePrompt": "A misty green swamp where a many-tentacled vine hydra grips a half-sunken wagon, a numeral-six knight standing on a log holding up a reed instead of a sword."
+}

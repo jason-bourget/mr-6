@@ -1,0 +1,19 @@
+{
+  "id": "sporegorge-puffcap-count",
+  "tier": "champion",
+  "title": "Do Not Stomp the Mushrooms",
+  "monster": "Sporegorge the Puffcap Fiend",
+  "story": "Deep in the Glowspore Caverns, Sporegorge the Puffcap Fiend giggles from a ring of 7 fat blue mushrooms. 'Stomp me!' it dares. 'Everyone stomps!' Mr 6 remembers the miners' warning: every single stomp makes every mushroom split into two, and he decides to count before he kicks.",
+  "question": "If Mr 6 stomped 5 times in a row, and all 7 mushrooms doubled with each stomp, how many mushrooms would be standing after the fifth stomp?",
+  "answer": 224,
+  "unit": "mushrooms",
+  "distractors": [
+    112,
+    70,
+    35
+  ],
+  "hint": "Doubling five times means multiplying by 2 five separate times — try writing 7, then 14, and keep going.",
+  "victory": "'Two hundred twenty-four? No thank you,' said Mr 6, and he simply picked the seven mushrooms and put them in a basket. Sporegorge, with nothing left to split, popped into a puff of harmless blue glitter.",
+  "image": "images/sporegorge-puffcap-count.webp",
+  "imagePrompt": "A small numeral-six knight standing thoughtfully with sword lowered before a ring of glowing blue mushrooms and a grinning spore fiend in a softly luminous underground cavern."
+}

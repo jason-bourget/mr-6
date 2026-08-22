@@ -1,0 +1,19 @@
+{
+  "id": "cipher-vault-wraith",
+  "tier": "champion",
+  "title": "The Lock That Asked a Question",
+  "monster": "Cipher the Vault Wraith",
+  "story": "Cipher the Vault Wraith had sealed the village grain store inside a crypt door and floated smugly before it, whispering numbers. The door's lock would only open to one secret number, and the wraith swore no knight could ever find it. Mr 6 listened to the riddle twice, then smiled.",
+  "question": "The lock's riddle says: nine times the secret number, minus seventeen, equals one hundred; what is the secret number?",
+  "answer": 13,
+  "unit": "",
+  "distractors": [
+    117,
+    11,
+    12
+  ],
+  "hint": "Undo the riddle backwards: if something minus 17 equals 100, what was that something before the subtraction?",
+  "victory": "Mr 6 spoke 'thirteen,' the crypt door swung wide, and Cipher unraveled into a puff of dusty vowels. The village ate bread that winter, and the wraith's riddle became a nursery rhyme.",
+  "image": "images/cipher-vault-wraith.webp",
+  "imagePrompt": "A shadowy crypt doorway carved with glowing numerals, a hooded translucent wraith hovering before it, and a small numeral-six knight raising his sword as the lock begins to shine."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "slagmire-rust-plating",
+  "tier": "champion",
+  "title": "The Rust Plating Puzzle",
+  "monster": "Slagmire the Rust Titan",
+  "story": "In the abandoned iron foundry, Slagmire the Rust Titan clanks between the cold furnaces, flaking orange dust over the sleeping apprentices. Mr 6 studies the titan's crusted plating instead of charging in. 'Every hammer-blow I land,' he mutters, 'the rust drinks part of it — so I'd better know how much actually lands.'",
+  "question": "Mr 6's ringing hammer-strike carries 240 sparks of force, but Slagmire's rust plating absorbs 35% of it. How many sparks of force actually reach the titan?",
+  "answer": 156,
+  "unit": "sparks",
+  "distractors": [
+    84,
+    205,
+    216
+  ],
+  "hint": "First find 35% of 240 — that's the part the rust swallows. Then take that away from the whole 240.",
+  "victory": "156 sparks rang through the plating like a bell, and Slagmire shook himself into a harmless cloud of orange dust that settled politely into a bucket. 'Measured, not smashed,' said Mr 6, sweeping up.",
+  "image": "images/slagmire-rust-plating.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape swinging a glowing hammer at a hulking rust-crusted iron titan inside a shadowy old foundry lit by dim ember-orange furnace light."
+}

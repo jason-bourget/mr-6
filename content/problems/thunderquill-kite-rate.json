@@ -1,0 +1,19 @@
+{
+  "id": "thunderquill-kite-rate",
+  "tier": "champion",
+  "title": "The Kite of the Storm Peaks",
+  "monster": "Thunderquill the Sky Porcupine",
+  "story": "High above the Storm Peaks, Thunderquill the Sky Porcupine has snagged a shepherd girl's kite string and is dragging her sled-basket upward. Mr 6 grabs the winch rope, boots braced on the cliff, and starts reeling. The porcupine climbs steadily, so Mr 6 must know exactly how long the rescue will take before he runs out of rope.",
+  "question": "Thunderquill rises 14 meters every minute while Mr 6 winches the basket down 26 meters every minute. If the basket starts 96 meters above the ledge, how many minutes until it reaches the ledge?",
+  "answer": 8,
+  "unit": "minutes",
+  "distractors": [
+    12,
+    4,
+    2.4
+  ],
+  "hint": "Each minute, the basket only really drops by the winch speed MINUS the monster's climb. Find that net drop first.",
+  "victory": "The basket thumped safely onto the ledge with rope to spare, and Thunderquill — out-mathed and out of altitude — flumped down to become the world's spikiest kite anchor.",
+  "image": "images/thunderquill-kite-rate.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape braces on a windy cliff edge cranking a winch as a bristling storm-cloud porcupine tugs a rescue basket skyward, lightning glowing behind the peaks."
+}

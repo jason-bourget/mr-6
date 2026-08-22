@@ -1,0 +1,19 @@
+{
+  "id": "wracklebeak-regrowing-quills",
+  "tier": "champion",
+  "title": "Wracklebeak's Regrowing Quills",
+  "monster": "Wracklebeak the Cliff Porcupine",
+  "story": "Wracklebeak guards the seabird nests on the Ternstone Cliffs, firing quills at anyone who climbs near. Mr 6 discovers that each quill he plucks free causes 2 new quills to sprout — a bad trade, unless you plan ahead. The rescue party needs the quill count down to zero to reach the trapped chicks.",
+  "question": "Wracklebeak starts with 9 quills. Each time Mr 6 plucks 3 quills at once, only 1 new quill sprouts back. How many pluck-of-three actions does it take to bring him to exactly 1 quill?",
+  "answer": 4,
+  "unit": "plucks",
+  "distractors": [
+    3,
+    5,
+    9
+  ],
+  "hint": "Each pluck-of-three changes the total by minus 3 plus 1. Track it: 9, then 7, then...",
+  "victory": "After the fourth pluck, Wracklebeak was down to one lonely quill and used it as a toothpick. He handed over the nests, admitted defeat, and asked Mr 6 to teach him subtraction.",
+  "image": "images/wracklebeak-regrowing-quills.webp",
+  "imagePrompt": "A bristling seabird-porcupine perched on a windy cliff ledge above crashing waves, quills shrinking as a tiny caped numeral 6 counts on his fingers."
+}

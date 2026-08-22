@@ -1,0 +1,19 @@
+{
+  "id": "nightlace-web-fraction",
+  "tier": "champion",
+  "title": "Nightlace and the Fraction of Silk",
+  "monster": "Nightlace the Cellar Weaver",
+  "story": "Nightlace the Cellar Weaver has webbed shut the town's water cistern, and the web only dissolves when cut in the right amounts. Cut too little and it re-knits; cut too much and the ceiling comes down. Mr 6 studies the shimmering strands and starts figuring in fractions.",
+  "question": "The web is 3/5 silk and 2/5 dust. Mr 6 must cut away 1/4 of the silk part. If the whole web weighs 60 kilograms, how many kilograms must he cut?",
+  "answer": 9,
+  "unit": "kilograms",
+  "distractors": [
+    36,
+    15,
+    24
+  ],
+  "hint": "Find the silk part of the 60 kilograms first, then take one quarter of just that.",
+  "victory": "Exactly nine kilograms of silk drifted away and the whole web unravelled like a dropped sweater; Nightlace applauded with all eight legs and moved to the barn.",
+  "image": "images/nightlace-web-fraction.webp",
+  "imagePrompt": "A shimmering grey spider the size of a pony perched on a vast silver web sealing a stone cistern, a numeral-six knight measuring strands by lantern light in a damp cellar."
+}

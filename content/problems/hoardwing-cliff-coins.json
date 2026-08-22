@@ -1,0 +1,19 @@
+{
+  "id": "hoardwing-cliff-coins",
+  "tier": "champion",
+  "title": "Hoardwing's Borrowed Shine",
+  "monster": "Hoardwing the Magpie Wraith",
+  "story": "Hoardwing the Magpie Wraith has spent a hundred years snatching coins from the fishing village and stuffing them into her cliffside nest. She isn't wicked, just terribly fond of shiny things, and when Mr 6 offers her a mirror-bright shield polish she gladly gives everything back. Now the coins must be shared out fairly.",
+  "question": "The recovered nest holds 3 chests of 148 coins each, to be shared equally among the 12 fishing families. How many coins does each family get?",
+  "answer": 37,
+  "unit": "coins",
+  "distractors": [
+    444,
+    148,
+    36
+  ],
+  "hint": "Find the total number of coins in all three chests before you split anything twelve ways.",
+  "victory": "Every family got exactly 37 coins with none left over, and Hoardwing perched on Mr 6's helmet admiring her reflection. 'Sharing,' she croaked, 'is shinier than I expected.'",
+  "image": "images/hoardwing-cliff-coins.webp",
+  "imagePrompt": "A glossy black magpie wraith on a windy cliffside nest of spilled gold coins, with a numeral-six knight stacking equal little coin piles as fishing villagers climb up in dawn light."
+}

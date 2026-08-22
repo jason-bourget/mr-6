@@ -1,0 +1,19 @@
+{
+  "id": "barnaclebeard-harbor-toll",
+  "tier": "champion",
+  "title": "The Harbor Merchant's Trick",
+  "monster": "Barnaclebeard the Wharf Ogre",
+  "story": "Barnaclebeard the Wharf Ogre ran the only stall on the Saltmoss docks and overcharged every sailor who couldn't count fast. Mr 6 needed rope-vials and a tide chart to rescue a stranded crew before nightfall. He laid a single gold-marked twenty on the barrel and waited.",
+  "question": "Mr 6 buys 3 rope-vials at 2.45 coins each plus a tide chart for 4.80 coins, and pays with 20 coins; how many coins of change should he get back?",
+  "answer": 7.85,
+  "unit": "coins",
+  "distractors": [
+    12.15,
+    7.35,
+    15.2
+  ],
+  "hint": "Work out the cost of the three vials first, then add the chart before you subtract from 20.",
+  "victory": "Barnaclebeard tried to hand back six coins, met Mr 6's steady gaze, and grumpily counted out 7.85 exactly. The rescued crew ate supper on shore that night, and the ogre started using a real cash box.",
+  "image": "images/barnaclebeard-harbor-toll.webp",
+  "imagePrompt": "A foggy harbor dock at dusk with a barnacle-crusted ogre behind a cluttered market stall, glaring as a numeral-six knight in a blue cape counts coins on an upturned barrel."
+}

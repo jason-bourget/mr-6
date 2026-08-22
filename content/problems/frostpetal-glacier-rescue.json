@@ -1,0 +1,19 @@
+{
+  "id": "frostpetal-glacier-rescue",
+  "tier": "champion",
+  "title": "Frostpetal's Creeping Ice",
+  "monster": "Frostpetal the Glacier Bloom",
+  "story": "Deep in the blue glacier, Frostpetal the Glacier Bloom is sealing a mine tunnel with ice that creeps forward 8 meters every hour. Three miners are trapped 96 meters down the tunnel, and the rescue sled travels 40 meters every hour from the entrance. Mr 6 must know whether the sled reaches them before the ice does.",
+  "question": "How many hours does the ice take to seal all 96 meters of the tunnel?",
+  "answer": 12,
+  "unit": "hours",
+  "distractors": [
+    8,
+    2.4,
+    104
+  ],
+  "hint": "The ice covers the same 8 meters every hour. How many 8s make 96?",
+  "victory": "Mr 6 proved the sled needed under three hours while the ice needed twelve, so the miners rode out laughing — and Frostpetal, out-scheduled, bloomed into a harmless ice flower.",
+  "image": "images/frostpetal-glacier-rescue.webp",
+  "imagePrompt": "A crystalline flower-shaped ice monster spreading frost down a glowing blue mine tunnel while a numeral-six knight urges a rescue sled forward under lantern light."
+}

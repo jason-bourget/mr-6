@@ -1,0 +1,19 @@
+{
+  "id": "marrowgleam-crypt-share",
+  "tier": "champion",
+  "title": "The Crypt That Owed the Village",
+  "monster": "Marrowgleam the Tomb Accountant",
+  "story": "Beneath the chapel, Marrowgleam the Tomb Accountant guards a hoard the old baron took from the village long ago. He refuses to open the vault unless someone can divide it fairly — \"fairness,\" he sniffs, \"is the only spell I respect.\" Mr 6 rolls up his cape sleeves and borrows a scrap of parchment.",
+  "question": "The vault holds 1,148 silver coins. Marrowgleam keeps 1/4 of them for the crypt's upkeep, and the rest is split equally among 41 villagers. How many coins does each villager receive?",
+  "answer": 21,
+  "unit": "coins",
+  "distractors": [
+    28,
+    287,
+    861
+  ],
+  "hint": "Take away the crypt's quarter first, then divide what's left by 41.",
+  "victory": "Marrowgleam checked the arithmetic three times, found it flawless, and swung the vault open with a delighted rattle — the first honest audit in two hundred years.",
+  "image": "images/marrowgleam-crypt-share.webp",
+  "imagePrompt": "A candlelit stone crypt where a tall skeletal accountant in a dusty robe holds a ledger beside an open coin vault, a small numeral-six knight showing his scratch-paper division on a tomb lid."
+}

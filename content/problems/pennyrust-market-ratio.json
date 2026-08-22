@@ -1,0 +1,19 @@
+{
+  "id": "pennyrust-market-ratio",
+  "tier": "champion",
+  "title": "The Ratio of Rust and Rye",
+  "monster": "Pennyrust the Barter Gremlin",
+  "story": "Pennyrust the Barter Gremlin has locked the granary door and will only trade by ratio, cackling that no knight understands proportion. The bakers need rye flour for the harvest bread and have only iron nails to trade. Mr 6 straightens his helmet and steps up to the crooked little counter.",
+  "question": "Pennyrust trades 7 nails for every 4 kilograms of rye. If the bakers hand over 91 nails, how many kilograms of rye do they get?",
+  "answer": 52,
+  "unit": "kilograms",
+  "distractors": [
+    13,
+    364,
+    49
+  ],
+  "hint": "How many groups of 7 nails are in 91? Each group buys 4 kilograms.",
+  "victory": "Fifty-two kilograms rolled out the granary door, and Pennyrust sulked so hard his ears rusted — until Mr 6 taught him a fairer ratio for next season.",
+  "image": "images/pennyrust-market-ratio.webp",
+  "imagePrompt": "A wiry green gremlin in a nail-studded apron guards a granary counter piled with rye sacks as a numeral-six knight stacks iron nails in neat groups of seven, warm dusty barn light."
+}

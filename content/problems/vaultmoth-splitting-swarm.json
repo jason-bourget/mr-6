@@ -1,0 +1,19 @@
+{
+  "id": "vaultmoth-splitting-swarm",
+  "tier": "champion",
+  "title": "The Moth That Was Many",
+  "monster": "Vaultmoth the Splitting Silkwing",
+  "story": "Deep in the moonlit granary loft, Vaultmoth the Splitting Silkwing eats grain sacks — and every swat of a broom splits her into more moths. The farmers have already swung three times and things are getting worse. Mr 6 puts a hand on the broom and says, \"Let us think before we swing again.\"",
+  "question": "Vaultmoth started as 1 moth, and each swat triples the number of moths. The farmers have already swatted 3 times. If Mr 6 lets them swat exactly 2 more times before his freezing-lantern traps them all, how many moths will be in the loft?",
+  "answer": 243,
+  "unit": "moths",
+  "distractors": [
+    27,
+    81,
+    15
+  ],
+  "hint": "Start at 1 and triple it once for every swat — count all five swats.",
+  "victory": "Two hundred forty-three moths flew straight into Mr 6's cold blue lantern-light and settled down for a nap; the grain was saved, and the farmers hung up their brooms.",
+  "image": "images/vaultmoth-splitting-swarm.webp",
+  "imagePrompt": "A moonlit wooden granary loft swirling with hundreds of pale silver moths as a small numeral-six knight raises a glowing blue lantern, farmers frozen mid-broom-swing behind him."
+}

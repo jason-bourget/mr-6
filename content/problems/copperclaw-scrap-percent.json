@@ -1,0 +1,19 @@
+{
+  "id": "copperclaw-scrap-percent",
+  "tier": "champion",
+  "title": "Copperclaw's Crooked Scale",
+  "monster": "Copperclaw the Scrapyard Magpie",
+  "story": "In the clanging scrapyard market, Copperclaw the Scrapyard Magpie buys bent nails from the village children — but her magic scale always shaves off a slice of the pay. Mr 6 sets his little helmet on the counter and asks to see the numbers. Copperclaw nervously fluffs her copper feathers.",
+  "question": "The children's scrap is worth 240 coins, but Copperclaw's scale keeps 35% of it as a \"handling fee.\" If Mr 6 makes her return three quarters of what she kept, how many coins do the children end up with in total?",
+  "answer": 219,
+  "unit": "coins",
+  "distractors": [
+    156,
+    84,
+    240
+  ],
+  "hint": "First work out 35% of 240 — that's the fee. Then find three quarters of that fee and give it back.",
+  "victory": "Copperclaw counted twice, squawked once, and paid up; Mr 6 left her a polishing rag and a promise to check her scale every market day.",
+  "image": "images/copperclaw-scrap-percent.webp",
+  "imagePrompt": "A cluttered scrapyard stall at golden hour where a huge copper-feathered magpie hunches over a crooked brass scale while a small numeral-six knight taps the counter with a quill, children peeking from behind barrels."
+}

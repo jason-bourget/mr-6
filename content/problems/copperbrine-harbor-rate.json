@@ -1,0 +1,19 @@
+{
+  "id": "copperbrine-harbor-rate",
+  "tier": "champion",
+  "title": "Copperbrine's Sinking Ferry",
+  "monster": "Copperbrine the Bilge Kraken",
+  "story": "Copperbrine reaches one dripping tentacle through the hull of the Gullwing ferry, letting water pour into the hold. The passengers can bail, but Mr 6 needs to know if they'll make the harbor in time. He measures the leak and the pumps before anyone panics.",
+  "question": "Water floods in at 47 liters per minute, and the crew's pumps remove 32 liters per minute. If the hold can hold 450 more liters before the ferry sinks, how many minutes does Mr 6 have to reach the harbor?",
+  "answer": 30,
+  "unit": "minutes",
+  "distractors": [
+    15,
+    9.574,
+    14
+  ],
+  "hint": "The water isn't rising by 47 a minute — the pumps fight back. Find the NET gain per minute first.",
+  "victory": "Mr 6 called out '30 minutes — row like sixes!' and the ferry bumped the dock with four minutes to spare. Copperbrine, out-timed, let go and sulked beneath the pier.",
+  "image": "images/copperbrine-harbor-rate.webp",
+  "imagePrompt": "A barnacled kraken tentacle poking through the hull of a wooden ferry in a stormy gray harbor, with a determined numeral-6 knight pointing at the lighthouse."
+}

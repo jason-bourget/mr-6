@@ -1,0 +1,19 @@
+{
+  "id": "pallastor-crypt-lanterns",
+  "tier": "champion",
+  "title": "The Crypt of Nine Hundred Steps",
+  "monster": "Pallastor the Gloom Custodian",
+  "story": "Pallastor the Gloom Custodian has swallowed all the light in the Steppe Crypt, and the pilgrims trapped inside cannot find the stairs. Mr 6 knows each lantern he lights pushes back the darkness for exactly 14 steps of corridor, and the crypt corridor runs 900 steps from door to door.",
+  "question": "How many lanterns must Mr 6 light to cover all 900 steps of corridor?",
+  "answer": 65,
+  "unit": "lanterns",
+  "distractors": [
+    64,
+    14,
+    66
+  ],
+  "hint": "Divide 900 by 14 — but if there's any leftover corridor, that scrap of darkness still needs a whole lantern.",
+  "victory": "The sixty-fifth lantern flared over the last four dark steps, and Pallastor shrank to a grumpy shadow the size of a mouse and scurried off to sulk behind a coffin.",
+  "image": "images/pallastor-crypt-lanterns.webp",
+  "imagePrompt": "A towering hooded shadow custodian retreating down a vast stone crypt corridor as a chain of warm lanterns lights up behind a small numeral-six knight."
+}

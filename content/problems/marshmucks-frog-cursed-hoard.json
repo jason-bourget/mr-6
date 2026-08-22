@@ -1,0 +1,19 @@
+{
+  "id": "marshmucks-frog-cursed-hoard",
+  "tier": "champion",
+  "title": "Marshmuck's Frog-Cursed Hoard",
+  "monster": "Marshmuck the Bog Baron",
+  "story": "Deep in the Sighing Marsh, Marshmuck the Bog Baron sits on a chest of 480 silver coins stolen from fifteen flooded families. Mr 6 outwits him in a riddle-duel and wins the whole chest — but the Baron's parting curse turns one eighth of the coins into little green frogs that hop away into the reeds. Worse, the ferry-witch who rows the coins home takes 25% of whatever silver is left.",
+  "question": "After one eighth of the 480 coins hop away as frogs and the ferry-witch takes 25% of the remaining silver, the rest is shared equally among the 15 families — how many coins does each family receive?",
+  "answer": 21,
+  "unit": "coins",
+  "distractors": [
+    28,
+    315,
+    32
+  ],
+  "hint": "Work in order: first take away the frog-coins, then take away the witch's quarter of what's left, and only then divide among the families.",
+  "victory": "Fifteen families count 21 shining coins each, and Marshmuck sulks in the reeds surrounded by frogs who all, annoyingly, croak in perfect multiplication tables.",
+  "image": "images/marshmucks-frog-cursed-hoard.webp",
+  "imagePrompt": "A mossy bog at dusk where a warty swamp baron slumps beside an open treasure chest as silver coins leap away as green frogs, while a small numeral-six knight in a blue cape tallies figures on a lily pad."
+}

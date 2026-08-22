@@ -1,0 +1,19 @@
+{
+  "id": "grumworth-cellar-ratio",
+  "tier": "champion",
+  "title": "The Ratio in the Jam Cellar",
+  "monster": "Grumworth the Preserve Gnome",
+  "story": "Grumworth the Preserve Gnome has sealed the orphanage cellar and won't release a single jar until someone brews his winter jam correctly. His recipe demands berries and honey in the ratio 5 to 2, and there are 350 berries in the copper pot. Mr 6 ties on an apron over his cape.",
+  "question": "For 350 berries at a 5-to-2 ratio of berries to honey, how many spoons of honey are needed?",
+  "answer": 140,
+  "unit": "spoons",
+  "distractors": [
+    70,
+    175,
+    700
+  ],
+  "hint": "Find out how many berries make one 'part' by dividing 350 by 5, then take 2 of those parts.",
+  "victory": "Mr 6 stirred in exactly 140 spoons and the jam glowed ruby-perfect; Grumworth tasted it, wept happily into his beard, and gave the orphanage every jar in the cellar.",
+  "image": "images/grumworth-cellar-ratio.webp",
+  "imagePrompt": "A cozy stone cellar crowded with glowing jam jars, a tiny bearded gnome supervising as an apron-wearing numeral-six knight stirs a huge copper pot of berries and honey."
+}

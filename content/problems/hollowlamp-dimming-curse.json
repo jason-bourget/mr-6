@@ -1,0 +1,19 @@
+{
+  "id": "hollowlamp-dimming-curse",
+  "tier": "champion",
+  "title": "The Crypt That Ate the Light",
+  "monster": "Hollowlamp the Wick Wraith",
+  "story": "Hollowlamp the Wick Wraith haunts the Crypt of Quiet Bells, and its curse halves the brightness of any lantern once every hour. Mr 6 brought the Bright Bell lantern down to rescue two lost map-makers who had been trapped for hours. He needed to know how dim things would get before the rescue was done.",
+  "question": "The Bright Bell lantern starts at 640 lumens and the curse halves it every hour; how many lumens remain after 5 hours?",
+  "answer": 20,
+  "unit": "lumens",
+  "distractors": [
+    40,
+    128,
+    10
+  ],
+  "hint": "Halve 640 once for the first hour, then halve that result again — count carefully to five halvings.",
+  "victory": "Knowing exactly how dim it would get, Mr 6 raced the map-makers out with 20 lumens to spare, and Hollowlamp sputtered off to sulk. 'You can't scare a fellow who already did the math,' Mr 6 said.",
+  "image": "images/hollowlamp-dimming-curse.webp",
+  "imagePrompt": "A dim stone crypt with carved bells on the walls, a translucent wick-wraith curling around a fading lantern held high by a small numeral-six knight leading two frightened map-makers."
+}

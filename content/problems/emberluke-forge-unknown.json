@@ -1,0 +1,19 @@
+{
+  "id": "emberluke-forge-unknown",
+  "tier": "champion",
+  "title": "The Anvil Riddle of Emberluke",
+  "monster": "Emberluke the Cinder Warden",
+  "story": "Emberluke, a slag-bodied warden with coals for eyes, has locked the village smithy and swallowed the key. He'll cough it up only for someone who can read his anvil riddle, scratched in glowing letters across the iron. Mr 6 squints through the heat shimmer.",
+  "question": "The riddle reads: 'A secret number is multiplied by 7, then 12 is added, and the result is 96.' What is the secret number?",
+  "answer": 12,
+  "unit": "",
+  "distractors": [
+    84,
+    15.43,
+    108
+  ],
+  "hint": "Work backwards: undo the 'add 12' first, then undo the 'times 7'.",
+  "victory": "Mr 6 shouted 'Twelve — which is two of me!' and Emberluke sneezed out the key in a puff of sparks. The smithy reopened, and the warden stayed on as a very warm doorstop.",
+  "image": "images/emberluke-forge-unknown.webp",
+  "imagePrompt": "A hulking slag-and-ember warden blocking a glowing forge doorway, riddle-runes burning on a black anvil, with a small numeral-6 knight shielding his eyes from the heat."
+}

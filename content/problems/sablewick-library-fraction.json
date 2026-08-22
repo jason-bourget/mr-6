@@ -1,0 +1,19 @@
+{
+  "id": "sablewick-library-fraction",
+  "tier": "champion",
+  "title": "The Ink Thief of Sablewick",
+  "monster": "Sablewick the Ink Siphon",
+  "story": "Sablewick the Ink Siphon has drunk from the great library's ink reservoir, which held 480 liters this morning. He swallowed three-eighths of it before the scribes noticed, and then coughed 45 liters back up when Mr 6 startled him with a sneeze.",
+  "question": "How many liters of ink are in the reservoir now?",
+  "answer": 345,
+  "unit": "liters",
+  "distractors": [
+    300,
+    180,
+    435
+  ],
+  "hint": "First work out three-eighths of 480 — divide by 8, then multiply by 3. Take that away, then add the coughed-up ink back.",
+  "victory": "Mr 6 recounted the reservoir at 345 liters and Sablewick, thoroughly out-audited, agreed to work as the library's ink-refiller for a hundred years.",
+  "image": "images/sablewick-library-fraction.webp",
+  "imagePrompt": "A long inky serpent-siphon creature curled around a giant brass ink reservoir in a candlelit library of towering bookshelves, dark droplets everywhere, with a numeral-six knight holding a measuring rod."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pyrelisk-splitting-emberling",
+  "tier": "champion",
+  "title": "Pyrelisk and the Splitting Embers",
+  "monster": "Pyrelisk the Emberling Swarm",
+  "story": "In the ash pits below Mount Grindle, Pyrelisk begins as a single ember-imp, but every time a sword clangs against stone it splits into three. Mr 6 taps his blade on the rock once just to test the legend — and then, wisely, stops and starts counting instead.",
+  "question": "Starting with 1 ember-imp, if the number triples with each of 5 clangs, how many ember-imps would there be after the 5th clang?",
+  "answer": 243,
+  "unit": "imps",
+  "distractors": [
+    81,
+    15,
+    729
+  ],
+  "hint": "Start at 1 and triple it once for each clang: 1, 3, 9... keep going until you've done all five clangs.",
+  "victory": "Mr 6 sheathed his sword, whispered the number 243 aloud, and Pyrelisk — who only grew when struck — sputtered out from sheer boredom into one sleepy, harmless spark.",
+  "image": "images/pyrelisk-splitting-emberling.webp",
+  "imagePrompt": "A brave numeral-six knight holding his sword deliberately still while tiny grinning ember-imps multiply across a smoky volcanic ash pit, orange firelight glowing on his helmet."
+}

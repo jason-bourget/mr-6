@@ -1,0 +1,19 @@
+{
+  "id": "grindlethorn-market-money",
+  "tier": "champion",
+  "title": "The Crooked Change of Grindlethorn",
+  "monster": "Grindlethorn the Ledger Imp",
+  "story": "At the Saltgate market, a tiny horned imp with an abacus tail sells 'rescue supplies' to travelers and always shortchanges them. Mr 6 steps up to the stall with a heavy purse and an even heavier sense of fairness. Grindlethorn grins and starts adding — badly.",
+  "question": "Mr 6 buys 3 coils of rope at 2.45 coins each and 4 tin lanterns at 1.30 coins each, and pays with a 20-coin note. How much change should he receive?",
+  "answer": 7.45,
+  "unit": "coins",
+  "distractors": [
+    12.55,
+    17.55,
+    5.2
+  ],
+  "hint": "Find the rope total and the lantern total separately, add them, then subtract from 20.",
+  "victory": "Mr 6 held out his hand and said '7 coins and 45 — I'll wait.' Grindlethorn's abacus tail curled up in shame, and he refunded the whole market before lunchtime.",
+  "image": "images/grindlethorn-market-money.webp",
+  "imagePrompt": "A small horned imp merchant with an abacus for a tail behind a cluttered market stall of ropes and tin lanterns, facing a polite numeral-6 knight holding out a palm, warm afternoon light."
+}

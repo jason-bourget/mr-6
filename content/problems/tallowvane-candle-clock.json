@@ -1,0 +1,19 @@
+{
+  "id": "tallowvane-candle-clock",
+  "tier": "champion",
+  "title": "The Candle Clock of Tallowvane",
+  "monster": "Tallowvane the Wax Warden",
+  "story": "In the bell tower of a mountain abbey, Tallowvane the Wax Warden has locked the choir children behind a door of hardened wax. The door only melts while the enchanted candle-clock burns, and the candle stands 42 centimeters tall, shrinking at a steady 3.5 centimeters every minute. Mr 6 counts the wax puddling on the flagstones and starts doing sums with the tip of his sword.",
+  "question": "If the candle burns down 3.5 centimeters each minute, how many minutes until the 42-centimeter candle is completely gone?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    14,
+    38.5,
+    10.5
+  ],
+  "hint": "How many times does 3.5 fit into 42? Try doubling: if 3.5 goes in 10 times, that's 35 centimeters — how much is left?",
+  "victory": "Mr 6 timed the melt perfectly and swung the door open with one second to spare, and Tallowvane sputtered out into a friendly little puddle who now works as the abbey's timekeeper.",
+  "image": "images/tallowvane-candle-clock.webp",
+  "imagePrompt": "A tall wax-cloaked warden guarding a melting door of amber wax in a candlelit bell tower, with a brave numeral-six knight watching a shrinking candle-clock as warm light pools on stone floors."
+}

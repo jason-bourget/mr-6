@@ -1,0 +1,19 @@
+{
+  "id": "gorrowpit-splitting-slime",
+  "tier": "champion",
+  "title": "Do Not Strike the Slime",
+  "monster": "Gorrowpit the Trebling Ooze",
+  "story": "In the flooded lower mines of Gorrowpit, an ooze triples in number every single time a blade touches it. The last knight struck it four times and had to run. Mr 6 stands ankle-deep in green water and decides to count instead of swing.",
+  "question": "If there is 1 ooze now and every strike makes each ooze become 3 oozes, how many oozes would there be after 5 strikes?",
+  "answer": 243,
+  "unit": "oozes",
+  "distractors": [
+    81,
+    15,
+    125
+  ],
+  "hint": "After one strike there are 3, after two there are 9 — keep multiplying by 3 for each strike.",
+  "victory": "Mr 6 sheathed his sword, announced that striking five times would summon 243 oozes, and instead pulled the drain plug — Gorrowpit swirled away with a very surprised gurgle.",
+  "image": "images/gorrowpit-splitting-slime.webp",
+  "imagePrompt": "A numeral-six knight standing in knee-deep green mine water, sword pointedly sheathed, facing a wobbling glowing ooze that is already faintly splitting into three, lit by a single hanging lamp."
+}

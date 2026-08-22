@@ -1,0 +1,19 @@
+{
+  "id": "x",
+  "tier": "champion",
+  "title": "x",
+  "monster": "x",
+  "story": "x",
+  "question": "x?",
+  "answer": 1,
+  "unit": "x",
+  "distractors": [
+    2,
+    3,
+    4
+  ],
+  "hint": "x",
+  "victory": "x",
+  "image": "images/x.webp",
+  "imagePrompt": "x"
+}

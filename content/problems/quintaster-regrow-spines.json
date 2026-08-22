@@ -1,0 +1,19 @@
+{
+  "id": "quintaster-regrow-spines",
+  "tier": "champion",
+  "title": "Quintaster's Regrowing Spines",
+  "monster": "Quintaster the Cavern Urchin",
+  "story": "Quintaster the Cavern Urchin blocks the only exit from the crystal caves with 20 glowing spines. Snap off one spine and 4 new ones sprout in its place — but Mr 6 notices that each new spine is smaller and, more importantly, that Quintaster falls asleep the instant he has exactly 44 spines.",
+  "question": "Starting at 20 spines, if each snap removes 1 spine and grows 4 new ones, how many snaps are needed to reach exactly 44 spines?",
+  "answer": 8,
+  "unit": "snaps",
+  "distractors": [
+    6,
+    24,
+    11
+  ],
+  "hint": "Each snap changes the total by a net amount — you take one away and four appear. How much does the count go up per snap?",
+  "victory": "On the eighth snap Quintaster hit 44 spines exactly and dozed off with a whistly snore, and Mr 6 tiptoed the whole caving party out past him.",
+  "image": "images/quintaster-regrow-spines.webp",
+  "imagePrompt": "A giant spiny urchin creature glowing violet in a crystal cavern mouth, spines sprouting in bunches, as a numeral-six knight counts on his fingers with a sly grin."
+}

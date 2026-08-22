@@ -1,0 +1,19 @@
+{
+  "id": "blustervane-tower-average",
+  "tier": "champion",
+  "title": "The Tallier of Winds",
+  "monster": "Blustervane the Weather Clerk",
+  "story": "Blustervane the Weather Clerk, a bat-eared bureaucrat of storms, refuses to open the harbor gates unless the week's average wind is recorded exactly right. Over five days the winds measured 18, 22, 31, 24, and 15 knots. Sixty fishing boats wait outside in the swell.",
+  "question": "What is the average wind speed over those five days, in knots?",
+  "answer": 22,
+  "unit": "knots",
+  "distractors": [
+    110,
+    24,
+    16
+  ],
+  "hint": "Add all five measurements to get the total, then split that total evenly across the 5 days.",
+  "victory": "Mr 6 wrote '22' in Blustervane's enormous ledger, and the clerk, unable to find a single error, stamped it and cranked the harbor gates wide for the fleet.",
+  "image": "images/blustervane-tower-average.webp",
+  "imagePrompt": "A bat-eared clerk monster in spectacles holding a giant ledger atop a windy stone harbor tower, a numeral-six knight adding numbers with chalk as fishing boats bob below in stormy light."
+}

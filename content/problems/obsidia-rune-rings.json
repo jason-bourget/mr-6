@@ -1,0 +1,19 @@
+{
+  "id": "obsidia-rune-rings",
+  "tier": "champion",
+  "title": "Obsidia's Rune Lock",
+  "monster": "Obsidia the Riddle Sphinx",
+  "story": "At the volcano gate crouches Obsidia the Riddle Sphinx, wings of black glass, guarding the lava-forge where the village's plows are made. 'The lock has seven rings,' she purrs, 'each cut with the same number of runes, plus fifteen extra runes on the keystone. One hundred forty-one runes in all.' Mr 6 grins; he likes unknowns.",
+  "question": "If seven identical rings plus 15 keystone runes make 141 runes altogether, how many runes are on each ring?",
+  "answer": 18,
+  "unit": "runes",
+  "distractors": [
+    20,
+    126,
+    21
+  ],
+  "hint": "Take the 15 keystone runes off the total first — what's left belongs to the seven equal rings.",
+  "victory": "Mr 6 spun each ring to 18 and the lock sighed open in a breath of warm air. Obsidia bowed her glassy head: 'Most heroes guess. You subtracted first.'",
+  "image": "images/obsidia-rune-rings.webp",
+  "imagePrompt": "A sphinx with obsidian wings guarding a glowing rune-covered stone door at the mouth of a volcano, orange light washing over a small numeral-six knight studying the rings."
+}

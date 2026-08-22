@@ -1,0 +1,19 @@
+{
+  "id": "nimbrella-sky-fractions",
+  "tier": "champion",
+  "title": "Nimbrella Steals the Rain",
+  "monster": "Nimbrella the Cloud Siphon",
+  "story": "A jellyfish-shaped sky creature named Nimbrella drifts over the Farrow Valley and sips the rain right out of the clouds before it can fall. The farmers' reservoir is drying, and Mr 6 floats up on a kite to negotiate. Nimbrella agrees to give back water — if the knight can say exactly how much is left.",
+  "question": "The reservoir held 840 barrels of water. Nimbrella siphoned away 1/4 of it on Monday, then 1/3 of what REMAINED on Tuesday. How many barrels are left?",
+  "answer": 420,
+  "unit": "barrels",
+  "distractors": [
+    630,
+    210,
+    490
+  ],
+  "hint": "Find what's left after Monday first — that's the amount Tuesday's fraction applies to.",
+  "victory": "Mr 6 named 420 without blinking, and Nimbrella, impressed, burped every drop back in a warm summer downpour. The farmers danced; Mr 6's cape took two days to dry.",
+  "image": "images/nimbrella-sky-fractions.webp",
+  "imagePrompt": "A translucent jellyfish-shaped cloud creature siphoning silver rain above a half-empty stone reservoir, with a numeral-6 knight riding a kite in a pale windy sky."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "basalt-crustshield",
+  "tier": "champion",
+  "title": "The Golem Who Drank the Heat",
+  "monster": "Basalt the Lava Golem",
+  "story": "Deep in the Emberpit, Basalt the Lava Golem lumbered toward a village of stonecutters, glowing crust hissing. Mr 6 carried three frost-charges from the glacier monks, and a shield-crust that swallowed most of any chill. He decided to measure before he threw.",
+  "question": "Each frost blast is worth 250 chill-points, but Basalt's crust blocks 40% of every blast, and his glowing crust holds 450 chill-points before it cools; how many frost blasts does Mr 6 need?",
+  "answer": 3,
+  "unit": "blasts",
+  "distractors": [
+    1.8,
+    2,
+    100
+  ],
+  "hint": "If 40% is blocked, what percent of each 250-point blast actually gets through?",
+  "victory": "Three blasts, exactly as counted — Basalt cooled into a friendly statue that now warms the stonecutters' soup pot. 'I didn't beat him,' Mr 6 shrugged. 'I just did the percentages.'",
+  "image": "images/basalt-crustshield.webp",
+  "imagePrompt": "A cracked, glowing lava golem in a red volcanic pit, frost mist curling off its shoulders as a small numeral-six knight with a sword and blue cape hurls a shimmering blue charge."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "thistlebane-ratio-antidote",
+  "tier": "champion",
+  "title": "Thistlebane's Ratio Antidote",
+  "monster": "Thistlebane the Sporecap Witch",
+  "story": "Thistlebane has sneezed a sleeping-spore over the village of Marrowdown, and only her own antidote can wake them. The recipe scrawled on her cauldron says the brew must mix dewwater to nettle-syrup in a ratio of 5 to 3, and Mr 6 must fill the great kettle exactly.",
+  "question": "The kettle must be filled with 320 milliliters of antidote in a 5:3 ratio of dewwater to nettle-syrup. How many milliliters of nettle-syrup are needed?",
+  "answer": 120,
+  "unit": "milliliters",
+  "distractors": [
+    200,
+    40,
+    160
+  ],
+  "hint": "5 parts plus 3 parts makes 8 equal parts. Find the size of one part first.",
+  "victory": "Mr 6 poured 120 milliliters of syrup, not a drop more, and the village woke sneezing but cheerful. Thistlebane admitted she'd never once measured her own recipe and asked for tutoring.",
+  "image": "images/thistlebane-ratio-antidote.webp",
+  "imagePrompt": "A mushroom-hatted witch peering over a bubbling copper kettle in a dim herb-hung cottage while a small caped numeral 6 tilts a measuring flask."
+}

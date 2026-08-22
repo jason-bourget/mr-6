@@ -1,0 +1,19 @@
+{
+  "id": "dunemaw-sand-crypt",
+  "tier": "champion",
+  "title": "Race of the Sinking Crypt",
+  "monster": "Dunemaw the Sand Sifter",
+  "story": "Dunemaw the Sand Sifter yawns beneath the desert crypt, and every yawn pulls sand — and two trapped scholars — downward. The stone gate at the end of the long corridor is grinding shut and will seal in 75 seconds. Mr 6 shoulders both scholars and eyes the corridor.",
+  "question": "The corridor is 480 feet long and Mr 6 can carry the scholars at 8 feet per second. If the gate seals in 75 seconds, how many seconds to spare will he have when he reaches it?",
+  "answer": 15,
+  "unit": "seconds",
+  "distractors": [
+    60,
+    67,
+    135
+  ],
+  "hint": "First work out how long the run itself takes: 480 feet at 8 feet each second. Then compare that to 75.",
+  "victory": "Mr 6 skidded through the gate with 15 whole seconds spare and used three of them to bow. Dunemaw got a mouthful of empty corridor and went back to sleep, thoroughly out-timed.",
+  "image": "images/dunemaw-sand-crypt.webp",
+  "imagePrompt": "A numeral-six knight sprinting down a torchlit sandstone corridor carrying two scholars as sand pours from the ceiling and a great stone gate grinds closed ahead."
+}

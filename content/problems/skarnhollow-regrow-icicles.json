@@ -1,0 +1,19 @@
+{
+  "id": "skarnhollow-regrow-icicles",
+  "tier": "champion",
+  "title": "The Cave That Grew Its Teeth Back",
+  "monster": "Skarnhollow the Icicle Maw",
+  "story": "The mouth of Skarnhollow's cave is barred by 30 razor icicles, and a caravan of traders is trapped inside. Every time Mr 6 knocks two icicles down, three new ones creep back from the cave roof — but the roof only holds so much frost, and each knock costs a minute. Mr 6 counts before he swings.",
+  "question": "Starting from 30 icicles, if each swing removes 2 but 3 regrow, how many icicles bar the cave after 12 swings?",
+  "answer": 42,
+  "unit": "icicles",
+  "distractors": [
+    36,
+    66,
+    12
+  ],
+  "hint": "Work out the net change from a single swing — does the number go up or down by how much? Then repeat it 12 times.",
+  "victory": "Mr 6 realized swinging only ADDED one icicle a time, so he stopped at nothing, breathed warm air on the roots instead, and the whole frozen gate slumped into slush as the traders cheered.",
+  "image": "images/skarnhollow-regrow-icicles.webp",
+  "imagePrompt": "A cave mouth fringed with glittering blue icicles like teeth, a frost-eyed maw shape in the rock, and a numeral-six knight lowering his sword to breathe warm mist on the ice while trapped traders watch."
+}

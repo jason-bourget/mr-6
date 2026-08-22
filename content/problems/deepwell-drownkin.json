@@ -1,0 +1,19 @@
+{
+  "id": "deepwell-drownkin",
+  "tier": "champion",
+  "title": "The Well That Wouldn't Stop",
+  "monster": "Drownkin the Well Spirit",
+  "story": "Drownkin the Well Spirit had sealed the Deepwell and set it flooding with a lost shepherd boy clinging to a ladder rung inside. Mr 6 peered down, measured the water with a knotted rope, and watched it climb steadily. He needed to know exactly how long the rescue rope had before the boy's ledge went under.",
+  "question": "The water is at 30 centimeters and rises 8 centimeters every minute, and the boy's ledge sits at 150 centimeters; how many minutes until the water reaches the ledge?",
+  "answer": 15,
+  "unit": "minutes",
+  "distractors": [
+    18.75,
+    15.75,
+    120
+  ],
+  "hint": "First figure out how far the water still has to rise, then see how many 8-centimeter minutes fit in that distance.",
+  "victory": "With four minutes to spare from his fifteen, Mr 6 hauled the shepherd boy up dry as toast, and Drownkin — thoroughly out-scheduled — drained away in a huff. 'Water rises on a timetable,' Mr 6 grinned, 'and I read timetables.'",
+  "image": "images/deepwell-drownkin.webp",
+  "imagePrompt": "A dark stone well with rising water glinting below, a small boy clinging to a ladder while a numeral-six knight in a blue cape lowers a knotted rope by torchlight."
+}

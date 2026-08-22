@@ -1,0 +1,19 @@
+{
+  "id": "clatterbroom-market-unknown",
+  "tier": "champion",
+  "title": "The Witch's Missing Multiplier",
+  "monster": "Clatterbroom the Hex Peddler",
+  "story": "At the Rushlight night market, Clatterbroom the Hex Peddler has locked seven cages of enchanted songbirds with a riddle-lock. The lock opens only when someone names the secret number that, multiplied by 7, gives 91 — and the peddler swears no knight has ever managed it. Mr 6 rolls up a sleeve; he is a number himself, after all.",
+  "question": "What number multiplied by 7 gives 91?",
+  "answer": 13,
+  "unit": "",
+  "distractors": [
+    12,
+    98,
+    84
+  ],
+  "hint": "Think of it as a division: 91 shared into 7 equal groups. Try 7 times 12 and see how close you get.",
+  "victory": "Mr 6 said 'thirteen' and the riddle-lock sprang open; ninety-one songbirds burst out singing, and Clatterbroom fled the market with feathers in her hat.",
+  "image": "images/clatterbroom-market-unknown.webp",
+  "imagePrompt": "A crowded lantern-lit night market with a hunched hex peddler beside seven cages of glowing songbirds, a numeral-six knight studying a riddle-lock carved with numerals."
+}
