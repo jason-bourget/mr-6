@@ -121,7 +121,7 @@ PROBLEM_SCHEMA = {
                     "answer": {"type": "number"},
                     "unit": {"type": "string", "description": "Short unit like 'feet', 'coins', 'heads'"},
                     "check": {"type": "string", "description": "Pure arithmetic expression that evaluates to the answer, e.g. '8*2*2*2' or 'ceil(6/4)'. Only digits, + - * / ( ) . and ceil/floor/round."},
-                    "distractors": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3, "description": "Exactly 3 plausible wrong answers modeling real kid mistakes (stopped a step early, wrong operation, reported an intermediate number). All distinct, none equal to the answer."},
+                    "distractors": {"type": "array", "items": {"type": "number"}, "description": "Exactly 3 plausible wrong answers modeling real kid mistakes (stopped a step early, wrong operation, reported an intermediate number). All distinct, none equal to the answer."},
                     "hint": {"type": "string", "description": "A gentle hint that scaffolds the first step without giving the answer"},
                     "victory": {"type": "string", "description": "1-2 sentence triumphant, funny resolution"},
                     "imagePrompt": {"type": "string", "description": "One-sentence visual description of the battle scene (monster, setting, mood) for an illustrator"},
