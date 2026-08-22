@@ -96,6 +96,22 @@
     "problems/solventia-acid-tide.json",
     "problems/pyrelisk-splitting-emberling.json",
     "problems/halcyra-mist-fraction.json",
-    "problems/x.json"
+    "problems/x.json",
+    "problems/knollwidder-loom-percent.json",
+    "problems/scuttlebrine-tide-rate.json",
+    "problems/vexlimb-splitting-marionette.json",
+    "problems/gullowmere-map-share.json",
+    "problems/embermoth-fuse-average.json",
+    "problems/caldrith-lava-halving.json",
+    "problems/parchleaf-orchard-ratio.json",
+    "problems/morrowquill-ink-unknown.json",
+    "problems/fathomgrist-mill-percent.json",
+    "problems/skerrywake-lighthouse-rate.json",
+    "problems/culverbind-splitting-echo.json",
+    "problems/marrowsplice-crypt-average.json",
+    "problems/thornabel-regrowing-brambles.json",
+    "problems/saltrigg-caravan-ratio.json",
+    "problems/gaudrelle-glass-lanterns.json",
+    "problems/ombrelith-shadow-unknown.json"
   ]
 }

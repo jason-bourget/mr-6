@@ -1,0 +1,19 @@
+{
+  "id": "knollwidder-loom-percent",
+  "tier": "champion",
+  "title": "The Loom That Ate the Cloaks",
+  "monster": "Knollwidder the Loom Wraith",
+  "story": "In a windmill full of clacking looms, Knollwidder the Loom Wraith unravels the village's winter cloaks thread by thread. Mr 6 climbs the ladder, cape flapping, and finds the wraith gloating over 240 finished cloaks. \"I unravel 35% tonight,\" it hums, \"and 25% of what remains tomorrow.\"",
+  "question": "How many cloaks will still be woven after both nights of unraveling?",
+  "answer": 117,
+  "unit": "cloaks",
+  "distractors": [
+    156,
+    84,
+    96
+  ],
+  "hint": "First find 35% of 240 and take it away. Then take 25% away from THAT new number — not from 240.",
+  "victory": "Mr 6 recites the leftover count so precisely that Knollwidder loses track of its own thread, tangles into a tidy ball of yarn, and rolls off down the hill. The village gets 117 cloaks and one free ball of yarn.",
+  "image": "images/knollwidder-loom-percent.webp",
+  "imagePrompt": "A ghostly wraith of loose threads looming over clacking wooden looms in a moonlit windmill, with a small knightly number six holding up a folded cloak like a shield."
+}

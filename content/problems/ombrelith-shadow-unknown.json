@@ -1,0 +1,19 @@
+{
+  "id": "ombrelith-shadow-unknown",
+  "tier": "champion",
+  "title": "The Riddle of the Missing Factor",
+  "monster": "Ombrelith the Shadow Ledger",
+  "story": "Ombrelith the Shadow Ledger has stolen the town clock's gears and hidden them in identical velvet cases. He taunts Mr 6: 'I packed 8 gears into every case, and altogether I hid 152 gears — name my number of cases or the clock stays silent forever.' Mr 6 taps his sword thoughtfully against his own curly bottom loop.",
+  "question": "What number times 8 gives 152?",
+  "answer": 19,
+  "unit": "cases",
+  "distractors": [
+    144,
+    160,
+    18
+  ],
+  "hint": "You need the missing factor: what do you multiply by 8 to reach 152? Division undoes multiplication.",
+  "victory": "'Nineteen,' said Mr 6, and every velvet case popped open at once like startled clams. Ombrelith folded into a thin ribbon of shade and slid away, muttering that he should have used a harder number.",
+  "image": "images/ombrelith-shadow-unknown.webp",
+  "imagePrompt": "A numeral-six knight facing a tall shadowy ledger-keeper in a moonlit clock tower as nineteen velvet cases spring open spilling glinting brass gears."
+}

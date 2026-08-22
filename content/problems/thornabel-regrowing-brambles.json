@@ -1,0 +1,19 @@
+{
+  "id": "thornabel-regrowing-brambles",
+  "tier": "champion",
+  "title": "Every Cut Grows Three",
+  "monster": "Thornabel the Gate Bramble",
+  "story": "Thornabel the Gate Bramble has sealed the orphanage gate with 40 thick vines. Mr 6 learns the cruel rule: each time he slices one vine away, 3 new vines sprout in the very same second — but the bramble can only manage that trick 12 times before its sap runs dry.",
+  "question": "After Mr 6 makes 12 cuts, each removing 1 vine but growing 3 back, how many vines block the gate?",
+  "answer": 64,
+  "unit": "vines",
+  "distractors": [
+    76,
+    52,
+    28
+  ],
+  "hint": "Each cut takes 1 away and adds 3 — so what is the NET change to the vine count per cut?",
+  "victory": "Mr 6 stopped mid-swing, did the arithmetic, and cut exactly zero vines — instead he tickled Thornabel's roots until it untangled itself laughing. The orphans poured out through a gate of nothing but flowers.",
+  "image": "images/thornabel-regrowing-brambles.webp",
+  "imagePrompt": "A numeral-six knight lowering his sword thoughtfully before a massive writhing bramble gate wound over an orphanage door, thorny vines glinting in warm afternoon light."
+}

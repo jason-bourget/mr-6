@@ -1,0 +1,19 @@
+{
+  "id": "parchleaf-orchard-ratio",
+  "tier": "champion",
+  "title": "The Cider Ratio Riddle",
+  "monster": "Parchleaf the Orchard Miser",
+  "story": "Parchleaf the Orchard Miser will only release the frozen apple pickers if Mr 6 mixes her winter cider exactly right: sour apples to sweet apples in a ratio of 3 to 5. Mr 6 has a barrel that holds exactly 344 apples, and it must be filled to the brim.",
+  "question": "How many sweet apples go into the barrel?",
+  "answer": 215,
+  "unit": "apples",
+  "distractors": [
+    129,
+    43,
+    172
+  ],
+  "hint": "The ratio 3:5 makes 8 equal parts. Find the size of one part first.",
+  "victory": "The cider comes out perfect, Parchleaf takes one sip and melts into happy tears, and the pickers thaw out laughing. Mr 6 gets the first mug.",
+  "image": "images/parchleaf-orchard-ratio.webp",
+  "imagePrompt": "A gaunt bark-skinned miser guarding a frost-covered orchard and a giant cider barrel, with a number-six knight sorting sour and sweet apples into measured heaps under pale winter light."
+}

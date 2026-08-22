@@ -1,0 +1,19 @@
+{
+  "id": "skerrywake-lighthouse-rate",
+  "tier": "champion",
+  "title": "The Race of the Rising Beam",
+  "monster": "Skerrywake the Fog Lurker",
+  "story": "Skerrywake the Fog Lurker smothers the lighthouse beam so ships wreck on the rocks. Mr 6 discovers the beacon lamp burns oil at 0.6 liters per hour, and the reservoir holds 21 liters. A ship is nine hours out at sea, but the fog will only lift when the lamp has burned every drop.",
+  "question": "How many hours can the lamp burn on 21 liters at 0.6 liters per hour?",
+  "answer": 35,
+  "unit": "hours",
+  "distractors": [
+    12.6,
+    3.5,
+    21.6
+  ],
+  "hint": "Ask yourself: how many groups of 0.6 fit inside 21? Dividing by 0.6 is the same as dividing by 6 and then multiplying by 10.",
+  "victory": "Mr 6 announced thirty-five hours and Skerrywake groaned — the fog can only hold its breath for thirty. The lurker wisped away, and the ship sailed in on a beam bright as a promise.",
+  "image": "images/skerrywake-lighthouse-rate.webp",
+  "imagePrompt": "A numeral-six knight atop a storm-lashed lighthouse gallery holding a sword aloft as a swirling fog creature recoils from a widening golden beam over a dark sea."
+}

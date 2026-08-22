@@ -1,0 +1,19 @@
+{
+  "id": "culverbind-splitting-echo",
+  "tier": "champion",
+  "title": "The Cave That Answered Twice",
+  "monster": "Culverbind the Echo Beetle",
+  "story": "Deep in the crystal caverns, Culverbind the Echo Beetle multiplies whenever anyone shouts: every single beetle becomes four beetles at each echo. Mr 6 counts exactly 3 beetles clicking on the wall, and a lost shepherd is about to holler for help — four times before Mr 6 can reach him.",
+  "question": "If 3 beetles become 4 times as many at each of 4 echoes, how many beetles will there be after the fourth echo?",
+  "answer": 768,
+  "unit": "beetles",
+  "distractors": [
+    192,
+    48,
+    12
+  ],
+  "hint": "Multiply by 4 once for each echo — do it one echo at a time and write down each total.",
+  "victory": "Mr 6 clapped a hand over the shepherd's mouth and whispered the number 768 instead. Culverbind, hearing no shout, had nothing to copy — and shuffled off, lonely and singular.",
+  "image": "images/culverbind-splitting-echo.webp",
+  "imagePrompt": "A numeral-six knight silencing a startled shepherd in a glittering crystal cavern while clusters of glowing blue beetles ripple across the walls in shimmering echo-light."
+}

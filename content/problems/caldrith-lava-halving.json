@@ -1,0 +1,19 @@
+{
+  "id": "caldrith-lava-halving",
+  "tier": "champion",
+  "title": "The Bridge That Halved Itself",
+  "monster": "Caldrith the Cinder Whisper",
+  "story": "Caldrith the Cinder Whisper curses the obsidian bridge over the lava pool: every hour, its remaining length shrinks to half. Mr 6 arrives when the bridge is 96 meters long, and a caravan of goat herders needs at least 11 meters of bridge to hop across on planks.",
+  "question": "After how many whole hours does the bridge first become too short — under 11 meters?",
+  "answer": 4,
+  "unit": "hours",
+  "distractors": [
+    3,
+    6,
+    12
+  ],
+  "hint": "Halve 96 again and again — 48, then 24 — and count the hours until you drop below 11.",
+  "victory": "Mr 6 hurries the herders over in hour three, and Caldrith's fourth halving shrinks a bridge with nobody on it. The whisper sulks into a puff of warm ash.",
+  "image": "images/caldrith-lava-halving.webp",
+  "imagePrompt": "A narrowing obsidian bridge over a glowing lava pool with a smoky whispering face in the fumes, goats and a caped number six dashing across in fiery orange light."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "saltrigg-caravan-ratio",
+  "tier": "champion",
+  "title": "The Salt Caravan's Bargain",
+  "monster": "Saltrigg the Dune Broker",
+  "story": "Saltrigg the Dune Broker will free the thirsty caravan only if the water is divided by his sacred ratio: 3 parts for the camels, 5 parts for the travelers, and 4 parts for the wells. The caravan barrel holds 288 liters exactly. Mr 6 rolls up his sleeves beside the sloshing barrel.",
+  "question": "How many liters do the travelers receive under the 3:5:4 split of 288 liters?",
+  "answer": 120,
+  "unit": "liters",
+  "distractors": [
+    24,
+    72,
+    96
+  ],
+  "hint": "Add 3 + 5 + 4 to find how many equal parts there are, then find the size of ONE part.",
+  "victory": "Mr 6 poured out 120 liters for the travelers without spilling a drop, and Saltrigg the Broker bowed so low his turban hit the sand. 'Fair as a six,' he grumbled, and opened the well road.",
+  "image": "images/saltrigg-caravan-ratio.webp",
+  "imagePrompt": "A numeral-six knight measuring water from a huge barrel beside kneeling camels in a golden desert dusk while a lanky robed broker watches with folded arms."
+}

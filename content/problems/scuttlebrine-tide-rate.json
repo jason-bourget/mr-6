@@ -1,0 +1,19 @@
+{
+  "id": "scuttlebrine-tide-rate",
+  "tier": "champion",
+  "title": "Race of the Rising Brine",
+  "monster": "Scuttlebrine the Tide Crab",
+  "story": "Scuttlebrine the Tide Crab has plugged the sea cave's drain, and water is climbing the walls where three sleepy otter pups nap on a ledge. Mr 6 measures: the water is 42 centimeters below the ledge and rising 7 centimeters every 4 minutes. His rope ladder takes 20 minutes to rig.",
+  "question": "How many minutes of spare time will Mr 6 have before the water reaches the ledge?",
+  "answer": 4,
+  "unit": "minutes",
+  "distractors": [
+    24,
+    6,
+    44
+  ],
+  "hint": "How many 7-centimeter steps fit in 42 centimeters? Each step takes 4 minutes — then compare that total to the 20-minute rigging.",
+  "victory": "The pups scamper up with four minutes to spare, and Scuttlebrine — outplanned by a number — unplugs the drain himself just to look useful.",
+  "image": "images/scuttlebrine-tide-rate.webp",
+  "imagePrompt": "A huge barnacled crab clamping a stone drain in a sea cave as green water rises toward a ledge of otter pups, a caped number six racing up a rope ladder in the spray."
+}

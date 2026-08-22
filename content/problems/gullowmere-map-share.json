@@ -1,0 +1,19 @@
+{
+  "id": "gullowmere-map-share",
+  "tier": "champion",
+  "title": "The Cartographer's Fair Split",
+  "monster": "Gullowmere the Map Hoarder",
+  "story": "Gullowmere the Map Hoarder guards a chest of 1,000 silver marks stolen from the mapmakers' guild — but only if nobody can divide it fairly. Mr 6 flips the lid and finds a note: the treasure must go to 8 mapmakers, except the guild keeps 20% for new ink and parchment first.",
+  "question": "How many silver marks does each mapmaker receive?",
+  "answer": 100,
+  "unit": "marks",
+  "distractors": [
+    125,
+    800,
+    25
+  ],
+  "hint": "Take the guild's 20% off the top first, then split what's left among the 8 mapmakers.",
+  "victory": "Mr 6 counts out eight neat stacks of 100 and Gullowmere, who cannot bear a perfectly fair split, folds itself into a paper crane and flaps out the window.",
+  "image": "images/gullowmere-map-share.webp",
+  "imagePrompt": "A hunched hoarder made of rolled parchment maps crouched over an open chest of silver in a lamplit guild hall, a number-six knight stacking coins into tidy piles."
+}

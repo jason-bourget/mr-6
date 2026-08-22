@@ -1,0 +1,19 @@
+{
+  "id": "vexlimb-splitting-marionette",
+  "tier": "champion",
+  "title": "The Puppet That Kept Splitting",
+  "monster": "Vexlimb the Marionette Fiend",
+  "story": "In the dusty theater under the town hall, Vexlimb the Marionette Fiend splits into 3 smaller puppets every time a sword touches its strings. Mr 6 counts 2 puppets on stage and knows a careless knight would swing 4 times, each swing hitting exactly one puppet.",
+  "question": "If each swing turns one puppet into 3, how many puppets would be dancing after 4 swings?",
+  "answer": 10,
+  "unit": "puppets",
+  "distractors": [
+    12,
+    162,
+    8
+  ],
+  "hint": "Each swing removes one puppet and adds three — so the crowd grows by 2 every swing. Start from 2.",
+  "victory": "Mr 6 sheathes his sword, hands Vexlimb a pair of scissors, and points out that four swings only meant ten dance partners. The puppet, delighted, cuts its own strings and joins the town theater troupe.",
+  "image": "images/vexlimb-splitting-marionette.webp",
+  "imagePrompt": "A tangle of grinning wooden marionettes splitting apart on a candlelit theater stage, while a small number-six knight thoughtfully keeps his sword sheathed."
+}

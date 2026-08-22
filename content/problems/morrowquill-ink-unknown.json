@@ -1,0 +1,19 @@
+{
+  "id": "morrowquill-ink-unknown",
+  "tier": "champion",
+  "title": "The Ink Debt of the Scriptorium",
+  "monster": "Morrowquill the Ledger Bat",
+  "story": "Morrowquill the Ledger Bat hangs from the scriptorium rafters, refusing to return the monks' inkpots until an old debt balances. \"Each pot costs the same,\" it screeches, \"and 9 pots plus a 14-coin cart fee came to 122 coins.\"",
+  "question": "How many coins does one inkpot cost?",
+  "answer": 12,
+  "unit": "coins",
+  "distractors": [
+    13.5,
+    108,
+    15
+  ],
+  "hint": "Peel off the 14-coin cart fee first, then split what's left among the 9 pots.",
+  "victory": "Mr 6 chalks the answer on the wall so neatly that Morrowquill checks it twice, squeaks \"balanced,\" and hangs the inkpots back on their hooks before flapping off to audit somebody else.",
+  "image": "images/morrowquill-ink-unknown.webp",
+  "imagePrompt": "A bat with parchment wings and tiny spectacles hanging over rows of inkpots in a candlelit scriptorium, a small number-six knight writing figures on a slate."
+}

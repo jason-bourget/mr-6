@@ -1,0 +1,19 @@
+{
+  "id": "embermoth-fuse-average",
+  "tier": "champion",
+  "title": "Four Fuses and a Firework Barn",
+  "monster": "Embermoth the Fuse Chewer",
+  "story": "Embermoth the Fuse Chewer has lit four fuses under the festival firework barn. Mr 6 snips three of them at 26, 31, and 22 seconds of burn, but he must know the average burn of all four to time his water bucket spell exactly.",
+  "question": "If the average of all four fuses must come out to 25 seconds, how many seconds did the fourth fuse burn?",
+  "answer": 21,
+  "unit": "seconds",
+  "distractors": [
+    79,
+    100,
+    24
+  ],
+  "hint": "An average of 25 across 4 fuses means the four burn times add up to a certain total. Find that total, then subtract the three you know.",
+  "victory": "Mr 6 douses the last fuse at exactly the right instant, and Embermoth — thoroughly out-averaged — flutters off to chew on something safer, like spaghetti.",
+  "image": "images/embermoth-fuse-average.webp",
+  "imagePrompt": "A moth with glowing ember wings perched on sputtering fuses beneath a barn full of fireworks, a number-six knight crouched with a water bucket and a stopwatch in the orange glow."
+}
