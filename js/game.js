@@ -168,28 +168,6 @@
     return shuffle([...opts]);
   }
 
-  /* ---------------- tiny sound effects ---------------- */
-
-  let audioCtx = null;
-  function chime(freqs, dur = 0.14, type = "triangle", gain = 0.12) {
-    try {
-      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
-      freqs.forEach((f, i) => {
-        const o = audioCtx.createOscillator();
-        const g = audioCtx.createGain();
-        o.type = type; o.frequency.value = f;
-        g.gain.setValueAtTime(gain, audioCtx.currentTime + i * dur);
-        g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + (i + 1) * dur + 0.1);
-        o.connect(g).connect(audioCtx.destination);
-        o.start(audioCtx.currentTime + i * dur);
-        o.stop(audioCtx.currentTime + (i + 1) * dur + 0.12);
-      });
-    } catch { /* sound is optional */ }
-  }
-  const soundWin  = () => chime([523, 659, 784, 1047]);
-  const soundMiss = () => chime([196, 147], 0.2, "sawtooth", 0.06);
-  const soundFanfare = () => chime([523, 659, 784, 1047, 784, 1047], 0.12);
-
   /* ---------------- answer handling ---------------- */
 
   const ENCOURAGE = [
@@ -207,14 +185,12 @@
       document.querySelectorAll(".choice-btn").forEach((b) => (b.disabled = true));
       markSeen(p.id);
       state.solved++;
-      soundWin();
       setTimeout(() => showVictory(p), 350);
     } else {
       btn.classList.add("wrong");
       btn.disabled = true;
       state.missesThisBattle++;
       state.hearts--;
-      soundMiss();
       renderHearts();
       const card = document.querySelector(".battle-card");
       card.classList.remove("hit");
@@ -259,7 +235,6 @@
     const stars = won ? state.hearts : 0;
 
     if (won) {
-      soundFanfare();
       $("summary-emblem").innerHTML = stars === 3 ? crownIcon : starIcon(48);
       $("summary-title").textContent = stars === 3 ? "Flawless Quest!" : "Quest Complete!";
       $("summary-stars").innerHTML =
