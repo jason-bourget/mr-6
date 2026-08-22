@@ -30,7 +30,8 @@
   /* ---------------- content loading ---------------- */
 
   async function loadContent() {
-    const manifest = await (await fetch("content/manifest.json")).json();
+    // no-cache so phones pick up each day's new adventures on next open
+    const manifest = await (await fetch("content/manifest.json", { cache: "no-cache" })).json();
     const results = await Promise.allSettled(
       manifest.problems.map((p) => fetch("content/" + p).then((r) => r.json()))
     );
