@@ -34,6 +34,7 @@ jobs:
       - name: Forge today's Rapid Fire round (10 quick)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generator/generate_rapid.py
 
       - name: Commit and push

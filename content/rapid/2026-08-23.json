@@ -1,95 +1,99 @@
 {
   "date": "2026-08-23",
-  "image": "images/bridge-trolls-toll.webp",
+  "title": "The Fivefold Fang",
+  "monster": "Quintarr the Five-Clawed Wraith",
+  "story": "Quintarr the Five-Clawed Wraith slinks out of the fog with five shadow claws, and every claw copies whatever it touches — so a puny swing becomes five puny swings. Mr 6 grins: if the wraith insists on multiplying, he'll feed it a strike worth FIVE times the force and blow its shadows apart. Every claw takes one heartbeat to copy, knight — can you multiply faster than a wraith?",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/rapid-2026-08-23.webp",
   "problems": [
     {
-      "q": "6 × 7",
-      "answer": 42,
+      "q": "6",
+      "answer": 30,
       "distractors": [
-        48,
-        36,
-        49
-      ]
-    },
-    {
-      "q": "84 ÷ 12",
-      "answer": 7,
-      "distractors": [
-        8,
-        6,
-        12
-      ]
-    },
-    {
-      "q": "47 + 38",
-      "answer": 85,
-      "distractors": [
-        75,
-        95,
-        84
-      ]
-    },
-    {
-      "q": "Double 47",
-      "answer": 94,
-      "distractors": [
-        84,
-        104,
-        88
-      ]
-    },
-    {
-      "q": "50% of 180",
-      "answer": 90,
-      "distractors": [
-        80,
-        100,
-        45
-      ]
-    },
-    {
-      "q": "9 × 12",
-      "answer": 108,
-      "distractors": [
-        96,
-        120,
-        180
-      ]
-    },
-    {
-      "q": "93 − 47",
-      "answer": 46,
-      "distractors": [
-        54,
-        56,
+        25,
+        35,
         36
       ]
     },
     {
-      "q": "25% of 80",
-      "answer": 20,
+      "q": "8",
+      "answer": 40,
       "distractors": [
-        40,
-        8,
-        25
+        45,
+        32,
+        48
       ]
     },
     {
-      "q": "132 ÷ 11",
-      "answer": 12,
+      "q": "12",
+      "answer": 60,
       "distractors": [
-        11,
-        13,
-        21
+        50,
+        55,
+        65
       ]
     },
     {
-      "q": "Half of 78",
-      "answer": 39,
+      "q": "14",
+      "answer": 70,
       "distractors": [
-        38,
-        49,
-        34
+        60,
+        75,
+        56
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        90,
+        105
+      ]
+    },
+    {
+      "q": "16",
+      "answer": 80,
+      "distractors": [
+        70,
+        96,
+        85
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        100,
+        125
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        108
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 130,
+      "distractors": [
+        120,
+        135,
+        156
+      ]
+    },
+    {
+      "q": "34",
+      "answer": 170,
+      "distractors": [
+        160,
+        175,
+        150
       ]
     }
   ]

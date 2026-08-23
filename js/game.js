@@ -77,13 +77,16 @@
 
   function updateModeStatuses() {
     const q = savedResult();
+    const qBest = q ? Math.min(q.best ?? q.score ?? 0, state.problems.length) : 0;
     $("quest-status").textContent = q
-      ? `Best today: ${Math.min(q.best, state.problems.length)} / ${state.problems.length} · play again`
+      ? `Best today: ${qBest} / ${state.problems.length} · play again`
       : "Three thinkers · story battles";
     const r = savedRapid();
     $("rapid-status").textContent = r
       ? `Best today: ${r.score} / 10 in ${fmtTime(r.time)} · beat it`
-      : "Ten quick strikes · race the clock";
+      : (state.rapid && state.rapid.title
+          ? `"${state.rapid.title}" · race the clock`
+          : "Ten quick strikes · race the clock");
   }
 
   /* ---------------- quest flow ---------------- */
@@ -239,7 +242,7 @@
 
   function finishQuest() {
     const prev = savedResult();
-    const prevBest = Math.min(prev ? prev.best || 0 : 0, state.problems.length);
+    const prevBest = Math.min(prev ? prev.best ?? prev.score ?? 0 : 0, state.problems.length);
     const best = Math.max(state.score, prevBest);
     const bestPicks = state.score >= prevBest
       ? state.picks.map((p) => p.correct)
@@ -282,11 +285,27 @@
   function startRapid() {
     if (!state.rapid) return;
     state.lastMode = "rapid";
+    stopRapidTimer();
+    const r = state.rapid;
+    $("rapid-image").src = "content/" + (r.image || "images/placeholder.svg");
+    $("rapid-monster").textContent = r.monster || "";
+    $("rapid-title").textContent = r.title || "Rapid Fire";
+    $("rapid-story").textContent = r.story || "";
+    $("rapid-rule-intro").textContent = r.rule || "";
+    $("rapid-intro").hidden = false;
+    $("rapid-play").hidden = true;
+    $("rapid-count").textContent = "";
+    $("rapid-timer").textContent = "0:00";
+    showScreen("screen-rapid");
+  }
+
+  function beginRapidRun() {
     state.rapidIndex = 0;
     state.rapidScore = 0;
     state.rapidPattern = [];
-    $("rapid-image").src = "content/" + (state.rapid.image || "images/placeholder.svg");
-    showScreen("screen-rapid");
+    $("rapid-intro").hidden = true;
+    $("rapid-play").hidden = false;
+    $("rapid-rule").textContent = state.rapid.rule || "";
     state.rapidStart = performance.now();
     clearInterval(state.rapidTimer);
     state.rapidTimer = setInterval(() => {
@@ -383,7 +402,7 @@
     const q = savedResult();
     if (q) {
       const total = state.problems.length;
-      const best = Math.min(q.best, total);
+      const best = Math.min(q.best ?? q.score ?? 0, total);
       rows.push({
         label: "Quest", score: `${best}/${total}`,
         pattern: squarePattern(q.bestPicks, best, total),
@@ -405,12 +424,15 @@
     scroll.hidden = rows.length === 0;
     if (!rows.length) return;
     $("share-date").textContent = friendlyDate(state.date);
-    $("share-rows").innerHTML = rows.map((row) => `
-      <div class="share-row">
-        <span class="share-label">${row.label}</span>
-        <span class="share-squares">${row.pattern.map((ok) =>
-          `<span class="sq ${ok ? "sq-hit" : "sq-miss"}"></span>`).join("")}</span>
-        <span class="share-result">${row.score}</span>
+    $("share-rows").innerHTML = rows.map((row, i) => `
+      ${i > 0 ? '<div class="share-divider"></div>' : ""}
+      <div class="share-block">
+        <div class="share-block-head">
+          <span class="share-label">${row.label}</span>
+          <span class="share-result">${row.score}</span>
+        </div>
+        <div class="share-squares${row.pattern.length > 5 ? " small" : ""}">${row.pattern.map((ok) =>
+          `<span class="sq ${ok ? "sq-hit" : "sq-miss"}"></span>`).join("")}</div>
       </div>`).join("");
     $("btn-share").textContent = "Share your scroll";
   }
@@ -483,8 +505,9 @@
     stopRapidTimer();
     showScreen("screen-title");
   });
+  $("btn-rapid-begin").addEventListener("click", beginRapidRun);
   $("btn-again").addEventListener("click", () => {
-    if (state.lastMode === "rapid") startRapid();
+    if (state.lastMode === "rapid") { startRapid(); beginRapidRun(); }
     else startQuest();
   });
   $("btn-share").addEventListener("click", doShare);

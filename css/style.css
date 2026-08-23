@@ -327,6 +327,34 @@ body {
 
 .rapid-body { gap: 18px; align-items: center; }
 
+.rapid-intro {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 12px; text-align: center; width: 100%;
+}
+.rapid-intro h2 {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 24px; font-weight: 600; color: var(--ink);
+}
+.rapid-intro p { font-size: 15.5px; line-height: 1.6; color: var(--ink-body); max-width: 480px; }
+.rapid-rule-callout {
+  background: var(--key-bg);
+  border: 1.5px solid var(--accent);
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 16px; font-weight: 800; color: var(--accent-deep);
+}
+.rapid-intro .primary-btn { margin-top: 6px; }
+
+.rapid-play {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 16px; width: 100%;
+}
+.rapid-rule {
+  font-size: 12px; font-weight: 800;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
 .rapid-question {
   font-family: "Nunito", sans-serif;
   font-weight: 800; font-size: 40px;
@@ -388,22 +416,26 @@ body {
   font-family: "Cinzel", Georgia, serif;
   font-size: 16px; font-weight: 700; color: #f5edd9;
 }
-.share-row {
-  display: flex; align-items: center; gap: 12px;
+.share-block { display: flex; flex-direction: column; gap: 9px; }
+.share-block-head {
+  display: flex; align-items: baseline; justify-content: space-between;
 }
 .share-label {
-  font-size: 12px; font-weight: 800; letter-spacing: 0.08em;
-  text-transform: uppercase; color: #b5ab8f; min-width: 48px; text-align: left;
+  font-size: 11px; font-weight: 800; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #b5ab8f;
 }
-.share-squares { display: flex; gap: 4px; flex-wrap: wrap; }
-.sq { width: 18px; height: 18px; border-radius: 5px; }
-.sq-hit { background: #e0b45c; }
-.sq-miss { background: #8a6a6a; }
 .share-result {
-  margin-left: auto;
   font-size: 13px; font-weight: 800; color: #f5edd9;
   font-variant-numeric: tabular-nums; white-space: nowrap;
 }
+.share-squares { display: flex; gap: 7px; flex-wrap: wrap; }
+.sq { width: 24px; height: 24px; border-radius: 7px; }
+.share-squares.small { gap: 6px; }
+.share-squares.small .sq { width: 20px; height: 20px; border-radius: 6px; }
+.sq-hit { background: #e0b45c; }
+.sq-miss { background: #8a6a6a; }
+.share-divider { height: 1px; background: #453f36; margin: 8px 0; }
+#share-rows { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
 .share-btn {
   align-self: center;
   height: 42px; padding: 0 22px;

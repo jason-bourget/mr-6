@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=6">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 
@@ -102,8 +102,18 @@
         <img id="rapid-image" alt="Rapid fire scene" src="content/images/placeholder.svg">
       </div>
       <div class="battle-body rapid-body">
-        <div class="rapid-question" id="rapid-question"></div>
-        <div class="choices rapid-choices" id="rapid-choices"></div>
+        <div class="rapid-intro" id="rapid-intro">
+          <div class="monster-caption" id="rapid-monster"></div>
+          <h2 id="rapid-title"></h2>
+          <p id="rapid-story"></p>
+          <div class="rapid-rule-callout" id="rapid-rule-intro"></div>
+          <button id="btn-rapid-begin" class="primary-btn">Begin!</button>
+        </div>
+        <div class="rapid-play" id="rapid-play" hidden>
+          <div class="rapid-rule" id="rapid-rule"></div>
+          <div class="rapid-question" id="rapid-question"></div>
+          <div class="choices rapid-choices" id="rapid-choices"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -133,6 +143,6 @@
 
 </div>
 
-<script src="js/game.js?v=7"></script>
+<script src="js/game.js?v=8"></script>
 </body>
 </html>
