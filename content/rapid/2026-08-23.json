@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-23",
+  "image": "images/bridge-trolls-toll.webp",
+  "problems": [
+    {
+      "q": "6 × 7",
+      "answer": 42,
+      "distractors": [
+        48,
+        36,
+        49
+      ]
+    },
+    {
+      "q": "84 ÷ 12",
+      "answer": 7,
+      "distractors": [
+        8,
+        6,
+        12
+      ]
+    },
+    {
+      "q": "47 + 38",
+      "answer": 85,
+      "distractors": [
+        75,
+        95,
+        84
+      ]
+    },
+    {
+      "q": "Double 47",
+      "answer": 94,
+      "distractors": [
+        84,
+        104,
+        88
+      ]
+    },
+    {
+      "q": "50% of 180",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        45
+      ]
+    },
+    {
+      "q": "9 × 12",
+      "answer": 108,
+      "distractors": [
+        96,
+        120,
+        180
+      ]
+    },
+    {
+      "q": "93 − 47",
+      "answer": 46,
+      "distractors": [
+        54,
+        56,
+        36
+      ]
+    },
+    {
+      "q": "25% of 80",
+      "answer": 20,
+      "distractors": [
+        40,
+        8,
+        25
+      ]
+    },
+    {
+      "q": "132 ÷ 11",
+      "answer": 12,
+      "distractors": [
+        11,
+        13,
+        21
+      ]
+    },
+    {
+      "q": "Half of 78",
+      "answer": 39,
+      "distractors": [
+        38,
+        49,
+        34
+      ]
+    }
+  ]
+}

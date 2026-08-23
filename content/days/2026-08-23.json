@@ -3,13 +3,6 @@
   "problems": [
     "problems/duskwings-lantern.json",
     "problems/grimtides-flood.json",
-    "problems/grimscales-armor.json",
-    "problems/torchfire-wolves.json",
-    "problems/blackmaws-treasure.json",
-    "problems/frostfang-ice-wyrm.json",
-    "problems/emberweaver-ash-silk.json",
-    "problems/marshmucks-frog-cursed-hoard.json",
-    "problems/cogsnatch-gear-chase.json",
-    "problems/basalt-crustshield.json"
+    "problems/grimscales-armor.json"
   ]
 }

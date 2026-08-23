@@ -20,7 +20,7 @@ DAYS = CONTENT / "days"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--date", default=datetime.now(timezone.utc).date().isoformat())
-parser.add_argument("--count", type=int, default=10)
+parser.add_argument("--count", type=int, default=3)
 args = parser.parse_args()
 
 DAYS.mkdir(exist_ok=True)

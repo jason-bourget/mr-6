@@ -22,14 +22,19 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic pillow
 
-      - name: Forge 10 new adventures into the queue
+      - name: Forge 3 new adventures into the queue
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generator/generate.py --count 10
+        run: python generator/generate.py --count 3
 
-      - name: Publish today's daily quest
+      - name: Publish today's daily quest (3 thinkers)
         run: python generator/publish_day.py
+
+      - name: Forge today's Rapid Fire round (10 quick)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generator/generate_rapid.py
 
       - name: Commit and push
         run: |

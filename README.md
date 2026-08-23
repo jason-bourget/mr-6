@@ -10,17 +10,24 @@ Add to Home Screen.
 
 ## How a day works
 
-- Every morning (~6 AM Mountain) the Story Forge GitHub Action:
-  1. writes 10 new problems (Claude), each **arithmetically verified** before acceptance;
-  2. illustrates them with the canonical Mr 6 **reference image** (gpt-image-1
-     images/edits) and passes each through a **vision QC gate** (Claude) that rejects
-     off-model art — wrong eyes, unreadable digit, stray text — and retries;
-  3. publishes the day's quest: the 10 oldest problems in the queue;
-  4. commits — Vercel redeploys automatically.
-- Everyone plays the **same 10 problems** each day: one pick per problem (4 choices,
-  distractors modeled on real mistakes), an optional owl hint, a story resolution
-  either way, and a score at the end (e.g. 7/10). Results are remembered per device.
-- The queue holds ~10 days of buffer, so a failed generation never breaks a morning.
+Every morning (~6 AM Mountain) the Story Forge GitHub Action:
+1. forges 3 new "thinker" problems (Claude), each **arithmetically verified**, with a
+   2-3 step worked solution and a growth-mindset praise line;
+2. illustrates them with the canonical Mr 6 **reference image** (gpt-image-1
+   images/edits) gated by a **vision QC** (Claude) that rejects off-model art;
+3. publishes the day's quest: the 3 oldest problems in the queue;
+4. forges the day's **Rapid Fire** round: 10 terse mental-math questions (tables,
+   two-digit add/subtract, division facts, doubling/halving, easy percents), verified,
+   sharing one library illustration;
+5. commits — Vercel redeploys automatically.
+
+Two modes, same for everyone each day:
+- **Today's Quest** — 3 story thinkers: one pick each, optional owl hint, worked
+  solution after every answer. Replayable; the day's score is your best.
+- **Rapid Fire** — 10 quick strikes against a stopwatch; best score + time of the
+  day is kept, unlimited races.
+
+The queue holds ~1 month of buffer, so a failed generation never breaks a morning.
 
 ## Worldbuilding rules
 

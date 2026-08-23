@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -29,7 +29,16 @@
       <p class="title-blurb">Monsters are on the loose, and only one knight is clever
         enough to stop them. Solve the riddle of each battle to save the day.</p>
 
-      <button id="start-quest" class="primary-btn start-btn">Begin Today's Quest</button>
+      <div class="mode-buttons">
+        <button id="start-quest" class="mode-btn">
+          <span class="mode-name">Today's Quest</span>
+          <span class="mode-desc" id="quest-status">Three thinkers · story battles</span>
+        </button>
+        <button id="start-rapid" class="mode-btn">
+          <span class="mode-name">Rapid Fire</span>
+          <span class="mode-desc" id="rapid-status">Ten quick strikes · race the clock</span>
+        </button>
+      </div>
       <p class="title-footnote" id="pool-status"></p>
     </div>
   </section>
@@ -80,21 +89,42 @@
     </div>
   </section>
 
+  <!-- ============ RAPID FIRE SCREEN ============ -->
+  <section id="screen-rapid" class="screen">
+    <header class="battle-header">
+      <button id="btn-rapid-flee" class="ghost-btn" title="Back to the castle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg><span>Castle</span></button>
+      <div class="battle-count" id="rapid-count"></div>
+      <div class="rapid-timer" id="rapid-timer">0:00</div>
+    </header>
+
+    <div class="battle-card rapid-card">
+      <div class="battle-illustration rapid-illustration">
+        <img id="rapid-image" alt="Rapid fire scene" src="content/images/placeholder.svg">
+      </div>
+      <div class="battle-body rapid-body">
+        <div class="rapid-question" id="rapid-question"></div>
+        <div class="choices rapid-choices" id="rapid-choices"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ QUEST SUMMARY SCREEN ============ -->
   <section id="screen-summary" class="screen">
     <div class="summary-inner">
       <div class="summary-emblem" id="summary-emblem"></div>
       <h1 id="summary-title"></h1>
       <div class="summary-score" id="summary-score"></div>
+      <p class="summary-sub" id="summary-sub"></p>
       <p id="summary-text"></p>
       <div class="summary-buttons">
-        <button id="btn-home" class="primary-btn">Back to the Castle</button>
+        <button id="btn-again" class="primary-btn">Play Again</button>
+        <button id="btn-home" class="ghost-btn big"><span>Castle</span></button>
       </div>
     </div>
   </section>
 
 </div>
 
-<script src="js/game.js?v=5"></script>
+<script src="js/game.js?v=6"></script>
 </body>
 </html>

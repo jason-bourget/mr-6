@@ -5,6 +5,7 @@
 
   const $ = (id) => document.getElementById(id);
   const resultKey = (date) => `mr6-result-${date}`;
+  const rapidKey = (date) => `mr6-rapid-${date}`;
 
   /* ---------------- inline icons (Storybook Light) ---------------- */
 
@@ -17,10 +18,16 @@
 
   const state = {
     date: null,
-    problems: [],   // today's 10, in order
+    problems: [],   // today's thinkers, in order
     index: 0,
     score: 0,
     picks: [],      // {id, correct}
+    lastMode: "quest",
+    rapid: null,    // {date, image, problems}
+    rapidIndex: 0,
+    rapidScore: 0,
+    rapidStart: 0,
+    rapidTimer: null,
   };
 
   /* ---------------- content loading ---------------- */
@@ -39,15 +46,44 @@
       .map((r) => r.value)
       .filter((p) => p && p.id && typeof p.answer === "number");
 
-    $("pool-status").textContent = "Ten fresh adventures every morning";
-    if (savedResult()) {
-      $("start-quest").textContent = "See Today's Result";
-    }
+    // rapid fire day file (optional — mode hides if missing)
+    try {
+      const rIndex = await (await fetch("content/rapid/index.json", { cache: "no-cache" })).json();
+      const rLatest = rIndex.days[rIndex.days.length - 1];
+      state.rapid = await (await fetch(`content/rapid/${rLatest}.json`, { cache: "no-cache" })).json();
+    } catch { state.rapid = null; }
+    $("start-rapid").hidden = !state.rapid || !state.rapid.problems?.length;
+
+    $("pool-status").textContent = "A fresh quest and rapid round every morning";
+    updateModeStatuses();
   }
 
   function savedResult() {
     try { return JSON.parse(localStorage.getItem(resultKey(state.date))); }
     catch { return null; }
+  }
+
+  function savedRapid() {
+    if (!state.rapid) return null;
+    try { return JSON.parse(localStorage.getItem(rapidKey(state.rapid.date))); }
+    catch { return null; }
+  }
+
+  function fmtTime(secs) {
+    const m = Math.floor(secs / 60);
+    const s = secs - m * 60;
+    return `${m}:${s.toFixed(secs < 60 && m === 0 ? 1 : 0).padStart(m > 0 ? 2 : 1, "0")}`;
+  }
+
+  function updateModeStatuses() {
+    const q = savedResult();
+    $("quest-status").textContent = q
+      ? `Best today: ${Math.min(q.best, state.problems.length)} / ${state.problems.length} · play again`
+      : "Three thinkers · story battles";
+    const r = savedRapid();
+    $("rapid-status").textContent = r
+      ? `Best today: ${r.score} / 10 in ${fmtTime(r.time)} · beat it`
+      : "Ten quick strikes · race the clock";
   }
 
   /* ---------------- quest flow ---------------- */
@@ -59,12 +95,11 @@
   }
 
   function startQuest() {
-    const saved = savedResult();
-    if (saved) { showSummary(saved.score); return; }
     if (state.problems.length === 0) {
       $("pool-status").textContent = "Today's quest could not be loaded — try again in a moment.";
       return;
     }
+    state.lastMode = "quest";
     state.index = 0;
     state.score = 0;
     state.picks = [];
@@ -203,46 +238,144 @@
   /* ---------------- results ---------------- */
 
   function finishQuest() {
+    const prev = savedResult();
+    const prevBest = Math.min(prev ? prev.best || 0 : 0, state.problems.length);
+    const best = Math.max(state.score, prevBest);
     localStorage.setItem(resultKey(state.date),
-      JSON.stringify({ score: state.score, picks: state.picks }));
-    $("start-quest").textContent = "See Today's Result";
-    showSummary(state.score);
+      JSON.stringify({ score: state.score, best, picks: state.picks }));
+    updateModeStatuses();
+    showSummary(state.score, best);
   }
 
-  function showSummary(score) {
+  function showSummary(score, best) {
     showScreen("screen-summary");
-    const total = state.problems.length || 10;
+    const total = state.problems.length || 3;
+    const frac = score / total;
 
     let emblem, title, text;
     if (score === total) {
       emblem = crownIcon; title = "Flawless Quest!";
       text = "Every single monster out-thought. The bards are tuning their lutes — this day will be sung about.";
-    } else if (score >= 7) {
+    } else if (frac >= 0.6) {
       emblem = starIcon(48); title = "Quest Complete!";
       text = "A mighty showing. The realm sleeps safely tonight, and the wise owl nods with approval.";
-    } else if (score >= 4) {
-      emblem = starIcon(48); title = "A Good Fight!";
-      text = "Some monsters slipped away this time — but every battle taught Mr 6 something. Tomorrow's quest awaits.";
     } else {
       emblem = shieldIcon; title = "The Owl Believes in You";
-      text = "A hard day on the quest trail. Read the hints, trust the steps, and come back swinging tomorrow.";
+      text = "These were true thinkers. Read the worked steps, then play again — beating a monster the second time still counts.";
     }
 
     $("summary-emblem").innerHTML = emblem;
     $("summary-title").textContent = title;
     $("summary-score").textContent = `${score} / ${total}`;
+    $("summary-sub").textContent =
+      best > score ? `Best today: ${best} / ${total}` : "";
     $("summary-text").textContent = text + " A new quest arrives every morning.";
+    $("btn-again").textContent = "Play Again";
+  }
+
+  /* ---------------- rapid fire ---------------- */
+
+  function startRapid() {
+    if (!state.rapid) return;
+    state.lastMode = "rapid";
+    state.rapidIndex = 0;
+    state.rapidScore = 0;
+    $("rapid-image").src = "content/" + (state.rapid.image || "images/placeholder.svg");
+    showScreen("screen-rapid");
+    state.rapidStart = performance.now();
+    clearInterval(state.rapidTimer);
+    state.rapidTimer = setInterval(() => {
+      const secs = (performance.now() - state.rapidStart) / 1000;
+      $("rapid-timer").textContent = fmtTime(secs);
+    }, 100);
+    renderRapid();
+  }
+
+  function stopRapidTimer() {
+    clearInterval(state.rapidTimer);
+    state.rapidTimer = null;
+  }
+
+  function renderRapid() {
+    const p = state.rapid.problems[state.rapidIndex];
+    $("rapid-count").textContent = `${state.rapidIndex + 1} of ${state.rapid.problems.length}`;
+    $("rapid-question").textContent = p.q;
+    const el = $("rapid-choices");
+    el.innerHTML = "";
+    for (const value of buildChoices(p)) {
+      const btn = document.createElement("button");
+      btn.className = "choice-btn rapid-choice";
+      btn.dataset.value = String(value);
+      btn.textContent = String(value);
+      btn.addEventListener("click", () => pickRapid(p, value, btn));
+      el.appendChild(btn);
+    }
+  }
+
+  function pickRapid(p, value, btn) {
+    if (btn.disabled) return;
+    const correct = Math.abs(value - p.answer) < 0.001;
+    document.querySelectorAll(".rapid-choice").forEach((b) => {
+      b.disabled = true;
+      if (Math.abs(parseFloat(b.dataset.value) - p.answer) < 0.001) b.classList.add("right");
+    });
+    if (!correct) btn.classList.add("wrong");
+    if (correct) state.rapidScore++;
+    setTimeout(() => {
+      state.rapidIndex++;
+      if (state.rapidIndex >= state.rapid.problems.length) finishRapid();
+      else renderRapid();
+    }, correct ? 350 : 700);
+  }
+
+  function finishRapid() {
+    stopRapidTimer();
+    const secs = Math.round((performance.now() - state.rapidStart) / 100) / 10;
+    const prev = savedRapid();
+    const better = !prev || state.rapidScore > prev.score ||
+      (state.rapidScore === prev.score && secs < prev.time);
+    if (better) {
+      localStorage.setItem(rapidKey(state.rapid.date),
+        JSON.stringify({ score: state.rapidScore, time: secs }));
+    }
+    updateModeStatuses();
+    showRapidSummary(state.rapidScore, secs, better, prev);
+  }
+
+  function showRapidSummary(score, secs, better, prev) {
+    showScreen("screen-summary");
+    const total = state.rapid.problems.length;
+    const flawlessFast = score === total;
+    $("summary-emblem").innerHTML = flawlessFast ? crownIcon : starIcon(48);
+    $("summary-title").textContent =
+      flawlessFast ? "Lightning Blade!" : score >= 7 ? "Quick Work!" : "Warming Up!";
+    $("summary-score").textContent = `${score} / ${total}`;
+    $("summary-sub").textContent =
+      `in ${fmtTime(secs)}` +
+      (better ? " · new best!" : prev ? ` · best: ${prev.score}/10 in ${fmtTime(prev.time)}` : "");
+    $("summary-text").textContent =
+      "Fast math is a muscle — every round makes it stronger. Race yourself again!";
+    $("btn-again").textContent = "Race Again";
   }
 
   /* ---------------- wire up ---------------- */
 
   $("start-quest").addEventListener("click", startQuest);
+  $("start-rapid").addEventListener("click", startRapid);
   $("btn-hint").addEventListener("click", () => {
     $("hint-box").hidden = false;
     $("btn-hint").hidden = true;
   });
   $("btn-next").addEventListener("click", nextBattle);
   $("btn-flee").addEventListener("click", () => showScreen("screen-title"));
+  $("btn-rapid-flee").addEventListener("click", () => {
+    stopRapidTimer();
+    showScreen("screen-title");
+  });
+  $("btn-again").addEventListener("click", () => {
+    if (state.lastMode === "rapid") startRapid();
+    else startQuest();
+  });
   $("btn-home").addEventListener("click", () => showScreen("screen-title"));
 
   loadContent().catch((err) => {
