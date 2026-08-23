@@ -15,5 +15,11 @@
   "hint": "Each minute, how much silk actually disappears? Subtract what she adds from what he removes to find the real progress per minute.",
   "victory": "After 42 patient minutes the last thread puffs into ash, and Emberweaver — outmathed, not outmuscled — retires to spin bookmarks for the grateful gnomes.",
   "image": "images/emberweaver-ash-silk.webp",
-  "imagePrompt": "A brave numeral-six knight with a blue cape calmly unraveling a glowing gray web across a tall library doorway while a huge ash-colored spider spins above him, warm lantern light cutting through drifting smoke and towering bookshelves."
+  "imagePrompt": "A brave numeral-six knight with a blue cape calmly unraveling a glowing gray web across a tall library doorway while a huge ash-colored spider spins above him, warm lantern light cutting through drifting smoke and towering bookshelves.",
+  "solution": [
+    "Each minute the web really shrinks by 6 - 4.5 = 1.5 feet.",
+    "Divide the web by that real progress: 63 / 1.5 = 42.",
+    "The doorway is completely clear after 42 minutes."
+  ],
+  "praise": "Dividing the 63 feet was the right instinct — the missing step was subtracting her 4.5 feet first to get the real progress."
 }

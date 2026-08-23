@@ -15,5 +15,11 @@
   "hint": "Take away the crypt's quarter first, then divide what's left by 41.",
   "victory": "Marrowgleam checked the arithmetic three times, found it flawless, and swung the vault open with a delighted rattle — the first honest audit in two hundred years.",
   "image": "images/marrowgleam-crypt-share.webp",
-  "imagePrompt": "A candlelit stone crypt where a tall skeletal accountant in a dusty robe holds a ledger beside an open coin vault, a small numeral-six knight showing his scratch-paper division on a tomb lid."
+  "imagePrompt": "A candlelit stone crypt where a tall skeletal accountant in a dusty robe holds a ledger beside an open coin vault, a small numeral-six knight showing his scratch-paper division on a tomb lid.",
+  "solution": [
+    "One quarter for upkeep is 1,148 ÷ 4 = 287 coins.",
+    "The rest is 1,148 - 287 = 861 coins.",
+    "Split among the villagers: 861 ÷ 41 = 21 coins each."
+  ],
+  "praise": "Splitting the coins by 41 was exactly the right move — the crypt's quarter just needed to come off the pile first."
 }

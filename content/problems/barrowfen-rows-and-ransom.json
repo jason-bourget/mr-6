@@ -15,5 +15,11 @@
   "hint": "First figure out how many soldiers there are altogether, then compare with the 87 coins already collected.",
   "victory": "The villagers found the last 39 coins under the church steps, and Barrowfen — who had honestly expected a fight — released every goose with a soggy bow. 'Counting,' said Mr 6, 'is cheaper than clanging.'",
   "image": "images/barrowfen-rows-and-ransom.webp",
-  "imagePrompt": "Rows of squat mud-soldiers standing in a misty reed marsh guarding a flock of honking geese, with a small caped numeral 6 tallying them on a slate."
+  "imagePrompt": "Rows of squat mud-soldiers standing in a misty reed marsh guarding a flock of honking geese, with a small caped numeral 6 tallying them on a slate.",
+  "solution": [
+    "Count the soldiers: 14 rows × 9 = 126 soldiers, so 126 coins are needed.",
+    "Subtract what's already gathered: 126 - 87 = 39.",
+    "They still need 39 coins."
+  ],
+  "praise": "Multiplying rows by soldiers was the perfect first move — the missing step was subtracting the 87 coins already collected."
 }

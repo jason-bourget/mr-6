@@ -15,5 +15,11 @@
   "hint": "Two parts plus five parts makes seven equal parts in all. Find the size of one part first.",
   "victory": "Mr 6 poured 45 cups of cider to 18 of honey, and the riddle-tap sighed open. Brindlecask now bottles tonic for the sick house and insists everyone call him \"Chef.\"",
   "image": "images/brindlecask-brewery-ratio.webp",
-  "imagePrompt": "A knobby barrel-shaped bogey with tap-handle arms guarding stacked cider casks in a warm lamplit cellar, while a small numeral 6 knight measures golden honey into a huge mixing tub."
+  "imagePrompt": "A knobby barrel-shaped bogey with tap-handle arms guarding stacked cider casks in a warm lamplit cellar, while a small numeral 6 knight measures golden honey into a huge mixing tub.",
+  "solution": [
+    "Add the ratio parts: 2 + 5 = 7 equal parts.",
+    "Find one part: 63 ÷ 7 = 9 cups per part.",
+    "Cider is 5 parts: 5 × 9 = 45 cups."
+  ],
+  "praise": "Using the ratio to break up the 63 cups was the right plan — finding the value of one part first is what locks in the answer."
 }

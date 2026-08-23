@@ -9,6 +9,9 @@
   /* ---------------- inline icons (Storybook Light) ---------------- */
 
   const starIcon = (size) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.3l6.5-.9z"/></svg>`;
+  const checkIcon = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>`;
+  const crossIcon = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>`;
+  const crownSmall = `<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h18"/><path d="M4 17l-1.2-8.5L8.5 12 12 5l3.5 7 5.7-3.5L20 17z"/></svg>`;
   const crownIcon = `<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h18"/><path d="M4 17l-1.2-8.5L8.5 12 12 5l3.5 7 5.7-3.5L20 17z"/></svg>`;
   const shieldIcon = `<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v5.1c0 4.4-2.9 7.8-7 9.7-4.1-1.9-7-5.3-7-9.7V6.2z"/></svg>`;
 
@@ -28,7 +31,7 @@
     const latest = index.days[index.days.length - 1];
     const day = await (await fetch(`content/days/${latest}.json`, { cache: "no-cache" })).json();
     const results = await Promise.allSettled(
-      day.problems.map((p) => fetch("content/" + p).then((r) => r.json()))
+      day.problems.map((p) => fetch("content/" + p, { cache: "no-cache" }).then((r) => r.json()))
     );
     state.date = day.date;
     state.problems = results
@@ -70,13 +73,17 @@
   }
 
   function renderProgress() {
-    $("quest-progress").innerHTML = state.problems.map((_, i) => {
+    $("battle-count").textContent = `Battle ${Math.min(state.index + 1, state.problems.length)} of ${state.problems.length}`;
+    const connector = '<span class="road-line"></span>';
+    const nodes = state.problems.map((_, i) => {
       const pick = state.picks[i];
-      let cls = "pip";
-      if (pick) cls += pick.correct ? " right" : " wrong";
-      else if (i === state.index) cls += " current";
-      return `<span class="${cls}"></span>`;
-    }).join("");
+      if (pick && pick.correct) return `<span class="road-node done">${checkIcon}</span>`;
+      if (pick) return `<span class="road-node miss">${crossIcon}</span>`;
+      if (i === state.index) return `<span class="road-node current">${i + 1}</span>`;
+      return '<span class="road-node todo"></span>';
+    });
+    $("quest-road").innerHTML =
+      nodes.join(connector) + connector + `<span class="road-crown">${crownSmall}</span>`;
   }
 
   function renderBattle() {
@@ -160,10 +167,28 @@
     $("victory-panel").hidden = false;
     $("victory-heading").textContent = correct ? "Victory!" : "Outfoxed!";
     $("victory-panel").classList.toggle("missed", !correct);
+
+    const praise = $("victory-praise");
+    praise.hidden = correct || !p.praise;
+    praise.textContent = p.praise || "";
+
+    const hasSolution = Array.isArray(p.solution) && p.solution.length > 0;
+    $("solution-box").hidden = !hasSolution;
+    if (hasSolution) {
+      $("solution-steps").innerHTML = p.solution.map((step, i) =>
+        `<div class="solution-step"><span class="step-num">${i + 1}</span><span>${escapeHtml(step)}</span></div>`
+      ).join("");
+    }
+
     $("victory-text").textContent =
-      `The answer was ${p.answer} ${p.unit || ""}. `.trimEnd() + " — " + (p.victory || "The monster is defeated!");
+      (hasSolution ? "" : `The answer was ${p.answer} ${p.unit || ""}. — `.replace(" . ", ". ")) +
+      (p.victory || "The monster is defeated!");
     $("btn-next").textContent =
       state.index + 1 === state.problems.length ? "See your score" : "Onward";
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
   function nextBattle() {

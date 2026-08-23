@@ -15,5 +15,11 @@
   "hint": "Add all four readings first, then split that total into 4 equal shares.",
   "victory": "Mr 6 called out 37 and the sky-bridge unrolled like a ribbon; Vantorrow admitted he'd never once checked his own arithmetic and asked Mr 6 for lessons.",
   "image": "images/vantorrow-tower-average.webp",
-  "imagePrompt": "A whirling cloud-bodied tallier perched atop a windmill tower above a canyon, spinning gauges everywhere, as a caped numeral-six knight shouts an answer into the gale."
+  "imagePrompt": "A whirling cloud-bodied tallier perched atop a windmill tower above a canyon, spinning gauges everywhere, as a caped numeral-six knight shouts an answer into the gale.",
+  "solution": [
+    "Add the readings: 32 + 47 + 41 + 28 = 148.",
+    "Divide by how many there are: 148 ÷ 4 = 37.",
+    "The average wind speed is 37 kilometers per hour."
+  ],
+  "praise": "You knew an average means sharing the total evenly — just double-check the addition before dividing by 4."
 }

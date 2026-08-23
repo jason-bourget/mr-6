@@ -14,5 +14,11 @@
     22,
     2,
     4
-  ]
+  ],
+  "solution": [
+    "Add up the silver Mr 6 has: 6 + 9 = 15, and 15 + 7 = 22 silver pieces.",
+    "The toll is 25, so find the gap: 25 - 22 = 3.",
+    "Mr 6 needs 3 more silver pieces."
+  ],
+  "praise": "Totalling up his silver first was the perfect first move - the missing step was comparing that total to the 25-piece toll. You're one subtraction away!"
 }

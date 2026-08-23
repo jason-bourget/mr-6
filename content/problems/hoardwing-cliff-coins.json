@@ -15,5 +15,11 @@
   "hint": "Find the total number of coins in all three chests before you split anything twelve ways.",
   "victory": "Every family got exactly 37 coins with none left over, and Hoardwing perched on Mr 6's helmet admiring her reflection. 'Sharing,' she croaked, 'is shinier than I expected.'",
   "image": "images/hoardwing-cliff-coins.webp",
-  "imagePrompt": "A glossy black magpie wraith on a windy cliffside nest of spilled gold coins, with a numeral-six knight stacking equal little coin piles as fishing villagers climb up in dawn light."
+  "imagePrompt": "A glossy black magpie wraith on a windy cliffside nest of spilled gold coins, with a numeral-six knight stacking equal little coin piles as fishing villagers climb up in dawn light.",
+  "solution": [
+    "Find the total coins first: 3 chests × 148 coins = 444 coins.",
+    "Share them equally: 444 ÷ 12 = 37.",
+    "Each family gets 37 coins."
+  ],
+  "praise": "Working with the chests was smart thinking — the missing step was totaling all three chests before dividing by 12."
 }

@@ -15,5 +15,11 @@
   "hint": "Find the silk part of the 60 kilograms first, then take one quarter of just that.",
   "victory": "Exactly nine kilograms of silk drifted away and the whole web unravelled like a dropped sweater; Nightlace applauded with all eight legs and moved to the barn.",
   "image": "images/nightlace-web-fraction.webp",
-  "imagePrompt": "A shimmering grey spider the size of a pony perched on a vast silver web sealing a stone cistern, a numeral-six knight measuring strands by lantern light in a damp cellar."
+  "imagePrompt": "A shimmering grey spider the size of a pony perched on a vast silver web sealing a stone cistern, a numeral-six knight measuring strands by lantern light in a damp cellar.",
+  "solution": [
+    "The silk part is 3/5 of 60 = 36 kilograms.",
+    "One quarter of the silk is 36 ÷ 4 = 9 kilograms.",
+    "Mr 6 must cut 9 kilograms."
+  ],
+  "praise": "Working with fractions of the web was the right instinct — the quarter needed to come from the silk part only, not the whole 60."
 }

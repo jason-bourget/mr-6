@@ -14,5 +14,11 @@
     1,
     3,
     4
-  ]
+  ],
+  "solution": [
+    "One lantern burns 1/4 each round, so it lasts 4 x 1/4 = 1 whole lantern over 4 rounds.",
+    "For 6 rounds he needs 6 x 1/4 = 6/4 = 1.5 lanterns of oil.",
+    "Since he can only carry full lanterns, Mr 6 must bring 2 lanterns."
+  ],
+  "praise": "Figuring out that one lantern covers 4 rounds was smart work — the step left was rounding 1.5 lanterns up to a whole lantern."
 }

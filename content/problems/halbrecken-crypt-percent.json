@@ -15,5 +15,11 @@
   "hint": "Take 25% off the 800 first. The second toll of 20% is charged on the smaller pile, not on the original 800.",
   "victory": "Mr 6 stepped into the sun with exactly 480 coins and a receipt he wrote himself. Halbrecken, impressed by proper bookkeeping, waived the third door entirely.",
   "image": "images/halbrecken-crypt-percent.webp",
-  "imagePrompt": "A tall shroud-wrapped collector made of swirling dust and glowing numerals standing between two stone crypt doorways lit by green torchlight, as a caped numeral 6 knight hauls a heavy coin sack past him."
+  "imagePrompt": "A tall shroud-wrapped collector made of swirling dust and glowing numerals standing between two stone crypt doorways lit by green torchlight, as a caped numeral 6 knight hauls a heavy coin sack past him.",
+  "solution": [
+    "First door: 25% of 800 = 200, so 800 − 200 = 600 coins are left.",
+    "Second door: 20% of 600 = 120, so 600 − 120 = 480 coins remain.",
+    "Mr 6 carries 480 coins into the daylight."
+  ],
+  "praise": "Taking the percentages one door at a time was smart — just remember the second toll is charged on the smaller pile, not the original 800."
 }

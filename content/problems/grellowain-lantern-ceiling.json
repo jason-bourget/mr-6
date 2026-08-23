@@ -15,5 +15,11 @@
   "hint": "Divide 290 by 24 and look at the leftover feet — a partly lit stretch still needs one more whole lantern.",
   "victory": "Twelve lanterns left two feet of gloom, so Mr 6 asked for thirteen — and Grellowain, with nowhere dark to stand, shrank to a polite little shadow that now guides travelers by pointing.",
   "image": "images/grellowain-lantern-ceiling.webp",
-  "imagePrompt": "A vast smoky gloom-creature crouched over a long wooden boardwalk through a night marsh, retreating as a small numeral 6 knight hangs a chain of warm lanterns post by post."
+  "imagePrompt": "A vast smoky gloom-creature crouched over a long wooden boardwalk through a night marsh, retreating as a small numeral 6 knight hangs a chain of warm lanterns post by post.",
+  "solution": [
+    "Divide the boardwalk: 290 ÷ 24 = 12 with 2 feet left over.",
+    "Those last 2 feet still need lighting, so add one lantern: 12 + 1 = 13.",
+    "Mr 6 must request 13 lanterns."
+  ],
+  "praise": "Dividing the length by the lantern's reach was exactly right — rounding up for that leftover stretch was the finishing touch."
 }

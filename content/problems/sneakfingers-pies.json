@@ -14,5 +14,11 @@
     6,
     8,
     17
-  ]
+  ],
+  "solution": [
+    "The baker starts with 12 pies and 5 are taken.",
+    "Subtract: 12 - 5 = 7.",
+    "The baker has 7 pies left."
+  ],
+  "praise": "Taking away the stolen pies was exactly right - it just looks like the counting back stopped a step early. So close!"
 }

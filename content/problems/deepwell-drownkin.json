@@ -15,5 +15,11 @@
   "hint": "First figure out how far the water still has to rise, then see how many 8-centimeter minutes fit in that distance.",
   "victory": "With four minutes to spare from his fifteen, Mr 6 hauled the shepherd boy up dry as toast, and Drownkin — thoroughly out-scheduled — drained away in a huff. 'Water rises on a timetable,' Mr 6 grinned, 'and I read timetables.'",
   "image": "images/deepwell-drownkin.webp",
-  "imagePrompt": "A dark stone well with rising water glinting below, a small boy clinging to a ladder while a numeral-six knight in a blue cape lowers a knotted rope by torchlight."
+  "imagePrompt": "A dark stone well with rising water glinting below, a small boy clinging to a ladder while a numeral-six knight in a blue cape lowers a knotted rope by torchlight.",
+  "solution": [
+    "The water still has to rise 150 - 30 = 120 centimeters.",
+    "At 8 centimeters per minute, that takes 120 ÷ 8 = 15.",
+    "The water reaches the ledge in 15 minutes."
+  ],
+  "praise": "Dividing by the rise rate was the right instinct — the missing step was subtracting the starting 30 cm first."
 }

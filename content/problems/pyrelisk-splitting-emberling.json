@@ -15,5 +15,11 @@
   "hint": "Start at 1 and triple it once for each clang: 1, 3, 9... keep going until you've done all five clangs.",
   "victory": "Mr 6 sheathed his sword, whispered the number 243 aloud, and Pyrelisk — who only grew when struck — sputtered out from sheer boredom into one sleepy, harmless spark.",
   "image": "images/pyrelisk-splitting-emberling.webp",
-  "imagePrompt": "A brave numeral-six knight holding his sword deliberately still while tiny grinning ember-imps multiply across a smoky volcanic ash pit, orange firelight glowing on his helmet."
+  "imagePrompt": "A brave numeral-six knight holding his sword deliberately still while tiny grinning ember-imps multiply across a smoky volcanic ash pit, orange firelight glowing on his helmet.",
+  "solution": [
+    "Triple once per clang: 1 → 3 → 9 → 27 → 81 → 243.",
+    "That's 3 × 3 × 3 × 3 × 3 = 243 after all five clangs.",
+    "There would be 243 imps."
+  ],
+  "praise": "Seeing that the imps triple each time was the key idea — the step to watch is repeating the tripling a full five times instead of stopping early."
 }

@@ -14,5 +14,11 @@
     60,
     40,
     15
-  ]
+  ],
+  "solution": [
+    "If the armor blocks 75%, then 100% - 75% = 25% gets through.",
+    "25% is one quarter, so 80 / 4 = 20.",
+    "20 points of the strike get through the armor."
+  ],
+  "praise": "Working with the percent was the right move — the missing step was flipping 75% blocked into 25% getting through."
 }

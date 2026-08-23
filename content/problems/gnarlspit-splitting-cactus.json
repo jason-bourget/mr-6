@@ -15,5 +15,11 @@
   "hint": "Every strike multiplies the whole crowd by 3. Write the count after each strike: 1, then 3, then...",
   "victory": "Mr 6 announced '81 — and one more swing makes 243!' The guard froze mid-swing, and Mr 6 simply watered the cacti instead, turning the whole prickly army into a very polite hedge.",
   "image": "images/gnarlspit-splitting-cactus.webp",
-  "imagePrompt": "A bristling green cactus monster multiplying into dozens of smaller copies around a desert well at hot golden noon, with a small numeral-6 knight holding up a warning hand."
+  "imagePrompt": "A bristling green cactus monster multiplying into dozens of smaller copies around a desert well at hot golden noon, with a small numeral-6 knight holding up a warning hand.",
+  "solution": [
+    "Each strike multiplies the whole crowd by 3, not adds 3.",
+    "Count after each strike: 1 → 3 → 9 → 27 → 81.",
+    "So 81 cacti face Mr 6 after the 4th strike."
+  ],
+  "praise": "You spotted that the cacti kept growing — the missing piece was multiplying the whole crowd by 3 each time instead of adding."
 }

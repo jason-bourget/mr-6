@@ -14,5 +14,11 @@
     16,
     12,
     6
-  ]
+  ],
+  "solution": [
+    "Split 24 wolves into 3 equal groups: 24 / 3 = 8 in each group.",
+    "Two of those groups flee, so 2 x 8 = 16 wolves run away.",
+    "That leaves 24 - 16 = 8 wolves for Mr 6 to face."
+  ],
+  "praise": "Finding thirds of 24 was exactly the right start — the last step was subtracting the fleeing wolves from the pack."
 }

@@ -15,5 +15,11 @@
   "hint": "Combine both drains, then subtract what the spring adds back — that difference is how much the pond really loses each minute.",
   "victory": "Exactly ten minutes later the water kissed the safe line and stopped, and Mudgullet gurgled off down her own sinkhole, out-plumbed. 'Never fight a leak,' said Mr 6. 'Out-subtract it.'",
   "image": "images/mudgullet-mill-flood.webp",
-  "imagePrompt": "A muddy grinning sprite splashing in a swollen marsh millpond at twilight while a numeral-six knight strains open two mossy stone drain gates, water swirling around the mill wheel."
+  "imagePrompt": "A muddy grinning sprite splashing in a swollen marsh millpond at twilight while a numeral-six knight strains open two mossy stone drain gates, water swirling around the mill wheel.",
+  "solution": [
+    "Both drains together remove 70 + 50 = 120 gallons per minute.",
+    "The spring adds 90 back, so the pond really drops 120 - 90 = 30 gallons each minute.",
+    "300 ÷ 30 = 10, so it takes 10 minutes."
+  ],
+  "praise": "You spotted that water is leaving and entering at once — the missing step was combining both drains before subtracting the spring."
 }

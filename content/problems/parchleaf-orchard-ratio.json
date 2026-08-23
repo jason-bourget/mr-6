@@ -15,5 +15,11 @@
   "hint": "The ratio 3:5 makes 8 equal parts. Find the size of one part first.",
   "victory": "The cider comes out perfect, Parchleaf takes one sip and melts into happy tears, and the pickers thaw out laughing. Mr 6 gets the first mug.",
   "image": "images/parchleaf-orchard-ratio.webp",
-  "imagePrompt": "A gaunt bark-skinned miser guarding a frost-covered orchard and a giant cider barrel, with a number-six knight sorting sour and sweet apples into measured heaps under pale winter light."
+  "imagePrompt": "A gaunt bark-skinned miser guarding a frost-covered orchard and a giant cider barrel, with a number-six knight sorting sour and sweet apples into measured heaps under pale winter light.",
+  "solution": [
+    "The ratio 3:5 makes 3 + 5 = 8 equal parts of the 344 apples.",
+    "One part is 344 ÷ 8 = 43 apples.",
+    "The sweet apples are 5 parts: 5 × 43 = 215 apples."
+  ],
+  "praise": "Using the ratio was smart thinking — finding the size of one part (344 ÷ 8 = 43) was the missing bridge."
 }

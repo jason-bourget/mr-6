@@ -15,5 +15,11 @@
   "hint": "Divide 194 by 12 — then remember that a leftover stretch still needs a whole lantern.",
   "victory": "Seventeen flames punched through the fog, and Brinelark's song cracked into a cough; she drifted off to sing somewhere with worse lighting.",
   "image": "images/brinelark-tide-lanterns.webp",
-  "imagePrompt": "A misty stone causeway at dusk strung with glowing warding lanterns as a pale singing siren of fog recoils over churning water, a numeral-six knight lighting the final lamp."
+  "imagePrompt": "A misty stone causeway at dusk strung with glowing warding lanterns as a pale singing siren of fog recoils over churning water, a numeral-six knight lighting the final lamp.",
+  "solution": [
+    "Divide the causeway: 194 ÷ 12 = 16 with 2 meters left over.",
+    "That leftover 2-meter stretch still needs its own lantern, so add one: 16 + 1 = 17.",
+    "The causeway needs 17 lanterns."
+  ],
+  "praise": "Dividing 194 by 12 was spot on — the only missing step was giving that leftover stretch a lantern of its own."
 }

@@ -15,5 +15,11 @@
   "hint": "Add the three goat prices together carefully, lining up the decimal points, before subtracting from 15.",
   "victory": "Mr 6 named the change to the last copper, and Trundlewick — who had been shortchanging travelers for years — handed it over with a soggy bow and started rowing honestly.",
   "image": "images/trundlewick-toll-decimals.webp",
-  "imagePrompt": "A squat warty bogle poling a flat barge across a misty green canal while a numeral-six knight in a helmet holds three goats and chalks decimal sums on the boat's side."
+  "imagePrompt": "A squat warty bogle poling a flat barge across a misty green canal while a numeral-six knight in a helmet holds three goats and chalks decimal sums on the boat's side.",
+  "solution": [
+    "Add the tolls: 3.75 + 2.40 = 6.15 coins.",
+    "Add the third goat: 6.15 + 4.85 = 11.00 coins.",
+    "Subtract from the note: 15 − 11 = 4, so he gets 4 coins of change."
+  ],
+  "praise": "Subtracting from 15 was the right plan — the missing step was totalling all three decimals first."
 }

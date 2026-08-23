@@ -15,5 +15,11 @@
   "hint": "Total each kind of item separately — loaves, cheese, honey — add all three totals, and only then subtract from 20.",
   "victory": "Mr 6 counted 2.05 crowns back into the shopkeeper's palm before Drossalind could blink, and every stall in Rimwick copied his math. The Price Warper, finally outnumbered by honest sums, floated off to bother a calculator instead.",
   "image": "images/drossalind-market-money.webp",
-  "imagePrompt": "A shimmering ghostly wisp with price tags for fingers hovering over a bustling twilight market stall of bread and cheese, as a small numeral 6 knight tallies coins on a wooden counter surrounded by cheering villagers."
+  "imagePrompt": "A shimmering ghostly wisp with price tags for fingers hovering over a bustling twilight market stall of bread and cheese, as a small numeral 6 knight tallies coins on a wooden counter surrounded by cheering villagers.",
+  "solution": [
+    "Loaves: 3 × 1.85 = 5.55 crowns, and cheese: 4 × 2.25 = 9.00 crowns.",
+    "Add the honey: 5.55 + 9.00 + 3.40 = 17.95 crowns spent.",
+    "Change is 20 - 17.95 = 2.05 crowns."
+  ],
+  "praise": "Multiplying each item by its price was a smart start — the step still to catch was adding all three totals together before subtracting from 20."
 }

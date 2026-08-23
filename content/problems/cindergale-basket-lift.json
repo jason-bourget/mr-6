@@ -15,5 +15,11 @@
   "hint": "Divide 143 by 12 and look at the leftover — those leftover people still need a basket of their own.",
   "victory": "The twelfth basket rose with just eleven passengers and one very smug six, and Cindergale, finding nobody left to frighten, flew off to shake her wings over an empty quarry. 'Nobody rides a leftover,' said Mr 6.",
   "image": "images/cindergale-basket-lift.webp",
-  "imagePrompt": "A numeral-six knight directing frightened villagers into glowing wicker sky-baskets rising through swirling grey ash while an enormous soot-winged roc circles above a mountain village at dusk."
+  "imagePrompt": "A numeral-six knight directing frightened villagers into glowing wicker sky-baskets rising through swirling grey ash while an enormous soot-winged roc circles above a mountain village at dusk.",
+  "solution": [
+    "Divide the villagers among baskets: 143 ÷ 12 = 11 with a remainder of 11.",
+    "Those 11 leftover villagers still need one more basket, so 11 + 1 = 12.",
+    "Mr 6 must send up 12 baskets."
+  ],
+  "praise": "Dividing was the perfect instinct - the leftover people just needed one extra basket of their own."
 }

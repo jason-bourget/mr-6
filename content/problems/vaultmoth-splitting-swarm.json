@@ -15,5 +15,11 @@
   "hint": "Start at 1 and triple it once for every swat — count all five swats.",
   "victory": "Two hundred forty-three moths flew straight into Mr 6's cold blue lantern-light and settled down for a nap; the grain was saved, and the farmers hung up their brooms.",
   "image": "images/vaultmoth-splitting-swarm.webp",
-  "imagePrompt": "A moonlit wooden granary loft swirling with hundreds of pale silver moths as a small numeral-six knight raises a glowing blue lantern, farmers frozen mid-broom-swing behind him."
+  "imagePrompt": "A moonlit wooden granary loft swirling with hundreds of pale silver moths as a small numeral-six knight raises a glowing blue lantern, farmers frozen mid-broom-swing behind him.",
+  "solution": [
+    "Count all the swats: 3 already done plus 2 more makes 5 swats in total.",
+    "Start at 1 moth and triple it five times: 1 × 3 = 3, × 3 = 9, × 3 = 27, × 3 = 81, × 3 = 243.",
+    "There will be 243 moths in the loft."
+  ],
+  "praise": "Tripling each time was the right pattern to spot — the missing step was counting all five swats, not just the last two."
 }

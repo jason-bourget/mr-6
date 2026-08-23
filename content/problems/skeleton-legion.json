@@ -14,5 +14,11 @@
     5,
     40,
     3
-  ]
+  ],
+  "solution": [
+    "Count the legion first: 5 rows of 8 skeletons is 5 x 8 = 40 skeletons.",
+    "Each shield-bash knocks down 10, so count by 10s: 10, 20, 30, 40 — that's 4 counts.",
+    "Mr 6 needs 4 bashes to defeat the whole legion."
+  ],
+  "praise": "Multiplying the rows to find the legion size was exactly the right start — the last step was counting those 40 skeletons in groups of 10."
 }

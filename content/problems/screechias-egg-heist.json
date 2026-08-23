@@ -14,5 +14,11 @@
     7,
     9,
     16
-  ]
+  ],
+  "solution": [
+    "There are 3 nests with 4 eggs in each nest.",
+    "Add 4 three times: 4 + 4 = 8, and 8 + 4 = 12 (same as 3 x 4 = 12).",
+    "Mr 6 must carry home 12 eggs."
+  ],
+  "praise": "Seeing this as equal groups was smart thinking - one group of 4 just needed to join the total. Multiplying gets you there fast!"
 }

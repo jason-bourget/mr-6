@@ -14,5 +14,11 @@
     78,
     40,
     36
-  ]
+  ],
+  "solution": [
+    "Add the three chests: 24 + 36 + 18 = 78 coins in all.",
+    "The orphanage gets half, so 78 / 2 = 39.",
+    "The orphanage receives 39 gold coins."
+  ],
+  "praise": "Adding the chests together was the perfect first move — the halving step was the one that slipped by."
 }

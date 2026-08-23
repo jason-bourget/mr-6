@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 
@@ -38,9 +38,11 @@
   <section id="screen-battle" class="screen">
     <header class="battle-header">
       <button id="btn-flee" class="ghost-btn" title="Back to the castle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg><span>Castle</span></button>
-      <div class="quest-progress" id="quest-progress"></div>
+      <div class="battle-count" id="battle-count"></div>
       <span class="header-spacer"></span>
     </header>
+
+    <div class="quest-road" id="quest-road"></div>
 
     <div class="battle-card">
       <div class="battle-illustration">
@@ -66,6 +68,11 @@
         <div class="victory-panel" id="victory-panel" hidden>
           <div class="victory-burst"><svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5-5.8-3-5.8 3 1.1-6.5L2.6 9.3l6.5-.9z"/></svg></div>
           <h3 id="victory-heading">Victory!</h3>
+          <p class="victory-praise" id="victory-praise" hidden></p>
+          <div class="solution-box" id="solution-box" hidden>
+            <div class="solution-label">How the battle was won</div>
+            <div class="solution-steps" id="solution-steps"></div>
+          </div>
           <p id="victory-text"></p>
           <button id="btn-next" class="primary-btn">Onward</button>
         </div>
@@ -88,6 +95,6 @@
 
 </div>
 
-<script src="js/game.js?v=4"></script>
+<script src="js/game.js?v=5"></script>
 </body>
 </html>

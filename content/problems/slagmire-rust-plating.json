@@ -15,5 +15,11 @@
   "hint": "First find 35% of 240 — that's the part the rust swallows. Then take that away from the whole 240.",
   "victory": "156 sparks rang through the plating like a bell, and Slagmire shook himself into a harmless cloud of orange dust that settled politely into a bucket. 'Measured, not smashed,' said Mr 6, sweeping up.",
   "image": "images/slagmire-rust-plating.webp",
-  "imagePrompt": "A brave numeral-six knight with a blue cape swinging a glowing hammer at a hulking rust-crusted iron titan inside a shadowy old foundry lit by dim ember-orange furnace light."
+  "imagePrompt": "A brave numeral-six knight with a blue cape swinging a glowing hammer at a hulking rust-crusted iron titan inside a shadowy old foundry lit by dim ember-orange furnace light.",
+  "solution": [
+    "Find what the rust absorbs: 35% of 240 = 0.35 × 240 = 84 sparks.",
+    "Subtract that from the total: 240 - 84 = 156.",
+    "156 sparks of force reach the titan."
+  ],
+  "praise": "Finding the percentage was the right first move - the missing step was subtracting it from the full 240."
 }

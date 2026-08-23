@@ -15,5 +15,11 @@
   "hint": "Divide 200 by 14 — then think about the leftover paces that still need light.",
   "victory": "Fourteen lanterns left a dark scrap of corridor, so Mr 6 lit a fifteenth; Maelifrost, who could only exist in gaps, had nowhere left to stand and politely evaporated.",
   "image": "images/maelifrost-crypt-lanterns.webp",
-  "imagePrompt": "A long stone crypt corridor glowing with a chain of newly lit lanterns, a frost-pale custodian shrinking into the last shadow while a caped numeral-six knight strikes a match."
+  "imagePrompt": "A long stone crypt corridor glowing with a chain of newly lit lanterns, a frost-pale custodian shrinking into the last shadow while a caped numeral-six knight strikes a match.",
+  "solution": [
+    "Divide the corridor: 200 ÷ 14 = 14 with 4 paces left over.",
+    "Those leftover 4 paces still need light, so add one more lantern: 14 + 1 = 15.",
+    "Mr 6 needs 15 lanterns."
+  ],
+  "praise": "Dividing was the right instinct — the leftover 4 dark paces just needed one extra lantern."
 }

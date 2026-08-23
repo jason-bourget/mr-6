@@ -15,5 +15,11 @@
   "hint": "First find the total value of all 8 bars, then split that total into 14 equal shares.",
   "victory": "Mr 6 proved every worker got exactly 36 coins with nothing left over, and Petrahoot — who had bet a feather on it being impossible — hooted once and turned into a very fair-minded statue.",
   "image": "images/petrahoot-quarry-share.webp",
-  "imagePrompt": "A huge stone owl perched atop an iron vault in a moonlit quarry, silver bars gleaming inside while a numeral-six knight chalks a division onto the rock face for a crowd of weary workers."
+  "imagePrompt": "A huge stone owl perched atop an iron vault in a moonlit quarry, silver bars gleaming inside while a numeral-six knight chalks a division onto the rock face for a crowd of weary workers.",
+  "solution": [
+    "Find the total value: 8 × 63 = 504 coins.",
+    "Share it out: 504 ÷ 14 = 36.",
+    "Each worker receives 36 coins."
+  ],
+  "praise": "Splitting into 14 shares was exactly right — the total value of all 8 bars just needed finding first."
 }

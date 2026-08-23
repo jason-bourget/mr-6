@@ -15,5 +15,11 @@
   "hint": "First find 35% of 240 and take it away. Then take 25% away from THAT new number — not from 240.",
   "victory": "Mr 6 recites the leftover count so precisely that Knollwidder loses track of its own thread, tangles into a tidy ball of yarn, and rolls off down the hill. The village gets 117 cloaks and one free ball of yarn.",
   "image": "images/knollwidder-loom-percent.webp",
-  "imagePrompt": "A ghostly wraith of loose threads looming over clacking wooden looms in a moonlit windmill, with a small knightly number six holding up a folded cloak like a shield."
+  "imagePrompt": "A ghostly wraith of loose threads looming over clacking wooden looms in a moonlit windmill, with a small knightly number six holding up a folded cloak like a shield.",
+  "solution": [
+    "First night: 35% of 240 = 0.35 × 240 = 84, so 240 - 84 = 156 cloaks remain.",
+    "Second night: 25% of 156 = 156 ÷ 4 = 39, so 156 - 39 = 117.",
+    "117 cloaks will still be woven."
+  ],
+  "praise": "Turning the percents into amounts to subtract was exactly right — the one step to add is taking the second 25% from the new 156, not from 240."
 }

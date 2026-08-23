@@ -15,5 +15,11 @@
   "hint": "Add all five counts into one total, then split that total evenly among the five bells.",
   "victory": "On the sixteenth strike the echoes folded into one soft hum and Hollowchime melted away with a grateful sigh. 'Averages,' Mr 6 whispered, 'are just fairness with numbers.'",
   "image": "images/hollowchime-echo-wraith.webp",
-  "imagePrompt": "A misty translucent wraith swirling among five small bells in a moonlit stone belfry while a numeral-six knight raises a mallet over a huge bronze gong."
+  "imagePrompt": "A misty translucent wraith swirling among five small bells in a moonlit stone belfry while a numeral-six knight raises a mallet over a huge bronze gong.",
+  "solution": [
+    "Add the rings: 14 + 22 + 9 + 17 + 18 = 80.",
+    "Divide by the number of bells: 80 ÷ 5 = 16.",
+    "Mr 6 must strike the gong 16 times."
+  ],
+  "praise": "Adding up all the bell counts was exactly right - the average just needs that total split among all five bells."
 }

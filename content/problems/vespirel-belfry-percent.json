@@ -15,5 +15,11 @@
   "hint": "Find 35% of 80 first — that's the stolen part — then subtract it from 80. (Or find 65% straight away.)",
   "victory": "Mr 6 announced that 52 fields still fell short of the farthest farm by exactly the length of one shout, so he stood on the parapet and shouted; Vespirel, unable to siphon a knight's lungs, slithered off in defeat.",
   "image": "images/vespirel-belfry-percent.webp",
-  "imagePrompt": "A great bronze bell in a stone belfry with a translucent serpent coiled around it drinking ripples of sound, while a numeral-six knight balances on the rope doing chalk math on the wall."
+  "imagePrompt": "A great bronze bell in a stone belfry with a translucent serpent coiled around it drinking ripples of sound, while a numeral-six knight balances on the rope doing chalk math on the wall.",
+  "solution": [
+    "Find the stolen part: 35% of 80 = 0.35 × 80 = 28 fields.",
+    "Subtract it: 80 − 28 = 52 fields.",
+    "The weakened ring carries 52 fields."
+  ],
+  "praise": "Working with the percent was smart thinking — the last step was taking that piece away from the full 80."
 }

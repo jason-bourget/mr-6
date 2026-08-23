@@ -14,5 +14,11 @@
     6,
     4,
     10
-  ]
+  ],
+  "solution": [
+    "Swing 1: start with 4 heads, cut 1 off (4 - 1 = 3), then 3 grow back (3 + 3 = 6 heads).",
+    "Swing 2: 6 - 1 = 5, then 5 + 3 = 8 heads.",
+    "After both swings, 8 heads glare down at him."
+  ],
+  "praise": "Tracking the heads cut off was the right start - the regrowing heads needed to be added back in after each swing. Great step-by-step thinking!"
 }

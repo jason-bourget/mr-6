@@ -15,5 +15,11 @@
   "hint": "The ice covers the same 8 meters every hour. How many 8s make 96?",
   "victory": "Mr 6 proved the sled needed under three hours while the ice needed twelve, so the miners rode out laughing — and Frostpetal, out-scheduled, bloomed into a harmless ice flower.",
   "image": "images/frostpetal-glacier-rescue.webp",
-  "imagePrompt": "A crystalline flower-shaped ice monster spreading frost down a glowing blue mine tunnel while a numeral-six knight urges a rescue sled forward under lantern light."
+  "imagePrompt": "A crystalline flower-shaped ice monster spreading frost down a glowing blue mine tunnel while a numeral-six knight urges a rescue sled forward under lantern light.",
+  "solution": [
+    "The ice seals 8 meters every hour, so ask how many 8s fit in 96.",
+    "96 ÷ 8 = 12.",
+    "The tunnel seals in 12 hours."
+  ],
+  "praise": "Matching meters to hours was the right move — the last step was dividing the full 96 by the 8 meters per hour."
 }

@@ -130,12 +130,15 @@ PROBLEM_SCHEMA = {
                     "unit": {"type": "string", "description": "Short unit like 'feet', 'coins', 'heads'"},
                     "check": {"type": "string", "description": "Pure arithmetic expression that evaluates to the answer, e.g. '8*2*2*2' or 'ceil(6/4)'. Only digits, + - * / ( ) . and ceil/floor/round."},
                     "distractors": {"type": "array", "items": {"type": "number"}, "description": "Exactly 3 plausible wrong answers modeling real kid mistakes (stopped a step early, wrong operation, reported an intermediate number). All distinct, none equal to the answer."},
+                    "solution": {"type": "array", "items": {"type": "string"}, "description": "2-3 short worked-solution steps a kid can follow, each one self-contained sentence with the arithmetic shown, e.g. 'Each minute the web really shrinks by 6 - 4.5 = 1.5 feet.' The final step states the answer with its unit."},
+                    "praise": {"type": "string", "description": "One warm growth-mindset line for a kid who picked a wrong answer: name the good strategy they likely tried and the step that was missing, e.g. 'Dividing was the right instinct - one step was missing.' Praise the strategy, never judge the child."},
                     "hint": {"type": "string", "description": "A gentle hint that scaffolds the first step without giving the answer"},
                     "victory": {"type": "string", "description": "1-2 sentence triumphant, funny resolution"},
                     "imagePrompt": {"type": "string", "description": "One-sentence visual description of the battle scene (monster, setting, mood) for an illustrator"},
                 },
                 "required": ["id", "title", "monster", "story", "question", "answer",
-                             "unit", "check", "distractors", "hint", "victory", "imagePrompt"],
+                             "unit", "check", "distractors", "solution", "praise",
+                             "hint", "victory", "imagePrompt"],
                 "additionalProperties": False,
             },
         }
@@ -206,6 +209,10 @@ Write {count} brand-new problems for tier "{tier}". Every problem must:
   common mistake (one step short, wrong operation, an intermediate number from the
   story). Distinct from each other and from the answer — the game shows all four as
   multiple choice.
+- have a "solution": 2-3 short worked steps shown after answering (right or wrong),
+  each with the arithmetic visible, ending in the answer with its unit
+- have a "praise" line for wrong answers: name the good strategy and the missing step
+  (growth mindset — praise the thinking, never judge the child)
 - have an imagePrompt describing the scene (monster, setting, lighting/mood) in one sentence
 
 Set the "tier" implicitly — I will add it. Vary settings (sea, sky, crypt, market,
@@ -275,6 +282,12 @@ def main():
                     or len({round(x, 6) for x in d}) != 3
                     or any(abs(x - p.get("answer", 0)) < 1e-9 for x in d)):
                 faults.append("bad distractors (need 3 distinct numbers != answer)")
+            sol = p.get("solution")
+            if (not isinstance(sol, list) or not (2 <= len(sol) <= 3)
+                    or not all(isinstance(s, str) and s.strip() for s in sol)):
+                faults.append("bad solution (need 2-3 step strings)")
+            if not isinstance(p.get("praise"), str) or not p["praise"].strip():
+                faults.append("missing praise")
             for f in ["title", "monster", "story", "question", "hint", "victory"]:
                 if not isinstance(p.get(f), str) or not p[f]:
                     faults.append(f"missing {f}")
@@ -300,6 +313,7 @@ def main():
                 "id": p["id"], "tier": p["tier"], "title": p["title"], "monster": p["monster"],
                 "story": p["story"], "question": p["question"], "answer": p["answer"],
                 "unit": p.get("unit", ""), "distractors": p["distractors"],
+                "solution": p["solution"], "praise": p["praise"],
                 "hint": p["hint"], "victory": p["victory"],
                 "image": image_path, "imagePrompt": p.get("imagePrompt", ""),
             }

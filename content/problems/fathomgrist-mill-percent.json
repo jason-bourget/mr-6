@@ -15,5 +15,11 @@
   "hint": "First find 35% of 480 — that's the wraith's share. Then take it away from the whole 480.",
   "victory": "Mr 6 read the number back so precisely that Fathomgrist's stone ground to a squeaky halt and coughed up every last gram. 'A six never rounds in a wraith's favor,' he said, dusting flour off his helmet.",
   "image": "images/fathomgrist-mill-percent.webp",
-  "imagePrompt": "A brave numeral-six knight in a blue cape standing on the rim of a giant spinning millstone inside a flooded valley mill, a swirling gray flour-wraith looming in the dusty golden light."
+  "imagePrompt": "A brave numeral-six knight in a blue cape standing on the rim of a giant spinning millstone inside a flooded valley mill, a swirling gray flour-wraith looming in the dusty golden light.",
+  "solution": [
+    "Find the wraith's share: 35% of 480 = 0.35 × 480 = 168 kilograms.",
+    "Take that away from the whole load: 480 - 168 = 312.",
+    "The village gets 312 kilograms of flour."
+  ],
+  "praise": "Finding 35% of 480 was solid percent work — the last step was subtracting it from the full 480."
 }

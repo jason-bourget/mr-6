@@ -15,5 +15,11 @@
   "hint": "First find one third of 486 — that's the sprite's share. Then take it away from the whole pile.",
   "victory": "Mr 6 showed Whistlebrack that a third of 486 was only 162, so she'd been bragging about a very small breeze; embarrassed, she whistled the apples back and settled for the bruised ones.",
   "image": "images/whistlebrack-orchard-thirds.webp",
-  "imagePrompt": "A brave numeral-six knight with blue cape standing among moonlit apple trees, counting apples aloud while a puffy-cheeked wind sprite hovers with a swirling basket of leaves and fruit."
+  "imagePrompt": "A brave numeral-six knight with blue cape standing among moonlit apple trees, counting apples aloud while a puffy-cheeked wind sprite hovers with a swirling basket of leaves and fruit.",
+  "solution": [
+    "One third of the apples is 486 ÷ 3 = 162 apples.",
+    "Take that away from the pile: 486 - 162 = 324.",
+    "The village keeps 324 apples."
+  ],
+  "praise": "Finding one third of 486 was the perfect first move — the question just wanted the apples left over, not the sprite's share."
 }

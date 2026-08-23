@@ -15,5 +15,11 @@
   "hint": "First find the mystery number: what times 7 gives 168? Then add the extra flashes.",
   "victory": "Twenty-nine flashes swept out over the water, the fleet turned safely home, and Lumenwrack coughed up the gear and asked politely if he could just watch the pretty light instead.",
   "image": "images/lumenwrack-signal-unknown.webp",
-  "imagePrompt": "A shadowy fish-eyed creature coiled around a storm-lashed lighthouse lantern room as a numeral-six knight chalks numbers on the glass, brilliant beams cutting across a dark sea full of ships."
+  "imagePrompt": "A shadowy fish-eyed creature coiled around a storm-lashed lighthouse lantern room as a numeral-six knight chalks numbers on the glass, brilliant beams cutting across a dark sea full of ships.",
+  "solution": [
+    "Find the flashes per turn: 168 ÷ 7 = 24 flashes.",
+    "Mr 6 adds 5 more each turn: 24 + 5 = 29.",
+    "The beacon makes 29 flashes in one turn."
+  ],
+  "praise": "Dividing 168 by 7 was exactly right — the extra 5 warning flashes just needed to be added on at the end."
 }

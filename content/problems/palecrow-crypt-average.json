@@ -15,5 +15,11 @@
   "hint": "If six days average 24, what must the six-day TOTAL be? Then compare it to the five days already recorded.",
   "victory": "Mr 6 lit 28 candles — one flick of his sword per candle — and the crypt door swung wide. 'Averages,' he told Palecrow, 'are just totals wearing a disguise.'",
   "image": "images/palecrow-crypt-average.webp",
-  "imagePrompt": "A tattered bird-headed spirit hunched over a dusty ledger in a candlelit stone crypt, with a small glowing numeral-6 knight lighting a row of tapers."
+  "imagePrompt": "A tattered bird-headed spirit hunched over a dusty ledger in a candlelit stone crypt, with a small glowing numeral-6 knight lighting a row of tapers.",
+  "solution": [
+    "For a six-day average of 24, the total must be 6 × 24 = 144 candles.",
+    "The five recorded days add to 19 + 27 + 22 + 30 + 18 = 116.",
+    "So day 6 needs 144 - 116 = 28 candles."
+  ],
+  "praise": "Working with the average was the right idea — the missing move was turning the average into a six-day total of 144 first."
 }

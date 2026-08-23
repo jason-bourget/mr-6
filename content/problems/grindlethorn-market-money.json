@@ -15,5 +15,11 @@
   "hint": "Find the rope total and the lantern total separately, add them, then subtract from 20.",
   "victory": "Mr 6 held out his hand and said '7 coins and 45 — I'll wait.' Grindlethorn's abacus tail curled up in shame, and he refunded the whole market before lunchtime.",
   "image": "images/grindlethorn-market-money.webp",
-  "imagePrompt": "A small horned imp merchant with an abacus for a tail behind a cluttered market stall of ropes and tin lanterns, facing a polite numeral-6 knight holding out a palm, warm afternoon light."
+  "imagePrompt": "A small horned imp merchant with an abacus for a tail behind a cluttered market stall of ropes and tin lanterns, facing a polite numeral-6 knight holding out a palm, warm afternoon light.",
+  "solution": [
+    "Rope costs 3 × 2.45 = 7.35 coins, and lanterns cost 4 × 1.30 = 5.20 coins.",
+    "Together that's 7.35 + 5.20 = 12.55 coins.",
+    "Change is 20 - 12.55 = 7.45 coins."
+  ],
+  "praise": "Splitting the shopping into two totals was a great strategy — the final step was subtracting the combined 12.55 from the 20-coin note."
 }

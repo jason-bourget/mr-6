@@ -15,5 +15,11 @@
   "hint": "After one strike there are 3, after two there are 9 — keep multiplying by 3 for each strike.",
   "victory": "Mr 6 sheathed his sword, announced that striking five times would summon 243 oozes, and instead pulled the drain plug — Gorrowpit swirled away with a very surprised gurgle.",
   "image": "images/gorrowpit-splitting-slime.webp",
-  "imagePrompt": "A numeral-six knight standing in knee-deep green mine water, sword pointedly sheathed, facing a wobbling glowing ooze that is already faintly splitting into three, lit by a single hanging lamp."
+  "imagePrompt": "A numeral-six knight standing in knee-deep green mine water, sword pointedly sheathed, facing a wobbling glowing ooze that is already faintly splitting into three, lit by a single hanging lamp.",
+  "solution": [
+    "Strike 1: 1 × 3 = 3 oozes; strike 2: 3 × 3 = 9 oozes.",
+    "Strike 3: 9 × 3 = 27; strike 4: 27 × 3 = 81 oozes.",
+    "Strike 5: 81 × 3 = 243, so there are 243 oozes."
+  ],
+  "praise": "Multiplying by 3 was spot on — the part to watch is doing it a full five times, not stopping early."
 }

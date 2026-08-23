@@ -15,5 +15,11 @@
   "hint": "You need the missing factor: what do you multiply by 8 to reach 152? Division undoes multiplication.",
   "victory": "'Nineteen,' said Mr 6, and every velvet case popped open at once like startled clams. Ombrelith folded into a thin ribbon of shade and slid away, muttering that he should have used a harder number.",
   "image": "images/ombrelith-shadow-unknown.webp",
-  "imagePrompt": "A numeral-six knight facing a tall shadowy ledger-keeper in a moonlit clock tower as nineteen velvet cases spring open spilling glinting brass gears."
+  "imagePrompt": "A numeral-six knight facing a tall shadowy ledger-keeper in a moonlit clock tower as nineteen velvet cases spring open spilling glinting brass gears.",
+  "solution": [
+    "The missing number times 8 equals 152, so undo the multiplication with division: 152 ÷ 8.",
+    "152 ÷ 8 = 19 because 8 × 19 = 152.",
+    "The number is 19 cases."
+  ],
+  "praise": "Spotting that a missing factor was hiding in there shows real algebra thinking — dividing to undo the times-8 was the step to finish it."
 }

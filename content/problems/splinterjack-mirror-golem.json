@@ -15,5 +15,11 @@
   "hint": "One strike makes 2, two strikes make 4 — keep doubling and count exactly seven doublings.",
   "victory": "Mr 6 sheathed his sword, held up a mirror, and let Splinterjack strike its own reflection — the doubling curse cancelled itself and the hall went quiet. 'One hundred twenty-eight reasons,' he told the squire, 'to think first.'",
   "image": "images/splinterjack-mirror-golem.webp",
-  "imagePrompt": "A hall of tall silver mirrors reflecting a crystalline golem endlessly, with a small numeral-six knight calmly sheathing his sword and raising a hand mirror in the cool blue light."
+  "imagePrompt": "A hall of tall silver mirrors reflecting a crystalline golem endlessly, with a small numeral-six knight calmly sheathing his sword and raising a hand mirror in the cool blue light.",
+  "solution": [
+    "Start with 1 golem; after each strike the count doubles.",
+    "Doubling seven times: 1 → 2 → 4 → 8 → 16 → 32 → 64 → 128.",
+    "There would be 128 golems standing."
+  ],
+  "praise": "Doubling was absolutely the right pattern — the missing step was tracking all seven doublings to the end."
 }

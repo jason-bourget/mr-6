@@ -14,5 +14,11 @@
     7,
     5,
     35
-  ]
+  ],
+  "solution": [
+    "Share 42 coins equally among 7 families: 42 ÷ 7.",
+    "Think: 7 x 6 = 42, so 42 ÷ 7 = 6.",
+    "Each family gets 6 gold coins."
+  ],
+  "praise": "Splitting the coins into equal piles was the right instinct - just double-check which number gets shared out. Your division thinking is solid!"
 }

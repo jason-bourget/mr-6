@@ -15,5 +15,11 @@
   "hint": "Work out the rope cost and the lantern cost separately, add them for one total, then subtract from 40.",
   "victory": "'Twelve gold and three-quarters,' said Mr 6, and Nibbleprice shrieked as the correct coins clinked down, un-fogging Mr Tuck entirely. The wisp fled to haunt somebody's homework instead.",
   "image": "images/nibbleprice-market-wisp.webp",
-  "imagePrompt": "A shimmering fog-wisp curling over a harbor market stall of ropes and lanterns as a numeral-six knight counts bright coins onto the counter at golden hour."
+  "imagePrompt": "A shimmering fog-wisp curling over a harbor market stall of ropes and lanterns as a numeral-six knight counts bright coins onto the counter at golden hour.",
+  "solution": [
+    "Rope costs 3 × 4.75 = 14.25 gold, and lanterns cost 2 × 6.50 = 13.00 gold.",
+    "Add them: 14.25 + 13.00 = 27.25 gold spent.",
+    "Change is 40 - 27.25 = 12.75 gold pieces."
+  ],
+  "praise": "Pricing each item group separately was a great approach - both totals just needed adding before subtracting from 40."
 }

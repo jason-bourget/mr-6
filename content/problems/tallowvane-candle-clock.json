@@ -15,5 +15,11 @@
   "hint": "How many times does 3.5 fit into 42? Try doubling: if 3.5 goes in 10 times, that's 35 centimeters — how much is left?",
   "victory": "Mr 6 timed the melt perfectly and swung the door open with one second to spare, and Tallowvane sputtered out into a friendly little puddle who now works as the abbey's timekeeper.",
   "image": "images/tallowvane-candle-clock.webp",
-  "imagePrompt": "A tall wax-cloaked warden guarding a melting door of amber wax in a candlelit bell tower, with a brave numeral-six knight watching a shrinking candle-clock as warm light pools on stone floors."
+  "imagePrompt": "A tall wax-cloaked warden guarding a melting door of amber wax in a candlelit bell tower, with a brave numeral-six knight watching a shrinking candle-clock as warm light pools on stone floors.",
+  "solution": [
+    "Ten minutes burns 3.5 × 10 = 35 centimeters, leaving 42 - 35 = 7 centimeters.",
+    "7 ÷ 3.5 = 2 more minutes.",
+    "So the candle is gone after 10 + 2 = 12 minutes."
+  ],
+  "praise": "Dividing the height by the burn rate was the right instinct — the decimal 3.5 just needed one careful extra step."
 }

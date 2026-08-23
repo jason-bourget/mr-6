@@ -15,5 +15,11 @@
   "hint": "Find one quarter of 288 first, and subtract it. THEN take a third of that new, smaller number — not of 288.",
   "victory": "Mr 6 said \"one hundred forty-four, and I'd like them polished,\" and Quorlbath burped out every last pearl in astonishment. He now works as the tidepool's official pearl-counter, and he's terrible at it.",
   "image": "images/quorlbath-tidepool-thirds.webp",
-  "imagePrompt": "A round, puff-cheeked sea hoarder crouched in a glowing turquoise tidepool cavern, pearls spilling from its pouches, as a small knightly numeral 6 with a blue cape stands on a wet rock pointing confidently."
+  "imagePrompt": "A round, puff-cheeked sea hoarder crouched in a glowing turquoise tidepool cavern, pearls spilling from its pouches, as a small knightly numeral 6 with a blue cape stands on a wet rock pointing confidently.",
+  "solution": [
+    "One quarter of 288 is 288 ÷ 4 = 72, so after dawn 288 − 72 = 216 pearls remain.",
+    "One third of that smaller pile is 216 ÷ 3 = 72, so at noon 216 − 72 = 144 pearls remain.",
+    "Quorlbath still holds 144 pearls."
+  ],
+  "praise": "Taking the fractions in order was smart thinking — the trick was to take the second fraction of the new, smaller pile instead of the original 288."
 }

@@ -15,5 +15,11 @@
   "hint": "How many sevens fit into 91? Try 7 times 10 first, then see what's left over.",
   "victory": "The chain fell at minute thirteen with two minutes to spare, and Cindercrown was so impressed by the arithmetic that he forged Mr 6 a brand-new number-shaped shield.",
   "image": "images/cindercrown-forge-rate.webp",
-  "imagePrompt": "A crown-of-embers blacksmith monster looming over a glowing anvil in a volcanic forge with lava seams in the floor, as a numeral-six knight hammers a chained bell free amid orange sparks."
+  "imagePrompt": "A crown-of-embers blacksmith monster looming over a glowing anvil in a volcanic forge with lava seams in the floor, as a numeral-six knight hammers a chained bell free amid orange sparks.",
+  "solution": [
+    "Ask how many 7s fit into 91: 7 × 10 = 70 strikes in the first 10 minutes.",
+    "That leaves 91 - 70 = 21 strikes, and 21 ÷ 7 = 3 more minutes.",
+    "Total time: 10 + 3 = 13 minutes."
+  ],
+  "praise": "Splitting the big number into easier chunks was clever thinking — you just needed to add both chunks of time together at the end."
 }

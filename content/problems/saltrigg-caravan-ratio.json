@@ -15,5 +15,11 @@
   "hint": "Add 3 + 5 + 4 to find how many equal parts there are, then find the size of ONE part.",
   "victory": "Mr 6 poured out 120 liters for the travelers without spilling a drop, and Saltrigg the Broker bowed so low his turban hit the sand. 'Fair as a six,' he grumbled, and opened the well road.",
   "image": "images/saltrigg-caravan-ratio.webp",
-  "imagePrompt": "A numeral-six knight measuring water from a huge barrel beside kneeling camels in a golden desert dusk while a lanky robed broker watches with folded arms."
+  "imagePrompt": "A numeral-six knight measuring water from a huge barrel beside kneeling camels in a golden desert dusk while a lanky robed broker watches with folded arms.",
+  "solution": [
+    "Add the parts: 3 + 5 + 4 = 12 equal parts in all.",
+    "Find one part: 288 ÷ 12 = 24 liters per part.",
+    "The travelers' share is 5 parts: 5 × 24 = 120 liters."
+  ],
+  "praise": "Splitting the total into ratio parts was exactly the right move — the missing step was finding the size of one part before multiplying."
 }

@@ -15,5 +15,11 @@
   "hint": "Halve it once for hour one, then halve that result again — do it three times in a row.",
   "victory": "Mr 6 calculated 80 candlemarks — just enough — and marched the shepherds out with light to spare, leaving Skalderin grumbling that nobody ever does the arithmetic.",
   "image": "images/skalderin-glacier-halving.webp",
-  "imagePrompt": "x"
+  "imagePrompt": "x",
+  "solution": [
+    "Hour 1: 640 ÷ 2 = 320 candlemarks.",
+    "Hour 2: 320 ÷ 2 = 160 candlemarks.",
+    "Hour 3: 160 ÷ 2 = 80, so 80 candlemarks remain."
+  ],
+  "praise": "Halving was exactly the right move — the trick was repeating it once for each of the three hours."
 }

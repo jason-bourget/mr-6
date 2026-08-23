@@ -15,5 +15,11 @@
   "hint": "Halve 96 again and again — 48, then 24 — and count the hours until you drop below 11.",
   "victory": "Mr 6 hurries the herders over in hour three, and Caldrith's fourth halving shrinks a bridge with nobody on it. The whisper sulks into a puff of warm ash.",
   "image": "images/caldrith-lava-halving.webp",
-  "imagePrompt": "A narrowing obsidian bridge over a glowing lava pool with a smoky whispering face in the fumes, goats and a caped number six dashing across in fiery orange light."
+  "imagePrompt": "A narrowing obsidian bridge over a glowing lava pool with a smoky whispering face in the fumes, goats and a caped number six dashing across in fiery orange light.",
+  "solution": [
+    "Halve the bridge each hour: 96 → 48 after 1 hour, 48 → 24 after 2 hours.",
+    "Keep going: 24 → 12 after 3 hours (still 11 or more), then 12 → 6 after 4 hours.",
+    "6 meters is the first length under 11, so it happens after 4 hours."
+  ],
+  "praise": "Halving over and over was the perfect strategy — the trick was counting hours until the length dropped *below* 11, not just close to it."
 }

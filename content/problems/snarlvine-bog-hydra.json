@@ -15,5 +15,11 @@
   "hint": "Each cut removes one and adds three — so what is the net change in tentacles per cut?",
   "victory": "Mr 6 stopped the cutting, tickled the twenty-three tentacles with a reed, and Snarlvine giggled itself loose, releasing the wagon and one extremely damp cat. 'Every cut made it stronger,' he said. 'So I stopped cutting.'",
   "image": "images/snarlvine-bog-hydra.webp",
-  "imagePrompt": "A misty green swamp where a many-tentacled vine hydra grips a half-sunken wagon, a numeral-six knight standing on a log holding up a reed instead of a sword."
+  "imagePrompt": "A misty green swamp where a many-tentacled vine hydra grips a half-sunken wagon, a numeral-six knight standing on a log holding up a reed instead of a sword.",
+  "solution": [
+    "Each cut changes the count by -1 + 3 = +2 tentacles.",
+    "After 8 cuts that is 8 × 2 = 16 extra tentacles.",
+    "Starting from 7: 7 + 16 = 23 tentacles."
+  ],
+  "praise": "You noticed both the cutting and the regrowing — the missing step was combining them into a net gain of 2 per cut."
 }

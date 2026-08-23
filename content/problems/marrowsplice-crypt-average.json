@@ -15,5 +15,11 @@
   "hint": "Add all five urn totals together first, then split that sum into 5 equal shares.",
   "victory": "Mr 6 said 'fifty-two' and the crypt door swung open with a polite creak. Marrowsplice stamped his ledger approvingly — he had never met a hero who did the adding before the arguing.",
   "image": "images/marrowsplice-crypt-average.webp",
-  "imagePrompt": "A numeral-six knight kneeling before five ancient bronze urns in a torchlit crypt while a tall skeletal auditor in a dusty robe peers down through cracked spectacles."
+  "imagePrompt": "A numeral-six knight kneeling before five ancient bronze urns in a torchlit crypt while a tall skeletal auditor in a dusty robe peers down through cracked spectacles.",
+  "solution": [
+    "Add the five urn totals together: they come to 260 coins.",
+    "Share that sum equally among 5 urns: 260 ÷ 5.",
+    "260 ÷ 5 = 52, so the average is 52 coins per urn."
+  ],
+  "praise": "Adding the urns up was the right first move — dividing that total by 5 was the step still waiting."
 }

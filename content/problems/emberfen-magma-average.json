@@ -15,5 +15,11 @@
   "hint": "If the average of 7 days is 15, what must all 7 days add up to together?",
   "victory": "Mr 6 filled in the smudge, the average held steady, and Emberfen had to admit nobody needed to run anywhere — so the village threw a bonfire party instead.",
   "image": "images/emberfen-magma-average.webp",
-  "imagePrompt": "A soot-streaked ash creature with a glowing ledger perches on a volcanic ridge under orange smoke while a small numeral-six knight recalculates the average on a slate, villagers waiting below."
+  "imagePrompt": "A soot-streaked ash creature with a glowing ledger perches on a volcanic ridge under orange smoke while a small numeral-six knight recalculates the average on a slate, villagers waiting below.",
+  "solution": [
+    "For a 7-day average of 15, the total must be 15 × 7 = 105 rumbles.",
+    "The first six days add to 14 + 9 + 22 + 11 + 18 + 16 = 90 rumbles.",
+    "The smudged day must be 105 - 90 = 15 rumbles."
+  ],
+  "praise": "Thinking about the average was the right path — the trick was turning that average into a total (15 × 7) before subtracting."
 }

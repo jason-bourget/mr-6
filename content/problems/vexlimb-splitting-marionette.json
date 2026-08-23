@@ -15,5 +15,11 @@
   "hint": "Each swing removes one puppet and adds three — so the crowd grows by 2 every swing. Start from 2.",
   "victory": "Mr 6 sheathes his sword, hands Vexlimb a pair of scissors, and points out that four swings only meant ten dance partners. The puppet, delighted, cuts its own strings and joins the town theater troupe.",
   "image": "images/vexlimb-splitting-marionette.webp",
-  "imagePrompt": "A tangle of grinning wooden marionettes splitting apart on a candlelit theater stage, while a small number-six knight thoughtfully keeps his sword sheathed."
+  "imagePrompt": "A tangle of grinning wooden marionettes splitting apart on a candlelit theater stage, while a small number-six knight thoughtfully keeps his sword sheathed.",
+  "solution": [
+    "Each swing turns 1 puppet into 3, so the crowd grows by 3 - 1 = 2 puppets.",
+    "Starting from 2 puppets, 4 swings add 4 × 2 = 8 puppets.",
+    "2 + 8 = 10 puppets are dancing."
+  ],
+  "praise": "Noticing the puppets multiply was good thinking — the missing step was that only one puppet splits per swing, so the crowd grows by 2 each time instead of tripling."
 }

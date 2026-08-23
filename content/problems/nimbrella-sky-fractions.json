@@ -15,5 +15,11 @@
   "hint": "Find what's left after Monday first — that's the amount Tuesday's fraction applies to.",
   "victory": "Mr 6 named 420 without blinking, and Nimbrella, impressed, burped every drop back in a warm summer downpour. The farmers danced; Mr 6's cape took two days to dry.",
   "image": "images/nimbrella-sky-fractions.webp",
-  "imagePrompt": "A translucent jellyfish-shaped cloud creature siphoning silver rain above a half-empty stone reservoir, with a numeral-6 knight riding a kite in a pale windy sky."
+  "imagePrompt": "A translucent jellyfish-shaped cloud creature siphoning silver rain above a half-empty stone reservoir, with a numeral-6 knight riding a kite in a pale windy sky.",
+  "solution": [
+    "Monday's siphon takes 840 ÷ 4 = 210 barrels, leaving 840 - 210 = 630 barrels.",
+    "Tuesday's siphon takes 1/3 of the 630 that remained: 630 ÷ 3 = 210 barrels.",
+    "630 - 210 = 420 barrels are left."
+  ],
+  "praise": "Splitting the problem into Monday and Tuesday was a smart plan — the one step to remember is that Tuesday's 1/3 applies to the 630 left over, not the original 840."
 }

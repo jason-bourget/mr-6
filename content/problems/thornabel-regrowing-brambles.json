@@ -15,5 +15,11 @@
   "hint": "Each cut takes 1 away and adds 3 — so what is the NET change to the vine count per cut?",
   "victory": "Mr 6 stopped mid-swing, did the arithmetic, and cut exactly zero vines — instead he tickled Thornabel's roots until it untangled itself laughing. The orphans poured out through a gate of nothing but flowers.",
   "image": "images/thornabel-regrowing-brambles.webp",
-  "imagePrompt": "A numeral-six knight lowering his sword thoughtfully before a massive writhing bramble gate wound over an orphanage door, thorny vines glinting in warm afternoon light."
+  "imagePrompt": "A numeral-six knight lowering his sword thoughtfully before a massive writhing bramble gate wound over an orphanage door, thorny vines glinting in warm afternoon light.",
+  "solution": [
+    "Each cut removes 1 vine but grows 3 back, so the net change is 3 - 1 = +2 vines per cut.",
+    "After 12 cuts the vines grow by 12 × 2 = 24.",
+    "Add that to the 40 vines already there: 40 + 24 = 64 vines."
+  ],
+  "praise": "Tracking the cuts was smart — the key was seeing each cut is a net gain of +2 vines, not a loss."
 }

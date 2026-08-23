@@ -15,5 +15,11 @@
   "hint": "Start with 1 and triple it once, then again, then again. Count the triplings carefully — four strikes means four triplings.",
   "victory": "Mr 6 grabbed the captain's sword mid-swing and shouted the number 81, and the horrified crew rowed home without a single strike — the reef stayed peaceful and one very lonely kraken went back to sleep.",
   "image": "images/riptallow-kraken-splits.webp",
-  "imagePrompt": "A vast purple kraken coiled around a sunken ferry in turquoise sunlit water, ghostly copies of itself shimmering behind it, as a small numeral-six knight in a blue cape holds up a warning hand."
+  "imagePrompt": "A vast purple kraken coiled around a sunken ferry in turquoise sunlit water, ghostly copies of itself shimmering behind it, as a small numeral-six knight in a blue cape holds up a warning hand.",
+  "solution": [
+    "Strike 1: 1 × 3 = 3 krakens; strike 2: 3 × 3 = 9 krakens.",
+    "Strike 3: 9 × 3 = 27 krakens; strike 4: 27 × 3 = 81 krakens.",
+    "After four strikes there are 81 krakens."
+  ],
+  "praise": "Tripling was exactly right — the missing step was counting all four triplings instead of stopping early."
 }

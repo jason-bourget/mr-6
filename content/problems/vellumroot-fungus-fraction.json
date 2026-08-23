@@ -15,5 +15,11 @@
   "hint": "First find three fifths of 480 — that's what the vinegar removes. Then subtract that from the whole wall before taking away the maids' 44.",
   "victory": "Mr 6 called out \"One hundred forty-eight!\" and the bloom sagged like wet laundry, letting twelve very cheesy maids stroll free. \"Math,\" said Mr 6, \"is the strongest vinegar there is.\"",
   "image": "images/vellumroot-fungus-fraction.webp",
-  "imagePrompt": "A brave numeral-six knight with a blue cape holding a lantern before a towering wall of pale glowing fungus in a damp stone cheese cellar, vinegar barrels steaming at his feet."
+  "imagePrompt": "A brave numeral-six knight with a blue cape holding a lantern before a towering wall of pale glowing fungus in a damp stone cheese cellar, vinegar barrels steaming at his feet.",
+  "solution": [
+    "Three fifths of 480 square feet: 480 ÷ 5 = 96, and 96 × 3 = 288 square feet dissolved by the vinegar.",
+    "That leaves 480 - 288 = 192 square feet standing.",
+    "The maids scrub off 44 more: 192 - 44 = 148 square feet."
+  ],
+  "praise": "Starting with the fraction was the right first move — the last step was subtracting the maids' 44 square feet from what remained."
 }

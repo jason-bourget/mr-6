@@ -15,5 +15,11 @@
   "hint": "Halve it once for each hour and keep a list: 96, 48, ... Count carefully that you halve exactly five times.",
   "victory": "Mr 6 predicted the 3 exactly, so the shepherds stacked five hours of extra wood in advance. Vorrhaska's curse fizzled against a bonfire that only got bigger, and she fled to whisper at a colder mountain.",
   "image": "images/vorrhaska-glacier-halving.webp",
-  "imagePrompt": "A pale ghostly wind-wraith swirling around a shrinking campfire on a blue twilight glacier while a small numeral-6 knight reads a brass gauge."
+  "imagePrompt": "A pale ghostly wind-wraith swirling around a shrinking campfire on a blue twilight glacier while a small numeral-6 knight reads a brass gauge.",
+  "solution": [
+    "Halve once per hour and list them: 96 → 48 → 24 → 12 → 6 → 3.",
+    "That's exactly 5 halvings, one for each hour.",
+    "So the reading will be 3 warmth-units."
+  ],
+  "praise": "Halving repeatedly was exactly right — it just needed one careful count to land on exactly five halvings."
 }

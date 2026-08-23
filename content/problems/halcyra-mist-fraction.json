@@ -15,5 +15,11 @@
   "hint": "First find 2/5 of 840 and subtract it. Then take 25% of what's LEFT — not of the original 840.",
   "victory": "Mr 6 penned exactly 378 sheep on clear ground before dawn, and Halcyra, finding nothing left to nibble, floated off to graze on a cloud instead.",
   "image": "images/halcyra-mist-fraction.webp",
-  "imagePrompt": "placeholder"
+  "imagePrompt": "placeholder",
+  "solution": [
+    "Fog 2/5 of the land: 840 ÷ 5 = 168, and 168 × 2 = 336, so 840 - 336 = 504 remain clear.",
+    "Now fog 25% of that remainder: 504 ÷ 4 = 126.",
+    "504 - 126 = 378 sheep-worth of grazing land is still clear."
+  ],
+  "praise": "Finding the fraction of the land first was a strong start — the missing step was taking the 25% from the 504 that remained rather than from the original 840."
 }

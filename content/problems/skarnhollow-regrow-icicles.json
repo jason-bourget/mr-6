@@ -15,5 +15,11 @@
   "hint": "Work out the net change from a single swing — does the number go up or down by how much? Then repeat it 12 times.",
   "victory": "Mr 6 realized swinging only ADDED one icicle a time, so he stopped at nothing, breathed warm air on the roots instead, and the whole frozen gate slumped into slush as the traders cheered.",
   "image": "images/skarnhollow-regrow-icicles.webp",
-  "imagePrompt": "A cave mouth fringed with glittering blue icicles like teeth, a frost-eyed maw shape in the rock, and a numeral-six knight lowering his sword to breathe warm mist on the ice while trapped traders watch."
+  "imagePrompt": "A cave mouth fringed with glittering blue icicles like teeth, a frost-eyed maw shape in the rock, and a numeral-six knight lowering his sword to breathe warm mist on the ice while trapped traders watch.",
+  "solution": [
+    "Each swing removes 2 but 3 regrow, so the net change is 3 - 2 = +1 icicle per swing.",
+    "Over 12 swings that adds 12 × 1 = 12 icicles.",
+    "So 30 + 12 = 42 icicles bar the cave."
+  ],
+  "praise": "Tracking both the removing and the regrowing was exactly the right instinct — the missing step was combining them into one net change of +1 per swing."
 }

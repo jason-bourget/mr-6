@@ -15,5 +15,11 @@
   "hint": "Each hour, how much of the 15-kilometer gap does Mr 6 close? Find the difference in their speeds first.",
   "victory": "Mr 6 pulled alongside at exactly the moment he'd calculated, plucked the gear from Cogsnatch's claws, and the embarrassed bird ticked away home. 'Punctuality,' said Mr 6, 'is just arithmetic with wings.'",
   "image": "images/cogsnatch-gear-chase.webp",
-  "imagePrompt": "A brave numeral-six knight in a blue cape steering a small windskiff through golden sunset clouds, chasing a brass clockwork vulture clutching a giant gear above a city of clocktowers."
+  "imagePrompt": "A brave numeral-six knight in a blue cape steering a small windskiff through golden sunset clouds, chasing a brass clockwork vulture clutching a giant gear above a city of clocktowers.",
+  "solution": [
+    "Mr 6 gains on Cogsnatch by 60 - 48 = 12 kilometers each hour.",
+    "The gap is 15 kilometers, so the time is 15 ÷ 12 = 1.25.",
+    "Mr 6 catches up in 1.25 hours."
+  ],
+  "praise": "Comparing the two speeds was exactly the right move — the missing step was closing the 15-km gap with the 12 km/h difference."
 }

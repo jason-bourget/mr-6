@@ -15,5 +15,11 @@
   "hint": "How many miles does Thrashelmer close each hour? Use that gap-closing speed, not 20.",
   "victory": "Knowing he had exactly 3 hours, Mr 6 spent two of them steering into a warm updraft; Thrashelmer arrived at empty sky and got a faceful of cloud instead of a baker.",
   "image": "images/thrashelmer-sky-rate.webp",
-  "imagePrompt": "A patchwork mail balloon high above golden clouds with a numeral-six knight clinging to the rigging, a vast whale-shaped storm beast churning through the wind far behind."
+  "imagePrompt": "A patchwork mail balloon high above golden clouds with a numeral-six knight clinging to the rigging, a vast whale-shaped storm beast churning through the wind far behind.",
+  "solution": [
+    "Find the gap-closing speed: 28 − 20 = 8 miles closed each hour.",
+    "Divide the gap by that speed: 24 ÷ 8 = 3.",
+    "Thrashelmer catches up in 3 hours."
+  ],
+  "praise": "Using distance ÷ speed was the right idea — the missing step was subtracting the speeds to get the chasing rate."
 }

@@ -15,5 +15,11 @@
   "hint": "Divide 900 by 14 — but if there's any leftover corridor, that scrap of darkness still needs a whole lantern.",
   "victory": "The sixty-fifth lantern flared over the last four dark steps, and Pallastor shrank to a grumpy shadow the size of a mouse and scurried off to sulk behind a coffin.",
   "image": "images/pallastor-crypt-lanterns.webp",
-  "imagePrompt": "A towering hooded shadow custodian retreating down a vast stone crypt corridor as a chain of warm lanterns lights up behind a small numeral-six knight."
+  "imagePrompt": "A towering hooded shadow custodian retreating down a vast stone crypt corridor as a chain of warm lanterns lights up behind a small numeral-six knight.",
+  "solution": [
+    "Each lantern covers 14 steps, so divide: 900 ÷ 14 = 64 with a remainder of 4.",
+    "64 lanterns cover 64 × 14 = 896 steps, leaving 4 dark steps.",
+    "Those last 4 steps still need a whole lantern, so Mr 6 lights 65 lanterns."
+  ],
+  "praise": "Dividing was the right instinct — the leftover 4 steps just needed one more whole lantern."
 }

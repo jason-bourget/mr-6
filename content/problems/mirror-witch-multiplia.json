@@ -14,5 +14,11 @@
     8,
     4,
     32
-  ]
+  ],
+  "solution": [
+    "Start with 1 witch and double for each careless strike: 1 x 2 = 2 after the first strike.",
+    "Keep doubling: 2 x 2 = 4, then 4 x 2 = 8, then 8 x 2 = 16 after the fourth strike.",
+    "Mr 6 would be surrounded by 16 witches."
+  ],
+  "praise": "You spotted that the witches multiply instead of just adding — nice thinking! The missing piece was doubling a full four times."
 }

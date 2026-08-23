@@ -15,5 +15,11 @@
   "hint": "If six loads must average 72, work out the total weight all six must add up to — then see what the five already give you.",
   "victory": "Mr 6 loaded exactly 76 pounds, and the ledger glowed a satisfied gold. Whimbrelash stamped the caravan through and muttered that she'd never been out-averaged by a numeral before.",
   "image": "images/whimbrelash-caravan-average.webp",
-  "imagePrompt": "A tall robed desert tallier with scale-pan hands and a floating ledger blocking a camel caravan at a sandstone waystation under a blazing orange sky, with a small numeral 6 knight weighing a salt sack."
+  "imagePrompt": "A tall robed desert tallier with scale-pan hands and a floating ledger blocking a camel caravan at a sandstone waystation under a blazing orange sky, with a small numeral 6 knight weighing a salt sack.",
+  "solution": [
+    "Six loads averaging 72 pounds must total 6 × 72 = 432 pounds.",
+    "The five camels already carry 62 + 78 + 55 + 90 + 71 = 356 pounds.",
+    "So the sixth camel carries 432 - 356 = 76 pounds."
+  ],
+  "praise": "You were right to think about averages — the missing step was turning the average into a required total (6 × 72) before subtracting."
 }

@@ -15,5 +15,11 @@
   "hint": "Find a quarter of 480 and subtract it first — the second helping is a third of that NEW smaller pile, not of 480.",
   "victory": "'Exactly half survives,' announced Mr 6, 'so your two clever helpings were really just one boring half.' Quillmaw, embarrassed to be so predictable, uncoiled and slithered off to count sand instead.",
   "image": "images/quillmaw-grain-tithe.webp",
-  "imagePrompt": "A long scaly wyrm coiled around a stone windmill full of grain sacks while a numeral-six knight chalks fractions on the floorboards in warm lantern light."
+  "imagePrompt": "A long scaly wyrm coiled around a stone windmill full of grain sacks while a numeral-six knight chalks fractions on the floorboards in warm lantern light.",
+  "solution": [
+    "Quillmaw's first helping: 1/4 of 480 = 120 sacks, leaving 480 - 120 = 360 sacks.",
+    "The second helping is 1/3 of that new pile: 360 ÷ 3 = 120, leaving 360 - 120 = 240.",
+    "The village keeps 240 sacks."
+  ],
+  "praise": "Taking the fractions one at a time was smart thinking - the second fraction just had to come from the new smaller pile."
 }

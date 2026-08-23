@@ -15,5 +15,11 @@
   "hint": "An average of 25 across 4 fuses means the four burn times add up to a certain total. Find that total, then subtract the three you know.",
   "victory": "Mr 6 douses the last fuse at exactly the right instant, and Embermoth — thoroughly out-averaged — flutters off to chew on something safer, like spaghetti.",
   "image": "images/embermoth-fuse-average.webp",
-  "imagePrompt": "A moth with glowing ember wings perched on sputtering fuses beneath a barn full of fireworks, a number-six knight crouched with a water bucket and a stopwatch in the orange glow."
+  "imagePrompt": "A moth with glowing ember wings perched on sputtering fuses beneath a barn full of fireworks, a number-six knight crouched with a water bucket and a stopwatch in the orange glow.",
+  "solution": [
+    "An average of 25 seconds across 4 fuses means the total is 25 × 4 = 100 seconds.",
+    "The three fuses you already know add up to 79 seconds.",
+    "So the fourth fuse burned 100 - 79 = 21 seconds."
+  ],
+  "praise": "You were right to think about the average as a total — turning 25 into 25 × 4 = 100 was the one step left to take."
 }

@@ -14,5 +14,11 @@
     16,
     32,
     4
-  ]
+  ],
+  "solution": [
+    "The giant is 64 feet tall and shrinks to half its height each hour.",
+    "Hour 1: 64 ÷ 2 = 32 feet. Hour 2: 32 ÷ 2 = 16 feet. Hour 3: 16 ÷ 2 = 8 feet.",
+    "The stone giant will be 8 feet tall."
+  ],
+  "praise": "Halving was exactly the right move - the trick is halving the new number each hour, three times over. You had the main idea!"
 }

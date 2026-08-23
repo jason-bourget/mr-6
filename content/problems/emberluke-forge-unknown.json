@@ -15,5 +15,11 @@
   "hint": "Work backwards: undo the 'add 12' first, then undo the 'times 7'.",
   "victory": "Mr 6 shouted 'Twelve — which is two of me!' and Emberluke sneezed out the key in a puff of sparks. The smithy reopened, and the warden stayed on as a very warm doorstop.",
   "image": "images/emberluke-forge-unknown.webp",
-  "imagePrompt": "A hulking slag-and-ember warden blocking a glowing forge doorway, riddle-runes burning on a black anvil, with a small numeral-6 knight shielding his eyes from the heat."
+  "imagePrompt": "A hulking slag-and-ember warden blocking a glowing forge doorway, riddle-runes burning on a black anvil, with a small numeral-6 knight shielding his eyes from the heat.",
+  "solution": [
+    "Undo the 'add 12' first: 96 - 12 = 84.",
+    "Undo the 'times 7' next: 84 ÷ 7 = 12.",
+    "The secret number is 12."
+  ],
+  "praise": "Working with the numbers in the riddle was exactly right — the missing step was undoing the operations backwards, subtracting the 12 before dividing by 7."
 }

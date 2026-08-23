@@ -15,5 +15,11 @@
   "hint": "Multiply by 4 once for each echo — do it one echo at a time and write down each total.",
   "victory": "Mr 6 clapped a hand over the shepherd's mouth and whispered the number 768 instead. Culverbind, hearing no shout, had nothing to copy — and shuffled off, lonely and singular.",
   "image": "images/culverbind-splitting-echo.webp",
-  "imagePrompt": "A numeral-six knight silencing a startled shepherd in a glittering crystal cavern while clusters of glowing blue beetles ripple across the walls in shimmering echo-light."
+  "imagePrompt": "A numeral-six knight silencing a startled shepherd in a glittering crystal cavern while clusters of glowing blue beetles ripple across the walls in shimmering echo-light.",
+  "solution": [
+    "Start with 3 beetles and multiply by 4 for the first echo: 3 × 4 = 12.",
+    "Keep going one echo at a time: 12 × 4 = 48, then 48 × 4 = 192.",
+    "The fourth echo gives 192 × 4 = 768 beetles."
+  ],
+  "praise": "Multiplying by 4 was exactly right — the count just needed to repeat once for each of the 4 echoes."
 }

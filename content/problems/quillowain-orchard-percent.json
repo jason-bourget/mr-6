@@ -15,5 +15,11 @@
   "hint": "First find 35% of 480 (10% is 48, so 35% is three of those plus half of one). Then remember the question asks what's LEFT.",
   "victory": "Mr 6 read the tax aloud so clearly that Quillowain got embarrassed, paid his own bill in beeswax, and buzzed off to pollinate somewhere less mathematical. The beekeepers kept 312 sticky, golden jars.",
   "image": "images/quillowain-orchard-percent.webp",
-  "imagePrompt": "A giant regal bumblebee monster in a fuzzy crown hovering over honey carts in a sunlit clover meadow while a small knight-numeral 6 points at a ledger."
+  "imagePrompt": "A giant regal bumblebee monster in a fuzzy crown hovering over honey carts in a sunlit clover meadow while a small knight-numeral 6 points at a ledger.",
+  "solution": [
+    "10% of 480 is 48, so 35% = 48 + 48 + 48 + 24 = 168 jars taken.",
+    "The beekeepers keep the rest: 480 - 168 = 312.",
+    "So the beekeepers keep 312 jars."
+  ],
+  "praise": "Finding the percent first was a smart move — the last step was subtracting it from 480 to see what stayed behind."
 }

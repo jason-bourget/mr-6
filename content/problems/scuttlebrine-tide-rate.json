@@ -15,5 +15,11 @@
   "hint": "How many 7-centimeter steps fit in 42 centimeters? Each step takes 4 minutes — then compare that total to the 20-minute rigging.",
   "victory": "The pups scamper up with four minutes to spare, and Scuttlebrine — outplanned by a number — unplugs the drain himself just to look useful.",
   "image": "images/scuttlebrine-tide-rate.webp",
-  "imagePrompt": "A huge barnacled crab clamping a stone drain in a sea cave as green water rises toward a ledge of otter pups, a caped number six racing up a rope ladder in the spray."
+  "imagePrompt": "A huge barnacled crab clamping a stone drain in a sea cave as green water rises toward a ledge of otter pups, a caped number six racing up a rope ladder in the spray.",
+  "solution": [
+    "Count the steps of water: 42 ÷ 7 = 6 steps of 7 centimeters.",
+    "Each step takes 4 minutes, so the water needs 6 × 4 = 24 minutes.",
+    "The rigging takes 20 minutes, so 24 - 20 = 4 minutes of spare time."
+  ],
+  "praise": "Working out how long the water takes to climb was the right path — the final step was comparing that time to the 20-minute rigging to find the spare minutes."
 }

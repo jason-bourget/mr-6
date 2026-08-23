@@ -15,5 +15,11 @@
   "hint": "Count the hours from 6:00 to 11:00 — that's how many times the reach gets halved. Halve carefully, one hour at a time.",
   "victory": "Mr 6 chalked the whole shrinking ladder on the bell — 96, 48, 24, 12, 6, 3 — and Vandergloom, who could not bear seeing his trick written down so plainly, unwound himself into a puff of tick-tocks.",
   "image": "images/vandergloom-clocktower-halving.webp",
-  "imagePrompt": "A wispy grey thief-spirit coiled around a giant bronze bell in a crooked clocktower at dawn, shrinking sound-rings drawn in the air, with a small caped numeral 6 knight chalking numbers on the bell rim."
+  "imagePrompt": "A wispy grey thief-spirit coiled around a giant bronze bell in a crooked clocktower at dawn, shrinking sound-rings drawn in the air, with a small caped numeral 6 knight chalking numbers on the bell rim.",
+  "solution": [
+    "From 6:00 to 11:00 is 5 hours, so the reach is halved 5 times.",
+    "Halve step by step: 96 → 48 → 24 → 12 → 6 → 3.",
+    "At 11:00 the bell reaches 3 miles."
+  ],
+  "praise": "You spotted that the reach keeps halving — counting the exact number of hours from 6:00 to 11:00 was the one piece to nail down."
 }

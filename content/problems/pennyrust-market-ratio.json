@@ -15,5 +15,11 @@
   "hint": "How many groups of 7 nails are in 91? Each group buys 4 kilograms.",
   "victory": "Fifty-two kilograms rolled out the granary door, and Pennyrust sulked so hard his ears rusted — until Mr 6 taught him a fairer ratio for next season.",
   "image": "images/pennyrust-market-ratio.webp",
-  "imagePrompt": "A wiry green gremlin in a nail-studded apron guards a granary counter piled with rye sacks as a numeral-six knight stacks iron nails in neat groups of seven, warm dusty barn light."
+  "imagePrompt": "A wiry green gremlin in a nail-studded apron guards a granary counter piled with rye sacks as a numeral-six knight stacks iron nails in neat groups of seven, warm dusty barn light.",
+  "solution": [
+    "Count the groups of 7 nails: 91 ÷ 7 = 13 groups.",
+    "Each group buys 4 kilograms: 13 × 4 = 52.",
+    "The bakers get 52 kilograms of rye."
+  ],
+  "praise": "Spotting that the nails come in groups of 7 was smart thinking — the last step was multiplying those groups by 4."
 }

@@ -15,5 +15,11 @@
   "hint": "Think of it as a division: 91 shared into 7 equal groups. Try 7 times 12 and see how close you get.",
   "victory": "Mr 6 said 'thirteen' and the riddle-lock sprang open; ninety-one songbirds burst out singing, and Clatterbroom fled the market with feathers in her hat.",
   "image": "images/clatterbroom-market-unknown.webp",
-  "imagePrompt": "A crowded lantern-lit night market with a hunched hex peddler beside seven cages of glowing songbirds, a numeral-six knight studying a riddle-lock carved with numerals."
+  "imagePrompt": "A crowded lantern-lit night market with a hunched hex peddler beside seven cages of glowing songbirds, a numeral-six knight studying a riddle-lock carved with numerals.",
+  "solution": [
+    "Turn it into a division: 91 ÷ 7.",
+    "Check nearby: 7 × 12 = 84, and 84 + 7 = 91, so the next one up works.",
+    "The number is 13."
+  ],
+  "praise": "Testing times-tables near the answer was clever — just one more step up the 7s and you had it."
 }

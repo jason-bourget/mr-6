@@ -15,5 +15,11 @@
   "hint": "You're looking for a missing factor. Try counting up by sevens, or ask how many sevens make 84.",
   "victory": "Mr 6 answered 12 without a blink, and Tidewaithe laughed a bubbly laugh and floated all seven chests up to the divers' boat.",
   "image": "images/tidewaithe-unknown-pearls.webp",
-  "imagePrompt": "A graceful seaweed-haired lagoon keeper hovering above turquoise shallows with seven glowing shell chests floating around her, a numeral-six knight standing on a rowboat working out a sum."
+  "imagePrompt": "A graceful seaweed-haired lagoon keeper hovering above turquoise shallows with seven glowing shell chests floating around her, a numeral-six knight standing on a rowboat working out a sum.",
+  "solution": [
+    "You need the missing factor: something × 7 = 84.",
+    "Turn it into division: 84 ÷ 7 = 12.",
+    "Check it: 12 × 7 = 84, so the answer is 12 pearls."
+  ],
+  "praise": "Spotting that a factor was missing was great reasoning — flipping the multiplication into a division is the step that finishes it."
 }

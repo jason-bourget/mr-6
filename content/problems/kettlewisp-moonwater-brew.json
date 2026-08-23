@@ -15,5 +15,11 @@
   "hint": "A 3-to-5 ratio means the mixture comes in equal parts — how many parts total, and how big is one part?",
   "victory": "The antidote glowed pale silver on the first try, and Kettlewisp — sneezing violently — swallowed a spoonful and became the tower's fussiest, most accurate assistant. 'Ratios,' Mr 6 said, 'are just fair shares wearing a fancy hat.'",
   "image": "images/kettlewisp-moonwater-brew.webp",
-  "imagePrompt": "A moonlit alchemy tower workshop with bubbling cauldrons, a pouting green imp perched on a shelf, and a numeral-six knight carefully counting silver droplets into a flask."
+  "imagePrompt": "A moonlit alchemy tower workshop with bubbling cauldrons, a pouting green imp perched on a shelf, and a numeral-six knight carefully counting silver droplets into a flask.",
+  "solution": [
+    "The ratio 3 to 5 makes 3 + 5 = 8 equal parts in all.",
+    "One part is 96 ÷ 8 = 12 drops, and moonwater is 3 parts: 12 × 3 = 36.",
+    "Mr 6 needs 36 drops of moonwater."
+  ],
+  "praise": "Thinking in ratio parts was the right approach — the missing step was adding 3 + 5 to get 8 parts before dividing."
 }

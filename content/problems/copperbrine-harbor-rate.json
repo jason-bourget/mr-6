@@ -15,5 +15,11 @@
   "hint": "The water isn't rising by 47 a minute — the pumps fight back. Find the NET gain per minute first.",
   "victory": "Mr 6 called out '30 minutes — row like sixes!' and the ferry bumped the dock with four minutes to spare. Copperbrine, out-timed, let go and sulked beneath the pier.",
   "image": "images/copperbrine-harbor-rate.webp",
-  "imagePrompt": "A barnacled kraken tentacle poking through the hull of a wooden ferry in a stormy gray harbor, with a determined numeral-6 knight pointing at the lighthouse."
+  "imagePrompt": "A barnacled kraken tentacle poking through the hull of a wooden ferry in a stormy gray harbor, with a determined numeral-6 knight pointing at the lighthouse.",
+  "solution": [
+    "The water really rises by 47 - 32 = 15 liters each minute.",
+    "The hold can take 450 more liters, so 450 ÷ 15 = 30.",
+    "Mr 6 has 30 minutes to reach the harbor."
+  ],
+  "praise": "Dividing by a rate was the right plan — the missing step was subtracting the pumps first to get the net 15 liters per minute."
 }

@@ -15,5 +15,11 @@
   "hint": "How many groups of 5 moss are in 45? Each of those groups needs 3 mudroot.",
   "victory": "Mr 6 measured 27 handfuls exactly, and Brackenlow tasted the stew, burst into happy tears, and ferried everyone across for free with seconds.",
   "image": "images/brackenlow-ratio-stew.webp",
-  "imagePrompt": "A big-bellied swamp cook stirring an enormous bubbling cauldron on a misty bog dock, glowing green steam rising, while a numeral-six knight balances handfuls of moss and mudroot."
+  "imagePrompt": "A big-bellied swamp cook stirring an enormous bubbling cauldron on a misty bog dock, glowing green steam rising, while a numeral-six knight balances handfuls of moss and mudroot.",
+  "solution": [
+    "45 moss ÷ 5 = 9 groups in the ratio.",
+    "Each group needs 3 mudroot: 9 × 3 = 27.",
+    "So 27 handfuls of mudroot are needed."
+  ],
+  "praise": "Thinking in ratio groups was a strong strategy — the missing step was multiplying those 9 groups by 3."
 }

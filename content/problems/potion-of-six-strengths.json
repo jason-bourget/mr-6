@@ -14,5 +14,11 @@
     10,
     12,
     14
-  ]
+  ],
+  "solution": [
+    "Add the first two amounts: 6 + 4 = 10 ingredients.",
+    "Add the last amount: 10 + 3 = 13 ingredients.",
+    "Mr 6 must gather 13 ingredients in all."
+  ],
+  "praise": "Adding the amounts together was exactly the right plan - it looks like one of the three numbers got left out of the total. Add all three and you've got it!"
 }

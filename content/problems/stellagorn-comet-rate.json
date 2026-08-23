@@ -15,5 +15,11 @@
   "hint": "Work out each traveler's time separately with distance divided by speed, then compare the two times.",
   "victory": "Mr 6 landed a full hour early, rang the fish-bell, and every boat was ashore when Stellagorn skidded overhead. The hound, finding nothing to freeze but a puddle, licked Mr 6's helmet and became the village's very cold pet.",
   "image": "images/stellagorn-comet-rate.webp",
-  "imagePrompt": "A glowing frost-tailed hound made of comet light streaking over a moonlit lake, with a tiny caped numeral 6 knight steering a wooden sky-skiff ahead of it through starry clouds."
+  "imagePrompt": "A glowing frost-tailed hound made of comet light streaking over a moonlit lake, with a tiny caped numeral 6 knight steering a wooden sky-skiff ahead of it through starry clouds.",
+  "solution": [
+    "Stellagorn's time: 480 ÷ 60 = 8 hours.",
+    "Mr 6's time: 315 ÷ 45 = 7 hours.",
+    "Mr 6 arrives 8 − 7 = 1 hour earlier."
+  ],
+  "praise": "Using distance ÷ speed was exactly right — the last step was comparing the two times by subtracting them."
 }

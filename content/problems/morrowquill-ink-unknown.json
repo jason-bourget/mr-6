@@ -15,5 +15,11 @@
   "hint": "Peel off the 14-coin cart fee first, then split what's left among the 9 pots.",
   "victory": "Mr 6 chalks the answer on the wall so neatly that Morrowquill checks it twice, squeaks \"balanced,\" and hangs the inkpots back on their hooks before flapping off to audit somebody else.",
   "image": "images/morrowquill-ink-unknown.webp",
-  "imagePrompt": "A bat with parchment wings and tiny spectacles hanging over rows of inkpots in a candlelit scriptorium, a small number-six knight writing figures on a slate."
+  "imagePrompt": "A bat with parchment wings and tiny spectacles hanging over rows of inkpots in a candlelit scriptorium, a small number-six knight writing figures on a slate.",
+  "solution": [
+    "Take the cart fee off the 122 coins first: 122 - 14 = 108 coins.",
+    "Those 108 coins paid for the 9 inkpots.",
+    "So one inkpot costs 108 ÷ 9 = 12 coins."
+  ],
+  "praise": "Dividing by 9 was the right instinct — the 14-coin cart fee just needed subtracting before the split."
 }

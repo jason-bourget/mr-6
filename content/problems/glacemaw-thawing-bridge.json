@@ -15,5 +15,11 @@
   "hint": "Halve 480 over and over, counting each halving, until you hit 30.",
   "victory": "Mr 6 got every sheep across with a full hour to spare, and Glacemaw — impressed by the arithmetic — froze the bridge back solid just to see him do it again.",
   "image": "images/glacemaw-thawing-bridge.webp",
-  "imagePrompt": "A pale steaming wyrm coils over a blue glacier while a numeral-six knight hurries woolly sheep across a thinning ice bridge, dawn light glittering on the crevasse below."
+  "imagePrompt": "A pale steaming wyrm coils over a blue glacier while a numeral-six knight hurries woolly sheep across a thinning ice bridge, dawn light glittering on the crevasse below.",
+  "solution": [
+    "Halve it hour by hour: 480 → 240 → 120 → 60 → 30 centimeters.",
+    "Count the halvings: that's 4 of them.",
+    "So it takes 4 hours to reach 30 centimeters."
+  ],
+  "praise": "Halving over and over was exactly the right idea — just count the halvings themselves, not the numbers you write down."
 }

@@ -15,5 +15,11 @@
   "hint": "5 parts plus 3 parts makes 8 equal parts. Find the size of one part first.",
   "victory": "Mr 6 poured 120 milliliters of syrup, not a drop more, and the village woke sneezing but cheerful. Thistlebane admitted she'd never once measured her own recipe and asked for tutoring.",
   "image": "images/thistlebane-ratio-antidote.webp",
-  "imagePrompt": "A mushroom-hatted witch peering over a bubbling copper kettle in a dim herb-hung cottage while a small caped numeral 6 tilts a measuring flask."
+  "imagePrompt": "A mushroom-hatted witch peering over a bubbling copper kettle in a dim herb-hung cottage while a small caped numeral 6 tilts a measuring flask.",
+  "solution": [
+    "The ratio 5:3 means 5 + 3 = 8 equal parts in total.",
+    "One part is 320 ÷ 8 = 40 milliliters.",
+    "Nettle-syrup is 3 parts: 3 × 40 = 120 milliliters."
+  ],
+  "praise": "Thinking in parts was exactly the right approach — the step to add was finding one part's size (320 ÷ 8) before multiplying by 3."
 }

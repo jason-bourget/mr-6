@@ -15,5 +15,11 @@
   "hint": "Work out the adults' total and the children's total separately, add them, then subtract from 20.",
   "victory": "Mr 6 counted out the toll to the last copper and showed the family they still had 4.75 coins for supper, and Murkelbaum grumbled that nobody had ever done the sums right before.",
   "image": "images/murkelbaum-toll-decimals.webp",
-  "imagePrompt": "A hulking moss-covered warden blocking a rain-slick rope bridge over a foggy ravine, a huddled family with a coin purse behind a numeral-six knight who is tallying coins on a wet slate."
+  "imagePrompt": "A hulking moss-covered warden blocking a rain-slick rope bridge over a foggy ravine, a huddled family with a coin purse behind a numeral-six knight who is tallying coins on a wet slate.",
+  "solution": [
+    "Work out the adults' share and the children's share separately, then add them: the toll comes to 15.25 coins.",
+    "Subtract the toll from what the family carries: 20 - 15.25 = 4.75.",
+    "The family has 4.75 coins left."
+  ],
+  "praise": "Handling the adults and children as separate groups was exactly the right plan — the final subtraction from 20 was the missing piece."
 }

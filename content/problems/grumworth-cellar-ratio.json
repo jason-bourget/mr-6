@@ -15,5 +15,11 @@
   "hint": "Find out how many berries make one 'part' by dividing 350 by 5, then take 2 of those parts.",
   "victory": "Mr 6 stirred in exactly 140 spoons and the jam glowed ruby-perfect; Grumworth tasted it, wept happily into his beard, and gave the orphanage every jar in the cellar.",
   "image": "images/grumworth-cellar-ratio.webp",
-  "imagePrompt": "A cozy stone cellar crowded with glowing jam jars, a tiny bearded gnome supervising as an apron-wearing numeral-six knight stirs a huge copper pot of berries and honey."
+  "imagePrompt": "A cozy stone cellar crowded with glowing jam jars, a tiny bearded gnome supervising as an apron-wearing numeral-six knight stirs a huge copper pot of berries and honey.",
+  "solution": [
+    "The ratio 5:2 means 350 berries fill 5 parts, so one part is 350 ÷ 5 = 70.",
+    "Honey is 2 parts: 2 × 70 = 140.",
+    "So 140 spoons of honey are needed."
+  ],
+  "praise": "Thinking in ratio parts was great — the missing step was finding one part's size before doubling it."
 }

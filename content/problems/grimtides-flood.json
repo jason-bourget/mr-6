@@ -14,5 +14,11 @@
     9,
     7,
     1
-  ]
+  ],
+  "solution": [
+    "The water rises 4 feet each minute, so reaching 36 feet takes 36 / 4 = 9 minutes.",
+    "Mr 6's row takes 7 minutes, so compare: 9 - 7 = 2.",
+    "Mr 6 reaches the children with 2 minutes to spare."
+  ],
+  "praise": "Dividing to find the flood time was the right instinct — one step was missing: subtracting the 7-minute row."
 }

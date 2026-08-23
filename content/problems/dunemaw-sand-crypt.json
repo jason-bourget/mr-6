@@ -15,5 +15,11 @@
   "hint": "First work out how long the run itself takes: 480 feet at 8 feet each second. Then compare that to 75.",
   "victory": "Mr 6 skidded through the gate with 15 whole seconds spare and used three of them to bow. Dunemaw got a mouthful of empty corridor and went back to sleep, thoroughly out-timed.",
   "image": "images/dunemaw-sand-crypt.webp",
-  "imagePrompt": "A numeral-six knight sprinting down a torchlit sandstone corridor carrying two scholars as sand pours from the ceiling and a great stone gate grinds closed ahead."
+  "imagePrompt": "A numeral-six knight sprinting down a torchlit sandstone corridor carrying two scholars as sand pours from the ceiling and a great stone gate grinds closed ahead.",
+  "solution": [
+    "Find the run time: 480 ÷ 8 = 60 seconds.",
+    "Compare to the gate timer: 75 - 60 = 15.",
+    "Mr 6 has 15 seconds to spare."
+  ],
+  "praise": "Using distance and speed together was the right plan - the last step was comparing that time to the 75-second gate."
 }

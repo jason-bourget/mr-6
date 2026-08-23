@@ -15,5 +15,11 @@
   "hint": "Add up the three fares plus the goat's fare first, then subtract from 15.",
   "victory": "Toadmarsh croaked at the exact change, ferried them over free of grumbling, and the leftover coin and a bit bought the goat a very fancy apple.",
   "image": "images/toadmarsh-decimal-ferry.webp",
-  "imagePrompt": "A wide-mouthed toad ferryman in a reed hat poling a flat boat through misty marsh water at sunset, three young travellers and a goat aboard while a numeral-six knight counts coins on his sword."
+  "imagePrompt": "A wide-mouthed toad ferryman in a reed hat poling a flat boat through misty marsh water at sunset, three young travellers and a goat aboard while a numeral-six knight counts coins on his sword.",
+  "solution": [
+    "Three travellers cost 3 × 3.75 = 11.25 coins.",
+    "Add the goat: 11.25 + 2.60 = 13.85 coins.",
+    "Subtract from what they pooled: 15 - 13.85 = 1.15 coins left."
+  ],
+  "praise": "Adding the fares before subtracting was the right plan — the goat's 2.60 just had to join the three travellers first."
 }

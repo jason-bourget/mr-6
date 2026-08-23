@@ -15,5 +15,11 @@
   "hint": "How many 0.6-meter climbs fit inside 4.5 meters? Try thinking of it as 45 tenths divided by 6 tenths.",
   "victory": "Mr 6 got everyone up the ladder with a full half-hour to spare, and Solventia — who had never once been divided before — sloshed off, deeply insulted by long division.",
   "image": "images/solventia-acid-tide.webp",
-  "imagePrompt": "A knightly numeral six with a blue cape chalking numbers on his shield beside a glowing green rising flood in a stone quarry, villagers huddled on a high ledge in eerie emerald light."
+  "imagePrompt": "A knightly numeral six with a blue cape chalking numbers on his shield beside a glowing green rising flood in a stone quarry, villagers huddled on a high ledge in eerie emerald light.",
+  "solution": [
+    "Ask how many 0.6-meter rises fit in 4.5 meters: 4.5 ÷ 0.6.",
+    "Think in tenths: 45 tenths ÷ 6 tenths = 7.5.",
+    "The water reaches the ledge in 7.5 hours."
+  ],
+  "praise": "Dividing the height by the rate was exactly the right instinct — the tricky part was handling the decimal, which turning them into tenths makes easy."
 }

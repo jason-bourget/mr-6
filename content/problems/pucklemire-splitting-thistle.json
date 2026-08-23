@@ -15,5 +15,11 @@
   "hint": "Multiply by 4 once for each chop — 1, 4, 16, and so on — then remember the question asks how many MORE than 100.",
   "victory": "Mr 6 announced \"one hundred fifty-six more than a hundred, and that's why I'm not chopping,\" and Pucklemire — starved of blades — folded back into a single grumpy purple weed. The goats ate it.",
   "image": "images/pucklemire-splitting-thistle.webp",
-  "imagePrompt": "A bristling purple thistle-monster mid-split into four copies in a misty green goat meadow, with a small numeral 6 knight holding up a firm 'stop' hand instead of a sword."
+  "imagePrompt": "A bristling purple thistle-monster mid-split into four copies in a misty green goat meadow, with a small numeral 6 knight holding up a firm 'stop' hand instead of a sword.",
+  "solution": [
+    "Multiply by 4 for each chop: 1 → 4 → 16 → 64 → 256 after 4 chops.",
+    "The question asks how many MORE than 100: 256 − 100 = 156.",
+    "There are 156 thistles more than 100."
+  ],
+  "praise": "Doubling-style growth by repeated multiplying was the right idea — the final subtraction of 100 was the step still waiting."
 }

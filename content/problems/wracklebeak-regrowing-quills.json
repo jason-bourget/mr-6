@@ -15,5 +15,11 @@
   "hint": "Each pluck-of-three changes the total by minus 3 plus 1. Track it: 9, then 7, then...",
   "victory": "After the fourth pluck, Wracklebeak was down to one lonely quill and used it as a toothpick. He handed over the nests, admitted defeat, and asked Mr 6 to teach him subtraction.",
   "image": "images/wracklebeak-regrowing-quills.webp",
-  "imagePrompt": "A bristling seabird-porcupine perched on a windy cliff ledge above crashing waves, quills shrinking as a tiny caped numeral 6 counts on his fingers."
+  "imagePrompt": "A bristling seabird-porcupine perched on a windy cliff ledge above crashing waves, quills shrinking as a tiny caped numeral 6 counts on his fingers.",
+  "solution": [
+    "Each pluck-of-three changes the count by -3 + 1 = -2 quills.",
+    "Track it: 9 → 7 → 5 → 3 → 1.",
+    "That's 4 plucks to reach exactly 1 quill."
+  ],
+  "praise": "You were right that each pluck shrinks the total — the step to remember is the 1 quill sprouting back, making the drop 2 instead of 3."
 }

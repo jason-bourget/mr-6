@@ -15,5 +15,11 @@
   "hint": "Each snap changes the total by a net amount — you take one away and four appear. How much does the count go up per snap?",
   "victory": "On the eighth snap Quintaster hit 44 spines exactly and dozed off with a whistly snore, and Mr 6 tiptoed the whole caving party out past him.",
   "image": "images/quintaster-regrow-spines.webp",
-  "imagePrompt": "A giant spiny urchin creature glowing violet in a crystal cavern mouth, spines sprouting in bunches, as a numeral-six knight counts on his fingers with a sly grin."
+  "imagePrompt": "A giant spiny urchin creature glowing violet in a crystal cavern mouth, spines sprouting in bunches, as a numeral-six knight counts on his fingers with a sly grin.",
+  "solution": [
+    "Each snap takes away 1 spine and adds 4, so the net gain is 4 - 1 = 3 spines per snap.",
+    "The spines need to grow from 20 to 44, which is 44 - 20 = 24 more spines.",
+    "Snaps needed: 24 ÷ 3 = 8 snaps."
+  ],
+  "praise": "Tracking what happens on every snap was exactly the right instinct — the one missing step was combining the -1 and +4 into a net gain of 3."
 }

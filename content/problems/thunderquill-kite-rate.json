@@ -15,5 +15,11 @@
   "hint": "Each minute, the basket only really drops by the winch speed MINUS the monster's climb. Find that net drop first.",
   "victory": "The basket thumped safely onto the ledge with rope to spare, and Thunderquill — out-mathed and out of altitude — flumped down to become the world's spikiest kite anchor.",
   "image": "images/thunderquill-kite-rate.webp",
-  "imagePrompt": "A brave numeral-six knight in a blue cape braces on a windy cliff edge cranking a winch as a bristling storm-cloud porcupine tugs a rescue basket skyward, lightning glowing behind the peaks."
+  "imagePrompt": "A brave numeral-six knight in a blue cape braces on a windy cliff edge cranking a winch as a bristling storm-cloud porcupine tugs a rescue basket skyward, lightning glowing behind the peaks.",
+  "solution": [
+    "Each minute the basket really drops 26 - 14 = 12 meters, because the monster climbs while the winch lowers.",
+    "The basket must cover 96 meters: 96 ÷ 12 = 8.",
+    "It reaches the ledge in 8 minutes."
+  ],
+  "praise": "Dividing to find the time was the right instinct — the missing step was subtracting the climb from the winch speed first."
 }

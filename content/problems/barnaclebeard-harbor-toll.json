@@ -15,5 +15,11 @@
   "hint": "Work out the cost of the three vials first, then add the chart before you subtract from 20.",
   "victory": "Barnaclebeard tried to hand back six coins, met Mr 6's steady gaze, and grumpily counted out 7.85 exactly. The rescued crew ate supper on shore that night, and the ogre started using a real cash box.",
   "image": "images/barnaclebeard-harbor-toll.webp",
-  "imagePrompt": "A foggy harbor dock at dusk with a barnacle-crusted ogre behind a cluttered market stall, glaring as a numeral-six knight in a blue cape counts coins on an upturned barrel."
+  "imagePrompt": "A foggy harbor dock at dusk with a barnacle-crusted ogre behind a cluttered market stall, glaring as a numeral-six knight in a blue cape counts coins on an upturned barrel.",
+  "solution": [
+    "Three vials cost 2.45 × 3 = 7.35 coins.",
+    "Adding the chart: 7.35 + 4.80 = 12.15 coins spent.",
+    "Change is 20 - 12.15 = 7.85 coins."
+  ],
+  "praise": "Subtracting from 20 was exactly right — the missing step was including all three vials plus the chart in the total."
 }

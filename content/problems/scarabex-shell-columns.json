@@ -15,5 +15,11 @@
   "hint": "Multiply rows by columns to find the whole swarm first, then figure out what one quarter of that swarm is.",
   "victory": "With 168 beetles left and a rival drummer stealing the beat, Scarabex threw down his baton and marched his ranks home. Mr 6 led his 56 new friends to the orchard, where they ate only the fallen apples.",
   "image": "images/scarabex-shell-columns.webp",
-  "imagePrompt": "Neat glittering rows of armored beetles crossing pale salt flats under a wide sunset sky while a numeral-six knight drums on a boulder and a quarter of the swarm turns toward him."
+  "imagePrompt": "Neat glittering rows of armored beetles crossing pale salt flats under a wide sunset sky while a numeral-six knight drums on a boulder and a quarter of the swarm turns toward him.",
+  "solution": [
+    "Find the whole swarm: 14 × 16 = 224 beetles.",
+    "One quarter leaves: 224 ÷ 4 = 56 beetles peel off.",
+    "Still marching: 224 - 56 = 168 beetles."
+  ],
+  "praise": "Multiplying rows by columns was the perfect start - the last step was taking that quarter away from the swarm."
 }

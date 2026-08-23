@@ -15,5 +15,11 @@
   "hint": "Each strike takes 1 away and adds 2 — so what is the net change per strike?",
   "victory": "Mr 6 announced the exact count out loud, and Cragspine — who had never once been counted correctly — laughed so hard his whole ridge crumbled and the road opened.",
   "image": "images/cragspine-regrowing-spikes.webp",
-  "imagePrompt": "A hulking grey quarry beast with a jagged ridge of stone spikes blocking a mountain road, a small numeral-six knight seated calmly on a boulder tallying marks in chalk, dusty afternoon light."
+  "imagePrompt": "A hulking grey quarry beast with a jagged ridge of stone spikes blocking a mountain road, a small numeral-six knight seated calmly on a boulder tallying marks in chalk, dusty afternoon light.",
+  "solution": [
+    "Each strike removes 1 and grows 2, a net change of 2 - 1 = +1 spike.",
+    "After 9 strikes that's 9 × 1 = 9 extra spikes.",
+    "Total spikes: 5 + 9 = 14 spikes."
+  ],
+  "praise": "You were right to track what each strike does — the key was combining the -1 and +2 into a net gain of 1."
 }

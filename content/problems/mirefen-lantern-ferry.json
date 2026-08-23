@@ -15,5 +15,11 @@
   "hint": "Divide 218 by 14 — but check the remainder. A partly-lit stretch still needs its own lantern.",
   "victory": "Mr 6 hung the sixteenth lantern over the last soggy six paces, and Mirefen curled up into a harmless puff of steam. 'Fifteen would have left a gap,' he said, 'and gaps are where fog lives.'",
   "image": "images/mirefen-lantern-ferry.webp",
-  "imagePrompt": "A swirling gray fog-woman coiling above a plank causeway through a moonlit swamp, with a line of glowing lanterns and a tiny caped numeral 6 hanging the last one."
+  "imagePrompt": "A swirling gray fog-woman coiling above a plank causeway through a moonlit swamp, with a line of glowing lanterns and a tiny caped numeral 6 hanging the last one.",
+  "solution": [
+    "Divide the causeway: 218 ÷ 14 = 15 with a remainder of 8 paces.",
+    "Those leftover 8 paces still need light, so add one more lantern: 15 + 1 = 16.",
+    "So 16 lanterns are needed."
+  ],
+  "praise": "Dividing was absolutely the right instinct — the one step left was rounding up so the leftover 8 paces get a lantern too."
 }

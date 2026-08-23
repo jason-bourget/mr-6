@@ -15,5 +15,11 @@
   "hint": "Each ordinary sweep only nets a loss of 2 thorns — but think about the final sweep, when 5 or fewer are left and nothing can grow back.",
   "victory": "On the fifteenth sweep the last five thorns rang like wind chimes and Glasswort shrank into a friendly little quartz pebble. Mr 6 pocketed it and walked the mappers home. 'The trick,' he said, 'was counting the last swing separately.'",
   "image": "images/glasswort-thorn-golem.webp",
-  "imagePrompt": "A towering golem of jagged clear crystal thorns blocking a glittering cave mouth, a numeral-six knight mid-swing with light refracting into rainbows across the walls."
+  "imagePrompt": "A towering golem of jagged clear crystal thorns blocking a glittering cave mouth, a numeral-six knight mid-swing with light refracting into rainbows across the walls.",
+  "solution": [
+    "A normal sweep removes 5 but 3 regrow, so the net loss is 5 - 3 = 2 thorns.",
+    "After 14 sweeps, 33 - (14 × 2) = 33 - 28 = 5 thorns are left.",
+    "The 15th sweep removes those last 5 with nothing left to regrow, so Mr 6 needs 15 sweeps."
+  ],
+  "praise": "Using the net loss of 2 per sweep was exactly the right idea — the final sweep just works differently because nothing regrows."
 }

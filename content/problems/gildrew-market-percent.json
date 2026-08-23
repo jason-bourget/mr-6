@@ -15,5 +15,11 @@
   "hint": "First find 25 percent of 60 and add it on. Then take 20 percent off THAT new number, not off the original 60.",
   "victory": "Mr 6 announced the price was exactly the same as before, and Gildrew popped like a soap bubble of embarrassment, scattering honest copper coins across the cobblestones.",
   "image": "images/gildrew-market-percent.webp",
-  "imagePrompt": "A shimmering coin-shaped wisp baron hovering over a bustling autumn market stall of apples, price tags glowing and swelling, while a numeral-six knight points at a chalkboard of numbers."
+  "imagePrompt": "A shimmering coin-shaped wisp baron hovering over a bustling autumn market stall of apples, price tags glowing and swelling, while a numeral-six knight points at a chalkboard of numbers.",
+  "solution": [
+    "25 percent of 60 is 60 ÷ 4 = 15, so the price rises to 60 + 15 = 75 coins.",
+    "20 percent of 75 is 75 ÷ 5 = 15, so the discount takes off 15 coins.",
+    "75 - 15 = 60, so the final price is 60 coins."
+  ],
+  "praise": "You handled the percents one at a time, which is the right plan — the discount just had to come off the new 75, not the original 60."
 }

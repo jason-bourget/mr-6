@@ -15,5 +15,11 @@
   "hint": "Add all five measurements to get the total, then split that total evenly across the 5 days.",
   "victory": "Mr 6 wrote '22' in Blustervane's enormous ledger, and the clerk, unable to find a single error, stamped it and cranked the harbor gates wide for the fleet.",
   "image": "images/blustervane-tower-average.webp",
-  "imagePrompt": "A bat-eared clerk monster in spectacles holding a giant ledger atop a windy stone harbor tower, a numeral-six knight adding numbers with chalk as fishing boats bob below in stormy light."
+  "imagePrompt": "A bat-eared clerk monster in spectacles holding a giant ledger atop a windy stone harbor tower, a numeral-six knight adding numbers with chalk as fishing boats bob below in stormy light.",
+  "solution": [
+    "Add the five daily readings to get the total: they sum to 110 knots.",
+    "Divide by the number of days: 110 ÷ 5 = 22.",
+    "The average wind speed is 22 knots."
+  ],
+  "praise": "Going for the average was the right approach — the step to double-check is dividing the full total by all 5 days."
 }

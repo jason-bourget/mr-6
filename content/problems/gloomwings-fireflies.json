@@ -14,5 +14,11 @@
     5,
     7,
     24
-  ]
+  ],
+  "solution": [
+    "Mr 6 has 9 fireflies and needs 15 in total.",
+    "Find the difference: 15 - 9 = 6.",
+    "He needs to catch 6 more fireflies."
+  ],
+  "praise": "Comparing the two numbers was the right instinct - the question asks for the gap between them, not the total. Subtract and you're there!"
 }

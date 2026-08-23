@@ -15,5 +15,11 @@
   "hint": "Doubling five times means multiplying by 2 five separate times — try writing 7, then 14, and keep going.",
   "victory": "'Two hundred twenty-four? No thank you,' said Mr 6, and he simply picked the seven mushrooms and put them in a basket. Sporegorge, with nothing left to split, popped into a puff of harmless blue glitter.",
   "image": "images/sporegorge-puffcap-count.webp",
-  "imagePrompt": "A small numeral-six knight standing thoughtfully with sword lowered before a ring of glowing blue mushrooms and a grinning spore fiend in a softly luminous underground cavern."
+  "imagePrompt": "A small numeral-six knight standing thoughtfully with sword lowered before a ring of glowing blue mushrooms and a grinning spore fiend in a softly luminous underground cavern.",
+  "solution": [
+    "Doubling five times means multiplying by 2 five times: 2 × 2 × 2 × 2 × 2 = 32.",
+    "Multiply the starting mushrooms: 7 × 32 = 224.",
+    "After the fifth stomp there are 224 mushrooms."
+  ],
+  "praise": "You spotted that the mushrooms keep doubling - the trick is doubling five separate times, not just multiplying by 5."
 }

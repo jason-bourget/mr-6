@@ -15,5 +15,11 @@
   "hint": "Ask yourself: how many groups of 0.6 fit inside 21? Dividing by 0.6 is the same as dividing by 6 and then multiplying by 10.",
   "victory": "Mr 6 announced thirty-five hours and Skerrywake groaned — the fog can only hold its breath for thirty. The lurker wisped away, and the ship sailed in on a beam bright as a promise.",
   "image": "images/skerrywake-lighthouse-rate.webp",
-  "imagePrompt": "A numeral-six knight atop a storm-lashed lighthouse gallery holding a sword aloft as a swirling fog creature recoils from a widening golden beam over a dark sea."
+  "imagePrompt": "A numeral-six knight atop a storm-lashed lighthouse gallery holding a sword aloft as a swirling fog creature recoils from a widening golden beam over a dark sea.",
+  "solution": [
+    "Ask how many groups of 0.6 liters fit into 21 liters: 21 ÷ 0.6.",
+    "Divide by 6 and then multiply by 10: 21 ÷ 6 = 3.5, and 3.5 × 10 = 35.",
+    "The lamp can burn for 35 hours."
+  ],
+  "praise": "You spotted that this was a division — dividing by a decimal like 0.6 just needs that ×10 trick to finish."
 }

@@ -15,5 +15,11 @@
   "hint": "Work in order: first take away the frog-coins, then take away the witch's quarter of what's left, and only then divide among the families.",
   "victory": "Fifteen families count 21 shining coins each, and Marshmuck sulks in the reeds surrounded by frogs who all, annoyingly, croak in perfect multiplication tables.",
   "image": "images/marshmucks-frog-cursed-hoard.webp",
-  "imagePrompt": "A mossy bog at dusk where a warty swamp baron slumps beside an open treasure chest as silver coins leap away as green frogs, while a small numeral-six knight in a blue cape tallies figures on a lily pad."
+  "imagePrompt": "A mossy bog at dusk where a warty swamp baron slumps beside an open treasure chest as silver coins leap away as green frogs, while a small numeral-six knight in a blue cape tallies figures on a lily pad.",
+  "solution": [
+    "One eighth hops away: 480 / 8 = 60 coins gone, leaving 480 - 60 = 420 coins.",
+    "The witch takes 25% of 420: 420 / 4 = 105, leaving 420 - 105 = 315 coins.",
+    "Share them out: 315 / 15 = 21, so each family receives 21 coins."
+  ],
+  "praise": "Taking the steps in order was smart problem-solving — one subtraction along the way was missed before the final divide."
 }

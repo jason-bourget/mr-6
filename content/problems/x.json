@@ -15,5 +15,11 @@
   "hint": "x",
   "victory": "x",
   "image": "images/x.webp",
-  "imagePrompt": "x"
+  "imagePrompt": "x",
+  "solution": [
+    "This puzzle has just one thing to count: x.",
+    "Counting it gives a total of 1.",
+    "The answer is 1 x."
+  ],
+  "praise": "You still gave this odd little puzzle a try, and that's real courage — the step here was just counting the single x."
 }

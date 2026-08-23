@@ -15,5 +15,11 @@
   "hint": "Undo the riddle backwards: if something minus 17 equals 100, what was that something before the subtraction?",
   "victory": "Mr 6 spoke 'thirteen,' the crypt door swung wide, and Cipher unraveled into a puff of dusty vowels. The village ate bread that winter, and the wraith's riddle became a nursery rhyme.",
   "image": "images/cipher-vault-wraith.webp",
-  "imagePrompt": "A shadowy crypt doorway carved with glowing numerals, a hooded translucent wraith hovering before it, and a small numeral-six knight raising his sword as the lock begins to shine."
+  "imagePrompt": "A shadowy crypt doorway carved with glowing numerals, a hooded translucent wraith hovering before it, and a small numeral-six knight raising his sword as the lock begins to shine.",
+  "solution": [
+    "Undo the subtraction first: 100 + 17 = 117, so nine times the number is 117.",
+    "Undo the multiplication: 117 ÷ 9 = 13.",
+    "The secret number is 13."
+  ],
+  "praise": "Working backwards through the riddle was exactly the right strategy - just undo the subtraction before the multiplication."
 }

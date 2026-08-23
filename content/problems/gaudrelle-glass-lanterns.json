@@ -15,5 +15,11 @@
   "hint": "Divide 250 by 18 — then think about whether a leftover stretch still needs a whole lantern.",
   "victory": "Thirteen lanterns would have left four dark meters — exactly where Gaudrelle liked to shriek. Mr 6 hung a fourteenth, and the Pane Shrieker fled with her ears ringing in rainbow light.",
   "image": "images/gaudrelle-glass-lanterns.webp",
-  "imagePrompt": "A numeral-six knight hanging glowing lanterns along a translucent glass bridge over a misty chasm while a shrill winged shrieker recoils from the spreading light."
+  "imagePrompt": "A numeral-six knight hanging glowing lanterns along a translucent glass bridge over a misty chasm while a shrill winged shrieker recoils from the spreading light.",
+  "solution": [
+    "Divide to see how many full lantern stretches fit: 250 ÷ 18 = 13 with 16 meters left over.",
+    "Those leftover 16 meters still need light, so add one more lantern: 13 + 1 = 14.",
+    "Mr 6 needs 14 lanterns."
+  ],
+  "praise": "Dividing was the right instinct — the one step left was rounding up so the leftover stretch still gets a whole lantern."
 }

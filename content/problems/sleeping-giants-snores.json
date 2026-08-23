@@ -14,5 +14,11 @@
     5,
     3,
     15
-  ]
+  ],
+  "solution": [
+    "Each snore lets Mr 6 sneak 5 feet, and he needs to cross 20 feet.",
+    "Count by 5s to 20: 5, 10, 15, 20 - that's 4 counts, or 20 ÷ 5 = 4.",
+    "Mr 6 needs 4 snores."
+  ],
+  "praise": "Skip-counting by 5s was a smart move - the last step was counting how many 5s you said, not the number you landed on. Great thinking!"
 }

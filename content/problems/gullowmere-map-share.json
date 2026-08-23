@@ -15,5 +15,11 @@
   "hint": "Take the guild's 20% off the top first, then split what's left among the 8 mapmakers.",
   "victory": "Mr 6 counts out eight neat stacks of 100 and Gullowmere, who cannot bear a perfectly fair split, folds itself into a paper crane and flaps out the window.",
   "image": "images/gullowmere-map-share.webp",
-  "imagePrompt": "A hunched hoarder made of rolled parchment maps crouched over an open chest of silver in a lamplit guild hall, a number-six knight stacking coins into tidy piles."
+  "imagePrompt": "A hunched hoarder made of rolled parchment maps crouched over an open chest of silver in a lamplit guild hall, a number-six knight stacking coins into tidy piles.",
+  "solution": [
+    "The guild takes 20% of the 1000 silver marks first: 0.20 × 1000 = 200 marks.",
+    "That leaves 1000 - 200 = 800 marks to share.",
+    "Split it among the 8 mapmakers: 800 ÷ 8 = 100 marks each."
+  ],
+  "praise": "Splitting between the 8 mapmakers was exactly the right move — the guild's 20% just needed to come off the top first."
 }

@@ -15,5 +15,11 @@
   "hint": "If 40% is blocked, what percent of each 250-point blast actually gets through?",
   "victory": "Three blasts, exactly as counted — Basalt cooled into a friendly statue that now warms the stonecutters' soup pot. 'I didn't beat him,' Mr 6 shrugged. 'I just did the percentages.'",
   "image": "images/basalt-crustshield.webp",
-  "imagePrompt": "A cracked, glowing lava golem in a red volcanic pit, frost mist curling off its shoulders as a small numeral-six knight with a sword and blue cape hurls a shimmering blue charge."
+  "imagePrompt": "A cracked, glowing lava golem in a red volcanic pit, frost mist curling off its shoulders as a small numeral-six knight with a sword and blue cape hurls a shimmering blue charge.",
+  "solution": [
+    "If 40% is blocked, then 100% - 40% = 60% gets through, and 250 × 0.60 = 150 chill-points per blast.",
+    "Two blasts give 150 × 2 = 300, which is under 450, but three blasts give 150 × 3 = 450.",
+    "Mr 6 needs 3 blasts."
+  ],
+  "praise": "Using the percent was smart thinking — the missing step was turning 40% blocked into 60% getting through."
 }

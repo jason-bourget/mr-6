@@ -15,5 +15,11 @@
   "hint": "Halve 640 once for the first hour, then halve that result again — count carefully to five halvings.",
   "victory": "Knowing exactly how dim it would get, Mr 6 raced the map-makers out with 20 lumens to spare, and Hollowlamp sputtered off to sulk. 'You can't scare a fellow who already did the math,' Mr 6 said.",
   "image": "images/hollowlamp-dimming-curse.webp",
-  "imagePrompt": "A dim stone crypt with carved bells on the walls, a translucent wick-wraith curling around a fading lantern held high by a small numeral-six knight leading two frightened map-makers."
+  "imagePrompt": "A dim stone crypt with carved bells on the walls, a translucent wick-wraith curling around a fading lantern held high by a small numeral-six knight leading two frightened map-makers.",
+  "solution": [
+    "Halving gives 640 → 320 → 160 after two hours.",
+    "Keep going: 160 → 80 → 40 → 20 after the fourth and fifth halvings.",
+    "After 5 hours, 20 lumens remain."
+  ],
+  "praise": "You spotted that halving repeats each hour — the missing step was counting exactly five halvings, not one fewer."
 }

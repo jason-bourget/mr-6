@@ -15,5 +15,11 @@
   "hint": "First work out 35% of 240 — that's the fee. Then find three quarters of that fee and give it back.",
   "victory": "Copperclaw counted twice, squawked once, and paid up; Mr 6 left her a polishing rag and a promise to check her scale every market day.",
   "image": "images/copperclaw-scrap-percent.webp",
-  "imagePrompt": "A cluttered scrapyard stall at golden hour where a huge copper-feathered magpie hunches over a crooked brass scale while a small numeral-six knight taps the counter with a quill, children peeking from behind barrels."
+  "imagePrompt": "A cluttered scrapyard stall at golden hour where a huge copper-feathered magpie hunches over a crooked brass scale while a small numeral-six knight taps the counter with a quill, children peeking from behind barrels.",
+  "solution": [
+    "The fee is 35% of 240: 240 ÷ 100 = 2.4, and 2.4 × 35 = 84 coins kept by Copperclaw.",
+    "The children are left with 240 - 84 = 156 coins.",
+    "She returns three quarters of the fee: 84 ÷ 4 = 21, and 21 × 3 = 63, so 156 + 63 = 219 coins."
+  ],
+  "praise": "Working out the percentage fee first was exactly right — the extra step was giving three quarters of that fee back to the children."
 }
