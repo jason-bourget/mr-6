@@ -4,16 +4,16 @@
   "title": "The Wisp Who Eats Wrong Change",
   "monster": "Nibbleprice the Market Wisp",
   "story": "Nibbleprice the Market Wisp drifts through the harbor market, curling around any merchant who counts change wrong and turning their coins to fog. Poor Mr Tuck the ropemaker is halfway foggy already. Mr 6 slaps a gold forty-piece on the counter and buys supplies out loud, very carefully.",
-  "question": "Mr 6 buys 3 coils of rope at $4.75 each and 2 lanterns at $6.50 each, and pays with $40.00. How much change should he receive, in dollars?",
+  "question": "Mr 6 buys 3 coils of rope at 4.75 gold pieces each and 2 lanterns at 6.50 gold pieces each, and pays with his 40-gold piece. How much change should he receive, in gold pieces?",
   "answer": 12.75,
-  "unit": "dollars",
+  "unit": "gold pieces",
   "distractors": [
     27.25,
     12.25,
     28.75
   ],
   "hint": "Work out the rope cost and the lantern cost separately, add them for one total, then subtract from 40.",
-  "victory": "'Twelve dollars and seventy-five cents,' said Mr 6, and Nibbleprice shrieked as the correct coins clinked down, un-fogging Mr Tuck entirely. The wisp fled to haunt somebody's homework instead.",
+  "victory": "'Twelve gold and three-quarters,' said Mr 6, and Nibbleprice shrieked as the correct coins clinked down, un-fogging Mr Tuck entirely. The wisp fled to haunt somebody's homework instead.",
   "image": "images/nibbleprice-market-wisp.webp",
   "imagePrompt": "A shimmering fog-wisp curling over a harbor market stall of ropes and lanterns as a numeral-six knight counts bright coins onto the counter at golden hour."
 }

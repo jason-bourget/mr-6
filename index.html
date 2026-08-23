@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
@@ -29,7 +29,7 @@
       <p class="title-blurb">Monsters are on the loose, and only one knight is clever
         enough to stop them. Solve the riddle of each battle to save the day.</p>
 
-      <button id="start-quest" class="primary-btn start-btn">Begin the Quest</button>
+      <button id="start-quest" class="primary-btn start-btn">Begin Today's Quest</button>
       <p class="title-footnote" id="pool-status"></p>
     </div>
   </section>
@@ -39,7 +39,7 @@
     <header class="battle-header">
       <button id="btn-flee" class="ghost-btn" title="Back to the castle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg><span>Castle</span></button>
       <div class="quest-progress" id="quest-progress"></div>
-      <div class="hearts" id="hearts"></div>
+      <span class="header-spacer"></span>
     </header>
 
     <div class="battle-card">
@@ -55,6 +55,7 @@
 
         <div class="battle-answer" id="answer-area">
           <div class="choices" id="choices"></div>
+          <button id="btn-hint" class="ghost-btn hint-btn" hidden>Ask the owl for a hint</button>
           <div class="hint-box" id="hint-box" hidden>
             <span class="hint-label">A whisper from the wise owl:</span>
             <span id="hint-text"></span>
@@ -77,17 +78,16 @@
     <div class="summary-inner">
       <div class="summary-emblem" id="summary-emblem"></div>
       <h1 id="summary-title"></h1>
-      <div class="summary-stars" id="summary-stars"></div>
+      <div class="summary-score" id="summary-score"></div>
       <p id="summary-text"></p>
       <div class="summary-buttons">
-        <button id="btn-again" class="primary-btn">New Quest</button>
-        <button id="btn-home" class="ghost-btn big"><span>Castle</span></button>
+        <button id="btn-home" class="primary-btn">Back to the Castle</button>
       </div>
     </div>
   </section>
 
 </div>
 
-<script src="js/game.js?v=3"></script>
+<script src="js/game.js?v=4"></script>
 </body>
 </html>

@@ -4,16 +4,16 @@
   "title": "The Coin Purse Riddle at Rimwick Fair",
   "monster": "Drossalind the Price Warper",
   "story": "Drossalind the Price Warper drifts through Rimwick Fair changing prices when nobody is looking, so families overpay and go home hungry. Mr 6 volunteers to buy the orphanage's supper while the whole market watches, and Drossalind licks her lips at the chance to confuse him.",
-  "question": "Mr 6 buys 3 loaves at $1.85 each, 4 cheese wheels at $2.25 each, and one jar of honey for $3.40. He pays with a $20 bill. How many dollars does he get back in change?",
+  "question": "Mr 6 buys 3 loaves at 1.85 crowns each, 4 cheese wheels at 2.25 crowns each, and one jar of honey for 3.40 crowns. He pays with a 20-crown note. How many crowns does he get back in change?",
   "answer": 2.05,
-  "unit": "dollars",
+  "unit": "crowns",
   "distractors": [
     17.95,
     14.55,
     7.5
   ],
   "hint": "Total each kind of item separately — loaves, cheese, honey — add all three totals, and only then subtract from 20.",
-  "victory": "Mr 6 counted $2.05 back into the shopkeeper's palm before Drossalind could blink, and every stall in Rimwick copied his math. The Price Warper, finally outnumbered by honest sums, floated off to bother a calculator instead.",
+  "victory": "Mr 6 counted 2.05 crowns back into the shopkeeper's palm before Drossalind could blink, and every stall in Rimwick copied his math. The Price Warper, finally outnumbered by honest sums, floated off to bother a calculator instead.",
   "image": "images/drossalind-market-money.webp",
   "imagePrompt": "A shimmering ghostly wisp with price tags for fingers hovering over a bustling twilight market stall of bread and cheese, as a small numeral 6 knight tallies coins on a wooden counter surrounded by cheering villagers."
 }

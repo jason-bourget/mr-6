@@ -1,73 +1,56 @@
 # ⚔️ Mr 6 — Knight of Numbers
 
-A math word-problem game for kids, starring **Mr 6** — a handsome, adventurous knight
-who fights monsters and saves the helpless by *out-thinking* them. Medieval anime
-storybook vibes, three difficulty tiers, and an AI "Story Forge" that generates
-endless new adventures (with art) so kids rarely see the same problem twice.
+A daily math quest for kids (ages 10–13), starring **Mr 6** — a living, steely-eyed
+number six who fights monsters and saves the helpless by *out-thinking* them. Medieval
+anime storybook art, one shared quest of 10 problems per day (Wordle-style), and an AI
+"Story Forge" that writes and illustrates 10 new adventures every morning.
 
-## Play
+**Play: https://mr6.vercel.app** — on iPhone/iPad: open in Safari → Share →
+Add to Home Screen.
 
-```bash
-python -m http.server 8123 --bind 127.0.0.1
-```
+## How a day works
 
-Then open **http://localhost:8123**. (Run the command from this folder.)
+- Every morning (~6 AM Mountain) the Story Forge GitHub Action:
+  1. writes 10 new problems (Claude), each **arithmetically verified** before acceptance;
+  2. illustrates them with the canonical Mr 6 **reference image** (gpt-image-1
+     images/edits) and passes each through a **vision QC gate** (Claude) that rejects
+     off-model art — wrong eyes, unreadable digit, stray text — and retries;
+  3. publishes the day's quest: the 10 oldest problems in the queue;
+  4. commits — Vercel redeploys automatically.
+- Everyone plays the **same 10 problems** each day: one pick per problem (4 choices,
+  distractors modeled on real mistakes), an optional owl hint, a story resolution
+  either way, and a score at the end (e.g. 7/10). Results are remembered per device.
+- The queue holds ~10 days of buffer, so a failed generation never breaks a morning.
 
-- **Squire's Path** (ages 5–8) — adding, subtracting, counting
-- **Knight's Quest** (ages 8–10) — multiplication, division, doubling chains
-- **Champion's Trial** (ages 10–12) — fractions, percentages, rates, multi-step
+## Worldbuilding rules
 
-Each quest is 5 battles, answered by multiple choice (four options — one right answer
-plus three distractors modeled on real mistakes). A wrong pick costs a heart (of 3) and
-crosses that option out; a hint appears after the first miss. Solved problems are
-remembered (per browser) so new quests prefer adventures the player hasn't seen.
+Self-contained fantasy realm: invented currencies (crowns, moonstone shards — never
+dollars), no real-world places or brands. Mr 6's character canon and the art rules
+live in `generator/artkit.py`; his reference images in `generator/reference/`.
 
-## Generate new adventures (the Story Forge)
-
-The forge runs **offline from gameplay** — run it whenever you want to top up the pool.
-It asks Claude for new problems (each arithmetically verified before it's accepted —
-broken problems are rejected, never shown to kids) and gpt-image-1 for matching art.
-
-One-time setup:
-
-```bash
-pip install anthropic
-```
-
-Keys — both are picked up automatically from files in the project root (git-ignored):
-
-- **OpenAI** (images): `openai_apikey.txt` ✅ already in place, or `OPENAI_API_KEY`
-- **Anthropic** (problems): `anthropic_apikey.txt`, `ANTHROPIC_API_KEY`, or an
-  `ant auth login` profile
-
-Then:
+## Local development
 
 ```bash
-python generator/generate.py
+python -m http.server 8123 --bind 127.0.0.1     # play at localhost:8123
 ```
 
-Options:
+Generator scripts (need `pip install anthropic pillow`; keys in gitignored
+`openai_apikey.txt` / `anthropic_apikey.txt` or env vars):
 
-| Flag | Effect |
+| Command | Purpose |
 |---|---|
-| `--count 5` | problems per tier (default 3) |
-| `--tier knight` | only one tier (`squire` / `knight` / `champion` / `all`) |
-| `--no-images` | skip image generation (placeholder art) |
-| `--model claude-opus-5` | which Claude model writes the problems |
+| `python generator/generate.py --count 10` | forge new problems (+art) into the queue |
+| `python generator/publish_day.py` | publish today's quest from the queue |
+| `python generator/illustrate.py --only <id> --force` | redo one illustration |
+| `python generator/qc_sweep.py` | vision-QC every image, list failures |
 
-Rough cost per adventure: a fraction of a cent for the problem text, and roughly
-$0.04–0.06 for a gpt-image-1 medium-quality image.
-
-## How content works
+## Content layout
 
 ```
 content/
-  manifest.json        <- list of all problem files (the forge appends here)
-  problems/*.json      <- one file per problem (story, question, answer, hint, ...)
-  images/*             <- one illustration per problem (SVG starters, PNG generated)
+  manifest.json        <- every problem ever forged (the queue, in order)
+  days/index.json      <- list of published days
+  days/YYYY-MM-DD.json <- the 10 problem files for that day's quest
+  problems/*.json      <- one file per problem
+  images/*.webp        <- one phone-sized illustration per problem
 ```
-
-The starter pack is 18 hand-written problems (6 per tier) with hand-drawn SVG
-silhouette art, so the game is fully playable before you ever run the forge.
-
-To retire a problem, delete its line from `manifest.json` (and optionally its files).

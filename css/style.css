@@ -118,16 +118,16 @@ body {
   gap: 12px; margin-bottom: 16px;
 }
 
-.quest-progress { display: flex; gap: 8px; align-items: center; }
+.quest-progress { display: flex; gap: 7px; align-items: center; }
 .quest-progress .pip {
-  width: 8px; height: 8px; border-radius: 50%;
+  width: 9px; height: 9px; border-radius: 50%;
   border: 1.5px solid var(--dot-border);
 }
-.quest-progress .pip.done { background: var(--accent); border-color: var(--accent); }
+.quest-progress .pip.right { background: var(--accent); border-color: var(--accent); }
+.quest-progress .pip.wrong { background: #cfa9a0; border-color: #cfa9a0; }
 .quest-progress .pip.current { border-color: var(--accent); }
 
-.hearts { display: flex; gap: 5px; color: var(--heart); min-width: 70px; justify-content: flex-end; }
-.hearts svg { display: block; }
+.header-spacer { width: 70px; }
 
 .battle-card {
   width: 100%; max-width: 620px;
@@ -204,6 +204,8 @@ body {
   color: var(--ink);
 }
 
+.hint-btn { align-self: flex-start; font-size: 13.5px; color: var(--accent); }
+
 .hint-box {
   padding: 12px 16px;
   background: var(--key-bg);
@@ -233,6 +235,8 @@ body {
   font-family: "Cinzel", Georgia, serif;
   font-size: 28px; font-weight: 700; color: var(--accent);
 }
+.victory-panel.missed h3 { color: var(--ink-soft); }
+.victory-panel.missed .victory-burst { color: var(--ink-soft); }
 .victory-panel p {
   font-size: 15.5px; line-height: 1.65; max-width: 480px; color: var(--ink-body);
   margin-bottom: 8px;
@@ -258,8 +262,11 @@ body {
   font-family: "Cinzel", Georgia, serif;
   font-size: clamp(26px, 6vw, 34px); font-weight: 700; color: var(--ink);
 }
-.summary-stars { display: flex; gap: 10px; color: var(--accent); }
-.summary-stars .dim { color: #ddd5c4; }
+.summary-score {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 44px; font-weight: 700; color: var(--accent);
+  letter-spacing: 0.04em;
+}
 .summary-inner p { font-size: 15.5px; line-height: 1.65; color: var(--ink-body); }
 .summary-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 8px; }
 

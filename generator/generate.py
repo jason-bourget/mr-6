@@ -20,15 +20,14 @@ Keys (either source works):
 ============================================================"""
 
 import argparse
-import base64
-import io
 import json
 import math
 import os
 import re
 import sys
-import urllib.request
 from pathlib import Path
+
+import artkit
 
 try:
     import anthropic
@@ -102,6 +101,15 @@ SAFETY = """Tone rules: storybook-brave, never gory. Monsters poof, flee, shrink
 turn friendly, or are outwitted — nobody is hurt on-page. Some problems should be
 rescues, sharing, or clever escapes rather than combat. Mr 6 is kind, clever, and
 a little funny. Victory text should reward the THINKING, not the hitting."""
+
+WORLD = """Worldbuilding rules: this is a self-contained fantasy realm.
+- NEVER use real-world money (no dollars, cents, euros, pounds). Invent currencies and
+  trade goods freely: gold crowns, silver acorns, moonstone shards, dragon-scale chits,
+  ember coins... vary them between problems.
+- No real-world places, brands, or people.
+- Real units ARE fine where the math needs them: minutes, hours, days, feet, miles or
+  leagues, gallons, pounds of weight. Fantasy units are welcome when the unit is not
+  critical to the math."""
 
 # ---------------- output schema ----------------
 
@@ -183,6 +191,8 @@ make the joke the whole story.
 
 {SAFETY}
 
+{WORLD}
+
 Already-used adventures (do NOT reuse these monsters, ids, or core scenarios):
 {existing_names}
 
@@ -218,72 +228,16 @@ glacier, volcano, library, swamp...) and vary operations across the set."""
         p["tier"] = tier
     return problems
 
-# ---------------- image generation ----------------
-
-CHARACTER_SHEET = """Mr 6 is NOT a human — he is a living, heroic NUMBER SIX. His body
-is a big, bold, clearly readable numeral "6" about as tall as a person: smooth, rounded,
-glossy golden-bronze, shaped exactly like the digit 6. Exactly two eyes sit SIDE BY SIDE high on
-the numeral's upper stem, well above the loop — never inside the loop, and never more
-than two eyes; the loop of the 6 stays plain and empty like a belly. His eyes are
-steely, narrowed and intelligent — half-lidded with small sharp pupils and strong
-expressive eyebrows, one eyebrow arched in a wry, knowing, confident look, like a
-razor-sharp wit sizing up his opponent. NEVER wide, round, vacant, surprised or goofy
-cartoon eyes. He has NO nose and NO beak — only eyes, eyebrows, and at most a subtle
-confident mouth line on the smooth golden numeral. Thin sturdy arms and legs extend from the numeral's
-body, with brown adventurer gloves and boots. His knightly gear: a small silver knight
-helmet with a rose-pink plume perched on top of the 6, a flowing deep-blue cape on his
-back, and a silver sword in one hand. Friendly, brave, confident hero posture. The digit-6
-silhouette must stay clearly readable, and this exact character design must be identical
-in every image."""
-
-STYLE_SHEET = """Style: elegant medieval anime storybook illustration — painterly
-cel-shaded fantasy anime in the spirit of classic theatrical fantasy anime films,
-warm magical lighting, rich colors, dramatic but friendly composition, appealing to
-children and adults alike. Absolutely no gore, no frightening realism, no text or
-letters in the image (the number 6 on the shield is the only glyph allowed)."""
+# ---------------- image generation (reference-conditioned, QC-gated) ----------------
 
 def generate_image(problem):
-    prompt = (f"{CHARACTER_SHEET}\nScene: {problem['imagePrompt']}\n"
-              f"The monster looks impressive but storybook-friendly, not scary. "
-              f"Mr 6 faces it bravely.\n{STYLE_SHEET}")
-
-    req = urllib.request.Request(
-        "https://api.openai.com/v1/images/generations",
-        data=json.dumps({
-            "model": "gpt-image-1",
-            "prompt": prompt,
-            "size": "1536x1024",
-            "quality": "medium",
-            "n": 1,
-        }).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {openai_key}",
-        },
-        method="POST",
+    webp, note = artkit.generate_scene(
+        openai_key, problem["imagePrompt"], anthropic_client=client, quality="medium",
+        log=lambda m: print(f"  {m}", flush=True),
     )
-    try:
-        with urllib.request.urlopen(req, timeout=300) as res:
-            data = json.loads(res.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")[:300]
-        raise RuntimeError(f"OpenAI image API {e.code}: {body}") from None
-
-    b64 = (data.get("data") or [{}])[0].get("b64_json")
-    if not b64:
-        raise RuntimeError("OpenAI image API returned no image data.")
-    return compress_to_webp(base64.b64decode(b64))
-
-
-def compress_to_webp(png_bytes, max_width=1280, quality=80):
-    """Shrink API PNGs (~2.4 MB) to phone-friendly WebP (~150-250 KB)."""
-    from PIL import Image
-    im = Image.open(io.BytesIO(png_bytes)).convert("RGB")
-    if im.width > max_width:
-        im.thumbnail((max_width, max_width * 4))
-    out = io.BytesIO()
-    im.save(out, format="WEBP", quality=quality, method=6)
-    return out.getvalue()
+    if note:
+        print(f"  [warn] {problem['id']}: {note}", flush=True)
+    return webp
 
 # ---------------- main ----------------
 
