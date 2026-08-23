@@ -15,5 +15,11 @@
   "hint": "Each tie changes the count by minus one plus two — figure out the net change per tie, then multiply by 12.",
   "victory": "Mr 6 stopped at exactly 12, pointed out that tying more would only make things worse, and Gorrelmaw — impressed that someone finally understood him — rolled aside and let everyone stroll out.",
   "image": "images/gorrelmaw-regrowing-tongues.webp",
-  "imagePrompt": "An enormous cave-mouth monster with dozens of long ribbony tongues tied into neat bows, glittering crystal walls, miners peeking from behind a boulder, a caped numeral six mid-knot."
+  "imagePrompt": "An enormous cave-mouth monster with dozens of long ribbony tongues tied into neat bows, glittering crystal walls, miners peeking from behind a boulder, a caped numeral six mid-knot.",
+  "solution": [
+    "Each tie changes the count by -1 + 2 = +1 tongue.",
+    "After 12 ties the change is 12 × 1 = +12 tongues.",
+    "Starting from 30, that gives 30 + 12 = 42 tongues."
+  ],
+  "praise": "Tracking what each tie does was exactly the right strategy - the missing step was combining the -1 and +2 into a net gain of 1."
 }

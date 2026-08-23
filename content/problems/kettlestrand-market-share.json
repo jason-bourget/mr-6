@@ -15,5 +15,11 @@
   "hint": "You're splitting 1,148 into 14 equal piles — try long division, and check by multiplying your answer by 14.",
   "victory": "Every family got exactly 82 shards with none left over, and Kettlestrand — who had never once seen a remainder of zero — clapped his barnacled claws and became the harbor's honest treasurer.",
   "image": "images/kettlestrand-market-share.webp",
-  "imagePrompt": "A shaggy sea-crusted hoarder monster in a cave heaped with glowing moonstone shards, fisher families waiting at the entrance, a caped numeral six counting piles by torchlight."
+  "imagePrompt": "A shaggy sea-crusted hoarder monster in a cave heaped with glowing moonstone shards, fisher families waiting at the entrance, a caped numeral six counting piles by torchlight.",
+  "solution": [
+    "Divide the shards into equal piles: 1,148 ÷ 14 = 82.",
+    "Check it: 82 × 14 = 1,148, so the piles come out even.",
+    "Each family receives 82 shards."
+  ],
+  "praise": "Choosing division for equal sharing was exactly right - the missing step was checking with multiplication to catch a digit slip."
 }

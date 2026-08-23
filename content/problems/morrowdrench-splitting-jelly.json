@@ -15,5 +15,11 @@
   "hint": "Start with 1 and multiply by 3 once for each hour: 1, 3, 9... keep going to hour five.",
   "victory": "Mr 6 chalked '243' on the rock and Morrowdrench, horrified at being so thoroughly predicted, refused to split again and settled for being one very shiny jelly.",
   "image": "images/morrowdrench-splitting-jelly.webp",
-  "imagePrompt": "Glowing blue jellyfish-like blobs multiplying across moonlit tidepools on a rocky shore, a small knight numeral six calmly writing numbers on a wet rock with chalk."
+  "imagePrompt": "Glowing blue jellyfish-like blobs multiplying across moonlit tidepools on a rocky shore, a small knight numeral six calmly writing numbers on a wet rock with chalk.",
+  "solution": [
+    "Multiply by 3 once for each hour: 1 × 3 = 3, then 3 × 3 = 9, then 9 × 3 = 27.",
+    "Keep going: 27 × 3 = 81 and 81 × 3 = 243 after the fifth hour.",
+    "So there will be 243 jellies."
+  ],
+  "praise": "You spotted that the jellies grow by tripling - the trick was multiplying five separate times instead of adding or stopping early."
 }

@@ -15,5 +15,11 @@
   "hint": "You're looking for the missing factor — think of it as 84 split into 7 equal groups.",
   "victory": "Mr 6 cut a fuse exactly 12 feet long, the cave sealed itself with a gentle rumble, and Thundermarrow slept on so soundly he never learned he'd been out-riddled.",
   "image": "images/thundermarrow-fuse-unknown.webp",
-  "imagePrompt": "A sleeping stone-scaled drake curled on a quarry ledge above a tiny village at twilight, a long coiled fuse on the ground, a caped numeral six measuring it with careful steps."
+  "imagePrompt": "A sleeping stone-scaled drake curled on a quarry ledge above a tiny village at twilight, a long coiled fuse on the ground, a caped numeral six measuring it with careful steps.",
+  "solution": [
+    "A missing factor means you undo the multiplication: 84 ÷ 7 = 12.",
+    "Check it: 12 × 7 = 84, so it fits.",
+    "The missing number is 12 feet."
+  ],
+  "praise": "Spotting that a factor was missing shows real algebra thinking - dividing 84 into 7 equal groups was the step to finish it."
 }

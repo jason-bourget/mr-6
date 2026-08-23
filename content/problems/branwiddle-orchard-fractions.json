@@ -15,5 +15,11 @@
   "hint": "First find how many apples stayed sweet, then remember that 2 out of every 3 of those are big enough.",
   "victory": "Mr 6 declared 180 sellable apples, and Branwiddle, who only had power over uncounted fruit, shriveled into a grumpy little seed and rolled off down the hill.",
   "image": "images/branwiddle-orchard-fractions.webp",
-  "imagePrompt": "A knobbly bark-skinned grumbling tree spirit sulking among golden apple trees on a green hillside at late afternoon, a small numeral six knight tallying apples in a basket."
+  "imagePrompt": "A knobbly bark-skinned grumbling tree spirit sulking among golden apple trees on a green hillside at late afternoon, a small numeral six knight tallying apples in a basket.",
+  "solution": [
+    "First count the apples that stayed sweet: that group is 270 apples.",
+    "Then take 2 out of every 3 of those: 270 ÷ 3 = 90, and 90 × 2 = 180.",
+    "So 180 apples are both sweet and big enough to sell."
+  ],
+  "praise": "Working with the fractions one at a time was the right plan - the second fraction just needed to be taken of the sweet group, not of the whole orchard."
 }

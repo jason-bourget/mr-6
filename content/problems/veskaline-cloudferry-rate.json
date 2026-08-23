@@ -15,5 +15,11 @@
   "hint": "Every 5 minutes the rope gets shorter by 8 minus 4 feet. How many of those 5-minute chunks fit into 96 feet?",
   "victory": "Mr 6 announced the rope would last two full hours — more than enough time — and Veskaline, who hated being predictable, uncoiled in embarrassment and drifted away as a polite little cloud.",
   "image": "images/veskaline-cloudferry-rate.webp",
-  "imagePrompt": "A long translucent vapor serpent coiled around a thick rope beneath a floating sky-ferry, dawn clouds glowing pink, a tiny caped numeral six braiding rope at the far end."
+  "imagePrompt": "A long translucent vapor serpent coiled around a thick rope beneath a floating sky-ferry, dawn clouds glowing pink, a tiny caped numeral six braiding rope at the far end.",
+  "solution": [
+    "In each 5-minute chunk the rope really shrinks by 8 - 4 = 4 feet.",
+    "Count the chunks: 96 ÷ 4 = 24 chunks of 5 minutes.",
+    "Multiply back to minutes: 24 × 5 = 120 minutes until the rope is gone."
+  ],
+  "praise": "Subtracting to get the real shrink rate was smart thinking - the missing step was turning those 5-minute chunks back into minutes."
 }

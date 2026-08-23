@@ -15,5 +15,11 @@
   "hint": "Work out the cost of the globes and the cost of the vials separately, add them, then subtract from 40.",
   "victory": "Mr 6 named his change down to the last hundredth of a coin, and Veldrase — who feeds only on confusion — thinned into harmless mist over the glassware.",
   "image": "images/veldrase-glass-market-money.webp",
-  "imagePrompt": "A pale swirling wraith of coins and fog behind a market stall of shimmering glass globes and vials at dusk, a small numeral six knight counting coins with a determined grin."
+  "imagePrompt": "A pale swirling wraith of coins and fog behind a market stall of shimmering glass globes and vials at dusk, a small numeral six knight counting coins with a determined grin.",
+  "solution": [
+    "Sky-globes cost 3 × 4.75 = 14.25 ember coins.",
+    "Frost-vials cost 2 × 6.40 = 12.80, so the total is 14.25 + 12.80 = 27.05.",
+    "Change is 40 - 27.05 = 12.95 ember coins."
+  ],
+  "praise": "Pricing each item group separately was a smart, organized way to start - the final step was subtracting the whole total from 40."
 }

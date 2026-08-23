@@ -15,5 +15,11 @@
   "hint": "Six days averaging 120 means a total of 720 sacks. How much of that total is already accounted for?",
   "victory": "Mr 6 wrote '125' in the last row, the ledger balanced with a satisfying click, and Pellowdrift — suddenly with nothing unbalanced to eat — asked politely for a job as a bookkeeper.",
   "image": "images/pellowdrift-caravan-average.webp",
-  "imagePrompt": "A gaunt robed ghoul hovering over a huge open ledger beside camels and salt sacks in a moonlit desert camp, a small numeral six knight writing the final number with a feather quill."
+  "imagePrompt": "A gaunt robed ghoul hovering over a huge open ledger beside camels and salt sacks in a moonlit desert camp, a small numeral six knight writing the final number with a feather quill.",
+  "solution": [
+    "An average of 120 over six days means a total of 120 × 6 = 720 sacks.",
+    "The first five days already hauled 595 sacks.",
+    "Day six must be 720 - 595 = 125 sacks."
+  ],
+  "praise": "Thinking about the average as a total was a great move - the last step was subtracting what the caravan already hauled."
 }
