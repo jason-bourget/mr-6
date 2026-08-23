@@ -241,8 +241,11 @@
     const prev = savedResult();
     const prevBest = Math.min(prev ? prev.best || 0 : 0, state.problems.length);
     const best = Math.max(state.score, prevBest);
+    const bestPicks = state.score >= prevBest
+      ? state.picks.map((p) => p.correct)
+      : (prev && prev.bestPicks) || state.picks.map((p) => p.correct);
     localStorage.setItem(resultKey(state.date),
-      JSON.stringify({ score: state.score, best, picks: state.picks }));
+      JSON.stringify({ score: state.score, best, bestPicks, picks: state.picks }));
     updateModeStatuses();
     showSummary(state.score, best);
   }
@@ -271,6 +274,7 @@
       best > score ? `Best today: ${best} / ${total}` : "";
     $("summary-text").textContent = text + " A new quest arrives every morning.";
     $("btn-again").textContent = "Play Again";
+    renderShareScroll();
   }
 
   /* ---------------- rapid fire ---------------- */
@@ -280,6 +284,7 @@
     state.lastMode = "rapid";
     state.rapidIndex = 0;
     state.rapidScore = 0;
+    state.rapidPattern = [];
     $("rapid-image").src = "content/" + (state.rapid.image || "images/placeholder.svg");
     showScreen("screen-rapid");
     state.rapidStart = performance.now();
@@ -321,6 +326,7 @@
     });
     if (!correct) btn.classList.add("wrong");
     if (correct) state.rapidScore++;
+    state.rapidPattern.push(correct);
     setTimeout(() => {
       state.rapidIndex++;
       if (state.rapidIndex >= state.rapid.problems.length) finishRapid();
@@ -336,7 +342,7 @@
       (state.rapidScore === prev.score && secs < prev.time);
     if (better) {
       localStorage.setItem(rapidKey(state.rapid.date),
-        JSON.stringify({ score: state.rapidScore, time: secs }));
+        JSON.stringify({ score: state.rapidScore, time: secs, pattern: state.rapidPattern }));
     }
     updateModeStatuses();
     showRapidSummary(state.rapidScore, secs, better, prev);
@@ -356,6 +362,111 @@
     $("summary-text").textContent =
       "Fast math is a muscle — every round makes it stronger. Race yourself again!";
     $("btn-again").textContent = "Race Again";
+    renderShareScroll();
+  }
+
+  /* ---------------- share scroll ---------------- */
+
+  function squarePattern(pattern, score, total) {
+    if (Array.isArray(pattern) && pattern.length === total) return pattern;
+    return Array.from({ length: total }, (_, i) => i < score);
+  }
+
+  function friendlyDate(iso) {
+    const [y, m, d] = iso.split("-").map(Number);
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${months[m - 1]} ${d}`;
+  }
+
+  function shareData() {
+    const rows = [];
+    const q = savedResult();
+    if (q) {
+      const total = state.problems.length;
+      const best = Math.min(q.best, total);
+      rows.push({
+        label: "Quest", score: `${best}/${total}`,
+        pattern: squarePattern(q.bestPicks, best, total),
+      });
+    }
+    const r = savedRapid();
+    if (r) {
+      rows.push({
+        label: "Rapid", score: `${r.score}/10 in ${fmtTime(r.time)}`,
+        pattern: squarePattern(r.pattern, r.score, 10),
+      });
+    }
+    return rows;
+  }
+
+  function renderShareScroll() {
+    const rows = shareData();
+    const scroll = $("share-scroll");
+    scroll.hidden = rows.length === 0;
+    if (!rows.length) return;
+    $("share-date").textContent = friendlyDate(state.date);
+    $("share-rows").innerHTML = rows.map((row) => `
+      <div class="share-row">
+        <span class="share-label">${row.label}</span>
+        <span class="share-squares">${row.pattern.map((ok) =>
+          `<span class="sq ${ok ? "sq-hit" : "sq-miss"}"></span>`).join("")}</span>
+        <span class="share-result">${row.score}</span>
+      </div>`).join("");
+    $("btn-share").textContent = "Share your scroll";
+  }
+
+  function shareText() {
+    const rows = shareData();
+    const lines = [`Mr 6 — Knight of Numbers · ${friendlyDate(state.date)}`];
+    for (const row of rows) {
+      const squares = row.pattern.map((ok) => (ok ? "🟨" : "⬜")).join("");
+      lines.push(`${row.label}: ${squares} ${row.score}`);
+    }
+    lines.push("https://mr6.vercel.app");
+    return lines.join("\n");
+  }
+
+  async function doShare() {
+    const text = shareText();
+    try {
+      if (navigator.share) {
+        await navigator.share({ text });
+        return;
+      }
+    } catch { /* fall through to clipboard (e.g. user closed the sheet) */ return; }
+    let copied = false;
+    try {
+      await navigator.clipboard.writeText(text);
+      copied = true;
+    } catch {
+      // legacy fallback for browsers that deny the async clipboard
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { copied = document.execCommand("copy"); } catch { copied = false; }
+      ta.remove();
+    }
+    if (copied) {
+      $("btn-share").textContent = "Copied!";
+      setTimeout(() => { $("btn-share").textContent = "Share your scroll"; }, 1600);
+    } else {
+      // last resort: show the text so it can be copied by hand
+      let ta = document.getElementById("share-fallback");
+      if (!ta) {
+        ta = document.createElement("textarea");
+        ta.id = "share-fallback";
+        ta.className = "share-fallback";
+        ta.readOnly = true;
+        ta.rows = 4;
+        $("share-scroll").appendChild(ta);
+      }
+      ta.value = text;
+      ta.hidden = false;
+      $("btn-share").textContent = "Select and copy your scroll:";
+    }
   }
 
   /* ---------------- wire up ---------------- */
@@ -376,6 +487,7 @@
     if (state.lastMode === "rapid") startRapid();
     else startQuest();
   });
+  $("btn-share").addEventListener("click", doShare);
   $("btn-home").addEventListener("click", () => showScreen("screen-title"));
 
   loadContent().catch((err) => {
