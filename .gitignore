@@ -6,3 +6,6 @@ __pycache__/
 
 # Original full-size API art stays local; the site serves the .webp versions
 content/images/*.png
+
+.vercel
+.env*
