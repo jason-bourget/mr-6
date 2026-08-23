@@ -1,0 +1,19 @@
+{
+  "id": "branwiddle-orchard-fractions",
+  "tier": "champion",
+  "title": "Branwiddle's Bitter Harvest",
+  "monster": "Branwiddle the Grove Grumbler",
+  "story": "Branwiddle the Grove Grumbler curses orchards by souring the fruit. He has soured 2/5 of the 450 sunapples in the Highvale grove, and of the apples still sweet, 1/3 are too small to sell. Mr 6 counts branches while Branwiddle waits smugly for tears.",
+  "question": "How many sunapples are both sweet and big enough to sell?",
+  "answer": 180,
+  "unit": "apples",
+  "distractors": [
+    270,
+    90,
+    300
+  ],
+  "hint": "First find how many apples stayed sweet, then remember that 2 out of every 3 of those are big enough.",
+  "victory": "Mr 6 declared 180 sellable apples, and Branwiddle, who only had power over uncounted fruit, shriveled into a grumpy little seed and rolled off down the hill.",
+  "image": "images/branwiddle-orchard-fractions.webp",
+  "imagePrompt": "A knobbly bark-skinned grumbling tree spirit sulking among golden apple trees on a green hillside at late afternoon, a small numeral six knight tallying apples in a basket."
+}

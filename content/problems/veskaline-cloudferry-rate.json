@@ -1,0 +1,19 @@
+{
+  "id": "veskaline-cloudferry-rate",
+  "tier": "champion",
+  "title": "The Cloudferry Race",
+  "monster": "Veskaline the Vapor Serpent",
+  "story": "Veskaline the Vapor Serpent has coiled around the sky-ferry's mooring rope and is chewing through it at a steady pace. The rope is 96 feet long and she gnaws 8 feet every 5 minutes; Mr 6 can re-braid rope from the other end at 4 feet every 5 minutes. Below, a basket of sleepy owl-chicks dangles.",
+  "question": "If Veskaline eats 8 feet of rope every 5 minutes while Mr 6 braids on 4 feet every 5 minutes, how many minutes until the 96-foot rope is gone?",
+  "answer": 120,
+  "unit": "minutes",
+  "distractors": [
+    60,
+    24,
+    480
+  ],
+  "hint": "Every 5 minutes the rope gets shorter by 8 minus 4 feet. How many of those 5-minute chunks fit into 96 feet?",
+  "victory": "Mr 6 announced the rope would last two full hours — more than enough time — and Veskaline, who hated being predictable, uncoiled in embarrassment and drifted away as a polite little cloud.",
+  "image": "images/veskaline-cloudferry-rate.webp",
+  "imagePrompt": "A long translucent vapor serpent coiled around a thick rope beneath a floating sky-ferry, dawn clouds glowing pink, a tiny caped numeral six braiding rope at the far end."
+}

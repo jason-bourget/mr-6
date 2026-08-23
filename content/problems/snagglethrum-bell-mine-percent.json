@@ -1,0 +1,19 @@
+{
+  "id": "snagglethrum-bell-mine-percent",
+  "tier": "champion",
+  "title": "The Bell Mine's Missing Ore",
+  "monster": "Snagglethrum the Slag Chewer",
+  "story": "Deep in the Bell Mine, Snagglethrum the Slag Chewer swallows ore carts and burps out dust. The miners rolled 240 pounds of starlight ore toward the lift, but Snagglethrum chewed 35% of it into gravel. Mr 6 plants his boots on the rail and does the math before the beast can take a second bite.",
+  "question": "How many pounds of starlight ore are left after Snagglethrum chews 35% of the 240 pounds?",
+  "answer": 156,
+  "unit": "pounds",
+  "distractors": [
+    84,
+    205,
+    120
+  ],
+  "hint": "First find 35% of 240 — that's the part that got chewed. Then take it away from 240.",
+  "victory": "Mr 6 announced the exact weight of the surviving ore, and Snagglethrum — who could only eat ore nobody had counted — sulked off to gnaw on a rock instead.",
+  "image": "images/snagglethrum-bell-mine-percent.webp",
+  "imagePrompt": "A hulking rocky slag-chewing beast crouched over mine rails in a lantern-lit tunnel, glittering pale ore spilling from a cart, while a small knightly numeral six stands boldly with sword and blue cape."
+}

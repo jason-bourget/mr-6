@@ -1,0 +1,19 @@
+{
+  "id": "gorrelmaw-regrowing-tongues",
+  "tier": "champion",
+  "title": "The Cave That Kept Growing Tongues",
+  "monster": "Gorrelmaw the Cavern Mouth",
+  "story": "Gorrelmaw the Cavern Mouth blocks the only tunnel out of the crystal mines with 30 sticky tongues. Every time Mr 6 gently ties one tongue into a bow, that tongue stops moving — but 2 brand-new tongues sprout somewhere else in the cave. Mr 6 ties 12 tongues in a row while the miners watch nervously.",
+  "question": "After Mr 6 ties 12 tongues (each tie removes 1 active tongue but sprouts 2 new ones), how many active tongues does Gorrelmaw have?",
+  "answer": 42,
+  "unit": "tongues",
+  "distractors": [
+    54,
+    18,
+    24
+  ],
+  "hint": "Each tie changes the count by minus one plus two — figure out the net change per tie, then multiply by 12.",
+  "victory": "Mr 6 stopped at exactly 12, pointed out that tying more would only make things worse, and Gorrelmaw — impressed that someone finally understood him — rolled aside and let everyone stroll out.",
+  "image": "images/gorrelmaw-regrowing-tongues.webp",
+  "imagePrompt": "An enormous cave-mouth monster with dozens of long ribbony tongues tied into neat bows, glittering crystal walls, miners peeking from behind a boulder, a caped numeral six mid-knot."
+}

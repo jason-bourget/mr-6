@@ -1,0 +1,19 @@
+{
+  "id": "salgrave-crypt-lanterns",
+  "tier": "champion",
+  "title": "Lanterns for the Long Stair",
+  "monster": "Salgrave the Stair Shade",
+  "story": "Salgrave the Stair Shade lives in the darkness of a 1,000-foot spiral crypt stair and grows stronger wherever light fails. Each hollow-glass lantern lights 45 feet of stair, and Mr 6 must light the whole thing to lead a lost choir of village children back up. Half-lit stairs don't count — Salgrave slips through gaps.",
+  "question": "How many lanterns does Mr 6 need to light all 1,000 feet of stair if each lantern lights 45 feet?",
+  "answer": 23,
+  "unit": "lanterns",
+  "distractors": [
+    22,
+    45,
+    25
+  ],
+  "hint": "Divide 1,000 by 45 — then think hard about the leftover stretch of stair.",
+  "victory": "The twenty-third lantern covered the last stubborn 10 feet, and Salgrave, with nowhere dark left to stand, politely became a shadow puppet for the children instead.",
+  "image": "images/salgrave-crypt-lanterns.webp",
+  "imagePrompt": "A tall spiral stone staircase in a crypt lined with warm glowing lanterns, a thin shadow creature shrinking into the last dark corner, a caped numeral six leading a line of children upward."
+}

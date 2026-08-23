@@ -1,0 +1,19 @@
+{
+  "id": "veldrase-glass-market-money",
+  "tier": "champion",
+  "title": "The Glassblower's Price Trick",
+  "monster": "Veldrase the Bargain Wraith",
+  "story": "Veldrase the Bargain Wraith haunts the glass market, whispering confusing prices until shoppers overpay and vanish into her fog. She offers Mr 6 three sky-globes at 4.75 ember coins each and two frost-vials at 6.40 ember coins each, then demands he hand over a purse of 40 ember coins. Mr 6 counts the change first — always the change first.",
+  "question": "How many ember coins of change should Mr 6 get back from 40 after buying 3 sky-globes at 4.75 each and 2 frost-vials at 6.40 each?",
+  "answer": 12.95,
+  "unit": "ember coins",
+  "distractors": [
+    27.05,
+    14.25,
+    22.15
+  ],
+  "hint": "Work out the cost of the globes and the cost of the vials separately, add them, then subtract from 40.",
+  "victory": "Mr 6 named his change down to the last hundredth of a coin, and Veldrase — who feeds only on confusion — thinned into harmless mist over the glassware.",
+  "image": "images/veldrase-glass-market-money.webp",
+  "imagePrompt": "A pale swirling wraith of coins and fog behind a market stall of shimmering glass globes and vials at dusk, a small numeral six knight counting coins with a determined grin."
+}

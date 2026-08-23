@@ -1,0 +1,19 @@
+{
+  "id": "kettlestrand-market-share",
+  "tier": "champion",
+  "title": "The Fair Share of the Salvage",
+  "monster": "Kettlestrand the Wreck Hoarder",
+  "story": "Kettlestrand the Wreck Hoarder drags sunken cargo into his cave and refuses to give it back unless somebody can divide it perfectly. He has 1,148 moonstone shards belonging to 14 fisher families, and he insists each family get exactly the same amount. Mr 6 rolls up his sleeves; his cape has a chalk pocket for exactly this sort of emergency.",
+  "question": "If 1,148 moonstone shards are shared equally among 14 families, how many shards does each family receive?",
+  "answer": 82,
+  "unit": "shards",
+  "distractors": [
+    80,
+    1134,
+    164
+  ],
+  "hint": "You're splitting 1,148 into 14 equal piles — try long division, and check by multiplying your answer by 14.",
+  "victory": "Every family got exactly 82 shards with none left over, and Kettlestrand — who had never once seen a remainder of zero — clapped his barnacled claws and became the harbor's honest treasurer.",
+  "image": "images/kettlestrand-market-share.webp",
+  "imagePrompt": "A shaggy sea-crusted hoarder monster in a cave heaped with glowing moonstone shards, fisher families waiting at the entrance, a caped numeral six counting piles by torchlight."
+}

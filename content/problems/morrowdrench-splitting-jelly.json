@@ -1,0 +1,19 @@
+{
+  "id": "morrowdrench-splitting-jelly",
+  "tier": "champion",
+  "title": "The Jelly That Learned to Split",
+  "monster": "Morrowdrench the Tidepool Jelly",
+  "story": "In the moonlit tidepools, Morrowdrench the Tidepool Jelly splits into 3 copies of itself every single hour, and each copy splits too. Right now, at midnight, there is exactly 1 jelly, and the tide comes in at 5 o'clock. Mr 6 sits on a barnacled rock with a stick of chalk instead of drawing his sword.",
+  "question": "If 1 jelly triples every hour, how many jellies will there be after 5 hours?",
+  "answer": 243,
+  "unit": "jellies",
+  "distractors": [
+    81,
+    15,
+    125
+  ],
+  "hint": "Start with 1 and multiply by 3 once for each hour: 1, 3, 9... keep going to hour five.",
+  "victory": "Mr 6 chalked '243' on the rock and Morrowdrench, horrified at being so thoroughly predicted, refused to split again and settled for being one very shiny jelly.",
+  "image": "images/morrowdrench-splitting-jelly.webp",
+  "imagePrompt": "Glowing blue jellyfish-like blobs multiplying across moonlit tidepools on a rocky shore, a small knight numeral six calmly writing numbers on a wet rock with chalk."
+}

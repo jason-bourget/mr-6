@@ -122,6 +122,16 @@
     "problems/grellowain-lantern-ceiling.json",
     "problems/orrinvex-forge-unknown.json",
     "problems/whimbrelash-caravan-average.json",
-    "problems/drossalind-market-money.json"
+    "problems/drossalind-market-money.json",
+    "problems/snagglethrum-bell-mine-percent.json",
+    "problems/veskaline-cloudferry-rate.json",
+    "problems/morrowdrench-splitting-jelly.json",
+    "problems/kettlestrand-market-share.json",
+    "problems/branwiddle-orchard-fractions.json",
+    "problems/salgrave-crypt-lanterns.json",
+    "problems/pellowdrift-caravan-average.json",
+    "problems/gorrelmaw-regrowing-tongues.json",
+    "problems/veldrase-glass-market-money.json",
+    "problems/thundermarrow-fuse-unknown.json"
   ]
 }
