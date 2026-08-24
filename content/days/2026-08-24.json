@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-24",
+  "problems": [
+    "problems/torchfire-wolves.json",
+    "problems/blackmaws-treasure.json",
+    "problems/frostfang-ice-wyrm.json"
+  ]
+}

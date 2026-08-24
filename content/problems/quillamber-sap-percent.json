@@ -1,0 +1,25 @@
+{
+  "id": "quillamber-sap-percent",
+  "tier": "champion",
+  "title": "The Amber Sap Tax",
+  "monster": "Quillamber the Resin Wasp",
+  "story": "High in the honeyed pine canopy, Quillamber the Resin Wasp has sealed the tree-village's amber harvest inside a sticky vault, and she demands a 'tax' before she will unglue it. Mr 6 climbs up, cape snagging on pine needles, and asks to see her ledger. Quillamber buzzes proudly: she keeps 35% of every barrel of amber sap, and she has already taken her share from today's 240 barrels.",
+  "question": "After Quillamber takes her 35% cut, the villagers split the remaining barrels equally among 6 tree-houses — how many barrels does each tree-house get?",
+  "answer": 26,
+  "unit": "barrels",
+  "distractors": [
+    84,
+    156,
+    40
+  ],
+  "solution": [
+    "Quillamber's cut is 35% of 240 = 0.35 * 240 = 84 barrels.",
+    "The villagers keep 240 - 84 = 156 barrels.",
+    "Split 6 ways: 156 / 6 = 26 barrels for each tree-house."
+  ],
+  "praise": "Finding 35% of 240 was exactly the right opening move — the leftover barrels just needed sharing out before the answer.",
+  "hint": "First find how many barrels the wasp keeps, then see how many are left over BEFORE you divide.",
+  "victory": "Mr 6 read the ledger aloud so clearly that Quillamber realized her own math left her drowning in sap she couldn't even eat. She traded the whole vault for one honey bun and buzzed off, embarrassed but sticky-happy.",
+  "image": "images/quillamber-sap-percent.webp",
+  "imagePrompt": "A giant amber-winged resin wasp perched on a sap-glazed vault in a golden pine canopy at dawn, while a small knightly numeral 6 in a blue cape points calmly at her glowing ledger."
+}

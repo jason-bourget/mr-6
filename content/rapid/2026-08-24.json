@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-24",
+  "title": "The Crystal Quartering",
+  "monster": "Glimmergore the Crystal Golem",
+  "story": "Glimmergore the Crystal Golem is one giant hunk of unbreakable glass — unless it is cut into four perfectly equal shards, at which point it politely shatters. Mr 6 raises his blade and calls out each cut: every number the golem hurls must come back divided by four, exactly, or the crystal heals itself with a smug little sparkle. The golem is already regrowing — can you quarter faster than it can mend?",
+  "rule": "Cut it into FOUR equal parts!",
+  "image": "images/rapid-2026-08-24.webp",
+  "problems": [
+    {
+      "q": "8",
+      "answer": 2,
+      "distractors": [
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 3,
+      "distractors": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 5,
+      "distractors": [
+        10,
+        4,
+        6
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 6,
+      "distractors": [
+        12,
+        8,
+        4
+      ]
+    },
+    {
+      "q": "36",
+      "answer": 9,
+      "distractors": [
+        18,
+        8,
+        12
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 12,
+      "distractors": [
+        24,
+        11,
+        16
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 15,
+      "distractors": [
+        30,
+        12,
+        20
+      ]
+    },
+    {
+      "q": "84",
+      "answer": 21,
+      "distractors": [
+        42,
+        20,
+        28
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 24,
+      "distractors": [
+        48,
+        23,
+        32
+      ]
+    },
+    {
+      "q": "144",
+      "answer": 36,
+      "distractors": [
+        72,
+        34,
+        48
+      ]
+    }
+  ]
+}

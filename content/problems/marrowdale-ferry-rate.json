@@ -1,0 +1,25 @@
+{
+  "id": "marrowdale-ferry-rate",
+  "tier": "champion",
+  "title": "The Sinking Ferry of Marrowdale",
+  "monster": "Bilgewrack the Hull Chewer",
+  "story": "Bilgewrack the Hull Chewer has gnawed a hole in the Marrowdale ferry, and water is pouring into the hold at 18 gallons per minute. Mr 6 and the ferry-folk grab buckets and bail out 13.5 gallons per minute together. The hold can hold immerse-level 90 gallons before the ferry goes under, and the far shore is still a way off.",
+  "question": "How many minutes does Mr 6 have before the hold reaches 90 gallons?",
+  "answer": 20,
+  "unit": "minutes",
+  "distractors": [
+    5,
+    4.5,
+    6.7
+  ],
+  "solution": [
+    "The water really rises by 18 - 13.5 = 4.5 gallons each minute.",
+    "Time to reach 90 gallons: 90 / 4.5 = 20 minutes.",
+    "Mr 6 has 20 minutes to reach the shore."
+  ],
+  "praise": "Dividing by a rate was exactly right — the missing step was subtracting the bailing from the leaking first.",
+  "hint": "The water pours in AND gets bailed out — find the true rise per minute before dividing.",
+  "victory": "Mr 6 announced \"twenty minutes!\" so confidently that the rowers found a rhythm and beached the ferry with four minutes to spare. Bilgewrack, left chewing an empty hull on dry sand, decided splinters were a poor supper.",
+  "image": "images/marrowdale-ferry-rate.webp",
+  "imagePrompt": "A barnacled eel-jawed hull chewer clamped to the side of a wooden ferry in choppy grey water at dusk, passengers bailing frantically while a small numeral-6 knight calls out numbers from the bow."
+}

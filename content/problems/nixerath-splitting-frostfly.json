@@ -1,0 +1,25 @@
+{
+  "id": "nixerath-splitting-frostfly",
+  "tier": "champion",
+  "title": "The Frostfly That Trebles",
+  "monster": "Nixerath the Splitting Frostfly",
+  "story": "In the echoing halls of the Blue Salt Caverns, one single frostfly named Nixerath hums over a frozen spring — and every time it is struck, it splits into three. Mr 6 raises his sword, then stops mid-swing and starts scratching numbers on his shield instead. \"Three strikes,\" he mutters, \"would be a blizzard.\"",
+  "question": "If Mr 6 struck the swarm 4 times in a row, and every single frostfly present splits into 3 each time, how many frostflies would be buzzing after the fourth strike?",
+  "answer": 81,
+  "unit": "frostflies",
+  "distractors": [
+    27,
+    12,
+    243
+  ],
+  "solution": [
+    "Start with 1 frostfly; after strike 1 there are 1 * 3 = 3.",
+    "After strike 2: 3 * 3 = 9. After strike 3: 9 * 3 = 27.",
+    "After strike 4: 27 * 3 = 81 frostflies — so Mr 6 wisely never swings."
+  ],
+  "praise": "Tripling over and over was exactly the right idea — it just needed one more round of tripling to reach the fourth strike.",
+  "hint": "Track it strike by strike: 1, then triple, then triple again — count how many triplings four strikes gives you.",
+  "victory": "Mr 6 sheathed his sword and simply opened the cavern's warm south door. Nixerath, being a frostfly, fled the sunbeam alone and undivided — a swarm of one, defeated by arithmetic and a draft.",
+  "image": "images/nixerath-splitting-frostfly.webp",
+  "imagePrompt": "A single shimmering ice-winged frostfly hovering above a frozen spring in a vast blue salt cavern, with a small numeral-6 knight lowering his sword and chalking multiplication on his shield."
+}
