@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-25",
+  "title": "The Tenth Toll",
+  "monster": "Grumblesnatch the Tithe Imp",
+  "story": "Grumblesnatch the Tithe Imp giggles as he clamps a greedy claw on Mr 6's number-bag, croaking, 'A tenth for me, a tenth for me!' — and every time he names a number, he must be handed exactly one tenth of it, or he doubles his demand. Mr 6 discovered the imp's weakness: hand over the tenth INSTANTLY and Grumblesnatch shrinks a size with every correct toll. Slice off those tenths faster than the imp can count, brave knight!",
+  "rule": "Pay him exactly ONE TENTH!",
+  "image": "images/rapid-2026-08-25.webp",
+  "problems": [
+    {
+      "q": "20",
+      "answer": 2,
+      "distractors": [
+        20,
+        10,
+        4
+      ]
+    },
+    {
+      "q": "50",
+      "answer": 5,
+      "distractors": [
+        50,
+        15,
+        25
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        8
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        2,
+        21
+      ]
+    },
+    {
+      "q": "340",
+      "answer": 34,
+      "distractors": [
+        3.4,
+        340,
+        43
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        70,
+        17,
+        6
+      ]
+    },
+    {
+      "q": "260",
+      "answer": 26,
+      "distractors": [
+        2.6,
+        260,
+        62
+      ]
+    },
+    {
+      "q": "450",
+      "answer": 45,
+      "distractors": [
+        4.5,
+        450,
+        54
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "780",
+      "answer": 78,
+      "distractors": [
+        7.8,
+        780,
+        87
+      ]
+    }
+  ]
+}
