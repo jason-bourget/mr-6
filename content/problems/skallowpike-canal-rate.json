@@ -1,0 +1,25 @@
+{
+  "id": "skallowpike-canal-rate",
+  "tier": "champion",
+  "title": "Race of the Rising Canal",
+  "monster": "Skallowpike the Lock Breaker",
+  "story": "Skallowpike the Lock Breaker, a long-jawed canal eel, has smashed the flood gate above Tinnery Village, and water is pouring into the canal basin at 42 gallons per minute. Mr 6 spots the village pump crew, who can bail out 27 gallons per minute, and the basin can only hold 300 more gallons before it spills over the market square. Mr 6 needs to know exactly how much time he has to swim up and jam the gate shut.",
+  "question": "How many minutes until the basin overflows?",
+  "answer": 20,
+  "unit": "minutes",
+  "distractors": [
+    15,
+    7.14,
+    11.11
+  ],
+  "solution": [
+    "The water really rises by 42 - 27 = 15 gallons each minute.",
+    "Time to fill the leftover space: 300 / 15 = 20 minutes.",
+    "Mr 6 has 20 minutes before the basin overflows."
+  ],
+  "praise": "You spotted that this was a rate problem — the missing step was subtracting the bailing crew's 27 gallons before dividing.",
+  "hint": "Water comes in AND goes out. What is the net gain each minute?",
+  "victory": "With four minutes to spare, Mr 6 wedges his sword crosswise in the broken gate, and Skallowpike — outsmarted by simple subtraction — slithers off grumbling about arithmetic being unsportsmanlike.",
+  "image": "images/skallowpike-canal-rate.webp",
+  "imagePrompt": "x"
+}

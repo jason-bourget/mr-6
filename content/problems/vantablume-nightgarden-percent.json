@@ -1,0 +1,25 @@
+{
+  "id": "vantablume-nightgarden-percent",
+  "tier": "champion",
+  "title": "The Garden That Drinks the Moon",
+  "monster": "Vantablume the Midnight Bloom",
+  "story": "In the Moonwell Garden, Vantablume the Midnight Bloom has opened her enormous velvet petals and is swallowing moonlight, leaving the village herb beds cold and dark. The garden keeper tells Mr 6 that the moonwell holds 480 vials of stored moonlight, and Vantablume drinks 35% of the whole store on the first night. Mr 6 sharpens his pencil instead of his sword — if he knows exactly how much light is left, he can pour the rest into the herb beds before dawn.",
+  "question": "After Vantablume drinks 35% of the 480 vials, how many vials of moonlight are left in the well?",
+  "answer": 312,
+  "unit": "vials",
+  "distractors": [
+    168,
+    445,
+    145
+  ],
+  "solution": [
+    "Find what she drinks: 10% of 480 is 48, so 35% = 48*3 + 24 = 168 vials.",
+    "Subtract from the store: 480 - 168 = 312 vials.",
+    "There are 312 vials of moonlight left."
+  ],
+  "praise": "Finding 35% of 480 was exactly the right first move — the last step was subtracting it from the full store.",
+  "hint": "Start with 10% of 480, then build up to 35%. Remember the question asks what is LEFT.",
+  "victory": "Mr 6 tips the remaining 312 vials over the herb beds, and Vantablume — suddenly outshone by a glowing garden — folds up her petals and sulks into a very ordinary flowerpot.",
+  "image": "images/vantablume-nightgarden-percent.webp",
+  "imagePrompt": "A giant velvet black flower with silver-rimmed petals looming over a moonlit garden well while a small knightly numeral 6 in a blue cape pours glowing vials onto sparkling herb beds."
+}

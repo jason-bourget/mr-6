@@ -135,6 +135,8 @@
     "problems/thundermarrow-fuse-unknown.json",
     "problems/quillamber-sap-percent.json",
     "problems/nixerath-splitting-frostfly.json",
-    "problems/marrowdale-ferry-rate.json"
+    "problems/marrowdale-ferry-rate.json",
+    "problems/vantablume-nightgarden-percent.json",
+    "problems/skallowpike-canal-rate.json"
   ]
 }

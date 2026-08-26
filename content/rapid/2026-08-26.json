@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-26",
+  "title": "The Thrice-Cut Mirror",
+  "monster": "Trigla the Triple-Mirror Wraith",
+  "story": "Trigla the Triple-Mirror Wraith lurks in the Hall of Cold Glass, where every sword swing splits into three shimmering copies — and she only crumbles when a blow lands with exactly triple its power. Mr 6 lifts his blade, counts the reflections, and roars, 'Then I shall strike THREE times as bright!' The mirrors are already fogging over, brave knight — triple each number before your own reflection beats you to it!",
+  "rule": "Strike back with TRIPLE the force!",
+  "image": "images/rapid-2026-08-26.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        7,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        24,
+        18
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 33,
+      "distractors": [
+        22,
+        31,
+        43
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        55
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 60,
+      "distractors": [
+        40,
+        50,
+        600
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        82
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 96,
+      "distractors": [
+        64,
+        86,
+        90
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        125,
+        145,
+        90
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        120,
+        108,
+        18
+      ]
+    },
+    {
+      "q": "110",
+      "answer": 330,
+      "distractors": [
+        220,
+        300,
+        230
+      ]
+    }
+  ]
+}
