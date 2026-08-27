@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-27",
+  "title": "The Hundred-Ton Standoff",
+  "monster": "Hollow the Shield Golem",
+  "story": "Hollow the Shield Golem lumbers out of the fog with a stone slab marked ONE HUNDRED, boasting that no blow can ever break through. But Mr 6 spots the crack: every hit Hollow absorbs is subtracted from his hundred points of armor, and if Mr 6 calls out the leftover armor before the golem can patch it, the crack widens. Shout the remainder fast, brave knight — Hollow reseals his shield in seconds!",
+  "rule": "Subtract it from 100!",
+  "image": "images/rapid-2026-08-27.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        70,
+        90,
+        82
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        35
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 55,
+      "distractors": [
+        65,
+        45,
+        54
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        46
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 15,
+      "distractors": [
+        25,
+        5,
+        20
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        32
+      ]
+    },
+    {
+      "q": "38",
+      "answer": 62,
+      "distractors": [
+        72,
+        52,
+        68
+      ]
+    },
+    {
+      "q": "64",
+      "answer": 36,
+      "distractors": [
+        46,
+        26,
+        44
+      ]
+    },
+    {
+      "q": "97",
+      "answer": 3,
+      "distractors": [
+        13,
+        7,
+        97
+      ]
+    }
+  ]
+}

@@ -137,6 +137,9 @@
     "problems/nixerath-splitting-frostfly.json",
     "problems/marrowdale-ferry-rate.json",
     "problems/vantablume-nightgarden-percent.json",
-    "problems/skallowpike-canal-rate.json"
+    "problems/skallowpike-canal-rate.json",
+    "problems/cindermoss-kiln-percent.json",
+    "problems/skirlwind-canyon-rescue-rate.json",
+    "problems/morvellax-tithe-unknown.json"
   ]
 }

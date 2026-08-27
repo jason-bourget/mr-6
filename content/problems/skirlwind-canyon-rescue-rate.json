@@ -1,0 +1,25 @@
+{
+  "id": "skirlwind-canyon-rescue-rate",
+  "tier": "champion",
+  "title": "Race of the Rope Bridge",
+  "monster": "Skirlwind the Canyon Gnawer",
+  "story": "Skirlwind the Canyon Gnawer chews rope bridges strand by strand, cackling as travelers scramble. Today twelve goat-herders are stranded on the far ledge, and the great rope is 96 feet long with the Gnawer nibbling steadily. Mr 6 unrolls his spare cord and starts timing.",
+  "question": "Skirlwind gnaws through 8 feet of rope every minute, while Mr 6's helpers splice 3.5 feet back on every minute. Starting from 96 feet of rope, how many minutes until the rope is gone?",
+  "answer": 21.333333333333332,
+  "unit": "minutes",
+  "distractors": [
+    12,
+    21,
+    8.35
+  ],
+  "solution": [
+    "Each minute the rope really shrinks by 8 − 3.5 = 4.5 feet.",
+    "Time to lose all 96 feet: 96 ÷ 4.5 = 21.33 minutes.",
+    "The rope lasts about 21.33 minutes — plenty of time for the crossing."
+  ],
+  "praise": "Using the gnawing speed was smart thinking — the splicing crew's 3.5 feet had to be subtracted first.",
+  "hint": "Two things happen every minute: rope is lost AND rope is added. What's the net change per minute?",
+  "victory": "The last herder hopped off with time to spare, and Skirlwind was left gnawing a rope that stubbornly refused to end. Mr 6 offered him a nice chewy carrot instead.",
+  "image": "images/skirlwind-canyon-rescue-rate.webp",
+  "imagePrompt": "A long-toothed windy beast gnawing the anchor rope of a swaying canyon bridge while a numeral-six knight and helpers splice new cord in swirling dusty light."
+}

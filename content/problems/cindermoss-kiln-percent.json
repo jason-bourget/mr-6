@@ -1,0 +1,25 @@
+{
+  "id": "cindermoss-kiln-percent",
+  "tier": "champion",
+  "title": "The Kiln That Ate the Tiles",
+  "monster": "Cindermoss the Kiln Lurker",
+  "story": "In the roof-tilers' guild, Cindermoss the Kiln Lurker curls inside the great oven and scorches part of every batch. Mr 6 marches in with a slate and a stub of chalk, because the guild can't rebuild the orphanage roof without knowing exactly how many good tiles they'll get. Cindermoss grins soot: 'Fire keeps forty percent of everything I touch.'",
+  "question": "The tilers load 850 tiles into the kiln. Cindermoss scorches 40% of them, and then 15% of the surviving tiles crack while cooling. How many perfect tiles come out?",
+  "answer": 433.5,
+  "unit": "tiles",
+  "distractors": [
+    510,
+    340,
+    382.5
+  ],
+  "solution": [
+    "Cindermoss scorches 40%, so 60% survive the fire: 850 × 0.6 = 510 tiles.",
+    "Then 15% of those crack, so 85% stay whole: 510 × 0.85 = 433.5 tiles.",
+    "Mr 6 chalks the answer: 433.5 perfect tiles."
+  ],
+  "praise": "Taking a percent off was exactly the right move — the kiln just had a second bite to subtract too.",
+  "hint": "Losing 40% means keeping 60%. Find how many survive the fire first, then take the cooling loss off that number.",
+  "victory": "Mr 6 held up the slate and Cindermoss squinted at the decimal so long the fire went out. Now the lurker works as the guild's tally-keeper, and half a tile still counts.",
+  "image": "images/cindermoss-kiln-percent.webp",
+  "imagePrompt": "A soot-smudged ember creature coiled inside a glowing brick kiln while a brave numeral-six knight in a blue cape holds a chalked slate of percentages in the orange firelight."
+}

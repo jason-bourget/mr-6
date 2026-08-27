@@ -1,0 +1,25 @@
+{
+  "id": "morvellax-tithe-unknown",
+  "tier": "champion",
+  "title": "The Tithe of the Salt Abbey",
+  "monster": "Morvellax the Ledger Serpent",
+  "story": "Morvellax the Ledger Serpent coils around the abbey's tithe chest and will not open it until his riddle is balanced. The abbey needs the moonstone shards inside to buy winter grain for forty families. Mr 6 sits cross-legged on the flagstones and reads the riddle twice.",
+  "question": "Morvellax hisses: 'I took a secret number of moonstone shards, multiplied it by 7, then added 26, and got 250.' What was the secret number?",
+  "answer": 32,
+  "unit": "shards",
+  "distractors": [
+    224,
+    39.43,
+    1750
+  ],
+  "solution": [
+    "Undo the adding first: 250 − 26 = 224.",
+    "Undo the multiplying: 224 ÷ 7 = 32.",
+    "The secret number is 32 shards."
+  ],
+  "praise": "Working backwards was exactly right — the +26 has to come off before you divide by 7.",
+  "hint": "Peel the riddle in reverse order: the last thing done was adding 26, so undo that first.",
+  "victory": "The chest sprang open and Morvellax uncoiled with a sigh of professional respect. He now audits the abbey's books for free, and the grain arrived before the first frost.",
+  "image": "images/morvellax-tithe-unknown.webp",
+  "imagePrompt": "A long scaly serpent wound around an iron tithe chest in a candlelit stone abbey, glowing riddle-numbers hovering in the air before a small numeral-six knight seated calmly on the floor."
+}
