@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-28",
+  "problems": [
+    "problems/snarlvine-bog-hydra.json",
+    "problems/deepwell-drownkin.json",
+    "problems/glimmerfrost-imp-legion.json"
+  ]
+}

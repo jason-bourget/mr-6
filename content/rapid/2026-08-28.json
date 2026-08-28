@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-28",
+  "title": "The Sixfold Strike",
+  "monster": "Hexaclaw the Six-Headed Hydra",
+  "story": "Hexaclaw the Six-Headed Hydra sneers from the swamp, snapping all six jaws at once: 'One head bites, six heads bite back!' Mr 6 grins, because he invented that math — every number the hydra hisses, he answers with SIX times the force, and a sixfold blow is the only thing that can stagger all six heads at the same moment. Hesitate for even a breath and the heads regrow, so count fast, knight!",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/rapid-2026-08-28.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        12,
+        15,
+        24
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        25,
+        35,
+        36
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "4",
+      "answer": 24,
+      "distractors": [
+        18,
+        30,
+        20
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        56,
+        63
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 48,
+      "distractors": [
+        42,
+        54,
+        46
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        72,
+        56
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        66,
+        78,
+        62
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        110,
+        126,
+        26
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        96,
+        85
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "brumbleflint-geyser-shards",
+  "tier": "champion",
+  "title": "The Magpie of the Steaming Terraces",
+  "monster": "Brumbleflint the Geyser Grackle",
+  "story": "The village of Kettlespout keeps its winter savings — 480 moonstone shards — in a basket beside the hot springs. Brumbleflint the Geyser Grackle swooped down, snatched five-eighths of the whole basket, and hid the loot in his nest of steam. Mr 6 climbed the terraces and out-riddled the bird so thoroughly that Brumbleflint sheepishly gave back one quarter of everything he had taken.",
+  "question": "After the grackle takes five-eighths of the 480 shards and then returns 25% of what he took, how many moonstone shards do the villagers have?",
+  "answer": 255,
+  "unit": "shards",
+  "distractors": [
+    180,
+    300,
+    225
+  ],
+  "solution": [
+    "The bird took 480 x 5/8 = 300 shards, so the village still held 480 - 300 = 180 shards.",
+    "He gave back 25% of 300, which is 300 x 0.25 = 75 shards.",
+    "180 + 75 = 255 shards for the villagers."
+  ],
+  "praise": "Finding five-eighths of 480 was the hard part and you got the shape of it — the last step was adding the returned quarter back onto what the village kept.",
+  "hint": "First figure out how many shards stayed home, then work out a quarter of the stolen pile and add it on.",
+  "victory": "Brumbleflint dropped the shards back with a grumpy squawk, then asked if Mr 6 could teach him fractions so he'd never be out-counted again. Mr 6 said yes — and charged one shiny shard as tuition.",
+  "image": "images/brumbleflint-geyser-shards.webp",
+  "imagePrompt": "A big iridescent grackle perched on a nest of glittering moonstone shards atop steaming mineral terraces at sunrise, while a small knightly numeral 6 in a blue cape holds up a counting slate and the bird tilts its head in defeat."
+}

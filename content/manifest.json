@@ -140,6 +140,9 @@
     "problems/skallowpike-canal-rate.json",
     "problems/cindermoss-kiln-percent.json",
     "problems/skirlwind-canyon-rescue-rate.json",
-    "problems/morvellax-tithe-unknown.json"
+    "problems/morvellax-tithe-unknown.json",
+    "problems/grottomaw-cistern-flood.json",
+    "problems/brumbleflint-geyser-shards.json",
+    "problems/ferrowind-crane-updraft.json"
   ]
 }

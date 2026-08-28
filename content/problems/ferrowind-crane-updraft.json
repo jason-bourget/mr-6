@@ -1,0 +1,25 @@
+{
+  "id": "ferrowind-crane-updraft",
+  "tier": "champion",
+  "title": "The Kite Wraith's Paper Prisoners",
+  "monster": "Ferrowind the Cliff Kite",
+  "story": "Ferrowind the Cliff Kite pins living paper cranes to the canyon wall with gusts of wind, arranging them in tidy rows just to admire them. Mr 6 counts 13 neat rows with 18 cranes in every row, all fluttering and frightened. He can only free them by riding the updraft baskets, and each basket lifts at most 20 cranes at a time.",
+  "question": "How many basket trips does Mr 6 need to carry all the pinned cranes to safety?",
+  "answer": 12,
+  "unit": "trips",
+  "distractors": [
+    11,
+    11.7,
+    234
+  ],
+  "solution": [
+    "There are 13 x 18 = 234 cranes pinned to the cliff.",
+    "234 / 20 = 11.7 baskets, and you cannot fly seven-tenths of a basket.",
+    "Round up: 12 trips carries every last crane."
+  ],
+  "praise": "Multiplying the rows and dividing by the basket size was spot on — the missing step was rounding UP, because the leftover cranes still need a ride.",
+  "hint": "Count all the cranes first, then ask how many full baskets that is — and what happens to the few cranes left over.",
+  "victory": "On the twelfth trip Mr 6 rode up with just 14 cranes and a grin, and Ferrowind's gusts blew right past an empty wall. The freed cranes folded themselves into a paper crown and set it on his little helmet.",
+  "image": "images/ferrowind-crane-updraft.webp",
+  "imagePrompt": "A vast ragged wind-wraith shaped like a tattered kite hovering over a red canyon wall covered in neat rows of pinned white paper cranes, with a small numeral-6 knight in a blue cape riding a woven updraft basket full of rescued cranes in golden afternoon light."
+}

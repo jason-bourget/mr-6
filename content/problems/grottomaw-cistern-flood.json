@@ -1,0 +1,25 @@
+{
+  "id": "grottomaw-cistern-flood",
+  "tier": "champion",
+  "title": "The Cistern That Would Not Stop Filling",
+  "monster": "Grottomaw the Cistern Eel",
+  "story": "Deep in the Tideshell Cistern, Grottomaw the Cistern Eel coils around a stone siphon and pumps seawater into the chamber, giggling in bubbles. Three pearl-divers are stranded on a ledge 24 feet above the water, and the eel's siphon pours in 8 feet of water every minute. Mr 6 dives down, wedges his sword into the old drain grate, and the drain begins sucking water back out at 5 feet per minute.",
+  "question": "With the siphon pouring in 8 feet per minute and the drain pulling out 5 feet per minute, how many minutes do the divers have before the water reaches their ledge 24 feet up?",
+  "answer": 8,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    4.8,
+    13
+  ],
+  "solution": [
+    "Each minute the water really rises by 8 - 5 = 3 feet.",
+    "The ledge is 24 feet above the water, so 24 / 3 = 8.",
+    "The divers have 8 minutes to climb to safety."
+  ],
+  "praise": "Working with the rates was exactly right — the missing step was subtracting the drain from the siphon to find how fast the water TRULY rises.",
+  "hint": "Water comes in and water goes out at the same time. What is the water's net gain in one single minute?",
+  "victory": "The divers scrambled up the rope with a full minute to spare, and Grottomaw kept pumping so hard that he flushed himself right out the drain into the open sea. Mr 6 waved goodbye with his cape dripping and his math dry.",
+  "image": "images/grottomaw-cistern-flood.webp",
+  "imagePrompt": "A giant pale eel coiled around a stone siphon in a green-lit flooding sea cave, water swirling toward a drain grate while a brave numeral-6 knight in a blue cape braces his sword against it and three divers cling to a high ledge."
+}
