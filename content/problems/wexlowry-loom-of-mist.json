@@ -1,0 +1,25 @@
+{
+  "id": "wexlowry-loom-of-mist",
+  "tier": "champion",
+  "title": "The Loom of Mist",
+  "monster": "Wexlowry the Fogshear",
+  "story": "High on the cliff-stairs, Wexlowry the Fogshear weaves a wall of mist across the only path home, and three shepherd children are trapped on the far side. Mr 6 counts the mist wall: it is 96 feet thick, and Wexlowry weaves 6 more feet onto it every minute. But Mr 6's sword of sunlight burns away 14 feet of mist each minute.",
+  "question": "How many minutes until Mr 6 burns completely through the mist wall?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    16,
+    6.86,
+    8
+  ],
+  "solution": [
+    "Each minute the wall really shrinks by 14 - 6 = 8 feet.",
+    "Time to clear 96 feet: 96 / 8 = 12 minutes.",
+    "Mr 6 cuts through in 12 minutes."
+  ],
+  "praise": "Dividing was exactly the right instinct — the missing step was subtracting the mist Wexlowry weaves back each minute.",
+  "hint": "The wall loses 14 feet but gains 6 every minute — find the NET change for one minute first.",
+  "victory": "The last shreds of fog curled up like startled cats and blew away, and Wexlowry huffed off to weave scarves instead. The shepherd children walked home on a staircase full of sunlight.",
+  "image": "images/wexlowry-loom-of-mist.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape holding a glowing sunlight sword against a towering wall of swirling grey mist on a cliff staircase, a tattered fog-weaving spirit hovering above, pale dawn light breaking through."
+}

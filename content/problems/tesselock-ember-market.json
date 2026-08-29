@@ -1,0 +1,25 @@
+{
+  "id": "tesselock-ember-market",
+  "tier": "champion",
+  "title": "The Ember Market Swindle",
+  "monster": "Tesselock the Tally Ghoul",
+  "story": "In the smoky Ember Market, Tesselock the Tally Ghoul sells firewood to the shivering widows of Ashfall and always \"forgets\" to give change. Mr 6 steps up with 40 ember coins to buy fuel for the whole street: bundles cost 3.5 ember coins each, plus a flat cart fee of 5 ember coins.",
+  "question": "What is the greatest number of bundles Mr 6 can buy with his 40 ember coins?",
+  "answer": 10,
+  "unit": "bundles",
+  "distractors": [
+    11,
+    12,
+    35
+  ],
+  "solution": [
+    "Take out the cart fee first: 40 - 5 = 35 ember coins left for bundles.",
+    "35 / 3.5 = 10, so exactly 10 bundles fit.",
+    "Mr 6 can buy 10 bundles."
+  ],
+  "praise": "Dividing by the bundle price was smart thinking — the flat cart fee just needed to come off the top first.",
+  "hint": "One of those costs is paid only once, no matter how many bundles — pay it before you start dividing.",
+  "victory": "Tesselock's crooked abacus clattered apart when Mr 6 read the price aloud, and the ghoul faded into the smoke muttering about honest customers. Ten bundles of fire warmed the whole street by dusk.",
+  "image": "images/tesselock-ember-market.webp",
+  "imagePrompt": "A hunched ghoulish market vendor with a crooked abacus glaring at a small numeral-six knight who calmly counts ember coins, glowing firewood stacks and orange smoke filling a night market."
+}

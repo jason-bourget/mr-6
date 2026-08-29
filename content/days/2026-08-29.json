@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-29",
+  "problems": [
+    "problems/cipher-vault-wraith.json",
+    "problems/slagmire-rust-plating.json",
+    "problems/cindergale-basket-lift.json"
+  ]
+}

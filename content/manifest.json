@@ -143,6 +143,9 @@
     "problems/morvellax-tithe-unknown.json",
     "problems/grottomaw-cistern-flood.json",
     "problems/brumbleflint-geyser-shards.json",
-    "problems/ferrowind-crane-updraft.json"
+    "problems/ferrowind-crane-updraft.json",
+    "problems/wexlowry-loom-of-mist.json",
+    "problems/tesselock-ember-market.json",
+    "problems/volarnix-splitting-frostmite.json"
   ]
 }

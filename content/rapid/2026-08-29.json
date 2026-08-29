@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-29",
+  "title": "The Halving Havoc",
+  "monster": "Grumbolt the Ever-Doubling Slime",
+  "story": "Grumbolt is a wobbling green slime who doubles in size every time he burps, and he burps a LOT. Mr 6's silver blade is enchanted to split any number cleanly, so the only way to shrink the slime is to cut each burp-blob exactly in half — a sloppy cut and it just puffs up again. Grumbolt burps fast, knight, so slice faster!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/rapid-2026-08-29.webp",
+  "problems": [
+    {
+      "q": "14",
+      "answer": 7,
+      "distractors": [
+        8,
+        6,
+        28
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 13,
+      "distractors": [
+        12,
+        16,
+        23
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 24,
+      "distractors": [
+        22,
+        34,
+        14
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        34,
+        45
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        43,
+        46,
+        38
+      ]
+    },
+    {
+      "q": "128",
+      "answer": 64,
+      "distractors": [
+        63,
+        54,
+        68
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 75,
+      "distractors": [
+        70,
+        55,
+        85
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 125,
+      "distractors": [
+        120,
+        115,
+        135
+      ]
+    },
+    {
+      "q": "366",
+      "answer": 183,
+      "distractors": [
+        173,
+        193,
+        163
+      ]
+    },
+    {
+      "q": "500",
+      "answer": 250,
+      "distractors": [
+        200,
+        205,
+        2500
+      ]
+    }
+  ]
+}
