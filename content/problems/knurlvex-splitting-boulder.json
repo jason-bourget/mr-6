@@ -1,0 +1,25 @@
+{
+  "id": "knurlvex-splitting-boulder",
+  "tier": "champion",
+  "title": "The Boulder That Wouldn't Stay One",
+  "monster": "Knurlvex the Quartering Boulder",
+  "story": "In the echoing gorge below Thistlecrag, a rolling stone monster blocks the only rescue path to trapped shepherds. Every time it is struck, Knurlvex cracks into 4 rolling boulders — and each of those splits into 4 more if struck again. Mr 6 taps it once with the flat of his sword, then again, and again, then stops to think.",
+  "question": "After three strikes, how many boulders are rolling in the gorge?",
+  "answer": 64,
+  "unit": "boulders",
+  "distractors": [
+    12,
+    16,
+    48
+  ],
+  "solution": [
+    "Strike one: 1 boulder becomes 4.",
+    "Strike two: each of the 4 becomes 4, so 4 x 4 = 16.",
+    "Strike three: 16 x 4 = 64 boulders — so Mr 6 sheathes his sword and rolls them into a stone bridge instead."
+  ],
+  "praise": "Tracking the strikes one at a time is the right method — each strike multiplies the whole pile by 4, it doesn't just add 4 more.",
+  "hint": "Write the count after each strike: 1, then 4, then... does the pile grow by adding 4 or by multiplying by 4?",
+  "victory": "Mr 6 lines the 64 boulders up into a tidy staircase and walks the shepherds out over Knurlvex's own head. \"Thanks for the building materials,\" he says politely.",
+  "image": "images/knurlvex-splitting-boulder.webp",
+  "imagePrompt": "A cracked granite boulder-beast with glowing seams multiplying into dozens of rolling stones in a dusty canyon, a numeral-six knight standing calmly with his sword sheathed as sunlight beams through the gorge.\n"
+}

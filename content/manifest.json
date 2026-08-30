@@ -146,6 +146,9 @@
     "problems/ferrowind-crane-updraft.json",
     "problems/wexlowry-loom-of-mist.json",
     "problems/tesselock-ember-market.json",
-    "problems/volarnix-splitting-frostmite.json"
+    "problems/volarnix-splitting-frostmite.json",
+    "problems/rhennadel-mirror-lake-percent.json",
+    "problems/knurlvex-splitting-boulder.json",
+    "problems/selvidorne-honey-rate.json"
   ]
 }

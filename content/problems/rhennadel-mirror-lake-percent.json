@@ -1,0 +1,25 @@
+{
+  "id": "rhennadel-mirror-lake-percent",
+  "tier": "champion",
+  "title": "The Mirror Lake Tax",
+  "monster": "Rhennadel the Reflection Toll",
+  "story": "On the silver shore of Mirror Lake, a tall thin monster made of standing water demands a share of every traveler's cargo before letting them cross. Mr 6 arrives leading a raft carrying 480 moonstone shards meant for the village orphanage. Rhennadel ripples: \"I take 35 percent, and then 20 percent of what remains — that is only fair to a reflection.\"",
+  "question": "How many moonstone shards would the orphanage have left after both of Rhennadel's cuts?",
+  "answer": 249.6,
+  "unit": "shards",
+  "distractors": [
+    312,
+    216,
+    168
+  ],
+  "solution": [
+    "After the first cut of 35%, Mr 6 keeps 65%: 480 x 0.65 = 312 shards.",
+    "Rhennadel then takes 20% of THAT, so Mr 6 keeps 80%: 312 x 0.8 = 249.6 shards.",
+    "The orphanage would keep 249.6 shards — and Mr 6 points out the toll's own reflection owes the same, which cancels the whole debt."
+  ],
+  "praise": "Working with percents in two stages is exactly right — the second percent has to be taken from the new smaller amount, not the original 480.",
+  "hint": "After a 35% cut, what fraction of the shards is still on the raft? Take the second percent from that number, not from 480.",
+  "victory": "Mr 6 tilts his shield so Rhennadel sees itself, and the reflection politely demands a toll from the toll — the puddle argues itself flat. The orphanage gets every shard.",
+  "image": "images/rhennadel-mirror-lake-percent.webp",
+  "imagePrompt": "A tall watery humanoid toll-keeper standing on a glassy silver lake at dawn, mist curling, as a small heroic numeral-six knight in a blue cape angles a mirrored shield toward it."
+}

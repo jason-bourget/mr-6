@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-30",
+  "title": "The Fivefold Fury",
+  "monster": "Quintaxis the Five-Winged Chime-Wraith",
+  "story": "Quintaxis the Chime-Wraith rings a silver bell and splits into five shimmering wings, so every ordinary sword-swing is smothered five times over. Mr 6 discovers the trick: strike with exactly FIVE times the force and all five wings shatter on the same beat, leaving the wraith nothing to hide behind. The bell is already ringing, brave knight — can you multiply faster than it chimes?",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/rapid-2026-08-30.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 20,
+      "distractors": [
+        9,
+        24,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 35,
+      "distractors": [
+        30,
+        40,
+        12
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 50,
+      "distractors": [
+        5,
+        15,
+        500
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        65,
+        70
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 75,
+      "distractors": [
+        70,
+        65,
+        80
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        85,
+        80,
+        95
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        125,
+        100
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 165,
+      "distractors": [
+        155,
+        160,
+        175
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 230,
+      "distractors": [
+        220,
+        235,
+        200
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 600,
+      "distractors": [
+        500,
+        610,
+        650
+      ]
+    }
+  ]
+}

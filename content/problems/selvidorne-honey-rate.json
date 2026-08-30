@@ -1,0 +1,25 @@
+{
+  "id": "selvidorne-honey-rate",
+  "tier": "champion",
+  "title": "The Honey Vault Rescue",
+  "monster": "Selvidorne the Slow Flood",
+  "story": "Deep in the Amberhive crypt, Selvidorne pours thick golden honey into the vault where three beekeeper cubs are hiding on a ledge. The honey rises at 4.5 inches every minute, and the cubs' ledge sits 90 inches above the floor. Mr 6 can chip a drain channel that lowers the level by 1.5 inches per minute while the flood keeps pouring.",
+  "question": "With the drain open the whole time, how many minutes until the honey reaches the cubs' ledge?",
+  "answer": 30,
+  "unit": "minutes",
+  "distractors": [
+    20,
+    60,
+    45
+  ],
+  "solution": [
+    "With the drain open, the honey really rises 4.5 - 1.5 = 3 inches each minute.",
+    "Time to climb 90 inches: 90 / 3 = 30 minutes.",
+    "Mr 6 has 30 minutes — plenty to build a rope ladder and get all three cubs out."
+  ],
+  "praise": "Dividing by a rate was exactly the right instinct — the missing step was subtracting the drain first to find the real rise per minute.",
+  "hint": "The flood pours in and the drain lets honey out — what is the NET rise each minute before you divide?",
+  "victory": "Mr 6 hauls the sticky cubs up with 4 minutes to spare, and Selvidorne, drained to a puddle, is bottled and sold as breakfast syrup.",
+  "image": "images/selvidorne-honey-rate.webp",
+  "imagePrompt": "A vast amber honey flood rising in a candlelit crypt with a slow syrupy monster face forming in it, three small cubs on a high ledge, and a numeral-six knight chiseling a drain channel with glowing determination."
+}
