@@ -1,0 +1,100 @@
+{
+  "date": "2026-08-31",
+  "title": "The Fourfold Fury",
+  "monster": "Quadra the Four-Winged Wyvern",
+  "story": "Quadra the Four-Winged Wyvern beats all four wings at once, and every gust she throws at the castle gate must be answered wing-for-wing or the gate splinters. Mr 6 raises his blade and discovers the trick: whatever force she sends, he must send back FOUR times as much to snuff each wing in a single stroke. Quadra flaps faster than a heartbeat, Knight — can your math beat her wings?",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/rapid-2026-08-31.webp",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 28,
+      "distractors": [
+        21,
+        24,
+        32
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 36,
+      "distractors": [
+        32,
+        27,
+        45
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        44,
+        36,
+        46
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        50,
+        45,
+        64
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        70,
+        60,
+        84
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        90,
+        75,
+        125
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        62,
+        68,
+        74
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        120,
+        130,
+        145
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        160,
+        170,
+        190
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        200,
+        220,
+        260
+      ]
+    }
+  ]
+}

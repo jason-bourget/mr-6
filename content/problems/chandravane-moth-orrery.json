@@ -1,0 +1,25 @@
+{
+  "id": "chandravane-moth-orrery",
+  "tier": "champion",
+  "title": "The Orrery of Silver Moths",
+  "monster": "Chandravane the Orrery Moth",
+  "story": "High in the star-tower, Chandravane the Orrery Moth is eating the silver gears that keep the sky-map turning, and each gear she swallows makes the whole orrery spin faster. Mr 6 discovers she only stops for one thing: a perfectly balanced count of moonstone shards laid on the tower's pan-scale. The tower keeper gasps that the scale needs an exact weight, and nobody can work it out in time.",
+  "question": "The pan-scale already holds 3 moonstone shards weighing 4.5 pounds each. To balance, Mr 6 must add small star-pebbles weighing 0.75 pounds each until the pan holds exactly 21 pounds. How many star-pebbles does he need?",
+  "answer": 10,
+  "unit": "star-pebbles",
+  "distractors": [
+    13.5,
+    28,
+    7.5
+  ],
+  "solution": [
+    "The shards already on the pan weigh 3 × 4.5 = 13.5 pounds.",
+    "The pan still needs 21 - 13.5 = 7.5 more pounds.",
+    "7.5 ÷ 0.75 = 10 star-pebbles."
+  ],
+  "praise": "Multiplying the shards first was exactly the right opening move — the missing step was subtracting that weight from 21 before dividing.",
+  "hint": "First find how much weight is already sitting on the pan, then ask how much is still missing.",
+  "victory": "The scale clinked level, Chandravane folded her wings in defeat, and she now dusts the orrery gears instead of chewing them. Mr 6 bowed and said, 'Balance beats appetite.'",
+  "image": "images/chandravane-moth-orrery.webp",
+  "imagePrompt": "A knightly numeral six with a blue cape placing tiny glowing pebbles on a brass pan-scale inside a star-tower while a huge silver moth hovers among slowly turning celestial gears in cool moonlit blue light."
+}

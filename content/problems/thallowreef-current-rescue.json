@@ -1,0 +1,24 @@
+{
+  "id": "thallowreef-current-rescue",
+  "tier": "champion",
+  "title": "The Reef That Pulls Backward",
+  "monster": "Thallowreef the Undertow Weed",
+  "story": "A raft of stranded lantern-crabs is drifting toward the singing rocks, tangled in Thallowreef the Undertow Weed, a monster made of ropey kelp that drags everything seaward. Mr 6 grabs the tow-line and starts hauling, but the weed hauls back. The crabs need to know if the rescue can possibly work before the rocks are reached.",
+  "question": "Mr 6 hauls the raft shoreward at 9 feet per minute while Thallowreef drags it seaward at 5.5 feet per minute. If the raft is 63 feet from the safe beach, how many minutes will the rescue take?",
+  "answer": 18,
+  "unit": "minutes",
+  "distractors": [
+    7,
+    3.5,
+    11.5
+  ],
+  "solution": [
+    "Each minute the raft really gains 9 - 5.5 = 3.5 feet toward shore.",
+    "63 ÷ 3.5 = 18 minutes."
+  ],
+  "praise": "Dividing by a speed was the right instinct — the missing step was subtracting the weed's pull to find the true net speed first.",
+  "hint": "The raft moves two ways at once; find how much ground it truly gains in one minute.",
+  "victory": "At minute eighteen the raft scraped sand, and Thallowreef let go with a soggy, embarrassed slurp. The lantern-crabs applauded with all their claws, which sounded like tiny polite thunder.",
+  "image": "images/thallowreef-current-rescue.webp",
+  "imagePrompt": "A brave numeral-six knight braced on a foamy beach hauling a rope attached to a crab-covered raft while ropey glowing kelp tentacles pull it seaward under a stormy silver sky."
+}
