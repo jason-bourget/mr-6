@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-01",
+  "title": "The Tenth-Taker's Toll",
+  "monster": "Decimus the Tithe Imp",
+  "story": "Decimus the Tithe Imp has swollen huge by hoarding every number he can grab, and he hurls boulder-sized totals at Mr 6 with a giggle. But the imp swore an ancient oath: he can only ever KEEP a tenth of anything — so when Mr 6 shrinks each attack to exactly one tenth, the boulders bounce off as pebbles and Decimus deflates a little more. Slide that decimal point, brave knight — the imp inflates again if you dawdle!",
+  "rule": "Take exactly ONE TENTH of it!",
+  "image": "images/rapid-2026-09-01.webp",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        8,
+        400
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        900
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        21,
+        1200
+      ]
+    },
+    {
+      "q": "700",
+      "answer": 70,
+      "distractors": [
+        7,
+        700,
+        77
+      ]
+    },
+    {
+      "q": "350",
+      "answer": 35,
+      "distractors": [
+        350,
+        53,
+        305
+      ]
+    },
+    {
+      "q": "260",
+      "answer": 26,
+      "distractors": [
+        62,
+        260,
+        2600
+      ]
+    },
+    {
+      "q": "480",
+      "answer": 48,
+      "distractors": [
+        84,
+        480,
+        4800
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "1500",
+      "answer": 150,
+      "distractors": [
+        15,
+        1500,
+        105
+      ]
+    },
+    {
+      "q": "2400",
+      "answer": 240,
+      "distractors": [
+        24,
+        2400,
+        204
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ondrivale-sunken-vault-rate",
+  "tier": "champion",
+  "title": "The Rising Vault",
+  "monster": "Ondrivale the Sump Warden",
+  "story": "Deep beneath the drowned cathedral, Ondrivale the Sump Warden unplugs the floor and lets the black water climb, laughing that it always wins the race. Two lamp-keepers are stranded on a stone ledge 63 inches above the waterline. Mr 6 slaps his siphon-shell onto the wall and starts pumping while he does the math in his head.",
+  "question": "The water rises 12 inches every minute, and Mr 6's siphon pulls out 7.5 inches every minute. How many minutes until the water reaches the ledge?",
+  "answer": 14,
+  "unit": "minutes",
+  "distractors": [
+    5.25,
+    8.4,
+    4.5
+  ],
+  "solution": [
+    "The water really gains only 12 - 7.5 = 4.5 inches each minute.",
+    "The ledge is 63 inches up, so 63 / 4.5 = 14 minutes.",
+    "Mr 6 has 14 minutes to get the lamp-keepers out."
+  ],
+  "praise": "Dividing by a rise-rate was exactly the right instinct — the missing step was subtracting the siphon first, so the water only truly climbs 4.5 inches a minute.",
+  "hint": "The water rises AND the siphon drains at the same time. Find the net rise for one minute before you divide.",
+  "victory": "Mr 6 walks the keepers up the stair with four whole minutes to spare, and Ondrivale, out-pumped and out-thought, gurgles down its own drain in a huff.",
+  "image": "images/ondrivale-sunken-vault-rate.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape bracing a spiral siphon-shell against a flooded cathedral crypt wall while a bloated water-warden sneers from the dark rising pool, lantern light glinting off the surface."
+}

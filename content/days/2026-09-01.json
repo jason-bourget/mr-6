@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-01",
+  "problems": [
+    "problems/scarabex-shell-columns.json",
+    "problems/hoardwing-cliff-coins.json",
+    "problems/mudgullet-mill-flood.json"
+  ]
+}

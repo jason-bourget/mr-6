@@ -1,0 +1,25 @@
+{
+  "id": "quarrowspine-geode-serpent",
+  "tier": "champion",
+  "title": "Spines of the Geode Cavern",
+  "monster": "Quarrowspine the Geode Serpent",
+  "story": "Inside a cavern of purple crystal, Quarrowspine the Geode Serpent coils around the miners' only ladder, bristling with 42 quartz spines. Every time Mr 6's frost-sword shatters some spines, more crackle back out of the serpent's hide. Mr 6 sits on a boulder and counts before he swings even once.",
+  "question": "Each swing shatters 6 spines, but 2 new spines grow back right after — unless no spines are left at all. How many swings does Mr 6 need to clear all 42 spines?",
+  "answer": 10,
+  "unit": "swings",
+  "distractors": [
+    7,
+    9,
+    11
+  ],
+  "solution": [
+    "Each swing except the last has a net effect of 6 - 2 = 4 spines gone.",
+    "Mr 6 needs the count down to 6 so one final swing finishes it: (42 - 6) / 4 = 9 swings to get there.",
+    "Then 1 last swing clears the final 6, so 9 + 1 = 10 swings."
+  ],
+  "praise": "Tracking the regrowth was the clever part — the step that was missing is that the very last swing has nothing left to regrow, so it counts on its own.",
+  "hint": "Every swing but the FINAL one only removes 4 spines on balance. How many spines should be left right before that last swing?",
+  "victory": "On the tenth swing the last spine chimes like a bell and Quarrowspine, suddenly smooth as a river stone, slithers off to nap — the miners keep the crystals and Mr 6 keeps his notes.",
+  "image": "images/quarrowspine-geode-serpent.webp",
+  "imagePrompt": "A numeral-six knight with a frost-glowing sword facing a great serpent bristling with violet quartz spines in a glittering geode cavern, cool blue-purple light and awed miners peeking from a ladder."
+}

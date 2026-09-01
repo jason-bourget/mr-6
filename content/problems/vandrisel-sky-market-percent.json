@@ -1,0 +1,25 @@
+{
+  "id": "vandrisel-sky-market-percent",
+  "tier": "champion",
+  "title": "The Surcharge Sylph",
+  "monster": "Vandrisel the Surcharge Sylph",
+  "story": "High above the cloud-fields, the sky market floats on ribbon balloons, and Vandrisel the Surcharge Sylph slips an invisible fee onto every purchase. Mr 6 needs storm-lanterns for the orphan choir's night flight, and he brings a purse of 120 moonstone shards. The sylph grins: nobody ever checks the change.",
+  "question": "Four storm-lanterns cost 18 moonstone shards each, and Vandrisel adds a 25% surcharge to that total. If Mr 6 pays with 120 shards, how many shards of change should he get back?",
+  "answer": 30,
+  "unit": "shards",
+  "distractors": [
+    90,
+    18,
+    48
+  ],
+  "solution": [
+    "Four lanterns cost 4 x 18 = 72 shards.",
+    "The surcharge is 25% of 72 = 18 shards, so the total is 72 + 18 = 90 shards.",
+    "Change is 120 - 90 = 30 shards."
+  ],
+  "praise": "Working out the lantern total first was smart bookkeeping — the step left over was adding the 25% fee before subtracting from 120.",
+  "hint": "Find the lantern total first, then take 25% of THAT number before you figure the change.",
+  "victory": "Mr 6 recites the arithmetic out loud and the crowd gasps; Vandrisel deflates like a punctured balloon and hands back exactly 30 shards, muttering that numbers are terrible customers.",
+  "image": "images/vandrisel-sky-market-percent.webp",
+  "imagePrompt": "A small numeral-six knight holding up a coin purse and a glowing storm-lantern before a shimmering wind-sylph merchant at a floating cloud market of ribbon balloons, bright sunset light."
+}
