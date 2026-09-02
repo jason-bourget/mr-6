@@ -1,0 +1,25 @@
+{
+  "id": "cobblewrast-crypt-tithe-money",
+  "tier": "champion",
+  "title": "The Coffin-Counter's Bad Bargain",
+  "monster": "Cobblewrast the Toll Ghast",
+  "story": "Beneath the Bell Crypt, Mr 6 finds a family of lantern-makers stuck at a gate guarded by Cobblewrast the Toll Ghast, who charges by the wick. The Ghast's chalkboard of prices is deliberately confusing, so Mr 6 borrows the chalk and works it out in the open.",
+  "question": "Cobblewrast charges 3.5 moonstone shards per lantern and 0.75 shards per spare wick. The family carries 12 lanterns and 20 spare wicks, and hands over 60 shards. How many shards must the Ghast give back as change?",
+  "answer": 3,
+  "unit": "shards",
+  "distractors": [
+    42,
+    15,
+    57
+  ],
+  "solution": [
+    "Lanterns cost 12 * 3.5 = 42 shards, and wicks cost 20 * 0.75 = 15 shards.",
+    "Total toll: 42 + 15 = 57 shards.",
+    "Change owed: 60 - 57 = 3 shards."
+  ],
+  "praise": "Pricing the lanterns and wicks separately was smart bookkeeping — the missing step was subtracting the total from the 60 shards handed over.",
+  "hint": "Work out the two costs separately, add them, and then compare with the 60 shards paid.",
+  "victory": "Mr 6 chalked the whole sum on the crypt wall and the Ghast, cornered by tidy arithmetic, coughed up three shards with a papery sigh. The family lit their lanterns and the crypt looked almost cozy.",
+  "image": "images/cobblewrast-crypt-tithe-money.webp",
+  "imagePrompt": "A numeral-six knight chalking neat sums on a damp crypt wall while a tall hooded ghast with an abacus of bones glowers, warm lantern light spilling over a huddled family of lantern-makers."
+}

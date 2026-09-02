@@ -1,0 +1,25 @@
+{
+  "id": "lumbrastine-signal-mirror-rate",
+  "tier": "champion",
+  "title": "The Mirror That Ate the Message",
+  "monster": "Lumbrastine the Signal Leech",
+  "story": "High on the Saltcliff watchtowers, Mr 6 finds Lumbrastine the Signal Leech coiled around the great mirror, slurping light out of every flash sent to the harbor. The keeper says a warning must reach the fleet before the fog closes in, and Mr 6 must know exactly how long the relay will take.",
+  "question": "The warning travels 96 leagues along a chain of signal mirrors. Normally light-flashes relay at 24 leagues per minute, but Lumbrastine's slurping slows the relay to only three quarters of that speed. How many minutes will the warning take to reach the fleet?",
+  "answer": 5.333333333333333,
+  "unit": "minutes",
+  "distractors": [
+    4,
+    18,
+    6
+  ],
+  "solution": [
+    "Lumbrastine drops the relay speed to three quarters: 24 * 0.75 = 18 leagues per minute.",
+    "Time equals distance divided by speed: 96 / 18 = 5.333... minutes.",
+    "The warning reaches the fleet in about 5.33 minutes."
+  ],
+  "praise": "Dividing distance by speed was exactly the right plan — the missing step was slowing the speed to 24 * 0.75 = 18 first.",
+  "hint": "First find the leech-slowed speed (three quarters of 24), then ask how many minutes of that speed fit into 96 leagues.",
+  "victory": "Mr 6 timed the flashes to the heartbeat and the fleet turned before the fog swallowed the reef. Lumbrastine, out-scheduled, slithered off to sulk in a very dim closet.",
+  "image": "images/lumbrastine-signal-mirror-rate.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape adjusting a huge brass signal mirror atop a windy cliff tower while a translucent eel-like leech coils around the glass, pale beams of light escaping into rolling fog at dusk."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pallowreave-splitting-thorn-wisp",
+  "tier": "champion",
+  "title": "The Wisp That Learned to Split",
+  "monster": "Pallowreave the Thorn Wisp",
+  "story": "In the Glass Orchard, Mr 6 meets Pallowreave the Thorn Wisp, a prickly ball of blue light that splits into 3 whenever a blade touches it. A frightened orchard-keeper warns that the wisps only vanish for good if the swarm can be counted before the last split — so Mr 6 sheathes his sword and starts thinking.",
+  "question": "There is 1 wisp now. If Mr 6 strikes, every wisp present splits into 3, and he plans to strike 4 times in a row. Each wisp in the final swarm must be trapped in a jar that holds 9 wisps. How many jars are needed?",
+  "answer": 9,
+  "unit": "jars",
+  "distractors": [
+    81,
+    12,
+    10
+  ],
+  "solution": [
+    "Each strike triples the swarm: 1 * 3 * 3 * 3 * 3 = 81 wisps after four strikes.",
+    "Each jar holds 9 wisps: 81 / 9 = 9 jars exactly.",
+    "Mr 6 needs 9 jars."
+  ],
+  "praise": "Tripling four times was the hard part and you tracked the growth well — the last step was packing those wisps into jars of 9.",
+  "hint": "Multiply by 3 once for each strike, then see how many groups of 9 that total makes.",
+  "victory": "Mr 6 lined up nine jars, tapped the wisp exactly four times, and clapped the lids shut as the last spark drifted in. Pallowreave now glows politely as an orchard night-light.",
+  "image": "images/pallowreave-splitting-thorn-wisp.webp",
+  "imagePrompt": "A small numeral-six knight in a moonlit orchard of glass-leaved trees, calmly holding out rows of glowing jars as a prickly blue wisp bursts into a shimmering cloud of triplets."
+}

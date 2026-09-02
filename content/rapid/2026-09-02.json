@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-02",
+  "title": "The Triple-Headed Duel",
+  "monster": "Trilliax the Three-Headed Mirror Hydra",
+  "story": "Trilliax the Three-Headed Mirror Hydra guards the Glass Bridge, and every head sneers the same insult in perfect unison. Mr 6 discovered her secret: a hydra with three heads can only be knocked back by a blow tripled three times over, one shock for each grinning skull. Answer with TRIPLE her number before all three heads finish hissing — hesitate, and she'll simply grow a fourth!",
+  "rule": "Strike back with TRIPLE the force!",
+  "image": "images/rapid-2026-09-02.webp",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        18,
+        24
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 33,
+      "distractors": [
+        22,
+        30,
+        34
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        55
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 60,
+      "distractors": [
+        40,
+        6,
+        600
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 96,
+      "distractors": [
+        64,
+        86,
+        92
+      ]
+    },
+    {
+      "q": "41",
+      "answer": 123,
+      "distractors": [
+        82,
+        113,
+        133
+      ]
+    },
+    {
+      "q": "50",
+      "answer": 150,
+      "distractors": [
+        100,
+        105,
+        15
+      ]
+    },
+    {
+      "q": "65",
+      "answer": 195,
+      "distractors": [
+        130,
+        185,
+        215
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 270,
+      "distractors": [
+        180,
+        27,
+        240
+      ]
+    }
+  ]
+}
