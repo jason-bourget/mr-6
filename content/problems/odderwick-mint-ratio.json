@@ -1,0 +1,25 @@
+{
+  "id": "odderwick-mint-ratio",
+  "tier": "champion",
+  "title": "The Coin Badger's Bargain",
+  "monster": "Odderwick the Coin Badger",
+  "story": "In the abandoned mint at the bottom of Rustpenny Canyon, Odderwick the Coin Badger sits atop 315 stolen moonstone shards. He grumbles that he will only give them back if they are shared out perfectly fairly — otherwise he re-buries the whole lot. Mr 6 rolls up his cape and pulls out his chalk.",
+  "question": "The shards must be split among Thistlebrook, Fenhollow, and Copperstile in the ratio 2 : 3 : 4. How many shards does Copperstile receive?",
+  "answer": 140,
+  "unit": "shards",
+  "distractors": [
+    35,
+    105,
+    126
+  ],
+  "solution": [
+    "The ratio has 2 + 3 + 4 = 9 equal parts.",
+    "One part is 315 / 9 = 35 shards.",
+    "Copperstile gets 4 parts: 4 x 35 = 140 shards."
+  ],
+  "praise": "Splitting the hoard into ratio parts was smart thinking — the last step was multiplying one part by Copperstile's 4.",
+  "hint": "First find how many equal parts the ratio makes altogether, then find what one part is worth.",
+  "victory": "Odderwick checked the chalk three times, found no crumb of unfairness, and grudgingly pushed the whole glittering pile over. He now works as the canyon's fussiest bookkeeper — and he loves it.",
+  "image": "images/odderwick-mint-ratio.webp",
+  "imagePrompt": "A grumpy armored badger perched on a glowing mound of moonstone shards inside a crumbling canyon mint, while a brave numeral-six knight chalks a ratio diagram on the stone floor by lanternlight."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "voulmirren-sluice-cave",
+  "tier": "champion",
+  "title": "The Sluice Hag's Rising Cave",
+  "monster": "Voulmirren the Sluice Hag",
+  "story": "Deep in a moonlit sea cave, Voulmirren the Sluice Hag cranks her great bone bellows and floods the cavern for fun. Three otter-folk pups are huddled on a stone ledge 24 inches above the water. Mr 6 plants his sword in the sand, sets his village's little pump churning, and starts counting instead of panicking.",
+  "question": "The Hag's bellows raises the water 7.5 inches every minute, while Mr 6's pump drains 4.5 inches every minute. How many minutes until the water reaches the pups' ledge?",
+  "answer": 8,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    3.2,
+    12
+  ],
+  "solution": [
+    "Each minute the water really climbs 7.5 - 4.5 = 3 inches.",
+    "The ledge is 24 inches up, so the time is 24 / 3 = 8.",
+    "Mr 6 has 8 minutes to reach the pups."
+  ],
+  "praise": "Working with the rate was exactly the right instinct — the missing step was subtracting the pump before dividing.",
+  "hint": "The water is going up AND being pumped down at the same time. What is the water's real gain in one minute?",
+  "victory": "Mr 6 carried all three pups out with a full minute to spare, then handed Voulmirren the pump handle so she could see how it felt. She flooded her own boots and fled, squelching, into the tide.",
+  "image": "images/voulmirren-sluice-cave.webp",
+  "imagePrompt": "A knightly numeral six with a blue cape braced in a moonlit sea cave, water swirling around his legs as a barnacled hag cranks a giant bone bellows and three otter pups cling to a high stone ledge."
+}

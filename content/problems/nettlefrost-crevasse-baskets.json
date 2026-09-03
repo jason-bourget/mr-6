@@ -1,0 +1,25 @@
+{
+  "id": "nettlefrost-crevasse-baskets",
+  "tier": "champion",
+  "title": "Nettlefrost and the Widening Crack",
+  "monster": "Nettlefrost the Crevasse Widener",
+  "story": "Nettlefrost the Crevasse Widener breathes along the glacier, prying the ice apart until the snowbridge groans. All 96 villagers of Larkspur Shelf must get across before the crack yawns too wide, and Mr 6 is directing traffic with his sword like a tiny blue-caped signalman.",
+  "question": "Five eighths of the 96 villagers have already walked across the snowbridge; the rest must ride the rope basket, which safely carries 7 people per trip. How many basket trips are needed?",
+  "answer": 6,
+  "unit": "trips",
+  "distractors": [
+    5,
+    14,
+    36
+  ],
+  "solution": [
+    "Villagers already across: 96 x 5/8 = 60, so 96 - 60 = 36 still waiting.",
+    "36 / 7 = 5 remainder 1, so 5 trips leave one villager behind.",
+    "Round up: 6 trips are needed."
+  ],
+  "praise": "Dividing by 7 was exactly right — the leftover villager still needs a ride, so the answer rounds up.",
+  "hint": "Find how many villagers are still waiting first, then remember nobody can be left on a half-trip.",
+  "victory": "The last basket swung over just as the crack gaped, and Nettlefrost's icy breath hit nothing but empty rope. Mr 6 waved from the far side, and the wyrm huffed off to sulk in a puddle of its own making.",
+  "image": "images/nettlefrost-crevasse-baskets.webp",
+  "imagePrompt": "A pale frost wyrm exhaling mist to widen a glacier crevasse while a rope basket of bundled villagers swings above the blue chasm and a small numeral-six knight signals the crossing from the ice edge."
+}

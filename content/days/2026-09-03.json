@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-03",
+  "problems": [
+    "problems/gildrew-market-percent.json",
+    "problems/frostpetal-glacier-rescue.json",
+    "problems/pallastor-crypt-lanterns.json"
+  ]
+}

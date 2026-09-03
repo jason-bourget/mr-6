@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-03",
+  "title": "The Hundred-Force Shield",
+  "monster": "Bulwarkus the Shield Golem",
+  "story": "Bulwarkus the Shield Golem lumbers out of the fog with a slab of stone strapped to each arm, bragging that every blow of one hundred force will be swallowed whole. But Mr 6 spots the crack: whatever the golem soaks up, the leftover force still slams through — so if the shield drinks 40, a mighty 60 gets past its guard! Call out the leftover force before the golem re-braces, and be quick about it, knight — that stone doesn't stay cracked for long.",
+  "rule": "Subtract it from 100!",
+  "image": "images/rapid-2026-09-03.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        64
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        66
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        46
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 55,
+      "distractors": [
+        65,
+        45,
+        54
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        32,
+        18
+      ]
+    },
+    {
+      "q": "88",
+      "answer": 12,
+      "distractors": [
+        22,
+        18,
+        2
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 37,
+      "distractors": [
+        47,
+        33,
+        27
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 4,
+      "distractors": [
+        14,
+        6,
+        3
+      ]
+    }
+  ]
+}
