@@ -1,0 +1,25 @@
+{
+  "id": "tremordyne-splitting-geargoyle",
+  "tier": "champion",
+  "title": "The Geargoyle That Quartered Itself",
+  "monster": "Tremordyne the Quartering Geargoyle",
+  "story": "In the bell-crypt beneath the clocktower, Tremordyne the Quartering Geargoyle guards a stairwell full of frightened choir children. Every time a blade strikes it, the stone gargoyle splits into 4 smaller geargoyles — each one splitting again on the next strike. Mr 6 stops mid-swing and does the arithmetic instead, because the crypt only fits 300 geargoyles before the ceiling gives way.",
+  "question": "Starting with 1 geargoyle, how many geargoyles would there be after 4 strikes?",
+  "answer": 256,
+  "unit": "geargoyles",
+  "distractors": [
+    64,
+    16,
+    1024
+  ],
+  "solution": [
+    "Each strike multiplies the count by 4: 1 strike gives 4, 2 strikes give 16.",
+    "Keep going: 3 strikes give 16 x 4 = 64, and 4 strikes give 64 x 4 = 256.",
+    "There would be 256 geargoyles after 4 strikes."
+  ],
+  "praise": "Multiplying by 4 over and over was exactly the right idea — it just needed one more round of quadrupling to reach the fourth strike.",
+  "hint": "Write the count after each strike in a little chain: 1, then 4, then... multiply by 4 each time and stop at strike four.",
+  "victory": "Mr 6 sheathed his sword and announced the number 256 out loud; Tremordyne, who hated crowds, shuddered once and squeezed itself back into a single grumpy doorstop. The choir children tiptoed out singing.",
+  "image": "images/tremordyne-splitting-geargoyle.webp",
+  "imagePrompt": "A numeral-six knight lowering his sword thoughtfully in a torchlit bell-crypt as a cracked stone gargoyle with clockwork gears trembles on the verge of splitting into four, frightened children peeking from the stairwell."
+}

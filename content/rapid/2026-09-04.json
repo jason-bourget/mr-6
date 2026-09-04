@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-04",
+  "title": "The Six-Headed Strike",
+  "monster": "Hexus the Six-Headed Hydra",
+  "story": "Hexus the Six-Headed Hydra slithers out of the Fog Marsh, and every one of its six grinning heads hisses the same insult at Mr 6. A single sword swing only tickles it — the beast must be struck once for every head, so whatever force Hexus shows, Mr 6 must answer with SIX times as much. Heads regrow in seconds, brave knight, so swing fast!",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/rapid-2026-09-04.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        12,
+        15,
+        24
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        25,
+        35,
+        36
+      ]
+    },
+    {
+      "q": "4",
+      "answer": 24,
+      "distractors": [
+        18,
+        28,
+        30
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        48,
+        63
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 48,
+      "distractors": [
+        42,
+        54,
+        46
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        61,
+        72
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        66,
+        78,
+        71
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        85,
+        96
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        100,
+        110,
+        126
+      ]
+    }
+  ]
+}

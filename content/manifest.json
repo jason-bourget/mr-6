@@ -160,6 +160,8 @@
     "problems/cobblewrast-crypt-tithe-money.json",
     "problems/voulmirren-sluice-cave.json",
     "problems/odderwick-mint-ratio.json",
-    "problems/nettlefrost-crevasse-baskets.json"
+    "problems/nettlefrost-crevasse-baskets.json",
+    "problems/halvestrand-fogbank-fractions.json",
+    "problems/tremordyne-splitting-geargoyle.json"
   ]
 }

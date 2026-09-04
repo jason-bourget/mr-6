@@ -1,0 +1,25 @@
+{
+  "id": "halvestrand-fogbank-fractions",
+  "tier": "champion",
+  "title": "The Fogbank Tollkeeper",
+  "monster": "Halvestrand the Grey Ledger",
+  "story": "On the pearl-diving coast, Halvestrand the Grey Ledger rolls in as a wall of fog and refuses to lift until every diver pays a share of their pearls. The village divers pooled 640 pearls this season. Halvestrand demands three-eighths of the pool, then a second bite of 25% of whatever is left, and Mr 6 must know exactly what the village keeps before he agrees to anything.",
+  "question": "How many pearls does the village have left after both of Halvestrand's demands?",
+  "answer": 300,
+  "unit": "pearls",
+  "distractors": [
+    400,
+    240,
+    340
+  ],
+  "solution": [
+    "Halvestrand takes 3/8 of 640 = 240 pearls, leaving 640 - 240 = 400 pearls.",
+    "The second bite is 25% of 400 = 100 pearls, so 400 - 100 = 300 pearls remain.",
+    "The village keeps 300 pearls."
+  ],
+  "praise": "Taking the fraction first was spot on — the second toll just had to come out of what was LEFT, not out of the original pile.",
+  "hint": "Find the pile that remains after the first demand, then take a quarter of that new number — not of the original 640.",
+  "victory": "Mr 6 read the totals aloud so precisely that Halvestrand's own ledger caught fire from embarrassment, and the fog rolled out to sea muttering about audits.",
+  "image": "images/halvestrand-fogbank-fractions.webp",
+  "imagePrompt": "A little numeral-six knight standing on a misty pearl-diving pier holding a glowing tally slate while a vast grey fog-face with ledger lines for eyes recoils over the water at dawn."
+}
