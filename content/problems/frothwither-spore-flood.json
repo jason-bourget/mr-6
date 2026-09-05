@@ -1,0 +1,25 @@
+{
+  "id": "frothwither-spore-flood",
+  "tier": "champion",
+  "title": "The Foam in the Seedling Cellar",
+  "monster": "Frothwither the Spore Bellows",
+  "story": "Deep under the Greenglass Cellar, Frothwither the Spore Bellows huffs and puffs, pumping thick green foam into the room where the village keeps its rescue-seedlings. Mr 6 yanks open the old floor drains, and the foam starts glugging away — but not fast enough to stop it entirely. The tiny seedlings sit on a shelf twelve feet above the foam, and Mr 6 needs to know exactly how long he has to carry them out.",
+  "question": "Frothwither pumps foam in fast enough to raise it 6 feet every minute, while the open drains pull it down 4.5 feet every minute. If the foam is 12 feet below the seedling shelf, how many minutes does Mr 6 have before the foam reaches the shelf?",
+  "answer": 8,
+  "unit": "minutes",
+  "distractors": [
+    2,
+    1.5,
+    18
+  ],
+  "solution": [
+    "The foam rises 6 feet a minute but the drains remove 4.5, so the real rise is 6 - 4.5 = 1.5 feet each minute.",
+    "The foam must climb 12 feet: 12 ÷ 1.5 = 8.",
+    "Mr 6 has 8 minutes to rescue the seedlings."
+  ],
+  "praise": "Working with the rise rate was exactly right — the missing step was subtracting the drains first, so the foam only truly gains 1.5 feet a minute.",
+  "hint": "Foam pours IN and drains OUT at the same time. Find how much the level really gains in one minute before you divide.",
+  "victory": "Mr 6 marched the last seedling upstairs with thirty seconds to spare, then plugged Frothwither's bellows with a mossy cork. The monster deflated into a polite little puff of green steam and offered to water the garden instead.",
+  "image": "images/frothwither-spore-flood.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape hoisting trays of glowing seedlings above a rising sea of green foam in a lamplit stone cellar, while a bellows-shaped fungus monster puffs frantically in the shadows."
+}

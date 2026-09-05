@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-05",
+  "title": "The Halving Havoc",
+  "monster": "Blorbulax the Splitting Slime",
+  "story": "Blorbulax is a wobbling green slime who grows a new blobby twin every time he's whacked with a normal sword — which is why the castle now has 4,096 slimes in the pantry. Mr 6 discovers the trick: his Cleaving Blade only works if he slices each slime into two perfectly equal halves, and an uneven cut makes the beast bloat right back. Halve every number he throws at you, and halve it FAST — Blorbulax doubles every time you dawdle!",
+  "rule": "Cleave it exactly in HALF!",
+  "image": "images/rapid-2026-09-05.webp",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        10,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        11,
+        13,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        26
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        34,
+        37
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        43,
+        46,
+        38
+      ]
+    },
+    {
+      "q": "128",
+      "answer": 64,
+      "distractors": [
+        62,
+        68,
+        74
+      ]
+    },
+    {
+      "q": "154",
+      "answer": 77,
+      "distractors": [
+        72,
+        78,
+        67
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 125,
+      "distractors": [
+        120,
+        115,
+        135
+      ]
+    },
+    {
+      "q": "366",
+      "answer": 183,
+      "distractors": [
+        163,
+        186,
+        133
+      ]
+    },
+    {
+      "q": "512",
+      "answer": 256,
+      "distractors": [
+        246,
+        266,
+        156
+      ]
+    }
+  ]
+}

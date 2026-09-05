@@ -1,0 +1,25 @@
+{
+  "id": "thrimwald-rookery-chill",
+  "tier": "champion",
+  "title": "The Rookery on the Ice Cliff",
+  "monster": "Thrimwald the Rookery Chill",
+  "story": "Thrimwald the Rookery Chill is a creeping frost that slides along the glacier cliff, freezing the north ledge of the snow-gull rookery solid. The gulls beg Mr 6 to move the threatened hatchlings to the sunny south ledge before the chill arrives, and he has a stack of little wicker sleds to do it with.",
+  "question": "There are 320 hatchlings in the rookery, and 5/8 of them sit on the north ledge Thrimwald is freezing. Each wicker sled carries 24 hatchlings. How many sleds does Mr 6 need to move all the north-ledge hatchlings?",
+  "answer": 9,
+  "unit": "sleds",
+  "distractors": [
+    8,
+    200,
+    14
+  ],
+  "solution": [
+    "North-ledge hatchlings: 5/8 of 320 = 320 ÷ 8 × 5 = 200 hatchlings.",
+    "200 ÷ 24 = 8 remainder 8, and those last 8 hatchlings still need a ride.",
+    "So Mr 6 needs 9 sleds."
+  ],
+  "praise": "Finding the fraction and then dividing was exactly the right plan — the last step was rounding UP, because 8 leftover hatchlings still need a sled of their own.",
+  "hint": "First figure out how many hatchlings are actually on the north ledge, then think about what happens to the ones left over after the full sleds are loaded.",
+  "victory": "Nine sleds whooshed down the ice chute, the last one carrying just eight squeaky hatchlings and one very pleased knight. Thrimwald froze an empty ledge, sighed a frosty sigh, and drifted off to freeze something less clever.",
+  "image": "images/thrimwald-rookery-chill.webp",
+  "imagePrompt": "A numeral-six knight in a blue cape loading fluffy snow-gull hatchlings onto wicker sleds on a glowing blue glacier ledge as a pale creeping frost-shape slides toward them under a rose-colored arctic sky."
+}

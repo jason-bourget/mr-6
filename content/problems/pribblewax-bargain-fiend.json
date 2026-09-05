@@ -1,0 +1,25 @@
+{
+  "id": "pribblewax-bargain-fiend",
+  "tier": "champion",
+  "title": "The Bargain That Wasn't",
+  "monster": "Pribblewax the Bargain Fiend",
+  "story": "In the Glassblowers' Bazaar, Pribblewax the Bargain Fiend swirls between the stalls shouting \"HALF OFF! HALF OFF!\" — but only after he has secretly puffed every price up by 60 percent. Mr 6 needs one climbing rope to reach a kitten stranded on the bell-tower, and the fiend is grinning like he's already won.",
+  "question": "The rope's honest price is 250 sunspar chips. Pribblewax raises the price by 60%, then takes half off the new price. How many sunspar chips does Mr 6 actually pay?",
+  "answer": 200,
+  "unit": "sunspar chips",
+  "distractors": [
+    400,
+    125,
+    150
+  ],
+  "solution": [
+    "The markup is 60% of 250 = 150 chips, so the puffed-up price is 250 + 150 = 400 chips.",
+    "Half off 400 is 400 ÷ 2 = 200 chips.",
+    "Mr 6 pays 200 sunspar chips — less than the honest price of 250!"
+  ],
+  "praise": "Handling the percent was the right first move — the second step was taking half of the NEW price, not of the original one.",
+  "hint": "Do the two changes in order: first grow 250 by 60%, and only then cut that result in half.",
+  "victory": "Mr 6 paid, tipped his helmet, and announced to the whole bazaar that Pribblewax's \"bargain\" was 50 chips cheaper than plain honest shopping. The fiend shrieked, popped like a soap bubble, and every price in the market snapped back to normal.",
+  "image": "images/pribblewax-bargain-fiend.webp",
+  "imagePrompt": "A smirking smoke-and-coin fiend hovering over a glassblowers' market stall of glittering rope and lanterns at dusk, as a small numeral-six knight calmly holds up a chalk slate of arithmetic to the astonished crowd."
+}
