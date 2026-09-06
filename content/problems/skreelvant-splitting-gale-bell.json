@@ -1,0 +1,25 @@
+{
+  "id": "skreelvant-splitting-gale-bell",
+  "tier": "champion",
+  "title": "The Bell That Split the Wind",
+  "monster": "Skreelvant the Quartering Gale",
+  "story": "High on the Cliff of Whistles, Skreelvant the Quartering Gale howls around the rescue bell — and every time the bell is rung, the gale splits into four smaller gales, each one quarter as strong. Mr 6 hangs from the bell rope and does the math before he pulls. The gale is blowing at 384 miles per hour, and the shepherds below can safely climb once any single gale is under 7 miles per hour.",
+  "question": "How many times must Mr 6 ring the bell so that one gale drops below 7 miles per hour?",
+  "answer": 4,
+  "unit": "rings",
+  "distractors": [
+    3,
+    5,
+    6
+  ],
+  "solution": [
+    "Each ring quarters one gale: 384 / 4 = 96, then 96 / 4 = 24, then 24 / 4 = 6.",
+    "That is 3 rings to reach 24 and a 4th ring to reach 6 miles per hour.",
+    "6 is under 7, so 4 rings are needed."
+  ],
+  "praise": "Dividing by 4 each ring was exactly the right idea — one more ring was needed to slip under the 7-mile-per-hour mark.",
+  "hint": "Start at 384 and keep dividing by 4, counting rings, until you land under 7.",
+  "victory": "After the fourth ring the mighty gale was a breeze that could barely ruffle a sheep's ear. Skreelvant huffed off to sulk in a chimney, and the shepherds climbed home whistling.",
+  "image": "images/skreelvant-splitting-gale-bell.webp",
+  "imagePrompt": "A tiny knight numeral 6 with a blue cape swinging on a bell rope atop a windswept cliff tower while a swirling grey gale-spirit splinters into four smaller whirlwinds, dramatic stormlight."
+}

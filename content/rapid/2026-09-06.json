@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-06",
+  "title": "The Five-Head Flare",
+  "monster": "Pentaclaw the Five-Headed Star-Wyrm",
+  "story": "Pentaclaw the Five-Headed Star-Wyrm coils around the Tower of Tens, and every one of its five heads mirrors whatever attack it sees. Mr 6 discovers the trick: if he swings with a number, all five heads answer at once, so he must shout the FULL five-fold total before the flare lands — name it right and the heads collapse into harmless sparkles. Get it wrong and the wyrm re-coils; hesitate and it heals. Can you multiply faster than five heads can breathe?",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/rapid-2026-09-06.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 20,
+      "distractors": [
+        9,
+        24,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 35,
+      "distractors": [
+        30,
+        40,
+        12
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 45,
+      "distractors": [
+        40,
+        50,
+        54
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        55,
+        65,
+        17
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 75,
+      "distractors": [
+        70,
+        80,
+        65
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        90,
+        110,
+        25
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        85,
+        95,
+        80
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        130,
+        125
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 150,
+      "distractors": [
+        140,
+        160,
+        135
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 165,
+      "distractors": [
+        155,
+        175,
+        160
+      ]
+    }
+  ]
+}

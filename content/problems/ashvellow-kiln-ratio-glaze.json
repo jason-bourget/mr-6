@@ -1,0 +1,25 @@
+{
+  "id": "ashvellow-kiln-ratio-glaze",
+  "tier": "champion",
+  "title": "The Glaze That Would Not Set",
+  "monster": "Ashvellow the Kiln Moth",
+  "story": "In the pottery caves under Emberhill, Ashvellow the Kiln Moth beats her sooty wings and ruins every batch of star-glaze the potters mix. Mr 6 clanks in with a bucket and a plan: mix one perfect batch, and the moth will be lulled into shiny, harmless sleep. The recipe calls for ash and moonbrine in a ratio of 3 to 5, and the sleeping-batch must weigh 96 pounds in all.",
+  "question": "How many pounds of moonbrine belong in the 96-pound batch?",
+  "answer": 60,
+  "unit": "pounds",
+  "distractors": [
+    36,
+    12,
+    48
+  ],
+  "solution": [
+    "The ratio 3 to 5 makes 3 + 5 = 8 equal shares.",
+    "Each share weighs 96 / 8 = 12 pounds.",
+    "Moonbrine is 5 shares: 5 × 12 = 60 pounds."
+  ],
+  "praise": "Adding the ratio parts to make 8 shares was exactly the right first move — the last step was multiplying by moonbrine's 5 shares, not ash's 3.",
+  "hint": "First find how many equal shares the recipe has in total, then find what one share weighs.",
+  "victory": "The glaze set glossy and silver, and Ashvellow curled up on the warm pot like a very large, very sleepy sequin. The potters now call the color 'Six O'Clock Shine'.",
+  "image": "images/ashvellow-kiln-ratio-glaze.webp",
+  "imagePrompt": "A glowing kiln cave where a huge sooty moth settles peacefully on a shimmering silver-glazed pot while a small knight numeral 6 stirs a bucket, warm orange firelight against dark stone."
+}

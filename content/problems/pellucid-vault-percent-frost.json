@@ -1,0 +1,25 @@
+{
+  "id": "pellucid-vault-percent-frost",
+  "tier": "champion",
+  "title": "The Vault of Fading Crowns",
+  "monster": "Pellucid the Frost Auditor",
+  "story": "Deep in the Snowlock Vault, Pellucid the Frost Auditor freezes a village's rescue fund and takes a bite out of it every hour. The fund began at 800 gold crowns; each hour Pellucid drains 25% of whatever is left, and the villagers need at least 300 crowns to buy firewood before nightfall. Mr 6 studies the frosted ledger and counts the hours.",
+  "question": "How many crowns are left after 3 hours of Pellucid's draining?",
+  "answer": 337.5,
+  "unit": "crowns",
+  "distractors": [
+    450,
+    600,
+    200
+  ],
+  "solution": [
+    "Draining 25% leaves 75%, so after 1 hour: 800 × 0.75 = 600 crowns.",
+    "After 2 hours: 600 × 0.75 = 450 crowns.",
+    "After 3 hours: 450 × 0.75 = 337.5 crowns."
+  ],
+  "praise": "Taking 75% each hour was exactly the right strategy — the drain just had to be applied one more time.",
+  "hint": "If 25% is taken away, what percent stays? Apply that to the new total each hour, not to 800 every time.",
+  "victory": "Mr 6 announced the exact leftover down to the half-crown, and Pellucid's frosty ledger cracked in embarrassment. The villagers bought firewood with 37.5 crowns to spare — and one very warm pie.",
+  "image": "images/pellucid-vault-percent-frost.webp",
+  "imagePrompt": "A pale translucent auditor-spirit hovering over a frost-covered vault of glittering gold coins while a small knight numeral 6 points at an icy ledger, cold blue light and drifting snow."
+}
