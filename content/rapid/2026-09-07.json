@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-07",
+  "title": "The Fourfold Fury",
+  "monster": "Quadrax the Four-Winged Wyrm",
+  "story": "Quadrax the Four-Winged Wyrm beats all four wings at once, and every gust it hurls is four times fiercer than the last — the poor windmill village below is spinning like a top. Mr 6 discovers the wyrm's one weakness: it can only be knocked back by a blow of exactly QUADRUPLE the force it sent, so every gust must be answered times four. Four wings flap fast, brave knight — can your arithmetic flap faster?",
+  "rule": "Strike back with QUADRUPLE force!",
+  "image": "images/rapid-2026-09-07.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 12,
+      "distractors": [
+        7,
+        9,
+        6
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 28,
+      "distractors": [
+        24,
+        32,
+        21
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        36,
+        44,
+        24
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        45,
+        50,
+        65
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 84,
+      "distractors": [
+        63,
+        82,
+        88
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        75,
+        90,
+        110
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 128,
+      "distractors": [
+        96,
+        124,
+        132
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        135,
+        160,
+        200
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        180,
+        200,
+        244
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 500,
+      "distractors": [
+        375,
+        450,
+        505
+      ]
+    }
+  ]
+}

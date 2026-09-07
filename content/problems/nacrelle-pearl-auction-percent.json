@@ -1,0 +1,25 @@
+{
+  "id": "nacrelle-pearl-auction-percent",
+  "tier": "champion",
+  "title": "The Auctioneer of the Drowned Market",
+  "monster": "Nacrelle the Pearl Auctioneer",
+  "story": "Beneath the lagoon, Nacrelle has locked five merfolk children in bubble-cages and is auctioning the release nets to the highest bidder. Mr 6 arrives with a pouch of moonstone shards and a very sharp pencil. Nacrelle grins and adds her famous 'salt surcharge' to the bill.",
+  "question": "Each release net costs 48 moonstone shards, and Mr 6 needs 5 of them. Nacrelle adds a 25% salt surcharge to the whole order, then grumpily takes off 40 shards because Mr 6 proved her adding was wrong. How many moonstone shards does Mr 6 pay?",
+  "answer": 260,
+  "unit": "shards",
+  "distractors": [
+    300,
+    240,
+    200
+  ],
+  "solution": [
+    "Five nets cost 5 × 48 = 240 shards.",
+    "The 25% surcharge makes it 240 × 1.25 = 300 shards.",
+    "Then take off the 40-shard correction: 300 - 40 = 260 shards."
+  ],
+  "praise": "Handling the surcharge with a percent was strong thinking — the last move was subtracting the 40-shard correction at the end.",
+  "hint": "First find the price of all five nets, then grow it by 25%, and only subtract the 40 shards at the very end.",
+  "victory": "Mr 6 counted out 260 shards, and the bubble-cages popped like soap. Nacrelle now recalculates every bill three times, muttering, 'that six was watching.'",
+  "image": "images/nacrelle-pearl-auction-percent.webp",
+  "imagePrompt": "An underwater lagoon market lit by glowing pearls, where a knight-numeral 6 with a blue cape holds up a tally slate to a shimmering eel-tailed auctioneer floating above bubble-cages."
+}

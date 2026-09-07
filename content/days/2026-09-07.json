@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-07",
+  "problems": [
+    "problems/thunderquill-kite-rate.json",
+    "problems/copperclaw-scrap-percent.json",
+    "problems/vaultmoth-splitting-swarm.json"
+  ]
+}

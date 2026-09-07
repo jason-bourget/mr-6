@@ -1,0 +1,25 @@
+{
+  "id": "stannivor-marble-ranks",
+  "tier": "champion",
+  "title": "The Marshal of Marble Ranks",
+  "monster": "Stannivor the Marble Marshal",
+  "story": "In the ruined moonlit amphitheatre, Stannivor drills an army of marble soldiers who march toward the sleeping village below. Mr 6 climbs the steps and offers a riddle instead of a fight — because he can see the ranks are perfectly arranged, and arrangements can be counted.",
+  "question": "Stannivor's army stands in 12 rows of 15 marble soldiers. Mr 6's riddle turns 40% of them back into pigeons, and then a quarter of the soldiers who remain crumble into harmless gravel. How many marble soldiers are still standing?",
+  "answer": 81,
+  "unit": "soldiers",
+  "distractors": [
+    108,
+    72,
+    135
+  ],
+  "solution": [
+    "The army is 12 × 15 = 180 marble soldiers.",
+    "After 40% fly off as pigeons, 60% remain: 180 × 0.6 = 108.",
+    "A quarter of those crumble, so three quarters stay: 108 × 0.75 = 81 soldiers still standing."
+  ],
+  "praise": "Multiplying the rows and columns first was exactly the right opening — the step left out was taking three quarters of what was LEFT, not of the whole army.",
+  "hint": "Count the whole army first with rows × columns, then take each change in order — always applied to the number still standing.",
+  "victory": "Eighty-one marble soldiers looked around, decided a maths-loving six was too clever to march against, and sat down to become very fine statues. The village woke up to a brand-new sculpture garden.",
+  "image": "images/stannivor-marble-ranks.webp",
+  "imagePrompt": "Moonlit ruined amphitheatre where neat rows of marble soldiers stand frozen mid-march, pigeons bursting from their ranks, as a small caped knight-numeral 6 poses a riddle from the top step."
+}

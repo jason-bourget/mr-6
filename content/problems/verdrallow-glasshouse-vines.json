@@ -1,0 +1,25 @@
+{
+  "id": "verdrallow-glasshouse-vines",
+  "tier": "champion",
+  "title": "The Creeping Glasshouse",
+  "monster": "Verdrallow the Glasshouse Creeper",
+  "story": "Inside the moonlit crystal glasshouse, three young gardeners are trapped behind a wall of silver vines that Verdrallow keeps growing from the floor tiles. The vine wall already covers part of the door, and it thickens fast. Mr 6 lifts his frost-lantern, whose cold light withers the creeper — but not as fast as it grows.",
+  "question": "Verdrallow's vines spread over 4.5 square yards of the door every minute, while Mr 6's frost-lantern withers away 3 square yards every minute. The door is 18 square yards. How many minutes until the vines seal the door completely?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    1.5,
+    4,
+    2.4
+  ],
+  "solution": [
+    "Each minute the vines really gain 4.5 - 3 = 1.5 square yards.",
+    "Time to cover the whole door: 18 ÷ 1.5 = 12.",
+    "The door seals in 12 minutes — just enough time for Mr 6's rescue plan."
+  ],
+  "praise": "Working with the vine's speed was exactly right — the missing step was subtracting the lantern's 3 square yards first, so you use the NET growth.",
+  "hint": "The vines grow and the lantern shrinks them at the same time. Find how much the vine wall really gains in one minute before you divide.",
+  "victory": "Mr 6 counted 12 minutes, used 11 of them to swing the gardeners out through the roof panel, and spent the last one waving goodbye. Verdrallow sealed a door with absolutely nobody behind it.",
+  "image": "images/verdrallow-glasshouse-vines.webp",
+  "imagePrompt": "A brave knight-numeral 6 in a blue cape raising a glowing frost-lantern against shimmering silver vines creeping across a moonlit crystal glasshouse door, with three frightened gardeners behind him."
+}
