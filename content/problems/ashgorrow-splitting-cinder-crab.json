@@ -1,0 +1,25 @@
+{
+  "id": "ashgorrow-splitting-cinder-crab",
+  "tier": "champion",
+  "title": "The Crab That Split in Fives",
+  "monster": "Ashgorrow the Quintupling Cinder Crab",
+  "story": "In the black-glass caves under a sleeping volcano, Mr 6 meets Ashgorrow, a crab of hot cinders who splits into five smaller crabs every single time a sword taps its shell. Three cave-miners are trapped behind the skittering swarm. Mr 6 lowers his sword and starts counting instead.",
+  "question": "There is 1 crab now. If Mr 6 struck it, and then struck every crab that appeared, and did that for 3 rounds in a row, how many crabs would be scuttling around at the end?",
+  "answer": 125,
+  "unit": "crabs",
+  "distractors": [
+    15,
+    25,
+    625
+  ],
+  "solution": [
+    "Round 1: 1 crab becomes 1 x 5 = 5 crabs.",
+    "Round 2: 5 x 5 = 25 crabs. Round 3: 25 x 5 = 125 crabs.",
+    "So striking three rounds would make 125 crabs — which is exactly why Mr 6 does not strike."
+  ],
+  "praise": "Multiplying by 5 was precisely the right move — the swarm just needed one more round of multiplying, not adding.",
+  "hint": "Each round multiplies the whole swarm by 5, not just the original crab. Try writing 1, then 5, then...",
+  "victory": "Mr 6 sheathes his sword, tips a bucket of cool spring water on the cinder crab, and Ashgorrow shrinks to the size of a teacup and clicks its claws politely. The miners walk out laughing.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing ember-shelled crab in a volcanic obsidian cave, faint copies of itself flickering into being, as a numeral-six knight thoughtfully sheathes his sword by the light of a spring-water bucket."
+}

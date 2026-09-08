@@ -1,0 +1,25 @@
+{
+  "id": "morvellin-tide-market-percent",
+  "tier": "champion",
+  "title": "The Percent Trap of the Sunken Market",
+  "monster": "Morvellin the Tide Auctioneer",
+  "story": "The Sunken Market opens only at low tide, and Morvellin the Tide Auctioneer sells rescue-rope by the coil — at prices that change while you argue. Mr 6 needs rope to haul a stranded fisher's cart off the mudflats before the water returns. Morvellin grins: \"Pay what I say, or say what I owe.\"",
+  "question": "A coil of rescue-rope is listed at 240 silver acorns. Morvellin adds a 25% \"tide surcharge,\" then Mr 6 shows a rescuer's token that takes 40% off the surcharged price. How many silver acorns does Mr 6 pay?",
+  "answer": 180,
+  "unit": "silver acorns",
+  "distractors": [
+    300,
+    120,
+    204
+  ],
+  "solution": [
+    "The surcharge makes the price 240 + 25% of 240 = 240 + 60 = 300 silver acorns.",
+    "The token takes 40% off, so Mr 6 pays 60% of 300 = 0.6 x 300 = 180.",
+    "Mr 6 pays 180 silver acorns."
+  ],
+  "praise": "Working the surcharge first was the right order — the last step was taking 60% of that new price rather than of the original.",
+  "hint": "Do the two changes one at a time: first find the surcharged price, then take 60% of THAT number.",
+  "victory": "Morvellin re-checks the ledger three times, finds Mr 6 exactly right, and hands over the rope with a soggy bow. The fisher's cart rolls clear just as the tide licks the market steps.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A kelp-draped auctioneer spirit at a stall of coiled ropes in a tidal market of wet stone steps, lantern light glinting on rising water, a small numeral-six knight calmly pointing at a price board."
+}

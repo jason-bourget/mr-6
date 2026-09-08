@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-08",
+  "title": "The Tenth-Taker's Toll",
+  "monster": "Nibblewick the Tithe Imp",
+  "story": "Nibblewick the Tithe Imp guards the Bridge of Zeroes, and he demands a tenth of every number that crosses — no more, no less. Give him too much and he swells into a giant; give him too little and he sulks so loudly the bridge cracks, so Mr 6 must slide each number's decimal point one step left, quick as a wink. Ten tolls, ten heartbeats — can you pay faster than the imp can gloat?",
+  "rule": "Pay exactly ONE TENTH of it!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        14,
+        20
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        70,
+        17,
+        35
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        45
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        21,
+        2
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        52,
+        20
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        360,
+        63,
+        3
+      ]
+    },
+    {
+      "q": "500",
+      "answer": 50,
+      "distractors": [
+        500,
+        5,
+        55
+      ]
+    },
+    {
+      "q": "840",
+      "answer": 84,
+      "distractors": [
+        840,
+        48,
+        8
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        1000,
+        10,
+        110
+      ]
+    },
+    {
+      "q": "1230",
+      "answer": 123,
+      "distractors": [
+        1230,
+        132,
+        12
+      ]
+    }
+  ]
+}
