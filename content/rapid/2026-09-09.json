@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-09",
+  "title": "The Triple-Echo Duel",
+  "monster": "Trivox the Three-Headed Echo Wyrm",
+  "story": "Trivox the Three-Headed Echo Wyrm roars a number into the canyon, and all three heads echo it back at Mr 6 — the only way to shatter an echo is to answer it with exactly THREE times its size. Every heartbeat Mr 6 hesitates, the echo doubles back and rattles his polished brass armor. Triple fast, brave knight, or the wyrm will out-shout you!",
+  "rule": "Strike back with TRIPLE force!",
+  "image": "images/rapid-2026-09-09.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        16,
+        7
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        24,
+        27
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        32,
+        34,
+        39
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        35,
+        40,
+        54
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        42,
+        61,
+        66
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        62,
+        68,
+        74
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 90,
+      "distractors": [
+        60,
+        93,
+        900
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        120,
+        125,
+        145
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        18,
+        120,
+        190
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 270,
+      "distractors": [
+        180,
+        240,
+        260
+      ]
+    }
+  ]
+}

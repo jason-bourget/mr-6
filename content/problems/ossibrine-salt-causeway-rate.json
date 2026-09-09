@@ -1,0 +1,25 @@
+{
+  "id": "ossibrine-salt-causeway-rate",
+  "tier": "champion",
+  "title": "The Causeway That Was Being Eaten",
+  "monster": "Ossibrine the Causeway Gnawer",
+  "story": "A long salt causeway is the only path from Gull Rock back to shore, and Ossibrine — a pale eel-thing with a mouth like a millstone — is chewing it away from the far end. Twelve lantern-carrying villagers are still out on the rock, and the salt-masons are frantically packing new salt onto the near end. Mr 6 plants his sword in the crust and does the arithmetic before he does anything brave.",
+  "question": "The causeway is 108 feet long. Ossibrine dissolves 9 feet of it every minute, while the salt-masons rebuild 4.5 feet every minute. How many minutes until the causeway is completely gone?",
+  "answer": 24,
+  "unit": "minutes",
+  "distractors": [
+    12,
+    8,
+    4.5
+  ],
+  "solution": [
+    "Each minute the causeway really shrinks by 9 - 4.5 = 4.5 feet.",
+    "Divide the length by the true shrink rate: 108 / 4.5 = 24.",
+    "The villagers have 24 minutes to cross."
+  ],
+  "praise": "Dividing the length by a speed was exactly the right move — the missing step was subtracting the masons' 4.5 feet from the gnawing first.",
+  "hint": "The monster eats and the masons build at the same time. What is the net change in the causeway's length each minute?",
+  "victory": "Mr 6 marched the villagers across with four minutes to spare, then politely handed Ossibrine a barrel of pickling salt so it could chew something that wasn't a road. It has been a very salty, very well-fed hermit ever since.",
+  "image": "images/ossibrine-salt-causeway-rate.webp",
+  "imagePrompt": "A narrow white salt causeway stretching across dark tidal water at dusk, a pale eel-like monster gnawing its far end while a small knightly numeral 6 with a blue cape counts on his fingers and waves villagers forward."
+}

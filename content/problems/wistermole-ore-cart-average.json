@@ -1,0 +1,25 @@
+{
+  "id": "wistermole-ore-cart-average",
+  "tier": "champion",
+  "title": "The Tallier's Fifth Cart",
+  "monster": "Wistermole the Ore Tallier",
+  "story": "Deep in the Moonstone Mine, Wistermole the Ore Tallier — a velvet-furred wraith with spectacles and a very long ledger — has sealed the miners behind a stone door. \"The door opens,\" he sniffs, \"only when five carts average exactly 40 pounds of moonstone each. Not a crumb more or less.\" Four carts are already loaded, and Mr 6 peers at the ledger.",
+  "question": "The four loaded carts hold 36, 44, 38, and 41 pounds of moonstone. How many pounds must go in the fifth cart so that the five carts average exactly 40 pounds each?",
+  "answer": 41,
+  "unit": "pounds",
+  "distractors": [
+    39.75,
+    159,
+    200
+  ],
+  "solution": [
+    "Five carts averaging 40 pounds need a total of 40 x 5 = 200 pounds.",
+    "The four loaded carts hold 36 + 44 + 38 + 41 = 159 pounds.",
+    "So the fifth cart needs 200 - 159 = 41 pounds of moonstone."
+  ],
+  "praise": "Working with the average was the right instinct — the missing step was turning the average into a required TOTAL (40 x 5) before subtracting what's already loaded.",
+  "hint": "An average of 40 across five carts tells you the total weight of all five. Find that total first.",
+  "victory": "The stone door swung open on the 41st pound, and the miners walked free while Wistermole stared at his ledger in delight — nobody had ever balanced it before. He now files paperwork for the village, cheerfully and free of charge.",
+  "image": "images/wistermole-ore-cart-average.webp",
+  "imagePrompt": "A lamplit moonstone mine tunnel with five wooden ore carts glittering pale blue, a bespectacled velvet mole-wraith clutching an enormous ledger, and a small caped numeral 6 knight weighing a handful of glowing ore."
+}

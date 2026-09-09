@@ -1,0 +1,25 @@
+{
+  "id": "grinnowhisk-tripling-sand-imps",
+  "tier": "champion",
+  "title": "Think Before You Swing",
+  "monster": "Grinnowhisk the Tripling Dust Devil",
+  "story": "In the Canyon of Ten Echoes, Grinnowhisk sends out sand-imps that burst into three whenever a blade touches them — though two imps always spin off into the desert and vanish after each strike. Mr 6 counts two imps guarding the water well and lowers his sword to think. \"If I swing without thinking,\" he says, \"I'll be fighting a sandstorm.\"",
+  "question": "Mr 6 tests the magic with three careful strikes. It starts with 2 imps, and each strike triples the imps present and then 2 of them blow away. How many imps stand in the canyon after the third strike?",
+  "answer": 28,
+  "unit": "imps",
+  "distractors": [
+    54,
+    30,
+    10
+  ],
+  "solution": [
+    "Strike 1: 2 x 3 = 6 imps, then 6 - 2 = 4 imps remain.",
+    "Strike 2: 4 x 3 = 12, then 12 - 2 = 10 imps remain.",
+    "Strike 3: 10 x 3 = 30, then 30 - 2 = 28 imps stand in the canyon."
+  ],
+  "praise": "Tripling each round is exactly the right pattern to spot — the step that slipped was subtracting the 2 imps that blow away after every single strike.",
+  "hint": "Do one strike at a time on scratch paper: triple first, then take away 2, and carry that number into the next strike.",
+  "victory": "Mr 6 stopped at three strikes, corked the well, and let the 28 whirling imps sweep the canyon floor clean instead. Grinnowhisk was so proud of its tidy canyon it forgot to be a villain.",
+  "image": "images/grinnowhisk-tripling-sand-imps.webp",
+  "imagePrompt": "A sunbaked red canyon at noon with dozens of small swirling sand-imps spinning around a stone well, while a brave numeral 6 in a knight helmet holds his sword down and thinks, dust glowing gold in the light."
+}
