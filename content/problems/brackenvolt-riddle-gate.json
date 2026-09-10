@@ -1,0 +1,25 @@
+{
+  "id": "brackenvolt-riddle-gate",
+  "tier": "champion",
+  "title": "The Gate That Wanted a Number",
+  "monster": "Brackenvolt the Riddle Gate",
+  "story": "In a ring of thunder-struck standing stones, three shepherd children are locked behind Brackenvolt, a moss-covered gate-golem who only opens for correct arithmetic. \"I hid a pile of ember coins,\" rumbles Brackenvolt. \"Multiply my pile by 8, then take 15 coins away, and you are left with 129.\" Mr 6 pulls out chalk and works backward across the flagstones.",
+  "question": "How many ember coins are in Brackenvolt's hidden pile?",
+  "answer": 18,
+  "unit": "coins",
+  "distractors": [
+    16.125,
+    144,
+    14.25
+  ],
+  "solution": [
+    "Undo the subtraction first: before 15 were taken away there were 129 + 15 = 144.",
+    "Undo the multiplication: 144 ÷ 8 = 18.",
+    "Brackenvolt's pile holds 18 ember coins."
+  ],
+  "praise": "Dividing by 8 was the right finish — the step that was missing was putting the 15 coins back before you divided.",
+  "hint": "Work the golem's recipe backwards: the last thing he did was take 15 away, so the first thing you should do is give them back.",
+  "victory": "\"Eighteen,\" says Mr 6, and the mossy gate swings open with a satisfied creak. Brackenvolt admits he had forgotten the number himself and asks Mr 6 to visit every spring for a refresher.",
+  "image": "images/brackenvolt-riddle-gate.webp",
+  "imagePrompt": "A towering moss-and-granite gate-golem carved with glowing runes in a misty ring of standing stones at dawn, a small numeral-six knight chalking arithmetic on the flagstones while three shepherd children peek through the bars."
+}

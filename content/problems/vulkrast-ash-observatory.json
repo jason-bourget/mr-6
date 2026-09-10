@@ -1,0 +1,25 @@
+{
+  "id": "vulkrast-ash-observatory",
+  "tier": "champion",
+  "title": "The Ash That Would Not Stop",
+  "monster": "Vulkrast the Ash Gullet",
+  "story": "On the slopes of a grumbling volcano, Vulkrast the Ash Gullet coughs grey ash into the glassblowers' domed watchtower, where twelve families are sheltering. The ash pours through the roof vent at 5 feet every hour, while the tower's old drain pumps carry 3.5 feet of it away every hour. Mr 6 plants his sword in the ash, tips back his little helmet, and starts doing the arithmetic before he does anything brave.",
+  "question": "The shelter floor is 12 feet below the safe upper gallery — how many hours until the ash rises 12 feet?",
+  "answer": 8,
+  "unit": "hours",
+  "distractors": [
+    2.4,
+    1.5,
+    10.5
+  ],
+  "solution": [
+    "Each hour the ash really gains 5 - 3.5 = 1.5 feet, because the pumps undo part of the pouring.",
+    "Time to climb 12 feet is 12 ÷ 1.5 = 8.",
+    "Mr 6 has 8 hours before the ash reaches the gallery."
+  ],
+  "praise": "Working with the pouring rate was exactly right — the missing step was letting the pumps cancel part of it first.",
+  "hint": "Ash comes in and ash goes out. Find how much the ash level truly gains in one single hour, then see how many of those hours fit into 12 feet.",
+  "victory": "Mr 6 announces \"Eight hours — and the escape tunnel takes six!\" and the families stroll out with two hours to spare. Vulkrast coughs one last puff, sees nobody left to bury, and sulks back down its crater.",
+  "image": "images/vulkrast-ash-observatory.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape standing knee-deep in swirling grey ash inside a domed stone watchtower, a smoky volcanic maw glowing orange through the roof vent, families climbing a spiral stair to safety in warm lamplight."
+}

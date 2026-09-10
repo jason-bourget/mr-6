@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-10",
+  "problems": [
+    "problems/toadmarsh-decimal-ferry.json",
+    "problems/cragspine-regrowing-spikes.json",
+    "problems/lumenwrack-signal-unknown.json"
+  ]
+}

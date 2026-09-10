@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-10",
+  "title": "The Hundred-Shield Standoff",
+  "monster": "Gravel Bastion the Shield Golem",
+  "story": "Gravel Bastion is a mountain of stacked stone shields who brags that every attack ends at one hundred — no more, no less. When Mr 6 hurls a blow, the golem absorbs part of it, and only the LEFTOVER force out of 100 cracks a shield, so Mr 6 must instantly name what's missing. Shout the remainder before the stone reseals — can you count to a hundred faster than a golem can heal?",
+  "rule": "Subtract it from 100!",
+  "image": "images/rapid-2026-09-10.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        91,
+        100
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 37,
+      "distractors": [
+        47,
+        43,
+        27
+      ]
+    },
+    {
+      "q": "78",
+      "answer": 22,
+      "distractors": [
+        32,
+        28,
+        12
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 55,
+      "distractors": [
+        65,
+        45,
+        54
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 14,
+      "distractors": [
+        24,
+        16,
+        4
+      ]
+    },
+    {
+      "q": "37",
+      "answer": 63,
+      "distractors": [
+        73,
+        67,
+        53
+      ]
+    },
+    {
+      "q": "92",
+      "answer": 8,
+      "distractors": [
+        18,
+        12,
+        2
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 42,
+      "distractors": [
+        52,
+        48,
+        32
+      ]
+    }
+  ]
+}

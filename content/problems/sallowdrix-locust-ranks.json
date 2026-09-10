@@ -1,0 +1,25 @@
+{
+  "id": "sallowdrix-locust-ranks",
+  "tier": "champion",
+  "title": "The Mirror-Shell Ranks",
+  "monster": "Sallowdrix the Locust Conductor",
+  "story": "Out on the moonlit salt flats, Sallowdrix the Locust Conductor drills an army of mirror-shell locusts into a perfect marching grid, 14 rows deep and 12 locusts across, all of them clutching stolen seed-grain. Mr 6 clangs his shield against a hollow salt pillar, and the sound sends most of the swarm skittering into the cracks — but exactly three eighths of them hold their ranks. Sallowdrix hurriedly regroups the ones who stayed into 7 equal new rows.",
+  "question": "How many locusts stand in each of the 7 new rows?",
+  "answer": 9,
+  "unit": "locusts",
+  "distractors": [
+    63,
+    168,
+    15
+  ],
+  "solution": [
+    "The starting grid holds 14 × 12 = 168 locusts.",
+    "Three eighths hold their ranks: 168 ÷ 8 = 21, and 21 × 3 = 63 locusts remain.",
+    "Split into 7 equal rows: 63 ÷ 7 = 9 locusts in each row."
+  ],
+  "praise": "Finding the fraction that stayed was smart thinking — the last step was sharing those leftovers into the 7 new rows.",
+  "hint": "Three things happen in order: build the grid, keep three eighths of it, then split what's left into 7 rows. Do them one at a time.",
+  "victory": "Mr 6 counts nine per row and calmly steps into the one gap the tiny formation can't cover. Sallowdrix squeaks, drops the seed-grain, and conducts a very fast retreat across the shining salt.",
+  "image": "images/sallowdrix-locust-ranks.webp",
+  "imagePrompt": "Glittering mirror-shelled locusts in neat marching rows across a moonlit white salt flat, a lanky insect conductor waving antennae like a baton, and a small numeral-six knight raising a shield that catches the moonlight."
+}
