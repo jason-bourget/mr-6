@@ -1,0 +1,25 @@
+{
+  "id": "gralloway-cloudharbor-ballast",
+  "tier": "champion",
+  "title": "The Ballast Gremlin of Cloud Harbor",
+  "monster": "Gralloway the Ballast Gremlin",
+  "story": "Three lantern-keepers are stranded on a storm-snapped sky pier, and the only rescue balloon in Cloud Harbor won't steer because Gralloway has tipped its ballast sacks over the railing. The balloon's lift-mix must weigh 108 pounds in all, mixed in a ratio of 7 parts featherstone to 2 parts leadsand. Mr 6 peers into the basket and finds 56 pounds of featherstone left, with plenty of leadsand still in the harbor shed.",
+  "question": "How many more pounds of featherstone must Mr 6 load to finish the correct mix?",
+  "answer": 28,
+  "unit": "pounds",
+  "distractors": [
+    84,
+    24,
+    12
+  ],
+  "solution": [
+    "The ratio 7:2 makes 7 + 2 = 9 equal parts, and 108 ÷ 9 = 12 pounds per part.",
+    "Featherstone needs 7 parts: 7 × 12 = 84 pounds.",
+    "He already has 56, so he must load 84 - 56 = 28 more pounds of featherstone."
+  ],
+  "praise": "Splitting the total into ratio parts was the smart move — the one step left was subtracting the featherstone already in the basket.",
+  "hint": "First find what one 'part' weighs by sharing 108 pounds among 7 + 2 parts.",
+  "victory": "The balloon rose straight and steady, and Gralloway — who had never once checked his own arithmetic — was last seen chasing it with a bucket and a very confused expression.",
+  "image": "images/gralloway-cloudharbor-ballast.webp",
+  "imagePrompt": "A numeral-six knight hoists a sack of shimmering featherstone into a rescue balloon basket at a cloud-top harbor at dawn, while a scruffy winged gremlin tips ballast sacks off a rope railing and distant lantern-keepers wave from a broken sky pier."
+}

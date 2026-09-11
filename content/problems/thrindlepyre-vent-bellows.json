@@ -1,0 +1,25 @@
+{
+  "id": "thrindlepyre-vent-bellows",
+  "tier": "champion",
+  "title": "The Rising Vent",
+  "monster": "Thrindlepyre the Vent Bellows",
+  "story": "Deep in the Cinder Hollow, Thrindlepyre huffs on a lava vent to flood the cavern, giggling as a family of shy stone sprites huddles on a high ledge. Mr 6 counts the glowing line creeping up the wall: 4.5 feet every hour. With a heave he cracks open three old sluice channels that carry lava away at 3 feet every hour, and the sprites need every minute he can buy them.",
+  "question": "If the ledge is 9 feet above the lava right now, how many hours does Mr 6 have before the lava reaches the sprites?",
+  "answer": 6,
+  "unit": "hours",
+  "distractors": [
+    2,
+    1.5,
+    1.2
+  ],
+  "solution": [
+    "The channels drain lava away, so the real climb each hour is 4.5 - 3 = 1.5 feet.",
+    "The lava must climb 9 feet, so 9 ÷ 1.5 = 6.",
+    "Mr 6 has 6 hours to carry the stone sprites to safety."
+  ],
+  "praise": "Setting up a rate problem was exactly right — the missing step was letting the drain channels cancel part of the lava's climb before dividing.",
+  "hint": "Before you divide, ask: after one whole hour of rising AND draining, how much higher is the lava really?",
+  "victory": "Mr 6 ferried every sprite up the chimney with an hour to spare, and Thrindlepyre huffed so hard at the empty ledge that he blew himself out like a birthday candle.",
+  "image": "images/thrindlepyre-vent-bellows.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape braces open stone sluice gates in a glowing red lava cavern while a bellows-bellied fire monster puffs at a rising lava pool and tiny stone sprites cling to a high ledge."
+}

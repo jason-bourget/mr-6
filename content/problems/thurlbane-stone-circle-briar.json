@@ -1,0 +1,25 @@
+{
+  "id": "thurlbane-stone-circle-briar",
+  "tier": "champion",
+  "title": "The Briar at the Stone Circle",
+  "monster": "Thurlbane the Stone-Circle Briar",
+  "story": "On the windy moor, Thurlbane has wrapped the old stone gate in 63 iron thorns, trapping a shepherd and her whole flock inside the circle. Mr 6 tests one sweep of his sword: it shears away 9 thorns, and instantly 4 new ones sprout with a nasty creak. Mr 6 sits on a rock and thinks — because if the briar ever runs out of thorns entirely, there is nothing left to sprout from.",
+  "question": "If each sweep shears up to 9 thorns and 4 sprout back only when thorns remain, how many sweeps does Mr 6 need to clear all 63 thorns?",
+  "answer": 12,
+  "unit": "sweeps",
+  "distractors": [
+    7,
+    13,
+    11
+  ],
+  "solution": [
+    "Every sweep that leaves thorns behind changes the count by 9 - 4 = 5 fewer thorns.",
+    "He wants 9 or fewer thorns left for one finishing sweep: (63 - 9) ÷ 5 = 10.8, so 11 sweeps bring it to 63 - 55 = 8 thorns.",
+    "That last sweep clears all 8, so 11 + 1 = 12 sweeps."
+  ],
+  "praise": "Tracking the net loss of 5 thorns per sweep was exactly the right thinking — the final sweep, where nothing grows back, is the step that's easy to miss.",
+  "hint": "Work out the net change per sweep first, then ask how few thorns must be left so one last sweep can finish them all.",
+  "victory": "The iron briar unwound with a sulky rattle and the gate swung open for every last sheep; Thurlbane, now just a twig, agreed to grow blackberries instead.",
+  "image": "images/thurlbane-stone-circle-briar.webp",
+  "imagePrompt": "A numeral-six knight in a little helmet calmly counts glinting iron thorns coiled around an ancient standing-stone gate on a windswept moonlit moor, a shepherd and her flock peering out from inside the circle."
+}

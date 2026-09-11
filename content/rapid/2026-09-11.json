@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-11",
+  "title": "The Echo of Twenty-Five",
+  "monster": "Chime the Echo-Bell Wraith",
+  "story": "Chime the Echo-Bell Wraith hangs in the cavern of a thousand gongs, and every note she rings comes back louder by exactly twenty-five — that is how she deafens knights into surrender. Mr 6 discovered her secret: if he shouts the echo BEFORE the cavern does, the bell cracks and her power drains away. Ring out every number plus 25 faster than the wraith can chime, or the gongs will out-sing you!",
+  "rule": "Echo it back PLUS 25!",
+  "image": "images/rapid-2026-09-11.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 35,
+      "distractors": [
+        25,
+        45,
+        34
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 50,
+      "distractors": [
+        45,
+        60,
+        55
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 55,
+      "distractors": [
+        45,
+        65,
+        50
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 70,
+      "distractors": [
+        60,
+        80,
+        65
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 85,
+      "distractors": [
+        75,
+        95,
+        80
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 100,
+      "distractors": [
+        90,
+        110,
+        95
+      ]
+    },
+    {
+      "q": "88",
+      "answer": 113,
+      "distractors": [
+        103,
+        123,
+        112
+      ]
+    },
+    {
+      "q": "99",
+      "answer": 124,
+      "distractors": [
+        114,
+        134,
+        123
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 175,
+      "distractors": [
+        165,
+        185,
+        170
+      ]
+    },
+    {
+      "q": "275",
+      "answer": 300,
+      "distractors": [
+        290,
+        310,
+        295
+      ]
+    }
+  ]
+}
