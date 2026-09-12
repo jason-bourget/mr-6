@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-12",
+  "title": "The Halving Standoff",
+  "monster": "Gloop the Splitting Slime",
+  "story": "Gloop the Splitting Slime giggles as it swells, and every blob it grows will split the castle gate wide open — unless Mr 6 slices each blob into two perfectly equal halves. A lopsided cut only makes Gloop laugh and double up, but a flawless half makes it wobble and shrink. Sharpen your mind, brave knight: halve each blob before it splits, and do it FAST!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/rapid-2026-09-12.webp",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        36,
+        19
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 13,
+      "distractors": [
+        12,
+        16,
+        52
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 20,
+      "distractors": [
+        2,
+        25,
+        80
+      ]
+    },
+    {
+      "q": "54",
+      "answer": 27,
+      "distractors": [
+        22,
+        28,
+        108
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 36,
+      "distractors": [
+        37,
+        34,
+        144
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        45,
+        46,
+        192
+      ]
+    },
+    {
+      "q": "118",
+      "answer": 59,
+      "distractors": [
+        54,
+        58,
+        69
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 75,
+      "distractors": [
+        70,
+        55,
+        85
+      ]
+    },
+    {
+      "q": "234",
+      "answer": 117,
+      "distractors": [
+        107,
+        116,
+        127
+      ]
+    },
+    {
+      "q": "486",
+      "answer": 243,
+      "distractors": [
+        244,
+        233,
+        223
+      ]
+    }
+  ]
+}

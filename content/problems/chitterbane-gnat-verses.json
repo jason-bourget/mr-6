@@ -1,0 +1,25 @@
+{
+  "id": "chitterbane-gnat-verses",
+  "tier": "champion",
+  "title": "Three Verses for the Gnat Duchess",
+  "monster": "Chitterbane the Gnat Duchess",
+  "story": "The mudlark village of Reedhollow is smothered by Chitterbane's swarm of 240 bite-flies, and no one can hang laundry, cook, or nap. Mr 6 remembers that bite-flies flee from a marsh-fiddle song, and he knows exactly three verses. Before he plays, he wants to know if three verses will be enough.",
+  "question": "The first verse drives off 1/3 of the 240 bite-flies, the second drives off 1/4 of those still buzzing, and the third drives off 40% of the ones remaining after that. How many bite-flies are still buzzing when the song ends?",
+  "answer": 72,
+  "unit": "bite-flies",
+  "distractors": [
+    160,
+    120,
+    48
+  ],
+  "solution": [
+    "Verse one: 1/3 of 240 = 80 leave, so 240 - 80 = 160 remain.",
+    "Verse two: 1/4 of 160 = 40 leave, so 160 - 40 = 120 remain.",
+    "Verse three: 40% of 120 = 48 leave, so 120 - 48 = 72 bite-flies are still buzzing."
+  ],
+  "praise": "Taking the fractions one verse at a time was smart thinking — just remember each verse acts on the flies still LEFT, and the question asks who stays, not who flees.",
+  "hint": "After each verse, write down how many flies remain — the next verse's fraction is taken from that new number.",
+  "victory": "Seventy-two stubborn bite-flies remain, so Mr 6 hums a fourth verse he makes up on the spot. Chitterbane, deeply offended by the rhyme scheme, packs up her whole swarm and buzzes off to a quieter bog.",
+  "image": "images/chitterbane-gnat-verses.webp",
+  "imagePrompt": "A numeral-6 knight playing a small marsh-fiddle on a reed platform at dusk while clouds of glowing bite-flies spiral away from a crowned gnat duchess, grateful mudlark villagers cheering below."
+}

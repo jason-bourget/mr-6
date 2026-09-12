@@ -1,0 +1,25 @@
+{
+  "id": "pellisandre-grotto-siphon",
+  "tier": "champion",
+  "title": "The Grotto That Would Not Drain",
+  "monster": "Pellisandre the Brine Bellows",
+  "story": "Deep in a pearl-diver's grotto, Mr 6 finds three sea-otter pups huddled on a stone ledge while Pellisandre the Brine Bellows pumps the ocean in through a crack, chuckling bubbles. Mr 6 jams his shield into the crack and cranks the old drain-siphon, but the water keeps creeping up. He needs to know exactly how long the pups have before the ledge goes under.",
+  "question": "Pellisandre pushes in 12 gallons of seawater every minute while Mr 6's siphon pulls out 7.5 gallons every minute, and only 72 more gallons will fit before the ledge floods. How many minutes does Mr 6 have to carry the pups out?",
+  "answer": 16,
+  "unit": "minutes",
+  "distractors": [
+    6,
+    9.6,
+    4.5
+  ],
+  "solution": [
+    "The water really rises by 12 - 7.5 = 4.5 gallons each minute, because the siphon fights the flood.",
+    "Time to add 72 gallons: 72 ÷ 4.5 = 16.",
+    "Mr 6 has 16 minutes to get the pups to dry stone."
+  ],
+  "praise": "Dividing to find the time was exactly right — the missing step was subtracting the siphon's 7.5 gallons first, so you divide by the REAL rise.",
+  "hint": "Two things happen every minute: water comes in AND water goes out. What is the leftover rise per minute?",
+  "victory": "Mr 6 ferries all three pups out with four minutes to spare, then politely hands Pellisandre the siphon handle. The Brine Bellows pumps the grotto dry by accident and sulks off, very clean.",
+  "image": "images/pellisandre-grotto-siphon.webp",
+  "imagePrompt": "A small knightly numeral 6 in a blue cape cranking a brass siphon in a glowing turquoise sea cave while a bellows-shaped brine monster blows water through a crack and three otter pups huddle on a ledge, dramatic lantern light."
+}

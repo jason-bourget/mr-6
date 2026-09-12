@@ -1,0 +1,25 @@
+{
+  "id": "brollimund-tithe-gargoyle",
+  "tier": "champion",
+  "title": "The Gargoyle's Greedy Tithe",
+  "monster": "Brollimund the Tithe Gargoyle",
+  "story": "At the cliff-gate of Windvault, a stone gargoyle named Brollimund flaps down onto the salt caravan and demands his ancient tithe before anyone may pass. The six caravan drivers groan — whatever is left must still be split evenly among them. Mr 6 taps his chin, borrows a stick of chalk, and starts figuring on the gate stones.",
+  "question": "The caravan carries 120 amber chits, Brollimund's tithe takes 35% of them, and the rest is shared equally among the 6 drivers. How many amber chits does each driver receive?",
+  "answer": 13,
+  "unit": "chits",
+  "distractors": [
+    42,
+    78,
+    20
+  ],
+  "solution": [
+    "The tithe is 35% of 120 = 42 chits, so 120 - 42 = 78 chits are left.",
+    "Shared evenly: 78 ÷ 6 = 13.",
+    "Each driver takes home 13 amber chits."
+  ],
+  "praise": "Finding 35% first was the right move — the last step was splitting what REMAINS, not the tithe itself.",
+  "hint": "First work out how many chits Brollimund keeps, then see how many are left before you divide by 6.",
+  "victory": "Mr 6 shows Brollimund that a 35% tithe of a caravan that stops coming is 35% of nothing. The gargoyle blinks, lowers his fee to a friendly handshake, and waves the wagons through.",
+  "image": "images/brollimund-tithe-gargoyle.webp",
+  "imagePrompt": "A winged stone gargoyle perched on a cliff gate at sunset counting amber coins while a brave numeral-6 knight chalks percentages on the gate stones and six caravan drivers watch hopefully."
+}
