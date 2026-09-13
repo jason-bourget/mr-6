@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-13",
+  "title": "The Five-Fanged Fury",
+  "monster": "Quintus the Quintuple Hydra",
+  "story": "Quintus the Quintuple Hydra rears up with five snapping heads, and every head bites with the exact force Mr 6 shows it — unless he strikes first and strikes FIVE times harder. One mighty blow times five, and a head folds up like wet paper; hesitate, and all five heads answer at once. Quintus counts fast, little knight — can you count faster?",
+  "rule": "Strike back with FIVE-fold force!",
+  "image": "images/rapid-2026-09-13.webp",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        11,
+        36,
+        25
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 40,
+      "distractors": [
+        45,
+        32,
+        13
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        55,
+        17,
+        50
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        65,
+        60,
+        19
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        25,
+        105
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        85,
+        80,
+        95
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        125,
+        100
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 160,
+      "distractors": [
+        150,
+        165,
+        155
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 225,
+      "distractors": [
+        200,
+        220,
+        235
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 300,
+      "distractors": [
+        30,
+        350,
+        250
+      ]
+    }
+  ]
+}

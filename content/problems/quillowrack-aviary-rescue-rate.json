@@ -1,0 +1,25 @@
+{
+  "id": "quillowrack-aviary-rescue-rate",
+  "tier": "champion",
+  "title": "The Aviary of Falling Feathers",
+  "monster": "Quillowrack the Molting Rook",
+  "story": "High in the Windvane Aviary, Quillowrack the Molting Rook has trapped twelve songbird chicks in a wicker gondola dangling from a fraying rope. The rope is slipping downward toward the thornbriar at a steady 8.5 feet every minute, while Mr 6 cranks the old winch, hauling the gondola back up at 11 feet every minute. The gondola starts 21 feet above the thorns, and Mr 6 must lift it to the safe ledge 18 feet above where it hangs now.",
+  "question": "If Mr 6 cranks steadily while the rope keeps slipping, how many minutes will it take the gondola to rise the 18 feet to the safe ledge?",
+  "answer": 7.2,
+  "unit": "minutes",
+  "distractors": [
+    2.5,
+    1.64,
+    0.72
+  ],
+  "solution": [
+    "Each minute the gondola really gains 11 - 8.5 = 2.5 feet.",
+    "To climb 18 feet at 2.5 feet per minute: 18 / 2.5 = 7.2.",
+    "Mr 6 needs 7.2 minutes of steady cranking."
+  ],
+  "praise": "Finding the difference between cranking and slipping is exactly the right move — the last step was dividing the 18 feet by that net speed.",
+  "hint": "The rope pulls down while Mr 6 pulls up. What is the gondola's REAL gain in one minute?",
+  "victory": "At 7.2 minutes the gondola kissed the ledge and twelve chicks tumbled out cheeping. Quillowrack shed one embarrassed feather and flapped off to molt somewhere less mathematical.",
+  "image": "images/quillowrack-aviary-rescue-rate.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape cranking a wooden winch on a high windy aviary platform at golden hour, a wicker gondola full of tiny chicks rising toward him while a huge sooty rook glares from a rafter."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sarravance-glasshouse-tithe-percent",
+  "tier": "champion",
+  "title": "The Auctioneer of Sunlit Glass",
+  "monster": "Sarravance the Glasshouse Auctioneer",
+  "story": "Sarravance the Glasshouse Auctioneer has locked the village's seed stores behind a crystal gate and will only open it for the exact tithe: 240 gold crowns of rare sunfruit. She lists the fruit at 15 crowns each, but cackles that Mr 6 must also pay a 20% 'admiration surcharge' on whatever the fruit costs. Mr 6 counts his purse: 216 crowns, and he needs to buy 12 sunfruit.",
+  "question": "After buying 12 sunfruit at 15 crowns each plus the 20% surcharge, how many crowns are left in Mr 6's purse?",
+  "answer": 0,
+  "unit": "crowns",
+  "distractors": [
+    36,
+    180,
+    216
+  ],
+  "solution": [
+    "The fruit costs 12 x 15 = 180 crowns.",
+    "The surcharge is 20% of 180 = 0.20 x 180 = 36 crowns, so the total is 180 + 36 = 216 crowns.",
+    "216 - 216 = 0 crowns left — exactly enough, not a coin wasted."
+  ],
+  "praise": "Working out the fruit price first was smart — the surcharge had to be added on before subtracting from the purse.",
+  "hint": "Find the plain cost of the fruit first, then ask what 20% of THAT number is.",
+  "victory": "Mr 6 tipped his last coin into the scale and the crystal gate swung wide. Sarravance blinked at her empty surcharge bowl and muttered, 'Nobody ever budgets like that,' as the villagers streamed in for seed.",
+  "image": "images/sarravance-glasshouse-tithe-percent.webp",
+  "imagePrompt": "A grand sunlit glasshouse market of crystal panes and hanging fruit, where a small numeral-six knight slides a final gold coin across a scale toward a tall shimmering glass-robed auctioneer, warm light flooding through the roof."
+}
