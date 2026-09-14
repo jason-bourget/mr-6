@@ -1,0 +1,25 @@
+{
+  "id": "vorlaine-fogbank-signal",
+  "tier": "champion",
+  "title": "The Signal Through the Muffling Fog",
+  "monster": "Vorlaine the Cloud Muffler",
+  "story": "Two young kite-riders are stranded on a thunderhead, and the only way to guide them home is the cliff-top signal lamp. But Vorlaine the Cloud Muffler has spread herself across the sky like grey wool, swallowing most of any light that passes through. Mr 6 climbs to the lamp, wipes the glass with his cape, and starts doing the math instead of just cranking the wick.",
+  "question": "Vorlaine absorbs 60% of any beam that enters her fog, and 84 candlepower must actually reach the kite-riders. How many candlepower must Mr 6's lamp send out?",
+  "answer": 210,
+  "unit": "candlepower",
+  "distractors": [
+    140,
+    50.4,
+    134.4
+  ],
+  "solution": [
+    "If 60% is absorbed, only 100% - 60% = 40% of the beam gets through, so 0.4 of the lamp must equal 84.",
+    "Undo the shrinking by dividing: 84 ÷ 0.4 = 210.",
+    "The lamp must blaze at 210 candlepower."
+  ],
+  "praise": "Working with the percent was smart thinking — the missing step was using the 40% that gets THROUGH, not the 60% that gets eaten.",
+  "hint": "If the fog swallows 60%, what percent of the beam actually survives the trip? That surviving part has to equal 84.",
+  "victory": "Mr 6 cranked the wick to a roaring 210, the beam punched a clean tunnel through the grey, and Vorlaine — suddenly lit up like a lampshade and deeply embarrassed — drifted off to be a very ordinary rain cloud somewhere else.",
+  "image": "images/vorlaine-fogbank-signal.webp",
+  "imagePrompt": "A cliff-top signal lighthouse at night firing a brilliant golden beam through a vast sullen grey fog-creature, with two tiny kite-riders silhouetted on a distant thundercloud and a numeral-6 knight in a blue cape turning the lamp's crank."
+}

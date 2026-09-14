@@ -1,0 +1,25 @@
+{
+  "id": "sablequench-geyser-drain",
+  "tier": "champion",
+  "title": "The Draining of the Healing Springs",
+  "monster": "Sablequench the Steam Lurker",
+  "story": "High on the shoulder of a smoking volcano sits the Healing Springs, where sore-footed travelers soak their blisters away. Sablequench the Steam Lurker has coiled into the basin and begun slurping the precious water down its throat, while the volcano's little spring keeps bubbling fresh water back in. Mr 6 kneels at the rim, sword across his knees, counting bubbles instead of panicking.",
+  "question": "The basin holds 90 gallons. Sablequench slurps 7.5 gallons every minute while the spring refills 3 gallons every minute. How many minutes until the basin is completely empty?",
+  "answer": 20,
+  "unit": "minutes",
+  "distractors": [
+    12,
+    30,
+    4.5
+  ],
+  "solution": [
+    "Each minute the basin really loses 7.5 - 3 = 4.5 gallons, because the spring is fighting back.",
+    "Divide the water by the real loss: 90 ÷ 4.5 = 20.",
+    "Mr 6 has 20 minutes before the springs run dry."
+  ],
+  "praise": "Dividing was exactly the right instinct — the missing step was subtracting the refill first, since the spring keeps putting water back.",
+  "hint": "The monster drinks and the spring refills at the same time. What is the basin's NET loss in one single minute?",
+  "victory": "With 20 minutes measured out, Mr 6 calmly plugged the drain-stone at minute 19 — and Sablequench, slurping nothing but warm steam, hiccuped itself right out of the basin and rolled downhill like an angry kettle.",
+  "image": "images/sablequench-geyser-drain.webp",
+  "imagePrompt": "A steaming turquoise volcanic spring basin at dusk, a long serpentine steam-creature slurping at the water while a small brave numeral-6 knight in a blue cape crouches on the mossy rim counting on his fingers."
+}

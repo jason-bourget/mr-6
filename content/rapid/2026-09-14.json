@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-14",
+  "title": "The Four-Armed Fury",
+  "monster": "Quadros, the Four-Armed Clockwork Ogre",
+  "story": "Quadros the Clockwork Ogre swings four gauntleted arms at once, and every hit he lands is copied by all four fists — the only way to dent his gears is to answer him arm for arm. Mr 6 raises his blade and vows: whatever force Quadros throws, the Knight of Numbers returns it FOUR times over, until the ogre's springs pop clean out. His arms wind faster every second, brave knight — can you multiply before he swings again?",
+  "rule": "Strike back with FOUR-FOLD force!",
+  "image": "images/rapid-2026-09-14.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 12,
+      "distractors": [
+        7,
+        6,
+        120
+      ]
+    },
+    {
+      "q": "6",
+      "answer": 24,
+      "distractors": [
+        12,
+        20,
+        26
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        44,
+        24,
+        480
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        45,
+        30,
+        64
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        800,
+        24
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        90,
+        50,
+        1000
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 160,
+      "distractors": [
+        16,
+        80,
+        140
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        24,
+        120,
+        260
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 300,
+      "distractors": [
+        280,
+        150,
+        3000
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 500,
+      "distractors": [
+        485,
+        250,
+        50
+      ]
+    }
+  ]
+}

@@ -187,6 +187,9 @@
     "problems/brollimund-tithe-gargoyle.json",
     "problems/chitterbane-gnat-verses.json",
     "problems/quillowrack-aviary-rescue-rate.json",
-    "problems/sarravance-glasshouse-tithe-percent.json"
+    "problems/sarravance-glasshouse-tithe-percent.json",
+    "problems/sablequench-geyser-drain.json",
+    "problems/hushclaver-crystal-chord.json",
+    "problems/vorlaine-fogbank-signal.json"
   ]
 }

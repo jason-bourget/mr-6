@@ -1,0 +1,25 @@
+{
+  "id": "hushclaver-crystal-chord",
+  "tier": "champion",
+  "title": "The Chord That Opens the Cavern",
+  "monster": "Hushclaver the Chord Warden",
+  "story": "Deep beneath the hills lies a cathedral of singing crystals, and behind its locked gate wait three lost cave-mapmakers. Hushclaver the Chord Warden hovers before the gate and hums the rule: the gate opens only when five crystals are struck and their hums AVERAGE exactly 12 tones. Mr 6 has already struck four crystals, and the Warden grins, sure that no six-shaped knight can do arithmetic under pressure.",
+  "question": "The first four crystals hummed 9, 15, 10, and 12 tones. How many tones must the fifth crystal hum so that the five hums average exactly 12?",
+  "answer": 14,
+  "unit": "tones",
+  "distractors": [
+    46,
+    11.5,
+    12
+  ],
+  "solution": [
+    "To average 12 across 5 crystals, the hums must total 12 × 5 = 60 tones.",
+    "The four struck crystals gave 9 + 15 + 10 + 12 = 46 tones.",
+    "So the last crystal must hum 60 - 46 = 14 tones."
+  ],
+  "praise": "Adding the four hums was the perfect first move — the step still waiting was turning the target average into a target TOTAL (12 × 5).",
+  "hint": "An average of 12 across 5 crystals means a certain total. What total would that have to be?",
+  "victory": "Mr 6 tapped the fifth crystal for a ringing 14, the chord landed dead on average, and Hushclaver popped like a soap bubble of sound — the mapmakers walked out humming the tune all the way home.",
+  "image": "images/hushclaver-crystal-chord.webp",
+  "imagePrompt": "A glowing underground cathedral of tall humming crystals in blue and violet light, a translucent robed warden hovering before a sealed stone gate while a small numeral-6 knight raises his sword to tap a crystal."
+}
