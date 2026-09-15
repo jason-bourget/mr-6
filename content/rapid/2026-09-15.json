@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-15",
+  "title": "The Tenth-Taker's Toll",
+  "monster": "Decimus the Tithe Imp",
+  "story": "Decimus the Tithe Imp floats above the Bridge of Zeros, swelling fatter with every whole number he swallows — and he has just gulped a thundercloud. Mr 6 knows the imp's one weakness: any blast shrunk to exactly one tenth becomes too small to feed him, and he pops like a soap bubble. Slide that decimal point fast, Sir Six — the imp only stays hungry for a heartbeat!",
+  "rule": "Shrink it to ONE TENTH!",
+  "image": "images/rapid-2026-09-15.webp",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        14,
+        44
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        70,
+        17,
+        77
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        1.2,
+        21
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        99
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        2.5,
+        52
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        360,
+        3.6,
+        63
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "540",
+      "answer": 54,
+      "distractors": [
+        540,
+        5.4,
+        45
+      ]
+    },
+    {
+      "q": "830",
+      "answer": 83,
+      "distractors": [
+        830,
+        8.3,
+        38
+      ]
+    },
+    {
+      "q": "1200",
+      "answer": 120,
+      "distractors": [
+        12,
+        1200,
+        102
+      ]
+    }
+  ]
+}

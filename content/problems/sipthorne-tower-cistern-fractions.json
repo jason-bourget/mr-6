@@ -1,0 +1,25 @@
+{
+  "id": "sipthorne-tower-cistern-fractions",
+  "tier": "champion",
+  "title": "The Thirsty Wraith of Watchtower Hill",
+  "monster": "Sipthorne the Parch Wraith",
+  "story": "Sipthorne the Parch Wraith drifts up Watchtower Hill each night to sip from the stone cistern, and the families sheltering inside need water to last the week. The wraith boasts that it drinks a fraction, not a number, so \"nobody can ever tell how much is gone.\" Mr 6 lifts his lantern over the water line and smiles, because fractions are just numbers wearing hats.",
+  "question": "The cistern starts with 900 gallons; on the first night Sipthorne drinks 1/3 of it, and on the second night it drinks 1/4 of whatever is left. How many gallons remain after the second night?",
+  "answer": 450,
+  "unit": "gallons",
+  "distractors": [
+    600,
+    525,
+    300
+  ],
+  "solution": [
+    "Night one: 1/3 of 900 = 300 gallons gone, leaving 900 − 300 = 600 gallons.",
+    "Night two: 1/4 of 600 = 150 gallons gone, leaving 600 − 150 = 450 gallons.",
+    "So 450 gallons remain in the cistern."
+  ],
+  "praise": "Taking one third first was the perfect start — the missing step was taking the second fraction of the *new* amount, not the original 900.",
+  "hint": "Find the water left after the first night, and use THAT number when you take away one quarter.",
+  "victory": "Mr 6 chalks the exact water line on the stone, and Sipthorne — caught sipping on the record — huffs away in a puff of dry dust, thoroughly out-measured.",
+  "image": "images/sipthorne-tower-cistern-fractions.webp",
+  "imagePrompt": "A pale, ribbon-thin wraith bending over a moonlit stone cistern atop a watchtower while a small numeral-6 knight marks the water level with chalk under a starry sky."
+}

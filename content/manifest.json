@@ -190,6 +190,9 @@
     "problems/sarravance-glasshouse-tithe-percent.json",
     "problems/sablequench-geyser-drain.json",
     "problems/hushclaver-crystal-chord.json",
-    "problems/vorlaine-fogbank-signal.json"
+    "problems/vorlaine-fogbank-signal.json",
+    "problems/crannoch-scree-sling-lift.json",
+    "problems/sipthorne-tower-cistern-fractions.json",
+    "problems/drossamer-loft-nibbler-descent.json"
   ]
 }

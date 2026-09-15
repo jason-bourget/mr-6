@@ -1,0 +1,25 @@
+{
+  "id": "drossamer-loft-nibbler-descent",
+  "tier": "champion",
+  "title": "The Nibbler in the Rigging",
+  "monster": "Drossamer the Loft Nibbler",
+  "story": "Mr 6 is flying a rescue balloon home, its basket full of cliff-goats saved from a storm, when Drossamer the Loft Nibbler unfurls from the rigging and starts chewing tiny holes in the silk. The balloon begins to sink — but a warm evening updraft is also pushing it back up. Mr 6 pulls out his chalk instead of his sword, because the only thing that can save the goats is a good rate.",
+  "question": "The nibbled balloon sinks 8.5 feet each minute while the updraft lifts it 3 feet each minute, and the basket is 220 feet above the meadow. How many minutes until it touches down in the meadow?",
+  "answer": 40,
+  "unit": "minutes",
+  "distractors": [
+    25.88,
+    19.13,
+    44
+  ],
+  "solution": [
+    "Find the real sinking rate: 8.5 − 3 = 5.5 feet down each minute.",
+    "Divide the height by that rate: 220 ÷ 5.5 = 40.",
+    "The basket lands in 40 minutes."
+  ],
+  "praise": "Dividing the height by a sinking rate was smart thinking — the step that was missing is subtracting the updraft first so you use the *net* 5.5 feet per minute.",
+  "hint": "The balloon loses some height and gains some back every minute — how far does it really drop in one minute?",
+  "victory": "Forty gentle minutes later the basket kisses the clover, the goats bound off cheering, and Drossamer — full of silk and no longer flying — becomes the realm's first balloon-patching apprentice.",
+  "image": "images/drossamer-loft-nibbler-descent.webp",
+  "imagePrompt": "A fuzzy moth-like sky creature nibbling the silk of a slowly sinking rescue balloon full of goats, with a caped numeral-6 knight chalking numbers on the basket rail against a violet sunset."
+}

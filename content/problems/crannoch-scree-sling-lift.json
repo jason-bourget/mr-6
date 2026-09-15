@@ -1,0 +1,25 @@
+{
+  "id": "crannoch-scree-sling-lift",
+  "tier": "champion",
+  "title": "The Ledge That Crumbled",
+  "monster": "Crannoch the Scree Gnawer",
+  "story": "High on the Cloudhorn cliffs, Crannoch the Scree Gnawer chews the mountain path to gravel, stranding a shepherd's flock on a narrow ledge. The only way down is a rope sling that swings across the gap, and the Gnawer grins because he thinks nobody up there can count. Mr 6 tightens his helmet, coils the rope, and starts tallying woolly heads.",
+  "question": "There are 6 neat rows of 9 sheep plus 12 goats on the ledge, and each sling trip can carry 8 animals. How many sling trips are needed to bring every animal down?",
+  "answer": 9,
+  "unit": "trips",
+  "distractors": [
+    8,
+    8.25,
+    66
+  ],
+  "solution": [
+    "Count the animals: 6 rows × 9 sheep = 54 sheep, and 54 + 12 goats = 66 animals.",
+    "Divide by the sling's load: 66 ÷ 8 = 8.25, and a leftover animal still needs a whole trip.",
+    "Rounding up, Mr 6 needs 9 trips."
+  ],
+  "praise": "Dividing 66 by 8 was exactly the right move — the last step is remembering that a part-of-a-trip still has to be a whole trip.",
+  "hint": "First find how many animals there are in total, then think about what happens to the few left over after the full slings.",
+  "victory": "Nine careful swings later, every sheep and goat is munching meadow grass, and Crannoch is left gnawing an empty ledge and muttering about arithmetic.",
+  "image": "images/crannoch-scree-sling-lift.webp",
+  "imagePrompt": "A stony-jawed cliff monster chewing a crumbling mountain ledge while a small knightly numeral 6 with a blue cape guides a rope sling of sheep across a misty gap at golden hour."
+}
