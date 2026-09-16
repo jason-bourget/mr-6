@@ -193,6 +193,9 @@
     "problems/vorlaine-fogbank-signal.json",
     "problems/crannoch-scree-sling-lift.json",
     "problems/sipthorne-tower-cistern-fractions.json",
-    "problems/drossamer-loft-nibbler-descent.json"
+    "problems/drossamer-loft-nibbler-descent.json",
+    "problems/fennigrast-quadrupling-glowworms.json",
+    "problems/skarrowgulp-tidecave-rescue.json",
+    "problems/slumberdredge-mud-crust-chimes.json"
   ]
 }

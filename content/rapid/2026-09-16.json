@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-16",
+  "title": "The Triple-Headed Roar",
+  "monster": "Trihydra, the Three-Headed Echo Hydra",
+  "story": "Trihydra rears up from the misty moat with three hissing heads that shout every sound back three times louder, and the castle walls are starting to crack. Mr 6 discovers the beast's weakness: it can only absorb a blow equal to its own roar, so any strike TRIPLED overwhelms all three heads at once. Every second you hesitate, the hydra grows another echo — so triple fast, brave knight, and triple true!",
+  "rule": "Strike back with TRIPLE force!",
+  "image": "images/rapid-2026-09-16.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        7,
+        16,
+        13
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        10,
+        24
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        24,
+        33,
+        39
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        54
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        42,
+        66,
+        36
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 90,
+      "distractors": [
+        60,
+        9,
+        93
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        50,
+        65,
+        78
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 120,
+      "distractors": [
+        80,
+        12,
+        130
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        125,
+        90,
+        145
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        120,
+        18,
+        190
+      ]
+    }
+  ]
+}

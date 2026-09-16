@@ -1,0 +1,25 @@
+{
+  "id": "slumberdredge-mud-crust-chimes",
+  "tier": "champion",
+  "title": "The Tortoise in the Mud Armor",
+  "monster": "Slumberdredge the Mire Tortoise",
+  "story": "Slumberdredge the Mire Tortoise has slept so long in the swamp that a shell of baked mud has sealed her solid across the only causeway, and she snaps grumpily at anyone who comes near. Mr 6 borrows a resonance chime from the reed-folk: each chime sends 250 shudder-points into the crust, but the spongy mud soaks up 40% of every chime.",
+  "question": "If the crust needs 700 shudder-points of damage to crack apart, how many chimes must Mr 6 ring?",
+  "answer": 5,
+  "unit": "chimes",
+  "distractors": [
+    4,
+    2.8,
+    100
+  ],
+  "solution": [
+    "The mud absorbs 40% of 250, which is 100, so each chime really lands 250 - 100 = 150 shudder-points.",
+    "700 / 150 = 4 with 100 shudder-points still left over, so 4 chimes is not quite enough.",
+    "Mr 6 must ring 5 chimes."
+  ],
+  "praise": "Taking off the 40% the mud swallows was smart thinking — the leftover crust just needed one extra chime to finish.",
+  "hint": "First work out how much damage actually gets through one chime after the mud eats 40% of it. Then see whether the last partial chime still has to be rung.",
+  "victory": "On the fifth ring the mud crust falls away in warm brown flakes, and Slumberdredge — who was only grumpy because she was stuck — carries Mr 6 across the causeway on her clean, shiny shell.",
+  "image": "images/slumberdredge-mud-crust-chimes.webp",
+  "imagePrompt": "A numeral-six knight in a little helmet ringing a glowing brass resonance chime before a giant mud-crusted tortoise blocking a reed causeway, misty golden dusk over the swamp with flakes of cracked mud flying."
+}

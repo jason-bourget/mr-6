@@ -1,0 +1,25 @@
+{
+  "id": "skarrowgulp-tidecave-rescue",
+  "tier": "champion",
+  "title": "The Rising Tide Cave",
+  "monster": "Skarrowgulp the Cave Gulper",
+  "story": "In a shell-lined sea cave, four otter-folk pups are huddled on a ledge 9 feet above the water, while Skarrowgulp the Cave Gulper gulps down seawater and spouts it back out, raising the pool 4.5 feet every minute. Mr 6 pries open an old drain rune in the cave floor, which sucks 3 feet of water per minute back out to sea.",
+  "question": "With water pouring in at 4.5 feet per minute and draining out at 3 feet per minute, how many minutes until the water reaches the pups' ledge 9 feet up?",
+  "answer": 6,
+  "unit": "minutes",
+  "distractors": [
+    2,
+    1.5,
+    1.2
+  ],
+  "solution": [
+    "Water comes in at 4.5 feet per minute and leaves at 3, so it really rises 4.5 - 3 = 1.5 feet each minute.",
+    "The ledge is 9 feet up, so 9 / 1.5 = 6 minutes.",
+    "Mr 6 has 6 minutes to get the pups out."
+  ],
+  "praise": "Dividing to find the time was the right instinct — the drain rune's 3 feet just needed to be subtracted first.",
+  "hint": "The water is coming in AND going out at the same time. Find how much the pool truly gains in one single minute before you divide.",
+  "victory": "Mr 6 knots his cape into a sling and swings all four pups out with a full minute to spare — six minutes, calculated by a six. Skarrowgulp, impressed, spits the rest of the water out the cave mouth and asks to be taught fractions.",
+  "image": "images/skarrowgulp-tidecave-rescue.webp",
+  "imagePrompt": "A numeral-six knight swinging four otter pups to safety on a caped sling inside a glittering sea cave as a huge whiskered gulper monster spouts a column of seawater, dramatic blue-green light on rising water."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "fennigrast-quadrupling-glowworms",
+  "tier": "champion",
+  "title": "The Gong of the Glowworms",
+  "monster": "Fennigrast the Quadrupling Glowworm",
+  "story": "Deep in the Crystal Mine, Mr 6 finds three fat blue glowworms clinging to the lantern hall ceiling — and a very nervous crew of miners. Every time the mine's warning gong rings, each glowworm splits into four, and the panicking miners have already whacked the gong four times.",
+  "question": "If the swarm started as 3 glowworms and each gong ring turns every glowworm into 4, how many glowworms are glowing in the lantern hall after 4 rings?",
+  "answer": 768,
+  "unit": "glowworms",
+  "distractors": [
+    192,
+    3072,
+    19
+  ],
+  "solution": [
+    "Each ring multiplies the whole swarm by 4, so track it: 3 → 12 → 48 → 192 → 768.",
+    "That is 3 * 4 * 4 * 4 * 4 = 768.",
+    "After 4 rings there are 768 glowworms."
+  ],
+  "praise": "Multiplying by 4 was exactly the right idea — the swarm just needed one more ring counted before you stopped.",
+  "hint": "Write the count after each ring, one ring at a time: after ring 1 there are 3 * 4 glowworms. Keep going for four rings.",
+  "victory": "Mr 6 does the math in his head, yelps \"Do NOT ring that again!\" and stuffs his blue cape into the gong. With nothing left to split from, all 768 glowworms drift into place as the brightest chandelier the mine has ever had.",
+  "image": "images/fennigrast-quadrupling-glowworms.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape wedging his cape into a huge brass gong inside a crystal mine ceiling swirling with hundreds of glowing blue worms, cool turquoise light and astonished miners below."
+}
