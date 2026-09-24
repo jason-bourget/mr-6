@@ -1,0 +1,25 @@
+{
+  "id": "drizzlewrack-cloud-average",
+  "tier": "champion",
+  "title": "The Miser Who Hoarded the Rain",
+  "monster": "Drizzlewrack the Cloud Miser",
+  "story": "The Thistle Valley has been dry for a season because Drizzlewrack has bottled every cloud inside his floating cistern, and he refuses to release a drop until his ledger is satisfied. 'Five days of collecting,' he wheezes, 'and my average must reach 250 barrels per day — not one barrel less.' Mr 6 climbs the cloud-ladder, reads the ledger, and sees the first four days: 210, 268, 231, and 251 barrels.",
+  "question": "How many barrels must fall on day five for the five-day average to be exactly 250?",
+  "answer": 290,
+  "unit": "barrels",
+  "distractors": [
+    240,
+    250,
+    1250
+  ],
+  "solution": [
+    "For an average of 250 across 5 days, the total must be 250 × 5 = 1250 barrels.",
+    "The first four days add up to 210 + 268 + 231 + 251 = 960 barrels.",
+    "So day five needs 1250 − 960 = 290 barrels."
+  ],
+  "praise": "Looking at the four days you had was the right first move — the trick is that an average question is really a TOTAL question: multiply the average by 5, then subtract what's already there.",
+  "hint": "An average of 250 over 5 days means a certain grand total — work out that total first, then see how much is still missing.",
+  "victory": "Mr 6 tipped the last stormcloud in, the ledger balanced at exactly 250, and Drizzlewrack's cistern burst open into a warm silver rain over Thistle Valley. The miser floated off grumbling that nobody had ever checked his arithmetic before.",
+  "image": "images/drizzlewrack-cloud-average.webp",
+  "imagePrompt": "A gaunt cloud-spirit in a rain-stained coat clutching a soggy ledger atop a floating brass cistern, as a small numeral-six knight tips a storm cloud into it and the first rain falls on a parched green valley far below."
+}

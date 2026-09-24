@@ -1,0 +1,25 @@
+{
+  "id": "quibblenox-tariff-toad-market",
+  "tier": "champion",
+  "title": "The Toad Who Taxed the Moonpears",
+  "monster": "Quibblenox the Tariff Toad",
+  "story": "High on the Gullwind Market ledge, a bloated toad in a tax-collector's hat squats on the only gate, croaking prices at anyone carrying food to the hungry hamlet below. Mr 6 needs 8 crates of moonpears, priced at 12.5 sunspur coins each. He flashes a caravan token that takes 10% off the crates — but Quibblenox slaps a 15% tariff on whatever price Mr 6 ends up paying.",
+  "question": "How many sunspur coins must Mr 6 hand over in total?",
+  "answer": 103.5,
+  "unit": "sunspur coins",
+  "distractors": [
+    90,
+    115,
+    100
+  ],
+  "solution": [
+    "8 crates × 12.5 = 100 sunspur coins before any deals.",
+    "The token takes 10% off: 100 − 10 = 90 coins.",
+    "The tariff adds 15% of 90: 90 + 13.5 = 103.5 sunspur coins."
+  ],
+  "praise": "Taking the discount first was smart bookkeeping — the tariff just had to be added on top of the NEW price, not left off the end.",
+  "hint": "Find the plain cost of 8 crates first, then apply the discount, and only then let the toad add his 15%.",
+  "victory": "Mr 6 counted out 103.5 coins so precisely that Quibblenox, who had been overcharging for years, blushed a deep swampy green and waved the moonpear cart through for free. The hamlet ate fruit pie for a week.",
+  "image": "images/quibblenox-tariff-toad-market.webp",
+  "imagePrompt": "A huge bespectacled toad in a tax-collector's hat guarding a windy cliff-ledge market gate, while a small numeral-six knight coolly stacks glowing coins on a barrel beside crates of silvery moonpears at sunset."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-24",
+  "title": "The Hundred-Shield Standoff",
+  "monster": "Centurio the Shield Golem",
+  "story": "Centurio the Shield Golem lumbers out of the fog with a hundred points of stone armor humming on his arm, boasting that no blade has ever reached him. Mr 6 spots the flaw: every hit Mr 6 lands is swallowed by the shield, so the knight must instantly call out how much armor is LEFT — and the moment he names zero-bound truth fast enough, the stone cracks. Centurio recharges in seconds, so subtract from 100 quicker than he can blink!",
+  "rule": "Subtract it from 100!",
+  "image": "images/rapid-2026-09-24.webp",
+  "problems": [
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        70,
+        90,
+        20
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        74
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 55,
+      "distractors": [
+        65,
+        45,
+        56
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        46
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        32
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 15,
+      "distractors": [
+        25,
+        5,
+        20
+      ]
+    },
+    {
+      "q": "37",
+      "answer": 63,
+      "distractors": [
+        73,
+        53,
+        67
+      ]
+    },
+    {
+      "q": "64",
+      "answer": 36,
+      "distractors": [
+        46,
+        26,
+        44
+      ]
+    },
+    {
+      "q": "93",
+      "answer": 7,
+      "distractors": [
+        17,
+        13,
+        3
+      ]
+    }
+  ]
+}

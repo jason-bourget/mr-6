@@ -1,0 +1,25 @@
+{
+  "id": "hollowmarch-quicksand-basket-lift",
+  "tier": "champion",
+  "title": "The Basket Over the Swallowing Sand",
+  "monster": "Hollowmarch the Quicksand Maw",
+  "story": "In the Glass Dunes, a whirling mouth of sand called Hollowmarch has opened beneath a caravan rest-stop, and 47 traders are stranded on a sinking stone platform. Mr 6 rigs a rope-and-pulley basket from the nearest cliff, tightens his little helmet, and starts counting instead of panicking. The basket holds only 6 travelers, and each round trip — down, load, and back up — takes exactly 4.5 minutes.",
+  "question": "If Mr 6 must lift all 47 travelers to the cliff, how many minutes will the whole rescue take?",
+  "answer": 36,
+  "unit": "minutes",
+  "distractors": [
+    8,
+    31.5,
+    211.5
+  ],
+  "solution": [
+    "47 travelers ÷ 6 per basket = 7.83..., and you cannot send a partial basket, so Mr 6 needs 8 trips (7 full baskets of 6, plus 5 people in the last one).",
+    "Each round trip takes 4.5 minutes: 8 × 4.5 = 36.",
+    "The rescue takes 36 minutes."
+  ],
+  "praise": "Dividing 47 by 6 was exactly the right opening move — the missing step was rounding that leftover group UP to one more whole basket before multiplying by the trip time.",
+  "hint": "First ask: how many basketfuls does it take to move 47 people, 6 at a time — and what happens to the leftovers?",
+  "victory": "The last basket swung up just as the platform slurped under, and Hollowmarch spat out nothing but a mouthful of empty crates. 'Arithmetic,' said Mr 6, coiling his rope, 'is faster than sand.'",
+  "image": "images/hollowmarch-quicksand-basket-lift.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape working a cliffside rope-pulley basket above a swirling funnel of golden quicksand, stranded traders waving from a tilting stone platform under a hot copper sky."
+}
