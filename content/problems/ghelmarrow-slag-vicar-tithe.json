@@ -1,0 +1,25 @@
+{
+  "id": "ghelmarrow-slag-vicar-tithe",
+  "tier": "champion",
+  "title": "The Slag Vicar's Cut",
+  "monster": "Ghelmarrow the Slag Vicar",
+  "story": "On the rim road above a grumbling volcano, Ghelmarrow the Slag Vicar guards the only bridge and demands a \"cut\" of every hoard that crosses. Mr 6 is escorting 480 ember coins rescued from a collapsed mine, meant to be split evenly among the eight ash-villages below. Ghelmarrow smirks, certain that nobody ever checks his arithmetic.",
+  "question": "If Ghelmarrow takes 35% of the 480 ember coins and the rest is shared equally among the 8 ash-villages, how many ember coins does each village receive?",
+  "answer": 39,
+  "unit": "ember coins",
+  "distractors": [
+    168,
+    312,
+    60
+  ],
+  "solution": [
+    "Ghelmarrow's cut: 480 × 0.35 = 168 ember coins.",
+    "Coins left for the villages: 480 - 168 = 312.",
+    "Shared out: 312 ÷ 8 = 39 ember coins for each village."
+  ],
+  "praise": "Finding 35% of 480 was the right first move — the last step was splitting what was LEFT (480 - 168) among the eight villages.",
+  "hint": "Work in order: first find the vicar's 35%, then see how many coins are still in the chest, and only then divide.",
+  "victory": "Mr 6 counted the shares out loud, and Ghelmarrow — who had been quietly overcharging by rounding wrong for eleven years — turned the color of cooled slag and fled into a lava tube. The ash-villages now post a tally board at the bridge, written in very large numbers.",
+  "image": "images/ghelmarrow-slag-vicar-tithe.webp",
+  "imagePrompt": "A stooped stone-and-cinder vicar monster in scorched robes weighing coins on the lip of a glowing volcano bridge while a numeral-six knight tips out a chest of ember coins, orange firelight and drifting ash."
+}

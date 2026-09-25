@@ -1,0 +1,25 @@
+{
+  "id": "vossmire-tide-chapel-rescue",
+  "tier": "champion",
+  "title": "The Flooded Bell Chapel",
+  "monster": "Vossmire the Tide Gullet",
+  "story": "Deep in the drowned sea-chapel, Vossmire the Tide Gullet gulps in the ocean and spits it back out, making the water climb higher and higher. On a narrow stone ledge above the flood, a litter of six otter pups huddles and squeaks. Mr 6 jams his shield into the drain-hole and cranks the old bilge pump, but the pump alone cannot win — he needs to know exactly how much time he has.",
+  "question": "Vossmire pushes the water up 6.25 inches every minute, while Mr 6's pump drains 3.75 inches every minute, and the pups' ledge sits 30 inches above the water right now — how many minutes does Mr 6 have before the water reaches the ledge?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    4.8,
+    8,
+    2.5
+  ],
+  "solution": [
+    "Each minute the water really rises 6.25 - 3.75 = 2.5 inches.",
+    "Time to climb the gap: 30 ÷ 2.5 = 12.",
+    "Mr 6 has 12 minutes to carry the pups up the bell rope."
+  ],
+  "praise": "Dividing into the 30-inch gap was exactly the right move — the missing step was subtracting the pump's 3.75 inches to find the REAL rise each minute.",
+  "hint": "The water goes up and the pump pulls it down at the same time. What is the net change in the water level in one single minute?",
+  "victory": "Mr 6 ferried all six pups up the bell rope with ninety seconds to spare, and Vossmire — with nothing left to flood — sulked out to sea making rude bubble noises. The otters now ring the chapel bell at high tide, just to show off.",
+  "image": "images/vossmire-tide-chapel-rescue.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape cranking an iron bilge pump in a half-flooded sea chapel while a wide-mouthed eel-like tide monster spouts green water, six otter pups shivering on a mossy stone ledge above, cold blue light through broken windows."
+}

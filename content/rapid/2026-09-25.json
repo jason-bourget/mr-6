@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-25",
+  "title": "The Echo Add-a-Wraith",
+  "monster": "Echo the Whispering Wraith",
+  "story": "Echo the Whispering Wraith haunts the Hall of Repeating Halls, and every time she shrieks a number back at Mr 6 she sneakily bolts 25 extra ghost-points onto it. The only way to silence her is to name the swollen number before the echo finishes bouncing — say it right and the wraith pops like a soap bubble, say it late and she shrieks again, louder. Can you add 25 faster than a ghost can gossip?",
+  "rule": "Add 25 to every echo!",
+  "image": "images/rapid-2026-09-25.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 35,
+      "distractors": [
+        25,
+        30,
+        45
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 45,
+      "distractors": [
+        35,
+        55,
+        40
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 57,
+      "distractors": [
+        47,
+        67,
+        52
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 70,
+      "distractors": [
+        60,
+        65,
+        80
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 83,
+      "distractors": [
+        73,
+        93,
+        78
+      ]
+    },
+    {
+      "q": "66",
+      "answer": 91,
+      "distractors": [
+        81,
+        89,
+        101
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 100,
+      "distractors": [
+        90,
+        95,
+        110
+      ]
+    },
+    {
+      "q": "87",
+      "answer": 112,
+      "distractors": [
+        102,
+        122,
+        107
+      ]
+    },
+    {
+      "q": "99",
+      "answer": 124,
+      "distractors": [
+        114,
+        134,
+        119
+      ]
+    },
+    {
+      "q": "138",
+      "answer": 163,
+      "distractors": [
+        153,
+        173,
+        158
+      ]
+    }
+  ]
+}

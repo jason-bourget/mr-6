@@ -1,0 +1,25 @@
+{
+  "id": "skelloway-windflute-average",
+  "tier": "champion",
+  "title": "The Windflute Ghast",
+  "monster": "Skelloway the Windflute Ghast",
+  "story": "Skelloway the Windflute Ghast lives inside the hollow pipes of Halcyon Spire, swallowing gusts and leaving the sky-harbor's cargo kites hanging limp and stranded. The spire's old charm will banish him, but only if the wind readings for five straight days average exactly 24 leagues per hour. Four days are already recorded, and Mr 6 has one chance to set the great vane for the fifth.",
+  "question": "The first four days measured 22, 19, 28, and 25 leagues per hour — what wind speed must day five be for the five-day average to reach exactly 24 leagues per hour?",
+  "answer": 26,
+  "unit": "leagues per hour",
+  "distractors": [
+    94,
+    24,
+    23.5
+  ],
+  "solution": [
+    "Add the four recorded days: 22 + 19 + 28 + 25 = 94.",
+    "A five-day average of 24 needs a total of 24 × 5 = 120.",
+    "Day five must be 120 - 94 = 26 leagues per hour."
+  ],
+  "praise": "Adding the four days was the right start — the missing step was working out the TOTAL the average demands (24 × 5 = 120) and subtracting.",
+  "hint": "An average of 24 over 5 days means the five numbers must add up to a certain total. Find that total first.",
+  "victory": "Mr 6 cranked the great vane to 26, the spire sang one enormous clear note, and Skelloway popped out of the pipes like a cork and blew away giggling. The cargo kites rose all at once, and the harbor master declared the day officially breezy.",
+  "image": "images/skelloway-windflute-average.webp",
+  "imagePrompt": "A translucent ghast made of swirling wind curling out of the organ-like pipes of a tall cliffside sky-harbor spire while a numeral-six knight hauls on a giant weather vane, stranded cargo kites fluttering in pale dawn light."
+}
