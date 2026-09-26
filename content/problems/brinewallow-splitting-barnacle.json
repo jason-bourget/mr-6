@@ -1,0 +1,25 @@
+{
+  "id": "brinewallow-splitting-barnacle",
+  "tier": "champion",
+  "title": "The Barnacle That Kept Answering Back",
+  "monster": "Brinewallow the Splitting Barnacle",
+  "story": "On the drowned lighthouse reef, Mr 6 finds four fat clusters of Brinewallow crusted over the rescue boats, and every single cluster splits into two brand-new ones every six minutes. The ferry crew cannot chip the boats free for a full half hour. Mr 6 sheathes his sword, sits on a barrel, and does the smarter thing: he counts ahead.",
+  "question": "If the 4 clusters double every 6 minutes for 30 minutes, and one salt-rune banishes exactly 8 clusters, how many salt-runes must Mr 6 carve?",
+  "answer": 16,
+  "unit": "salt-runes",
+  "distractors": [
+    128,
+    8,
+    20
+  ],
+  "solution": [
+    "In 30 minutes there are 30 / 6 = 5 doublings.",
+    "Doubling 4 five times: 4 → 8 → 16 → 32 → 64 → 128 clusters.",
+    "Each rune clears 8 clusters, so 128 / 8 = 16 salt-runes."
+  ],
+  "praise": "Tracking the doublings was exactly the right move — the last step was turning those clusters into runes by dividing by 8.",
+  "hint": "First ask: how many six-minute doubling steps fit inside 30 minutes? Only then worry about the runes.",
+  "victory": "Mr 6 carves all sixteen runes before the first split even happens, and Brinewallow pops off the hulls in one salty sigh — out-counted by a number who came prepared.",
+  "image": "images/brinewallow-splitting-barnacle.webp",
+  "imagePrompt": "A knightly numeral 6 in a blue cape sitting calmly on a barrel carving glowing salt-runes while clusters of barnacles multiply across a wrecked lighthouse reef at low tide, silver mist and dawn light."
+}

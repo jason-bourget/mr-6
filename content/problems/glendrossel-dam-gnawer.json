@@ -1,0 +1,25 @@
+{
+  "id": "glendrossel-dam-gnawer",
+  "tier": "champion",
+  "title": "The Valley That Kept Filling Up",
+  "monster": "Glendrossel the Dam Gnawer",
+  "story": "Glendrossel has gnawed a mud dam across the river mouth, and the stilt-village of Reedhollow is slowly drowning: the water rises 0.8 feet every hour. Mr 6 cranks open an old sluice gate that drains 0.3 feet every hour, which helps — but not enough. The water stands at 4.4 feet, and the villagers' stilt floors flood at 12 feet.",
+  "question": "How many hours do the villagers have before the water reaches 12 feet?",
+  "answer": 15.2,
+  "unit": "hours",
+  "distractors": [
+    9.5,
+    15,
+    24
+  ],
+  "solution": [
+    "With the sluice open, the water really rises 0.8 − 0.3 = 0.5 feet each hour.",
+    "The water still has 12 − 4.4 = 7.6 feet to climb.",
+    "7.6 / 0.5 = 15.2 hours before the floors flood."
+  ],
+  "praise": "Working with the rise-per-hour was smart thinking — the step that was missing was subtracting the sluice's drain to get the real rate.",
+  "hint": "The water climbs and drains at the same time — what is the true rise each hour once the sluice is open?",
+  "victory": "Mr 6 uses every one of those 15.2 hours to walk the village to high ground, and Glendrossel, finding nothing left to flood, sheepishly gnaws his own dam back open.",
+  "image": "images/glendrossel-dam-gnawer.webp",
+  "imagePrompt": "A huge shaggy river beast with chisel teeth perched on a mud dam above a half-flooded village of stilt houses, while a small numeral-6 knight hauls open a rusted sluice gate in grey rainy light."
+}

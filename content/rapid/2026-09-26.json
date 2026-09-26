@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-26",
+  "title": "The Splitting Slime Showdown",
+  "monster": "Gloopus the Splitting Slime",
+  "story": "Gloopus is a wobbling blob that swells bigger every second — and if you hit it wrong, it splits into TWO angry blobs instead of one! Mr 6 discovered the slime's only weakness: a blade stroke of exactly half its size slices it neatly into harmless jelly. Halve each blob's number before it doubles on you — and be quick, because Gloopus is already jiggling!",
+  "rule": "Slice it in HALF — exactly!",
+  "image": "images/rapid-2026-09-26.webp",
+  "problems": [
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        92
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 34,
+      "distractors": [
+        32,
+        24,
+        36
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 45,
+      "distractors": [
+        40,
+        35,
+        44
+      ]
+    },
+    {
+      "q": "34",
+      "answer": 17,
+      "distractors": [
+        16,
+        18,
+        12
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 29,
+      "distractors": [
+        28,
+        27,
+        24
+      ]
+    },
+    {
+      "q": "112",
+      "answer": 56,
+      "distractors": [
+        55,
+        66,
+        51
+      ]
+    },
+    {
+      "q": "136",
+      "answer": 68,
+      "distractors": [
+        63,
+        58,
+        78
+      ]
+    },
+    {
+      "q": "174",
+      "answer": 87,
+      "distractors": [
+        82,
+        77,
+        97
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 125,
+      "distractors": [
+        120,
+        115,
+        135
+      ]
+    }
+  ]
+}

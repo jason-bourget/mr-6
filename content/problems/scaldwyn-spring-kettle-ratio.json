@@ -1,0 +1,25 @@
+{
+  "id": "scaldwyn-spring-kettle-ratio",
+  "tier": "champion",
+  "title": "The Kettle That Bargains in Steam",
+  "monster": "Scaldwyn the Spring Kettle",
+  "story": "Halfway up the volcano, Scaldwyn squats over the healing hot springs and refuses to let the mountain village fill a single flask until someone mixes his Soothing Brew correctly. The recipe is strict: 3 parts moonwater to 5 parts ember sap, and the village needs 96 flasks of brew in all. Moonwater is free from the spring — but ember sap must be bought from the lava-farmers at 2.5 ember coins a flask.",
+  "question": "How many ember coins must Mr 6 pay for the ember sap needed to make all 96 flasks?",
+  "answer": 150,
+  "unit": "ember coins",
+  "distractors": [
+    60,
+    90,
+    240
+  ],
+  "solution": [
+    "The ratio 3 : 5 makes 3 + 5 = 8 parts, so one part is 96 / 8 = 12 flasks.",
+    "Ember sap is 5 parts: 5 × 12 = 60 flasks of sap.",
+    "At 2.5 coins each, 60 × 2.5 = 150 ember coins."
+  ],
+  "praise": "Splitting the recipe into ratio parts was the clever heart of this one — the missing step was multiplying those sap flasks by the 2.5-coin price.",
+  "hint": "How many equal parts does a 3 : 5 recipe have in total, and how big is one part out of 96?",
+  "victory": "Mr 6 pours the brew in perfect proportion and Scaldwyn whistles with delight, handing over the springs forever — he only ever wanted someone to take the recipe seriously.",
+  "image": "images/scaldwyn-spring-kettle-ratio.webp",
+  "imagePrompt": "A steaming giant kettle-shaped creature with a spout for a mouth hunched over glowing volcanic hot springs while a small numeral-6 knight measures two colored liquids into a flask, warm orange light and rising steam."
+}
