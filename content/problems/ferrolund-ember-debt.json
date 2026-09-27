@@ -1,0 +1,25 @@
+{
+  "id": "ferrolund-ember-debt",
+  "tier": "champion",
+  "title": "The Weevil's Ember Ledger",
+  "monster": "Ferrolund the Debt Weevil",
+  "story": "Ferrolund the Debt Weevil has clamped its jaws around the Harrowfield family's barn door, clicking that they owe 850 ember coins by nightfall. Mr 6 reads the weevil's own contract aloud: any debt settled before sundown shrinks by 40 percent. The family empties three pouches onto the table, each holding exactly 150 ember coins.",
+  "question": "After the 40 percent sundown reduction, how many more ember coins does the family still need beyond the three pouches?",
+  "answer": 60,
+  "unit": "ember coins",
+  "distractors": [
+    340,
+    510,
+    400
+  ],
+  "solution": [
+    "The reduction is 40% of 850: 0.4 x 850 = 340 coins off, leaving 850 - 340 = 510 coins owed.",
+    "The three pouches hold 3 x 150 = 450 coins.",
+    "So the family still needs 510 - 450 = 60 ember coins."
+  ],
+  "praise": "Taking the percent seriously was smart thinking — the missing step was subtracting the pouches from the REDUCED debt instead of stopping at the discount itself.",
+  "hint": "First find what the debt shrinks to after 40 percent comes off, then see how far 450 coins gets you.",
+  "victory": "Mr 6 fished 60 ember coins from his own cape lining and slapped them down before the sun touched the hill. Ferrolund's jaws sprang open with a pop, and it scuttled away grumbling about knights who read the small print.",
+  "image": "images/ferrolund-ember-debt.webp",
+  "imagePrompt": "A cape-wearing numeral-six knight stacks glowing orange coins on a farmhouse table as a huge armored weevil with a ledger etched into its shell reluctantly unclamps from a barn door, golden dusk light streaming through the slats."
+}

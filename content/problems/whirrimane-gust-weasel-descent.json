@@ -1,0 +1,25 @@
+{
+  "id": "whirrimane-gust-weasel-descent",
+  "tier": "champion",
+  "title": "The Gnawed Sky-Ferry",
+  "monster": "Whirrimane the Gust Weasel",
+  "story": "High over Thistlecrack Canyon, Whirrimane the Gust Weasel chews a slow hole in Mr 6's sky-ferry balloon, cackling that gravity will do the rest. Far below, a lantern-keeper is stranded on a narrow ledge exactly 36 feet beneath the basket. Mr 6 tightens his helmet, grips the burner lever, and decides to make the leak work FOR him.",
+  "question": "The chewed balloon sinks 7.2 feet every minute, while Mr 6's burner pushes it back up 4.8 feet every minute. How many minutes until the basket reaches the ledge 36 feet below?",
+  "answer": 15,
+  "unit": "minutes",
+  "distractors": [
+    5,
+    7.5,
+    3
+  ],
+  "solution": [
+    "The balloon really drops only the difference of the two rates: 7.2 - 4.8 = 2.4 feet each minute.",
+    "Now split the distance by that true rate: 36 / 2.4 = 15.",
+    "The basket touches the ledge in 15 minutes."
+  ],
+  "praise": "Turning feet-per-minute into time was exactly the right move — the one missing step was combining the leak and the burner into a single net rate first.",
+  "hint": "Two forces are fighting: one pulls down 7.2 feet a minute, one pushes up 4.8. How far does the basket actually move in one minute?",
+  "victory": "Mr 6 rode the leak down like a gentle elevator and scooped up the lantern-keeper with one arm. Whirrimane huffed off in a gust, furious that its hole had become a staircase.",
+  "image": "images/whirrimane-gust-weasel-descent.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape steadies a slowly deflating striped balloon basket beside a wind-scoured canyon ledge while a long furry weasel-creature with gale-swept whiskers snarls midair, warm sunset light on red rock."
+}

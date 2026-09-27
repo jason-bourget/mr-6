@@ -1,0 +1,25 @@
+{
+  "id": "drimswallow-starfall-average",
+  "tier": "champion",
+  "title": "The Ledger of Fallen Stars",
+  "monster": "Drimswallow the Meteor Ledger",
+  "story": "In the crater meadow where starfall lands, Drimswallow the Meteor Ledger hoards every shard that drops and has locked away the village's wishing-shard. It will open its stone ledger only if five shards on the scale average exactly 46 glims of brightness — no more, no less. Mr 6 has four shards already glowing, and one plain shard he may polish to any brightness he likes.",
+  "question": "The four shards measure 38, 52, 41, and 45 glims. How many glims must the fifth shard be polished to so that all five average exactly 46 glims?",
+  "answer": 54,
+  "unit": "glims",
+  "distractors": [
+    46,
+    44,
+    230
+  ],
+  "solution": [
+    "Five shards averaging 46 must total 46 x 5 = 230 glims.",
+    "The four shards he has add up to 38 + 52 + 41 + 45 = 176 glims.",
+    "So the last shard needs 230 - 176 = 54 glims."
+  ],
+  "praise": "Thinking about the average was the right path — the trick is that an average hides a TOTAL inside it, and the total had to be found before subtracting.",
+  "hint": "Work backwards: if five shards average 46, what must all five add up to together?",
+  "victory": "Mr 6 buffed the pale shard until it hummed at 54 glims, and the ledger creaked open in surprise. Drimswallow handed over the wishing-shard, muttering that no one had ever audited it back before.",
+  "image": "images/drimswallow-starfall-average.webp",
+  "imagePrompt": "A small knightly numeral six polishes a glowing meteor fragment on a brass scale in a night-blue crater meadow, while a long-necked ledger-keeping creature made of ash and starlight peers over a stone book."
+}

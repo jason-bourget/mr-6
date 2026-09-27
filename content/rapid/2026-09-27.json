@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-27",
+  "title": "The Fivefold Riposte",
+  "monster": "Quinta the Starfang Beast",
+  "story": "Quinta the Starfang Beast has five glittering claws, and every time she swipes, her attack splits into five identical shards of starlight. Mr 6 discovered her weakness in an old knight's ledger: a star beast can only be beaten by her own math, so every number she throws must be hurled back FIVE times bigger. Her claws move in a blink, brave knight — can your multiplying be faster?",
+  "rule": "Strike back with FIVE times the force!",
+  "image": "images/rapid-2026-09-27.webp",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        36,
+        25,
+        35
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        65,
+        48
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        56
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        90,
+        80
+      ]
+    },
+    {
+      "q": "23",
+      "answer": 115,
+      "distractors": [
+        105,
+        110,
+        116
+      ]
+    },
+    {
+      "q": "31",
+      "answer": 155,
+      "distractors": [
+        145,
+        150,
+        156
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 225,
+      "distractors": [
+        215,
+        220,
+        250
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 340,
+      "distractors": [
+        330,
+        345,
+        272
+      ]
+    },
+    {
+      "q": "84",
+      "answer": 420,
+      "distractors": [
+        410,
+        425,
+        400
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 600,
+      "distractors": [
+        500,
+        610,
+        620
+      ]
+    }
+  ]
+}
