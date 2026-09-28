@@ -1,0 +1,25 @@
+{
+  "id": "ponderax-weighbridge-wyrm",
+  "tier": "champion",
+  "title": "The Weighbridge Wyrm",
+  "monster": "Ponderax the Weighbridge Wyrm",
+  "story": "The only way out of the ruined abbey is a stone drawbridge coiled around by Ponderax, a wyrm made of counterweights and creaking chains. \"Five river-stones on my pan,\" she rumbles, \"and their AVERAGE weight must be exactly 24 pounds, or the bridge stays shut.\" Mr 6 has already set four stones down and is hefting the last one, chalk scratching on his slate.",
+  "question": "The four stones on the pan weigh 19, 31, 22, and 18 pounds. How many pounds must the fifth stone weigh so that the average of all five is exactly 24 pounds?",
+  "answer": 30,
+  "unit": "pounds",
+  "distractors": [
+    24,
+    90,
+    120
+  ],
+  "solution": [
+    "Five stones averaging 24 must total 24 × 5 = 120 pounds.",
+    "The four stones already on the pan weigh 19 + 31 + 22 + 18 = 90 pounds.",
+    "So the last stone must be 120 - 90 = 30 pounds."
+  ],
+  "praise": "Thinking about the average was the right path — the trick is to turn the average into a TOTAL first (24 × 5), then see what's still missing.",
+  "hint": "If five stones average 24 pounds, what do all five weigh added together?",
+  "victory": "The pan settles dead level, the chains sigh, and Ponderax swings the bridge open with a grudging clank. \"Most heroes just pile on rocks,\" she mutters. \"You weighed the idea first.\"",
+  "image": "images/ponderax-weighbridge-wyrm.webp",
+  "imagePrompt": "A coiled iron-and-stone wyrm draped over a great abbey drawbridge scale, moonlight through broken arches, as a small numeral-six knight balances a river stone on the glowing pan.\n"
+}

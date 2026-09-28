@@ -1,0 +1,25 @@
+{
+  "id": "drakelow-sky-leech-lift",
+  "tier": "champion",
+  "title": "The Leech on the Balloon",
+  "monster": "Drakelow the Sky Leech",
+  "story": "High over the Cloudspine cliffs, a fat grey sky-leech named Drakelow has latched onto Mr 6's hot-air balloon and is dragging it downward with a smug slurp. Four stranded cliff-goat kids are bleating on a ledge exactly 27 feet above the balloon's basket. Mr 6 stokes the burner, sets his little helmet straight, and does the math instead of panicking.",
+  "question": "The burner lifts the balloon 12 feet every minute, while Drakelow drags it down 7.5 feet every minute. How many minutes until the basket rises the 27 feet to the goats' ledge?",
+  "answer": 6,
+  "unit": "minutes",
+  "distractors": [
+    2.25,
+    3.6,
+    4.5
+  ],
+  "solution": [
+    "Each minute the balloon really gains 12 - 7.5 = 4.5 feet.",
+    "Time needed = 27 ÷ 4.5 = 6.",
+    "Mr 6 reaches the ledge in 6 minutes."
+  ],
+  "praise": "Dividing to find the time was exactly the right instinct — the missing step was subtracting the leech's pull first to get the REAL climb per minute.",
+  "hint": "The balloon is going up and being pulled down at the same time. What is the leftover climb in one single minute?",
+  "victory": "Mr 6 floats up, scoops all four goat kids into the basket, and Drakelow lets go in disgust — a leech can drag down 7.5 feet a minute, but it cannot out-subtract a knight. The goats celebrate by chewing his cape.",
+  "image": "images/drakelow-sky-leech-lift.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape stoking a balloon burner while a blubbery grey sky-leech clings to the balloon's underside, tiny goats bleating on a windy sunlit cliff ledge above."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "thistledrum-barrow-hoard-share",
+  "tier": "champion",
+  "title": "The Badger's Tithe",
+  "monster": "Thistledrum the Barrow Badger",
+  "story": "Under the roots of the Old Oak, Thistledrum the Barrow Badger has hoarded 840 moonstone shards that rightfully belong to the woodcutters of Lantern Hollow. Mr 6 does not fight him; he offers a bargain the greedy badger cannot resist — a quarter of the hoard, kept honestly, instead of all of it, kept nervously. Thistledrum agrees, and the rest must be split evenly among the village's fourteen families.",
+  "question": "Thistledrum keeps 25% of the 840 moonstone shards, and the rest is shared equally among 14 families. How many shards does each family receive?",
+  "answer": 45,
+  "unit": "shards",
+  "distractors": [
+    60,
+    210,
+    630
+  ],
+  "solution": [
+    "The badger keeps 25% of 840 = 210 shards.",
+    "That leaves 840 - 210 = 630 shards for the village.",
+    "630 ÷ 14 = 45, so each family receives 45 shards."
+  ],
+  "praise": "Splitting the hoard among 14 was exactly right — the step that slipped past was taking out the badger's 25% before dividing.",
+  "hint": "First figure out how many shards are actually left for the village after the badger's quarter is set aside.",
+  "victory": "Thistledrum trundles off with his neat little pile, genuinely pleased for the first time in a century, and fourteen families light fourteen new lanterns. \"A fair share,\" says Mr 6, \"weighs less to carry.\"",
+  "image": "images/thistledrum-barrow-hoard-share.webp",
+  "imagePrompt": "A stout grumbling badger in a moss cloak counting glowing moonstone shards among gnarled oak roots by lantern light, a small numeral-six knight chalking the division on a flat stone."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-28",
+  "title": "The Quadra-Hydra Clash",
+  "monster": "Quadrix the Four-Headed Hydra",
+  "story": "Quadrix the Four-Headed Hydra guards the Bridge of Bright Numbers, and every head hisses the same number at once — four times the noise! Mr 6 discovered the trick: hit back with the number multiplied by FOUR, and all four heads fall silent in one clean clang. Quadrix regrows a head every three seconds, so be quick, knight — can you strike four-fold before he does?",
+  "rule": "Strike back with FOUR times the force!",
+  "image": "images/rapid-2026-09-28.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 12,
+      "distractors": [
+        6,
+        9,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 28,
+      "distractors": [
+        14,
+        24,
+        32
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 40,
+      "distractors": [
+        20,
+        400,
+        14
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        24,
+        36,
+        38
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        30,
+        45,
+        50
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        60,
+        800
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        50,
+        75,
+        90
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        70,
+        120,
+        150
+      ]
+    },
+    {
+      "q": "50",
+      "answer": 200,
+      "distractors": [
+        100,
+        150,
+        250
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 500,
+      "distractors": [
+        250,
+        400,
+        520
+      ]
+    }
+  ]
+}
