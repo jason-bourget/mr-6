@@ -1,0 +1,25 @@
+{
+  "id": "bellowyn-basket-descent",
+  "tier": "champion",
+  "title": "The Leaking Sky-Basket",
+  "monster": "Bellowyn the Gale Weasel",
+  "story": "High over the Thornwood, a sky-basket carries three lantern-menders home — until Bellowyn the Gale Weasel bites a long slit in its balloon. Air whistles out and the basket begins to sag toward the spiky canopy below. Mr 6 grabs the burner rope with one hand and does the math with the other.",
+  "question": "The torn balloon sinks 12 feet every minute, but Mr 6's burner lifts it 7.5 feet every minute while it roars. The basket floats 63 feet above the thorn canopy — how many minutes do the menders have to climb the rope ladder before the basket touches the thorns?",
+  "answer": 14,
+  "unit": "minutes",
+  "distractors": [
+    5.25,
+    8.4,
+    4.5
+  ],
+  "solution": [
+    "Sinking and lifting fight each other, so the real drop is 12 - 7.5 = 4.5 feet per minute.",
+    "Time to fall 63 feet: 63 / 4.5 = 14.",
+    "The menders have 14 minutes to climb."
+  ],
+  "praise": "Dividing the height by a speed was exactly the right move — the missing step was combining the two speeds into one net drop first.",
+  "hint": "The balloon falls AND the burner pushes up at the same time. What is the leftover drop each minute?",
+  "victory": "The last mender swung onto the ladder with two whole minutes to spare, and Bellowyn was so impressed by Mr 6's arithmetic that she patched the balloon with her own tail-fluff.",
+  "image": "images/bellowyn-basket-descent.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape steadies a sagging hot-air sky-basket while a long grey gale weasel spirals around the deflating balloon above a moonlit canopy of giant thorns."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-29",
+  "title": "The Tenth-Taker",
+  "monster": "Decimus the Tithe Imp",
+  "story": "Decimus the Tithe Imp guards the Bridge of Zeros, and he refuses to let anyone pass until he's been handed exactly one TENTH of their marching force — no more, no less. Mr 6 knows the trick: slide the digits down one step and the tenth appears like magic, while a wrong offering makes the greedy imp swell up and block the bridge again. Hand over the tenths faster than Decimus can count, brave knight — he giggles when you hesitate!",
+  "rule": "Give him just a TENTH of it!",
+  "image": "images/rapid-2026-09-29.webp",
+  "problems": [
+    {
+      "q": "60",
+      "answer": 6,
+      "distractors": [
+        600,
+        60,
+        16
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        900,
+        90,
+        19
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        21,
+        112
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        52,
+        35
+      ]
+    },
+    {
+      "q": "400",
+      "answer": 40,
+      "distractors": [
+        4,
+        400,
+        44
+      ]
+    },
+    {
+      "q": "730",
+      "answer": 73,
+      "distractors": [
+        37,
+        730,
+        83
+      ]
+    },
+    {
+      "q": "1500",
+      "answer": 150,
+      "distractors": [
+        15,
+        1500,
+        105
+      ]
+    },
+    {
+      "q": "860",
+      "answer": 86,
+      "distractors": [
+        68,
+        860,
+        96
+      ]
+    },
+    {
+      "q": "2400",
+      "answer": 240,
+      "distractors": [
+        24,
+        2400,
+        204
+      ]
+    },
+    {
+      "q": "9990",
+      "answer": 999,
+      "distractors": [
+        99,
+        9990,
+        909
+      ]
+    }
+  ]
+}

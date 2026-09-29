@@ -1,0 +1,25 @@
+{
+  "id": "glimberack-amber-share",
+  "tier": "champion",
+  "title": "The Amber Glutton's Hoard",
+  "monster": "Glimberack the Amber Glutton",
+  "story": "Deep in the collapsed pine mine, Glimberack the Amber Glutton sits on a glittering pile of amber beads, refusing to let fourteen trapped diggers pass. Mr 6 offers him a riddle instead of a fight, and the beetle — who cannot resist a puzzle — loses badly and rolls off the hoard. Now the beads must be fairly shared.",
+  "question": "The hoard holds 504 amber beads. One quarter of them goes to rebuilding the mine's broken ladder, and the rest is split equally among the 14 rescued diggers — how many beads does each digger get?",
+  "answer": 27,
+  "unit": "beads",
+  "distractors": [
+    126,
+    36,
+    378
+  ],
+  "solution": [
+    "The ladder takes 1/4 of 504 = 126 beads, so 504 - 126 = 378 beads remain.",
+    "Shared equally: 378 / 14 = 27.",
+    "Each digger receives 27 amber beads."
+  ],
+  "praise": "Splitting the hoard into parts was smart thinking — the piece that slipped away was sharing only what was LEFT after the ladder's quarter.",
+  "hint": "Take out the ladder's quarter first, then divide the leftover among 14.",
+  "victory": "Fourteen diggers walked out with 27 glowing beads each, and Glimberack cheerfully took the job of mine ladder inspector — he liked being counted on.",
+  "image": "images/glimberack-amber-share.webp",
+  "imagePrompt": "A giant amber-crusted beetle slumps beside a mountain of glowing honey-colored beads in a lamplit collapsed mine while a small numeral-six knight sketches fractions on a slate for a circle of grateful diggers."
+}

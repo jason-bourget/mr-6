@@ -1,0 +1,25 @@
+{
+  "id": "verdigrast-gong-alloy",
+  "tier": "champion",
+  "title": "The Alarm Gong of Ashvale",
+  "monster": "Verdigrast the Foundry Wyrm",
+  "story": "Ashvale needs its great alarm gong recast before the lava tide returns, but Verdigrast the Foundry Wyrm has curled around the crucible and keeps dumping the wrong metals in to spoil the mix. Mr 6 shoos him off with a clang of his sword and reads the old smiths' recipe. Everything depends on getting the blend exactly right.",
+  "question": "Good gong-bronze mixes copper to tin in a ratio of 5 to 3, and the crucible must hold 480 pounds of finished bronze. Verdigrast has already tossed in 60 pounds of tin — how many more pounds of tin must Mr 6 add?",
+  "answer": 120,
+  "unit": "pounds",
+  "distractors": [
+    180,
+    300,
+    240
+  ],
+  "solution": [
+    "The ratio 5:3 makes 5 + 3 = 8 equal parts, so tin is 3/8 of the mix: 480 x 3/8 = 180 pounds of tin needed.",
+    "Verdigrast already dumped in 60 pounds, so 180 - 60 = 120 pounds are still missing.",
+    "Mr 6 must add 120 more pounds of tin."
+  ],
+  "praise": "Turning the ratio into parts of the whole was exactly right — the last step was subtracting the tin the wyrm had already thrown in.",
+  "hint": "A 5:3 ratio means 8 equal parts in all. How many pounds is one tin part's share of 480?",
+  "victory": "The gong rang out so pure and deep that the lava tide paused to listen, and Verdigrast — who turned out to love music more than mischief — became Ashvale's official gong-ringer.",
+  "image": "images/verdigrast-gong-alloy.webp",
+  "imagePrompt": "A molten-bronze foundry glowing orange under a volcano, where a sleek green-scaled wyrm peeks sheepishly over a giant crucible as a numeral-six knight in a blue cape weighs bars of tin on a great balance scale."
+}
