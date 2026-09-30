@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-30",
+  "title": "The Triple-Headed Roar",
+  "monster": "Trigor the Thrice-Horned Bellower",
+  "story": "Trigor the Thrice-Horned Bellower stomps into the Echo Canyon with three horns, three voices, and a terrible habit of shouting every number three times over. Mr 6 discovers the beast's weakness: it can only be silenced by a counter-shout exactly THREE times louder than its own roar — anything less just makes it giggle. Trigor roars faster with every heartbeat, so triple it quick, knight, before the canyon rings with laughter!",
+  "rule": "Roar back with TRIPLE the force!",
+  "image": "images/rapid-2026-09-30.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        16,
+        7
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        24,
+        28
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 33,
+      "distractors": [
+        22,
+        31,
+        44
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        55
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 60,
+      "distractors": [
+        40,
+        50,
+        600
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "31",
+      "answer": 93,
+      "distractors": [
+        62,
+        91,
+        96
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        125,
+        145,
+        90
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        120,
+        18,
+        160
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 270,
+      "distractors": [
+        180,
+        240,
+        27
+      ]
+    }
+  ]
+}
