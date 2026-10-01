@@ -1,0 +1,25 @@
+{
+  "id": "skarnvault-rail-chase",
+  "tier": "champion",
+  "title": "The Runaway Ore Cart",
+  "monster": "Skarnvault the Rail Gnawer",
+  "story": "Deep in the Moonquartz Mine, Skarnvault the Rail Gnawer chewed through the brake rope of a cart carrying three lantern-children, and it began rolling down the long straight tunnel at 9 feet per second. By the time Mr 6 skidded onto the rails, the cart already had a 150-foot head start. Mr 6 can sprint at 14 feet per second — and he has exactly one chance to time it right.",
+  "question": "How many feet does Mr 6 run before he catches the cart?",
+  "answer": 420,
+  "unit": "feet",
+  "distractors": [
+    30,
+    270,
+    150
+  ],
+  "solution": [
+    "Mr 6 gains 14 - 9 = 5 feet on the cart every second.",
+    "To close the 150-foot gap: 150 ÷ 5 = 30 seconds.",
+    "In 30 seconds Mr 6 runs 14 × 30 = 420 feet."
+  ],
+  "praise": "Comparing the two speeds was the key move — the last step was turning those 30 seconds back into the distance Mr 6 actually ran.",
+  "hint": "Work out how much of the 150-foot gap Mr 6 closes in a single second, then find the time — but remember the question asks for feet.",
+  "victory": "At 420 feet Mr 6 caught the tailgate, jammed his sword under the wheel, and the cart squealed to a stop one inch from the ledge. Skarnvault took one look at the arithmetic chalked on the rails and gnawed his way politely into retirement.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A caped numeral-six knight sprinting along mine rails in a glowing quartz tunnel after a runaway ore cart full of wide-eyed lantern-carrying children, with a long ratlike rail-gnawing creature peeking from a side shaft."
+}

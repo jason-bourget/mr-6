@@ -1,0 +1,25 @@
+{
+  "id": "vraxonel-plate-regrowth",
+  "tier": "champion",
+  "title": "The Pangolin of Pelting Plates",
+  "monster": "Vraxonel the Scalefall Pangolin",
+  "story": "Vraxonel curled across the only rope bridge out of Thunder Canyon, sealed under 96 clanging stone plates, and the goat-herders couldn't get their flock home. Mr 6 found he could pry loose 11 plates every minute with the flat of his sword — but the beast's magic grew 5 new plates back each minute too. 'Count before you climb,' Mr 6 said, chalking numbers on the cliff.",
+  "question": "If Mr 6 pries off 11 plates each minute while 5 plates grow back each minute, how many minutes until all 96 plates are gone?",
+  "answer": 16,
+  "unit": "minutes",
+  "distractors": [
+    9,
+    6,
+    15
+  ],
+  "solution": [
+    "Each minute the armor really shrinks by 11 - 5 = 6 plates.",
+    "Starting from 96 plates: 96 ÷ 6 = 16 minutes.",
+    "All 96 plates are gone after 16 minutes."
+  ],
+  "praise": "Dividing was exactly the right instinct — the missing step was subtracting the 5 plates that grow back before you divide.",
+  "hint": "Don't divide by 11 yet — first work out the NET change in plates during one whole minute.",
+  "victory": "On the sixteenth minute the last plate pinged off, and Vraxonel — suddenly soft, pink and embarrassed — rolled away down the canyon like a shy boulder. The goats crossed the bridge in a tidy line, unimpressed.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A huge armored pangolin curled across a swaying rope bridge in a storm-lit canyon while a brave numeral-six knight in a blue cape chalks tally marks on the cliff face, stone plates clattering into the mist below."
+}

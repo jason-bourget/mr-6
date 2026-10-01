@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-01",
+  "problems": [
+    "problems/marrowsplice-crypt-average.json",
+    "problems/thornabel-regrowing-brambles.json",
+    "problems/saltrigg-caravan-ratio.json"
+  ]
+}

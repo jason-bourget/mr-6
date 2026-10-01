@@ -1,0 +1,25 @@
+{
+  "id": "rimewald-ice-fair-discount",
+  "tier": "champion",
+  "title": "The Frost Factor's Fair Price",
+  "monster": "Rimewald the Frost Factor",
+  "story": "At the Glacier Fair, Rimewald the Frost Factor hoarded every wool blanket while twenty-four shivering travelers waited outside his ice stall. 'Blankets are 8.5 silver acorns each,' he sniffed, 'and I never discount.' Mr 6 tapped the stall's frozen sign: ANSWER MY SUM, TAKE 25% OFF — which Rimewald had carved long ago and hoped nobody would read.",
+  "question": "If Mr 6 buys 24 blankets at 8.5 silver acorns each and earns the 25% discount, how many silver acorns does he pay in total?",
+  "answer": 153,
+  "unit": "silver acorns",
+  "distractors": [
+    204,
+    51,
+    183.6
+  ],
+  "solution": [
+    "Full price: 24 × 8.5 = 204 silver acorns.",
+    "The discount is 25% of 204 = 51 silver acorns.",
+    "204 - 51 = 153 silver acorns paid in total."
+  ],
+  "praise": "Multiplying to get the full price was spot on — the one step left was taking the 25% off before you answered.",
+  "hint": "Find the full price first, then remember 25% is the same as one quarter of that price.",
+  "victory": "Mr 6 counted out 153 silver acorns, and Rimewald — out-read and out-rounded — frosted over with embarrassment and handed out hot cider too. Twenty-four travelers went home warm, wrapped like very happy parcels.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A frost-bearded merchant spirit behind a stall carved from blue ice at a glacier fair, shivering travelers in line, while a small numeral-six knight with a blue cape points triumphantly at a frozen discount sign."
+}
