@@ -1,0 +1,25 @@
+{
+  "id": "thrennick-flooded-gem-mine",
+  "tier": "champion",
+  "title": "The Sump Toad's Rising Pool",
+  "monster": "Thrennick the Sump Toad",
+  "story": "Deep in the Crystal Mine, Thrennick the Sump Toad squats on the drain and burps floodwater into the tunnels, giggling as it climbs. Three young gem-pickers are stranded on a ledge 27 inches above the water. Mr 6 jams his sword into the clogged drain and the water starts sliding away again — but not fast enough to relax.",
+  "question": "Thrennick's burps raise the water 7.2 inches every minute, while the unclogged drain lowers it 5.4 inches every minute. How many minutes does Mr 6 have before the water reaches the ledge 27 inches above it?",
+  "answer": 15,
+  "unit": "minutes",
+  "distractors": [
+    1.8,
+    3.75,
+    5
+  ],
+  "solution": [
+    "Water goes up 7.2 inches and down 5.4 inches each minute, so it really rises 7.2 - 5.4 = 1.8 inches per minute.",
+    "The ledge is 27 inches up, so the time is 27 / 1.8 = 15.",
+    "Mr 6 has 15 minutes before the water touches the ledge."
+  ],
+  "praise": "Working with the rates was exactly right — the missing move was combining the rise and the drain into one net rate before dividing.",
+  "hint": "Each minute the water gains some and loses some. What is the water's real change in one minute?",
+  "victory": "Mr 6 hoisted all three gem-pickers out with four minutes to spare, and Thrennick — who had never once done the subtraction — sulked down the drain with a wet, embarrassed plop.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A bulbous toad monster perched on a mine drain in a flooded crystal tunnel, lantern light glittering off rising water, three children huddled on a high ledge while a brave knightly number six braces a sword in the drain."
+}

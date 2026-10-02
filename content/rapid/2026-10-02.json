@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-02",
+  "title": "The Twinfang Trap",
+  "monster": "Twinfang the Mirror Troll",
+  "story": "Twinfang the Mirror Troll fights with two heads, two clubs, and one very annoying habit: whatever force he feels, he brags that he could take twice as much. So Mr 6 takes him at his word and answers every blow with DOUBLE the force, until the troll's bragging turns into hiccups. Twinfang swings fast, knight — can you double faster?",
+  "rule": "Strike back with DOUBLE the force!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "8",
+      "answer": 16,
+      "distractors": [
+        14,
+        18,
+        8
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 28,
+      "distractors": [
+        24,
+        38,
+        26
+      ]
+    },
+    {
+      "q": "23",
+      "answer": 46,
+      "distractors": [
+        36,
+        48,
+        44
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        65
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 92,
+      "distractors": [
+        82,
+        86,
+        94
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 116,
+      "distractors": [
+        106,
+        118,
+        112
+      ]
+    },
+    {
+      "q": "67",
+      "answer": 134,
+      "distractors": [
+        124,
+        136,
+        132
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 170,
+      "distractors": [
+        160,
+        175,
+        165
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 250,
+      "distractors": [
+        240,
+        255,
+        230
+      ]
+    },
+    {
+      "q": "240",
+      "answer": 480,
+      "distractors": [
+        470,
+        440,
+        420
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vrenniquill-mist-bridge-average",
+  "tier": "champion",
+  "title": "The Wind Scribe's Ledger",
+  "monster": "Vrenniquill the Wind Scribe",
+  "story": "The Mist Bridge over Thunderstep Gorge only holds if the wind blowing across it averages exactly 48 leagues per hour for six straight hours — and Vrenniquill the Wind Scribe, a long-beaked sky-crane, gleefully writes down every hour hoping Mr 6 fails. Five hours have passed and a caravan of goat-herders is still halfway across. Mr 6 grips the great cliffside bellows that will set the sixth hour's wind all by itself.",
+  "question": "The first five hours measured 52, 44, 39, 50 and 47 leagues per hour. How many leagues per hour must Mr 6's bellows make in the sixth hour so the six-hour average is exactly 48?",
+  "answer": 56,
+  "unit": "leagues per hour",
+  "distractors": [
+    46.4,
+    48,
+    288
+  ],
+  "solution": [
+    "For an average of 48 over 6 hours, the six readings must total 48 x 6 = 288.",
+    "The five recorded hours add to 52 + 44 + 39 + 50 + 47 = 232.",
+    "So the last hour must be 288 - 232 = 56 leagues per hour."
+  ],
+  "praise": "Thinking about the average as a target was the right idea — the missing step was turning that average into a total for all six hours first.",
+  "hint": "An average of 48 over 6 hours means a certain grand total. What total is that, and how much is already on the ledger?",
+  "victory": "Mr 6 heaved the bellows to a roaring 56, the ledger balanced with a snap, and Vrenniquill squawked off to find a bridge with worse mathematicians while the goat-herders strolled safely across.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A long-beaked crane-like sky scribe clutching a fluttering ledger above a glowing bridge of mist spanning a windy gorge, caravan goats mid-crossing, while a small caped number six knight hauls on a giant cliffside bellows."
+}

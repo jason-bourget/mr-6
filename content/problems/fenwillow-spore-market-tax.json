@@ -1,0 +1,25 @@
+{
+  "id": "fenwillow-spore-market-tax",
+  "tier": "champion",
+  "title": "The Spore Broker's Fog Tax",
+  "monster": "Fenwillow the Spore Broker",
+  "story": "In the cavern night market, Fenwillow the Spore Broker has fenced off a hut of sleeping mushroom-folk and will only lift the fence if Mr 6 buys the gear to do it himself. The gnome-hats behind the stall whisper that Fenwillow sneaks a \"fog tax\" onto every bill. Mr 6 counts out his purse of 90 gold crowns and starts a very careful list.",
+  "question": "Mr 6 needs 4 rope coils at 12.5 gold crowns each plus one glow-lantern at 18.75 gold crowns, and Fenwillow adds a 20% fog tax to the whole bill. How many gold crowns are left from his 90-crown purse?",
+  "answer": 7.5,
+  "unit": "gold crowns",
+  "distractors": [
+    82.5,
+    68.75,
+    21.25
+  ],
+  "solution": [
+    "The ropes cost 4 x 12.5 = 50 crowns, so the bill before tax is 50 + 18.75 = 68.75 crowns.",
+    "A 20% fog tax makes it 68.75 x 1.2 = 82.5 crowns.",
+    "Change from the purse is 90 - 82.5 = 7.5 gold crowns left."
+  ],
+  "praise": "Adding up the items first was the smart opening move — the step still waiting was growing the bill by 20% before subtracting from 90.",
+  "hint": "Find the bill first, then make it 20% bigger, and only then see what the purse has left.",
+  "victory": "Mr 6 paid, untied the fence himself, and handed Fenwillow the 7.5 crowns of change as a tip for \"excellent arithmetic practice\" — the broker turned fog-pink and vanished into his own mist.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A lanky mushroom-capped broker behind a glowing stall in an underground night market, spores drifting like snow, as a small knightly number six counts shining coins beside a fenced hut of sleepy mushroom-folk."
+}
