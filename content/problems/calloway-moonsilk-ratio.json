@@ -1,0 +1,25 @@
+{
+  "id": "calloway-moonsilk-ratio",
+  "tier": "champion",
+  "title": "The Moonsilk Ratio",
+  "monster": "Calloway the Spindle Moth",
+  "story": "High in the Cloudspun Weavery, Calloway the Spindle Moth has tangled every loom and refuses to free the weaver-children until someone mixes a proper bolt of moonsilk. The recipe demands moonfloss and shadowthread in a ratio of 5 to 3. Mr 6 rolls up his cape, checks the dusty recipe board, and starts measuring.",
+  "question": "If Mr 6 must make 96 spools of moonsilk blend in a 5:3 ratio of moonfloss to shadowthread, how many spools of moonfloss does he need?",
+  "answer": 60,
+  "unit": "spools",
+  "distractors": [
+    36,
+    12,
+    48
+  ],
+  "solution": [
+    "Add the ratio parts: 5 + 3 = 8 equal shares.",
+    "One share is 96 / 8 = 12 spools.",
+    "Moonfloss takes 5 shares: 12 * 5 = 60 spools of moonfloss."
+  ],
+  "praise": "Splitting the batch into ratio shares was exactly right — the last step was multiplying that share by 5, not stopping at one share.",
+  "hint": "First find how many equal shares the ratio makes in total, then see how big one share is.",
+  "victory": "The looms clacked back to life and spun a banner reading 'THANKS, SIX.' Calloway, delighted by the tidy ratio, became the Weavery's new quality inspector.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A giant pale moth with spindle-legs perched among glowing silver looms in a cloud-top weaving hall, moonlight streaming through gauzy threads while a small knightly numeral 6 measures shimmering spools."
+}

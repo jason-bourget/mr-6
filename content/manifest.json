@@ -220,6 +220,8 @@
     "problems/skarnvault-rail-chase.json",
     "problems/thrennick-flooded-gem-mine.json",
     "problems/fenwillow-spore-market-tax.json",
-    "problems/vrenniquill-mist-bridge-average.json"
+    "problems/vrenniquill-mist-bridge-average.json",
+    "problems/calloway-moonsilk-ratio.json",
+    "problems/obsidrenn-vent-halving.json"
   ]
 }

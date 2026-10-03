@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-03",
+  "problems": [
+    "problems/vandergloom-clocktower-halving.json",
+    "problems/brindlecask-brewery-ratio.json",
+    "problems/stellagorn-comet-rate.json"
+  ]
+}

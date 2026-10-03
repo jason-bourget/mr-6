@@ -1,0 +1,25 @@
+{
+  "id": "obsidrenn-vent-halving",
+  "tier": "champion",
+  "title": "The Cooling Vent of Obsidrenn",
+  "monster": "Obsidrenn the Vent Whisper",
+  "story": "Deep in the volcano's throat, Obsidrenn the Vent Whisper has sealed the miners behind a glowing heat-gate. The gate's heat is 640 degrees of ember-measure and it cools by half every 15 minutes — but the miners can only slip through once it drops below 45 degrees. Mr 6 sits on a cool rock and does the thinking before the waiting.",
+  "question": "How many minutes must Mr 6 wait before the gate's heat first drops below 45 degrees of ember-measure?",
+  "answer": 60,
+  "unit": "minutes",
+  "distractors": [
+    45,
+    75,
+    4
+  ],
+  "solution": [
+    "Halve step by step: 640 -> 320 (15 min) -> 160 (30 min) -> 80 (45 min) -> 40 (60 min).",
+    "40 is the first value below 45, and it arrives after 4 halvings.",
+    "4 halvings * 15 minutes each = 60 minutes."
+  ],
+  "praise": "Repeated halving was the perfect tool — the trick was checking that 80 is still above 45, so one more halving was needed.",
+  "hint": "Write the heat after each 15 minutes and stop the moment the number is under 45.",
+  "victory": "At minute 60 the gate dimmed to a friendly orange and the miners strolled out. Obsidrenn sighed, 'Nobody ever waits me out,' and puffed off to warm somebody's soup.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A shimmering heat-spirit of red vapor guarding a glowing stone gate inside a volcanic shaft, trapped miners waiting in the smoky orange gloom while a small numeral-6 knight counts on his fingers."
+}

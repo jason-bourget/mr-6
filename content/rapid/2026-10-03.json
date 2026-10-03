@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-03",
+  "title": "The Splitting Slime Showdown",
+  "monster": "Gloopendorf the Splitting Slime",
+  "story": "Gloopendorf the Splitting Slime grows every time he's hit wrong — one sloppy swing and he burbles into twice the goo! But Mr 6 knows the secret: a blade that cuts a slime into two PERFECT halves makes both halves fizzle away in a polite little pop. Cut clean and cut fast, knight — every wobbly second lets Gloopendorf glop back together!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "14",
+      "answer": 7,
+      "distractors": [
+        6,
+        8,
+        28
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 13,
+      "distractors": [
+        12,
+        14,
+        23
+      ]
+    },
+    {
+      "q": "38",
+      "answer": 19,
+      "distractors": [
+        18,
+        20,
+        16
+      ]
+    },
+    {
+      "q": "50",
+      "answer": 25,
+      "distractors": [
+        20,
+        30,
+        15
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 36,
+      "distractors": [
+        32,
+        38,
+        26
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        46,
+        44,
+        49
+      ]
+    },
+    {
+      "q": "118",
+      "answer": 59,
+      "distractors": [
+        58,
+        54,
+        69
+      ]
+    },
+    {
+      "q": "134",
+      "answer": 67,
+      "distractors": [
+        62,
+        66,
+        68
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 125,
+      "distractors": [
+        120,
+        135,
+        150
+      ]
+    },
+    {
+      "q": "386",
+      "answer": 193,
+      "distractors": [
+        183,
+        194,
+        163
+      ]
+    }
+  ]
+}
