@@ -1,0 +1,25 @@
+{
+  "id": "hargrelle-tidecave-spout",
+  "tier": "champion",
+  "title": "The Spout in the Otter Cave",
+  "monster": "Hargrelle the Spout Lamprey",
+  "story": "In a barnacled sea cave, five otter pups are huddled on a stone ledge, squeaking for help. Hargrelle the Spout Lamprey coils in the pool below, pumping seawater up through her gullet to flood them out. Mr 6 wedges open a clogged barnacle drain with his sword and starts counting — because a knight who knows his rates never panics.",
+  "question": "The water sits 27 inches below the pups' ledge. Hargrelle's spout raises the water 9 inches every minute, while the opened drain lets 5.4 inches drain away every minute. How many minutes does Mr 6 have before the water reaches the ledge?",
+  "answer": 7.5,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    5,
+    3.6
+  ],
+  "solution": [
+    "Water comes in and goes out, so the real climb each minute is 9 - 5.4 = 3.6 inches.",
+    "Time to climb the gap: 27 / 3.6 = 7.5.",
+    "Mr 6 has 7.5 minutes to carry the pups to safety."
+  ],
+  "praise": "Dividing to find the time was exactly the right instinct — the missing step was subtracting the drain from the spout to get the TRUE rise each minute.",
+  "hint": "The spout pushes water up and the drain pulls it down. Figure out how much the water really gains in one single minute first.",
+  "victory": "Mr 6 ferried all five pups out with ninety seconds to spare, then politely plugged Hargrelle's spout with a sea sponge. She burbled, blushed pink, and slithered off to flood somewhere less well-calculated.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape lifting fuzzy otter pups from a wet stone ledge while a long eel-like lamprey monster spouts seawater below in a glistening barnacle cave lit by shafts of green daylight."
+}

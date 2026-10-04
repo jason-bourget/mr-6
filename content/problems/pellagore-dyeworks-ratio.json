@@ -1,0 +1,25 @@
+{
+  "id": "pellagore-dyeworks-ratio",
+  "tier": "champion",
+  "title": "The Serpent Who Stole the Colors",
+  "monster": "Pellagore the Dye Serpent",
+  "story": "Pellagore the Dye Serpent slithered through Mossbottom and drank the color out of every cloak, banner and painted door, leaving the village grey as fog. She promises to spit all the color back — if Mr 6 can brew one vat of true violet by her exact recipe. Mr 6 rolls up his cape-sleeves beside the bubbling dye vat.",
+  "question": "The vat must hold 55 gallons of true violet, mixed with irisroot pulp and bog water in a ratio of 3 to 8. Mr 6 has already gathered 6 gallons of irisroot pulp. How many more gallons of irisroot pulp does he need?",
+  "answer": 9,
+  "unit": "gallons",
+  "distractors": [
+    15,
+    5,
+    34
+  ],
+  "solution": [
+    "The recipe has 3 + 8 = 11 parts in all, so one part is 55 / 11 = 5 gallons.",
+    "Irisroot is 3 parts: 3 × 5 = 15 gallons needed.",
+    "He already has 6, so he must gather 15 - 6 = 9 more gallons."
+  ],
+  "praise": "Splitting the recipe into equal parts was smart thinking — the last step was taking away the 6 gallons Mr 6 already had in his bucket.",
+  "hint": "Add the two ratio numbers to see how many equal parts the 55 gallons must be split into.",
+  "victory": "The vat burst into a violet so bright it made the clouds blink, and Pellagore sneezed every stolen color back over Mossbottom at once. She now works as the village's dye-master, which she finds deeply embarrassing and secretly wonderful.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A shimmering violet serpent coiled around a steaming dye vat in a foggy grey swamp village, as a small numeral-six knight stirs the vat and brilliant color splashes back onto the washed-out cottages."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-04",
+  "title": "The Fivefold Fang",
+  "monster": "Quintus the Five-Clawed Starbeast",
+  "story": "Quintus the Five-Clawed Starbeast swaggers out of the storm cloud, bragging that every blow he lands is copied by all five of his glittering claws. Mr 6 grins and swings his sword through the beast's own trick: whatever number Quintus throws, the Knight of Numbers hurls it back times FIVE, and the Starbeast crumples under his own arithmetic. Can you multiply faster than a claw can swipe?",
+  "rule": "Hit back FIVE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        24,
+        36,
+        300
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        48,
+        72,
+        600
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        80,
+        120,
+        10
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        56,
+        84,
+        75
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        72,
+        95,
+        80
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        96,
+        144,
+        110
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 160,
+      "distractors": [
+        150,
+        128,
+        192
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 230,
+      "distractors": [
+        220,
+        240,
+        205
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 350,
+      "distractors": [
+        300,
+        420,
+        35
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 430,
+      "distractors": [
+        420,
+        400,
+        480
+      ]
+    }
+  ]
+}

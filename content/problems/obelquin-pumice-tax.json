@@ -1,0 +1,25 @@
+{
+  "id": "obelquin-pumice-tax",
+  "tier": "champion",
+  "title": "The Appraiser on the Volcano Rim",
+  "monster": "Obelquin the Pumice Appraiser",
+  "story": "On the rim of a smoking volcano, Obelquin the Pumice Appraiser runs the ember bazaar and holds the key to Cinderhollow's seed vault, which he will sell back for 400 ember coins. Mr 6 has twelve obsidian mirrors to trade, and Obelquin's crooked scales are already grinning. Mr 6 asks, very politely, to see the fee list.",
+  "question": "Obelquin pays 45 ember coins for each of the 12 mirrors, then subtracts a 20% heat tax from the total and one flat crate fee of 15 ember coins. How many ember coins does Mr 6 walk away with?",
+  "answer": 417,
+  "unit": "ember coins",
+  "distractors": [
+    540,
+    432,
+    108
+  ],
+  "solution": [
+    "The mirrors are worth 12 × 45 = 540 ember coins.",
+    "The heat tax takes 20%, leaving 540 × 0.8 = 432 coins.",
+    "Subtract the crate fee: 432 - 15 = 417 ember coins."
+  ],
+  "praise": "Finding the full value of the mirrors first was exactly the right opening move — the fees just needed to be peeled off one at a time.",
+  "hint": "Work the fees in order: total value first, then take away 20%, then the flat crate fee.",
+  "victory": "417 coins — seventeen more than the key's price, and Mr 6 counted every one aloud. Obelquin shrank two sizes from sheer honesty-shock and handed over the seed vault key, plus a free crate, fee included.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A pumice-skinned appraiser monster hunched over crooked brass scales at a glowing lava-rim bazaar at dusk, while a small numeral-six knight stacks gleaming obsidian mirrors and tallies coins on a slate."
+}
