@@ -1,0 +1,25 @@
+{
+  "id": "pluvigor-downpipe-flood",
+  "tier": "champion",
+  "title": "The Drowning Glowgarden",
+  "monster": "Pluvigor the Downpipe Drake",
+  "story": "Deep under the hill lies the Glowgarden, where blind dormice sleep on a mushroom shelf. Pluvigor the Downpipe Drake has curled his wet body into the drain pipe, and storm water is pouring in with nowhere to go. Mr 6 unrolls his siphon-snail hose and starts pumping, cape already soaked.",
+  "question": "Water is rising in the Glowgarden at 8 inches per minute, while Mr 6's siphon-snail pumps out 5.6 inches per minute. The dormice's shelf sits 18 inches above the water right now. How many minutes until the water reaches the shelf?",
+  "answer": 7.5,
+  "unit": "minutes",
+  "distractors": [
+    2.4,
+    2.25,
+    13.6
+  ],
+  "solution": [
+    "The water really gains only 8 - 5.6 = 2.4 inches each minute.",
+    "Time to climb 18 inches: 18 / 2.4 = 7.5.",
+    "Mr 6 has 7.5 minutes to wake the dormice."
+  ],
+  "praise": "Finding a rate was exactly right — the missing step was subtracting the pumping from the rising before dividing.",
+  "hint": "Two things happen every minute at once: water pours in and the snail pumps out. What is the water's NET gain in one minute?",
+  "victory": "Mr 6 carried the sleepy dormice up the ladder with 7.5 minutes to spare, then tickled Pluvigor's tail until the drake popped out of the pipe with a soggy, embarrassed sneeze.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave knightly numeral 6 in a blue cape hauling a coiled siphon hose in a glowing underground mushroom garden as dark water climbs the terraces and a fat drake's tail plugs the drain pipe overhead."
+}

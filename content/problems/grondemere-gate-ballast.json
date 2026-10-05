@@ -1,0 +1,25 @@
+{
+  "id": "grondemere-gate-ballast",
+  "tier": "champion",
+  "title": "The Counterweight Gate",
+  "monster": "Grondemere the Gate Winch Wyrm",
+  "story": "Three gem-miners are shut behind the great stone gate of the Deepdelve, and Grondemere the Gate Winch Wyrm has coiled around the chain, giggling. The gate lifts only when the counterweight pan holds exactly 468 pounds — no more, no less. Mr 6 has already rolled five ore crates onto the pan.",
+  "question": "Each ore crate weighs 36 pounds, and the remaining ballast must come from sand sacks weighing 24 pounds each. How many sand sacks does Mr 6 need to reach exactly 468 pounds?",
+  "answer": 12,
+  "unit": "sacks",
+  "distractors": [
+    288,
+    19.5,
+    8
+  ],
+  "solution": [
+    "The crates already weigh 5 × 36 = 180 pounds.",
+    "That leaves 468 - 180 = 288 pounds still needed.",
+    "Sand sacks: 288 / 24 = 12 sacks."
+  ],
+  "praise": "Dividing to count the sacks was the right move — the step before it was taking the crates' weight out of the 468 first.",
+  "hint": "How much weight is already sitting on the pan? Subtract that from 468 before you start counting sacks.",
+  "victory": "The twelfth sack thumped down, the pan sank, and the gate rose smoothly — leaving Grondemere spinning on the chain like a very confused scarf while the miners walked free.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A small knightly numeral 6 heaving a sand sack onto a huge iron counterweight pan in a torchlit mine chamber, with a long scaly wyrm coiled around the rising chain and a massive stone gate cracking open."
+}

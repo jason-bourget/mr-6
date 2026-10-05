@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-05",
+  "title": "The Four-Armed Fury",
+  "monster": "Quartus the Mirror Beetle",
+  "story": "Quartus the Mirror Beetle clatters out of the Hall of Shining Shields with four armored arms and a smug little chitter, bragging that no knight can hit him from every side at once. But Mr 6 has spotted the trick: each of Quartus's four mirrors copies a blow, so a strike delivered FOUR times over shatters all his shields in one glittering crash. Can you swing four times as hard before the beetle blinks?",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 12,
+      "distractors": [
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 28,
+      "distractors": [
+        14,
+        21,
+        24
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        24,
+        36,
+        44
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        30,
+        45,
+        50
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        60,
+        70
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        50,
+        75,
+        90
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        36,
+        54,
+        62
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        70,
+        105,
+        130
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        90,
+        135,
+        160
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 300,
+      "distractors": [
+        150,
+        225,
+        280
+      ]
+    }
+  ]
+}

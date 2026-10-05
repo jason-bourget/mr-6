@@ -225,6 +225,9 @@
     "problems/obsidrenn-vent-halving.json",
     "problems/hargrelle-tidecave-spout.json",
     "problems/pellagore-dyeworks-ratio.json",
-    "problems/obelquin-pumice-tax.json"
+    "problems/obelquin-pumice-tax.json",
+    "problems/pluvigor-downpipe-flood.json",
+    "problems/hobbright-songcage-percent.json",
+    "problems/grondemere-gate-ballast.json"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "hobbright-songcage-percent",
+  "tier": "champion",
+  "title": "The Cliffside Cage Sale",
+  "monster": "Hobbright the Songcage Peddler",
+  "story": "On the wind-blown ledges of the Sky Bazaar, Hobbright the Songcage Peddler dangles five wicker cages of thunder-sparrows, whose songs make the storms behave. Mr 6 wants to buy every cage and set the birds free. Hobbright grins, licks his pencil, and begins inventing prices.",
+  "question": "Each cage costs 12 ember coins. Hobbright gives 25% off the total for buying all 5 cages, then adds a 10% perch tax to the discounted total. How many ember coins must Mr 6 pay?",
+  "answer": 49.5,
+  "unit": "ember coins",
+  "distractors": [
+    45,
+    54,
+    66
+  ],
+  "solution": [
+    "Five cages cost 5 × 12 = 60 ember coins.",
+    "Taking 25% off leaves 60 × 0.75 = 45 ember coins.",
+    "Adding the 10% perch tax: 45 × 1.1 = 49.5 ember coins."
+  ],
+  "praise": "Working the discount first was the smart order — the perch tax just needed one more multiply on top.",
+  "hint": "Find the plain total first, then take the discount, and only THEN put the tax on the new, smaller price.",
+  "victory": "Mr 6 counted out 49.5 ember coins exactly, and when the cages sprang open the thunder-sparrows sang a chord so bright that Hobbright's pencil snapped in surprise.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A cheerful armored numeral 6 counting glowing coins on a windy cliffside market ledge while a lanky peddler holds five wicker cages of crackling blue sparrows above a sea of clouds at sunset."
+}
