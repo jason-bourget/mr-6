@@ -228,6 +228,9 @@
     "problems/obelquin-pumice-tax.json",
     "problems/pluvigor-downpipe-flood.json",
     "problems/hobbright-songcage-percent.json",
-    "problems/grondemere-gate-ballast.json"
+    "problems/grondemere-gate-ballast.json",
+    "problems/hagglewort-reed-market-percent.json",
+    "problems/thalgrinn-kelp-knots.json",
+    "problems/vaporix-skyraft-chase.json"
   ]
 }

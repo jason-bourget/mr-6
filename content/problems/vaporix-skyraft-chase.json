@@ -1,0 +1,25 @@
+{
+  "id": "vaporix-skyraft-chase",
+  "tier": "champion",
+  "title": "The Stolen Cloud Raft",
+  "monster": "Vaporix the Drift Thief",
+  "story": "Vaporix the Drift Thief has hooked a cloud raft full of lantern-makers and is towing it away over the valley at a steady 5 leagues per hour. Mr 6 leaps aboard a wind-skiff that races at 12 leagues per hour, but the thief already has a 3.5-league head start. The lantern-makers wave; Mr 6 waves back and does the arithmetic before touching the tiller.",
+  "question": "If Mr 6 flies at 12 leagues per hour and Vaporix drifts at 5 leagues per hour with a 3.5-league head start, how many minutes until Mr 6 catches the cloud raft?",
+  "answer": 30,
+  "unit": "minutes",
+  "distractors": [
+    17.5,
+    42,
+    0.5
+  ],
+  "solution": [
+    "Mr 6 gains on the raft at 12 - 5 = 7 leagues per hour.",
+    "Closing a 3.5-league gap takes 3.5 / 7 = 0.5 hours.",
+    "0.5 x 60 = 30 minutes."
+  ],
+  "praise": "Using a gap-divided-by-speed plan was the right move — the missing piece was gaining only on the DIFFERENCE of the two speeds (and turning hours into minutes).",
+  "hint": "Mr 6 isn't closing the gap at 12 leagues per hour, because the raft keeps moving too. How much faster is he than the raft?",
+  "victory": "Half an hour later Mr 6 slid alongside and unhooked the tow line with a polite tap. Vaporix sped off at 5 leagues per hour, which, as everyone now knew, was simply not fast enough.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A caped numeral-six knight steering a small wind-skiff through bright sunset clouds, closing on a misty thief-wraith towing a raft of frightened lantern-makers high above a patchwork valley."
+}

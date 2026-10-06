@@ -1,0 +1,25 @@
+{
+  "id": "hagglewort-reed-market-percent",
+  "tier": "champion",
+  "title": "The Worry Tax of the Reed Market",
+  "monster": "Hagglewort the Reed Factor",
+  "story": "On the floating reed market, a long-whiskered newt in a merchant's cap has locked the village's whole seed store inside a wicker vault. Hagglewort the Reed Factor will sell it back for 240 gold crowns — \"plus a small worry tax of 25%, since worrying is such hard work for me.\" He then smirks and offers a 15% quick-pay rebate off that new total, certain no knight can track two percents at once, but Mr 6 just dips his quill and starts figuring.",
+  "question": "If the base price is 240 gold crowns, Hagglewort adds a 25% worry tax, and then takes 15% off that increased total, how many gold crowns does Mr 6 actually pay?",
+  "answer": 255,
+  "unit": "gold crowns",
+  "distractors": [
+    300,
+    264,
+    345
+  ],
+  "solution": [
+    "The worry tax makes the price 240 + 25% of 240 = 240 + 60 = 300 gold crowns.",
+    "The rebate comes off the NEW total: 15% of 300 = 45, so 300 - 45 = 255.",
+    "Mr 6 pays 255 gold crowns."
+  ],
+  "praise": "Working the percents one at a time was exactly right — the only slip was which number the second percent was taken from.",
+  "hint": "Find the price after the worry tax first. The rebate is taken off that bigger number, not off the original 240.",
+  "victory": "Hagglewort checked the sums three times, found them flawless, and handed over the seed store with a soggy bow. \"A knight who reads the fine print,\" he grumbled, \"is the worst kind of customer.\"",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape and tiny helmet doing chalk arithmetic on a market crate while a whiskered newt merchant in a reed cap guards a wicker vault, on floating reed platforms at misty golden-hour."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "thalgrinn-kelp-knots",
+  "tier": "champion",
+  "title": "The Knots That Knit Themselves",
+  "monster": "Thalgrinn the Kelp Knotter",
+  "story": "A fishing skiff with three sleepy villagers aboard is bound to the seafloor by 33 glowing kelp knots, and Thalgrinn the Kelp Knotter grins from the weeds. Every swipe of Mr 6's sword slices through 5 knots — but as long as 6 or more knots remain, the kelp knits 3 new ones right back. Mr 6 floats still in the green water and counts before he swings.",
+  "question": "If each swipe cuts 5 knots and 3 regrow whenever 6 or more knots are left, how many swipes does Mr 6 need to clear all 33 knots?",
+  "answer": 15,
+  "unit": "swipes",
+  "distractors": [
+    14,
+    7,
+    17
+  ],
+  "solution": [
+    "While knots keep regrowing, each swipe really removes 5 - 3 = 2 knots.",
+    "He must whittle 33 down to 5 so the last swipe finishes it: (33 - 5) / 2 = 14 swipes.",
+    "One final swipe cuts the last 5 knots with no regrowth: 14 + 1 = 15 swipes."
+  ],
+  "praise": "Spotting the net loss of 2 knots per swipe is the heart of this puzzle — the finishing swipe just needed to be counted too.",
+  "hint": "Each swipe only nets a loss of 5 - 3 knots. How many of those does it take to get down to a pile of 5 that can be cut in one go?",
+  "victory": "The last knot unravelled and the skiff bobbed up like a cork. Thalgrinn sulked off to knit a scarf instead — something that stays tied.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A small numeral-six knight hovering in sunlit green water, sword raised, counting glowing kelp knots that bind a fishing skiff while a long weedy kelp-monster scowls from the shadowy seafloor."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-06",
+  "title": "The Tenth-Part Trap",
+  "monster": "Gorganth the Ever-Swelling Ogre",
+  "story": "Gorganth gulps clouds for breakfast and swells ten times bigger with every bite, until his shadow swallows the whole valley. Luckily, Mr 6 carries the Lantern of Tenths: shine it on any giant number and only a TENTH of it remains, so a 900-ton fist becomes a 90-ton tap on the nose. Shout each tenth before Gorganth can gulp again — he swells every three seconds, so be quick!",
+  "rule": "Shrink it to a TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        14,
+        5
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        70,
+        17,
+        8
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        11
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        1,
+        21
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        2,
+        52
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        360,
+        3,
+        63
+      ]
+    },
+    {
+      "q": "500",
+      "answer": 50,
+      "distractors": [
+        500,
+        5,
+        55
+      ]
+    },
+    {
+      "q": "630",
+      "answer": 63,
+      "distractors": [
+        630,
+        6,
+        36
+      ]
+    },
+    {
+      "q": "840",
+      "answer": 84,
+      "distractors": [
+        840,
+        8,
+        48
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        1000,
+        10,
+        110
+      ]
+    }
+  ]
+}
