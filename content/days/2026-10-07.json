@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-07",
+  "problems": [
+    "problems/kettlestrand-market-share.json",
+    "problems/branwiddle-orchard-fractions.json",
+    "problems/salgrave-crypt-lanterns.json"
+  ]
+}

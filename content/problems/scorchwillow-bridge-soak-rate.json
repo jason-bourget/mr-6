@@ -1,0 +1,25 @@
+{
+  "id": "scorchwillow-bridge-soak-rate",
+  "tier": "champion",
+  "title": "The Smoulder on Thistlewind Bridge",
+  "monster": "Scorchwillow the Creeping Smoulder",
+  "story": "Scorchwillow the Creeping Smoulder is a slow orange flame-spirit that eats rope bridges plank by plank, and it has started at the far end of the 90-foot Thistlewind Bridge. The smoulder creeps forward at 2.4 feet per minute. Mr 6 charges on from the near end with a sloshing barrel of fogwater, soaking 3.6 feet of planks per minute — and soaked planks simply refuse to burn.",
+  "question": "If both keep moving at those steady rates until they meet, how many feet of bridge will Mr 6 have soaked and saved?",
+  "answer": 54,
+  "unit": "feet",
+  "distractors": [
+    15,
+    36,
+    45
+  ],
+  "solution": [
+    "Together they cover the bridge at 2.4 + 3.6 = 6 feet per minute, so they meet after 90 ÷ 6 = 15 minutes.",
+    "In 15 minutes Mr 6 soaks 15 × 3.6 = 54 feet.",
+    "Mr 6 saves 54 feet of bridge."
+  ],
+  "praise": "Adding the two speeds to find the meeting time was exactly the right plan — one more step turned those minutes into feet of rescued bridge.",
+  "hint": "They're closing the 90-foot gap together — add their speeds first to find how many minutes until they meet.",
+  "victory": "The smoulder hisses into a sulky puff of steam on the wet planks and shrinks to the size of a birthday candle, which Mr 6 politely carries home to light the village lanterns.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight in a blue cape sprinting across a long rope bridge over a misty canyon, sloshing a barrel of silver fogwater onto the planks while a creeping orange flame-spirit inches toward him from the far end, dramatic dusk light and swirling smoke."
+}

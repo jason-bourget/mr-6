@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-07",
+  "title": "The Triple-Tongue Duel",
+  "monster": "Tripletongue the Three-Headed Echo Wyrm",
+  "story": "Tripletongue the Three-Headed Echo Wyrm roars with three mouths at once, and every number Mr 6 shouts comes back THREE TIMES bigger — unless the knight shouts it tripled first, which jams all three throats at the same instant. One beat too slow and the wyrm's echo swallows the whole castle courtyard. Triple every number before the third head finishes hissing — can you be faster than an echo?",
+  "rule": "Triple it — hit back 3 times!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        7,
+        14
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        18,
+        24
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 33,
+      "distractors": [
+        22,
+        31,
+        36
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        54
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 60,
+      "distractors": [
+        40,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 99,
+      "distractors": [
+        66,
+        93,
+        96
+      ]
+    },
+    {
+      "q": "42",
+      "answer": 126,
+      "distractors": [
+        84,
+        116,
+        129
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        120,
+        150,
+        190
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 375,
+      "distractors": [
+        250,
+        365,
+        335
+      ]
+    }
+  ]
+}

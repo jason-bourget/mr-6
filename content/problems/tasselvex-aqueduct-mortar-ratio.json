@@ -1,0 +1,25 @@
+{
+  "id": "tasselvex-aqueduct-mortar-ratio",
+  "tier": "champion",
+  "title": "The Plaster Moth's Crumbling Aqueduct",
+  "monster": "Tasselvex the Plaster Moth",
+  "story": "Tasselvex the Plaster Moth has been nibbling the mortar out of the great desert aqueduct, and the village of Dry Hollow is down to its last cupful of water. Mr 6 climbs the sun-baked arches with a mixing trough and the old mason's recipe: patch-mortar must be mixed 3 parts resin to 5 parts river-silt to 2 parts ash. He needs 60 buckets of mortar to seal every nibbled crack.",
+  "question": "Mr 6 already has 12 buckets of river-silt in his cart. How many more buckets of river-silt must he gather to mix the full 60 buckets of mortar?",
+  "answer": 18,
+  "unit": "buckets",
+  "distractors": [
+    30,
+    20,
+    48
+  ],
+  "solution": [
+    "Add the recipe parts: 3 + 5 + 2 = 10 equal parts, so each part is 60 ÷ 10 = 6 buckets.",
+    "River-silt is 5 parts: 5 × 6 = 30 buckets needed.",
+    "He already has 12, so 30 - 12 = 18 more buckets of river-silt."
+  ],
+  "praise": "Breaking the recipe into equal parts was smart thinking — the missing move was subtracting the 12 buckets already in the cart.",
+  "hint": "First add 3 + 5 + 2 to see how many equal shares the 60 buckets split into.",
+  "victory": "The patched aqueduct gurgles back to life, and Tasselvex — discovering that dried patch-mortar tastes like chalky regret — flutters off to nibble sand dunes instead.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A small numeral-six knight with a trowel standing on a towering sandstone aqueduct arch, a dusty pale moth the size of a horse flaking mortar from the stones, golden desert light and a thin bright ribbon of water returning below."
+}

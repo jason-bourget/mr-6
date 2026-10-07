@@ -1,0 +1,25 @@
+{
+  "id": "umbrakeld-sunken-beacon-halving",
+  "tier": "champion",
+  "title": "The Glow Leech of Kelphaven",
+  "monster": "Umbrakeld the Glow Leech",
+  "story": "Deep in the kelp harbor of Kelphaven, the sunken beacon guides pearl-divers safely home — until Umbrakeld the Glow Leech clamps onto it and starts sipping. Every hour the leech drinks, the beacon's glow is cut exactly in half, and tonight it has already been sipping for four hours. Mr 6 swims down with a flask of stored starlight, cape rippling in the current.",
+  "question": "The beacon began the night at 72 lumens and has been halved once each hour for 4 hours. How many lumens must Mr 6 pour in to bring it back up to its full 72 lumens?",
+  "answer": 67.5,
+  "unit": "lumens",
+  "distractors": [
+    4.5,
+    9,
+    63
+  ],
+  "solution": [
+    "Halve the glow once per hour for 4 hours: 72 → 36 → 18 → 9 → 4.5 lumens left.",
+    "Compare what's left to full strength: 72 - 4.5 = 67.5.",
+    "Mr 6 must pour in 67.5 lumens."
+  ],
+  "praise": "Halving hour by hour was exactly the right instinct — the last step was subtracting what remains from the full 72.",
+  "hint": "Write the chain of halvings one hour at a time, then ask: how far below 72 did it land?",
+  "victory": "Mr 6 tips in the starlight and the beacon blazes gold; Umbrakeld lets go with a startled slurp and becomes a very shiny, very apologetic night-light for the pearl-divers.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape swimming through swaying kelp toward a sunken stone beacon with a huge translucent leech wrapped around it, pouring glowing starlight from a flask into the dimming lamp, cool blue-green underwater light."
+}
