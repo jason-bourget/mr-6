@@ -1,0 +1,25 @@
+{
+  "id": "clamorel-thricing-chimeling",
+  "tier": "champion",
+  "title": "The Chimeling That Would Not Stop Splitting",
+  "monster": "Clamorel the Thrice-Splitting Chimeling",
+  "story": "Beneath a frozen lake lies a hall of singing salt crystals, and Clamorel has been smashing them for the echo. Mr 6 swings his sword — and the chimeling shatters into three identical chimelings, all giggling. Three strikes later, Mr 6 lowers his blade and starts to think instead: chimelings cannot bear a single pure hummed note.",
+  "question": "Clamorel begins as 1 chimeling, and every strike turns each chimeling into 3. After Mr 6's 4 strikes, how many pure notes must he hum to silence them all, if one note silences exactly 9 chimelings?",
+  "answer": 9,
+  "unit": "notes",
+  "distractors": [
+    81,
+    27,
+    12
+  ],
+  "solution": [
+    "Track the tripling: 1 → 3 → 9 → 27 → 81 chimelings after 4 strikes.",
+    "Each note silences 9 of them: 81 ÷ 9 = 9.",
+    "Mr 6 needs 9 notes."
+  ],
+  "praise": "Following the tripling chain is the tough part, and that was good thinking — the last step was grouping that crowd into bunches of 9.",
+  "hint": "Write the chain one strike at a time: 1, then 3, then... only then worry about the notes.",
+  "victory": "Nine clear notes ring through the salt hall, and the eighty-one chimelings snap back into one slightly embarrassed chimeling, who now hums harmony for the crystals instead of smashing them.",
+  "image": "images/clamorel-thricing-chimeling.webp",
+  "imagePrompt": "A cavern of glowing blue salt crystals crowded with dozens of tiny giggling bell-shaped creatures, while a small numeral 6 knight stands calmly with sword sheathed, mouth open in a shining hummed note, cool moonlit light."
+}

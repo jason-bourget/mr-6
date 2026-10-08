@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-08",
+  "title": "The Hundred-Plate Standoff",
+  "monster": "Bastion, the Hundred-Plate Golem",
+  "story": "Bastion is a lumbering fortress of exactly one hundred stone plates, and he smugly soaks up every blow Mr 6 throws. But each strike shatters some plates, so Mr 6 must instantly shout how many are LEFT — subtract the hit from 100 — or the golem glues them back on with swampy cave slime. Call out the leftovers faster than Bastion can patch himself, Knight of Numbers!",
+  "rule": "Take the hit away from 100!",
+  "image": "images/rapid-2026-10-08.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        25
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        40
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        45
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        46
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        32
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 15,
+      "distractors": [
+        25,
+        5,
+        20
+      ]
+    },
+    {
+      "q": "37",
+      "answer": 63,
+      "distractors": [
+        73,
+        53,
+        67
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 37,
+      "distractors": [
+        47,
+        27,
+        43
+      ]
+    }
+  ]
+}

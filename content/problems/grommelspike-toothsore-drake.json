@@ -1,0 +1,25 @@
+{
+  "id": "grommelspike-toothsore-drake",
+  "tier": "champion",
+  "title": "The Drake With the Dreadful Toothache",
+  "monster": "Grommelspike the Toothsore Drake",
+  "story": "A lava-warmed cave is roaring so loudly that the whole village has moved its goats to the next valley. Mr 6 tiptoes in and finds no villain at all — just Grommelspike, a drake with a mouthful of aching teeth, snapping at shadows because it hurts to think. Mr 6 rolls up his cape and offers to brew clove-glow salve, if the drake will hold still and say \"aah.\"",
+  "question": "Grommelspike has 60 teeth, and 2/5 of them ache. Each aching tooth needs 3 drops of clove-glow salve, and every vial Mr 6 brews holds 7 drops. How many vials must he brew to treat every aching tooth?",
+  "answer": 11,
+  "unit": "vials",
+  "distractors": [
+    10,
+    24,
+    72
+  ],
+  "solution": [
+    "Aching teeth: 60 × 2/5 = 24 teeth.",
+    "Drops of salve needed: 24 × 3 = 72 drops.",
+    "Vials: 72 ÷ 7 = 10.28..., and a part-full vial still counts, so Mr 6 brews 11 vials."
+  ],
+  "praise": "Taking 2/5 of 60 first was exactly the right opening move — the finish was remembering that a leftover splash of salve still needs a whole vial.",
+  "hint": "Start with the teeth that actually hurt: what is 2/5 of 60? Then count drops before you count vials.",
+  "victory": "Eleven vials later, Grommelspike's grin gleams like polished obsidian, and he insists on carrying every goat back over the ridge himself — gently, one in each claw.",
+  "image": "images/grommelspike-toothsore-drake.webp",
+  "imagePrompt": "A huge red drake sitting meekly with its jaws wide open in a glowing lava-lit cave while a small knightly numeral 6 in a blue cape dabs salve on a tooth with a long brush, warm orange light and relieved mood."
+}

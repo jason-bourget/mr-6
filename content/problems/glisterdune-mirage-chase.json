@@ -1,0 +1,25 @@
+{
+  "id": "glisterdune-mirage-chase",
+  "tier": "champion",
+  "title": "The Courier Who Ran Off With the Mail",
+  "monster": "Glisterdune the Mirage Courier",
+  "story": "Across the glass desert sprints Glisterdune, a long-legged mirage-thing with the village mail satchel bouncing on its back — a whole winter's worth of letters and a pouch of silver acorns. By the time Mr 6 unfurls the sail of a borrowed wind-skiff, the courier is already 9 leagues ahead and shimmering. Mr 6 does not panic; he does arithmetic.",
+  "question": "Glisterdune runs at a steady 12 leagues per hour with a 9-league head start, and Mr 6's wind-skiff sails at 15 leagues per hour. How many leagues will Mr 6 have sailed by the moment he draws level with the courier?",
+  "answer": 45,
+  "unit": "leagues",
+  "distractors": [
+    3,
+    36,
+    27
+  ],
+  "solution": [
+    "Closing speed: 15 − 12 = 3 leagues gained every hour.",
+    "Time to erase the 9-league gap: 9 ÷ 3 = 3 hours.",
+    "Distance Mr 6 sails: 15 × 3 = 45 leagues."
+  ],
+  "praise": "Comparing the two speeds was exactly the right instinct — after finding the hours, one more step turns that time into leagues sailed.",
+  "hint": "Each hour, how much of the 9-league gap disappears? Find the hours first, then ask how far the skiff travelled in that time.",
+  "victory": "Glisterdune skids to a stop in a spray of glass sand, laughing, and hands over the satchel — any hero who can out-think a mirage deserves the mail, and a new volunteer postal runner.",
+  "image": "images/glisterdune-mirage-chase.webp",
+  "imagePrompt": "A shimmering long-legged mirage creature with a bulging mail satchel racing across a dawn-lit glass desert, chased by a small caped numeral 6 knight steering a little sail-skiff that kicks up glittering dust, bright and thrilling."
+}

@@ -234,6 +234,9 @@
     "problems/vaporix-skyraft-chase.json",
     "problems/umbrakeld-sunken-beacon-halving.json",
     "problems/tasselvex-aqueduct-mortar-ratio.json",
-    "problems/scorchwillow-bridge-soak-rate.json"
+    "problems/scorchwillow-bridge-soak-rate.json",
+    "problems/grommelspike-toothsore-drake.json",
+    "problems/clamorel-thricing-chimeling.json",
+    "problems/glisterdune-mirage-chase.json"
   ]
 }
