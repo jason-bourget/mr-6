@@ -1,0 +1,25 @@
+{
+  "id": "pottlegrim-pantry-jars",
+  "tier": "champion",
+  "title": "The Larder of Stolen Plums",
+  "monster": "Pottlegrim the Pantry Gnasher",
+  "story": "Deep in a sleeping giant's larder, Pottlegrim has stacked the village's stolen plum jam on tall shelves — 15 shelves with 24 jars on each. The gnasher won't fight; he bargains, and he insists on keeping 25% of all the jars as 'shelf rent'. He also admits, with a sticky grin, that 36 of the jars left over are already licked empty.",
+  "question": "How many full jars of plum jam does Mr 6 carry back to the village?",
+  "answer": 234,
+  "unit": "jars",
+  "distractors": [
+    270,
+    324,
+    90
+  ],
+  "solution": [
+    "First the whole larder: 15 shelves × 24 jars = 360 jars.",
+    "Pottlegrim keeps 25%, so the village gets 75%: 360 × 0.75 = 270 jars.",
+    "Take away the 36 empty ones: 270 − 36 = 234 full jars."
+  ],
+  "praise": "Counting the whole array of shelves first is exactly the right opening move — the 36 empty jars just needed to come off at the end.",
+  "hint": "Start with the array: how many jars sit on all 15 shelves together? Then deal with the rent, then the empties.",
+  "victory": "Mr 6 named 234 before Pottlegrim could finish his sticky sums, and the gnasher was so impressed he carried the crates to the door himself — and asked for a jam recipe instead of rent.",
+  "image": "images/pottlegrim-pantry-jars.webp",
+  "imagePrompt": "A towering giant's pantry lit by one swinging lantern, shelves of purple jam jars climbing into shadow, a round sticky-pawed gnasher counting on his claws while a small numeral-6 knight points confidently at the shelves."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hobswallow-bellows-toad",
+  "tier": "champion",
+  "title": "The Toad Who Grew by Halves",
+  "monster": "Hobswallow the Bellows Toad",
+  "story": "Hobswallow has wedged himself into the millpond's water gate, and every hour he gulps air and puffs up 50% heavier, squeezing the gate shut while the village gardens go dry. Mr 6 can pop him loose with the gate-winch, but the winch must be set to the toad's exact weight or the chain will snap. The miller says the winch crew cannot arrive for three more hours — right now Hobswallow weighs 16 pounds.",
+  "question": "If Hobswallow grows 50% heavier every hour for the next 3 hours, how many pounds will he weigh when the winch is finally set?",
+  "answer": 54,
+  "unit": "pounds",
+  "distractors": [
+    24,
+    36,
+    40
+  ],
+  "solution": [
+    "Growing 50% heavier means multiplying by 1.5, so after 1 hour he is 16 × 1.5 = 24 pounds.",
+    "After 2 hours: 24 × 1.5 = 36 pounds. After 3 hours: 36 × 1.5 = 54 pounds.",
+    "Mr 6 sets the winch for 54 pounds."
+  ],
+  "praise": "Multiplying by 1.5 was exactly the right move — the growth just had to happen three separate times, each one on the newer, bigger weight.",
+  "hint": "50% heavier means the new weight is 1.5 times the old weight. Do that once for each hour, always using the latest weight.",
+  "victory": "The winch pulled at precisely 54 pounds and Hobswallow popped free like a cork, bouncing twice across the pond before drifting off, burping politely. The gardens drank all afternoon.",
+  "image": "images/hobswallow-bellows-toad.webp",
+  "imagePrompt": "A moonlit millpond where an enormously puffed-up green toad is wedged in a wooden water gate while a brave walking numeral 6 in a knight helmet and blue cape measures him with a rope, silvery light on the still water."
+}

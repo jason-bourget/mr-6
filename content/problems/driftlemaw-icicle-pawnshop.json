@@ -1,0 +1,25 @@
+{
+  "id": "driftlemaw-icicle-pawnshop",
+  "tier": "champion",
+  "title": "The Pawnbroker of the Frozen Falls",
+  "monster": "Driftlemaw the Icicle Pawnbroker",
+  "story": "Behind the frozen waterfall, Driftlemaw has hung the village's storm-warning bell among his icicles and priced it at 60 amber drams. Mr 6 empties his pack: 7 moonstone shards worth 4.25 drams each, and 12 glow-snail lanterns worth 1.5 drams each. The pawnbroker taps the ice and smirks, certain the little six can't count fast enough to argue.",
+  "question": "How many more drams does Mr 6 still need to buy back the bell?",
+  "answer": 12.25,
+  "unit": "drams",
+  "distractors": [
+    47.75,
+    30.25,
+    42
+  ],
+  "solution": [
+    "The moonstone shards are worth 7 × 4.25 = 29.75 drams.",
+    "The glow-snail lanterns are worth 12 × 1.5 = 18 drams, so Mr 6 has 29.75 + 18 = 47.75 drams.",
+    "The bell costs 60, so he is short 60 − 47.75 = 12.25 drams."
+  ],
+  "praise": "Adding up what Mr 6 already had was smart bookkeeping — the last step was comparing that total against the 60-dram price.",
+  "hint": "Work out the value of each pile separately, add them together, and only then see how far that total falls below 60.",
+  "victory": "Mr 6 announced the shortfall to the quarter-dram before Driftlemaw had finished breathing on his claws, and the pawnbroker — who adored precision more than profit — handed over the bell and asked Mr 6 to audit his icicles every spring.",
+  "image": "images/driftlemaw-icicle-pawnshop.webp",
+  "imagePrompt": "A glittering cave behind a frozen waterfall hung with icicles and dangling trinkets, a long-fingered frost pawnbroker guarding a brass bell while a numeral-6 knight in a blue cape lays shining shards and glowing snail lanterns on an ice counter."
+}

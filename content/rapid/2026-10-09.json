@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-09",
+  "title": "The Doubling Duel",
+  "monster": "Grommelhorn the Twin-Horned Ogre",
+  "story": "Grommelhorn the Twin-Horned Ogre swings a club in each fist and laughs, 'Whatever you hit me with, I shrug off half!' Mr 6 spots the trick instantly: every blow must land with exactly DOUBLE the ogre's force, or it bounces off his boulder belly like a pebble. Read his swing, double it, and strike — but Grommelhorn swings fast, so you'd better be faster!",
+  "rule": "Strike back with DOUBLE the force!",
+  "image": "images/rapid-2026-10-09.webp",
+  "problems": [
+    {
+      "q": "12",
+      "answer": 24,
+      "distractors": [
+        22,
+        14,
+        26
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 36,
+      "distractors": [
+        26,
+        38,
+        32
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 50,
+      "distractors": [
+        40,
+        55,
+        52
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        65
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 92,
+      "distractors": [
+        82,
+        96,
+        88
+      ]
+    },
+    {
+      "q": "57",
+      "answer": 114,
+      "distractors": [
+        104,
+        112,
+        117
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 136,
+      "distractors": [
+        126,
+        138,
+        132
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 170,
+      "distractors": [
+        160,
+        175,
+        165
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 250,
+      "distractors": [
+        240,
+        255,
+        225
+      ]
+    },
+    {
+      "q": "175",
+      "answer": 350,
+      "distractors": [
+        340,
+        325,
+        355
+      ]
+    }
+  ]
+}
