@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-10",
+  "problems": [
+    "problems/marrowdale-ferry-rate.json",
+    "problems/vantablume-nightgarden-percent.json",
+    "problems/skallowpike-canal-rate.json"
+  ]
+}

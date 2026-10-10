@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-10",
+  "title": "The Sixfold Strike",
+  "monster": "Hexaclaw the Shadow Hydra",
+  "story": "Hexaclaw the Shadow Hydra sneers that one knight can never match six snapping heads — so Mr 6 answers with his signature move, the Sixfold Strike, hitting back six times for every single blow. Every number the hydra hisses must be multiplied by SIX, or the heads grow back twice as smug. Hexaclaw bites fast, knight — can you strike faster?",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/rapid-2026-10-10.webp",
+  "problems": [
+    {
+      "q": "2",
+      "answer": 12,
+      "distractors": [
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "q": "4",
+      "answer": 24,
+      "distractors": [
+        18,
+        20,
+        26
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        48,
+        56
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 60,
+      "distractors": [
+        16,
+        66,
+        600
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        62,
+        68,
+        78
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        56,
+        76
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        85,
+        95
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        100,
+        126,
+        112
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 150,
+      "distractors": [
+        125,
+        140,
+        155
+      ]
+    }
+  ]
+}
