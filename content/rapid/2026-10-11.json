@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-11",
+  "title": "The Slime That Split in Two",
+  "monster": "Glorp the Splitting Slime",
+  "story": "Glorp the Splitting Slime bounces into the Hall of Halves, wobbling and giggling, and every blob he throws grows twice as big unless it is cut EXACTLY down the middle. Mr 6 raises his mirror-bright blade: one clean halving cut and the blob fizzles into harmless jelly, but one wrong cut and Glorp doubles again. Slice fast, knight — Glorp is already jiggling!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/rapid-2026-10-11.webp",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        10,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        13
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        37,
+        45
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 43,
+      "distractors": [
+        42,
+        34,
+        44
+      ]
+    },
+    {
+      "q": "128",
+      "answer": 64,
+      "distractors": [
+        62,
+        74,
+        46
+      ]
+    },
+    {
+      "q": "154",
+      "answer": 77,
+      "distractors": [
+        72,
+        78,
+        67
+      ]
+    },
+    {
+      "q": "240",
+      "answer": 120,
+      "distractors": [
+        12,
+        110,
+        130
+      ]
+    },
+    {
+      "q": "366",
+      "answer": 183,
+      "distractors": [
+        173,
+        186,
+        193
+      ]
+    },
+    {
+      "q": "518",
+      "answer": 259,
+      "distractors": [
+        254,
+        249,
+        269
+      ]
+    }
+  ]
+}

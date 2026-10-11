@@ -240,6 +240,9 @@
     "problems/glisterdune-mirage-chase.json",
     "problems/hobswallow-bellows-toad.json",
     "problems/pottlegrim-pantry-jars.json",
-    "problems/driftlemaw-icicle-pawnshop.json"
+    "problems/driftlemaw-icicle-pawnshop.json",
+    "problems/cindrabel-foundry-tariff.json",
+    "problems/nimbriss-kelp-halving.json",
+    "problems/vessinor-gust-magpie-chase.json"
   ]
 }

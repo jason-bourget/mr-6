@@ -1,0 +1,25 @@
+{
+  "id": "nimbriss-kelp-halving",
+  "tier": "champion",
+  "title": "The Leech That Drinks the Light",
+  "monster": "Nimbriss the Kelp Shade",
+  "story": "At the bottom of the Lantern Reef, Nimbriss the Kelp Shade wraps her ribbons around the great coral beacon and sips its light away — half of whatever is left, every single hour. Three pearl-divers are still working below and need the beacon to find their way up. Mr 6 ties on a shell helmet and starts doing the math before he swims a single stroke.",
+  "question": "The beacon is shining at 240 glims right now, and Nimbriss halves it every hour. How many glims will the beacon be shining after 5 hours?",
+  "answer": 7.5,
+  "unit": "glims",
+  "distractors": [
+    15,
+    120,
+    48
+  ],
+  "solution": [
+    "Halving hour by hour: 240 → 120 → 60 → 30 → 15 → 7.5.",
+    "That is 240 ÷ 2 five times, or 240 ÷ 32.",
+    "After 5 hours the beacon shines at 7.5 glims."
+  ],
+  "praise": "Halving over and over was exactly the right idea — it's easy to lose count of how many halves you've taken, so tracking them on scratch paper is the trick.",
+  "hint": "Write the glims hour by hour in a little chain, and count the arrows: you need five of them, not four.",
+  "victory": "Knowing the light would fade to a whisper, Mr 6 swims down early and waves the divers up with two hours to spare. Nimbriss, left sipping a beacon no brighter than a firefly, grumbles off to find a dimmer snack.",
+  "image": "images/nimbriss-kelp-halving.webp",
+  "imagePrompt": "A shadowy ribbon-like kelp creature draped over a glowing coral beacon in deep blue-green water, with a small armored numeral 6 swimming toward pearl-divers in the fading underwater light."
+}

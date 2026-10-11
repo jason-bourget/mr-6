@@ -1,0 +1,25 @@
+{
+  "id": "cindrabel-foundry-tariff",
+  "tier": "champion",
+  "title": "The Tariff of the Ember Foundry",
+  "monster": "Cindrabel the Tariff Salamander",
+  "story": "Deep in the Ember Foundry, Cindrabel the Tariff Salamander coils around four crates of cooling glass bells that belong to the village children's choir. 'Pay my tariff and the bells are yours,' she purrs, flicking her tail at a soot-smeared price board. Mr 6 polishes his helmet, reads the board twice, and counts out his ember coins.",
+  "question": "The board says: each crate costs 7.5 ember coins, a 20% foundry surcharge is added to the crate total, and a 4.5-coin 'choir kindness' discount is taken off at the end. How many ember coins must Mr 6 pay for all 4 crates?",
+  "answer": 31.5,
+  "unit": "ember coins",
+  "distractors": [
+    30,
+    36,
+    25.5
+  ],
+  "solution": [
+    "Four crates cost 4 × 7.5 = 30 ember coins.",
+    "The 20% surcharge is 30 × 0.2 = 6 coins, so the tab climbs to 30 + 6 = 36 coins.",
+    "Taking off the kindness discount: 36 - 4.5 = 31.5 ember coins."
+  ],
+  "praise": "Starting with 4 × 7.5 was exactly the right opening move — the surcharge and the discount were just two more small steps riding on top of it.",
+  "hint": "Find the plain cost of the crates first, then ask yourself: is 20% of THAT number added before or after the discount?",
+  "victory": "Mr 6 stacks 31.5 coins in a neat glowing tower, and Cindrabel — who has never seen anyone read her board twice — hands over the bells and asks for arithmetic lessons. The choir rings out all the way home.",
+  "image": "images/cindrabel-foundry-tariff.webp",
+  "imagePrompt": "A brave knight-shaped numeral 6 in a blue cape counting glowing ember coins before a grinning orange salamander coiled around crates of glass bells, in a dim foundry lit by molten light and drifting sparks."
+}

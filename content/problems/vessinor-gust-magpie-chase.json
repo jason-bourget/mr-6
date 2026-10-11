@@ -1,0 +1,25 @@
+{
+  "id": "vessinor-gust-magpie-chase",
+  "tier": "champion",
+  "title": "The Magpie and the Stolen Compass",
+  "monster": "Vessinor the Gust Magpie",
+  "story": "Vessinor the Gust Magpie snatches the mapmaker's brass compass right off the canyon rim and flaps away laughing. By the time Mr 6 whistles up his kite-hawk, the thief already has a 9-league head start down the windy gorge. Mr 6 doesn't flap harder — he thinks faster.",
+  "question": "Vessinor flies at a steady 12 leagues per hour, Mr 6's kite-hawk flies at 18 leagues per hour, and the magpie's head start is 9 leagues. How many hours until Mr 6 catches up?",
+  "answer": 1.5,
+  "unit": "hours",
+  "distractors": [
+    0.5,
+    0.75,
+    6
+  ],
+  "solution": [
+    "Each hour Mr 6 closes the gap by 18 - 12 = 6 leagues.",
+    "The gap is 9 leagues, so the time is 9 ÷ 6 = 1.5.",
+    "Mr 6 catches Vessinor in 1.5 hours."
+  ],
+  "praise": "Dividing the head start was the right instinct — the missing step was dividing by the CATCH-UP speed (18 - 12), not by one bird's speed alone.",
+  "hint": "Don't ask how fast each bird flies — ask how much of the 9-league gap disappears in one hour.",
+  "victory": "Exactly ninety minutes later Mr 6 glides alongside the startled magpie and politely holds out a hand; Vessinor drops the compass, squawks 'that was MATH, that was cheating!' and flaps off to steal something less well-guarded.",
+  "image": "images/vessinor-gust-magpie-chase.webp",
+  "imagePrompt": "A glossy black-and-silver magpie clutching a brass compass racing down a sunlit red canyon, pursued by a caped numeral-6 knight riding a kite-shaped hawk through swirling updrafts."
+}
