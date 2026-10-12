@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-12",
+  "title": "The Quintuple Hydra Clash",
+  "monster": "Quintara the Five-Headed Hydra",
+  "story": "Quintara the Five-Headed Hydra guards the Bridge of Bones with five snapping heads, and she giggles at single strikes. Mr 6 has learned her one weakness: a blow struck FIVE times over stuns all five heads at once, one per head, before they can hiss a reply. Every number she spits at you must come back times five — can you blast five-fold faster than she can blink five pairs of eyes?",
+  "rule": "Blast back FIVE times as hard!",
+  "image": "images/rapid-2026-10-12.webp",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        35,
+        25,
+        12
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 40,
+      "distractors": [
+        45,
+        32,
+        16
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        55,
+        24
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 45,
+      "distractors": [
+        54,
+        40,
+        35
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        28
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        90,
+        40
+      ]
+    },
+    {
+      "q": "16",
+      "answer": 80,
+      "distractors": [
+        70,
+        85,
+        32
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        100,
+        48
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        36
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 175,
+      "distractors": [
+        155,
+        165,
+        150
+      ]
+    }
+  ]
+}

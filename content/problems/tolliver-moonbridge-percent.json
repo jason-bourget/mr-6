@@ -1,0 +1,25 @@
+{
+  "id": "tolliver-moonbridge-percent",
+  "tier": "champion",
+  "title": "The Moonbridge Surcharge",
+  "monster": "Tolliver the Bridge Appraiser",
+  "story": "Mr 6 reaches the Moonbridge carrying 240 gold crowns to buy medicine for a snowed-in village. Tolliver the Bridge Appraiser, a stooped heron-headed clerk with a stamp for a beak, announces a toll of 35% of everything a traveler carries. 'But,' he sniffs, 'honest travelers who state the exact amount left over may cross for free — and keep it all.'",
+  "question": "If Tolliver's toll were 35% of Mr 6's 240 gold crowns, how many crowns would be left over after paying it?",
+  "answer": 156,
+  "unit": "crowns",
+  "distractors": [
+    84,
+    205,
+    120
+  ],
+  "solution": [
+    "Find the toll: 35% of 240 = 0.35 x 240 = 84 crowns.",
+    "Subtract it from what he carries: 240 - 84 = 156 crowns.",
+    "Mr 6 states the leftover: 156 crowns."
+  ],
+  "praise": "Finding 35% of 240 was exactly the right first move - the toll itself just needed subtracting from the 240 to get the leftover.",
+  "hint": "First work out what 35% of 240 actually is, then ask: how much of the 240 would still be in the pouch?",
+  "victory": "Tolliver stamps his own forehead in shock, squawks 'CORRECT!', and lifts the gate - Mr 6 strolls across with every single crown still jingling.",
+  "image": "images/tolliver-moonbridge-percent.webp",
+  "imagePrompt": "A heron-headed toll clerk in a too-small coat gaping at a brave little numeral-six knight on a moonlit silver bridge over fog, cool blue light."
+}

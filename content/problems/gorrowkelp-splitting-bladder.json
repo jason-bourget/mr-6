@@ -1,0 +1,25 @@
+{
+  "id": "gorrowkelp-splitting-bladder",
+  "tier": "champion",
+  "title": "The Bladders That Split in Four",
+  "monster": "Gorrowkelp the Quartering Bladderweed",
+  "story": "In the flooded sea-cave of Low Lantern, Gorrowkelp the Quartering Bladderweed floats as 3 fat glowing bladders, pinning a crab-fisher's raft to the ceiling. Mr 6 learns the nasty rule: every single time anything strikes it, each bladder bursts into 4 new bladders. He counts on his fingers before he even thinks about swinging.",
+  "question": "If Mr 6 struck Gorrowkelp 4 times, each strike turning every bladder into 4 bladders, how many bladders would be floating in the cave?",
+  "answer": 768,
+  "unit": "bladders",
+  "distractors": [
+    192,
+    48,
+    12
+  ],
+  "solution": [
+    "Each strike multiplies the count by 4, starting from 3 bladders.",
+    "Strike by strike: 3 x 4 = 12, 12 x 4 = 48, 48 x 4 = 192, 192 x 4 = 768.",
+    "That would be 768 bladders - so Mr 6 wisely keeps his sword sheathed."
+  ],
+  "praise": "Multiplying by 4 each strike was exactly right - it just needed one more round of 4 to cover all four strikes.",
+  "hint": "Write the count after each strike in a little chain: start at 3, then multiply by 4 once for every strike.",
+  "victory": "Mr 6 sheathes his sword, politely tickles the raft loose with his cape instead, and Gorrowkelp - never struck, never split - burbles a confused thank-you.",
+  "image": "images/gorrowkelp-splitting-bladder.webp",
+  "imagePrompt": "Glowing green kelp bladders bobbing against a dripping sea-cave ceiling above a trapped little raft, with a numeral-six knight thoughtfully NOT swinging his sword, eerie underwater light."
+}

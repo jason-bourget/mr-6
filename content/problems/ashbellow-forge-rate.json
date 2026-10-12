@@ -1,0 +1,25 @@
+{
+  "id": "ashbellow-forge-rate",
+  "tier": "champion",
+  "title": "The Forge That Cools Too Fast",
+  "monster": "Ashbellow the Draft Wyrm",
+  "story": "Ashbellow the Draft Wyrm has coiled around the mountain forge's chimney, breathing cold down the flue so the great furnace loses 18 degrees of heat every hour. The smiths' bellows pump heat back in at 11.5 degrees per hour, and the furnace sits at 1,200 degrees. Below 1,070 degrees the village's winter horseshoes can't be cast at all.",
+  "question": "At a net loss of 18 - 11.5 degrees per hour, how many hours until the furnace falls from 1,200 degrees to 1,070 degrees?",
+  "answer": 20,
+  "unit": "hours",
+  "distractors": [
+    130,
+    6.5,
+    11
+  ],
+  "solution": [
+    "Net cooling each hour: 18 - 11.5 = 6.5 degrees.",
+    "Heat it can afford to lose: 1200 - 1070 = 130 degrees.",
+    "130 / 6.5 = 20 hours."
+  ],
+  "praise": "Subtracting to find the real hourly loss was the key insight - the drop of 130 degrees just needed dividing by that 6.5.",
+  "hint": "The bellows fight back, so first find how much heat is truly lost in one hour, then see how many of those hours fit into the drop you can allow.",
+  "victory": "Mr 6 announces the twenty-hour window, the smiths cast every horseshoe with four hours to spare, and Ashbellow - out-scheduled - slinks off to sulk in a cold chimney somewhere else.",
+  "image": "images/ashbellow-forge-rate.webp",
+  "imagePrompt": "A long smoky wyrm coiled around a mountain forge's chimney blowing frost down the flue while a numeral-six knight points at a glowing furnace gauge, orange firelight against blue cold."
+}

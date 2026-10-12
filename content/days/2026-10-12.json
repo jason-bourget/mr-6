@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-12",
+  "problems": [
+    "problems/grottomaw-cistern-flood.json",
+    "problems/brumbleflint-geyser-shards.json",
+    "problems/ferrowind-crane-updraft.json"
+  ]
+}
