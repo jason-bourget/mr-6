@@ -1,0 +1,25 @@
+{
+  "id": "flintwhistle-quartering-spark",
+  "tier": "champion",
+  "title": "Don't Strike the Spark",
+  "monster": "Flintwhistle the Quartering Spark",
+  "story": "In the stone bonfire-pit of Ashbarrow Hollow, the old smith keeps hammering a single stubborn spark that refuses to die. What he hasn't noticed is that Flintwhistle, the spark, SPLITS INTO FOUR every time the hammer falls. Mr 6 catches the smith's wrist mid-swing and says, \"Three more swings and you'll be sweeping sparks until spring — let me count first.\"",
+  "question": "There are 3 sparks hovering now, and each hammer strike turns every spark into 4 sparks. If the smith lands 3 more strikes, and Mr 6's frost-net then snuffs 8 sparks per second, how many seconds does the net need?",
+  "answer": 24,
+  "unit": "seconds",
+  "distractors": [
+    192,
+    48,
+    6
+  ],
+  "solution": [
+    "Each strike multiplies the sparks by 4: 3 x 4 = 12, then 12 x 4 = 48, then 48 x 4 = 192 sparks.",
+    "The frost-net snuffs 8 sparks every second, so 192 / 8 = 24.",
+    "The net needs 24 seconds."
+  ],
+  "praise": "Multiplying by 4 for each strike was precisely the right instinct — the last move was dividing that swarm by the net's speed.",
+  "hint": "Do the three strikes one at a time (x4, then x4, then x4) before you let the frost-net start counting.",
+  "victory": "Twenty-four seconds later the last spark went out with a tiny, insulted *pfft*. \"Next time,\" said Mr 6, hanging up the net, \"count before you clobber.\" The smith nodded and quietly bought himself an abacus.",
+  "image": "images/flintwhistle-quartering-spark.webp",
+  "imagePrompt": "A cold starry night over a great stone bonfire-pit where a swarm of glowing orange sparks swirls like fireflies, a startled old smith frozen mid-swing, and a small number-six knight raising a shimmering frost-net."
+}

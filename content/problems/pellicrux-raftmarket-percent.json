@@ -1,0 +1,25 @@
+{
+  "id": "pellicrux-raftmarket-percent",
+  "tier": "champion",
+  "title": "The Beak Broker's Cut",
+  "monster": "Pellicrux the Beak Broker",
+  "story": "Every sale at the floating Raftmarket must pass through the gullet of Pellicrux, a gigantic grey pelican in a merchant's hat who swallows a slice of every deal and calls it business. Mr 6 has brought twelve glass lanterns to sell so the lamp-makers' children can buy winter blankets before the frost. Pellicrux clacks his beak and waits.",
+  "question": "Mr 6 sells all 12 lanterns at 7.5 gold crowns each. Pellicrux swallows 20% of the sale as his beak fee, and then the raft-ferry charges a flat toll of 6 gold crowns. How many gold crowns does Mr 6 carry home?",
+  "answer": 66,
+  "unit": "gold crowns",
+  "distractors": [
+    72,
+    84,
+    18
+  ],
+  "solution": [
+    "The lanterns sell for 12 x 7.5 = 90 gold crowns.",
+    "Pellicrux swallows 20% of 90, which is 0.2 x 90 = 18 crowns, leaving 90 - 18 = 72.",
+    "Then the ferry toll takes 6 more: 72 - 6 = 66 gold crowns carried home."
+  ],
+  "praise": "Taking the percent off the full sale was solid thinking — there was just one more bite out of the purse after the pelican's.",
+  "hint": "Find the whole sale first, then take the pelican's 20% off that — and remember the ferry is still waiting with its hand out.",
+  "victory": "Mr 6 paid the fee with a smile and whispered, \"You swallowed one-fifth; I kept four-fifths and the blankets.\" Pellicrux checked his own sums, honked in horror, and flapped off to study fractions.",
+  "image": "images/pellicrux-raftmarket-percent.webp",
+  "imagePrompt": "A huge grey pelican in a tiny merchant's hat looming over a lamplit floating raft-market at dawn, while a small number-six knight calmly counts glowing glass lanterns and gold crowns on a barrel."
+}

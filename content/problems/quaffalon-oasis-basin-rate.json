@@ -1,0 +1,25 @@
+{
+  "id": "quaffalon-oasis-basin-rate",
+  "tier": "champion",
+  "title": "The Gulper at the Gate",
+  "monster": "Quaffalon the Oasis Gulper",
+  "story": "The salt caravan has gone three days without water, and the stone gate to the oasis only swings open when the basin holds 90 gallons. Quaffalon, a bloated sand-frog the size of a haycart, has parked himself in the basin and slurps away at it all day long. Mr 6 wedges his little shield under the gulper's chin so the slurping slows to a steady trickle, then sits down with a stick to do sums in the sand.",
+  "question": "The spring pours 11.5 gallons into the basin each minute while Quaffalon slurps out 7 gallons each minute. The basin holds 18 gallons right now and the gate opens at 90 gallons. How many minutes until the gate opens?",
+  "answer": 16,
+  "unit": "minutes",
+  "distractors": [
+    4.5,
+    72,
+    20
+  ],
+  "solution": [
+    "Each minute the basin really gains 11.5 - 7 = 4.5 gallons.",
+    "The basin still needs 90 - 18 = 72 gallons.",
+    "72 / 4.5 = 16 minutes until the gate swings open."
+  ],
+  "praise": "Looking at both the pouring and the slurping was exactly right — the missing step was turning those two numbers into one net gain per minute.",
+  "hint": "Water is coming in AND going out. Work out how much the basin truly gains in one single minute before you worry about the total.",
+  "victory": "At minute sixteen the gate groaned open, and Quaffalon — now sloshing like a full waterskin — burped once and hopped off to nap in the shade. The camels drank first; Mr 6 drank second, as knights should.",
+  "image": "images/quaffalon-oasis-basin-rate.webp",
+  "imagePrompt": "A brave number-six knight with a blue cape crouching beside a desert oasis basin at golden dusk, scratching sums in the sand while an enormous bloated sand-frog slurps noisily from the water behind a half-open stone gate."
+}

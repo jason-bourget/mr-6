@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-13",
+  "title": "The Fourfold Fury",
+  "monster": "Gustavo the Four-Winged Gale Wyrm",
+  "story": "Gustavo the Gale Wyrm beats four storm-wings at once, and every puff he blows comes back at Mr 6 four times stronger — rude! Our knight learned the trick on the spot: whatever gust the wyrm sends, Mr 6 returns it QUADRUPLED, so the wyrm's own wind knocks him tail-over-snout. Four wings flap fast, hero — can your math flap faster?",
+  "rule": "Hit back FOUR times as hard!",
+  "image": "images/rapid-2026-10-13.webp",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 28,
+      "distractors": [
+        24,
+        21,
+        32
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        36,
+        44,
+        46
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        45,
+        55,
+        70
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        60,
+        90
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 44,
+      "distractors": [
+        33,
+        41,
+        48
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        75,
+        90,
+        105
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        54,
+        62,
+        76
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        105,
+        120,
+        150
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        135,
+        160,
+        200
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        180,
+        220,
+        260
+      ]
+    }
+  ]
+}
