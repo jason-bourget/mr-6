@@ -1,0 +1,25 @@
+{
+  "id": "mistralon-cloud-whale-siphon",
+  "tier": "champion",
+  "title": "The Whale That Drank the Lake",
+  "monster": "Mistralon the Cloud Whale",
+  "story": "High above Quillrest Tarn, a whale made of storm-cloud has dipped its snout into the mountain reservoir and begun to drink. The silver moon-carp below flap in panic — once the water falls to the stranding line, they will be left gasping on the stones. Mr 6 hauls open the snowmelt sluice gate with both arms and starts counting.",
+  "question": "Mistralon drinks 200 gallons every minute while the sluice pours 125 gallons back in, and the water sits 1200 gallons above the stranding line — how many minutes does Mr 6 have to lift every moon-carp to safety?",
+  "answer": 16,
+  "unit": "minutes",
+  "distractors": [
+    6,
+    9.6,
+    75
+  ],
+  "solution": [
+    "Each minute the reservoir really loses 200 - 125 = 75 gallons.",
+    "Time to lose the 1200-gallon cushion: 1200 / 75 = 16.",
+    "Mr 6 has 16 minutes before the water hits the stranding line."
+  ],
+  "praise": "Dividing to find the time was exactly right — the missing step was subtracting the sluice's refill first, so the whale only really wins 75 gallons a minute.",
+  "hint": "The whale takes water out while the sluice puts water back. What is the water level's TRUE loss in one minute?",
+  "victory": "Mr 6 scooped the last moon-carp into his helmet with four seconds to spare, and Mistralon — embarrassed to be out-counted by a numeral — drifted off to drink a cloud instead.",
+  "image": "images/mistralon-cloud-whale-siphon.webp",
+  "imagePrompt": "A vast translucent storm-cloud whale lowering its snout into a moonlit mountain reservoir while a small knightly numeral 6 in a blue cape heaves open a stone sluice gate, silver carp flashing in the shallows."
+}

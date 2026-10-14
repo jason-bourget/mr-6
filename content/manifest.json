@@ -249,6 +249,9 @@
     "problems/ashbellow-forge-rate.json",
     "problems/quaffalon-oasis-basin-rate.json",
     "problems/pellicrux-raftmarket-percent.json",
-    "problems/flintwhistle-quartering-spark.json"
+    "problems/flintwhistle-quartering-spark.json",
+    "problems/mistralon-cloud-whale-siphon.json",
+    "problems/hexivane-chasm-notary-toll.json",
+    "problems/pyrrholine-vent-field-evacuation.json"
   ]
 }

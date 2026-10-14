@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-14",
+  "title": "The Thrice-Cut Mirror",
+  "monster": "Prizmar the Thrice-Faced Mirror Wraith",
+  "story": "Prizmar the Mirror Wraith hides inside a hall of enchanted glass, hurling pale beams at Mr 6 and giggling in triplicate. But every mirror splits a beam into THREE, so the only way to shatter the wraith is to fire back with exactly triple the force it sent — anything less just bounces off the glass. The mirrors re-form in seconds, brave knight, so triple fast or be trapped in the glittering hall forever!",
+  "rule": "Blast back with TRIPLE the force!",
+  "image": "images/rapid-2026-10-14.webp",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        7,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        24,
+        18
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        32,
+        26,
+        24
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        55
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        61,
+        33,
+        42
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        62,
+        74,
+        48
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 90,
+      "distractors": [
+        60,
+        9,
+        93
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 105,
+      "distractors": [
+        95,
+        100,
+        115
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 144,
+      "distractors": [
+        134,
+        124,
+        96
+      ]
+    },
+    {
+      "q": "99",
+      "answer": 297,
+      "distractors": [
+        279,
+        198,
+        287
+      ]
+    }
+  ]
+}

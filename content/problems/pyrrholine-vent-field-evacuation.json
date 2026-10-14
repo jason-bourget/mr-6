@@ -1,0 +1,25 @@
+{
+  "id": "pyrrholine-vent-field-evacuation",
+  "tier": "champion",
+  "title": "Hen of the Hissing Vents",
+  "monster": "Pyrrholine the Ash Hen",
+  "story": "Pyrrholine squats on the steam vents of Mount Grell, and every time she ruffles her cinder feathers the mountain grumbles louder. Down in the vent-fields live the glass salamanders, far too slow to outrun a lava tide. Mr 6 hitches a ridgeback goat to a stone cart and starts loading.",
+  "question": "There are 174 glass salamanders, the cart carries 16 of them per load, each load takes 7 minutes to haul to safety, and the mountain will boil over in 80 minutes — how many minutes to spare will Mr 6 have when the last salamander is clear?",
+  "answer": 3,
+  "unit": "minutes",
+  "distractors": [
+    11,
+    77,
+    10
+  ],
+  "solution": [
+    "Loads needed: 174 / 16 = 10.875, and a part-load still needs a whole trip, so that is 11 loads.",
+    "Time used: 11 x 7 = 77 minutes.",
+    "Spare time: 80 - 77 = 3 minutes."
+  ],
+  "praise": "Dividing to find the number of loads was perfect thinking — the step left over was rounding 10.875 UP to 11, because those last 14 salamanders still need a whole cart ride.",
+  "hint": "First find how many cart loads it takes — and remember a leftover handful of salamanders still needs a full trip of its own.",
+  "victory": "The last glass salamander clinked into the cart with three whole minutes left, and Pyrrholine laid an enormous ash egg in surprise when she saw the fields already empty.",
+  "image": "images/pyrrholine-vent-field-evacuation.webp",
+  "imagePrompt": "An enormous soot-feathered hen glowing with ember cracks perched over hissing volcanic vents at dusk, while a small numeral 6 knight in a blue cape urges a goat-drawn stone cart piled with shimmering glass salamanders toward safety."
+}

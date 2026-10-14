@@ -1,0 +1,25 @@
+{
+  "id": "hexivane-chasm-notary-toll",
+  "tier": "champion",
+  "title": "The Notary of the Rope Bridge",
+  "monster": "Hexivane the Chasm Notary",
+  "story": "Halfway across the Skelter Chasm, a spindly ink-stained bat-clerk unrolls a scroll longer than the bridge itself. He will not let the grain wagon pass to the hungry village of Low Thatch until the toll is paid in amber groats. Mr 6 pulls out the village charter and clears his throat politely.",
+  "question": "The toll is 480 amber groats, the charter takes 25% off because the wagon carries food, and then Hexivane slaps a 10% \"slow-paper fee\" onto the reduced amount — how many amber groats must Mr 6 pay in all?",
+  "answer": 396,
+  "unit": "amber groats",
+  "distractors": [
+    360,
+    408,
+    432
+  ],
+  "solution": [
+    "The charter removes 25%, so the toll becomes 480 x 0.75 = 360 groats.",
+    "The slow-paper fee adds 10% of that: 360 x 1.1 = 396.",
+    "Mr 6 pays 396 amber groats and the wagon rolls on."
+  ],
+  "praise": "Taking the 25% off first was the smart move — the last step was adding Hexivane's 10% onto the NEW total of 360, not the old one.",
+  "hint": "Apply the discount first to get a new total, then take 10% of that new total — not of the original 480.",
+  "victory": "Mr 6 counted out 396 groats in neat stacks of six, and Hexivane, finding no error anywhere, stamped the scroll so hard he fell off his own inkpot.",
+  "image": "images/hexivane-chasm-notary-toll.webp",
+  "imagePrompt": "A long-nosed, ink-stained bat-clerk in spectacles blocking a swaying rope bridge over a misty chasm, scroll unfurling into the void, while a small numeral 6 knight calmly stacks glowing amber coins on a ledger stone."
+}
