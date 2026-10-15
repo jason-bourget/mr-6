@@ -1,0 +1,25 @@
+{
+  "id": "kragglemaw-obsidian-bristles",
+  "tier": "champion",
+  "title": "The Bristle-Beast in the Lava Tunnel",
+  "monster": "Kragglemaw the Obsidian Bristle-Beast",
+  "story": "Six lantern-miners are trapped behind a wall of black glass spines in the volcano's cooling tunnel, and Kragglemaw hunches in the gap, bristling. Mr 6 learns the beast's trick: snapped spines grow back from the warm rock unless every last one is gone. 'Think before you swing,' Mr 6 tells himself, chalking numbers on the tunnel wall.",
+  "question": "Kragglemaw has 50 obsidian spines. Each minute Mr 6 snaps off 6 spines, and at the end of that minute 2 new spines grow back — but only if at least one spine is left. How many minutes until Kragglemaw has zero spines?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    13,
+    12.5,
+    9
+  ],
+  "solution": [
+    "Each full minute the spine count really drops by 6 − 2 = 4 spines.",
+    "Mr 6 must get down to 6 or fewer spines so one last snap finishes them: dropping from 50 to 6 or fewer means losing 50 − 6 = 44 spines, which takes 44 ÷ 4 = 11 minutes (leaving 50 − 44 = 6 spines).",
+    "One final minute snaps those last 6 with nothing left to regrow: 11 + 1 = 12 minutes."
+  ],
+  "praise": "Spotting that the real loss is only 4 spines a minute was the heart of this puzzle — the last minute is special because nothing can grow back from zero.",
+  "hint": "Each minute, how many spines disappear for good? Then ask: once the count is low enough, can one final snap take them ALL?",
+  "victory": "With the final six spines gone and no warm rock left to sprout from, Kragglemaw deflated into a friendly pebbly lump and politely rolled aside. The lantern-miners walked out singing, and Mr 6 kept one smooth spine as a bookmark.",
+  "image": "images/kragglemaw-obsidian-bristles.webp",
+  "imagePrompt": "A small numeral-six knight with a glowing sword facing a hulking beast covered in black glass spines inside a red-lit volcanic tunnel, trapped miners' lanterns glimmering beyond the gap."
+}

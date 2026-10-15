@@ -1,0 +1,25 @@
+{
+  "id": "skyrrel-windfee-shrike",
+  "tier": "champion",
+  "title": "The Windfee of the Tethered Bazaar",
+  "monster": "Skyrrel the Windfee Shrike",
+  "story": "High above the cloud-meadows, the tethered bazaar floats on a hundred balloons — and three of them are leaking, with villagers still aboard. Mr 6 races to the silk stall to buy patching bolts, but Skyrrel the Windfee Shrike perches on the register, shrieking that every sale in her sky must carry her famous wind fee. 'Pay the fee or drift forever,' she clacks, fanning her ledger-feathers.",
+  "question": "Mr 6 needs 4 bolts of stormsilk at 35 gold crowns each, and Skyrrel adds a wind fee of 20% on top of the silk's price. How many gold crowns must Mr 6 pay in total?",
+  "answer": 168,
+  "unit": "gold crowns",
+  "distractors": [
+    140,
+    28,
+    112
+  ],
+  "solution": [
+    "First find the silk's price: 4 bolts × 35 crowns = 140 gold crowns.",
+    "Then find the wind fee: 20% of 140 = 0.20 × 140 = 28 gold crowns.",
+    "Add them together: 140 + 28 = 168 gold crowns."
+  ],
+  "praise": "Finding the price of the silk first was exactly the right opening move — the wind fee just needed to be added on at the end.",
+  "hint": "Work out what the 4 bolts cost by themselves first, then ask: what is 20% of THAT number?",
+  "victory": "Mr 6 counted out 168 crowns so neatly that Skyrrel checked her own ledger three times and found no mistake to squawk about. The patched balloons rose, the villagers cheered, and the shrike grumpily offered Mr 6 a loyalty card.",
+  "image": "images/skyrrel-windfee-shrike.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape haggling with a huge ledger-feathered shrike perched on a floating market stall of shimmering stormsilk, balloons and rope bridges drifting in golden sunset clouds."
+}

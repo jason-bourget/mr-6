@@ -252,6 +252,9 @@
     "problems/flintwhistle-quartering-spark.json",
     "problems/mistralon-cloud-whale-siphon.json",
     "problems/hexivane-chasm-notary-toll.json",
-    "problems/pyrrholine-vent-field-evacuation.json"
+    "problems/pyrrholine-vent-field-evacuation.json",
+    "problems/skyrrel-windfee-shrike.json",
+    "problems/kragglemaw-obsidian-bristles.json",
+    "problems/wrenthollow-fog-vintner.json"
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-15",
+  "title": "The Hundred-Shell Siege",
+  "monster": "Cragglebone the Shield Golem",
+  "story": "Cragglebone is a lumbering golem whose armor holds exactly 100 units of stony strength, and he laughs off any blow that doesn't shatter the whole shell. Each time Mr 6 lands a hit, the golem's shell soaks up part of it — so Mr 6 must instantly shout how much armor is LEFT out of 100, and the stone cracks where he calls it. Hesitate and the shell reseals itself, knight — can you count the cracks faster than Cragglebone can patch them?",
+  "rule": "Shout what's LEFT out of 100!",
+  "image": "images/rapid-2026-10-15.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        44
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        32,
+        18
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        58,
+        42
+      ]
+    },
+    {
+      "q": "83",
+      "answer": 17,
+      "distractors": [
+        27,
+        23,
+        7
+      ]
+    },
+    {
+      "q": "37",
+      "answer": 63,
+      "distractors": [
+        73,
+        67,
+        53
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 4,
+      "distractors": [
+        14,
+        6,
+        94
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "wrenthollow-fog-vintner",
+  "tier": "champion",
+  "title": "The Vintner of the Grey Valley",
+  "monster": "Wrenthollow the Fog Vintner",
+  "story": "Wrenthollow has poured her thickest grey fog over the whole valley, and the shepherds cannot find their own front doors. Her one weakness is Clearwash, a brew mixed to an exact ratio — and she is certain nobody can measure it right in the mist. Mr 6 lights a lantern, sets out his jars, and starts measuring.",
+  "question": "Clearwash is mixed with 3 parts dawn-dew to 5 parts glimmer-salt, and Mr 6 must brew 64 measures in all. He already has 18 measures of glimmer-salt in his pack. How many more measures of glimmer-salt does he still need to gather?",
+  "answer": 22,
+  "unit": "measures",
+  "distractors": [
+    40,
+    8,
+    24
+  ],
+  "solution": [
+    "The ratio 3:5 makes 3 + 5 = 8 parts, so one part is 64 ÷ 8 = 8 measures.",
+    "Glimmer-salt is 5 parts: 5 × 8 = 40 measures needed in total.",
+    "He already has 18, so he still needs 40 − 18 = 22 measures."
+  ],
+  "praise": "Splitting the batch into equal ratio parts was exactly right — the last step was subtracting the glimmer-salt already sitting in the pack.",
+  "hint": "How many equal parts is the whole batch divided into, and how big is just one of those parts?",
+  "victory": "Mr 6 stirred the Clearwash, and the grey fog rolled back like a curtain at a play. Wrenthollow, suddenly visible and slightly embarrassed, bottled her remaining mist and took up weather forecasting instead.",
+  "image": "images/wrenthollow-fog-vintner.webp",
+  "imagePrompt": "A numeral-six knight in a blue cape stirring a glowing pale-blue brew in a cauldron on a hillside, while a tall swirling fog-woman made of grey mist recoils as clear air spreads over a valley of tiny cottages."
+}
