@@ -255,6 +255,9 @@
     "problems/pyrrholine-vent-field-evacuation.json",
     "problems/skyrrel-windfee-shrike.json",
     "problems/kragglemaw-obsidian-bristles.json",
-    "problems/wrenthollow-fog-vintner.json"
+    "problems/wrenthollow-fog-vintner.json",
+    "problems/corvanthe-saltworks-ratio.json",
+    "problems/grathmoor-sinking-barrow-rate.json",
+    "problems/velloquin-splitting-glass-wasp.json"
   ]
 }

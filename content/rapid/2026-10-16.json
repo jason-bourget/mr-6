@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-16",
+  "title": "The Doubling Duel",
+  "monster": "Duplicatus the Echo Demon",
+  "story": "Duplicatus the Echo Demon copies every blow he hears and giggles like a cracked bell — tap him once, and he laughs twice as loud. Mr 6 learned the trick in the Hall of Mirrors: an echo demon can only be silenced by an answer DOUBLE his own, because he cannot copy what is already twice as big. Every echo fades in two seconds, brave knight — can your mind double faster than a demon can giggle?",
+  "rule": "Strike back with DOUBLE the force!",
+  "image": "images/rapid-2026-10-16.webp",
+  "problems": [
+    {
+      "q": "12",
+      "answer": 24,
+      "distractors": [
+        22,
+        26,
+        14
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 50,
+      "distractors": [
+        45,
+        55,
+        52
+      ]
+    },
+    {
+      "q": "34",
+      "answer": 68,
+      "distractors": [
+        64,
+        78,
+        58
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 96,
+      "distractors": [
+        86,
+        98,
+        816
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 126,
+      "distractors": [
+        116,
+        66,
+        136
+      ]
+    },
+    {
+      "q": "76",
+      "answer": 152,
+      "distractors": [
+        142,
+        156,
+        1412
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 170,
+      "distractors": [
+        160,
+        175,
+        1610
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 250,
+      "distractors": [
+        240,
+        255,
+        350
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 500,
+      "distractors": [
+        400,
+        520,
+        550
+      ]
+    },
+    {
+      "q": "345",
+      "answer": 690,
+      "distractors": [
+        680,
+        609,
+        790
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "grathmoor-sinking-barrow-rate",
+  "tier": "champion",
+  "title": "The Sinking Barrow",
+  "monster": "Grathmoor the Peat Swallower",
+  "story": "Grathmoor the Peat Swallower has opened its mouth beneath an old barrow, and the stone chamber is sinking into the bog at 1.8 feet every hour. Three sleepy barrow-mice are napping on a shelf 27 feet above the muck, and Mr 6 can haul the shelf upward at 0.6 feet per hour with his rope and pulley.",
+  "question": "How many hours until the muck reaches the mice?",
+  "answer": 22.5,
+  "unit": "hours",
+  "distractors": [
+    15,
+    45,
+    11.25
+  ],
+  "solution": [
+    "Sinking 1.8 feet down while Mr 6 lifts 0.6 feet up means the gap really closes 1.8 - 0.6 = 1.2 feet each hour.",
+    "The gap is 27 feet, so the time is 27 / 1.2 = 22.5 hours."
+  ],
+  "praise": "Dividing to find the time was the right instinct — the missing step was subtracting the lifting to find the real closing speed.",
+  "hint": "Mr 6's hauling slows the sinking down. What is the leftover change in the gap each hour?",
+  "victory": "At hour twenty-two, Mr 6 swings the shelf clear and the mice wake up mid-air, outraged. Grathmoor gulps nothing but bog water and sulks beneath the reeds.",
+  "image": "images/grathmoor-sinking-barrow-rate.webp",
+  "imagePrompt": "A vast mossy mouth in the bog slowly swallowing a stone barrow at dusk, with a caped number 6 knight hauling a rope-and-pulley shelf of sleeping mice toward the light."
+}

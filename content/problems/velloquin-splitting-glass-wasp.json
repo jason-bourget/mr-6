@@ -1,0 +1,25 @@
+{
+  "id": "velloquin-splitting-glass-wasp",
+  "tier": "champion",
+  "title": "The Quintupling Glass Wasps",
+  "monster": "Velloquin the Glass Wasp Queen",
+  "story": "In the cold moonlit aviary of Spindlecrest Tower, Velloquin the Glass Wasp Queen buzzes behind a chandelier. Every time a sword taps a glass wasp it shatters into 5 smaller glass wasps — so swinging is the worst possible plan. Mr 6 starts with 4 wasps circling him and decides to count before he acts.",
+  "question": "If every wasp is struck once each round for 3 rounds, how many glass wasps would be buzzing at the end?",
+  "answer": 500,
+  "unit": "wasps",
+  "distractors": [
+    100,
+    60,
+    20
+  ],
+  "solution": [
+    "Round 1: 4 x 5 = 20 wasps.",
+    "Round 2: 20 x 5 = 100 wasps.",
+    "Round 3: 100 x 5 = 500 wasps — which is why Mr 6 sheathes his sword instead."
+  ],
+  "praise": "Multiplying by 5 was exactly right — the trick was doing it once for each of the three rounds.",
+  "hint": "Each round multiplies the whole swarm by 5. Try writing out the count after round 1, then round 2.",
+  "victory": "Mr 6 lowers his sword, hums a low note, and the glass wasps settle onto it like a chiming necklace. Velloquin, charmed by a knight who counts before he swings, leads her swarm out the window in a ribbon of moonlight.",
+  "image": "images/velloquin-splitting-glass-wasp.webp",
+  "imagePrompt": "A moonlit glass aviary filled with shimmering translucent wasps around a crystal chandelier, with a small number 6 knight thoughtfully sheathing his sword instead of swinging."
+}

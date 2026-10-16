@@ -1,0 +1,25 @@
+{
+  "id": "corvanthe-saltworks-ratio",
+  "tier": "champion",
+  "title": "The Saltworks Ratio",
+  "monster": "Corvanthe the Brine Steward",
+  "story": "In the sun-white saltworks of Pale Harbor, Corvanthe the Brine Steward has locked the drying pans and demands a perfect curing paste before she will free the salt-rakers. The paste must mix grey salt and powdered kelp in a ratio of 5 to 3, and Corvanthe wants exactly 96 pounds of paste. Mr 6 ties on an apron, dusts off his helmet, and picks up the scoop.",
+  "question": "How many pounds of grey salt go into the 96 pounds of paste?",
+  "answer": 60,
+  "unit": "pounds",
+  "distractors": [
+    36,
+    12,
+    48
+  ],
+  "solution": [
+    "The ratio 5 to 3 makes 5 + 3 = 8 equal shares.",
+    "One share is 96 / 8 = 12 pounds.",
+    "Grey salt is 5 shares: 5 x 12 = 60 pounds."
+  ],
+  "praise": "Splitting the mix into equal shares was exactly the right move — the last step was multiplying by the 5 salt shares.",
+  "hint": "Add the two ratio numbers first to see how many equal shares the 96 pounds must be cut into.",
+  "victory": "Corvanthe tastes the paste, blinks, and declares it 'distressingly perfect.' She unlocks the drying pans and hires Mr 6 as honorary Scoop Knight.",
+  "image": "images/corvanthe-saltworks-ratio.webp",
+  "imagePrompt": "A tall heron-like brine steward in salt-crusted robes looming over glittering white drying pans at noon, while a small knightly number 6 calmly measures grey salt into a wooden tub."
+}
