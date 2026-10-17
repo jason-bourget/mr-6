@@ -1,0 +1,25 @@
+{
+  "id": "ferravault-ore-sled-rate",
+  "tier": "champion",
+  "title": "The Sled Race Down Ferravault's Shaft",
+  "monster": "Ferravault the Shaft Gnasher",
+  "story": "Ferravault the Shaft Gnasher chews the support beams of the old ore mine, and the miners' sled must be hauled up before the tunnel seals. The winch lifts the sled at 24 feet per minute, but Ferravault's chewing drags the floor downward 6 feet per minute at the same time. The sled sits 252 feet below the surface, and Mr 6 is on the crank with his cape tucked in.",
+  "question": "How many minutes will it take the sled to reach the surface?",
+  "answer": 14,
+  "unit": "minutes",
+  "distractors": [
+    10.5,
+    42,
+    18
+  ],
+  "solution": [
+    "Real climbing speed is 24 - 6 = 18 feet per minute.",
+    "Time needed is 252 ÷ 18 = 14 minutes.",
+    "So the sled reaches the surface in 14 minutes."
+  ],
+  "praise": "Dividing the distance by a speed was the right plan — the speed just needed the monster's 6 feet per minute subtracted first.",
+  "hint": "The winch pulls up while the monster drags down. What is the sled's TRUE gain each minute?",
+  "victory": "Mr 6 cranked out a steady rhythm and the sled popped into daylight with a minute to spare, leaving Ferravault gnawing on nothing but echo. The miners named the winch handle after him.",
+  "image": "images/ferravault-ore-sled-rate.webp",
+  "imagePrompt": "A long dim mineshaft lit by lanterns with a toothy rock-jawed beast chewing the beams below, while a numeral-6 knight in a blue cape heaves on a great iron winch at the top."
+}

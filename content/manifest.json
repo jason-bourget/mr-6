@@ -258,6 +258,9 @@
     "problems/wrenthollow-fog-vintner.json",
     "problems/corvanthe-saltworks-ratio.json",
     "problems/grathmoor-sinking-barrow-rate.json",
-    "problems/velloquin-splitting-glass-wasp.json"
+    "problems/velloquin-splitting-glass-wasp.json",
+    "problems/lanternquist-moth-tithe-percent.json",
+    "problems/murkspindle-cistern-halving.json",
+    "problems/ferravault-ore-sled-rate.json"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "murkspindle-cistern-halving",
+  "tier": "champion",
+  "title": "The Whisper That Halves the Water",
+  "monster": "Murkspindle the Dry Whisper",
+  "story": "Murkspindle the Dry Whisper coils in the village cistern and hisses a curse that makes the water vanish — half of whatever remains disappears every hour. The cistern holds 960 gallons right now, and the village needs at least 100 gallons to survive until the rains. Mr 6 must know exactly how long he has before he runs for the aqueduct valve.",
+  "question": "After how many whole hours of halving does the cistern first drop below 100 gallons?",
+  "answer": 4,
+  "unit": "hours",
+  "distractors": [
+    3,
+    5,
+    60
+  ],
+  "solution": [
+    "Hour by hour: 960 → 480 → 240 → 120 → 60 gallons.",
+    "After 3 hours there are still 120 gallons, which is not below 100.",
+    "After 4 hours it is 60 gallons, so 4 hours is the answer."
+  ],
+  "praise": "Halving step by step was exactly right — the last check was whether 120 had already slipped under 100 or not.",
+  "hint": "Write the halvings in a row: 960, 480, ... and circle the first number that is smaller than 100.",
+  "victory": "Mr 6 cranked the valve on the stroke of the fourth hour, and the flood of fresh water drowned Murkspindle's whisper mid-hiss. The cistern gurgled like it was laughing.",
+  "image": "images/murkspindle-cistern-halving.webp",
+  "imagePrompt": "A shadowy serpentine whisper-wraith coiled above a vast stone cistern whose water level drops in glowing rings, with a small numeral-6 knight sprinting along the rim toward a brass valve."
+}

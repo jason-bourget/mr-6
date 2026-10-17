@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-17",
+  "title": "The Eleven-Headed Hydra",
+  "monster": "Undecimus, the Eleven-Headed Hydra",
+  "story": "Undecimus rears up from the fog swamp with eleven hissing heads, and every head laughs at a single sword stroke. Mr 6 discovers the beast's one weakness: a blow struck ELEVEN times over lands on all eleven heads at once, and the hydra cannot grow them back. Each head bites every three seconds, knight — so multiply fast or get nibbled!",
+  "rule": "Strike back ELEVEN times as hard!",
+  "image": "images/rapid-2026-10-17.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 33,
+      "distractors": [
+        30,
+        36,
+        13
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 77,
+      "distractors": [
+        70,
+        78,
+        17
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 99,
+      "distractors": [
+        90,
+        98,
+        19
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 132,
+      "distractors": [
+        122,
+        121,
+        142
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 154,
+      "distractors": [
+        144,
+        164,
+        145
+      ]
+    },
+    {
+      "q": "23",
+      "answer": 253,
+      "distractors": [
+        233,
+        263,
+        252
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 352,
+      "distractors": [
+        332,
+        362,
+        342
+      ]
+    },
+    {
+      "q": "41",
+      "answer": 451,
+      "distractors": [
+        441,
+        471,
+        452
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 286,
+      "distractors": [
+        276,
+        296,
+        266
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 528,
+      "distractors": [
+        4128,
+        518,
+        538
+      ]
+    }
+  ]
+}

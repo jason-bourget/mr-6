@@ -1,0 +1,25 @@
+{
+  "id": "lanternquist-moth-tithe-percent",
+  "tier": "champion",
+  "title": "The Moth Who Taxed the Moon",
+  "monster": "Lanternquist the Tithe Moth",
+  "story": "Every full moon, Lanternquist the Tithe Moth settles on the silk-weavers' roof and demands a cut of their moonsilk before she'll let the looms turn. Tonight the weavers have spun 240 skeins, and the moth announces she will take 35% of them — plus an extra 12 skeins as a 'landing fee.' Mr 6 climbs the roof beam, sword sheathed, abacus out, because this moth can be beaten by arithmetic alone.",
+  "question": "If Lanternquist takes 35% of the 240 skeins plus 12 more, how many skeins are left for the weavers?",
+  "answer": 144,
+  "unit": "skeins",
+  "distractors": [
+    156,
+    84,
+    96
+  ],
+  "solution": [
+    "35% of 240 skeins is 0.35 × 240 = 84 skeins.",
+    "The moth's total take is 84 + 12 = 96 skeins.",
+    "240 - 96 = 144 skeins are left for the weavers."
+  ],
+  "praise": "Finding 35% of 240 was exactly the right opening move — the landing fee of 12 just needed to join the pile before you subtracted.",
+  "hint": "First work out 35% of 240. Then remember the moth asks for 12 MORE on top of that before you subtract from 240.",
+  "victory": "Mr 6 read the tally aloud so clearly that Lanternquist realized her 'landing fee' had been double-counted for years, and she fluttered off red-winged with apologies. The looms clattered back to life before midnight.",
+  "image": "images/lanternquist-moth-tithe-percent.webp",
+  "imagePrompt": "A huge pale moth with ledger-marks on her wings perched on a moonlit weaving-house roof, silver skeins glowing below, while a small knightly numeral 6 in a blue cape holds up a tally board."
+}
