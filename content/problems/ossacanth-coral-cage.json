@@ -1,0 +1,25 @@
+{
+  "id": "ossacanth-coral-cage",
+  "tier": "champion",
+  "title": "The Coral That Knits Itself",
+  "monster": "Ossacanth the Coral Weaver",
+  "story": "In a tidepool cave, a hulking coral-crusted weaver has knitted a cage of stone-hard coral bars around three stranded seal pups, and the tide is coming in. Mr 6's sword shears through 8 bars in one sweep — but if even one bar is left standing, Ossacanth hums and knits 3 new bars back before Mr 6 can swing again. The cage begins with 96 bars.",
+  "question": "If each sweep cuts 8 bars and 3 bars regrow after any sweep that leaves bars standing, how many sweeps does Mr 6 need to clear all 96 bars?",
+  "answer": 19,
+  "unit": "sweeps",
+  "distractors": [
+    20,
+    12,
+    18
+  ],
+  "solution": [
+    "Every sweep except the last one changes the cage by 8 - 3 = 5 bars gone, so Mr 6 chips away 5 bars per sweep.",
+    "He needs the count down to 8 or fewer so one final sweep finishes it: (96 - 8) ÷ 5 = 17.6, so he needs 18 chipping sweeps, which leaves 96 - 90 = 6 bars.",
+    "That last sweep clears the remaining 6 bars: 18 + 1 = 19 sweeps."
+  ],
+  "praise": "Spotting the net loss of 5 bars per sweep was the key insight — the final sweep is special, because nothing regrows once the cage is empty.",
+  "hint": "Each sweep really removes 8 - 3 bars... except the very last one, when there's nothing left for the coral to knit onto. Get the count down to 8 or fewer first.",
+  "victory": "The last coral bar crumbled into sand, the seal pups shot out like happy torpedoes, and Ossacanth stared at his empty knitting. 'Nineteen,' said Mr 6. 'I counted before I swung — that's the whole trick.'",
+  "image": "images/ossacanth-coral-cage.webp",
+  "imagePrompt": "A coral-crusted weaver monster humming over a cage of jagged coral bars in a glistening tidepool cave, three seal pups inside, as a numeral-six knight with a blue cape raises a gleaming sword in the blue-green light."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "harrowmist-skyferry-descent",
+  "tier": "champion",
+  "title": "The Leech on the Sky-Ferry",
+  "monster": "Harrowmist the Lift Leech",
+  "story": "High over the cloud-fields, a pale leech the size of a wagon has clamped onto the sky-ferry's lift-sack and is slurping out the floating vapor. The ferry begins to sink at 12 feet every minute, with a dozen frightened passengers aboard. Mr 6 shovels ballast sand over the rail, which pushes the ferry back up 4 feet every minute, so it drifts down slow and gentle toward the mooring platform.",
+  "question": "The ferry is at 800 feet and the mooring platform is at 80 feet. If it sinks 12 feet each minute but the ballast lifts it back 4 feet each minute, how many minutes until the ferry settles on the platform?",
+  "answer": 90,
+  "unit": "minutes",
+  "distractors": [
+    60,
+    100,
+    720
+  ],
+  "solution": [
+    "The ferry must come down from 800 feet to 80 feet: 800 - 80 = 720 feet of sinking.",
+    "Each minute it really drops 12 - 4 = 8 feet, because Mr 6's ballast pushes back up.",
+    "720 ÷ 8 = 90 minutes until the ferry touches the mooring platform."
+  ],
+  "praise": "Working with the sinking rate was exactly right — the ballast's 4 feet of lift just needed to be subtracted first.",
+  "hint": "Before you divide, ask two things: how far does the ferry actually have to travel, and how much height does it truly lose in one minute?",
+  "victory": "The ferry kissed the platform as softly as a sleepy pigeon, and Harrowmist, finding nothing left to slurp, burped out a cloud and floated off in embarrassment. Mr 6 bowed: 'Gravity is just arithmetic with a view.'",
+  "image": "images/harrowmist-skyferry-descent.webp",
+  "imagePrompt": "A brave numeral-six knight in a blue cape shoveling glittering ballast sand off the rail of a sinking sky-ferry while a pale translucent leech clings to the balloon above, golden sunset clouds all around."
+}

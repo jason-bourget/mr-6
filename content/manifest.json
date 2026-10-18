@@ -261,6 +261,9 @@
     "problems/velloquin-splitting-glass-wasp.json",
     "problems/lanternquist-moth-tithe-percent.json",
     "problems/murkspindle-cistern-halving.json",
-    "problems/ferravault-ore-sled-rate.json"
+    "problems/ferravault-ore-sled-rate.json",
+    "problems/harrowmist-skyferry-descent.json",
+    "problems/blennock-nightmarket-surcharge.json",
+    "problems/ossacanth-coral-cage.json"
   ]
 }

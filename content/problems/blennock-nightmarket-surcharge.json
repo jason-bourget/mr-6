@@ -1,0 +1,25 @@
+{
+  "id": "blennock-nightmarket-surcharge",
+  "tier": "champion",
+  "title": "The Stoat Who Invented Fees",
+  "monster": "Blennock the Surcharge Stoat",
+  "story": "In the Hollowstep Night Market, lit by jars of glowing beetles, a velvet-vested stoat sells the last sunflour in the valley — and invents a new fee every time someone reaches for a sack. Mr 6 needs three sacks to feed the snowed-in village, plus a cart to haul them. 'Sunflour is 12.5 ember coins a sack,' says Blennock, 'the cart is a flat 9 coins, and there is a 20% fog surcharge on the flour. Only the flour, mind you — I am not a monster.'",
+  "question": "If sunflour is 12.5 ember coins per sack, Mr 6 buys 3 sacks, the 20% fog surcharge applies only to the flour, and the cart costs a flat 9 coins, how many ember coins does Mr 6 owe in total?",
+  "answer": 54,
+  "unit": "ember coins",
+  "distractors": [
+    46.5,
+    55.8,
+    45
+  ],
+  "solution": [
+    "Three sacks of flour cost 3 × 12.5 = 37.5 ember coins.",
+    "The fog surcharge is 20% of the flour only: 0.2 × 37.5 = 7.5 coins.",
+    "Add the flat cart fee: 37.5 + 7.5 + 9 = 54 ember coins."
+  ],
+  "praise": "Totalling the flour first was the smart opening move — the surcharge belonged on that flour total alone, before the cart fee joined in.",
+  "hint": "Find the flour total by itself first; the 20% rides on that number, and the cart's 9 coins hop on at the very end.",
+  "victory": "Mr 6 counted out exactly 54 coins, not one ember more, and Blennock's whiskers drooped. 'Nobody ever checks,' he sighed — and gave the village a free sack just to feel better about himself.",
+  "image": "images/blennock-nightmarket-surcharge.webp",
+  "imagePrompt": "A sly velvet-vested stoat merchant behind a stall of sunflour sacks in a cavern night market glowing with beetle-jars, as a small numeral-six knight calmly counts coins on the counter."
+}

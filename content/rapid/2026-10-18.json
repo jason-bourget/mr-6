@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-18",
+  "title": "The Split-Second Slime",
+  "monster": "Gloopzilla the Splitting Slime",
+  "story": "Gloopzilla is a wobbling tower of green goo who grows twice as tall every time someone hits it wrong, and it is currently slurping up the drawbridge. Mr 6 discovers the slime's one weakness: a blade stroke that cuts a number EXACTLY in half leaves each gooey piece too small to rejoin. Halve every blob the instant it bounces at you — hesitate, and Gloopzilla doubles back twice as tall!",
+  "rule": "Slice it clean in HALF!",
+  "image": "images/rapid-2026-10-18.webp",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        19,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        32,
+        24
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        37,
+        25
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 43,
+      "distractors": [
+        34,
+        42,
+        48
+      ]
+    },
+    {
+      "q": "124",
+      "answer": 62,
+      "distractors": [
+        61,
+        72,
+        52
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 75,
+      "distractors": [
+        70,
+        55,
+        85
+      ]
+    },
+    {
+      "q": "236",
+      "answer": 118,
+      "distractors": [
+        108,
+        128,
+        117
+      ]
+    },
+    {
+      "q": "318",
+      "answer": 159,
+      "distractors": [
+        149,
+        169,
+        158
+      ]
+    },
+    {
+      "q": "442",
+      "answer": 221,
+      "distractors": [
+        211,
+        220,
+        231
+      ]
+    }
+  ]
+}
