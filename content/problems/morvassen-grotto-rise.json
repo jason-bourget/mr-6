@@ -1,0 +1,25 @@
+{
+  "id": "morvassen-grotto-rise",
+  "tier": "champion",
+  "title": "The Flood Piper's Grotto",
+  "monster": "Morvassen the Flood Piper",
+  "story": "Deep in a tidal grotto, Morvassen the Flood Piper blows a cracked shell-pipe that calls the sea inside faster than it should come. Three otter pups are huddled on a mossy ledge, and the water below them is climbing fast. Mr 6 jams a fisherman's hand-pump into the floor and starts cranking while he works out exactly how much time he has.",
+  "question": "The piped sea pours in and raises the water 9 inches every minute, while Mr 6's pump drains it back down 5.4 inches every minute. The water is 27 inches below the otters' ledge. How many minutes until the water reaches the ledge?",
+  "answer": 7.5,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    5,
+    3.6
+  ],
+  "solution": [
+    "Each minute the water really gains 9 - 5.4 = 3.6 inches, because the pump takes some back.",
+    "Time to close the 27-inch gap: 27 ÷ 3.6 = 7.5.",
+    "So Mr 6 has 7.5 minutes to carry the pups out."
+  ],
+  "praise": "Dividing to find the time was exactly the right instinct — the missing step was subtracting the pump's 5.4 inches first, so the water only truly climbs 3.6 inches a minute.",
+  "hint": "The sea pushes up and the pump pulls down at the same time. What is the water's real gain in a single minute?",
+  "victory": "Mr 6 carried all three otter pups out with 7.5 minutes measured to the half, and Morvassen's pipe gurgled in defeat. The Flood Piper now plays soft tide-lullabies for the otters instead.",
+  "image": "images/morvassen-grotto-rise.webp",
+  "imagePrompt": "A cloaked eel-like piper blowing a cracked shell-pipe in a glowing green tidal cave while a small knightly numeral 6 cranks a hand-pump beside three otter pups on a mossy ledge, torchlight flickering on rising water."
+}

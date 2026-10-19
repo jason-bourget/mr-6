@@ -264,6 +264,9 @@
     "problems/ferravault-ore-sled-rate.json",
     "problems/harrowmist-skyferry-descent.json",
     "problems/blennock-nightmarket-surcharge.json",
-    "problems/ossacanth-coral-cage.json"
+    "problems/ossacanth-coral-cage.json",
+    "problems/morvassen-grotto-rise.json",
+    "problems/haskavel-chalk-market-percent.json",
+    "problems/clatterhusk-husk-ranks.json"
   ]
 }

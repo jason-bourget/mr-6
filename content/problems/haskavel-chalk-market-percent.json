@@ -1,0 +1,25 @@
+{
+  "id": "haskavel-chalk-market-percent",
+  "tier": "champion",
+  "title": "The Chalk Baron's Breathing Tax",
+  "monster": "Haskavel the Chalk Baron",
+  "story": "In the cliffside Lantern-Orchid Market, Haskavel the Chalk Baron scribbles a chalk mark on every stall and calls it a 'breathing tax.' The glassblowers' guild has asked Mr 6 to sell their glass bells and bring the moonstone shards home. Haskavel grins, chalk squeaking: nobody ever checks his math.",
+  "question": "Mr 6 sells 24 glass bells at 7.5 moonstone shards each, and Haskavel's chalk mark takes 15% of the whole sale. How many moonstone shards does Mr 6 carry home to the guild?",
+  "answer": 153,
+  "unit": "moonstone shards",
+  "distractors": [
+    180,
+    27,
+    165
+  ],
+  "solution": [
+    "The sale brings in 24 × 7.5 = 180 moonstone shards.",
+    "Haskavel's tax is 15% of 180, which is 0.15 × 180 = 27 shards.",
+    "Mr 6 keeps 180 - 27 = 153 moonstone shards."
+  ],
+  "praise": "Multiplying the price by the number of bells was the perfect start — the step left out was taking 15% of that total, not 15 shards flat.",
+  "hint": "First find the full sale. Then ask: what is 15 out of every 100 shards of that amount?",
+  "victory": "Mr 6 read the chalk marks aloud, totalled them in front of the whole market, and 153 shards clinked into the guild's pouch. Haskavel erased himself out of embarrassment and now works as the market's honest price-checker.",
+  "image": "images/haskavel-chalk-market-percent.webp",
+  "imagePrompt": "A long-fingered chalky baron with pockets full of chalk sticks scowling at a stall of glowing glass bells in a cliffside orchid market at dusk, as a little numeral-6 knight points at a tally scrawled on a slate."
+}

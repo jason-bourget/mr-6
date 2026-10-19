@@ -1,0 +1,25 @@
+{
+  "id": "clatterhusk-husk-ranks",
+  "tier": "champion",
+  "title": "Clatterhusk's Rattling Ranks",
+  "monster": "Clatterhusk the Husk Captain",
+  "story": "In the old Chalkstone Amphitheatre, Clatterhusk the Husk Captain drills a shimmering army of beetles in neat rows, rattling his wing-cases like a drum. Most of that army, Mr 6 notices, flickers strangely in the moonlight — husk-mirrors, not beetles at all. He lifts his silver horn and counts before he blows.",
+  "question": "Clatterhusk marches 14 rows of 9 beetles. Only one third of them are real — the rest are hollow husk-mirrors that vanish at a sound. If each blast of Mr 6's silver horn sends 7 real beetles scuttling home, how many blasts does he need?",
+  "answer": 6,
+  "unit": "blasts",
+  "distractors": [
+    126,
+    42,
+    18
+  ],
+  "solution": [
+    "The ranks hold 14 × 9 = 126 shapes in all.",
+    "One third are real beetles: 126 ÷ 3 = 42 real ones.",
+    "Blasts needed: 42 ÷ 7 = 6 blasts."
+  ],
+  "praise": "Setting up rows × columns was exactly right — the step that slipped was thinning the army down to the one third that was actually real before dividing by 7.",
+  "hint": "Count the whole formation first, then keep only the real third of it — those are the only beetles the horn has to move.",
+  "victory": "Six blasts — one for each of him, Mr 6 joked — and 42 real beetles trotted home while 84 husk-mirrors popped like soap bubbles. Clatterhusk saluted the clever little numeral and marched off to drill nothing but echoes.",
+  "image": "images/clatterhusk-husk-ranks.webp",
+  "imagePrompt": "A tall armored beetle captain rattling his wing-cases before shimmering moonlit ranks of beetles in a ruined chalk-white amphitheatre, with a caped numeral-6 knight raising a silver horn and counting rows."
+}

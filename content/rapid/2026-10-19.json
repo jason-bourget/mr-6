@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-19",
+  "title": "The Fivefold Fang",
+  "monster": "Pentaclaw the Five-Fanged Wyrm",
+  "story": "Pentaclaw the Five-Fanged Wyrm bites with all five fangs at once, and every scratch he lands he brags about five times over. Mr 6 discovered the wyrm's weakness: he can only block a blow he can count, so a strike multiplied by FIVE slips straight past his scaly guard. Shout back five times whatever he throws — and do it before the sixth fang grows in!",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/rapid-2026-10-19.webp",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        24,
+        36,
+        11
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        55,
+        48
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        90,
+        110,
+        80
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        56
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        72
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        130,
+        96
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 160,
+      "distractors": [
+        150,
+        170,
+        128
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 225,
+      "distractors": [
+        215,
+        235,
+        220
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 340,
+      "distractors": [
+        330,
+        350,
+        240
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 430,
+      "distractors": [
+        420,
+        440,
+        400
+      ]
+    }
+  ]
+}
