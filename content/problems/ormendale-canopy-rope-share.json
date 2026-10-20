@@ -1,0 +1,25 @@
+{
+  "id": "ormendale-canopy-rope-share",
+  "tier": "champion",
+  "title": "The Toll of the Canopy Hoarder",
+  "monster": "Ormendale the Canopy Hoarder",
+  "story": "A great sloth-beast has stolen all the rope-bridge tolls of the treetop village and strung them in a net 40 feet up. Mr 6 talks it down with a riddle, and the net spills 1,260 amber beads onto the platform. Ormendale insists on keeping 25% of them as a 'thinking fee', and the rest is shared equally among the 9 bridge-keeper families.",
+  "question": "How many amber beads does each family receive?",
+  "answer": 105,
+  "unit": "beads",
+  "distractors": [
+    140,
+    315,
+    945
+  ],
+  "solution": [
+    "Ormendale keeps 25% of 1260 = 315 beads, so 1260 − 315 = 945 beads are left to share.",
+    "Shared among 9 families: 945 ÷ 9 = 105.",
+    "Each family receives 105 amber beads."
+  ],
+  "praise": "Dividing by the 9 families was the right instinct — the missing step was taking out Ormendale's 25% first.",
+  "hint": "Find 25% of 1260 and subtract it before you split anything among the 9 families.",
+  "victory": "Ormendale yawns, pleased with its fee, and the nine families cross home on bridges that no longer cost a thing. Mr 6 collects his payment in snacks.",
+  "image": "images/ormendale-canopy-rope-share.webp",
+  "imagePrompt": "A shaggy sloth-like hoarder hanging from a rope bridge high in a misty forest canopy while a small numeral-six knight pours glowing amber beads into nine waiting baskets, soft green dappled light."
+}

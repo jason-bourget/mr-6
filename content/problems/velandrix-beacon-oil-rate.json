@@ -1,0 +1,25 @@
+{
+  "id": "velandrix-beacon-oil-rate",
+  "tier": "champion",
+  "title": "The Oil That Drinks Itself",
+  "monster": "Velandrix the Wickworm",
+  "story": "High in the Saltspire Beacon, Mr 6 finds a pale worm coiled inside the great lamp, sipping the beacon oil so ships will wreck on the rocks. The lamp holds 96 gallons, and it burns 3.5 gallons an hour on its own — but Velandrix slurps another 4.5 gallons an hour. The relief keeper is sailing in and arrives in exactly 9 hours.",
+  "question": "If Mr 6 corks the worm's mouth so it steals only 1.5 gallons an hour instead, how many gallons of oil will still be in the lamp when the keeper arrives?",
+  "answer": 51,
+  "unit": "gallons",
+  "distractors": [
+    24,
+    45,
+    5
+  ],
+  "solution": [
+    "With the cork in, the lamp loses 3.5 + 1.5 = 5 gallons every hour.",
+    "In 9 hours that is 5 × 9 = 45 gallons gone.",
+    "96 − 45 = 51 gallons still glowing in the lamp."
+  ],
+  "praise": "Adding the two drains together was exactly the right move — the last step was subtracting that loss from the full 96 gallons.",
+  "hint": "First find the TOTAL gallons lost in one hour (burning plus slurping), then multiply by 9 hours before you subtract.",
+  "victory": "Velandrix sputters, spits out the cork, and decides fishing is easier than lamp-sipping. The beacon blazes all night and not one ship scrapes a rock.",
+  "image": "images/velandrix-beacon-oil-rate.webp",
+  "imagePrompt": "A brave numeral-six knight with a blue cape corking the mouth of a pale glowing worm coiled around a giant lighthouse lamp, warm golden light spilling over a stormy sea."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-20",
+  "title": "The Nine-Headed Hiss",
+  "monster": "Nonaxis, the Nine-Headed Hydra",
+  "story": "Nonaxis the Hydra slithers out of the fog with nine snickering heads, and every single head copies whatever attack it sees — one puny poke becomes nine puny pokes. Sir Mr 6 grins beneath his visor: if the hydra insists on multiplying everything by nine, he'll feed it a strike so big that all nine heads regret it. Shout the nine-times blow before the heads finish hissing — you have only seconds!",
+  "rule": "Strike back NINE times as hard!",
+  "image": "images/rapid-2026-10-20.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 27,
+      "distractors": [
+        24,
+        30,
+        21
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 45,
+      "distractors": [
+        40,
+        54,
+        50
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 63,
+      "distractors": [
+        56,
+        72,
+        70
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        100,
+        80,
+        19
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 72,
+      "distractors": [
+        64,
+        80,
+        81
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 108,
+      "distractors": [
+        96,
+        120,
+        118
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 99,
+      "distractors": [
+        90,
+        110,
+        109
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 135,
+      "distractors": [
+        125,
+        150,
+        120
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 180,
+      "distractors": [
+        160,
+        200,
+        170
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 225,
+      "distractors": [
+        200,
+        250,
+        215
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "quarnelith-tripling-saltling",
+  "tier": "champion",
+  "title": "The Saltling That Thrices",
+  "monster": "Quarnelith the Tripling Saltling",
+  "story": "In the mirror-flat salt pans, Mr 6 meets a crystal sprite that triples itself every single time a sword touches it. Right now there is exactly 1 Quarnelith, and the villagers want it herded into the empty brine cistern, which holds 300 sprites.",
+  "question": "If Mr 6 taps it 5 times, how many sprites short of filling the cistern would the swarm be?",
+  "answer": 57,
+  "unit": "sprites",
+  "distractors": [
+    243,
+    15,
+    300
+  ],
+  "solution": [
+    "Each tap triples the swarm: 1 → 3 → 9 → 27 → 81 → 243 sprites after 5 taps.",
+    "The cistern holds 300, so 300 − 243 = 57.",
+    "The swarm would be 57 sprites short of filling it."
+  ],
+  "praise": "Tripling step by step was exactly right — the final step was comparing 243 to the cistern's 300.",
+  "hint": "Write the swarm after each tap: 1, then ×3, then ×3 again — five times. Then compare it with 300.",
+  "victory": "Mr 6 stops at five taps, hands the 243 sparkling sprites a broom each, and the salt pans have never been so tidy. Quarnelith beams: nobody ever gave it a job before.",
+  "image": "images/quarnelith-tripling-saltling.webp",
+  "imagePrompt": "A numeral-six knight standing on gleaming white salt flats surrounded by hundreds of tiny tripling crystal sprites that sparkle like broken glass under a wide pink dawn sky."
+}
