@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-21",
+  "title": "The Quarter Crusher",
+  "monster": "Quadros the Four-Faced Golem",
+  "story": "Quadros the Four-Faced Golem lumbers out of the crystal quarry with four grinning stone faces, and every blow it takes is shared equally among them — hit it wrong and it just shrugs and grows. Mr 6 spots the flaw: if he calls out exactly the quarter-share each face must swallow, all four crack at once and the golem crumbles into tidy pebbles. Quadros is already stomping closer, knight — split those numbers into quarters before the fourth face finishes yawning!",
+  "rule": "Split it into QUARTERS!",
+  "image": "images/rapid-2026-10-21.webp",
+  "problems": [
+    {
+      "q": "8",
+      "answer": 2,
+      "distractors": [
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 3,
+      "distractors": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 5,
+      "distractors": [
+        10,
+        4,
+        6
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 10,
+      "distractors": [
+        20,
+        4,
+        11
+      ]
+    },
+    {
+      "q": "36",
+      "answer": 9,
+      "distractors": [
+        18,
+        8,
+        12
+      ]
+    },
+    {
+      "q": "100",
+      "answer": 25,
+      "distractors": [
+        50,
+        20,
+        30
+      ]
+    },
+    {
+      "q": "64",
+      "answer": 16,
+      "distractors": [
+        32,
+        14,
+        24
+      ]
+    },
+    {
+      "q": "200",
+      "answer": 50,
+      "distractors": [
+        20,
+        25,
+        100
+      ]
+    },
+    {
+      "q": "88",
+      "answer": 22,
+      "distractors": [
+        44,
+        21,
+        24
+      ]
+    },
+    {
+      "q": "144",
+      "answer": 36,
+      "distractors": [
+        72,
+        34,
+        46
+      ]
+    }
+  ]
+}

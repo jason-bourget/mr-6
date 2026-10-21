@@ -1,0 +1,25 @@
+{
+  "id": "hassaleth-hourglass-wyrm",
+  "tier": "champion",
+  "title": "The Hourglass Chamber",
+  "monster": "Hassaleth the Hourglass Wyrm",
+  "story": "Deep under the dunes, Hassaleth the Hourglass Wyrm has tipped the great sand funnel over the Temple of Echoes, and three lantern-dancers are stranded on a ledge inside. Sand pours into the chamber at 7.5 inches every minute. Mr 6 wrenches open a floor grate that pulls sand out at 4.5 inches every minute, then sets to work prying the stone door.",
+  "question": "The sand is 21 inches below the dancers' ledge. How many minutes does Mr 6 have before the sand reaches the ledge?",
+  "answer": 7,
+  "unit": "minutes",
+  "distractors": [
+    2.8,
+    1.75,
+    3
+  ],
+  "solution": [
+    "The sand really climbs by 7.5 - 4.5 = 3 inches each minute.",
+    "Time to climb 21 inches: 21 / 3 = 7.",
+    "Mr 6 has 7 minutes."
+  ],
+  "praise": "Dividing by a rate was exactly the right move — the missing step was subtracting the drain so you divide by the REAL climb each minute.",
+  "hint": "Sand is pouring in and draining out at the same time. Find how much the sand level truly gains in one minute first.",
+  "victory": "Mr 6 popped the door with six seconds to spare, and the dancers slid out on a river of sand. Hassaleth, now an hourglass with nothing to measure, curled up and took a nap.",
+  "image": "images/hassaleth-hourglass-wyrm.webp",
+  "imagePrompt": "A golden-scaled sand wyrm coiled around a giant hourglass funnel inside a torchlit desert temple, sand streaming down while a small knightly numeral 6 with a blue cape heaves at a stone door below a crowded ledge."
+}

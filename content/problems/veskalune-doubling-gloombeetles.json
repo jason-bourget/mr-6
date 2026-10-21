@@ -1,0 +1,25 @@
+{
+  "id": "veskalune-doubling-gloombeetles",
+  "tier": "champion",
+  "title": "The Beetles That Doubled Backward",
+  "monster": "Veskalune the Gloombeetle Brood",
+  "story": "In the abandoned moonstone mine, Veskalune's gloombeetles pour from a crack in the wall and double in number every single hour. Five hours after dusk, Mr 6 counts 192 of them glowing on the ceiling. The sealing rune on the crack only works if he carves the exact number that crawled out at dusk — so Mr 6 sits down and thinks backward.",
+  "question": "How many gloombeetles crawled out of the crack at dusk?",
+  "answer": 6,
+  "unit": "beetles",
+  "distractors": [
+    96,
+    12,
+    19.2
+  ],
+  "solution": [
+    "Doubling five times multiplies the start by 2 x 2 x 2 x 2 x 2 = 32.",
+    "So the starting number is 192 / 32 = 6.",
+    "6 beetles crawled out at dusk."
+  ],
+  "praise": "Undoing the doubling by dividing was exactly the right plan — it just needs to be undone once for every hour, all five times.",
+  "hint": "If the brood doubled once each hour for five hours, how many times must you halve 192 to travel back to dusk?",
+  "victory": "Mr 6 carved a glowing 6 on the crack — his own favorite number — and the whole brood folded neatly back inside like a closing fan. 'Six,' he said, dusting his cape. 'I'd know it anywhere.'",
+  "image": "images/veskalune-doubling-gloombeetles.webp",
+  "imagePrompt": "A ceiling of hundreds of softly glowing green beetles in a dark moonstone mine, with a small caped numeral 6 knight kneeling on the floor scratching numbers in the dust by lantern light."
+}

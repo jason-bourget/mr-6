@@ -1,0 +1,25 @@
+{
+  "id": "yulgrint-glacier-fair-percent",
+  "tier": "champion",
+  "title": "The Frost Tax at the Glacier Fair",
+  "monster": "Yulgrint the Haggle Yeti",
+  "story": "At the Glacier Night Fair, Yulgrint the Haggle Yeti has the whole village's stolen seed-grain piled on his sledge and offers to sell it back for 600 ember coins. Then he breathes on his tally-stick and grins: his frost charm adds a 20% tax to any price he names. Mr 6 unrolls the Fair-Warden's writ, which strikes 35% off whatever total a merchant finally claims.",
+  "question": "After the 20% frost tax is added and then the writ's 35% is struck off, how many ember coins must the village pay?",
+  "answer": 468,
+  "unit": "ember coins",
+  "distractors": [
+    720,
+    510,
+    252
+  ],
+  "solution": [
+    "Frost tax: 20% of 600 = 120, so Yulgrint claims 600 + 120 = 720 ember coins.",
+    "The writ strikes 35% of that claim: 35% of 720 = 252, so 720 - 252 = 468.",
+    "The village pays 468 ember coins."
+  ],
+  "praise": "Working with percents step by step was the right instinct — the one thing to watch is that the 35% comes off the NEW total of 720, not off the original 600.",
+  "hint": "Do the percents in the order the story gives them: build the taxed total first, then take the writ's cut from that total.",
+  "victory": "Yulgrint checked the arithmetic three times, lost, and handed over the grain with a frosty huff. Mr 6 bowed and offered him a warm bun — yetis haggle better when they're not hungry.",
+  "image": "images/yulgrint-glacier-fair-percent.webp",
+  "imagePrompt": "A shaggy blue yeti merchant at a lantern-lit market stall carved into a glacier, waving a frosty tally-stick over sacks of grain while a small numeral 6 knight holds up a glowing parchment writ in the snowy twilight."
+}
