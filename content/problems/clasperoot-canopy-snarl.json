@@ -1,0 +1,25 @@
+{
+  "id": "clasperoot-canopy-snarl",
+  "tier": "champion",
+  "title": "The Snarl on the Rope Bridge",
+  "monster": "Clasperoot the Canopy Snarl",
+  "story": "Halfway across the jungle rope bridge, Mr 6 finds it sealed shut by Clasperoot the Canopy Snarl — a grinning tangle of vines that loves stranding travellers. Thirty thick vines block the way, and three lantern-carriers are waiting on the far side as night falls. Mr 6 draws his sword, then stops to think, because Clasperoot grows back.",
+  "question": "Each minute Mr 6 slashes 7 vines, and if any vines are still left after his slash, 4 new ones sprout at the end of that minute; starting from 30 vines, how many minutes until the bridge is completely clear?",
+  "answer": 9,
+  "unit": "minutes",
+  "distractors": [
+    10,
+    8,
+    5
+  ],
+  "solution": [
+    "In a minute where vines are left over, the count really drops by 7 - 4 = 3 vines.",
+    "He only needs the count down to 7 or fewer, because then one last slash clears them all: (30 - 7) / 3 = 7.67, so 8 full minutes bring him from 30 down to 6.",
+    "One final slash makes 8 + 1 = 9 minutes to clear the bridge."
+  ],
+  "praise": "Spotting the net loss of 3 vines a minute was smart thinking — the final slash just needed counting, since nothing regrows once the last vine is gone.",
+  "hint": "Each ordinary minute only clears 3 vines for good — but what happens in the minute when 7 or fewer vines are left?",
+  "victory": "On the ninth minute the last vine went limp, and Clasperoot unravelled into a harmless pile of salad. The lantern-carriers crossed safely, and Mr 6 kept a sprig as a bookmark.",
+  "image": "images/clasperoot-canopy-snarl.webp",
+  "imagePrompt": "A swaying jungle rope bridge choked by a grinning mass of thick vines at dusk, with a small numeral-6 knight in a blue cape mid-slash and lantern-carrying villagers waiting anxiously on the far cliff."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-22",
+  "title": "The Sixfold Strike",
+  "monster": "Grimvault the Shield Golem",
+  "story": "Grimvault the Shield Golem stomps into the arena, bragging that no single blow can dent his stone plating — only a strike multiplied SIX times over can crack it. Luckily, Mr 6 was born for exactly that: every number the golem hurls, the knight hurls back six times harder, and each sixfold hit chips another slab off that smug granite chest. Grimvault re-seals his armor every few heartbeats, so answer fast, knight — hesitate and you're punching rock!",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/rapid-2026-10-22.webp",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        15,
+        21,
+        24
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        25,
+        35,
+        36
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        35
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 60,
+      "distractors": [
+        16,
+        66,
+        600
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        62,
+        66,
+        78
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        48,
+        63
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        65,
+        77
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        85,
+        96
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        100,
+        110,
+        126
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 150,
+      "distractors": [
+        125,
+        140,
+        155
+      ]
+    }
+  ]
+}

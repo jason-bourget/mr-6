@@ -1,0 +1,25 @@
+{
+  "id": "skelverin-reservoir-rate",
+  "tier": "champion",
+  "title": "The Rain Hoarder's Slow Flood",
+  "monster": "Skelverin the Rain Hoarder",
+  "story": "High above Thistledown Valley squats Skelverin the Rain Hoarder, a stone-bellied frog-gargoyle who swallows storms and spits them out whenever he feels grumpy. Tonight he is pouring his whole stormy stomach into the village granary pit, where the winter seed sits on a shelf 18 feet above the water. Mr 6 heaves open the old sluice gate to drain the pit while the villagers form a seed-sack line.",
+  "question": "Skelverin pours water in so the pit rises 9 feet every hour, while Mr 6's open sluice drains 5.4 feet every hour; how many hours until the water reaches the seed shelf 18 feet up?",
+  "answer": 5,
+  "unit": "hours",
+  "distractors": [
+    3.6,
+    2,
+    1.25
+  ],
+  "solution": [
+    "Find the real rise each hour: 9 - 5.4 = 3.6 feet per hour.",
+    "Divide the distance by the real rise: 18 / 3.6 = 5.",
+    "The villagers have 5 hours before the water touches the seed shelf."
+  ],
+  "praise": "Working with the rates was exactly right — the missing step was subtracting the drain from the pour before dividing.",
+  "hint": "Water is coming IN and going OUT at the same time. How much does the water level actually gain in one hour?",
+  "victory": "The last seed sack came up the ladder with an hour to spare, and Skelverin — out-drained and out-thought — burped one sad puddle and hopped off to sulk in a cloud. Mr 6 bowed to the sluice gate like it was a fellow knight.",
+  "image": "images/skelverin-reservoir-rate.webp",
+  "imagePrompt": "A stone frog-gargoyle perched on a mountain spillway gushing water into a torchlit granary pit, where a small knightly numeral 6 in a blue cape cranks open a sluice gate as villagers pass seed sacks up a ladder."
+}

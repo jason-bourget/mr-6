@@ -1,0 +1,25 @@
+{
+  "id": "wandrelle-pelican-bursar",
+  "tier": "champion",
+  "title": "The Pelican Bursar's Cut",
+  "monster": "Wandrelle the Pelican Bursar",
+  "story": "In the stilt-village of Lowlantern, the whole season's pearl trade — 480 ember coins — was scooped up in one gulp by Wandrelle the Pelican Bursar, a giant pelican with a ledger painted on her beak pouch. She insists that 35% of any purse she carries is a lawful \"carrying fee.\" Mr 6 climbs the ladder-dock and offers to do her arithmetic for her, politely, in front of everybody.",
+  "question": "If Wandrelle keeps 35% of the 480 ember coins and the rest is shared equally among the 12 stilt-houses, how many ember coins does each house receive?",
+  "answer": 26,
+  "unit": "ember coins",
+  "distractors": [
+    168,
+    312,
+    40
+  ],
+  "solution": [
+    "Wandrelle keeps 35%, so the village keeps 100% - 35% = 65%: 480 x 0.65 = 312 coins.",
+    "Share that equally among 12 houses: 312 / 12 = 26.",
+    "Each stilt-house receives 26 ember coins."
+  ],
+  "praise": "Reaching for the percent was the right first move — the leftover 65% still had to be split among the 12 houses.",
+  "hint": "First figure out how many coins are left for the village AFTER her fee, then split that amount.",
+  "victory": "Mr 6 read the sums aloud so clearly that Wandrelle blushed pink to her beak, handed back a bonus pearl \"for the accounting,\" and flapped off to find an honest job weighing fish.",
+  "image": "images/wandrelle-pelican-bursar.webp",
+  "imagePrompt": "A huge ledger-marked pelican perched on a stilt-village dock at sunset, coins spilling from her beak pouch, while a small numeral-6 knight with a blue cape chalks percentages on a plank for cheering fisherfolk."
+}
