@@ -1,0 +1,25 @@
+{
+  "id": "velmora-tripling-frost-moth",
+  "tier": "champion",
+  "title": "The Tripling Frost Moths",
+  "monster": "Velmora the Tripling Frost Moth",
+  "story": "High on the Glacier Stair, Mr 6 meets Velmora, a single pale moth whose wings shed freezing dust. Every time a sword touches her, she bursts into three moths — and each of those will triple again at the next strike. 'Swing away, little digit,' she shimmers. Mr 6 sheathes his sword and counts instead.",
+  "question": "Velmora starts as 1 moth and triples with each strike. If a knight strikes her 4 times, and then Mr 6's warming lantern melts away 27 of the moths, how many moths are left?",
+  "answer": 54,
+  "unit": "moths",
+  "distractors": [
+    81,
+    12,
+    108
+  ],
+  "solution": [
+    "Tripling 4 times: 1 × 3 × 3 × 3 × 3 = 81 moths.",
+    "The lantern melts 27 away: 81 − 27 = 54.",
+    "That leaves 54 moths."
+  ],
+  "praise": "Tracking the tripling all the way to 81 was the hard part — the lantern's 27 just needed to be subtracted at the end.",
+  "hint": "Triple one step at a time: 1, 3, 9, ... and only subtract after all four strikes.",
+  "victory": "Mr 6 held up the lantern and said, 'You're 54 now — too many to agree on anything.' The moths argued, scattered, and settled into the warm light as a very confused glittering blanket.",
+  "image": "images/velmora-tripling-frost-moth.webp",
+  "imagePrompt": "A caped numeral-six knight raises a glowing warm lantern on an icy glacier staircase as dozens of pale frost moths swirl in cold blue moonlight."
+}

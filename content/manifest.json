@@ -276,6 +276,9 @@
     "problems/veskalune-doubling-gloombeetles.json",
     "problems/skelverin-reservoir-rate.json",
     "problems/wandrelle-pelican-bursar.json",
-    "problems/clasperoot-canopy-snarl.json"
+    "problems/clasperoot-canopy-snarl.json",
+    "problems/grindlecombe-honeycellar-percent.json",
+    "problems/velmora-tripling-frost-moth.json",
+    "problems/murrowgate-sluicegate-rescue-rate.json"
   ]
 }

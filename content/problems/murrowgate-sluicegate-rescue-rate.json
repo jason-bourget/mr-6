@@ -1,0 +1,25 @@
+{
+  "id": "murrowgate-sluicegate-rescue-rate",
+  "tier": "champion",
+  "title": "Race of the Sluicegate",
+  "monster": "Murrowgate the Sluice Gnawer",
+  "story": "Murrowgate, an eel-bodied gnawer with iron teeth, has chewed through the river sluicegate above the village of Lowfen. Water is pouring into the mill pit where three apprentices are stranded on a grain platform. Mr 6 grabs the hand-pump crank and starts doing the only thing that will save them: arithmetic.",
+  "question": "Water pours into the pit at 11.5 gallons per minute while the pump removes 8.5 gallons per minute. The platform floods once 48 gallons have collected. How many minutes do the apprentices have?",
+  "answer": 16,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    4,
+    24
+  ],
+  "solution": [
+    "The water really rises by 11.5 − 8.5 = 3 gallons each minute.",
+    "Time to collect 48 gallons: 48 ÷ 3 = 16.",
+    "The apprentices have 16 minutes."
+  ],
+  "praise": "Noticing that the pump fights the flood was the key insight — the next step was dividing 48 by that net 3 gallons a minute.",
+  "hint": "The pit isn't filling at 11.5 gallons a minute — the pump is taking some back out. Find the net rise first.",
+  "victory": "With 16 minutes, Mr 6 calmly built a ramp in 11 and walked everyone out with time to spare. Murrowgate, impressed, agreed to gnaw only driftwood from then on.",
+  "image": "images/murrowgate-sluicegate-rescue-rate.webp",
+  "imagePrompt": "A brave numeral-six knight cranks a hand pump beside a splintered sluicegate as an iron-toothed river eel watches and water climbs toward three apprentices on a wooden platform in stormy grey light."
+}

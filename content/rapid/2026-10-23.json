@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-23",
+  "title": "The Hundred-Shield Standoff",
+  "monster": "Gorak the Hundredshield Golem",
+  "story": "Gorak the Hundredshield Golem lumbers out of the fog with a wall of exactly 100 stone plates humming on his arm, and every blow Mr 6 lands only chips away part of it. To crack the golem, Mr 6 must shout the force that's LEFT — the number taken away from 100 — and the shield cracks right where he calls it. Gorak re-stacks his plates every few seconds, so say the leftovers fast, knight, or you'll be chipping stone all night!",
+  "rule": "Take it away from 100!",
+  "image": "images/rapid-2026-10-23.webp",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        64
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        32
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 32,
+      "distractors": [
+        42,
+        22,
+        38
+      ]
+    },
+    {
+      "q": "43",
+      "answer": 57,
+      "distractors": [
+        67,
+        47,
+        53
+      ]
+    },
+    {
+      "q": "87",
+      "answer": 13,
+      "distractors": [
+        23,
+        17,
+        3
+      ]
+    },
+    {
+      "q": "56",
+      "answer": 44,
+      "distractors": [
+        54,
+        34,
+        46
+      ]
+    },
+    {
+      "q": "19",
+      "answer": 81,
+      "distractors": [
+        91,
+        71,
+        89
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "grindlecombe-honeycellar-percent",
+  "tier": "champion",
+  "title": "The Honey Cellar Tariff",
+  "monster": "Grindlecombe the Comb Assessor",
+  "story": "In the amber-lit honey cellars of Beldrin Hollow, Mr 6 finds the beekeepers weeping over a locked vault. Grindlecombe the Comb Assessor, a fat wax-plated beetle with a quill for a horn, has declared a 'sweetness tariff' on every jar and will not open the vault until someone can tell him exactly what the villagers owe. 'Miscount by a single acorn,' he clicks, 'and the honey is mine.'",
+  "question": "The villagers have 240 jars of honey. Grindlecombe taxes 35% of the jars, and each taxed jar costs 4 silver acorns. How many silver acorns do the villagers owe?",
+  "answer": 336,
+  "unit": "silver acorns",
+  "distractors": [
+    84,
+    960,
+    204
+  ],
+  "solution": [
+    "First find the taxed jars: 35% of 240 = 0.35 × 240 = 84 jars.",
+    "Each taxed jar costs 4 silver acorns: 84 × 4 = 336.",
+    "The villagers owe 336 silver acorns."
+  ],
+  "praise": "Finding 35% of 240 was exactly the right opening move — the only thing left was multiplying those taxed jars by their 4-acorn price.",
+  "hint": "Start by working out how many of the 240 jars are actually taxed — percent first, price second.",
+  "victory": "Mr 6 announced '336!' before Grindlecombe's quill even touched the ledger, and the beetle popped his own wax seal in shock and rolled off down the cellar stairs. The beekeepers paid in honeyed bread instead, which Grindlecombe liked far better anyway.",
+  "image": "images/grindlecombe-honeycellar-percent.webp",
+  "imagePrompt": "A heroic walking numeral six in a knight helmet and blue cape stands before a giant wax-plated beetle clutching a quill ledger in a warm amber-lit cellar stacked with glowing honey jars."
+}
