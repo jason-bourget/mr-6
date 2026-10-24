@@ -1,0 +1,25 @@
+{
+  "id": "tallowmourn-wax-orchard-percent",
+  "tier": "champion",
+  "title": "The Orchard That Paid in Wax",
+  "monster": "Tallowmourn the Candle Orchard Keeper",
+  "story": "In the Wax Orchard, every pear is dipped in honey-wax and sold for glimmer-chits. Tallowmourn, a tall drippy keeper made of melted candles, refuses to release the trapped pickers until someone proves he has been shorting them. Mr 6 pulls out a wax tablet and starts scratching numbers with the tip of his sword.",
+  "question": "The pickers gathered 480 wax pears. Tallowmourn takes 35% of the pears as his \"orchard tithe,\" then the pickers sell the rest for 3 glimmer-chits each. How many glimmer-chits do the pickers earn?",
+  "answer": 936,
+  "unit": "glimmer-chits",
+  "distractors": [
+    168,
+    312,
+    1440
+  ],
+  "solution": [
+    "Tallowmourn's tithe is 35% of 480 = 0.35 × 480 = 168 pears.",
+    "The pickers keep 480 - 168 = 312 pears.",
+    "At 3 chits each, 312 × 3 = 936 glimmer-chits."
+  ],
+  "praise": "Finding 35% was exactly the right opening move — the pickers keep the OTHER part, and then it gets multiplied by the price.",
+  "hint": "First find how many pears Tallowmourn takes, then ask: how many are left to sell?",
+  "victory": "Tallowmourn melts into a sheepish puddle, admits his tithe was sticky arithmetic, and hands back every chit. The pickers light him as a lamp — he says it's the warmest job he's ever had.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A tall drippy candle-man keeper slumping among glowing wax pear trees at dusk while a small knightly numeral 6 holds up a tally tablet, golden candlelight and amber mood."
+}

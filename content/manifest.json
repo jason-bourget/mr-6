@@ -279,6 +279,8 @@
     "problems/clasperoot-canopy-snarl.json",
     "problems/grindlecombe-honeycellar-percent.json",
     "problems/velmora-tripling-frost-moth.json",
-    "problems/murrowgate-sluicegate-rescue-rate.json"
+    "problems/murrowgate-sluicegate-rescue-rate.json",
+    "problems/tallowmourn-wax-orchard-percent.json",
+    "problems/nethermoor-splitting-ferrywisp.json"
   ]
 }

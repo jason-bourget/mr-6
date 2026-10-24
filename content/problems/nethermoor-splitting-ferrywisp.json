@@ -1,0 +1,25 @@
+{
+  "id": "nethermoor-splitting-ferrywisp",
+  "tier": "champion",
+  "title": "The Ferrywisp That Split in Four",
+  "monster": "Nethermoor the Quartering Ferrywisp",
+  "story": "A ghostly blue wisp guards the moor crossing, and every time a traveler swings at it, it bursts into four smaller wisps — each just as bossy. Three wagon drivers have already tried swinging. Mr 6 sits down on a stone and counts instead.",
+  "question": "Nethermoor starts as 1 wisp. Each time it is struck, every wisp present splits into 4 wisps. After it has been struck 3 times, 12 of the wisps drift off into the fog. How many wisps are still blocking the crossing?",
+  "answer": 52,
+  "unit": "wisps",
+  "distractors": [
+    64,
+    4,
+    48
+  ],
+  "solution": [
+    "Each strike multiplies the wisps by 4: 1 → 4 → 16 → 64 after 3 strikes.",
+    "Then 12 drift away: 64 - 12 = 52.",
+    "So 52 wisps still block the crossing."
+  ],
+  "praise": "Spotting the repeated ×4 is the heart of this puzzle — the last step was subtracting the wisps that drifted off.",
+  "hint": "Write the count after each strike: 1, then ×4, then ×4 again... and only subtract at the very end.",
+  "victory": "Mr 6 never swings once. He simply asks the 52 wisps to line up in rows, they get hopelessly confused about who is the original, and the whole glowing crowd floats off to argue in the fog.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "Dozens of glowing blue wisps swirling over a misty moorland causeway while a small numeral-6 knight with a blue cape sits calmly on a stone counting on his fingers, eerie moonlit mood."
+}

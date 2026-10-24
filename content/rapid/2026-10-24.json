@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-24",
+  "title": "The Sevenfold Strike",
+  "monster": "Septimus the Seven-Headed Hydra",
+  "story": "Septimus the Seven-Headed Hydra hisses through all seven mouths at once, and every head must be answered or the beast grows another. Mr 6 raises his blade and learns the hydra's secret: whatever force it sends, strike back SEVEN times as hard and all seven heads flinch together. Count fast, knight — the hydra regrows a head every time you hesitate!",
+  "rule": "Strike back SEVEN times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 21,
+      "distractors": [
+        18,
+        24,
+        10
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 35,
+      "distractors": [
+        30,
+        42,
+        25
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 56,
+      "distractors": [
+        54,
+        63,
+        48
+      ]
+    },
+    {
+      "q": "6",
+      "answer": 42,
+      "distractors": [
+        36,
+        49,
+        48
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 63,
+      "distractors": [
+        56,
+        72,
+        54
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 84,
+      "distractors": [
+        74,
+        91,
+        82
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 49,
+      "distractors": [
+        42,
+        56,
+        47
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 77,
+      "distractors": [
+        70,
+        84,
+        67
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 105,
+      "distractors": [
+        95,
+        112,
+        75
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 140,
+      "distractors": [
+        130,
+        147,
+        14
+      ]
+    }
+  ]
+}
