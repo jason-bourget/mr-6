@@ -1,0 +1,25 @@
+{
+  "id": "ferrathwaite-glacier-share",
+  "tier": "champion",
+  "title": "The Glacier Bursar's Split",
+  "monster": "Ferrathwaite the Glacier Bursar",
+  "story": "Inside a blue ice-vault, Ferrathwaite the Glacier Bursar guards 480 moonstone shards that were frozen out of twelve shivering miners' wages. The bursar sniffs that he keeps 25% as a 'storage fee', then another 60 shards as a 'chipping fee', and the rest may go back to the miners — split evenly, of course.",
+  "question": "If Ferrathwaite keeps 25% of the 480 shards plus 60 more, and the remaining shards are shared equally among the 12 miners, how many shards does each miner receive?",
+  "answer": 25,
+  "unit": "shards",
+  "distractors": [
+    35,
+    30,
+    300
+  ],
+  "solution": [
+    "Storage fee: 25% of 480 = 120 shards kept.",
+    "Left after both fees: 480 - 120 - 60 = 300 shards.",
+    "Shared evenly: 300 ÷ 12 = 25 shards each."
+  ],
+  "praise": "Taking the percent first was the right opening move — the chipping fee of 60 just needed subtracting before you divided.",
+  "hint": "Find 25% of 480 first, then take away BOTH fees before you share what's left.",
+  "victory": "Mr 6 reads the fee list aloud so slowly that Ferrathwaite melts with embarrassment, leaving a puddle, a receipt, and twelve very warm smiles.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A frost-crusted ledger-keeping ice spirit in a glittering blue glacier vault, shards of moonstone floating in the cold air, a brave numeral 6 knight pointing at the tally.\n"
+}

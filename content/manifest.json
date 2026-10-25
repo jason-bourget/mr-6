@@ -281,6 +281,9 @@
     "problems/velmora-tripling-frost-moth.json",
     "problems/murrowgate-sluicegate-rescue-rate.json",
     "problems/tallowmourn-wax-orchard-percent.json",
-    "problems/nethermoor-splitting-ferrywisp.json"
+    "problems/nethermoor-splitting-ferrywisp.json",
+    "problems/cormillion-amber-tide-rate.json",
+    "problems/ferrathwaite-glacier-share.json",
+    "problems/splintermoor-doubling-reedling.json"
   ]
 }

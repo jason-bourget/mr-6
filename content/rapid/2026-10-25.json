@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-25",
+  "title": "The Tenth-Taker's Trap",
+  "monster": "Grabbins the Tithing Imp",
+  "story": "Grabbins the Tithing Imp bounces through the Vault of Numbers hollering 'A tenth for me, a tenth for me!' and every number he touches shrinks to one-tenth its size. Mr 6 discovered the trick: if the knight names the shrunken number BEFORE the imp can shout it, Grabbins loses the number and tumbles backward in a puff of glitter. Slide that decimal point and call it fast — one slow blink and the imp grabs the whole vault!",
+  "rule": "Shrink it to a TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "60",
+      "answer": 6,
+      "distractors": [
+        600,
+        16,
+        66
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        900,
+        19,
+        99
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 15,
+      "distractors": [
+        1500,
+        105,
+        51
+      ]
+    },
+    {
+      "q": "240",
+      "answer": 24,
+      "distractors": [
+        2400,
+        42,
+        240
+      ]
+    },
+    {
+      "q": "300",
+      "answer": 30,
+      "distractors": [
+        3000,
+        33,
+        300
+      ]
+    },
+    {
+      "q": "520",
+      "answer": 52,
+      "distractors": [
+        5200,
+        25,
+        502
+      ]
+    },
+    {
+      "q": "700",
+      "answer": 70,
+      "distractors": [
+        7000,
+        7,
+        77
+      ]
+    },
+    {
+      "q": "1200",
+      "answer": 120,
+      "distractors": [
+        12,
+        1200,
+        1020
+      ]
+    },
+    {
+      "q": "1800",
+      "answer": 180,
+      "distractors": [
+        18,
+        1800,
+        108
+      ]
+    },
+    {
+      "q": "2460",
+      "answer": 246,
+      "distractors": [
+        24,
+        2460,
+        264
+      ]
+    }
+  ]
+}

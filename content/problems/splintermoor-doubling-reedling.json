@@ -1,0 +1,25 @@
+{
+  "id": "splintermoor-doubling-reedling",
+  "tier": "champion",
+  "title": "Splintermoor's Doubling Reeds",
+  "monster": "Splintermoor the Reedling Brood",
+  "story": "In the Whisper Marsh, every reedling Mr 6 swats splits into two new reedlings — so hitting them is the worst idea in the swamp. The brood starts as 7 reedlings, and Mr 6 counts that the swarm doubles once every hour on its own, whether he swings or not. His singing-frog allies can calm exactly 60 reedlings per hour, and he needs to know how big the brood will be after 4 hours so he can call in enough frogs.",
+  "question": "Starting from 7 reedlings and doubling every hour, how many reedlings will there be after 4 hours?",
+  "answer": 112,
+  "unit": "reedlings",
+  "distractors": [
+    56,
+    28,
+    224
+  ],
+  "solution": [
+    "Doubling hour by hour: 7 → 14 → 28 → 56 → 112.",
+    "That is 7 × 2 × 2 × 2 × 2 = 112.",
+    "After 4 hours there are 112 reedlings."
+  ],
+  "praise": "Doubling repeatedly was exactly right — it just needed one more doubling to reach the fourth hour.",
+  "hint": "Write the count for each hour in a row and double as you go — count the doublings, not the numbers.",
+  "victory": "Mr 6 hires two frog choirs instead of one, and 112 reedlings doze off mid-wiggle; Splintermoor becomes the marsh's softest lullaby.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A swirling brood of glowing reed-sprites multiplying above misty swamp water at dusk, while a small knight numeral 6 holds up a counting tally beside singing frogs."
+}

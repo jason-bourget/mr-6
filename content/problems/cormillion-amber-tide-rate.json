@@ -1,0 +1,25 @@
+{
+  "id": "cormillion-amber-tide-rate",
+  "tier": "champion",
+  "title": "The Amber Tide",
+  "monster": "Cormillion the Resin Tide",
+  "story": "In the Petrified Grove, Mr 6 finds a village choir trapped on a stone bandstand while a slow river of golden tree-resin creeps toward them. Cormillion the Resin Tide oozes forward at 8 feet every minute, but the villagers' pumps suck the goo back at 5.5 feet per minute. Mr 6 plants his sword in the moss and starts measuring: the resin's edge is 30 feet from the bandstand.",
+  "question": "If the resin advances 8 feet each minute while the pumps pull it back 5.5 feet each minute, how many minutes does Mr 6 have before it reaches the bandstand?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    3.75,
+    30,
+    5.45
+  ],
+  "solution": [
+    "Each minute the resin really gains 8 - 5.5 = 2.5 feet.",
+    "Time to cover 30 feet: 30 ÷ 2.5 = 12.",
+    "Mr 6 has 12 minutes to get the choir down."
+  ],
+  "praise": "Dividing by a rate was exactly the right instinct — the missing step was subtracting the pumps first to find the REAL speed.",
+  "hint": "The resin moves forward and gets pulled back in the same minute. What is its true gain each minute?",
+  "victory": "Mr 6 walks the choir out with ninety seconds to spare, and Cormillion hardens into a beautiful amber staircase the village uses forever after.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing river of golden resin creeping through a petrified forest toward a stone bandstand, with a small knightly numeral 6 waving villagers to safety in warm amber light."
+}
