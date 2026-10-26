@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-26",
+  "title": "The Halving Havoc",
+  "monster": "Gloopzilla the Splitting Slime",
+  "story": "Gloopzilla is a wobbling tower of green goo who laughs every time she's hit — because each sloppy swing just splits her into MORE slimes. Mr 6 discovers her secret weakness: a blade stroke that cuts her exactly in half leaves her too small to split again, so every number she flings must be halved perfectly. Slice fast, brave knight — hesitate one heartbeat and the goo doubles back!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        19,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        13
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 29,
+      "distractors": [
+        28,
+        39,
+        19
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        45,
+        34
+      ]
+    },
+    {
+      "q": "94",
+      "answer": 47,
+      "distractors": [
+        45,
+        37,
+        46
+      ]
+    },
+    {
+      "q": "126",
+      "answer": 63,
+      "distractors": [
+        62,
+        53,
+        73
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 75,
+      "distractors": [
+        70,
+        65,
+        85
+      ]
+    },
+    {
+      "q": "238",
+      "answer": 119,
+      "distractors": [
+        118,
+        109,
+        129
+      ]
+    },
+    {
+      "q": "464",
+      "answer": 232,
+      "distractors": [
+        222,
+        231,
+        242
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "skimmerwick-frozen-chase",
+  "tier": "champion",
+  "title": "Chase Across the Glass Mere",
+  "monster": "Skimmerwick the Pond Shade",
+  "story": "Skimmerwick the Pond Shade has swiped the village's thaw-bell and gone skating off across the frozen mere, giggling like cracking ice. Without the bell, spring simply will not start. Mr 6 straps on blades, but the shade already has a head start — so he works out exactly how long the chase will take.",
+  "question": "Skimmerwick glides in a straight line at 9 leagues per hour and has a 20-minute head start. Mr 6 skates the same line at 13.5 leagues per hour. How many minutes after Mr 6 starts will he catch the shade?",
+  "answer": 40,
+  "unit": "minutes",
+  "distractors": [
+    20,
+    3,
+    8
+  ],
+  "solution": [
+    "In its 20-minute head start, Skimmerwick covers 9 × (20 ÷ 60) = 3 leagues.",
+    "Mr 6 closes the gap at 13.5 - 9 = 4.5 leagues per hour, so he needs 3 ÷ 4.5 = 2/3 of an hour.",
+    "2/3 of an hour = 40 minutes."
+  ],
+  "praise": "Turning the head start into a distance was the key move — the next step is dividing that gap by how fast the gap SHRINKS, not by either skater's full speed.",
+  "hint": "First turn the 20-minute head start into leagues, then ask how much closer Mr 6 gets each hour.",
+  "victory": "Exactly forty minutes later Mr 6 skates up beside the shade, holds out a mitten, and asks politely for the bell back. Skimmerwick, astonished that anyone did the arithmetic, hands it over and melts into a sheepish puff of frost.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A caped numeral-six knight on ice skates racing a translucent grinning shade across a vast moonlit frozen lake, long blue shadows and a stolen bronze bell glinting ahead."
+}

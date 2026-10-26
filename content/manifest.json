@@ -284,6 +284,8 @@
     "problems/nethermoor-splitting-ferrywisp.json",
     "problems/cormillion-amber-tide-rate.json",
     "problems/ferrathwaite-glacier-share.json",
-    "problems/splintermoor-doubling-reedling.json"
+    "problems/splintermoor-doubling-reedling.json",
+    "problems/brasselwick-cage-percent.json",
+    "problems/skimmerwick-frozen-chase.json"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "brasselwick-cage-percent",
+  "tier": "champion",
+  "title": "The Price of a Moon-Finch",
+  "monster": "Brasselwick the Cage Hawker",
+  "story": "Under the paper lanterns of the Night Market, Brasselwick the Cage Hawker sells songbirds that were never his to sell. A single moon-finch sits in a brass cage, singing a tune that makes the whole market sad. Mr 6 counts his ember coins and his wits, and decides the wits will matter more.",
+  "question": "The moon-finch is marked at 240 ember coins. Brasselwick adds a 25% \"feather tax\" to that price, but Mr 6 unrolls the Realm Charter of Freed Songbirds, which takes 40% off the taxed total. How many ember coins does Mr 6 actually pay?",
+  "answer": 180,
+  "unit": "ember coins",
+  "distractors": [
+    300,
+    144,
+    120
+  ],
+  "solution": [
+    "The feather tax adds 240 × 0.25 = 60, so the taxed price is 240 + 60 = 300 ember coins.",
+    "The charter takes 40% off that, which is 300 × 0.40 = 120 coins off, leaving 300 - 120 = 180.",
+    "Mr 6 pays 180 ember coins."
+  ],
+  "praise": "Working with the percents was the right plan — the trick is doing them in order, tax first and then the charter's discount on the NEW total.",
+  "hint": "Do the tax before the discount: find the taxed price first, then take 40% off that number (not off 240).",
+  "victory": "Brasselwick squints at the charter, squints at the math, and hands over the cage with a defeated little bow. The moon-finch sings one perfect note and the entire market finally stops feeling sad.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight holding an unrolled glowing charter before a weaselly lantern-lit market hawker surrounded by brass birdcages, warm amber light and curious shoppers crowding in."
+}
