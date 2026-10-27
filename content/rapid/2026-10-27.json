@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-27",
+  "title": "The Fourfold Fury",
+  "monster": "Quadrax, the Four-Headed Thunder Hydra",
+  "story": "Quadrax rears up over the Bridge of Bronze, and every one of its four heads howls the same lightning bolt at once — one blast becomes four. Mr 6 discovered the hydra's weakness: it can only absorb a strike weaker than its own roar, so the knight must answer every bolt with FOUR times the force, instantly. Each head draws breath in about two seconds — can you swing faster than a hydra can inhale?",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "5",
+      "answer": 20,
+      "distractors": [
+        10,
+        25,
+        15
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 32,
+      "distractors": [
+        16,
+        24,
+        36
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        36,
+        44,
+        24
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        45,
+        50,
+        30
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 36,
+      "distractors": [
+        27,
+        45,
+        18
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        60,
+        40,
+        800
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        62,
+        54,
+        82
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        75,
+        90,
+        50
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        120,
+        130,
+        70
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        160,
+        170,
+        90
+      ]
+    }
+  ]
+}

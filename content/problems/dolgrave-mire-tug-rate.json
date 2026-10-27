@@ -1,0 +1,25 @@
+{
+  "id": "dolgrave-mire-tug-rate",
+  "tier": "champion",
+  "title": "Tug-of-War at the Sinking Mire",
+  "monster": "Dolgrave the Mire Strider",
+  "story": "Dolgrave the Mire Strider, a long-legged swamp beast of reeds and mud, has hooked a wicker cage full of marsh-larks and is hauling it toward the bubbling sinkhole. The cage starts 240 feet from the sinkhole's edge, and Dolgrave drags it 10 feet every minute. Mr 6 grabs the rope and hauls back, pulling the cage 4 feet every minute in the other direction while he works at the knots.",
+  "question": "How many minutes does Mr 6 have before the cage reaches the sinkhole?",
+  "answer": 40,
+  "unit": "minutes",
+  "distractors": [
+    24,
+    60,
+    6
+  ],
+  "solution": [
+    "Each minute the cage really moves 10 − 4 = 6 feet toward the sinkhole.",
+    "The cage must cover 240 feet: 240 ÷ 6 = 40.",
+    "Mr 6 has 40 minutes to untie the knots."
+  ],
+  "praise": "Dividing the distance by a speed was exactly the right move — the speed just needed to be the NET pull, Dolgrave's drag minus Mr 6's haul.",
+  "hint": "Dolgrave pulls one way and Mr 6 pulls the other — how far does the cage actually move in one minute?",
+  "victory": "With 40 minutes and a very patient knot-picking sword, Mr 6 freed every marsh-lark at minute 39. Dolgrave hauled the empty cage into the mire and sat blinking at it, out-thought and out-tugged.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A reedy moonlit swamp where a long-legged mud-and-reed beast drags a rope toward a bubbling sinkhole while a small numeral-six knight digs in his heels, cape flying, a cage of fluttering marsh-larks between them.jpg; mood tense but brave"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cindrelith-crucible-average",
+  "tier": "champion",
+  "title": "The Crucible Judge's Fifth Sled",
+  "monster": "Cindrelith the Crucible Judge",
+  "story": "Deep in the volcano forge, Cindrelith the Crucible Judge sits on a molten scale and refuses to release the apprentices' ore sleds. Her rule: five sleds must average exactly 48 pounds of ore, or every sled slides into the lava chute. Four sleds are already weighed at 52, 41, 47, and 39 pounds, and the fifth stands empty beside a worried Mr 6.",
+  "question": "How many pounds of ore must the fifth sled hold so the five sleds average exactly 48 pounds?",
+  "answer": 61,
+  "unit": "pounds",
+  "distractors": [
+    48,
+    179,
+    44.75
+  ],
+  "solution": [
+    "For an average of 48 across 5 sleds, the total must be 48 × 5 = 240 pounds.",
+    "The four weighed sleds hold 52 + 41 + 47 + 39 = 179 pounds.",
+    "So the fifth sled needs 240 − 179 = 61 pounds."
+  ],
+  "praise": "Thinking about the average was the right path — the missing step was turning that average into a total of all five sleds first.",
+  "hint": "An average of 48 for 5 sleds means a certain TOTAL weight. Find that total, then see what's already there.",
+  "victory": "Mr 6 shoveled in exactly 61 pounds, and the scale settled dead level with a disappointed hiss. Cindrelith grumbled, 'Nobody ever does the totals,' and handed back every sled.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing volcanic forge where a stern molten-stone judge perches on an enormous balance scale, ore sleds lined up on the pans, as a small numeral-six knight with a helmet and sword shovels ore with careful confidence."
+}

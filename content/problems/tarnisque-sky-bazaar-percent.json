@@ -1,0 +1,25 @@
+{
+  "id": "tarnisque-sky-bazaar-percent",
+  "tier": "champion",
+  "title": "The Surcharge of the Cloudstep Bazaar",
+  "monster": "Tarnisque the Updraft Factor",
+  "story": "High on the floating planks of the Cloudstep Bazaar, Mr 6 needs balloon-silk to patch the rescue balloon that carries the lamplighter children home. Tarnisque the Updraft Factor, a puffed-up wind-spirit with a ledger for a face, sells silk at 18.50 gold crowns a bolt — and smirks that every sale carries a 25% 'windage surcharge.' Mr 6 needs 4 bolts, but he also carries a rescuer's token worth 15 crowns off the final bill.",
+  "question": "If Mr 6 buys 4 bolts, the 25% surcharge is added to that cost, and then the 15-crown token is taken off, how many gold crowns does he pay?",
+  "answer": 77.5,
+  "unit": "gold crowns",
+  "distractors": [
+    92.5,
+    74,
+    73.75
+  ],
+  "solution": [
+    "Four bolts cost 4 × 18.50 = 74 gold crowns.",
+    "The windage surcharge adds 25%: 74 × 1.25 = 92.50 crowns.",
+    "The rescuer's token comes off last: 92.50 − 15 = 77.50 gold crowns."
+  ],
+  "praise": "Working the surcharge as a percent was exactly right — the token just had to come off after the 25%, not before.",
+  "hint": "Find the price of 4 bolts first, then grow it by 25%, and only then use the token.",
+  "victory": "Mr 6 counted out 77.50 crowns exactly, and Tarnisque deflated like a sat-on cushion. The balloon flew home patched, and the lamplighter kids waved down at a very smug little six.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape haggling on a plank bazaar floating among sunset clouds, facing a puffed-up wind-spirit merchant made of swirling vapor and ledger pages, bolts of shimmering balloon-silk stacked nearby."
+}

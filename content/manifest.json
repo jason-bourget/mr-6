@@ -286,6 +286,9 @@
     "problems/ferrathwaite-glacier-share.json",
     "problems/splintermoor-doubling-reedling.json",
     "problems/brasselwick-cage-percent.json",
-    "problems/skimmerwick-frozen-chase.json"
+    "problems/skimmerwick-frozen-chase.json",
+    "problems/tarnisque-sky-bazaar-percent.json",
+    "problems/cindrelith-crucible-average.json",
+    "problems/dolgrave-mire-tug-rate.json"
   ]
 }

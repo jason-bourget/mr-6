@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-27",
+  "problems": [
+    "problems/quillowrack-aviary-rescue-rate.json",
+    "problems/sarravance-glasshouse-tithe-percent.json",
+    "problems/sablequench-geyser-drain.json"
+  ]
+}
