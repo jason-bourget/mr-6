@@ -1,0 +1,25 @@
+{
+  "id": "ghastlemoor-trisecting-stormcloud",
+  "tier": "champion",
+  "title": "The Cloud That Thirded Itself",
+  "monster": "Ghastlemoor the Trisecting Stormcloud",
+  "story": "Over the thatched roofs of Pippinhollow floats Ghastlemoor, a grumbling little stormcloud that splits into three whenever a sword touches it. The village roofs can only survive so much hail, so Mr 6 hovers on a glider, sword lowered, doing the smarter thing first: the arithmetic. 'Let me see what four swings would actually buy us,' he mutters, tapping his helmet.",
+  "question": "If Mr 6 struck four times and every cloud became 3 clouds at each strike, and each final cloud carries 2.5 gallons of hail, how many gallons of hail would hang over the village?",
+  "answer": 202.5,
+  "unit": "gallons",
+  "distractors": [
+    81,
+    67.5,
+    30
+  ],
+  "solution": [
+    "Each strike triples the clouds: 1 → 3 → 9 → 27 → 81 clouds after four strikes.",
+    "Each of those clouds carries 2.5 gallons: 81 × 2.5 = 202.5.",
+    "Mr 6 would be making 202.5 gallons of hail — so he sheathes the sword instead."
+  ],
+  "praise": "Tripling step by step was exactly the right move — the last step was turning those clouds into gallons.",
+  "hint": "Start with one cloud and triple it once for each strike, then worry about the hail each cloud carries.",
+  "victory": "Mr 6 shows Ghastlemoor the number written on his glider wing, and the cloud goes pale, shrinks to a damp puff, and drizzles politely on the turnip field instead.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A small knightly numeral 6 in a blue cape gliding beside a grumpy grey stormcloud that is visibly splitting into three smaller clouds above a tiny village, dramatic silver storm light."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mirthquail-songbox-buyback",
+  "tier": "champion",
+  "title": "The Broker of Stolen Songs",
+  "monster": "Mirthquail the Thistle Broker",
+  "story": "In the moor-market under rattling lanterns, Mirthquail has six stolen music boxes locked in a bramble cage, each tagged at 48 gold crowns. 'Buy all six and I'll knock off 25 percent,' she chirps, 'plus a flat cage-fee of 20 crowns, naturally.' Mr 6 empties his coin pouch onto the counting stone and starts figuring.",
+  "question": "How many gold crowns must Mr 6 pay in total for all six music boxes?",
+  "answer": 236,
+  "unit": "crowns",
+  "distractors": [
+    288,
+    216,
+    308
+  ],
+  "solution": [
+    "Six boxes at full price: 6 × 48 = 288 crowns.",
+    "Taking 25% off means paying 75%: 288 × 0.75 = 216 crowns.",
+    "Add the flat cage-fee: 216 + 20 = 236 crowns."
+  ],
+  "praise": "Finding the full price first was the right opening — one of the two adjustments (the discount or the fee) still needed its turn.",
+  "hint": "Work the discount on the whole six-box price first; the cage-fee is added at the very end, not discounted.",
+  "victory": "Mr 6 counts out exactly 236 crowns, not one more, and Mirthquail's bramble cage springs open — six music boxes play at once, and she flees from the harmony.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A cloaked thistle-broker creature haggling across a lantern-lit moor market stall with a caped numeral 6 knight counting gold crowns, bramble cage of music boxes glowing behind her."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-28",
+  "title": "The Hydra of Nine Shadows",
+  "monster": "Nonakor, Hydra of Nine Shadows",
+  "story": "Nonakor the shadow hydra has NINE whispering heads, and every blow it takes is split nine ways across them — so a single tap barely tickles. Mr 6 discovers the trick: whatever force the hydra shows, strike back NINE times as hard and all nine heads fall at once. The shadows regrow in seconds, knight — can you multiply faster than they can whisper?",
+  "rule": "Strike back NINE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 27,
+      "distractors": [
+        24,
+        30,
+        21
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 45,
+      "distractors": [
+        40,
+        54,
+        50
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 63,
+      "distractors": [
+        56,
+        72,
+        70
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        100,
+        80,
+        99
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 72,
+      "distractors": [
+        64,
+        80,
+        81
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 108,
+      "distractors": [
+        96,
+        120,
+        118
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 180,
+      "distractors": [
+        160,
+        200,
+        170
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 135,
+      "distractors": [
+        120,
+        145,
+        150
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 270,
+      "distractors": [
+        240,
+        300,
+        260
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 225,
+      "distractors": [
+        200,
+        250,
+        235
+      ]
+    }
+  ]
+}

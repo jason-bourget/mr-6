@@ -289,6 +289,9 @@
     "problems/skimmerwick-frozen-chase.json",
     "problems/tarnisque-sky-bazaar-percent.json",
     "problems/cindrelith-crucible-average.json",
-    "problems/dolgrave-mire-tug-rate.json"
+    "problems/dolgrave-mire-tug-rate.json",
+    "problems/ghastlemoor-trisecting-stormcloud.json",
+    "problems/mirthquail-songbox-buyback.json",
+    "problems/vollenbrisk-avalanche-weighpost.json"
   ]
 }

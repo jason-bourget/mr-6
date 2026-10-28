@@ -1,0 +1,25 @@
+{
+  "id": "vollenbrisk-avalanche-weighpost",
+  "tier": "champion",
+  "title": "The Avalanche Auditor",
+  "monster": "Vollenbrisk the Avalanche Auditor",
+  "story": "At the top of the Snowline Pass stands Vollenbrisk, a frost-coated weigh-master who swears that any caravan whose sleds average more than 90 pounds will shake the ridge loose. Six sleds of ember-coal wait in the wind, and the sixth is still empty. Mr 6 scrapes the frost off the tally board to read the first five weights: 84, 97, 88, 91 and 86 pounds.",
+  "question": "What must the sixth sled weigh so that the six sleds average exactly 90 pounds?",
+  "answer": 94,
+  "unit": "pounds",
+  "distractors": [
+    540,
+    89.2,
+    90
+  ],
+  "solution": [
+    "Six sleds averaging 90 need a total of 6 × 90 = 540 pounds.",
+    "The five loaded sleds weigh 84 + 97 + 88 + 91 + 86 = 446 pounds.",
+    "So the last sled must hold 540 − 446 = 94 pounds."
+  ],
+  "praise": "Thinking about the average was exactly right — the missing move was turning that average into the total the six sleds need together.",
+  "hint": "An average of 90 across six sleds tells you the total weight allowed; compare it to what the five sleds already carry.",
+  "victory": "Mr 6 shovels in precisely 94 pounds, the needle settles dead on 90, and Vollenbrisk sighs, stamps the pass, and lets the caravan tiptoe over the quiet snow.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A frost-armored auditor creature beside a giant snow-crusted weighing scale on a windy glacier pass, a small numeral 6 knight shovelling ember-coal into the last sled under pale blue dawn light."
+}
