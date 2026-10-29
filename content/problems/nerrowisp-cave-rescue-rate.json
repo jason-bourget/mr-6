@@ -1,0 +1,25 @@
+{
+  "id": "nerrowisp-cave-rescue-rate",
+  "tier": "champion",
+  "title": "The Sea Cave That Swallowed the Pups",
+  "monster": "Nerrowisp the Tide Gorger",
+  "story": "Deep in a lighthouse cliff, Nerrowisp the Tide Gorger gulps the ocean and spits it into a sea cave, where three seal pups huddle on a stone ledge. Mr 6 braces his boots in the shallows and starts a bucket chain with the lamp-keepers. The Gorger grins — it thinks nobody in the realm can out-count a tide.",
+  "question": "Nerrowisp pours in 12 gallons of seawater every minute, while the bucket chain bails out 7.5 gallons every minute. The cave can hold 54 more gallons before the pups' ledge floods. How many minutes does Mr 6 have to carry the pups out?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    4.5,
+    7.2,
+    19.5
+  ],
+  "solution": [
+    "Each minute the water really rises by 12 - 7.5 = 4.5 gallons.",
+    "Time until the ledge floods: 54 ÷ 4.5 = 12.",
+    "Mr 6 has 12 minutes to get all three pups out."
+  ],
+  "praise": "Comparing the pouring rate to the bailing rate was exactly the right move — the last step was dividing the 54 gallons by that difference.",
+  "hint": "The water isn't rising by 12 gallons a minute — the buckets are fighting back. Find the NET rise per minute first.",
+  "victory": "Mr 6 ferried the pups out with ninety seconds to spare, then politely handed Nerrowisp a bucket. The Gorger, deeply offended at being made useful, slurped itself back out to sea.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape carrying seal pups along a stone ledge in a flooding sea cave, while a bloated eel-like tide monster spouts seawater through the cave mouth under golden lighthouse beams."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-29",
+  "title": "The Sixfold Strike",
+  "monster": "Hexador the Six-Armed Siege Beetle",
+  "story": "Hexador the Six-Armed Siege Beetle clatters out of the storm cloud, swinging six shields at once and laughing that no single blow can dent him. Mr 6 grins — he has six points on his own crown, and a knight who multiplies by SIX can crack all six shields in one swing. Every number Hexador hurls must be struck back six times as hard, and the beetle moves fast — can you swing faster?",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        15,
+        21,
+        24
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        25,
+        35,
+        36
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 48,
+      "distractors": [
+        42,
+        54,
+        46
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 60,
+      "distractors": [
+        16,
+        66,
+        50
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        62,
+        78,
+        66
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        85
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        110,
+        126,
+        112
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 150,
+      "distractors": [
+        140,
+        155,
+        125
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 240,
+      "distractors": [
+        230,
+        246,
+        220
+      ]
+    }
+  ]
+}

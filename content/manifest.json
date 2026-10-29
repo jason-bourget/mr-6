@@ -292,6 +292,9 @@
     "problems/dolgrave-mire-tug-rate.json",
     "problems/ghastlemoor-trisecting-stormcloud.json",
     "problems/mirthquail-songbox-buyback.json",
-    "problems/vollenbrisk-avalanche-weighpost.json"
+    "problems/vollenbrisk-avalanche-weighpost.json",
+    "problems/nerrowisp-cave-rescue-rate.json",
+    "problems/crumblewick-forge-surcharge.json",
+    "problems/mulchgrim-harvest-share.json"
   ]
 }

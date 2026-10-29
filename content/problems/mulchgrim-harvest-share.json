@@ -1,0 +1,25 @@
+{
+  "id": "mulchgrim-harvest-share",
+  "tier": "champion",
+  "title": "Mulchgrim and the Glowgourd Harvest",
+  "monster": "Mulchgrim the Gourd Hoarder",
+  "story": "Under a swollen harvest moon, Mulchgrim the Gourd Hoarder squats on the village's pile of glowgourds — the only light the marsh folk will have all winter. The beast's magic is simple and greedy: it swallows exactly three-eighths of any pile it sits upon, then waddles off. Mr 6 sharpens his pencil instead of his sword.",
+  "question": "The village harvested 480 glowgourds, and Mulchgrim swallows 3/8 of them. The rest are shared equally among 25 families. How many glowgourds does each family get?",
+  "answer": 12,
+  "unit": "glowgourds",
+  "distractors": [
+    180,
+    300,
+    19.2
+  ],
+  "solution": [
+    "Mulchgrim swallows 3/8 of 480 = 180 glowgourds.",
+    "That leaves 480 - 180 = 300 glowgourds for the village.",
+    "Shared out: 300 ÷ 25 = 12 glowgourds for each family."
+  ],
+  "praise": "Taking the fraction of the pile was the right first step — the share has to come from what's LEFT, not from the whole harvest.",
+  "hint": "Find 3/8 of 480 first, subtract it, and only then divide among the 25 families.",
+  "victory": "Mr 6 quietly split the pile into eighths before the hoarder sat down, so Mulchgrim swallowed three baskets of marsh turnips by mistake. It burped, apologized, and now guards the gourd shed for free soup.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A round mossy gourd-bellied monster perched on a glowing pile of pumpkin-like gourds in a moonlit marsh field, while a small numeral-six knight with a blue cape chalks fractions onto a barn door."
+}

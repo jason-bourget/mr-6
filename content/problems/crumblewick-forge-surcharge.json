@@ -1,0 +1,25 @@
+{
+  "id": "crumblewick-forge-surcharge",
+  "tier": "champion",
+  "title": "The Soot Tallyman's Surcharge",
+  "monster": "Crumblewick the Soot Tallyman",
+  "story": "At the volcano-side forge market, Crumblewick the Soot Tallyman scribbles extra charges onto every bill with a charcoal finger. Mr 6 needs climbing rope to haul an apprentice out of a cinder pit, and the Tallyman is already smirking over his ledger. \"Nobody reads the fine print,\" Crumblewick hisses.",
+  "question": "Rope costs 14 ember coins per coil and Mr 6 needs 3 coils. Crumblewick adds an \"ash surcharge\" of 25% of the rope's price. If Mr 6 hands over 60 ember coins, how many ember coins should he get back?",
+  "answer": 7.5,
+  "unit": "ember coins",
+  "distractors": [
+    52.5,
+    10.5,
+    18
+  ],
+  "solution": [
+    "Three coils cost 3 × 14 = 42 ember coins.",
+    "The surcharge is 25% of 42, which is 42 ÷ 4 = 10.5, so the bill is 42 + 10.5 = 52.5.",
+    "Change: 60 - 52.5 = 7.5 ember coins."
+  ],
+  "praise": "You tracked the price and the percent correctly — the missing move was subtracting the full bill from the 60 coins he handed over.",
+  "hint": "Work out the rope price first, then take 25% of THAT before you think about change.",
+  "victory": "Mr 6 recited the bill back line by line, and Crumblewick's charcoal finger snapped in embarrassment. The Tallyman refunded the surcharge and now works as the market's honest weigh-clerk.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A soot-streaked lanky ledger-goblin at a glowing volcanic forge market stall, scowling as a cheerful numeral-six knight counts ember coins beside coils of rope, firelight and drifting ash in the air."
+}
