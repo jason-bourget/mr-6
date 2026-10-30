@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-30",
+  "title": "The Hundred-Stone Golem",
+  "monster": "Centurio, the Hundred-Stone Golem",
+  "story": "Centurio lumbers out of the quarry with exactly 100 stones of armor stacked on his back, and he chuckles that no knight has ever counted fast enough to find the gap. But Mr 6 knows the trick: every blow he lands knocks off some stones, and the armor left over is simply 100 minus the hit — call that number aloud and the gap glows wide open. Shout the leftovers before Centurio re-stacks, Sir Knight — he piles stones faster than you can blink!",
+  "rule": "Take it away from 100!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        91,
+        10
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        65,
+        85,
+        25
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        35
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        46
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        32,
+        18
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 15,
+      "distractors": [
+        25,
+        5,
+        85
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 37,
+      "distractors": [
+        47,
+        33,
+        27
+      ]
+    },
+    {
+      "q": "97",
+      "answer": 3,
+      "distractors": [
+        13,
+        7,
+        93
+      ]
+    }
+  ]
+}

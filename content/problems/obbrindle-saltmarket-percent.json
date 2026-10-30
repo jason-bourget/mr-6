@@ -1,0 +1,25 @@
+{
+  "id": "obbrindle-saltmarket-percent",
+  "tier": "champion",
+  "title": "The Crooked Scales of Obbrindle",
+  "monster": "Obbrindle the Salt Assessor",
+  "story": "In the salt market of Low Brinewall, Obbrindle the Salt Assessor taxes every cart with a different crooked rule, hoping nobody checks his arithmetic. A widow's cart of 240 salt bricks is about to be taxed into nothing. Mr 6 steps up with a chalk stub and asks to see the numbers.",
+  "question": "Obbrindle first seizes 25% of the 240 salt bricks as a \"weighing fee,\" then seizes 40% of whatever is left as a \"road tithe.\" How many salt bricks does the widow keep?",
+  "answer": 108,
+  "unit": "salt bricks",
+  "distractors": [
+    180,
+    72,
+    84
+  ],
+  "solution": [
+    "The weighing fee takes 240 x 0.25 = 60 bricks, leaving 240 - 60 = 180.",
+    "The road tithe takes 40% of 180, which is 72, so 180 - 72 = 108.",
+    "The widow keeps 108 salt bricks."
+  ],
+  "praise": "Taking percents one at a time was the right plan — the second percent just had to come off the NEW pile of 180, not the original 240.",
+  "hint": "Find what's left after the first fee, then take the second percent of that smaller pile — not of 240.",
+  "victory": "Mr 6 chalked both subtractions right on Obbrindle's scale pan, and the crowd counted along out loud. The assessor turned the color of wet salt and handed back 108 bricks, plus a cart, plus an apology.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A pale ledger-faced assessor in a salt-crusted robe scowling over brass scales in a bustling seaside salt market, while a small numeral-six knight chalks percentages on the scale pan to a cheering crowd."
+}

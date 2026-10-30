@@ -295,6 +295,9 @@
     "problems/vollenbrisk-avalanche-weighpost.json",
     "problems/nerrowisp-cave-rescue-rate.json",
     "problems/crumblewick-forge-surcharge.json",
-    "problems/mulchgrim-harvest-share.json"
+    "problems/mulchgrim-harvest-share.json",
+    "problems/quillanthe-silk-ladder-rate.json",
+    "problems/obbrindle-saltmarket-percent.json",
+    "problems/grellowspar-doubling-crystal.json"
   ]
 }

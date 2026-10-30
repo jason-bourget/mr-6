@@ -1,0 +1,25 @@
+{
+  "id": "grellowspar-doubling-crystal",
+  "tier": "champion",
+  "title": "The Doubling Crystal of the Hollow Vault",
+  "monster": "Grellowspar the Mirror-Crystal",
+  "story": "Deep in a crypt-vault lit by cold green glow, Grellowspar the Mirror-Crystal grows every time a blade strikes it: one sharp tap and every shard becomes two. The guards struck it three times before they fled, and it now fills half the room. Mr 6 sheathes his sword and sits down with chalk — he intends to win this one by NOT swinging.",
+  "question": "Grellowspar started as 7 shards, and each strike doubles the number of shards. The guards struck it 3 times. If Mr 6 instead sings the Stilling Verse, which removes exactly 23 shards without any doubling, how many shards are left?",
+  "answer": 33,
+  "unit": "shards",
+  "distractors": [
+    56,
+    19,
+    42
+  ],
+  "solution": [
+    "Three strikes doubled the shards three times: 7 x 2 x 2 x 2 = 56 shards.",
+    "The Stilling Verse removes 23 of them: 56 - 23 = 33.",
+    "Grellowspar is left with 33 shards."
+  ],
+  "praise": "Doubling three times was exactly right — the last step was taking the Stilling Verse's 23 shards away from that total.",
+  "hint": "Double the 7 shards once for each strike (three times in all) before you subtract anything.",
+  "victory": "Mr 6 hummed the Stilling Verse while politely keeping his sword in its scabbard, and Grellowspar shrank to a glittering 33 shards — small enough to fit in a hat, and far too embarrassed to double again.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A towering cluster of green-glowing mirror crystals filling a stone crypt vault, each facet reflecting a tiny numeral-six knight who sits cross-legged on the floor singing instead of swinging, chalk numbers scrawled across the flagstones."
+}

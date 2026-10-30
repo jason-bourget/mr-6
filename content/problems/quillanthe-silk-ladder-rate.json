@@ -1,0 +1,25 @@
+{
+  "id": "quillanthe-silk-ladder-rate",
+  "tier": "champion",
+  "title": "The Silk Ladder of the Cloud Spire",
+  "monster": "Quillanthe the Spire Silkworm",
+  "story": "High on the Cloud Spire, four lantern-keeper children are stranded on a balcony while Quillanthe the Spire Silkworm chews through the silk ladder below them. Mr 6 grabs the ladder's bottom rung and starts climbing, cape snapping in the wind. The ladder is 96 feet long, but it is getting shorter from the bottom as fast as he climbs.",
+  "question": "Mr 6 climbs 14 feet every minute, while Quillanthe chews away 6 feet of ladder every minute from below. If the children are 96 feet up, how many minutes until Mr 6 reaches them?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    6.86,
+    16,
+    8
+  ],
+  "solution": [
+    "Each minute Mr 6 really gains 14 - 6 = 8 feet of height on the shrinking ladder.",
+    "Divide the climb by the real gain: 96 / 8 = 12.",
+    "Mr 6 reaches the children in 12 minutes."
+  ],
+  "praise": "Dividing to turn feet into minutes was exactly the right move — the missing step was subtracting the chewing speed from the climbing speed first.",
+  "hint": "The ladder loses feet at the bottom while Mr 6 gains feet at the top. What is his NET gain each minute?",
+  "victory": "Mr 6 swung onto the balcony with two seconds and one inch of ladder to spare, and Quillanthe — who had never once been out-mathed — spat out the silk and slunk off to chew something slower, like a rock.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape climbing a glowing silk ladder up a windswept cloud spire while a pale segmented silkworm gnaws the rope far below, four children waving from a lantern-lit balcony above."
+}
