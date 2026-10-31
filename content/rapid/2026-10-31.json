@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-31",
+  "title": "The Mirror Mimic's Triple Beam",
+  "monster": "Mirrorax the Triple-Mirror Mimic",
+  "story": "Mirrorax is a shivering tower of looking-glass who copies every brave knight it meets — and it has just made three wobbly copies of Mr 6. Lucky for our hero, every beam that passes through Mirrorax comes out exactly THREE times as strong, so Mr 6 can turn the mimic's own trick into a shattering counterattack. Fire back at triple strength before the mirrors copy you again — can you out-flash a thing made of light?",
+  "rule": "Strike back TRIPLE the force!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        7,
+        16,
+        8
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        18,
+        24,
+        14
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        32,
+        24,
+        39
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        40,
+        35,
+        48
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        61,
+        60,
+        69
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        68,
+        66,
+        74
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 90,
+      "distractors": [
+        60,
+        80,
+        900
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        125,
+        145,
+        120
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        160,
+        120,
+        1800
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 360,
+      "distractors": [
+        300,
+        330,
+        3600
+      ]
+    }
+  ]
+}
