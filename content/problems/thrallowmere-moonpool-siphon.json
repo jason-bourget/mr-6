@@ -1,0 +1,25 @@
+{
+  "id": "thrallowmere-moonpool-siphon",
+  "tier": "champion",
+  "title": "The Draining Moonpool",
+  "monster": "Thrallowmere the Pearl Siphon",
+  "story": "Deep in a sunken moon-temple, Mr 6 finds a glowing pool where nine baby ribbon-turtles are sleeping. Thrallowmere, a long silvery siphon-eel, has latched onto the drain and is slurping the pool away at 7.5 gallons every minute. A cracked spring in the wall keeps trickling 3 gallons back in every minute, and the pool holds 117 gallons.",
+  "question": "If Mr 6 does nothing, how many minutes until the pool is completely empty?",
+  "answer": 26,
+  "unit": "minutes",
+  "distractors": [
+    15.6,
+    39,
+    4.5
+  ],
+  "solution": [
+    "The eel takes 7.5 gallons a minute but the spring returns 3, so the pool really loses 7.5 - 3 = 4.5 gallons each minute.",
+    "Divide the water by the real loss: 117 / 4.5 = 26.",
+    "The pool would run dry in 26 minutes — plenty of time for Mr 6's plan."
+  ],
+  "praise": "Dividing the water by a rate was exactly the right move — the missing step was subtracting the spring's refill first, since the eel isn't working alone.",
+  "hint": "Two things are happening at once: water leaving and water arriving. Find the NET change in one minute before you divide.",
+  "victory": "Mr 6 calmly announced '26 minutes,' plugged the drain with his helmet at minute 25, and Thrallowmere slurped so hard she shot out the temple window like a wet noodle. The turtles never even woke up.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A heroic numeral-six knight with a blue cape standing in a flooded moonlit temple chamber, calming tiny glowing turtles while a long silver eel-monster coils around a swirling drain."
+}

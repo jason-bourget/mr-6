@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-01",
+  "title": "The Fivefold Fang",
+  "monster": "Quintilla the Five-Fanged Wyrm",
+  "story": "Quintilla the Five-Fanged Wyrm coils around the Tower of Tallies, snapping with five jaws at once and giggling like a kettle. Mr 6 discovers her secret: each fang only shatters when struck with exactly FIVE times the force of her own bite, so a half-hearted swing just tickles her. Five heads bite fast, brave knight — can you multiply faster than she can chomp?",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        36,
+        25,
+        35
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 55,
+      "distractors": [
+        50,
+        56,
+        16
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        65
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        90,
+        110
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        85
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        125,
+        100
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 165,
+      "distractors": [
+        155,
+        160,
+        150
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 200,
+      "distractors": [
+        20,
+        180,
+        220
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 230,
+      "distractors": [
+        220,
+        235,
+        200
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 360,
+      "distractors": [
+        350,
+        355,
+        370
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pirrowlace-doubling-lantern-moths",
+  "tier": "champion",
+  "title": "The Doubling Lantern Moths",
+  "monster": "Pirrowlace the Lantern Moth Brood",
+  "story": "The Moonwell Gardens are famous for their silver pears — until Pirrowlace arrives, a brood of 7 glowing lantern moths that eats blossoms and doubles its number every 12 minutes. Swatting them only makes them split faster, so Mr 6 sheathes his sword and gets out his netting thread, because he must weave one net big enough for the whole swarm one full hour from now.",
+  "question": "How many lantern moths will there be after 60 minutes?",
+  "answer": 224,
+  "unit": "moths",
+  "distractors": [
+    112,
+    448,
+    70
+  ],
+  "solution": [
+    "In 60 minutes there are 60 / 12 = 5 doublings.",
+    "Double 7 five times: 7 → 14 → 28 → 56 → 112 → 224.",
+    "After one hour the brood will number 224 moths."
+  ],
+  "praise": "Doubling again and again was absolutely the right idea — the only slip was counting how many doublings fit in the hour (60 / 12 = 5, not 4 or 6).",
+  "hint": "How many 12-minute chunks fit inside 60 minutes? Double the starting 7 that many times.",
+  "victory": "Mr 6 wove a net for exactly 224 moths, and when the glowing brood filled it to the last wing, he hung the whole shimmering bundle in the orchard as a lantern. Pirrowlace is now the best night-light the gardeners have ever had.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A moonlit pear orchard swarming with hundreds of softly glowing lantern moths while a small caped numeral-six knight calmly weaves an enormous silver net between two trees."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ammolith-glassflats-discount",
+  "tier": "champion",
+  "title": "The Glare Broker's Bargain",
+  "monster": "Ammolith the Glare Broker",
+  "story": "On the blinding Glass Flats, a stranded caravan is roasting under the double sun, and only Ammolith — a crystal-crusted broker with a dozen bargaining arms — sells mirror-shade tents. Each tent costs 24 ember coins, but Ammolith grins and admits his own rule: buy 8 or more and EVERY tent is 25% off. Mr 6 needs 12 tents for the caravan.",
+  "question": "How many ember coins does Mr 6 pay in total for the 12 tents?",
+  "answer": 216,
+  "unit": "ember coins",
+  "distractors": [
+    288,
+    72,
+    240
+  ],
+  "solution": [
+    "Full price for 12 tents is 12 x 24 = 288 ember coins.",
+    "Twelve is 8 or more, so every tent is 25% off: the discount is 288 x 0.25 = 72 coins.",
+    "288 - 72 = 216, so Mr 6 pays 216 ember coins."
+  ],
+  "praise": "Multiplying to get the full price first was smart bookkeeping — the one step left out was taking the 25% off ALL twelve tents, not just some of them.",
+  "hint": "Find the full price for 12 tents first, then remember that 25% off means you still pay 75% of it.",
+  "victory": "Mr 6 counted out 216 ember coins before Ammolith could re-sparkle his price board, and the broker's arms drooped in defeat. Twelve mirror tents bloomed over the caravan like silver mushrooms.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glittering many-armed crystal broker haggling under two blazing suns on a desert of glass, while a small numeral-six knight coolly stacks ember coins beside a line of shaded travelers."
+}
