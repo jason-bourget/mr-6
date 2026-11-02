@@ -1,0 +1,25 @@
+{
+  "id": "saltrime-tidepool-doubling-urchins",
+  "tier": "champion",
+  "title": "The Urchins That Doubled",
+  "monster": "Saltrime the Doubling Urchin Bloom",
+  "story": "In the moonlit tidepools below Gullcliff, Saltrime the Doubling Urchin Bloom is spreading over the oyster beds the village depends on. Mr 6 counts 5 urchins at dusk, and the sea-wife warns him that their number doubles every 2 hours. Mr 6 sits on a wet rock with his sword across his knees and thinks before he swings.",
+  "question": "If the doubling goes on unchecked, how many urchins will cover the oyster beds 10 hours after dusk?",
+  "answer": 160,
+  "unit": "urchins",
+  "distractors": [
+    50,
+    80,
+    320
+  ],
+  "solution": [
+    "In 10 hours the bloom doubles 10 / 2 = 5 times.",
+    "Doubling 5 times: 5 → 10 → 20 → 40 → 80 → 160 urchins.",
+    "After 10 hours there would be 160 urchins."
+  ],
+  "praise": "Doubling was absolutely the right idea — the missing step was counting the doublings (10 hours ÷ 2 hours = 5), not 10 of them.",
+  "hint": "How many 2-hour stretches fit inside 10 hours? That's how many times the bloom doubles.",
+  "victory": "Mr 6 doesn't strike a single urchin — he simply opens the sluice and lets the cold current sweep the whole bloom out to sea, and Saltrime drifts away grumbling about mathematics.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "Mr 6, a walking numeral six knight with a blue cape, crouches thoughtfully on a kelp-slick rock above moonlit tidepools brimming with glowing spiny urchins forming a many-eyed bloom-creature, cool silver light and misty sea air."
+}

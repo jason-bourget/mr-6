@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-02",
+  "title": "The Splitting Slime Showdown",
+  "monster": "Gloopzilla the Splitting Slime",
+  "story": "Gloopzilla is a wobbling tower of green goo that doubles itself every time it's splashed, and the castle moat is already knee-deep in jelly. Mr 6 discovers the slime's one weakness: a blade stroke that cuts it into two EXACTLY equal halves makes it collapse into harmless puddles — but an uneven slice just makes two angry slimes. Halve every number before it doubles again — can you slice faster than it splits?",
+  "rule": "Slice it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        19,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        13
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 34,
+      "distractors": [
+        33,
+        24,
+        36
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 45,
+      "distractors": [
+        40,
+        44,
+        35
+      ]
+    },
+    {
+      "q": "136",
+      "answer": 68,
+      "distractors": [
+        63,
+        58,
+        78
+      ]
+    },
+    {
+      "q": "158",
+      "answer": 79,
+      "distractors": [
+        78,
+        74,
+        69
+      ]
+    },
+    {
+      "q": "240",
+      "answer": 120,
+      "distractors": [
+        125,
+        110,
+        130
+      ]
+    },
+    {
+      "q": "374",
+      "answer": 187,
+      "distractors": [
+        177,
+        186,
+        137
+      ]
+    },
+    {
+      "q": "562",
+      "answer": 281,
+      "distractors": [
+        271,
+        280,
+        231
+      ]
+    }
+  ]
+}

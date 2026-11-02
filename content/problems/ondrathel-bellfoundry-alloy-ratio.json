@@ -1,0 +1,25 @@
+{
+  "id": "ondrathel-bellfoundry-alloy-ratio",
+  "tier": "champion",
+  "title": "The Bell That Rang Wrong",
+  "monster": "Ondrathel the Sour Note",
+  "story": "Deep in the Bellfoundry of Hollow Ridge, Ondrathel the Sour Note has soured the great alarm bell so it rings flat, and the village can no longer be warned of rockslides. Mr 6 learns the only cure is to recast the bell with true bell-metal: copper and tin mixed in a ratio of 7 to 3. The crucible must hold 240 pounds of metal exactly, and Ondrathel sneers that no walking numeral can split a mix so fussy.",
+  "question": "How many pounds of tin must Mr 6 pour into the 240-pound crucible?",
+  "answer": 72,
+  "unit": "pounds",
+  "distractors": [
+    168,
+    24,
+    80
+  ],
+  "solution": [
+    "The ratio 7 to 3 makes 7 + 3 = 10 equal shares, so each share is 240 / 10 = 24 pounds.",
+    "Tin is 3 shares: 24 * 3 = 72 pounds.",
+    "Mr 6 pours in 72 pounds of tin."
+  ],
+  "praise": "Splitting the metal into ratio shares was exactly the right move — the last step was multiplying by tin's 3 shares instead of copper's 7.",
+  "hint": "First find how many equal shares the ratio makes in total, then see what one share weighs.",
+  "victory": "The recast bell rings so pure and true that Ondrathel's sour note shatters like a dropped teacup, and the Sour Note flees humming apologetically off-key.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "Mr 6, a brave walking numeral six in a knight helmet and blue cape, tips a glowing crucible of molten metal in a cavernous bell foundry while a wispy, screeching note-shaped monster recoils from the ringing bell, warm orange firelight against deep shadows."
+}

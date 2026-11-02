@@ -1,0 +1,25 @@
+{
+  "id": "varrowkeen-sky-granary-percent",
+  "tier": "champion",
+  "title": "The Granary in the Clouds",
+  "monster": "Varrowkeen the Skimming Clerk",
+  "story": "The cloud-granary of Lofthollow floats above the valley, and Varrowkeen the Skimming Clerk has appointed himself its toll-taker. Each sack of sunwheat he sends down costs 8.5 gold crowns, plus a 20% \"altitude surcharge\" he invented this morning. Mr 6 must buy 40 sacks to feed the valley through the frost, and he has brought a purse of 450 crowns.",
+  "question": "How many gold crowns will Mr 6 have left after paying for all 40 sacks with the surcharge?",
+  "answer": 42,
+  "unit": "crowns",
+  "distractors": [
+    110,
+    340,
+    408
+  ],
+  "solution": [
+    "40 sacks at 8.5 crowns each cost 8.5 * 40 = 340 crowns.",
+    "The 20% surcharge adds 340 * 0.20 = 68 crowns, so the total is 340 + 68 = 408 crowns.",
+    "Left over: 450 - 408 = 42 crowns."
+  ],
+  "praise": "Multiplying out the sack price first was exactly right — the surcharge of 68 crowns just needed to be added before subtracting from the purse.",
+  "hint": "Find the plain cost of 40 sacks first, then work out what 20% of that cost is.",
+  "victory": "Mr 6 pays in full, then politely points out that a clerk who charges for altitude should refund for descent — Varrowkeen faints into a cloudbank and the sunwheat floats down free forever after.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "Mr 6, a cheerful numeral-six knight with helmet and blue cape, counts shining coins at a floating granary of woven cloud while a tall thin ink-stained clerk-monster with quill fingers clutches an enormous ledger, golden dawn light above a sea of clouds."
+}
