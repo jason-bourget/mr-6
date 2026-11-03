@@ -1,0 +1,25 @@
+{
+  "id": "nimbercrow-skyskiff-descent",
+  "tier": "champion",
+  "title": "The Barnacle on the Sky-Skiff",
+  "monster": "Nimbercrow the Cloud Barnacle",
+  "story": "High over the Pinewhistle Valley, a sky-skiff full of market villagers is sinking, because Nimbercrow the Cloud Barnacle has clamped onto its balloon and gone heavy as a boulder. Mr 6 grips the rigging with one gauntlet, his blue cape snapping in the wind, and counts instead of panicking. The crew cranks the fan-sails as hard as they can, but the skiff keeps drifting down toward the sharp pine spires below.",
+  "question": "Nimbercrow drags the skiff down 12 feet every minute while the fan-sails push it up 7.5 feet every minute. If the skiff is 54 feet above the pine spires, how many minutes does Mr 6 have before it reaches them?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    4.5,
+    7.2,
+    19.5
+  ],
+  "solution": [
+    "Each minute the skiff really drops 12 - 7.5 = 4.5 feet.",
+    "Time left is the height divided by the real drop: 54 / 4.5 = 12.",
+    "Mr 6 has 12 minutes to pry the barnacle loose."
+  ],
+  "praise": "Finding the two speeds was exactly right — the missing step was combining them into one net drop before dividing.",
+  "hint": "The barnacle pulls down and the sails push up at the same time. How much does the skiff actually lose in one single minute?",
+  "victory": "Mr 6 tickled Nimbercrow's shell with the flat of his sword at minute eleven, and the startled barnacle let go with a POP and floated off like a surprised balloon. The skiff rose, the villagers cheered, and someone handed Mr 6 a pine-nut pastry.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A wooden sky-skiff with a striped balloon sinking through golden evening clouds toward dark pine spires, a huge ridged barnacle creature clamped to the balloon, and a small brave numeral-6 knight in a blue cape counting on his fingers from the rigging."
+}

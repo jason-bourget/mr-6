@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-03",
+  "title": "The Four-Armed Fury",
+  "monster": "Quadrax the Four-Armed Brute",
+  "story": "Quadrax the Four-Armed Brute swings all four fists at once and laughs that no single knight can match him, because every blow he lands counts four times over. Mr 6 spots the flaw instantly: a brute who only understands fours can be defeated by a knight who multiplies faster than he punches, so each strike must come back exactly QUADRUPLED or Quadrax shrugs it off. Four arms, four seconds, four times the force — can you swing faster than he can?",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 24,
+      "distractors": [
+        10,
+        18,
+        30
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        36,
+        44,
+        60
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        45,
+        50,
+        75
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 84,
+      "distractors": [
+        64,
+        82,
+        105
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        75,
+        90,
+        125
+      ]
+    },
+    {
+      "q": "32",
+      "answer": 128,
+      "distractors": [
+        96,
+        124,
+        138
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        160,
+        170,
+        225
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        180,
+        24,
+        300
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 300,
+      "distractors": [
+        280,
+        290,
+        375
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 500,
+      "distractors": [
+        400,
+        480,
+        525
+      ]
+    }
+  ]
+}

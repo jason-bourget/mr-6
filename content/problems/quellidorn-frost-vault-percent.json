@@ -1,0 +1,25 @@
+{
+  "id": "quellidorn-frost-vault-percent",
+  "tier": "champion",
+  "title": "The Tally Marmot's Storage Dust",
+  "monster": "Quellidorn the Tally Marmot",
+  "story": "Inside a cliffside frost-vault, Quellidorn the Tally Marmot guards the village's moonstone shards behind a wall of blue ice — and charges a fat fee called \"storage dust\" for the privilege. Mr 6 clinks in with his helmet frosted over, reads the ledger, and spots a rule Quellidorn hoped nobody would notice: fees are never charged on shards that stayed in their sealed crate. The marmot's whiskers twitch nervously.",
+  "question": "The vault holds 240 moonstone shards. Quellidorn takes 35% of them as storage dust, but Mr 6 proves a quarter of what was taken came from sealed crates and must be given back. How many shards do the villagers end up with?",
+  "answer": 177,
+  "unit": "shards",
+  "distractors": [
+    156,
+    84,
+    105
+  ],
+  "solution": [
+    "Storage dust taken: 35% of 240 = 0.35 x 240 = 84 shards.",
+    "Given back from sealed crates: 84 / 4 = 21 shards.",
+    "Villagers keep 240 - 84 + 21 = 177 shards."
+  ],
+  "praise": "Taking 35% first was the perfect opening move — the refund of a quarter just needed to be added back at the end.",
+  "hint": "First work out how many shards the fee grabs. Then figure out how many of those grabbed shards have to come back.",
+  "victory": "Quellidorn counted the ledger three times, sighed, and handed back 21 shards with a tiny paw. \"Nobody reads the small print,\" he grumbled — and Mr 6 said, \"I do. It's where the best numbers hide.\"",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glittering ice vault lit by pale blue light, a plump whiskered marmot in a tax-collector's cap hunched over a frosty ledger, and a numeral-6 knight in a blue cape pointing triumphantly at a line of tiny writing."
+}

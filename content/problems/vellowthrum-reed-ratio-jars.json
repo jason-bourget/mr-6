@@ -1,0 +1,25 @@
+{
+  "id": "vellowthrum-reed-ratio-jars",
+  "tier": "champion",
+  "title": "The Reed Choker's Ratio",
+  "monster": "Vellowthrum the Reed Choker",
+  "story": "At dusk on Mudlark Marsh, Vellowthrum the Reed Choker has knotted a thousand reeds across the ferry channel, and the ferry of sleepy frog-farmers cannot get home. The only thing that makes the reeds unclench is a flask of Loosening Brew, and Mr 6 has the old recipe tucked in his belt. The trouble is the recipe is written as a ratio, and the apothecary only sells bogmint by the jar.",
+  "question": "The brew mixes bogmint and emberwater in a ratio of 3 to 5, and Mr 6 needs 48 flasks of brew in total. If bogmint is sold only in jars holding 4 flasks each, how many jars of bogmint must he buy?",
+  "answer": 5,
+  "unit": "jars",
+  "distractors": [
+    18,
+    4,
+    30
+  ],
+  "solution": [
+    "The ratio 3 to 5 makes 3 + 5 = 8 equal parts, so one part is 48 / 8 = 6 flasks.",
+    "Bogmint is 3 parts: 3 x 6 = 18 flasks.",
+    "18 / 4 = 4.5 jars, and you cannot buy half a jar, so Mr 6 buys 5 jars."
+  ],
+  "praise": "Splitting the ratio into equal parts was smart work — the last step was remembering that a leftover half-jar still means buying a whole one.",
+  "hint": "How many equal parts are in a 3-to-5 mix all together? Find the size of one part before you worry about jars.",
+  "victory": "Mr 6 poured the brew, and the reeds unknotted themselves with a sound like a hundred relieved sighs. Vellowthrum untangled too, blushed green, and politely held the ferry rope open for the frog-farmers.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A misty purple-dusk swamp where a towering mass of knotted reeds with glowing eyes blocks a little ferry, while a numeral-6 knight in a blue cape pours a glowing mint-colored brew from a clay jar into the water."
+}
