@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-04",
+  "title": "The Tenth-Taker's Toll",
+  "monster": "Decimus the Tithing Imp",
+  "story": "Decimus the Tithing Imp hoards every number he can grab, swelling fat and giggling as his sack bulges with stolen digits. But Mr 6 knows the imp's one weakness: say exactly one tenth of any number he's holding and the greedy little gremlin must cough up the rest, shrinking with an undignified squeak. Lop off that zero before he swallows another hundred — can you shrink him faster than he can grow?",
+  "rule": "Shrink it to ONE TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        14,
+        400
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        70,
+        17,
+        700
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        90,
+        19,
+        900
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        21,
+        20
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        52,
+        20
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        360,
+        63,
+        30
+      ]
+    },
+    {
+      "q": "540",
+      "answer": 54,
+      "distractors": [
+        540,
+        45,
+        50
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "830",
+      "answer": 83,
+      "distractors": [
+        830,
+        38,
+        80
+      ]
+    },
+    {
+      "q": "1260",
+      "answer": 126,
+      "distractors": [
+        1260,
+        162,
+        120
+      ]
+    }
+  ]
+}

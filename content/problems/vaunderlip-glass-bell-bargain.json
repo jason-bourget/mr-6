@@ -1,0 +1,25 @@
+{
+  "id": "vaunderlip-glass-bell-bargain",
+  "tier": "champion",
+  "title": "The Haggler of Mirrorglass Row",
+  "monster": "Vaunderlip the Mirrorglass Haggler",
+  "story": "In the stained-glass bazaar of Mirrorglass Row, Vaunderlip the Haggler has locked the village's six waking-bells inside his crystal cabinet, and without them the bell-keepers will sleep straight through winter. He slicks his seven fingers together and offers a \"generous\" bargain. Mr 6 pulls out a scrap of parchment and does the sums before saying yes.",
+  "question": "Each bell costs 45 gold crowns, but buying all 6 at once takes 20% off the total price, and then Vaunderlip adds a polishing fee of 7 crowns per bell. How many gold crowns does Mr 6 pay in all?",
+  "answer": 258,
+  "unit": "gold crowns",
+  "distractors": [
+    216,
+    270,
+    249.6
+  ],
+  "solution": [
+    "Six bells at full price cost 6 x 45 = 270 crowns.",
+    "Taking 20% off leaves 270 x 0.8 = 216 crowns.",
+    "The polishing fee adds 6 x 7 = 42 crowns, so 216 + 42 = 258 gold crowns."
+  ],
+  "praise": "Taking the 20% off first was the right move — the polishing fee was the one sneaky step still waiting at the end.",
+  "hint": "Find the full price of six bells first, then take the discount, and only after that add the fee the haggler tacks on.",
+  "victory": "Mr 6 counted out 258 crowns, not one more, and recited the arithmetic aloud until Vaunderlip's smug grin cracked like cheap glass. The bells rang, the keepers woke, and the haggler quietly posted honest prices from then on.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glittering bazaar aisle of stained-glass stalls where a tall thin wraith-merchant in mirrored robes guards six silver bells in a crystal cabinet, while a small numeral-6 knight does sums on parchment in jeweled colored light."
+}

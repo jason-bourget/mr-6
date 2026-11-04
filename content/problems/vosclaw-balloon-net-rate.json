@@ -1,0 +1,25 @@
+{
+  "id": "vosclaw-balloon-net-rate",
+  "tier": "champion",
+  "title": "The Nibbler in the Rigging",
+  "monster": "Vosclaw the Gasbag Nibbler",
+  "story": "High over the Saltwind Canyon, a sky-ferry full of sleepy lantern-keepers starts to sag — Vosclaw the Gasbag Nibbler is chewing little holes in the balloon and giggling escaping air. The ferry is cruising at 169 feet and the safe landing ledge juts out at 52 feet. Mr 6 grabs the hot-air pump, plants his boots, and starts counting instead of panicking.",
+  "question": "Vosclaw's chewing drops the ferry 18 feet every minute, while Mr 6's pumping lifts it 11.5 feet every minute. How many minutes until the ferry settles gently onto the 52-foot ledge?",
+  "answer": 18,
+  "unit": "minutes",
+  "distractors": [
+    6.5,
+    26,
+    15.6
+  ],
+  "solution": [
+    "The ferry only has to come down 169 - 52 = 117 feet, not all 169.",
+    "Each minute it really falls 18 - 11.5 = 6.5 feet, because the pump fights the chewing.",
+    "117 / 6.5 = 18, so the ferry lands in 18 minutes."
+  ],
+  "praise": "Working with the falling rate was exactly right — the missing step was subtracting Mr 6's pump from Vosclaw's chewing to find the REAL drop each minute.",
+  "hint": "Two things happen every minute: the balloon leaks down and the pump pushes up. What is the leftover change in one minute?",
+  "victory": "The ferry kissed the ledge at the eighteenth minute exactly, and Vosclaw — now balloonless and bored — was given a patch kit and a job mending sails. He turned out to be rather good at it.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A sagging patchwork hot-air sky-ferry drifting toward a narrow canyon ledge at golden sunset, a shaggy bat-eared gremlin chewing the balloon seam while a brave numeral-6 knight in a blue cape works a brass pump."
+}

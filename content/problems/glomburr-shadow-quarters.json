@@ -1,0 +1,25 @@
+{
+  "id": "glomburr-shadow-quarters",
+  "tier": "champion",
+  "title": "The Shade That Ate the Mine",
+  "monster": "Glomburr the Pitch Shade",
+  "story": "Deep in the Hollowdeep copper mine, Glomburr the Pitch Shade stretches its shadow down the main tunnel, and every miner it covers falls fast asleep where they stand. Mr 6 finds three ancient silver mirrors bolted to the walls, each buried under years of soot. Uncovering one makes the shade flinch and shrink — but Mr 6 wants to know if three will be enough before he starts scrubbing.",
+  "question": "Glomburr's shadow is 96 feet long, and uncovering each mirror shrinks the shadow to three quarters of its current length. How long is the shadow after Mr 6 uncovers all three mirrors?",
+  "answer": 40.5,
+  "unit": "feet",
+  "distractors": [
+    72,
+    54,
+    24
+  ],
+  "solution": [
+    "First mirror: 96 x 3/4 = 72 feet of shadow left.",
+    "Second mirror: 72 x 3/4 = 54 feet; third mirror: 54 x 3/4 = 40.5 feet.",
+    "The shadow ends up 40.5 feet long."
+  ],
+  "praise": "Shrinking by a quarter each time was the right idea — the trick is that each quarter comes off the NEW length, not the original 96 feet.",
+  "hint": "After the first mirror the shadow is shorter, so the second mirror takes its quarter from that shorter length. Work one mirror at a time.",
+  "victory": "At 40.5 feet the shade was too short to reach the sleeping miners, and it slunk off to sulk in a broom closet. Mr 6 polished the mirrors one last time and declared the tunnel officially un-spooky.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A deep copper mine tunnel where an inky living shadow stretches over sleeping miners, three uncovered silver mirrors throwing bright beams, and a small numeral-6 knight with a polishing rag standing in the light.n"
+}
