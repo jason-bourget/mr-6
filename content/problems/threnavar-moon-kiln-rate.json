@@ -1,0 +1,25 @@
+{
+  "id": "threnavar-moon-kiln-rate",
+  "tier": "champion",
+  "title": "The Kiln That Drinks the Night",
+  "monster": "Threnavar the Moonglass Kiln-Wyrm",
+  "story": "Deep in a cliffside glassworks, Threnavar the Moonglass Kiln-Wyrm has curled around the village's great kiln and swallowed the heat-vent, so the molten moonglass is cooling into a useless lump. The glassblowers can pour the glass only while it is above 900 degrees, and right now it reads 1,260 degrees. Mr 6 adjusts his little helmet, borrows a chalk slate, and starts timing the drop.",
+  "question": "The glass cools 24 degrees every minute, but Mr 6's bellows crew adds back 9 degrees every minute. How many minutes until the glass falls from 1,260 degrees to 900 degrees?",
+  "answer": 24,
+  "unit": "minutes",
+  "distractors": [
+    15,
+    360,
+    40
+  ],
+  "solution": [
+    "The real cooling rate is 24 - 9 = 15 degrees lost each minute.",
+    "The glass must fall 1260 - 900 = 360 degrees.",
+    "360 / 15 = 24 minutes before the moonglass is too cold to pour."
+  ],
+  "praise": "Tracking the temperature drop was exactly the right move — the missing step was subtracting the bellows' 9 degrees back out first.",
+  "hint": "The glass loses 24 but gains 9 each minute. What is the true loss per minute?",
+  "victory": "Threnavar uncoiled in a huff, hissing that nobody had ever out-timed him before, and the villagers poured a moonglass window so bright the wyrm stayed to admire his own reflection.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A long glass-scaled wyrm coiled around a glowing cliffside kiln at night while a small knightly numeral 6 in a blue cape marks a countdown on a chalk slate, orange firelight against cold blue moonlight."
+}

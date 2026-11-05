@@ -1,0 +1,25 @@
+{
+  "id": "obliquar-splitting-geode-moth",
+  "tier": "champion",
+  "title": "The Moth That Halves Itself",
+  "monster": "Obliquar the Geode Moth",
+  "story": "In the crystal caverns under Hollow Peak, Obliquar the Geode Moth beats her wings and splits into two smaller moths, each exactly half her weight, and those split again every strike. The cavern alarm only sounds when a moth is heavy enough to trip the crystal scales. Mr 6 sheathes his sword and decides to count before he swings.",
+  "question": "Obliquar weighs 96 ounces. Each time she is struck, every moth splits into two moths of half the weight. After 4 strikes, what is the total number of moths fluttering in the cavern?",
+  "answer": 16,
+  "unit": "moths",
+  "distractors": [
+    8,
+    6,
+    32
+  ],
+  "solution": [
+    "Each strike doubles the number of moths: 1 becomes 2, then 4, then 8.",
+    "After the fourth strike there are 8 x 2 = 16 moths.",
+    "So 2 x 2 x 2 x 2 = 16 moths fill the cavern — each weighing only 96 / 16 = 6 ounces."
+  ],
+  "praise": "Doubling was absolutely the right idea — it just needed one more doubling, since the very first strike already made two moths.",
+  "hint": "Start with 1 moth and write the count after each strike: 1, 2, 4, ... keep going for 4 strikes.",
+  "victory": "Sixteen glittering moths, each exactly as heavy as Mr 6's own number, were far too light to trip the crystal scales — so they settled on his helmet like a crown and lit the whole cavern.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A cavern of glowing violet geodes where sixteen small crystal-winged moths swirl around a little numeral-6 knight who is counting on his fingers with his sword still sheathed."
+}

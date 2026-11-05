@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-05",
+  "title": "The Sixfold Strike",
+  "monster": "Hexaclaw the Six-Armed Behemoth",
+  "story": "Hexaclaw lumbers out of the Clockwork Canyon swinging six stone fists at once, bellowing that no single knight can match six of anything. But Mr 6 grins — he IS six — and every blow the behemoth throws comes back multiplied by six, until the big lug's own math buries him. Hexaclaw swings fast, hero: can you answer faster?",
+  "rule": "Strike back SIX times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        12,
+        24,
+        9
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        25,
+        36,
+        24
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "10",
+      "answer": 60,
+      "distractors": [
+        16,
+        600,
+        50
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        56,
+        48
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        62,
+        66,
+        78
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        76,
+        65
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 120,
+      "distractors": [
+        12,
+        110,
+        126
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        75
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 150,
+      "distractors": [
+        140,
+        125,
+        155
+      ]
+    }
+  ]
+}

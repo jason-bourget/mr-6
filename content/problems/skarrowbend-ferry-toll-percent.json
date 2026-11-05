@@ -1,0 +1,25 @@
+{
+  "id": "skarrowbend-ferry-toll-percent",
+  "tier": "champion",
+  "title": "The Ferryman Who Took a Slice",
+  "monster": "Skarrowbend the Reedwater Tollkeep",
+  "story": "The flooded reed-road is crossable only by Skarrowbend's creaking ferry, and the old tollkeep charges a share of every cargo instead of coins. Twelve families are waiting with sacks of silverseed to sell at the upriver fair. Mr 6 hops aboard and politely asks to see the toll scroll.",
+  "question": "The families have 480 pounds of silverseed. Skarrowbend takes 25% of it as the crossing toll, then a second 10% of whatever remains as a \"reed-bending fee.\" How many pounds of silverseed do the families still have after both tolls?",
+  "answer": 324,
+  "unit": "pounds",
+  "distractors": [
+    360,
+    312,
+    120
+  ],
+  "solution": [
+    "The first toll takes 480 x 0.25 = 120 pounds, leaving 480 - 120 = 360 pounds.",
+    "The second fee takes 10% of 360, which is 36 pounds.",
+    "360 - 36 = 324 pounds of silverseed are left for the families."
+  ],
+  "praise": "Taking the percents one at a time was smart thinking — the second fee just had to come off the smaller pile, not the original 480.",
+  "hint": "Find the pile that is left after the first toll, then take 10% of THAT number, not of 480.",
+  "victory": "Mr 6 read the toll scroll aloud twice, and Skarrowbend — caught charging fees on sacks he had already taxed — poled everyone across for free and threw in a basket of river pears.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A stooped, reed-cloaked tollkeep with a long pole on a wooden ferry in a misty flooded marsh, as a small numeral-6 knight holds up a tattered toll scroll in the grey dawn light."
+}
