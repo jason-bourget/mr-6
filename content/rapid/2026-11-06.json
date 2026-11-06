@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-06",
+  "title": "The Hundred-Shield Siege",
+  "monster": "Centurio the Shield Golem",
+  "story": "Centurio the Shield Golem lumbers out of the fog carrying a wall of exactly one hundred stone shields, and every blow Mr 6 lands shatters only part of it. To know where to swing next, Mr 6 must instantly count the shields still standing: one hundred minus whatever just crumbled. The golem rebuilds itself every five seconds, brave knight — can you subtract faster than stone can stack?",
+  "rule": "Take it away from 100!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        64
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        27
+      ]
+    },
+    {
+      "q": "68",
+      "answer": 32,
+      "distractors": [
+        42,
+        22,
+        38
+      ]
+    },
+    {
+      "q": "47",
+      "answer": 53,
+      "distractors": [
+        63,
+        43,
+        57
+      ]
+    },
+    {
+      "q": "93",
+      "answer": 7,
+      "distractors": [
+        17,
+        13,
+        3
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 14,
+      "distractors": [
+        24,
+        4,
+        16
+      ]
+    },
+    {
+      "q": "59",
+      "answer": 41,
+      "distractors": [
+        51,
+        31,
+        49
+      ]
+    }
+  ]
+}

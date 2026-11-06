@@ -1,0 +1,25 @@
+{
+  "id": "thistlewrack-pearl-average",
+  "tier": "champion",
+  "title": "The Oyster Magistrate's Fifth Pearl",
+  "monster": "Thistlewrack the Oyster Magistrate",
+  "story": "In a moonlit tidepool court, Thistlewrack the Oyster Magistrate has locked the village's fishing nets inside his great ribbed shell. He will release them only for a tribute of five pearls whose average weight is exactly 40 grains — no more, no less. Mr 6 has already weighed four pearls: 31, 46, 38, and 52 grains.",
+  "question": "How many grains must the fifth pearl weigh so the five pearls average exactly 40 grains?",
+  "answer": 33,
+  "unit": "grains",
+  "distractors": [
+    167,
+    200,
+    41.75
+  ],
+  "solution": [
+    "For an average of 40 across 5 pearls, the whole tribute must weigh 40 x 5 = 200 grains.",
+    "The four weighed pearls come to 31 + 46 + 38 + 52 = 167 grains.",
+    "So the fifth pearl must be 200 - 167 = 33 grains."
+  ],
+  "praise": "Thinking about the total instead of guessing pearl by pearl was the clever move — the missing step was subtracting the four known weights from that total.",
+  "hint": "An average of 40 for 5 pearls tells you the total weight of all five. Find that total first, then see what's missing.",
+  "victory": "Mr 6 drops the 33-grain pearl on the scale and it balances with a soft *click*. Thistlewrack's shell swings open, the nets tumble out, and the magistrate grumbles that he'd never met a tribute who could do arithmetic.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A huge barnacled oyster magistrate with a brass balance scale perched on a moonlit tidepool shelf, fishing nets glimmering inside its open shell, while a small number-six knight sets a pale pearl on the pan under silver night light."
+}

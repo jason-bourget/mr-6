@@ -1,0 +1,25 @@
+{
+  "id": "clattergrim-skymill-claws",
+  "tier": "champion",
+  "title": "The Crab on the Cloud-Mill",
+  "monster": "Clattergrim the Weathervane Crab",
+  "story": "High above the valley, the old sky-mill grinds the clouds into rain, but Clattergrim the Weathervane Crab has clamped onto its sails with 54 suction claws and stopped them dead. The villagers below are parched. Mr 6 scrambles up the rope ladder, cape snapping, and starts prying claws loose — but the crab is a sprouter.",
+  "question": "Each turn Mr 6 pries off 9 claws, and if any claws are still stuck at the end of that turn, 4 brand-new claws pop out. Starting from 54 claws, how many turns does Mr 6 need to get every claw off the sails?",
+  "answer": 10,
+  "unit": "turns",
+  "distractors": [
+    11,
+    6,
+    9
+  ],
+  "solution": [
+    "On every turn except the last, the real progress is 9 - 4 = 5 claws gone.",
+    "Mr 6 only needs to get the count down to 9, because one final pry clears 9 at once: 54 - 9 = 45 claws to grind away at 5 per turn, and 45 / 5 = 9 turns.",
+    "Those 9 turns plus the last clean-sweep turn make 10 turns."
+  ],
+  "praise": "Tracking the sprout-back was exactly the right instinct — the last pry is special, because once the claws are all gone there's nothing left to sprout.",
+  "hint": "Ask first: after a normal turn, how many claws have really disappeared? Then ask how low the count must be for one last pry to finish everything.",
+  "victory": "On turn ten the final claw lets go with a startled *pop*, and Clattergrim pinwheels away on the breeze like a very grumpy kite. The sails spin, the rain falls, and the village cheers for a six who counted before he climbed.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A plucky number-six knight with a blue cape clinging to the giant wooden sails of a windmill floating in bright cloudbanks, prying glowing suction claws off a huge barnacled weathervane crab, wind-swept and sunlit."
+}

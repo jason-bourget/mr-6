@@ -1,0 +1,25 @@
+{
+  "id": "pernicket-tunnel-bazaar-percent",
+  "tier": "champion",
+  "title": "The Surcharge Mole of the Lamplit Bazaar",
+  "monster": "Pernicket the Discount Mole",
+  "story": "Deep in the lamplit tunnel bazaar, Pernicket the Discount Mole hoards the last jar of frostbloom syrup — the only cure for the shivering miners. He quotes Mr 6 a price of 480 moonstone shards, then adds a 25% \"urgent-hero haste surcharge,\" then grandly announces a 20% \"friend-of-the-tunnels discount\" off that new total. Mr 6 smiles and reaches for his scratch slate.",
+  "question": "After the 25% surcharge is added to 480 shards and then 20% is taken off that new total, how many moonstone shards does Mr 6 actually pay?",
+  "answer": 480,
+  "unit": "moonstone shards",
+  "distractors": [
+    600,
+    384,
+    504
+  ],
+  "solution": [
+    "The surcharge first: 25% of 480 is 120, so the new total is 480 + 120 = 600 shards.",
+    "The discount comes off that new total: 20% of 600 is 120, so 600 - 120 = 480 shards.",
+    "Mr 6 pays 480 shards — exactly the starting price, because the mole's two tricks cancel out."
+  ],
+  "praise": "Working the percents one at a time was the right path — the key is that the 20% comes off the bigger number, not off the original price.",
+  "hint": "Do the percents in order, and notice which total each one is taken from. A percent of a bigger number is a bigger amount.",
+  "victory": "\"Your surcharge grew the price by 120 and your discount shrank it by 120,\" says Mr 6, counting out the original pile. Pernicket's whiskers droop, he hands over the syrup, and he spends the rest of the evening re-reading his own price sign.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A velvet-coated mole merchant behind a cluttered stall in a warm lantern-lit underground bazaar, waving a long price scroll at a calm number-six knight who is tapping a chalk slate, amber light and curious onlookers in the shadows."
+}

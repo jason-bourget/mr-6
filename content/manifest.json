@@ -313,6 +313,9 @@
     "problems/glomburr-shadow-quarters.json",
     "problems/threnavar-moon-kiln-rate.json",
     "problems/skarrowbend-ferry-toll-percent.json",
-    "problems/obliquar-splitting-geode-moth.json"
+    "problems/obliquar-splitting-geode-moth.json",
+    "problems/clattergrim-skymill-claws.json",
+    "problems/pernicket-tunnel-bazaar-percent.json",
+    "problems/thistlewrack-pearl-average.json"
   ]
 }
