@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-07",
+  "title": "The Thrice-Horned Charge",
+  "monster": "Triplicus, the Mirror-Horned Hydra",
+  "story": "Triplicus rears up with three gleaming horns, and every blow it takes it simply splits into three weaker copies — unless the strike is already three times stronger than the hydra expects. Mr 6 lifts his shining blade and shouts, 'Whatever force you show me, I return it TRIPLED!' The hydra charges fast, knight — can you triple faster than it can multiply?",
+  "rule": "Strike back THREE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        18,
+        24
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        24,
+        32,
+        46
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        55
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        42,
+        61,
+        66
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        84
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 99,
+      "distractors": [
+        66,
+        93,
+        96
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 120,
+      "distractors": [
+        80,
+        112,
+        130
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        90,
+        125,
+        145
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 210,
+      "distractors": [
+        140,
+        201,
+        230
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 375,
+      "distractors": [
+        250,
+        355,
+        365
+      ]
+    }
+  ]
+}

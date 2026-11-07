@@ -1,0 +1,25 @@
+{
+  "id": "ferrabask-sky-forge-rate",
+  "tier": "champion",
+  "title": "Ferrabask and the Cooling Sky-Anvil",
+  "monster": "Ferrabask the Updraft Bellows",
+  "story": "High on a floating forge-island, Ferrabask the Updraft Bellows fans a cold gale that drains heat from the great sky-anvil, and without that heat the island's anchor-chain cannot be mended. The anvil is at 900 degrees and Ferrabask's gale cools it by 45 degrees every minute. Mr 6 cranks the coal-feeder, which adds heat back at 18 degrees every minute.",
+  "question": "How many minutes until the anvil cools to the useless temperature of 414 degrees?",
+  "answer": 18,
+  "unit": "minutes",
+  "distractors": [
+    27,
+    10.8,
+    486
+  ],
+  "solution": [
+    "With the coal-feeder helping, the anvil really loses 45 - 18 = 27 degrees each minute.",
+    "It must fall 900 - 414 = 486 degrees.",
+    "486 / 27 = 18 minutes before the anvil goes cold."
+  ],
+  "praise": "Finding the temperature drop was smart thinking — the missing step was subtracting the coal-feeder's 18 degrees from the gale's 45 to get the real cooling rate.",
+  "hint": "Two things happen each minute: heat leaves and heat comes back. What is the NET change per minute?",
+  "victory": "Mr 6 finishes the chain weld with four minutes to spare, and Ferrabask, out of breath from all that blowing, agrees to work the bellows for the smiths instead.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight hammering a glowing orange anvil on a floating rocky forge-island, while a swirling grey wind-beast with bellows-like lungs blasts freezing air across the sparks at sunset."
+}

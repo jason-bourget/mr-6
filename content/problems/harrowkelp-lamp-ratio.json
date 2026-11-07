@@ -1,0 +1,25 @@
+{
+  "id": "harrowkelp-lamp-ratio",
+  "tier": "champion",
+  "title": "The Lamp-Oil Ratio of the Drowned Stair",
+  "monster": "Harrowkelp the Stair Smotherer",
+  "story": "At the bottom of a flooded lighthouse stair, Harrowkelp the Stair Smotherer snuffs every flame with wet green fronds, trapping four lantern-keepers in the dark. Mr 6 finds the oil cabinet: the only mix that burns through kelp-damp must be whale-glow and ember-sap in a ratio of 5 to 3. The keepers need 48 flasks of mixed oil to light the whole stair.",
+  "question": "How many flasks of whale-glow does Mr 6 need to pour?",
+  "answer": 30,
+  "unit": "flasks",
+  "distractors": [
+    18,
+    8,
+    6
+  ],
+  "solution": [
+    "The ratio 5 to 3 means each 'batch' is 5 + 3 = 8 flasks.",
+    "48 flasks of mix is 48 / 8 = 6 batches.",
+    "Each batch has 5 flasks of whale-glow, so 6 * 5 = 30 flasks of whale-glow."
+  ],
+  "praise": "Splitting the mix into ratio parts was exactly the right move — the last step was multiplying the number of batches by the 5 whale-glow shares.",
+  "hint": "First find out how many flasks make up one whole 'ratio batch' of 5 parts plus 3 parts.",
+  "victory": "The stair blazes gold, and Harrowkelp slithers off grumbling that nobody respects a good damp anymore. The keepers climb out and name the top step 'Sixth Landing.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape holding a blazing lantern on a flooded spiral lighthouse stair, as a huge kelp-fronded sea creature recoils from the warm golden light."
+}

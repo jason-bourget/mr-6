@@ -316,6 +316,9 @@
     "problems/obliquar-splitting-geode-moth.json",
     "problems/clattergrim-skymill-claws.json",
     "problems/pernicket-tunnel-bazaar-percent.json",
-    "problems/thistlewrack-pearl-average.json"
+    "problems/thistlewrack-pearl-average.json",
+    "problems/harrowkelp-lamp-ratio.json",
+    "problems/ferrabask-sky-forge-rate.json",
+    "problems/grindlemost-splitting-slagling.json"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "grindlemost-splitting-slagling",
+  "tier": "champion",
+  "title": "Grindlemost the Quartering Slagling",
+  "monster": "Grindlemost the Quartering Slagling",
+  "story": "In the cinder pits below the old mint, Grindlemost the Quartering Slagling guards a stolen coin-mold — and every time it is struck, each slagling bursts into 4 smaller sluggish ones. Mr 6 starts with 1 slagling and knows that striking is a trap, so he counts carefully first. He learns that any pile of slaglings will crawl harmlessly into a cooling trench once there are more than 200 of them, because they get in each other's way.",
+  "question": "If Mr 6 strikes every slagling once per round, how many slaglings will there be after 4 rounds?",
+  "answer": 256,
+  "unit": "slaglings",
+  "distractors": [
+    64,
+    16,
+    200
+  ],
+  "solution": [
+    "Each round multiplies the number of slaglings by 4: 1 -> 4 -> 16 -> 64.",
+    "One more round: 64 * 4 = 256 slaglings after round 4.",
+    "So after 4 rounds there are 256 slaglings — just past the 200 needed."
+  ],
+  "praise": "Multiplying by 4 each round was exactly right — it just needed one more round of quadrupling to reach round 4.",
+  "hint": "Write the count after each round: start at 1, then multiply by 4, and do that four times in a row.",
+  "victory": "The 256 slaglings jam together like coins in a too-small purse and tumble, clinking, into the cooling trench. Mr 6 picks up the coin-mold and remarks that sometimes the smartest way to beat a crowd is to invite one.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight standing calmly on a ledge above a glowing cinder pit, counting on his fingers as a tide of tiny molten slag creatures splits into fours and tumbles into a steaming trench."
+}
