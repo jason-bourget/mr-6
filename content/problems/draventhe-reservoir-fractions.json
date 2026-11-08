@@ -1,0 +1,25 @@
+{
+  "id": "draventhe-reservoir-fractions",
+  "tier": "champion",
+  "title": "The Moth That Drank the Rain",
+  "monster": "Draventhe the Thirst Moth",
+  "story": "The cloud-monastery's rain-garden lives off one stone reservoir holding 900 gallons, and the frogs, ferns and apple-vines all drink from it. On the first night Draventhe the Thirst Moth settles on the rim and sips away 2/5 of the whole reservoir; on the second night she sips 1/3 of whatever is left. Before dawn, Mr 6 and the monks unroll the fog-nets and wring 75 gallons of fresh water back in.",
+  "question": "How many gallons are in the reservoir after Mr 6 adds the fog-net water?",
+  "answer": 435,
+  "unit": "gallons",
+  "distractors": [
+    540,
+    360,
+    615
+  ],
+  "solution": [
+    "Night one: the moth drinks 2/5 of 900 = 360, leaving 900 - 360 = 540 gallons.",
+    "Night two: she drinks 1/3 of 540 = 180, leaving 540 - 180 = 360 gallons.",
+    "Mr 6 adds the fog-net water: 360 + 75 = 435 gallons."
+  ],
+  "praise": "Taking the fractions one night at a time was the right plan — the second sip is a fraction of what was LEFT, not of the original 900, and the fog-nets still had to be added.",
+  "hint": "After the first night, how many gallons remain? Take the second night's 1/3 from that new amount, not from 900.",
+  "victory": "Mr 6 showed Draventhe the arithmetic on a wet stone: at her rate the garden would be dust in three nights, and she'd have nothing to drink either. The moth thought it over, moved to the fog-nets instead, and now wrings out extra water for the frogs every morning.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "An enormous pale moth with dust-soft wings perched on the rim of a mossy stone reservoir in a misty mountaintop rain-garden, while a small caped number-six knight holds up a dripping fog-net in the blue pre-dawn light."
+}

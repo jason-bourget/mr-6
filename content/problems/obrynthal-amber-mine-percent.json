@@ -1,0 +1,25 @@
+{
+  "id": "obrynthal-amber-mine-percent",
+  "tier": "champion",
+  "title": "The Lynx Who Loved Fine Print",
+  "monster": "Obrynthal the Tally Lynx",
+  "story": "Deep in the frozen amber mine, Obrynthal the Tally Lynx has caged 8 glow-kits — little lamp-foxes that light the miners' tunnels — and posted a ransom of 45 amber chits each. \"Buy all eight,\" she purrs, \"and I'll take 20% off the whole lot.\" Then her tail flicks to a tiny sign: a 10% cage fee is added to whatever you end up owing.",
+  "question": "How many amber chits must Mr 6 pay to free all 8 glow-kits?",
+  "answer": 316.8,
+  "unit": "amber chits",
+  "distractors": [
+    288,
+    360,
+    324
+  ],
+  "solution": [
+    "Full ransom: 8 × 45 = 360 amber chits.",
+    "Take 20% off: 360 × 0.8 = 288 amber chits.",
+    "Add the 10% cage fee: 288 × 1.1 = 316.8 amber chits."
+  ],
+  "praise": "Reading the discount first was smart bargaining — the cage fee is charged on the new, smaller total, so there was one more percent step waiting at the end.",
+  "hint": "Work the two percents in order: first shrink the 360 by 20%, then grow that answer by 10%.",
+  "victory": "Mr 6 counted out 316.8 chits exactly, down to the last sliver — and Obrynthal, who had never met anyone who read the small sign, sheepishly unlocked every cage while the glow-kits lit the tunnel like a river of lanterns.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A sly frost-furred lynx in a mine of glowing amber, tapping a tiny ransom sign with her tail while a small number-six knight calmly counts shining chits before eight caged lamp-foxes."
+}

@@ -319,6 +319,9 @@
     "problems/thistlewrack-pearl-average.json",
     "problems/harrowkelp-lamp-ratio.json",
     "problems/ferrabask-sky-forge-rate.json",
-    "problems/grindlemost-splitting-slagling.json"
+    "problems/grindlemost-splitting-slagling.json",
+    "problems/vuldreth-vapor-bridge-rescue.json",
+    "problems/obrynthal-amber-mine-percent.json",
+    "problems/draventhe-reservoir-fractions.json"
   ]
 }

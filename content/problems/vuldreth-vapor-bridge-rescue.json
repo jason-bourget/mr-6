@@ -1,0 +1,25 @@
+{
+  "id": "vuldreth-vapor-bridge-rescue",
+  "tier": "champion",
+  "title": "The Bridge That Was Coming Undone",
+  "monster": "Vuldreth the Mist Unraveler",
+  "story": "High between two cloud-spires, a bridge of woven vapor holds 47 fledgling wind-finches who are too young to fly. Vuldreth the Mist Unraveler is tugging the bridge apart thread by thread, and the weather-wardens say it will hold for exactly 22 more minutes. Mr 6 straps on a rescue basket that carries at most 6 fledglings at a time, and each trip across and back takes 2.5 minutes.",
+  "question": "If Mr 6 ferries every fledgling to safety using full baskets whenever he can, how many minutes will be left before the bridge unravels?",
+  "answer": 2,
+  "unit": "minutes",
+  "distractors": [
+    20,
+    8,
+    4.5
+  ],
+  "solution": [
+    "47 fledglings in baskets of 6 means 47 ÷ 6 = 7 remainder 5, so Mr 6 needs 8 trips (that last small basket still counts).",
+    "8 trips × 2.5 minutes = 20 minutes of ferrying.",
+    "22 - 20 = 2 minutes left before the bridge unravels."
+  ],
+  "praise": "Dividing 47 by 6 was exactly the right opening move — the leftover 5 fledglings still need a whole trip of their own, and that extra trip changes the clock.",
+  "hint": "First ask: how many basket-loads does it take when 6 fit at a time and 47 are waiting? Leftovers still need a full trip.",
+  "victory": "With two whole minutes to spare, Mr 6 tipped his helmet as the last thread sighed loose — and Vuldreth, finding nothing left to unravel but empty mist, wandered off to bother a cloud instead.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave number-six knight with a blue cape carrying a basket of tiny fledglings across a fraying bridge of glowing vapor between two sky-spires, while a long wispy mist-creature tugs threads loose in the golden dawn light."
+}

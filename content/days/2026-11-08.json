@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-08",
+  "problems": [
+    "problems/obsidrenn-vent-halving.json",
+    "problems/hargrelle-tidecave-spout.json",
+    "problems/pellagore-dyeworks-ratio.json"
+  ]
+}

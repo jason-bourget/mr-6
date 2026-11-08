@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-08",
+  "title": "The Quartering of the Crystal Colossus",
+  "monster": "Quartershard the Crystal Colossus",
+  "story": "Quartershard is a mountain of humming crystal who grows back whenever you only chip him — but strike along his four secret seams and he splits into perfect quarters that fizzle into harmless sparkles. Mr 6 has found the seams, and every time the Colossus hurls a number-boulder, the knight must shatter it into exactly one quarter before it lands. Quartershard re-forms in seconds, so quarter fast, brave knight — or be buried in glitter!",
+  "rule": "Shatter it into a QUARTER!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "8",
+      "answer": 2,
+      "distractors": [
+        4,
+        3,
+        8
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 3,
+      "distractors": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 5,
+      "distractors": [
+        10,
+        4,
+        6
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 10,
+      "distractors": [
+        20,
+        4,
+        11
+      ]
+    },
+    {
+      "q": "36",
+      "answer": 9,
+      "distractors": [
+        18,
+        8,
+        6
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 15,
+      "distractors": [
+        30,
+        12,
+        16
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 12,
+      "distractors": [
+        24,
+        11,
+        16
+      ]
+    },
+    {
+      "q": "100",
+      "answer": 25,
+      "distractors": [
+        50,
+        20,
+        24
+      ]
+    },
+    {
+      "q": "84",
+      "answer": 21,
+      "distractors": [
+        42,
+        20,
+        24
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 30,
+      "distractors": [
+        60,
+        24,
+        40
+      ]
+    }
+  ]
+}
