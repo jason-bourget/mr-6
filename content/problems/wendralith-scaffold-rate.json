@@ -1,0 +1,25 @@
+{
+  "id": "wendralith-scaffold-rate",
+  "tier": "champion",
+  "title": "The Scaffold That Unties Itself",
+  "monster": "Wendralith the Knot Nibbler",
+  "story": "High on the scaffolding of the Skyspire, a long-tailed rope-eating lizard named Wendralith is chewing the rigging loose while three stonemasons huddle on the top platform. Mr 6 grabs the hand-crank and starts winching the platform down: it drops 7.5 feet every minute, but Wendralith's chewing lets the rope slip back up 2.25 feet each minute. The platform starts 63 feet above the safe courtyard.",
+  "question": "How many minutes will it take the platform to reach the courtyard?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    5.25,
+    8.4,
+    28
+  ],
+  "solution": [
+    "Each minute the platform really drops 7.5 - 2.25 = 5.25 feet.",
+    "Divide the height by the real drop: 63 / 5.25 = 12 minutes.",
+    "The masons touch down in 12 minutes."
+  ],
+  "praise": "Subtracting the slip-back was exactly the right first move — the last step was dividing the full 63 feet by that true drop.",
+  "hint": "Wendralith undoes part of every crank — find how far the platform really falls in one whole minute first.",
+  "victory": "The platform kissed the courtyard stones right on schedule, and Wendralith — out of rope to chew — sheepishly began braiding the frayed ends back together. Mr 6 hired her as the realm's first knot inspector.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape cranking a winch on a tall stone spire scaffold while a long ribbon-like lizard gnaws the ropes, three masons clinging to the descending platform in golden late-afternoon light."
+}

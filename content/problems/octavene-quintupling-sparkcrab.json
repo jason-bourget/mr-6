@@ -1,0 +1,25 @@
+{
+  "id": "octavene-quintupling-sparkcrab",
+  "tier": "champion",
+  "title": "The Crab That Won't Stay One",
+  "monster": "Octavene the Quintupling Sparkcrab",
+  "story": "In the glass caverns beneath the salt flats, Mr 6 meets Octavene, a crackling crab the size of a shield. Every time a sword taps her shell, each crab present splits into 5 crabs — and the swarm's glow melts the cavern ceiling. Mr 6 sheathes his sword and counts instead: there is 1 crab now, and a careless hero would strike 4 times before realizing the problem.",
+  "question": "If Mr 6 struck 4 times, how many crabs would be skittering around the cavern?",
+  "answer": 625,
+  "unit": "crabs",
+  "distractors": [
+    125,
+    20,
+    3125
+  ],
+  "solution": [
+    "Each strike multiplies the whole swarm by 5: after one strike 1 x 5 = 5 crabs.",
+    "Four strikes means 5 x 5 x 5 x 5 = 625 crabs.",
+    "A careless hero would face 625 crabs — Mr 6 thought first instead."
+  ],
+  "praise": "Multiplying by 5 each round was the right idea — one more strike needed counting before you stopped.",
+  "hint": "Write the swarm size after each strike: 1, then 5, then... keep going until you've struck four times.",
+  "victory": "Mr 6 left his sword in its sheath, offered Octavene a cool tide-pool to live in, and she clacked away — still exactly one crab. Best battle he ever won by doing nothing at all.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing blue sparkcrab bristling with electricity in a cavern of glass salt pillars, a small numeral-six knight thoughtfully holding his sheathed sword and counting on his fingers in crackling violet light."
+}

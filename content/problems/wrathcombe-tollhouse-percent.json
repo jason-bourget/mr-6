@@ -1,0 +1,25 @@
+{
+  "id": "wrathcombe-tollhouse-percent",
+  "tier": "champion",
+  "title": "The Toll That Grows Three Ways",
+  "monster": "Wrathcombe the Ledger Badger",
+  "story": "At the Cloudstep Tollhouse, a spectacled badger named Wrathcombe charges pilgrims a fee that nobody can ever untangle. Today a family of pilgrims owes a base toll of 80 gold crowns, plus a 25% \"sky-draft surcharge\" on that base, minus a 10% \"walked-in-mud discount\" taken off the new total. Mr 6 pulls out his scratch slate.",
+  "question": "How many gold crowns should the family actually pay?",
+  "answer": 90,
+  "unit": "gold crowns",
+  "distractors": [
+    100,
+    92,
+    10
+  ],
+  "solution": [
+    "The surcharge is 25% of 80 = 20 crowns, so the total becomes 80 + 20 = 100 crowns.",
+    "The discount is 10% of 100 = 10 crowns, so 100 - 10 = 90 crowns.",
+    "The family owes 90 gold crowns."
+  ],
+  "praise": "Adding the surcharge first was exactly right — the discount then had to come off the NEW total, not the old one.",
+  "hint": "Do it in order: find the surcharge on 80 first, then take 10% off whatever that new total is.",
+  "victory": "Wrathcombe checked the slate twice, snorted, and stamped the ledger APPROVED. Mr 6 now gets free passage forever — the badger says honest arithmetic is rarer than gold.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A stout spectacled badger in a clerk's visor behind a tall tollhouse desk on a cliffside cloud bridge, a numeral-six knight holding up a chalk slate of neat calculations while pilgrims watch hopefully in misty morning light."
+}

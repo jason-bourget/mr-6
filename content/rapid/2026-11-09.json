@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-09",
+  "title": "The Splitting Slime Showdown",
+  "monster": "Gloop the Twin-Splitting Slime",
+  "story": "Gloop the Twin-Splitting Slime burbles up from the castle moat, and every clumsy whack only makes it split into two bouncing blobs twice as hungry. Mr 6 spots the trick: Gloop can only be undone by a blade stroke of EXACTLY half its wobble-number — a perfect cut leaves nothing to double. Sharpen your mind, Knight: Gloop regrows in seconds, so halve it faster than it can giggle!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "8",
+      "answer": 4,
+      "distractors": [
+        3,
+        6,
+        16
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 7,
+      "distractors": [
+        6,
+        8,
+        28
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 13,
+      "distractors": [
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 20,
+      "distractors": [
+        2,
+        10,
+        30
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 29,
+      "distractors": [
+        28,
+        24,
+        19
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 36,
+      "distractors": [
+        34,
+        37,
+        18
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        43,
+        46,
+        49
+      ]
+    },
+    {
+      "q": "134",
+      "answer": 67,
+      "distractors": [
+        66,
+        76,
+        62
+      ]
+    },
+    {
+      "q": "168",
+      "answer": 84,
+      "distractors": [
+        74,
+        82,
+        86
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 125,
+      "distractors": [
+        120,
+        115,
+        130
+      ]
+    }
+  ]
+}
