@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-10",
+  "problems": [
+    "problems/grondemere-gate-ballast.json",
+    "problems/hagglewort-reed-market-percent.json",
+    "problems/thalgrinn-kelp-knots.json"
+  ]
+}

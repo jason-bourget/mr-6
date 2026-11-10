@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-10",
+  "title": "The Fivefold Fang",
+  "monster": "Pentaclaw the Five-Headed Frost Wolf",
+  "story": "Pentaclaw the Five-Headed Frost Wolf prowls the Glacier Stair, and each of its five heads howls the same icy number at once. Mr 6 learned the trick in knight school: a single shout answers five howls only if he multiplies the number by FIVE and hurls it back as one thunderclap. Hesitate and the frost creeps up his boots — so strike fast, Knight of Numbers, five times harder than the wolf!",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 35,
+      "distractors": [
+        30,
+        40,
+        42
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 45,
+      "distractors": [
+        40,
+        54,
+        36
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        72,
+        55
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        84,
+        75
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        108,
+        95
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        144,
+        100
+      ]
+    },
+    {
+      "q": "33",
+      "answer": 165,
+      "distractors": [
+        155,
+        160,
+        198
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 230,
+      "distractors": [
+        220,
+        235,
+        276
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 300,
+      "distractors": [
+        350,
+        30,
+        360
+      ]
+    },
+    {
+      "q": "88",
+      "answer": 440,
+      "distractors": [
+        400,
+        430,
+        528
+      ]
+    }
+  ]
+}

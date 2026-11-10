@@ -1,0 +1,25 @@
+{
+  "id": "obscarrow-quintupling-gravel-wight",
+  "tier": "champion",
+  "title": "The Quintupling Gravel Wight",
+  "monster": "Obscarrow the Quintupling Wight",
+  "story": "Deep in the Slatefall Quarry, Mr 6 meets Obscarrow, a wight made of rattling gravel. Every time a blade strikes him, each pebble-self bursts into five — and there are already 4 of him grinning in the dust. The quarry gate's warding circle can only seal away a crowd of 500 or fewer.",
+  "question": "Starting from 4 wights, how many wights will there be after Mr 6 strikes exactly three times?",
+  "answer": 500,
+  "unit": "wights",
+  "distractors": [
+    100,
+    20,
+    60
+  ],
+  "solution": [
+    "After one strike: 4 x 5 = 20 wights.",
+    "After two strikes: 20 x 5 = 100 wights.",
+    "After three strikes: 100 x 5 = 500 wights — exactly the circle's limit."
+  ],
+  "praise": "Multiplying by 5 was spot on — the crowd just needed one more round of growing before you stopped counting.",
+  "hint": "Each strike multiplies the whole crowd by 5. Do it one strike at a time and write down each number.",
+  "victory": "Mr 6 struck three times, then simply stepped aside — 500 gravel wights tumbled into the warding circle, which snapped shut with a satisfied click. 'Outnumbered,' said Mr 6, 'is not the same as outsmarted.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A vast moonlit slate quarry swarming with hundreds of grinning gravel-pebble wights funneling toward a glowing rune circle, as a small numeral-6 knight calmly sheathes his sword on a ledge above."
+}

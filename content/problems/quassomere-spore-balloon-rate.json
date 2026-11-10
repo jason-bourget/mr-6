@@ -1,0 +1,25 @@
+{
+  "id": "quassomere-spore-balloon-rate",
+  "tier": "champion",
+  "title": "The Spore Balloon Rescue",
+  "monster": "Quassomere the Puffdrift Warden",
+  "story": "High over the Fenlight Marsh, Mr 6 clings to a mushroom-silk balloon carrying two lost goat-herders. Quassomere the Puffdrift Warden, a bloated spore-creature, has nibbled a hole in the envelope, and the balloon is sinking at 14.5 feet every minute. Mr 6 can vent hot steam into the envelope to rise, but the steam only pushes up 11.5 feet per minute, and the balloon is 54 feet above the safe landing mound.",
+  "question": "If Mr 6 vents steam the whole way down, how many minutes until the balloon touches the landing mound?",
+  "answer": 18,
+  "unit": "minutes",
+  "distractors": [
+    3,
+    4.7,
+    54
+  ],
+  "solution": [
+    "The real sinking speed is 14.5 - 11.5 = 3 feet each minute.",
+    "Time to fall 54 feet: 54 / 3 = 18 minutes.",
+    "The balloon lands gently in 18 minutes."
+  ],
+  "praise": "Subtracting the two speeds is exactly the right first move — the next step was dividing the 54 feet by that difference.",
+  "hint": "The balloon sinks AND rises at the same time. What's the leftover sinking speed each minute?",
+  "victory": "The balloon settled onto the mound like a sleepy pudding, and Quassomere — who had never once been given a soft landing — asked politely if he could ride along next time.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A patched mushroom-silk balloon drifting down over a glowing green marsh at dusk, a bloated spore-warden puffing beside it, while a little knightly numeral 6 in a blue cape works the steam valve with two rescued goat-herders clutching the basket."
+}
