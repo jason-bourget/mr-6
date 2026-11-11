@@ -1,0 +1,25 @@
+{
+  "id": "thrummelrix-quartering-cinderbat",
+  "tier": "champion",
+  "title": "The Cinderbat That Comes in Fours",
+  "monster": "Thrummelrix the Quartering Cinderbat",
+  "story": "Deep in a volcano's throat, Thrummelrix the Quartering Cinderbat hangs over the only exit. Whenever anything strikes it, the bat splits: each cinderbat becomes 4 cinderbats, and they will not let anyone pass until exactly 300 of them crowd the cave and the swarm collapses from its own weight. Mr 6 counts 3 cinderbats right now and thinks hard before swinging.",
+  "question": "If Mr 6 strikes the whole swarm 3 times in a row, how many MORE cinderbats would still be needed to reach 300?",
+  "answer": 108,
+  "unit": "cinderbats",
+  "distractors": [
+    192,
+    36,
+    288
+  ],
+  "solution": [
+    "Each strike multiplies the swarm by 4: 3 → 12 → 48 → 192 cinderbats after 3 strikes.",
+    "Needed to reach 300: 300 - 192 = 108 more cinderbats.",
+    "So 108 cinderbats are still missing."
+  ],
+  "praise": "Multiplying by 4 for each strike was spot on — the final step was subtracting that swarm size from the 300 the cave needs.",
+  "hint": "Track the swarm one strike at a time (3, then ×4, then ×4, then ×4) before you compare it to 300.",
+  "victory": "Mr 6 stopped at three swings, counted aloud, and let the puzzled swarm hang there 108 short of collapsing — so they shuffled aside and let the villagers walk out. 'Math,' Mr 6 said, 'beats flapping.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing red volcanic cavern where a cloud of ember-winged bats multiplies in flickering light while a small numeral-six knight lowers his sword and counts on his fingers."
+}

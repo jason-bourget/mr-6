@@ -1,0 +1,25 @@
+{
+  "id": "pennilore-moonstone-haggle",
+  "tier": "champion",
+  "title": "The Moonstone Markdown",
+  "monster": "Pennilore the Fogmarket Factor",
+  "story": "In the fog-lit Fogmarket, Pennilore the Fogmarket Factor has locked a village's harvest seed in a glass case and will only release it for moonstone shards. Mr 6 has a pouch of 240 shards and a very sharp pencil. Pennilore chants her price: 'The seed costs 180 shards, plus a fog tax of 25% of that price, minus a loyalty rebate of 10% of the original price.'",
+  "question": "How many moonstone shards will Mr 6 have left in his pouch after paying Pennilore?",
+  "answer": 33,
+  "unit": "shards",
+  "distractors": [
+    60,
+    15,
+    207
+  ],
+  "solution": [
+    "Fog tax is 25% of 180 = 45, and the rebate is 10% of 180 = 18.",
+    "Total paid = 180 + 45 - 18 = 207 shards.",
+    "Left in the pouch: 240 - 207 = 33 shards."
+  ],
+  "praise": "Taking the percents of 180 was the right move — the last step was subtracting that total from the 240 shards in the pouch.",
+  "hint": "Work out the tax and the rebate separately from the 180-shard price, then build the final bill before touching the 240.",
+  "victory": "Pennilore recounted three times, found Mr 6 right every time, and slid the seed across with a fog-damp sigh. The village planted it by morning, and Mr 6 kept 33 shards for honey cakes.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A lantern-lit foggy night market stall where a tall cloaked wisp-merchant with coin-bright eyes guards a glass case of glowing seed, facing a small numeral-six knight tallying moonstones on a slate."
+}

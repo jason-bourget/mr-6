@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-11",
+  "problems": [
+    "problems/vaporix-skyraft-chase.json",
+    "problems/umbrakeld-sunken-beacon-halving.json",
+    "problems/tasselvex-aqueduct-mortar-ratio.json"
+  ]
+}

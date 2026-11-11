@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-11",
+  "title": "The Tenth-Taker",
+  "monster": "Dwindle the Tithe-Imp",
+  "story": "Dwindle the Tithe-Imp hops through the treasure vault squeaking \"A tenth for me! A tenth for me!\" — and if nobody names that tenth exactly, the greedy little goblin grabs the WHOLE glittering pile instead. Mr 6 raises his shining shield and answers each squeak with the perfect tenth, shrinking the imp's loot sack smaller and smaller until it's nothing but lint. Slice off those tenths before Dwindle can finish his squeak!",
+  "rule": "Give him just a TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        400,
+        14,
+        44
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        700,
+        17,
+        70
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        21,
+        2
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        250,
+        50,
+        20
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        900,
+        19,
+        90
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        306,
+        63,
+        360
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "540",
+      "answer": 54,
+      "distractors": [
+        45,
+        504,
+        540
+      ]
+    },
+    {
+      "q": "820",
+      "answer": 82,
+      "distractors": [
+        28,
+        802,
+        820
+      ]
+    },
+    {
+      "q": "1500",
+      "answer": 150,
+      "distractors": [
+        15,
+        105,
+        1500
+      ]
+    }
+  ]
+}

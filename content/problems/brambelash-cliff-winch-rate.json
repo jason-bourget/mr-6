@@ -1,0 +1,25 @@
+{
+  "id": "brambelash-cliff-winch-rate",
+  "tier": "champion",
+  "title": "The Winch and the Climbing Vine",
+  "monster": "Brambelash the Cliff Choker",
+  "story": "A goat-herd family is stranded on a cliff ledge 96 feet above the valley, and Mr 6 works the rescue winch that lowers their basket 7 feet every minute. But Brambelash the Cliff Choker, a grumpy climbing vine, grabs the rope and hauls it back up 2.5 feet every minute. Mr 6 sits down on a rock, scratches numbers in the dust, and smiles.",
+  "question": "At that steady tug-of-war, how many minutes will the basket take to travel all 96 feet down to the valley floor?",
+  "answer": 21.333333333333332,
+  "unit": "minutes",
+  "distractors": [
+    13.71,
+    96,
+    4.5
+  ],
+  "solution": [
+    "Each minute the basket really drops 7 - 2.5 = 4.5 feet.",
+    "Time needed is 96 / 4.5 = 21.33 minutes (about 21 minutes and 20 seconds).",
+    "The basket reaches the valley in about 21.33 minutes."
+  ],
+  "praise": "Dividing the distance by a speed was exactly the right plan — the missing step was subtracting the vine's 2.5-foot pull-back first.",
+  "hint": "Before you divide, figure out the NET change in one minute: down 7, back up 2.5.",
+  "victory": "Brambelash hauled with all its might and still watched the basket land safely, then sulked into a knot. 'You didn't beat my strength,' it groaned. 'No,' said Mr 6, 'I beat your arithmetic.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape cranking a cliffside winch while a thick thorny vine yanks the rope upward, a basket of frightened goat-herds swinging over a sunlit green valley."
+}
