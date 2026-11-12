@@ -1,0 +1,25 @@
+{
+  "id": "tarquill-stilt-market-percent",
+  "tier": "champion",
+  "title": "The Stilt Market Over the Tar Lake",
+  "monster": "Tarquill the Stilt Merchant",
+  "story": "A mudlark pup has slipped into the sticky tar lake, and the only rope for leagues hangs at Tarquill's crooked stall on stilts. The long-legged merchant grins and taps his sign: three coils will reach the pup, but nothing at his stall has a simple price. Mr 6 counts on his fingers — all six of them — and smiles back.",
+  "question": "One coil of rope costs 40 amber drams. Tarquill adds a 25% stilt tax to the total, and then takes 10% off that taxed total as a 'quick-foot discount.' How many amber drams does Mr 6 pay for 3 coils?",
+  "answer": 135,
+  "unit": "amber drams",
+  "distractors": [
+    150,
+    120,
+    138
+  ],
+  "solution": [
+    "Three coils at plain price cost 3 × 40 = 120 amber drams.",
+    "The 25% stilt tax raises it: 120 × 1.25 = 150 amber drams.",
+    "The 10% discount takes 15 off: 150 × 0.90 = 135 amber drams."
+  ],
+  "praise": "Starting with the plain price of 120 was exactly the right first move — the tax and the discount just each needed their own separate step.",
+  "hint": "Do one change at a time: plain price for 3 coils first, then grow it by the tax, then shrink that new total by the discount.",
+  "victory": "Mr 6 counts out 135 drams precisely, and Tarquill's grin collapses because nobody ever catches both steps. The rope flies, the mudlark pup is hauled out tar-sticky and delighted, and Mr 6 walks home wearing a free (if gooey) hug.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A lanky stilt-legged merchant monster with a crooked price sign leaning over a rickety plank stall above a glossy black tar lake at dusk, while a small brave numeral-six knight in a blue cape counts coins and a muddy pup flails below."
+}

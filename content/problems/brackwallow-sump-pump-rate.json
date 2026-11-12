@@ -1,0 +1,25 @@
+{
+  "id": "brackwallow-sump-pump-rate",
+  "tier": "champion",
+  "title": "The Flooding Lighthouse Cellar",
+  "monster": "Brackwallow the Sump Snail",
+  "story": "Brackwallow the Sump Snail has wedged herself into the lighthouse drain, oozing seawater into the cellar where three otter-folk keepers are stacking lamp oil above the waterline. The cellar already holds 90 gallons of brine. Mr 6 cranks the old hand pump and starts doing math out loud, which the otters find very calming.",
+  "question": "Brine leaks in past the snail at 7.5 gallons per minute, and Mr 6's pump pushes out 12 gallons per minute. How many minutes until the 90 gallons already in the cellar are gone?",
+  "answer": 20,
+  "unit": "minutes",
+  "distractors": [
+    7.5,
+    4.5,
+    12
+  ],
+  "solution": [
+    "Each minute the water really drops by 12 − 7.5 = 4.5 gallons.",
+    "Clear the 90 gallons at that true rate: 90 ÷ 4.5 = 20.",
+    "The cellar is dry in 20 minutes."
+  ],
+  "praise": "Dividing the 90 gallons by a pumping rate was the right instinct — the missing step was subtracting the leak first to find the TRUE rate.",
+  "hint": "The pump and the leak fight each other. Find how much the water level actually falls in one minute before you divide.",
+  "victory": "At minute twenty the last gallon gurgles away, and Brackwallow — now sitting on dry stone with nothing to ooze into — sulks off to the tide pools. The otter-folk name the pump 'Sir Six' and polish it every spring.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A huge barnacled snail plugging a stone drain in a lamplit flooding lighthouse cellar, water swirling knee-deep around a determined numeral-six knight working a hand pump while three otter-folk stack oil jars on a high shelf."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "snollbright-winch-unknown",
+  "tier": "champion",
+  "title": "The Counterweight Riddle at Thunderstep Pass",
+  "monster": "Snollbright the Scale Toad",
+  "story": "A rockslide is rumbling down Thunderstep Pass, and the drawbridge that would carry the village goat-herders to safety hangs frozen in the air. Snollbright the Scale Toad squats on the winch, belly broad as a millstone, and croaks that the bridge only lowers for someone who knows exactly what it is carrying. Mr 6 peers into the counterweight chest and starts figuring.",
+  "question": "The counterweight chest holds 10 identical sky-iron ingots plus one 14-pound chain, and the whole chest weighs 104 pounds. How many pounds does one sky-iron ingot weigh?",
+  "answer": 9,
+  "unit": "pounds",
+  "distractors": [
+    10.4,
+    11.8,
+    90
+  ],
+  "solution": [
+    "Take the chain's weight out first: 104 − 14 = 90 pounds of ingots.",
+    "Split that among the 10 identical ingots: 90 ÷ 10 = 9.",
+    "Each sky-iron ingot weighs 9 pounds."
+  ],
+  "praise": "Dividing by 10 was exactly the right move — the chain's 14 pounds just had to come off the total before the sharing began.",
+  "hint": "Not all 104 pounds is ingots. Remove the part you already know the weight of, then share what's left equally.",
+  "victory": "'Nine!' calls Mr 6, and the winch unlocks with a satisfied clunk. Snollbright blinks, re-weighs herself out of curiosity, and ends up helping the goat-herders across — she turns out to be an excellent, extremely heavy handrail.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A boulder-sized toad monster perched on a rusted winch beside a half-raised rope drawbridge over a stormy mountain gorge, a numeral-six knight peering into a chest of glinting sky-iron ingots as dust from a distant rockslide rolls in."
+}

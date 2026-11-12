@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-12",
+  "title": "The Four-Headed Fury",
+  "monster": "Quadrax the Four-Headed Hydra",
+  "story": "Quadrax the Four-Headed Hydra rears out of the frozen moat, and each of its four heads sneers at Mr 6 with the same icy grin. Any blow that strikes only one head is useless — the other three simply laugh and heal it — so Mr 6 must swing with FOUR TIMES the force to clobber all four at once. Quadrax bites faster every second, brave knight, so quadruple quickly or get frosted!",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 24,
+      "distractors": [
+        12,
+        18,
+        26
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 32,
+      "distractors": [
+        16,
+        24,
+        34
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        24,
+        44,
+        46
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        30,
+        50,
+        65
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        60,
+        88
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        50,
+        90,
+        110
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        36,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        70,
+        120,
+        150
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        90,
+        160,
+        200
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 240,
+      "distractors": [
+        120,
+        220,
+        260
+      ]
+    }
+  ]
+}
