@@ -1,0 +1,25 @@
+{
+  "id": "pellmoreth-splitting-sporepod",
+  "tier": "champion",
+  "title": "The Pod That Thought It Was Clever",
+  "monster": "Pellmoreth the Doubling Sporepod",
+  "story": "In the glass vaults beneath the Bellhouse Library, Pellmoreth the Doubling Sporepod floats and gloats: every time it is struck, each pod splits into 2, and 3 brand-new pods puff out of the cracks as well. Mr 6 faces 4 pods and knows that swinging first is a trap, so he counts ahead on his scratch paper before deciding.",
+  "question": "If Mr 6 struck the pods 3 times in a row, how many pods would there be after the third strike?",
+  "answer": 53,
+  "unit": "pods",
+  "distractors": [
+    25,
+    32,
+    11
+  ],
+  "solution": [
+    "Strike 1: 4 x 2 = 8, plus 3 more = 11 pods.",
+    "Strike 2: 11 x 2 = 22, plus 3 more = 25 pods.",
+    "Strike 3: 25 x 2 = 50, plus 3 more = 53 pods."
+  ],
+  "praise": "Doubling then adding three was the right pattern — it just needed to be repeated for all three strikes, not stopped early.",
+  "hint": "Work one strike at a time: double the pods you have, then add the 3 that puff out, and write down the new total before the next strike.",
+  "victory": "Mr 6 sheathed his sword, dropped his scratch paper, and simply opened the vault window — the pods drifted out into the rain and dissolved. 'Fifty-three of you,' he said, 'and not one of you saw that coming.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing green sporepod hovering smugly in a cathedral-like glass vault lined with books, while a numeral-six knight in a blue cape lowers his sword and reaches for a window latch in cool blue light."
+}

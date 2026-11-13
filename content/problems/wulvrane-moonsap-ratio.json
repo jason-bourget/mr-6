@@ -1,0 +1,25 @@
+{
+  "id": "wulvrane-moonsap-ratio",
+  "tier": "champion",
+  "title": "The Moonsap Tapper",
+  "monster": "Wulvrane the Silver Birch Wight",
+  "story": "Deep in the Argent Grove, Wulvrane the Silver Birch Wight has been draining the moonsap that keeps the village lanterns glowing. Mr 6 can banish her only by brewing a sealing varnish in the grove's ancient mixing trough. The recipe is fixed: moonsap and pine resin must be mixed in a ratio of 5 to 3, and the trough holds exactly 96 pints total.",
+  "question": "How many pints of moonsap does Mr 6 need for a full trough of varnish?",
+  "answer": 60,
+  "unit": "pints",
+  "distractors": [
+    36,
+    12,
+    48
+  ],
+  "solution": [
+    "The ratio 5 to 3 means the trough is split into 5 + 3 = 8 equal shares.",
+    "One share is 96 / 8 = 12 pints.",
+    "Moonsap takes 5 shares, so 5 x 12 = 60 pints of moonsap."
+  ],
+  "praise": "Splitting the trough into ratio shares was exactly right — the last step was multiplying one share by moonsap's 5 parts.",
+  "hint": "Add the two ratio numbers together first: how many equal shares is the trough divided into?",
+  "victory": "The varnish sealed every tap-hole with a soft silver shine, and Wulvrane — unable to sip a single drop — drifted off to drink dew instead. 'Ratios,' said Mr 6, 'are just fair sharing wearing a fancy hat.'",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A pale birch-bark wight recoiling from a glowing trough of silver sap in a moonlit grove, while a brave numeral-six knight in a blue cape stirs the shimmering mixture."
+}

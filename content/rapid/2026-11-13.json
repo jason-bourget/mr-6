@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-13",
+  "title": "The Hundred-Shell Siege",
+  "monster": "Centurio the Shield Golem",
+  "story": "Centurio the Shield Golem lumbers out of the fog with armor worth exactly 100 points of stone, and he smugly swallows every blow Mr 6 lands. The only way to crack him is to shout how much shell is LEFT after each strike — guess the leftover wrong and the stone grows right back with a satisfied rumble. Mr 6 raises his blade: subtract from 100 before the golem can blink, hero — can you count faster than rock can heal?",
+  "rule": "Subtract it from 100!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        64
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 40,
+      "distractors": [
+        50,
+        30,
+        44
+      ]
+    },
+    {
+      "q": "72",
+      "answer": 28,
+      "distractors": [
+        38,
+        18,
+        32
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "85",
+      "answer": 15,
+      "distractors": [
+        25,
+        5,
+        20
+      ]
+    },
+    {
+      "q": "37",
+      "answer": 63,
+      "distractors": [
+        73,
+        53,
+        67
+      ]
+    },
+    {
+      "q": "63",
+      "answer": 37,
+      "distractors": [
+        47,
+        27,
+        43
+      ]
+    }
+  ]
+}
