@@ -1,0 +1,25 @@
+{
+  "id": "candlemarch-wick-ledger-percent",
+  "tier": "champion",
+  "title": "The Wick Ledger of Candlemarch",
+  "monster": "Grisselbough the Tallow Assessor",
+  "story": "In the wax-scented halls of Candlemarch, Grisselbough the Tallow Assessor taxes every candle the village pours. Tonight the village poured 480 candles for the Longdark Festival, and Grisselbough's claws hover over his ledger. Mr 6 pushes back his little knight helmet and asks to read the tax rules out loud.",
+  "question": "Grisselbough first claims 25% of the 480 candles as 'drip tax', then claims 40% of whatever candles remain as 'smoke tax'. How many candles does the village keep?",
+  "answer": 216,
+  "unit": "candles",
+  "distractors": [
+    360,
+    144,
+    168
+  ],
+  "solution": [
+    "Drip tax: 25% of 480 = 120 candles taken, leaving 480 - 120 = 360 candles.",
+    "Smoke tax: 40% of 360 = 144 candles taken.",
+    "The village keeps 360 - 144 = 216 candles."
+  ],
+  "praise": "Taking the percentages in order was exactly right — the second percent just had to come off the 360 that were left, not the original 480.",
+  "hint": "Find 25% of 480 first and subtract it. The second tax is taken from that smaller pile, not from 480.",
+  "victory": "Mr 6 reads the total aloud and Grisselbough's ledger snaps shut with a puff of wax dust. 'Nobody ever checks the second column,' he sighs, and melts away into a very ordinary candle.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A tall waxy assessor-monster with dripping candle-stub fingers hunched over a glowing ledger in a warm amber candle hall, while a brave numeral-six knight in a blue cape points confidently at a column of figures."
+}

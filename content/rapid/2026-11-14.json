@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-14",
+  "title": "The Trebling Storm",
+  "monster": "Triplicus, the Three-Headed Mirror Dragon",
+  "story": "Triplicus has three glittering heads, and every head copies whatever it sees — so the only blow it cannot copy is one already tripled before it lands. Mr 6 raises his blade and shouts, 'If you love things in threes, DRAGON, have three of these!' Every number the beast breathes must be trebled before the mirrors can blink — so be quick, Knight, or the heads will steal your move!",
+  "rule": "Strike back THREE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 12,
+      "distractors": [
+        8,
+        7,
+        16
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        24,
+        18
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 33,
+      "distractors": [
+        22,
+        31,
+        36
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        48
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 60,
+      "distractors": [
+        40,
+        50,
+        63
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 105,
+      "distractors": [
+        95,
+        70,
+        115
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 144,
+      "distractors": [
+        124,
+        134,
+        96
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 210,
+      "distractors": [
+        140,
+        201,
+        230
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 375,
+      "distractors": [
+        350,
+        365,
+        250
+      ]
+    }
+  ]
+}

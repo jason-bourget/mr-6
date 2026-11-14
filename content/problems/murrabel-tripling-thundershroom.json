@@ -1,0 +1,25 @@
+{
+  "id": "murrabel-tripling-thundershroom",
+  "tier": "champion",
+  "title": "The Thundershroom That Tripled",
+  "monster": "Murrabel the Tripling Thundershroom",
+  "story": "In the storm-swamp of Hollow Reek grows Murrabel, a mushroom-beast who booms with thunder whenever she is struck. Mr 6 has seen the warning carved on a stump: every strike makes each Murrabel split into three. He sits down on a log to think before lifting his sword even once.",
+  "question": "There is 1 Murrabel now, and each strike triples the number of mushroom-beasts. If Mr 6 struck 4 times, then a wandering druid turned 20 of the mushroom-beasts friendly, how many Murrabels would still be booming?",
+  "answer": 61,
+  "unit": "Murrabels",
+  "distractors": [
+    81,
+    12,
+    7
+  ],
+  "solution": [
+    "Each strike triples the count: 1 → 3 → 9 → 27 → 81 after 4 strikes.",
+    "The druid turns 20 of them friendly: 81 - 20 = 61.",
+    "So 61 Murrabels would still be booming."
+  ],
+  "praise": "Tracking the tripling strike by strike was exactly the right method — the last move was simply taking the druid's 20 away from 81.",
+  "hint": "Multiply by 3 once for each strike, writing the number after every strike — then handle the druid's 20 at the very end.",
+  "victory": "Mr 6 calculates 61 booming mushrooms, sheathes his sword, and simply offers Murrabel an umbrella instead. She blushes pink, stops thundering, and the swamp hears birdsong for the first time in years.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A huge purple storm-cloud mushroom crackling with tiny lightning in a misty swamp, with a numeral-six knight sitting thoughtfully on a log doing sums on a slate instead of attacking."
+}

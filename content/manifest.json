@@ -335,6 +335,9 @@
     "problems/brackwallow-sump-pump-rate.json",
     "problems/snollbright-winch-unknown.json",
     "problems/wulvrane-moonsap-ratio.json",
-    "problems/pellmoreth-splitting-sporepod.json"
+    "problems/pellmoreth-splitting-sporepod.json",
+    "problems/candlemarch-wick-ledger-percent.json",
+    "problems/skelvorn-glacier-crevasse-rescue.json",
+    "problems/murrabel-tripling-thundershroom.json"
   ]
 }

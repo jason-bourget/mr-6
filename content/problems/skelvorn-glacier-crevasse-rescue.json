@@ -1,0 +1,25 @@
+{
+  "id": "skelvorn-glacier-crevasse-rescue",
+  "tier": "champion",
+  "title": "Race Across the Groaning Crevasse",
+  "monster": "Skelvorn the Crevasse Widener",
+  "story": "Deep in the blue ice, Skelvorn the Crevasse Widener hums and the glacier splits wider and wider. Three baby snow-foxes are stranded on the far lip, and Mr 6 has one plank bridge that is 48 feet long. The crevasse is already 30 feet wide and groaning.",
+  "question": "The crevasse widens 1.5 feet every minute, but Mr 6's warming lantern narrows it back by 0.75 feet every minute. How many minutes until the crevasse is too wide for the 48-foot plank?",
+  "answer": 24,
+  "unit": "minutes",
+  "distractors": [
+    12,
+    18,
+    32
+  ],
+  "solution": [
+    "Net widening each minute: 1.5 - 0.75 = 0.75 feet.",
+    "The gap can grow 48 - 30 = 18 more feet before the plank is too short.",
+    "18 ÷ 0.75 = 24 minutes."
+  ],
+  "praise": "Finding the growth rate was the right first move — the lantern's 0.75 feet had to be subtracted before dividing.",
+  "hint": "The ice grows and the lantern shrinks it at the same time — what is the REAL change each minute?",
+  "victory": "With four minutes to spare, Mr 6 walks three wobbly snow-foxes across the plank. Skelvorn hums louder, cracks the ice behind them, and finds he has widened himself right out of a job.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A pale whispering ice-wraith stretching a glowing blue crevasse wider while a small numeral-six knight guides three fluffy snow-foxes across a narrow wooden plank under icy twilight.\n\n"
+}
