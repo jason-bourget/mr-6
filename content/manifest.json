@@ -338,6 +338,9 @@
     "problems/pellmoreth-splitting-sporepod.json",
     "problems/candlemarch-wick-ledger-percent.json",
     "problems/skelvorn-glacier-crevasse-rescue.json",
-    "problems/murrabel-tripling-thundershroom.json"
+    "problems/murrabel-tripling-thundershroom.json",
+    "problems/corviggle-aviary-feather-rate.json",
+    "problems/obsidane-ember-auction-percent.json",
+    "problems/nivelgarde-doubling-snowlings.json"
   ]
 }

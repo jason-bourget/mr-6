@@ -1,0 +1,25 @@
+{
+  "id": "corviggle-aviary-feather-rate",
+  "tier": "champion",
+  "title": "The Featherfall Clock",
+  "monster": "Corviggle the Molt Baron",
+  "story": "High in the Windvane Aviary, Corviggle the Molt Baron shakes loose a storm of iron feathers that pile up on the glass roof, and the roof will crack once 540 pounds of feathers land on it. Mr 6 scrambles up with a sweeping broom, his blue cape snapping in the draft, and counts carefully. Corviggle drops 26 pounds of feathers every minute, and Mr 6's broom sweeps 18 pounds off the roof every minute.",
+  "question": "Starting from a bare roof, how many minutes until the roof is holding 540 pounds of feathers?",
+  "answer": 67.5,
+  "unit": "minutes",
+  "distractors": [
+    20.77,
+    8,
+    30
+  ],
+  "solution": [
+    "Each minute the pile really grows by 26 - 18 = 8 pounds.",
+    "Time to reach the crack weight: 540 / 8 = 67.5.",
+    "The roof hits 540 pounds in 67.5 minutes."
+  ],
+  "praise": "Dividing by a rate was exactly the right instinct — the missing step was subtracting Mr 6's sweeping from Corviggle's dropping first.",
+  "hint": "Corviggle adds feathers while Mr 6 removes them. What is the NET gain on the roof each minute?",
+  "victory": "At minute 67 Mr 6 propped the broom in place, and Corviggle watched his own feathers slide harmlessly off the eaves. 'You beat me with arithmetic and a broom,' the Molt Baron squawked, and flapped off to find a less mathematical roof.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave number-six knight with a blue cape sweeping heaps of glinting iron feathers off a vast glass aviary roof while a huge shaggy crow-baron showers more feathers from the rafters, pale windy daylight."
+}

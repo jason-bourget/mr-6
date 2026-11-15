@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-15",
+  "title": "The Doubling Duel",
+  "monster": "Thundra the Echo Demon",
+  "story": "Thundra the Echo Demon swings a drum-hammer that booms louder with every hit, and she sneers that no knight can answer an echo. But Mr 6 knows the secret of her magic: an echo dies only when it is answered TWICE as loudly, so every blow she lands must come back doubled. Can you strike back with double force before her next boom lands?",
+  "rule": "Strike back with DOUBLE the force!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "12",
+      "answer": 24,
+      "distractors": [
+        22,
+        14,
+        26
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 30,
+      "distractors": [
+        25,
+        35,
+        20
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 48,
+      "distractors": [
+        46,
+        44,
+        38
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        65
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 92,
+      "distractors": [
+        82,
+        86,
+        94
+      ]
+    },
+    {
+      "q": "58",
+      "answer": 116,
+      "distractors": [
+        106,
+        114,
+        118
+      ]
+    },
+    {
+      "q": "67",
+      "answer": 134,
+      "distractors": [
+        124,
+        126,
+        137
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 150,
+      "distractors": [
+        140,
+        155,
+        145
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 172,
+      "distractors": [
+        162,
+        166,
+        174
+      ]
+    },
+    {
+      "q": "125",
+      "answer": 250,
+      "distractors": [
+        240,
+        255,
+        230
+      ]
+    }
+  ]
+}

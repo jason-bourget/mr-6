@@ -1,0 +1,25 @@
+{
+  "id": "obsidane-ember-auction-percent",
+  "tier": "champion",
+  "title": "The Auction of Burning Bargains",
+  "monster": "Obsidane the Ash Auctioneer",
+  "story": "In the Cinder Market, Obsidane the Ash Auctioneer sells rescued dragon-eggs back to the villagers at cruel prices, chanting numbers too fast for anyone to follow. Mr 6 hops onto a crate with his scratch-slate and listens hard. The egg is marked 240 ember coins, Obsidane adds a 25% 'heat surcharge' to that marked price, and then grudgingly grants a 10% discount on the new total to anyone who can name it first.",
+  "question": "How many ember coins does the egg cost after the surcharge and then the discount?",
+  "answer": 270,
+  "unit": "ember coins",
+  "distractors": [
+    300,
+    276,
+    260
+  ],
+  "solution": [
+    "The surcharge adds 240 x 0.25 = 60, so the price becomes 240 + 60 = 300 ember coins.",
+    "The discount takes 300 x 0.10 = 30 off, so 300 - 30 = 270.",
+    "The egg costs 270 ember coins."
+  ],
+  "praise": "Working the percents one at a time was the right plan — the second percent just had to be taken off the NEW price, not the first one.",
+  "hint": "Find the price after the surcharge first, then take 10% of THAT number.",
+  "victory": "'Two hundred seventy!' called Mr 6 before the gavel fell, and Obsidane's smoky collar drooped in defeat. The dragon-eggs went home in a wheelbarrow, warm and safely counted.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A smoldering auctioneer of ash and ember hunched over a podium in a dim cinder market while a small number-six knight stands on a crate holding a chalk slate aloft, firelit and triumphant."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "nivelgarde-doubling-snowlings",
+  "tier": "champion",
+  "title": "The Snowlings That Doubled",
+  "monster": "Nivelgarde the Doubling Snowling",
+  "story": "Deep in the Hushpine Glacier, Nivelgarde the Doubling Snowling guards a frozen footbridge, and every time anyone strikes one snowling it splits into two. Mr 6 sheathes his sword at once — he knows better than to hit a doubling thing. There are 5 snowlings now, and Mr 6 has already counted that if he were to strike once per minute for 4 minutes (each strike doubling the WHOLE group), they would bury the bridge.",
+  "question": "If Mr 6 struck once each minute for 4 minutes, doubling the whole group each time, how many snowlings would there be at the end?",
+  "answer": 80,
+  "unit": "snowlings",
+  "distractors": [
+    40,
+    20,
+    160
+  ],
+  "solution": [
+    "Each strike doubles the group: 5 becomes 10, then 20, then 40.",
+    "The fourth strike makes 40 x 2 = 80.",
+    "After 4 strikes there would be 80 snowlings."
+  ],
+  "praise": "Doubling step by step was exactly right — it just needed one more doubling to reach the fourth minute.",
+  "hint": "Write the number of snowlings after each minute: 5, then 10... keep going for four strikes.",
+  "victory": "Mr 6 showed Nivelgarde the number 80 on his slate, and the snowling shivered at the thought of eighty hungry copies sharing one glacier. It melted the footbridge free and asked, very politely, to be left as just one.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A plump frost-white snowling monster with icicle teeth blocking a narrow glacier footbridge as a small number-six knight calmly holds up a chalked number instead of a sword, cold blue twilight."
+}
