@@ -1,0 +1,25 @@
+{
+  "id": "fennigore-bog-bellows-rescue",
+  "tier": "champion",
+  "title": "The Bellows in the Sunken Hall",
+  "monster": "Fennigore the Bog Bellows",
+  "story": "Deep in the Reedmire, Mr 6 squelches into a sunken listening-hall where six reed-weavers are busy untangling their looms. Outside, Fennigore the Bog Bellows squats on the roof and wheezes bog water down the chimney, giggling as the floor turns into a pond. Mr 6 props open the old windmill pump, wipes his helmet, and starts doing the only thing that will save everyone: thinking.",
+  "question": "Fennigore pours in 15 gallons of bog water every minute, while Mr 6's pump drains 9 gallons every minute. The hall can hold 144 more gallons before the water seals the door arch. How many minutes do the weavers have to get out?",
+  "answer": 24,
+  "unit": "minutes",
+  "distractors": [
+    6,
+    9.6,
+    16
+  ],
+  "solution": [
+    "Each minute the water really rises by 15 - 9 = 6 gallons, because the pump keeps taking some back out.",
+    "144 gallons of room divided by 6 gallons each minute: 144 / 6 = 24.",
+    "The weavers have 24 minutes to escape."
+  ],
+  "praise": "Dividing by a rate was exactly the right move — the one missing step was subtracting the pump's 9 gallons to find how fast the water REALLY rises.",
+  "hint": "The water pours in and drains out at the same time. Find the leftover rise per minute first, then see how many of those fit into 144 gallons.",
+  "victory": "Mr 6 marches everyone out with eleven minutes to spare, then stuffs a fat bundle of reeds into the chimney. Fennigore puffs, wheezes, and deflates into a sulky damp cushion.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape standing knee-deep in a flooding stone reed-hall, pointing the escape route while a bloated green bellows-creature wheezes bog water down the chimney, lit by swaying green lanternlight."
+}

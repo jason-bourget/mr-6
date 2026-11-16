@@ -1,0 +1,25 @@
+{
+  "id": "noxvellum-tally-scarab-sacks",
+  "tier": "champion",
+  "title": "The Scarab's Locked Tally",
+  "monster": "Noxvellum the Tally Scarab",
+  "story": "In a glittering salt cavern, Mr 6 corners Noxvellum the Tally Scarab, who has swallowed the lamplighters' whole winter wage into its crystal shell. The shell is sealed by a hoard-lock that only opens when someone names the exact number of ember coins in ONE sack. \"Guess wrong,\" the scarab clicks happily, \"and I scuttle off with all of it.\"",
+  "question": "Inside the shell are 8 identical sacks of ember coins plus 16 loose coins rattling around, 200 ember coins in all. How many ember coins are in each sack?",
+  "answer": 23,
+  "unit": "coins",
+  "distractors": [
+    25,
+    27,
+    184
+  ],
+  "solution": [
+    "Set the loose coins aside first: 200 - 16 = 184 coins are inside the sacks.",
+    "Share those equally: 184 / 8 = 23.",
+    "Each sack holds 23 ember coins."
+  ],
+  "praise": "Splitting the hoard into 8 equal parts was the right plan — the loose 16 coins just needed to come out of the pile before you divided.",
+  "hint": "The 16 loose coins aren't in any sack. Take them out of the total before you share the rest between the 8 sacks.",
+  "victory": "Mr 6 says \"twenty-three\" and the hoard-lock pops like a cork. Noxvellum rattles off into the salt tunnels, muttering that it should have hidden the loose change better.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight in a knight's helmet facing a huge crystal-shelled scarab glowing with ember coins inside, deep in a sparkling white salt cavern lit by warm orange coinlight."
+}

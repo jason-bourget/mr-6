@@ -1,0 +1,25 @@
+{
+  "id": "vanthrum-sky-bazaar-fee",
+  "tier": "champion",
+  "title": "The Gale Factor's Fine Print",
+  "monster": "Vanthrum the Gale Factor",
+  "story": "High on the floating docks of the Sky Bazaar, Mr 6 finds the village seed-basket roped to a weathervane by Vanthrum the Gale Factor, a smug cloud-sprite with a ledger as long as his nose. \"Release fee: ninety-six moonstone shards,\" Vanthrum sniffs. \"But today there's a stormy-day discount — and, naturally, a wind surcharge.\"",
+  "question": "The fee starts at 96 moonstone shards. Vanthrum takes 25% off for the storm, then adds a 15% wind surcharge to that discounted price. How many moonstone shards must Mr 6 pay?",
+  "answer": 82.8,
+  "unit": "shards",
+  "distractors": [
+    72,
+    86.4,
+    110.4
+  ],
+  "solution": [
+    "Take 25% off first: 96 x 0.75 = 72 shards.",
+    "The 15% surcharge goes on the NEW price: 72 x 0.15 = 10.8 shards.",
+    "72 + 10.8 = 82.8 shards is the exact amount Mr 6 pays."
+  ],
+  "praise": "Working the discount was spot on — the surcharge just needed to be taken on the new, smaller price instead of the old one.",
+  "hint": "Do the two changes in order: first find the discounted price, then charge the 15% on that number, not on 96.",
+  "victory": "Mr 6 counts out 82.8 shards to the half-shard, and Vanthrum's ledger snaps shut in disbelief. \"Nobody reads the fine print,\" he grumbles, drifting off as the seed-basket floats gently home.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight haggling on a windswept floating sky-dock market at golden hour, a smug cloud-sprite clutching an enormous unrolling ledger while a rope-tied basket of seeds swings over the clouds."
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-16",
+  "problems": [
+    "problems/ashbellow-forge-rate.json",
+    "problems/quaffalon-oasis-basin-rate.json",
+    "problems/pellicrux-raftmarket-percent.json"
+  ]
+}

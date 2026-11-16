@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-16",
+  "title": "The Slime That Split",
+  "monster": "Blorp the Halving Slime",
+  "story": "Blorp the Slime giggles and grows every time he's hit wrong, but he has one terrible weakness: a strike of EXACTLY half his size splits him clean into two tiny harmless puddles. Mr 6 raises his glowing blade, measures the wobbling blob, and swings at precisely one half — no more, no less. Blorp is already bouncing back together, knight — can you halve him before he doubles?",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        10,
+        36
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 12,
+      "distractors": [
+        14,
+        11,
+        48
+      ]
+    },
+    {
+      "q": "46",
+      "answer": 23,
+      "distractors": [
+        22,
+        24,
+        28
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        45,
+        25
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 43,
+      "distractors": [
+        42,
+        34,
+        83
+      ]
+    },
+    {
+      "q": "94",
+      "answer": 47,
+      "distractors": [
+        42,
+        45,
+        49
+      ]
+    },
+    {
+      "q": "128",
+      "answer": 64,
+      "distractors": [
+        62,
+        46,
+        68
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 75,
+      "distractors": [
+        70,
+        55,
+        85
+      ]
+    },
+    {
+      "q": "234",
+      "answer": 117,
+      "distractors": [
+        112,
+        127,
+        107
+      ]
+    },
+    {
+      "q": "366",
+      "answer": 183,
+      "distractors": [
+        173,
+        186,
+        133
+      ]
+    }
+  ]
+}
