@@ -1,0 +1,25 @@
+{
+  "id": "threnspindle-sap-flood",
+  "tier": "champion",
+  "title": "The Ironwood Sap Flood",
+  "monster": "Threnspindle the Sap Bellows",
+  "story": "Deep in the Ironwood Grove, Threnspindle the Sap Bellows has clamped its bellows-belly onto a hollow ironwood tree and is pumping sticky amber sap inside. A family of dormice is huddled on a ledge high in the trunk, and the sap is climbing toward them. Mr 6 jams a hollow bark siphon through the trunk and starts draining sap out the other side.",
+  "question": "There are 90 gallons of empty space left below the dormice's ledge. Threnspindle pumps sap in at 12.5 gallons per minute while Mr 6's siphon drains 5 gallons per minute. How many minutes does Mr 6 have before the sap reaches the ledge?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    7.5,
+    7.2,
+    18
+  ],
+  "solution": [
+    "The sap really rises by 12.5 - 5 = 7.5 gallons each minute.",
+    "Time to fill the gap: 90 ÷ 7.5 = 12.",
+    "Mr 6 has 12 minutes to carry the dormice out."
+  ],
+  "praise": "Working with the rates was exactly right — the missing step was subtracting the siphon's 5 gallons before dividing.",
+  "hint": "Sap is coming in AND going out. First find how much the level actually gains in one minute.",
+  "victory": "Mr 6 ferried every dormouse to a high branch with two minutes to spare, and Threnspindle, finding nothing left to flood, deflated with an embarrassed squeak and wheezed off into the trees.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A bellows-bellied beetle monster pumping glowing amber sap into a huge hollow ironwood tree while a small knightly numeral 6 holds a bark siphon and dormice cling to a ledge above, warm golden forest light."
+}

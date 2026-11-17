@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-17",
+  "title": "The Echo Troll's Last Shout",
+  "monster": "Clangor the Echo Troll",
+  "story": "Clangor the Echo Troll hurls his booming shouts down the canyon, and every echo he throws comes back LOUDER by exactly 25. Mr 6 learned the trick: shout the number back with 25 added on, and the troll's own echo knocks him flat on his mossy backside. Clangor shouts fast, knight — can you echo faster?",
+  "rule": "Echo it back PLUS 25!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 35,
+      "distractors": [
+        25,
+        45,
+        30
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 40,
+      "distractors": [
+        35,
+        45,
+        30
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 55,
+      "distractors": [
+        45,
+        65,
+        50
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 70,
+      "distractors": [
+        60,
+        80,
+        65
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 85,
+      "distractors": [
+        75,
+        95,
+        80
+      ]
+    },
+    {
+      "q": "38",
+      "answer": 63,
+      "distractors": [
+        53,
+        73,
+        58
+      ]
+    },
+    {
+      "q": "56",
+      "answer": 81,
+      "distractors": [
+        71,
+        91,
+        76
+      ]
+    },
+    {
+      "q": "74",
+      "answer": 99,
+      "distractors": [
+        89,
+        109,
+        94
+      ]
+    },
+    {
+      "q": "87",
+      "answer": 112,
+      "distractors": [
+        102,
+        122,
+        107
+      ]
+    },
+    {
+      "q": "99",
+      "answer": 124,
+      "distractors": [
+        114,
+        134,
+        119
+      ]
+    }
+  ]
+}

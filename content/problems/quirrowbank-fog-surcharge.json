@@ -1,0 +1,25 @@
+{
+  "id": "quirrowbank-fog-surcharge",
+  "tier": "champion",
+  "title": "The Fog Surcharge",
+  "monster": "Quirrowbank the Gilt Weasel",
+  "story": "On the floating glass market of Lantern Bay, Quirrowbank the Gilt Weasel has locked a flock of sun-lambs in a cage and priced them for ransom. He loves adding fees almost as much as he loves gold. Mr 6 steps up with a guild token and a very steady face.",
+  "question": "Quirrowbank's base price for the sun-lambs is 240 gold crowns, and he slaps on a 25% \"fog surcharge.\" Mr 6's guild token then takes 10% off that surcharged total. How many gold crowns does Mr 6 pay?",
+  "answer": 270,
+  "unit": "gold crowns",
+  "distractors": [
+    300,
+    276,
+    216
+  ],
+  "solution": [
+    "The surcharge adds 25% of 240 = 60, so the total becomes 240 + 60 = 300 crowns.",
+    "The token takes 10% of 300 = 30 crowns off: 300 - 30 = 270.",
+    "Mr 6 pays 270 gold crowns."
+  ],
+  "praise": "Taking the percents one at a time was the right plan — the discount just had to come off the NEW total, not the old one.",
+  "hint": "Add the surcharge first and get a new total; the 10% discount is taken from that new number.",
+  "victory": "Quirrowbank counted the crowns three times, hunting for a fee he'd forgotten, while Mr 6 strolled off with a parade of sun-lambs glowing behind him like little walking lanterns.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A sleek gilt-furred weasel merchant with a coin scale and a caged flock of glowing sun-lambs on a floating glass market pier at dusk, a small knight numeral 6 calmly laying down a stack of crowns."
+}

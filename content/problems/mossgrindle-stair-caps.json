@@ -1,0 +1,25 @@
+{
+  "id": "mossgrindle-stair-caps",
+  "tier": "champion",
+  "title": "The Stairwell of Glowing Caps",
+  "monster": "Mossgrindle the Capsnapper",
+  "story": "Three lamplighters are trapped at the top of Hollowhill Tower, because Mossgrindle the Capsnapper has packed the spiral stairwell with fat glowing mushroom caps. Mr 6 can scrape caps off with the flat of his sword, but the Capsnapper puffs new ones back out of the walls. Mr 6 sits on the bottom step and does the arithmetic before swinging even once.",
+  "question": "The stairwell holds 53 glowing caps. Each sweep of Mr 6's sword scrapes off 8 caps, but if any caps remain afterward, Mossgrindle instantly puffs 3 new ones back. How many sweeps does Mr 6 need to clear the stairwell completely?",
+  "answer": 10,
+  "unit": "sweeps",
+  "distractors": [
+    7,
+    11,
+    9
+  ],
+  "solution": [
+    "After every sweep that leaves caps behind, the count drops by only 8 - 3 = 5.",
+    "Mr 6 needs to get down to 8 caps so the last sweep finishes them: (53 - 8) ÷ 5 = 9 sweeps of that kind.",
+    "Then one final sweep clears the last 8, so 9 + 1 = 10 sweeps."
+  ],
+  "praise": "Tracking the regrowth was smart thinking — the one trick left was that the very last sweep has no regrowth after it.",
+  "hint": "Each sweep except the final one only nets 8 - 3 caps. Work out how many caps must be left so one last sweep finishes the job.",
+  "victory": "On the tenth sweep the stairwell went dark and the Capsnapper had nothing left to puff; the lamplighters came down laughing, and Mr 6 kept one glowing cap as a very polite night-light.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A mossy, wall-hugging fungus monster puffing glowing mushroom caps into a dark spiral stone stairwell while a small caped numeral 6 knight sweeps them away with his sword, eerie green glow and torchlight above."
+}
