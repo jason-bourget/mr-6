@@ -1,0 +1,25 @@
+{
+  "id": "nullbarrow-regrowing-glowcaps",
+  "tier": "champion",
+  "title": "The Crypt of Regrowing Glowcaps",
+  "monster": "Nullbarrow the Gravecap",
+  "story": "Nullbarrow the Gravecap has sealed the old crypt door with 45 stubborn glowcaps, trapping three sleepy lantern-mice inside. Mr 6 can shear off 9 glowcaps in an hour — but Nullbarrow grins and sprouts 4 fresh ones back each hour. Mr 6 sits down to think before he swings even once.",
+  "question": "If Mr 6 shears 9 glowcaps every hour and 4 regrow each hour, how many hours until all 45 glowcaps are gone?",
+  "answer": 9,
+  "unit": "hours",
+  "distractors": [
+    5,
+    13,
+    36
+  ],
+  "solution": [
+    "Each hour the door really loses 9 - 4 = 5 glowcaps.",
+    "45 ÷ 5 = 9 hours of steady shearing.",
+    "In the ninth hour the last 5 caps come off and nothing regrows: 9 hours."
+  ],
+  "praise": "Spotting that the regrowth changes everything is the real insight — the missing step was dividing 45 by the NET loss of 5 each hour.",
+  "hint": "Before dividing, ask: after one full hour of shearing and regrowing, how many fewer glowcaps are on the door?",
+  "victory": "The last glowcap pops off, the crypt door swings wide, and three lantern-mice scurry out blinking. Nullbarrow sighs, 'You counted the regrowth,' and shuffles off to sprout somewhere less mathematical.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A cheerful numeral-six knight with a small helmet studying a stone crypt door crusted with glowing green mushroom caps while a lumpy fungus monster sprouts new ones, lit by soft teal mushroom light."
+}

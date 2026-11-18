@@ -1,0 +1,25 @@
+{
+  "id": "thrumbrask-slag-ratio",
+  "tier": "champion",
+  "title": "The Quench-Slurry Ratio",
+  "monster": "Thrumbrask the Slag Piper",
+  "story": "High on the volcano road, Thrumbrask the Slag Piper blows molten slag down the switchbacks, and the cart drivers are stranded behind a glowing river. The old quench-masters say only slurry mixed in exactly 5 parts cinder-ash to 3 parts springwater will cool it, and Mr 6 has one barrel that holds 48 gallons of slurry. He rolls up his cape and picks up the measuring ladle.",
+  "question": "If Mr 6 fills all 48 gallons in a 5:3 ratio of cinder-ash to springwater, how many gallons of springwater does he pour in?",
+  "answer": 18,
+  "unit": "gallons",
+  "distractors": [
+    30,
+    16,
+    6
+  ],
+  "solution": [
+    "The mix has 5 + 3 = 8 equal parts in all.",
+    "One part is 48 ÷ 8 = 6 gallons.",
+    "Springwater is 3 parts: 3 × 6 = 18 gallons."
+  ],
+  "praise": "Thinking in parts was exactly the right move — the one missing step was multiplying a single part by the 3 water parts.",
+  "hint": "Add the two ratio numbers first: how many equal parts make up the whole 48 gallons?",
+  "victory": "The slurry hits the slag with a hiss, and the glowing river freezes into a harmless gray road. Thrumbrask puffs one sulky smoke ring and pipes himself back down the crater, muttering about arithmetic.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape tipping a huge barrel of silver slurry onto a glowing orange slag river while a lanky ash-colored piper monster recoils in a smoky volcanic pass at dusk."
+}

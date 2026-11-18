@@ -1,0 +1,25 @@
+{
+  "id": "vollowmere-mirror-jelly",
+  "tier": "champion",
+  "title": "The Mirror Jelly's Reflected Sparks",
+  "monster": "Vollowmere the Mirror Jelly",
+  "story": "In a moonlit tidepool cave, Vollowmere the Mirror Jelly has sealed the old lamplighter inside a glassy bubble of brine. Its mirror skin reflects 40% of every spark blast straight back into the water, and the bubble's shell takes 180 sparks of real damage to crack open. Mr 6's spark-wand fires blasts of 50 sparks each.",
+  "question": "How many spark blasts must Mr 6 fire to crack the 180-spark shell, if 40% of each 50-spark blast is reflected away?",
+  "answer": 6,
+  "unit": "blasts",
+  "distractors": [
+    4,
+    3.6,
+    9
+  ],
+  "solution": [
+    "Each blast loses 40% of 50 = 20 sparks to the mirror skin.",
+    "So only 50 - 20 = 30 sparks actually land per blast.",
+    "180 ÷ 30 = 6 blasts to crack the shell."
+  ],
+  "praise": "Dividing 180 by the blast size was smart thinking — the step that was missing is shrinking each blast by the 40% the mirror skin bounces away.",
+  "hint": "First work out 40% of 50 sparks — that's the part that never reaches the shell.",
+  "victory": "On the sixth blast the brine bubble pops like a soap bubble, and the lamplighter sloshes free, dripping and delighted. Vollowmere jiggles away, deeply annoyed that someone did the percent first.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight aiming a glowing spark-wand at a huge translucent mirrored jellyfish holding a trapped lamplighter in a bubble, inside a moonlit sea cave shimmering with reflected light."
+}

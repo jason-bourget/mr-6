@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-18",
+  "title": "The Tenth-Toll Trembler",
+  "monster": "Dekkamaw the Toll-Gobbler",
+  "story": "Dekkamaw the Toll-Gobbler stomps the bridge of Numeria, swelling fatter with every giant number he swallows — and he has just demanded the whole kingdom's count as his toll. Mr 6 knows the troll's one weakness: say a tenth of any number aloud and the greedy beast instantly shrinks to that size, belching politely. Slide that decimal fast, knight — Dekkamaw is already reaching for his second helping!",
+  "rule": "Shrink it to a TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        40,
+        14,
+        5
+      ]
+    },
+    {
+      "q": "80",
+      "answer": 8,
+      "distractors": [
+        80,
+        18,
+        9
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        1.2,
+        21
+      ]
+    },
+    {
+      "q": "150",
+      "answer": 15,
+      "distractors": [
+        150,
+        1.5,
+        50
+      ]
+    },
+    {
+      "q": "230",
+      "answer": 23,
+      "distractors": [
+        230,
+        2.3,
+        32
+      ]
+    },
+    {
+      "q": "460",
+      "answer": 46,
+      "distractors": [
+        460,
+        4.6,
+        64
+      ]
+    },
+    {
+      "q": "700",
+      "answer": 70,
+      "distractors": [
+        7,
+        700,
+        77
+      ]
+    },
+    {
+      "q": "910",
+      "answer": 91,
+      "distractors": [
+        9.1,
+        910,
+        19
+      ]
+    },
+    {
+      "q": "1200",
+      "answer": 120,
+      "distractors": [
+        12,
+        1200,
+        102
+      ]
+    },
+    {
+      "q": "1340",
+      "answer": 134,
+      "distractors": [
+        13.4,
+        1340,
+        143
+      ]
+    }
+  ]
+}
