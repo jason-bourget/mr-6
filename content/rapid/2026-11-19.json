@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-19",
+  "title": "The Fivefold Fang",
+  "monster": "Quintus, the Five-Headed Frost Hydra",
+  "story": "Quintus the Frost Hydra has five hissing heads, and every head copies whatever force it is shown — so a weak swing becomes five weak swings right back at Mr 6. The only way to overwhelm the beast is to beat it at its own trick: take each number Quintus breathes and answer with FIVE times as much, before the heads finish counting. Think fast, Knight of Numbers — a hydra counts quickly, but you must count quicker!",
+  "rule": "Hit back FIVE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "6",
+      "answer": 30,
+      "distractors": [
+        36,
+        24,
+        35
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 40,
+      "distractors": [
+        48,
+        45,
+        32
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        65,
+        72
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        56
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        10,
+        105,
+        90
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        108
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 120,
+      "distractors": [
+        110,
+        125,
+        96
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 150,
+      "distractors": [
+        15,
+        155,
+        140
+      ]
+    },
+    {
+      "q": "36",
+      "answer": 180,
+      "distractors": [
+        170,
+        185,
+        216
+      ]
+    },
+    {
+      "q": "44",
+      "answer": 220,
+      "distractors": [
+        210,
+        225,
+        200
+      ]
+    }
+  ]
+}

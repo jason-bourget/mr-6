@@ -350,6 +350,9 @@
     "problems/mossgrindle-stair-caps.json",
     "problems/thrumbrask-slag-ratio.json",
     "problems/nullbarrow-regrowing-glowcaps.json",
-    "problems/vollowmere-mirror-jelly.json"
+    "problems/vollowmere-mirror-jelly.json",
+    "problems/pallinbrook-windmill-grain-percent.json",
+    "problems/glavrick-tripling-cave-pearls.json",
+    "problems/tovrenash-lava-tram-rescue.json"
   ]
 }

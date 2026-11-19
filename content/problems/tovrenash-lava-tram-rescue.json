@@ -1,0 +1,25 @@
+{
+  "id": "tovrenash-lava-tram-rescue",
+  "tier": "champion",
+  "title": "The Tram Above the Fire Lake",
+  "monster": "Tovrenash the Cable Gnawer",
+  "story": "A rope tram carries ten glassblowers across a lake of slow lava, and Tovrenash the Cable Gnawer is chewing the anchor rope strand by strand. The rope has 90 strands, and the gnawer eats 7 strands every minute while the tram's own winch weaves 3 strands back every minute. Mr 6 does the arithmetic before he does the climbing.",
+  "question": "If the rope snaps when 0 strands remain, how many minutes does Mr 6 have to get everyone across?",
+  "answer": 22.5,
+  "unit": "minutes",
+  "distractors": [
+    12.857142857142858,
+    30,
+    4
+  ],
+  "solution": [
+    "Each minute the rope really loses 7 - 3 = 4 strands.",
+    "Time until zero strands: 90 / 4 = 22.5.",
+    "Mr 6 has 22.5 minutes to finish the rescue."
+  ],
+  "praise": "Dividing by the gnawing rate was smart thinking — the winch weaving strands back had to be subtracted first.",
+  "hint": "The gnawer removes strands but the winch adds some back; find the NET loss per minute before dividing.",
+  "victory": "Mr 6 ferried all ten glassblowers over with four whole minutes to spare, then offered Tovrenash a chewy rope-shaped toffee instead. The gnawer has not touched a cable since.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A shaggy long-toothed monster gnawing a thick anchor rope above a glowing orange lava lake while a small knight numeral 6 counts strands beside a swaying rope tram full of frightened glassblowers."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "pallinbrook-windmill-grain-percent",
+  "tier": "champion",
+  "title": "The Miller's Skimmed Sacks",
+  "monster": "Pallinbrook the Windmill Weevil",
+  "story": "High on the chalk downs, a giant weevil in a dusty miller's apron has taken over the windmill. Pallinbrook grinds the villagers' grain honestly, then quietly keeps 15% of every sack 'for the sails.' Mr 6 climbs the creaking stairs with his notebook, because a knight who can count is worse news for a cheat than any sword.",
+  "question": "The village brought 240 pounds of grain to be ground. Pallinbrook keeps 15% of it, then gives back only three quarters of what is left. How many pounds of flour do the villagers actually receive?",
+  "answer": 153,
+  "unit": "pounds",
+  "distractors": [
+    204,
+    36,
+    180
+  ],
+  "solution": [
+    "Pallinbrook keeps 15% of 240 = 36 pounds, so 240 - 36 = 204 pounds remain.",
+    "The villagers get three quarters of that: 204 * 0.75 = 153.",
+    "The villagers actually receive 153 pounds of flour."
+  ],
+  "praise": "Taking 15% off first was exactly the right opening move — the three-quarters step was still waiting at the end.",
+  "hint": "First find what's left after the 15% skim, then take three quarters of THAT number, not of the original 240.",
+  "victory": "Mr 6 read his totals aloud until Pallinbrook's antennae drooped with shame, and the weevil hauled every missing pound back up the hill himself. The windmill now turns for free on market days.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A dust-coated giant weevil in a flour-smeared miller's apron slumps beside sacks of grain inside a sunlit windmill while a small knightly numeral 6 points at a chalk tally board."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "glavrick-tripling-cave-pearls",
+  "tier": "champion",
+  "title": "Glavrick and the Tripling Pearls",
+  "monster": "Glavrick the Pearl Multiplier",
+  "story": "In a sea cave lit by glowing water, Glavrick the Pearl Multiplier guards a tray of cursed pearls. Every time a pearl is touched, it splits into three, and the cave only holds so much before the rattling drives everyone out. Mr 6 ties his hands behind his cape and starts counting instead.",
+  "question": "Glavrick starts with 4 pearls. Mr 6 touches the whole tray once per hour, and every pearl on the tray becomes 3 pearls. After 4 hours, how many pearls are on the tray?",
+  "answer": 324,
+  "unit": "pearls",
+  "distractors": [
+    108,
+    48,
+    81
+  ],
+  "solution": [
+    "Each hour the count triples: 4 -> 12 -> 36 -> 108 -> 324.",
+    "That is 4 * 3 * 3 * 3 * 3 = 324.",
+    "After 4 hours there are 324 pearls on the tray."
+  ],
+  "praise": "Tripling over and over was precisely the right idea — it just needed one more hour of tripling to reach hour 4.",
+  "hint": "Write the count hour by hour: start at 4 and multiply by 3 four separate times.",
+  "victory": "Mr 6 showed Glavrick the number 324 and asked where exactly he planned to put them all. The monster gulped, un-touched the whole tray back to four, and took up quieter work polishing shells.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A wide-eyed eel-like monster surrounded by heaps of glowing pearls in a blue-lit sea cave, with a small caped numeral 6 knight calmly holding up a chalked number instead of a sword."
+}
