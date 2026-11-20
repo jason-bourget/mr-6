@@ -1,0 +1,25 @@
+{
+  "id": "thrashwell-cistern-rescue-rate",
+  "tier": "champion",
+  "title": "The Rising Cistern",
+  "monster": "Thrashwell the Cistern Gnawer",
+  "story": "Thrashwell the Cistern Gnawer has chewed a hole in the town cistern, and water is pouring into the cellar where three kittens perch on a crate 9 feet above the floor. The water rises 2.5 feet every minute, while Mr 6's bailing crew drains 1 foot every minute. Mr 6 must know exactly how long the crate stays dry.",
+  "question": "How many minutes until the water reaches the top of the crate, 9 feet up?",
+  "answer": 6,
+  "unit": "minutes",
+  "distractors": [
+    3.6,
+    9,
+    1.5
+  ],
+  "solution": [
+    "Each minute the water really rises by 2.5 - 1 = 1.5 feet.",
+    "Time to climb 9 feet: 9 / 1.5 = 6 minutes.",
+    "The crate stays dry for 6 minutes."
+  ],
+  "praise": "Dividing by a rate was exactly the right instinct — the missing step was subtracting the bailing from the rising first.",
+  "hint": "The bailing crew fights the leak, so first find the NET rise each minute.",
+  "victory": "With one minute to spare, Mr 6 plugged the hole with his helmet and ferried the kittens out on a floating crate, calling it 'the fluffiest cargo of the year'.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight wading in a flooding stone cellar with three kittens on a floating crate while a long-toothed eel-like gnawer peeks from a chewed pipe, lantern light rippling on rising water."
+}

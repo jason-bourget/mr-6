@@ -1,0 +1,25 @@
+{
+  "id": "scrimshank-salt-barge-percent",
+  "tier": "champion",
+  "title": "The Salt Barge Surcharge",
+  "monster": "Scrimshank the Barge Assessor",
+  "story": "Mr 6 rides a salt barge down the Amber Canal when Scrimshank the Barge Assessor clamps onto the rudder with his ledger-claws. 'Every barge pays a toll of 40 gold crowns,' he rasps, 'plus a canal surcharge of 15% of the toll, and then 25 crowns for the lock. But a knight who can total it before the lock closes rides free!' Mr 6 lifts his tiny quill and starts figuring.",
+  "question": "What is the total toll in gold crowns that Scrimshank is demanding?",
+  "answer": 71,
+  "unit": "gold crowns",
+  "distractors": [
+    65,
+    46,
+    106
+  ],
+  "solution": [
+    "The surcharge is 15% of 40 = 0.15 * 40 = 6 gold crowns.",
+    "Add the three pieces: 40 + 6 + 25 = 71 gold crowns.",
+    "The total toll is 71 gold crowns."
+  ],
+  "praise": "Adding the toll and lock fee together was exactly right — the 15% surcharge was the one piece still waiting to join the pile.",
+  "hint": "Find 15% of 40 first, then stack all three amounts together.",
+  "victory": "Mr 6 read the total aloud so crisply that Scrimshank's ledger snapped shut on his own claw, and the barge slid through the lock toll-free.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape standing on a salt barge in a torchlit canal lock, facing a wiry ledger-clawed creature clutching a long scroll of fees, warm amber evening light."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "glacewither-tripling-frostlings",
+  "tier": "champion",
+  "title": "The Tripling Frostlings",
+  "monster": "Glacewither the Frostling Brood",
+  "story": "Deep in the Blue Hollow, Mr 6 finds 4 tiny frostlings nibbling the village's heat-stones. Glacewither's curse makes the whole brood triple in number at the end of every hour. Mr 6 knows the warding spell takes 4 hours to chant, so he must plan for how many frostlings will be waiting.",
+  "question": "How many frostlings will there be after 4 hours of tripling?",
+  "answer": 324,
+  "unit": "frostlings",
+  "distractors": [
+    108,
+    48,
+    36
+  ],
+  "solution": [
+    "Each hour multiplies the brood by 3: hour 1 gives 4 * 3 = 12, hour 2 gives 12 * 3 = 36.",
+    "Hour 3 gives 36 * 3 = 108, and hour 4 gives 108 * 3 = 324.",
+    "After 4 hours there are 324 frostlings."
+  ],
+  "praise": "Tripling step by step was the perfect plan — it just needed one more hour of tripling before stopping.",
+  "hint": "Write the count at the end of each hour, one line per hour, and make sure you list four hours.",
+  "victory": "Mr 6 chanted the ward just as frostling number 324 arrived, and the whole glittering brood melted into one harmless puddle that giggled.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight in a frost-blue ice cavern surrounded by hundreds of tiny glittering frostlings multiplying in waves, pale cold light bouncing off ice walls."
+}

@@ -353,6 +353,9 @@
     "problems/vollowmere-mirror-jelly.json",
     "problems/pallinbrook-windmill-grain-percent.json",
     "problems/glavrick-tripling-cave-pearls.json",
-    "problems/tovrenash-lava-tram-rescue.json"
+    "problems/tovrenash-lava-tram-rescue.json",
+    "problems/scrimshank-salt-barge-percent.json",
+    "problems/glacewither-tripling-frostlings.json",
+    "problems/thrashwell-cistern-rescue-rate.json"
   ]
 }

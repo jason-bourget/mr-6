@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-20",
+  "title": "The Hundred-Stone Siege",
+  "monster": "Gravax the Hundred-Stone Golem",
+  "story": "Gravax the Hundred-Stone Golem lumbers out of the quarry with exactly 100 points of armor stacked on his shoulders, grinning like a wall that learned to smirk. Every blow he swings costs him some of that armor, so Mr 6 must shout out exactly how much shielding is LEFT — name it right and the missing stones crumble away forever. Gravax rebuilds himself if you dawdle, brave knight, so subtract from 100 faster than he can stack!",
+  "rule": "Take it away from 100!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "62",
+      "answer": 38,
+      "distractors": [
+        48,
+        42,
+        28
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "73",
+      "answer": 27,
+      "distractors": [
+        37,
+        23,
+        17
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 14,
+      "distractors": [
+        24,
+        16,
+        4
+      ]
+    },
+    {
+      "q": "57",
+      "answer": 43,
+      "distractors": [
+        53,
+        47,
+        33
+      ]
+    },
+    {
+      "q": "19",
+      "answer": 81,
+      "distractors": [
+        91,
+        71,
+        89
+      ]
+    }
+  ]
+}
