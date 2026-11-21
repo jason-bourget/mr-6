@@ -356,6 +356,9 @@
     "problems/tovrenash-lava-tram-rescue.json",
     "problems/scrimshank-salt-barge-percent.json",
     "problems/glacewither-tripling-frostlings.json",
-    "problems/thrashwell-cistern-rescue-rate.json"
+    "problems/thrashwell-cistern-rescue-rate.json",
+    "problems/curdlewight-cheese-cellar-fractions.json",
+    "problems/glomdrake-tar-pit-rescue.json",
+    "problems/shimmerlurk-starlake-average.json"
   ]
 }

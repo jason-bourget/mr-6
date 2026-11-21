@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-21",
+  "problems": [
+    "problems/ferravault-ore-sled-rate.json",
+    "problems/harrowmist-skyferry-descent.json",
+    "problems/blennock-nightmarket-surcharge.json"
+  ]
+}

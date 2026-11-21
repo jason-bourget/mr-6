@@ -1,0 +1,25 @@
+{
+  "id": "glomdrake-tar-pit-rescue",
+  "tier": "champion",
+  "title": "The Bubbling Pitch Pit",
+  "monster": "Glomdrake the Pitch Swallower",
+  "story": "At the edge of the ember fields, Glomdrake the Pitch Swallower burps hot tar into a stone pit — and three lantern-crabs are stranded on a ledge above it. The pit already holds 6 gallons of tar, and it takes 42 gallons to reach the ledge. Mr 6 organizes a bucket brigade while he does the math.",
+  "question": "Tar seeps in at 7 gallons per minute and the bucket brigade hauls out 4 gallons per minute. How many minutes until the tar reaches the ledge?",
+  "answer": 12,
+  "unit": "minutes",
+  "distractors": [
+    14,
+    6,
+    9
+  ],
+  "solution": [
+    "The pit still needs 42 - 6 = 36 more gallons before the tar touches the ledge.",
+    "The tar really rises by 7 - 4 = 3 gallons each minute.",
+    "36 ÷ 3 = 12, so the crabs have 12 minutes."
+  ],
+  "praise": "Subtracting the brigade's buckets to get the real rise rate is the heart of this puzzle — the one step missed was that 6 gallons of tar were already in the pit.",
+  "hint": "Two things to settle first: how many gallons are still needed, and how much the tar GAINS each minute once the buckets fight back.",
+  "victory": "With 12 minutes on the clock, Mr 6 calmly builds a rope sling and lifts all three lantern-crabs out with four minutes to spare. Glomdrake, left burping into an empty pit, sulks off to find a quieter puddle.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glossy black tar pit bubbling in an ember-lit wasteland, a huge slow pitch beast burping ooze while a small numeral '6' knight directs a bucket brigade beneath a ledge of glowing lantern-crabs, tense orange firelight."
+}

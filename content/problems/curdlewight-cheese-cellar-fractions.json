@@ -1,0 +1,25 @@
+{
+  "id": "curdlewight-cheese-cellar-fractions",
+  "tier": "champion",
+  "title": "The Moon-Cheese Cellar",
+  "monster": "Curdlewight the Rind Gnawer",
+  "story": "Deep in a hillside cellar, the village of Thistlecombe keeps 240 wheels of moon-cheese to last the long winter. Curdlewight the Rind Gnawer has burrowed in, and he nibbles by a strict schedule: a big helping the first night, then a smaller bite of whatever is left. Mr 6 lights a candle, counts the shelves, and decides to out-plan the glutton instead of chasing him.",
+  "question": "Curdlewight eats 3/8 of the 240 wheels on the first night, then eats 20% of the wheels that remain on the second night. How many wheels of moon-cheese are left after the second night?",
+  "answer": 120,
+  "unit": "wheels",
+  "distractors": [
+    150,
+    90,
+    102
+  ],
+  "solution": [
+    "First night: 3/8 of 240 = 90 wheels eaten, so 240 - 90 = 150 wheels remain.",
+    "Second night: 20% of 150 = 30 wheels eaten, so 150 - 30 = 120 wheels remain.",
+    "That leaves 120 wheels of moon-cheese safe on the shelves."
+  ],
+  "praise": "Finding 3/8 of 240 was exactly the right opening move — the only missing step was taking the 20% off the 150 wheels that were LEFT, not the original 240.",
+  "hint": "Work one night at a time: how many wheels are left after the first night? That leftover pile is the one the 20% comes from.",
+  "victory": "Mr 6 shows Curdlewight the arithmetic on a slate: at that rate he'd be out of cheese before spring. The gnawer bursts into tears, apologizes, and takes a job as the cellar's night guard — paid in rinds.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A candlelit hillside cellar stacked with pale glowing wheels of moon-cheese, a round furry gnawing beast with crumbs on its whiskers facing a small brave numeral '6' knight holding a chalk slate, warm cozy lamplight."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-21",
+  "title": "The Quadruple Strike",
+  "monster": "Quadrilaterax the Four-Winged Wyrm",
+  "story": "Quadrilaterax the Four-Winged Wyrm sneers that nothing can match her four beating wings, and every gust she hurls at the castle gate must be answered exactly four times over or the gate splinters. Mr 6 raises his polished blade and declares that a knight of numbers never answers a wyrm with anything less than quadruple force. Each wingbeat comes faster than the last — can you multiply by four before she flaps again?",
+  "rule": "Strike back FOUR times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "5",
+      "answer": 20,
+      "distractors": [
+        10,
+        25,
+        15
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 32,
+      "distractors": [
+        16,
+        24,
+        36
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 48,
+      "distractors": [
+        24,
+        44,
+        46
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 44,
+      "distractors": [
+        22,
+        40,
+        48
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 60,
+      "distractors": [
+        30,
+        45,
+        65
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 80,
+      "distractors": [
+        40,
+        60,
+        88
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 72,
+      "distractors": [
+        36,
+        62,
+        82
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 100,
+      "distractors": [
+        50,
+        90,
+        125
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 140,
+      "distractors": [
+        70,
+        120,
+        130
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 180,
+      "distractors": [
+        90,
+        160,
+        200
+      ]
+    }
+  ]
+}

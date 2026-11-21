@@ -1,0 +1,25 @@
+{
+  "id": "shimmerlurk-starlake-average",
+  "tier": "champion",
+  "title": "The Star-Netter of Mirrormere",
+  "monster": "Shimmerlurk the Star Netter",
+  "story": "Every night, fallen star-sparks drift down onto Mirrormere lake, and every night Shimmerlurk scoops them up in her silver net. The lake spirits keep a ledger, and Shimmerlurk boasts she averaged exactly 24 sparks a night over the last five nights. Mr 6 reads the ledger: night one 18, night two 31, night three 26, night four 23 — and the fifth night's entry is smudged.",
+  "question": "If Shimmerlurk's average really was 24 sparks per night over all five nights, how many sparks did she take on the fifth night?",
+  "answer": 22,
+  "unit": "sparks",
+  "distractors": [
+    24,
+    98,
+    24.5
+  ],
+  "solution": [
+    "An average of 24 over 5 nights means the total was 24 × 5 = 120 sparks.",
+    "The four readable nights add to 18 + 31 + 26 + 23 = 98 sparks.",
+    "So the smudged night was 120 - 98 = 22 sparks."
+  ],
+  "praise": "Adding up the four known nights was exactly right — the missing move was turning the average into a total first (24 × 5) and then subtracting.",
+  "hint": "An average tells you the total in disguise: if five nights average 24, what do all five nights add up to?",
+  "victory": "Mr 6 fills in the smudge with a flourish, and the ledger balances — Shimmerlurk must return all 120 sparks. She hands them back one by one, grumbling that she should have hired a better accountant.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glassy midnight lake reflecting falling star-sparks, a long elegant heron-like creature with a silver net recoiling as a small numeral '6' knight holds up a glowing ledger, cool blue-silver moonlight."
+}
