@@ -1,0 +1,25 @@
+{
+  "id": "haxelgrim-trebling-hailstones",
+  "tier": "champion",
+  "title": "The Thunderclaps of Haxelgrim",
+  "monster": "Haxelgrim the Trebling Sleet Sprite",
+  "story": "Above the shepherds' valley, Haxelgrim the Trebling Sleet Sprite hovers in a bruise-colored cloud with two grinning hailstone-golems at her side. Every thunderclap she makes causes each hailstone-golem to split into three. Mr 6 counts on his fingers instead of charging, because he knows exactly how many claps it takes her to tire out: four.",
+  "question": "After all four thunderclaps, how many hailstone-golems will there be?",
+  "answer": 162,
+  "unit": "hailstones",
+  "distractors": [
+    54,
+    24,
+    486
+  ],
+  "solution": [
+    "Start with 2 golems; each clap triples the count.",
+    "Clap by clap: 2 × 3 = 6, 6 × 3 = 18, 18 × 3 = 54, 54 × 3 = 162.",
+    "After the fourth clap there are 162 hailstone-golems."
+  ],
+  "praise": "Tripling over and over was the right plan — it just needed one more round of ×3 to reach the fourth clap.",
+  "hint": "Don't multiply 2 by 3 and 4 together — triple the whole crowd once for each clap, one clap at a time.",
+  "victory": "Mr 6 holds up a funnel-shaped shepherd's horn sized for exactly 162 hailstones, and the whole trebling swarm clatters inside like dice in a cup. Haxelgrim, suddenly golem-less, floats off to sulk in a smaller cloud.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A caped numeral-six knight stands on a green hillside holding a huge funnel-horn as a storm sprite in a purple thundercloud multiplies dozens of glittering ice golems above him, dramatic lightning-lit sky."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-22",
+  "title": "The Triple Threat",
+  "monster": "Trifang, the Thrice-Headed Echo Hydra",
+  "story": "Trifang has three heads, three hisses, and three truly terrible opinions about knights — and every blow Mr 6 lands is swallowed unless it arrives in triplicate. The old scroll says it plain: a hydra with three heads can only be dented by force multiplied by three, so Mr 6 must TRIPLE each number before his blade lands. Three heads are already counting, brave one — can you triple faster than they can bite?",
+  "rule": "Strike back with TRIPLE the force!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "7",
+      "answer": 21,
+      "distractors": [
+        14,
+        18,
+        24
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 36,
+      "distractors": [
+        24,
+        33,
+        39
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 45,
+      "distractors": [
+        30,
+        35,
+        54
+      ]
+    },
+    {
+      "q": "21",
+      "answer": 63,
+      "distractors": [
+        42,
+        60,
+        66
+      ]
+    },
+    {
+      "q": "24",
+      "answer": 72,
+      "distractors": [
+        48,
+        62,
+        74
+      ]
+    },
+    {
+      "q": "30",
+      "answer": 90,
+      "distractors": [
+        60,
+        93,
+        120
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 120,
+      "distractors": [
+        80,
+        112,
+        130
+      ]
+    },
+    {
+      "q": "45",
+      "answer": 135,
+      "distractors": [
+        90,
+        125,
+        145
+      ]
+    },
+    {
+      "q": "60",
+      "answer": 180,
+      "distractors": [
+        120,
+        108,
+        150
+      ]
+    },
+    {
+      "q": "75",
+      "answer": 225,
+      "distractors": [
+        150,
+        215,
+        235
+      ]
+    }
+  ]
+}

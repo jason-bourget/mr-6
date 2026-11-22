@@ -1,0 +1,25 @@
+{
+  "id": "snaggletun-spore-cellar-average",
+  "tier": "champion",
+  "title": "The Weigh-Wight of the Spore Cellar",
+  "monster": "Snaggletun the Cellar Scale-Wight",
+  "story": "Deep under the mushroom farms, Snaggletun the Cellar Scale-Wight guards the trapdoor with a enormous rusty balance. He will only let the trapped harvesters climb out if Mr 6 loads five sacks of glowspore whose weights average exactly 6.4 pounds. Four sacks are already on the pan: 5.5, 7.25, 6, and 4.75 pounds.",
+  "question": "How many pounds must the fifth sack weigh?",
+  "answer": 8.5,
+  "unit": "pounds",
+  "distractors": [
+    32,
+    23.5,
+    6.4
+  ],
+  "solution": [
+    "Five sacks averaging 6.4 pounds must total 6.4 × 5 = 32 pounds.",
+    "The four sacks on the pan weigh 5.5 + 7.25 + 6 + 4.75 = 23.5 pounds.",
+    "So the last sack must be 32 − 23.5 = 8.5 pounds."
+  ],
+  "praise": "Thinking about the average as a total was the clever move — the missing step was subtracting the four known sacks from that total.",
+  "hint": "An average tells you the total in disguise: what must all five sacks weigh together to average 6.4?",
+  "victory": "Mr 6 scoops 8.5 pounds of glowspore into the fifth sack and the balance settles dead level. Snaggletun groans, the trapdoor swings wide, and the harvesters climb out laughing in a cloud of gentle green sparkles.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing mushroom cellar where a numeral-six knight tips shimmering green spores onto a giant rusty balance scale guarded by a lanky, chalk-pale scale-wight, warm lantern light against damp stone."
+}

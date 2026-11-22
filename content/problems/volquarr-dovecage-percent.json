@@ -1,0 +1,25 @@
+{
+  "id": "volquarr-dovecage-percent",
+  "tier": "champion",
+  "title": "The Cage Broker of Lantern Harbor",
+  "monster": "Volquarr the Harbor Assessor",
+  "story": "Volquarr the Harbor Assessor, a barnacled otter-thing in a tax-collector's coat, has locked fifteen moon-doves in wicker cages along the pier. He smirks at Mr 6 and says the ransom is 18 gold crowns per dove — though if someone is bold enough to buy every single dove at once, he'll knock 30% off the whole lot. Mr 6 jingles a purse holding exactly 200 gold crowns.",
+  "question": "If Mr 6 buys all 15 doves at once and takes the 30% discount, how many gold crowns will be left in his purse?",
+  "answer": 11,
+  "unit": "crowns",
+  "distractors": [
+    189,
+    81,
+    119
+  ],
+  "solution": [
+    "Full price for every dove: 18 × 15 = 270 crowns.",
+    "A 30% discount means he pays 70%: 270 × 0.7 = 189 crowns.",
+    "Left in the purse: 200 − 189 = 11 crowns."
+  ],
+  "praise": "Working out the full price first was exactly right — the last move was paying only 70% of it and then subtracting from the 200 he carried.",
+  "hint": "First find the cost of all 15 doves at full price. Then remember: taking 30% off means you still pay 70% of that total.",
+  "victory": "Mr 6 slaps down 189 crowns, pops every cage open, and the moon-doves spiral up like silver confetti. Volquarr stares at the 11 crowns still clinking in the purse and mutters that he should have read his own discount more carefully.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape and tiny helmet counting coins on a misty harbor pier while a smug otter-like assessor in a tax coat guards stacks of wicker cages full of glowing moon-doves at dawn."
+}

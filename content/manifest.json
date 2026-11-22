@@ -359,6 +359,9 @@
     "problems/thrashwell-cistern-rescue-rate.json",
     "problems/curdlewight-cheese-cellar-fractions.json",
     "problems/glomdrake-tar-pit-rescue.json",
-    "problems/shimmerlurk-starlake-average.json"
+    "problems/shimmerlurk-starlake-average.json",
+    "problems/volquarr-dovecage-percent.json",
+    "problems/snaggletun-spore-cellar-average.json",
+    "problems/haxelgrim-trebling-hailstones.json"
   ]
 }
