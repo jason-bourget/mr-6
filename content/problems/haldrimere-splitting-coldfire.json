@@ -1,0 +1,25 @@
+{
+  "id": "haldrimere-splitting-coldfire",
+  "tier": "champion",
+  "title": "The Coldfire That Quadruples",
+  "monster": "Haldrimere the Quartering Coldfire",
+  "story": "In the black-ice caverns under Mount Sable, a single pale flame called Haldrimere burns without heat — and every time a blade touches it, each flame splits into 4. Mr 6 watches a panicked guard strike it 3 times before he arrives, and the cavern is already glittering with cold little fires. Mr 6 raises a hand: \"Stop swinging and start thinking.\"",
+  "question": "Starting from 1 flame, after 3 strikes each flame has split into 4 — how many coldfire flames are burning now?",
+  "answer": 64,
+  "unit": "flames",
+  "distractors": [
+    12,
+    16,
+    48
+  ],
+  "solution": [
+    "After strike 1: 1 × 4 = 4 flames. After strike 2: 4 × 4 = 16 flames.",
+    "After strike 3: 16 × 4 = 64 flames.",
+    "So 64 coldfire flames are burning."
+  ],
+  "praise": "You tracked the quadrupling — the trick is that it multiplies again on every strike, not just once.",
+  "hint": "Multiply by 4 once for each strike, using the new total each time.",
+  "victory": "Mr 6 refused to strike a fourth time, and 64 confused little flames, with nobody to copy, shivered together back into one sulking spark. \"Arithmetic,\" said Mr 6, \"is colder than you are.\"",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "Sixty-four pale blue flames flickering across a glittering black-ice cavern while a small numeral-6 knight calmly holds his sword down and counts them, breath frosting in the eerie glow."
+}

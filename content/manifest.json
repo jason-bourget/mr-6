@@ -362,6 +362,9 @@
     "problems/shimmerlurk-starlake-average.json",
     "problems/volquarr-dovecage-percent.json",
     "problems/snaggletun-spore-cellar-average.json",
-    "problems/haxelgrim-trebling-hailstones.json"
+    "problems/haxelgrim-trebling-hailstones.json",
+    "problems/marrowvex-aqueduct-percent.json",
+    "problems/haldrimere-splitting-coldfire.json",
+    "problems/obrennoth-saltpan-rate.json"
   ]
 }

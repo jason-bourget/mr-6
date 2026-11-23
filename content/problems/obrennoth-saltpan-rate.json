@@ -1,0 +1,25 @@
+{
+  "id": "obrennoth-saltpan-rate",
+  "tier": "champion",
+  "title": "The Rising Brine of Saltpan Flat",
+  "monster": "Obrennoth the Brine Bellows",
+  "story": "Obrennoth the Brine Bellows squats in the middle of Saltpan Flat, pumping salty water into the low pans at 18 inches per hour. Three harvesters are stranded on a drying rack, and the brine is already 6 inches deep — the rack floods at 33 inches. Mr 6 cranks open the old sluice gate, which drains 13.5 inches per hour, and does the math before he starts running.",
+  "question": "With brine rising 18 inches per hour and the sluice draining 13.5 inches per hour, how many hours does Mr 6 have before the brine climbs from 6 inches to the 33-inch flood line?",
+  "answer": 6,
+  "unit": "hours",
+  "distractors": [
+    1.5,
+    4.5,
+    2
+  ],
+  "solution": [
+    "The brine really rises by 18 - 13.5 = 4.5 inches each hour.",
+    "It must climb 33 - 6 = 27 inches to reach the rack.",
+    "27 ÷ 4.5 = 6, so Mr 6 has 6 hours."
+  ],
+  "praise": "Subtracting the drain from the rise was the key insight — the step still needed was dividing the 27 inches left to climb by that net rate.",
+  "hint": "Find the net rise per hour first, then see how many inches still have to be climbed.",
+  "victory": "Mr 6 walked the harvesters out with twenty minutes to spare, and Obrennoth pumped itself hoarse against a sluice gate that simply out-subtracted it. It now bellows harmlessly into a pan marked FOR PICKLES ONLY.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A bellows-shaped brine monster wheezing salty water across wide pale salt pans at dusk while a tiny numeral-6 knight hauls open a rusted sluice gate and three harvesters wave from a wooden drying rack."
+}

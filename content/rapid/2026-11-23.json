@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-23",
+  "title": "The Halving of the Slime",
+  "monster": "Gloopzilla the Splitting Slime",
+  "story": "Gloopzilla the Splitting Slime bounces into the Hall of Numbers, wobbling and giggling, and every second you hesitate it swells to twice its size. Mr 6 has learned the slime's one weakness: a blade stroke that cuts it exactly in HALF makes each soggy piece too small to re-glue. Call out half of every blob the instant it appears — slow knights get slimed!",
+  "rule": "Cut it exactly in HALF!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "18",
+      "answer": 9,
+      "distractors": [
+        8,
+        10,
+        19
+      ]
+    },
+    {
+      "q": "26",
+      "answer": 13,
+      "distractors": [
+        12,
+        14,
+        23
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 24,
+      "distractors": [
+        22,
+        26,
+        44
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 35,
+      "distractors": [
+        30,
+        37,
+        45
+      ]
+    },
+    {
+      "q": "96",
+      "answer": 48,
+      "distractors": [
+        44,
+        46,
+        49
+      ]
+    },
+    {
+      "q": "134",
+      "answer": 67,
+      "distractors": [
+        62,
+        66,
+        77
+      ]
+    },
+    {
+      "q": "158",
+      "answer": 79,
+      "distractors": [
+        74,
+        78,
+        89
+      ]
+    },
+    {
+      "q": "212",
+      "answer": 106,
+      "distractors": [
+        16,
+        105,
+        116
+      ]
+    },
+    {
+      "q": "346",
+      "answer": 173,
+      "distractors": [
+        163,
+        172,
+        183
+      ]
+    },
+    {
+      "q": "530",
+      "answer": 265,
+      "distractors": [
+        215,
+        255,
+        275
+      ]
+    }
+  ]
+}

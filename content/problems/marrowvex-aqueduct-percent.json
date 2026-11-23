@@ -1,0 +1,25 @@
+{
+  "id": "marrowvex-aqueduct-percent",
+  "tier": "champion",
+  "title": "The Leak-Loving Lamprey",
+  "monster": "Marrowvex the Aqueduct Lamprey",
+  "story": "High above the terraced village of Sunnel, a stone aqueduct carries 480 gallons of water every hour to the fields. Marrowvex the Aqueduct Lamprey has clamped onto the channel and gulps 35% of all water that passes. Mr 6 scrambles up the arches, sword sheathed, counting instead of swinging — the farmers need to know what actually reaches them.",
+  "question": "If Marrowvex swallows 35% of the 480 gallons that flow each hour, how many gallons still reach the fields each hour?",
+  "answer": 312,
+  "unit": "gallons",
+  "distractors": [
+    168,
+    445,
+    345
+  ],
+  "solution": [
+    "Marrowvex's share is 35% of 480 = 0.35 × 480 = 168 gallons.",
+    "The fields get the rest: 480 - 168 = 312 gallons.",
+    "So 312 gallons reach the fields each hour."
+  ],
+  "praise": "Finding 35% of 480 was exactly the right first move — the last step was subtracting that gulp from the total.",
+  "hint": "First work out how much the lamprey drinks (35% of 480), then ask what's left over.",
+  "victory": "Mr 6 chalked the numbers right on the aqueduct wall, and Marrowvex, embarrassed to be measured so precisely, slurped off downstream to a puddle it could have all to itself. The fields drank 312 gallons that very hour.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A long eel-like lamprey clamped to a sunlit stone aqueduct high above green terraced fields, while a small knightly numeral 6 in a blue cape chalks percentages on the channel wall."
+}
