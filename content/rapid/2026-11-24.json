@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-24",
+  "title": "The Sixfold Strike",
+  "monster": "Hexquill the Six-Horned Wyrm",
+  "story": "Hexquill the Six-Horned Wyrm coils around the Tower of Tables, snapping off small sparks of magic and giggling, 'Too tiny to hurt me, little numeral!' But every spark that touches Mr 6's shield comes roaring back multiplied by six — one horn's worth of thunder for each of the wyrm's smug heads. Count fast, knight: each spark fades in seconds, and a slow six is no six at all!",
+  "rule": "Hit back SIX times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "3",
+      "answer": 18,
+      "distractors": [
+        12,
+        21,
+        24
+      ]
+    },
+    {
+      "q": "5",
+      "answer": 30,
+      "distractors": [
+        35,
+        24,
+        36
+      ]
+    },
+    {
+      "q": "4",
+      "answer": 24,
+      "distractors": [
+        18,
+        20,
+        30
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 42,
+      "distractors": [
+        36,
+        48,
+        40
+      ]
+    },
+    {
+      "q": "9",
+      "answer": 54,
+      "distractors": [
+        45,
+        48,
+        56
+      ]
+    },
+    {
+      "q": "8",
+      "answer": 48,
+      "distractors": [
+        42,
+        54,
+        46
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 66,
+      "distractors": [
+        60,
+        56,
+        72
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 72,
+      "distractors": [
+        66,
+        78,
+        62
+      ]
+    },
+    {
+      "q": "15",
+      "answer": 90,
+      "distractors": [
+        80,
+        85,
+        96
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 150,
+      "distractors": [
+        140,
+        125,
+        155
+      ]
+    }
+  ]
+}
