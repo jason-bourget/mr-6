@@ -1,0 +1,25 @@
+{
+  "id": "grubblemaw-doubling-slagworm",
+  "tier": "champion",
+  "title": "The Worm That Doubles When Struck",
+  "monster": "Grubblemaw the Doubling Slagworm",
+  "story": "In the cinder tunnels under Fount Kiln, Grubblemaw the Doubling Slagworm starts 4 feet long — and every single strike makes it DOUBLE. A panicking guard has already struck it three times, and the tunnel is only so wide. Mr 6 sheathes his sword and pulls out his chalk instead.",
+  "question": "Grubblemaw is 4 feet long now and doubles with each strike; the tunnel mouth is blocked once the worm reaches 96 feet. After the guard's next 4 strikes, how many feet LONGER than 96 feet will the worm be?",
+  "answer": -32,
+  "unit": "feet",
+  "distractors": [
+    64,
+    32,
+    128
+  ],
+  "solution": [
+    "Each strike doubles the length: 4 -> 8 -> 16 -> 32 -> 64 feet after 4 strikes.",
+    "Compare to the blocking length: 64 - 96 = -32.",
+    "The worm ends up 32 feet SHORT of blocking the tunnel, so the answer is -32 feet."
+  ],
+  "praise": "Doubling step by step was the perfect strategy — the last move was subtracting 96 to compare, which flips the sign below zero.",
+  "hint": "Double 4 one strike at a time (four times), then subtract 96 from what you get — the result can be negative.",
+  "victory": "Mr 6 showed the guard the chalk numbers, the strikes stopped early, and Grubblemaw deflated into a grumpy 4-foot noodle that slithered off to find a quieter tunnel.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A glowing orange slagworm swelling in a cinder-lit lava tunnel while a small numeral-six knight calmly holds up chalk calculations on the stone wall, warm ember glow and swirling ash."
+}

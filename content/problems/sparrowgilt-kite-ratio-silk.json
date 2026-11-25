@@ -1,0 +1,25 @@
+{
+  "id": "sparrowgilt-kite-ratio-silk",
+  "tier": "champion",
+  "title": "The Kite-Weaver's Ratio",
+  "monster": "Sparrowgilt the Kite Weaver",
+  "story": "High above the Cliff of Threads, Sparrowgilt the Kite Weaver has stitched a storm-kite so big it is dragging three shepherd children off the ledge. Mr 6 can cut the kite loose only by weaving a counter-rope of the same recipe: for every 3 strands of moonsilk the weaver uses 5 strands of stormgut. Sparrowgilt sneers that Mr 6 will never match the mix in time.",
+  "question": "Mr 6's counter-rope must use the same 3-to-5 ratio and needs 120 strands in total. How many strands of stormgut does he need?",
+  "answer": 75,
+  "unit": "strands",
+  "distractors": [
+    45,
+    15,
+    40
+  ],
+  "solution": [
+    "One full ratio batch is 3 + 5 = 8 strands, so 120 / 8 = 15 batches.",
+    "Each batch has 5 stormgut strands: 15 * 5 = 75.",
+    "Mr 6 needs 75 strands of stormgut."
+  ],
+  "praise": "Splitting the ratio into parts was exactly right — the missing step was multiplying by the stormgut share of 5, not the moonsilk share of 3.",
+  "hint": "First find how many strands are in ONE batch of the recipe (3 + 5), then see how many batches fit inside 120.",
+  "victory": "Mr 6's counter-rope matched the weave so perfectly that the storm-kite untied itself out of professional respect, and Sparrowgilt drifted off muttering about apprentices who do arithmetic.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight with a blue cape braiding a glowing silver-and-grey rope on a windswept cliff while a vast spider-winged kite weaver tugs a giant kite above three frightened children, dramatic stormy light."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-25",
+  "title": "The Tenth-Taker's Toll",
+  "monster": "Decimus the Tithe Wisp",
+  "story": "Decimus the Tithe Wisp drifts over the Hall of Zeroes, greedily swelling fat on every number he can grab. He only shrinks when a hero hands him exactly ONE TENTH of a number — give him a crumb too big and he gorges, a crumb too small and he laughs. Mr 6 must slide each zero away in a heartbeat: can you pay the tenth before the wisp swallows the hall?",
+  "rule": "Pay him exactly ONE TENTH!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "40",
+      "answer": 4,
+      "distractors": [
+        14,
+        40,
+        8
+      ]
+    },
+    {
+      "q": "70",
+      "answer": 7,
+      "distractors": [
+        17,
+        70,
+        0.7
+      ]
+    },
+    {
+      "q": "90",
+      "answer": 9,
+      "distractors": [
+        19,
+        90,
+        8
+      ]
+    },
+    {
+      "q": "120",
+      "answer": 12,
+      "distractors": [
+        120,
+        1.2,
+        21
+      ]
+    },
+    {
+      "q": "250",
+      "answer": 25,
+      "distractors": [
+        2.5,
+        250,
+        52
+      ]
+    },
+    {
+      "q": "360",
+      "answer": 36,
+      "distractors": [
+        3.6,
+        63,
+        360
+      ]
+    },
+    {
+      "q": "500",
+      "answer": 50,
+      "distractors": [
+        5,
+        500,
+        55
+      ]
+    },
+    {
+      "q": "840",
+      "answer": 84,
+      "distractors": [
+        8.4,
+        48,
+        840
+      ]
+    },
+    {
+      "q": "1000",
+      "answer": 100,
+      "distractors": [
+        10,
+        1000,
+        110
+      ]
+    },
+    {
+      "q": "1250",
+      "answer": 125,
+      "distractors": [
+        12.5,
+        1250,
+        152
+      ]
+    }
+  ]
+}

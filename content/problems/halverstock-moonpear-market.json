@@ -1,0 +1,25 @@
+{
+  "id": "halverstock-moonpear-market",
+  "tier": "champion",
+  "title": "The Moonpear Price Trick",
+  "monster": "Halverstock the Orchard Factor",
+  "story": "At the Nightfruit Market, Halverstock the Orchard Factor has locked the villagers' moonpear crop in a glass vault and will only release it for the 'honest' price. He posts a sign: 42 silver acorns per crate, then adds a 20% night-harvest surcharge, then gives a 25% loyalty discount on that new total. Mr 6 tilts his helmet and starts figuring.",
+  "question": "After the 20% surcharge and then the 25% discount, how many silver acorns does one crate cost?",
+  "answer": 37.8,
+  "unit": "silver acorns",
+  "distractors": [
+    50.4,
+    39.9,
+    31.5
+  ],
+  "solution": [
+    "With the 20% surcharge: 42 * 1.2 = 50.4 silver acorns.",
+    "Then the 25% discount leaves 75%: 50.4 * 0.75 = 37.8.",
+    "One crate costs 37.8 silver acorns."
+  ],
+  "praise": "Adding the surcharge first was exactly the right order — the one missing step was taking 75% of the NEW price, not of the original 42.",
+  "hint": "Do the two changes in order: raise 42 by 20% first, then take 75% of that result.",
+  "victory": "Mr 6 read the price aloud to the whole market, and Halverstock's glass vault popped open from sheer embarrassment, spilling moonpears into every waiting basket.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A night market lit by pale lantern-moons where a lanky top-hatted factor guards a glass vault of glowing pears while a numeral-six knight chalks a price calculation on a market slate before cheering villagers."
+}
