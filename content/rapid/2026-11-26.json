@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-26",
+  "title": "The Fivefold Fang",
+  "monster": "Pentaclaw the Star-Spider",
+  "story": "Pentaclaw the Star-Spider swings down from the rafters of the Clockwork Cathedral, and every one of her five crystal legs copies whatever hits her — so a weak blow just bounces back five times worse. Mr 6 grins beneath his visor: if copying by five is her trick, he'll beat her to it, striking with the fivefold force before her legs can even twitch. Can you count in fives faster than a spider with five legs, brave knight?",
+  "rule": "Strike back FIVE times as hard!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "4",
+      "answer": 20,
+      "distractors": [
+        24,
+        16,
+        25
+      ]
+    },
+    {
+      "q": "7",
+      "answer": 35,
+      "distractors": [
+        30,
+        42,
+        28
+      ]
+    },
+    {
+      "q": "12",
+      "answer": 60,
+      "distractors": [
+        50,
+        65,
+        72
+      ]
+    },
+    {
+      "q": "11",
+      "answer": 55,
+      "distractors": [
+        50,
+        66,
+        45
+      ]
+    },
+    {
+      "q": "20",
+      "answer": 100,
+      "distractors": [
+        90,
+        110,
+        25
+      ]
+    },
+    {
+      "q": "16",
+      "answer": 80,
+      "distractors": [
+        70,
+        85,
+        96
+      ]
+    },
+    {
+      "q": "14",
+      "answer": 70,
+      "distractors": [
+        60,
+        75,
+        84
+      ]
+    },
+    {
+      "q": "23",
+      "answer": 115,
+      "distractors": [
+        105,
+        125,
+        110
+      ]
+    },
+    {
+      "q": "18",
+      "answer": 90,
+      "distractors": [
+        80,
+        95,
+        108
+      ]
+    },
+    {
+      "q": "36",
+      "answer": 180,
+      "distractors": [
+        170,
+        185,
+        150
+      ]
+    }
+  ]
+}

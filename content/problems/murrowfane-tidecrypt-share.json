@@ -1,0 +1,25 @@
+{
+  "id": "murrowfane-tidecrypt-share",
+  "tier": "champion",
+  "title": "The Bursar of the Drowning Crypt",
+  "monster": "Murrowfane the Tidecrypt Bursar",
+  "story": "Beneath the salt cliffs, Mr 6 finds 14 marsh families huddled on a ledge while Murrowfane, a barnacled accountant-eel, guards the crypt's emergency hoard of 1,260 moonstone shards. \"Nobody leaves until the ledger balances,\" it gurgles, flicking an abacus with its tail. Murrowfane claims a 30% keeper's tithe, and the rest must be split evenly among the families so each can buy passage on the cliff-ferry.",
+  "question": "After Murrowfane takes its 30% tithe, how many moonstone shards does each of the 14 families receive?",
+  "answer": 63,
+  "unit": "shards",
+  "distractors": [
+    90,
+    378,
+    27
+  ],
+  "solution": [
+    "The tithe is 30% of 1260 = 378 shards, so 1260 - 378 = 882 shards remain.",
+    "Share the remainder evenly: 882 / 14 = 63.",
+    "Each family receives 63 moonstone shards."
+  ],
+  "praise": "Splitting the hoard by 14 was exactly the right move — the tithe just needed to come off the top before the sharing.",
+  "hint": "First find what's LEFT after the 30% tithe, then split that leftover among the 14 families.",
+  "victory": "Mr 6 recited the number before the eel's abacus had stopped clicking. Murrowfane, outbalanced by a six, stamped the ledger \"SETTLED\" and slithered off to audit something quieter.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight holds up a glowing moonstone shard before a barnacle-crusted eel accountant with an abacus, in a sea-cave crypt lit by green tide-light with rescued families on a stone ledge."
+}
