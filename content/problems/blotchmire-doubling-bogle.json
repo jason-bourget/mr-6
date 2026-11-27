@@ -1,0 +1,25 @@
+{
+  "id": "blotchmire-doubling-bogle",
+  "tier": "champion",
+  "title": "The Bogle on the Rope Bridge",
+  "monster": "Blotchmire the Swelling Bogle",
+  "story": "Blotchmire the Swelling Bogle has plopped himself in the middle of the swamp rope bridge and is drinking fog through his nose, doubling his weight every 20 minutes. Right now he weighs 12 pounds, and the old bridge snaps the moment anything on it weighs more than 200 pounds. A whole line of market frogs is waiting to cross.",
+  "question": "How many minutes from now will Blotchmire's weight first pass 200 pounds?",
+  "answer": 100,
+  "unit": "minutes",
+  "distractors": [
+    80,
+    5,
+    120
+  ],
+  "solution": [
+    "Doubling from 12 pounds gives 24, 48, 96, 192, then 384 pounds.",
+    "At 80 minutes he is 192 pounds — still under 200 — so the first weight over the limit is 384 pounds, after 5 doublings.",
+    "5 doublings × 20 minutes = 100 minutes before the bridge is in danger."
+  ],
+  "praise": "Doubling step by step was exactly the right plan — one more doubling was needed, because 192 hadn't passed 200 yet.",
+  "hint": "Write the weights 12, 24, 48 ... and label the minute beside each one. Stop at the very first weight above 200.",
+  "victory": "With 100 minutes of warning, Mr 6 marched every market frog across and then rolled the puffed-up bogle gently into the pond, where he floated like a happy grey balloon. Blotchmire liked floating so much he decided to retire from bridge-sitting.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight with a little helmet waving a line of market frogs across a swaying rope bridge over a misty swamp while a round, swelling grey bogle balloons bigger in the middle of the planks."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "grimefret-star-mirror-percent",
+  "tier": "champion",
+  "title": "The Smudged Star Mirrors",
+  "monster": "Grimefret the Lens Wraith",
+  "story": "On the cliff-top Star Mirror Tower, a ship full of travellers is steering through the dark, and Grimefret the Lens Wraith has licked a greasy film across the tower's two great mirrors. Tonight 800 starbeams pour into the tower. The smudge on the first mirror loses 30% of the light, and the smudge on the second loses 25% of whatever still reaches it.",
+  "question": "How many starbeams make it all the way to the beacon lens?",
+  "answer": 420,
+  "unit": "starbeams",
+  "distractors": [
+    360,
+    560,
+    600
+  ],
+  "solution": [
+    "The first mirror keeps 100% - 30% = 70%, so 800 × 0.7 = 560 starbeams move on.",
+    "The second mirror keeps 75% of THOSE: 560 × 0.75 = 420.",
+    "420 starbeams reach the beacon lens — enough to flash the ship a warning."
+  ],
+  "praise": "Turning each percent into 'what's left' was smart thinking — the second 25% just had to be taken from 560, not from the original 800.",
+  "hint": "Percents stack one after another. Find how much light survives the first mirror before you worry about the second.",
+  "victory": "Mr 6 polished only the mirror that mattered, and the beacon blazed out over the water. Grimefret, who hates being seen, shrieked and slid off into the dark like a wiped-away smear.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A numeral-six knight standing on a windy cliff-top lighthouse balcony polishing an enormous star mirror, pale blue starlight splitting into beams while a smoky wraith of grease recoils from the glare."
+}

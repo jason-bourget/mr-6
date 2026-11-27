@@ -1,0 +1,25 @@
+{
+  "id": "churnogg-falls-rescue-rate",
+  "tier": "champion",
+  "title": "The Raft Above the Falls",
+  "monster": "Churnogg the Falls Gulper",
+  "story": "Three lantern-turtles have fallen asleep on a little reed raft, and the river is carrying them straight toward Thunderstep Falls — where Churnogg the Falls Gulper waits with his mouth open like a wet cave. Mr 6 leaps into a rowboat 1.5 leagues behind the raft. The raft drifts at 3.5 leagues per hour; Mr 6 rows at 8 leagues per hour.",
+  "question": "How many minutes will it take Mr 6 to catch up to the raft?",
+  "answer": 20,
+  "unit": "minutes",
+  "distractors": [
+    4.5,
+    11.25,
+    90
+  ],
+  "solution": [
+    "The raft keeps moving, so Mr 6 only gains 8 - 3.5 = 4.5 leagues of gap each hour.",
+    "Closing the 1.5-league gap takes 1.5 ÷ 4.5 = 1/3 of an hour.",
+    "One third of 60 minutes = 20 minutes to reach the sleepy turtles."
+  ],
+  "praise": "Comparing the two speeds was exactly the right instinct — the missing step was subtracting them to see how fast the GAP shrinks.",
+  "hint": "The raft isn't standing still. First work out how much of the gap Mr 6 erases in one single hour.",
+  "victory": "Mr 6 scooped up all three snoring turtles with twenty minutes of clever arithmetic and one soggy cape. Churnogg got nothing but a mouthful of river and a very embarrassed burp.",
+  "image": "images/placeholder.svg",
+  "imagePrompt": "A brave numeral-six knight in a blue cape rowing hard down a misty green river toward a reed raft of sleeping lantern-turtles, with a huge grinning river-beast waiting in the spray at the waterfall's edge."
+}

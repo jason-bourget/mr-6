@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-27",
+  "title": "The Hundred-Stone Shield",
+  "monster": "Bulwark the Shield Golem",
+  "story": "Bulwark the Shield Golem lumbers out of the cliffside with a hundred stones of armor stacked on his back, bragging that nothing can dent him. Each blow Mr 6 lands chips away some of those stones — so our knight must instantly shout how many stones are LEFT out of 100, or the golem piles them right back on. Count the leftovers faster than a rockslide, brave one!",
+  "rule": "Subtract it from 100!",
+  "image": "images/placeholder.svg",
+  "problems": [
+    {
+      "q": "10",
+      "answer": 90,
+      "distractors": [
+        80,
+        100,
+        91
+      ]
+    },
+    {
+      "q": "25",
+      "answer": 75,
+      "distractors": [
+        85,
+        65,
+        74
+      ]
+    },
+    {
+      "q": "40",
+      "answer": 60,
+      "distractors": [
+        70,
+        50,
+        66
+      ]
+    },
+    {
+      "q": "35",
+      "answer": 65,
+      "distractors": [
+        75,
+        55,
+        64
+      ]
+    },
+    {
+      "q": "62",
+      "answer": 38,
+      "distractors": [
+        48,
+        28,
+        42
+      ]
+    },
+    {
+      "q": "48",
+      "answer": 52,
+      "distractors": [
+        62,
+        42,
+        58
+      ]
+    },
+    {
+      "q": "73",
+      "answer": 27,
+      "distractors": [
+        37,
+        17,
+        33
+      ]
+    },
+    {
+      "q": "86",
+      "answer": 14,
+      "distractors": [
+        24,
+        4,
+        26
+      ]
+    },
+    {
+      "q": "57",
+      "answer": 43,
+      "distractors": [
+        53,
+        33,
+        47
+      ]
+    },
+    {
+      "q": "99",
+      "answer": 1,
+      "distractors": [
+        11,
+        9,
+        2
+      ]
+    }
+  ]
+}
